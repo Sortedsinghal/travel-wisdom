@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MessageCircle } from "lucide-react";
-import TravelWisdomLogo from "@/assets/travel-wisdom-logo-full.png";
+import TravelWisdomLogo from "@/Untitled-removebg-preview.png";
 
 const Header = () => {
   return (
