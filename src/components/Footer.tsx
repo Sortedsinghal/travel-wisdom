@@ -1,6 +1,6 @@
 import { MapPin, Phone, Mail, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import TravelWisdomLogo from "@/assets/travel-wisdom-logo-full.png";
+import TravelWisdomLogo from "@/Untitled-removebg-preview.png";
 
 const Footer = () => {
   return (
