@@ -4,15 +4,21 @@ import { Search, MapPin } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative hero-gradient text-white min-h-[500px] flex items-center overflow-hidden">
-      {/* Background overlay */}
-      <div className="absolute inset-0 bg-black/20" />
-      
-      {/* Animated background elements */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-32 h-32 bg-white rounded-full animate-pulse" />
-        <div className="absolute bottom-20 right-10 w-24 h-24 bg-white rounded-full animate-pulse delay-1000" />
-        <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-white rounded-full animate-pulse delay-500" />
+    <section className="relative text-white min-h-[600px] flex items-center overflow-hidden">
+      {/* Background videos */}
+      <div className="absolute inset-0">
+        <video 
+          className="absolute inset-0 w-full h-full object-cover" 
+          autoPlay 
+          muted 
+          loop 
+          playsInline
+        >
+          <source src="https://player.vimeo.com/external/342571552.sd.mp4?s=95231c8a7fe2066681f0c81ecb9c8d9e76c7ac36&profile_id=164&oauth2_token_id=57447761" type="video/mp4" />
+        </video>
+        
+        {/* Video overlay for better text readability */}
+        <div className="absolute inset-0 bg-black/40" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
