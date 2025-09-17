@@ -5,7 +5,7 @@ import { Search, MapPin } from "lucide-react";
 const Hero = () => {
   return (
     <section className="relative text-white min-h-[600px] flex items-center overflow-hidden">
-      {/* Background videos */}
+      {/* Background video */}
       <div className="absolute inset-0">
         <video 
           className="absolute inset-0 w-full h-full object-cover" 
@@ -14,11 +14,12 @@ const Hero = () => {
           loop 
           playsInline
         >
-          <source src="https://player.vimeo.com/external/342571552.sd.mp4?s=95231c8a7fe2066681f0c81ecb9c8d9e76c7ac36&profile_id=164&oauth2_token_id=57447761" type="video/mp4" />
+          <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
         </video>
         
-        {/* Video overlay for better text readability */}
-        <div className="absolute inset-0 bg-black/40" />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-black/50" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
