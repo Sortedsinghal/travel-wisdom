@@ -1,6 +1,6 @@
 import { MapPin, Phone, Mail, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import TravelWisdomLogo from "@/assets/travel-wisdom-logo.png";
+import TravelWisdomLogo from "@/assets/travel-wisdom-logo-full.png";
 
 const Footer = () => {
   return (
@@ -9,16 +9,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
+            <div className="mb-4">
               <img 
                 src={TravelWisdomLogo} 
-                alt="Travel Wisdom Logo" 
-                className="h-10 w-10 object-contain"
+                alt="Travel Wisdom" 
+                className="h-10 object-contain"
               />
-              <div>
-                <h3 className="text-xl font-bold">Travel Wisdom</h3>
-                <span className="text-xs opacity-80">Since 2020</span>
-              </div>
             </div>
             <p className="text-primary-foreground/80 mb-4">
               Your trusted travel companion for unforgettable journeys. Explore the world with confidence and create memories that last a lifetime.

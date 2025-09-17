@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MessageCircle } from "lucide-react";
-import TravelWisdomLogo from "@/assets/travel-wisdom-logo.png";
+import TravelWisdomLogo from "@/assets/travel-wisdom-logo-full.png";
 
 const Header = () => {
   return (
@@ -30,16 +30,12 @@ const Header = () => {
       {/* Main navigation */}
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center">
             <img 
               src={TravelWisdomLogo} 
-              alt="Travel Wisdom Logo" 
-              className="h-12 w-12 object-contain"
+              alt="Travel Wisdom" 
+              className="h-12 object-contain"
             />
-            <div className="flex flex-col">
-              <h1 className="text-xl font-bold text-primary">Travel Wisdom</h1>
-              <span className="text-xs text-muted-foreground">Since 2020</span>
-            </div>
           </div>
 
           <nav className="hidden lg:flex items-center gap-6">
