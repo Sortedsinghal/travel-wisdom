@@ -13,8 +13,11 @@ const Hero = () => {
           muted 
           loop 
           playsInline
+          preload="metadata"
+          crossOrigin="anonymous"
         >
           <source src="https://d2qa7a8q0vuocm.cloudfront.net/homepage/home-page-winter-video.mp4" type="video/mp4" />
+          <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
         </video>
         
         {/* Dark overlay for text readability */}
