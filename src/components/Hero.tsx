@@ -197,7 +197,7 @@ const Hero = () => {
         {/* Info section at bottom of hero */}
         <div className="mt-12 flex justify-center items-center text-white text-2xl font-semibold space-x-20 pt-6">
           <div className="flex items-center space-x-6">
-            <img src="src/components/message_icon.png" alt="Reviews" className="h-16 w-16" />
+            <img src="/message_icon.png" alt="Reviews" className="h-16 w-16" />
             <div>
               <div className="text-4xl">8700+</div>
               <div className="text-base font-normal">Reviews</div>
@@ -205,7 +205,7 @@ const Hero = () => {
           </div>
           <div className="border-l border-white/20 h-14" />
           <div className="flex items-center space-x-6">
-            <img src="https://pngtree.com/freepng/travel-icon_4436720.html" alt="Satisfied Travelers" className="h-16 w-16" />
+            <img src="/travelers.png" alt="Satisfied Travelers" className="h-16 w-16" />
             <div>
               <div className="text-4xl">56541+</div>
               <div className="text-base font-normal">Satisfied Travelers</div>
@@ -213,7 +213,7 @@ const Hero = () => {
           </div>
           <div className="border-l border-white/20 h-14" />
           <div className="flex items-center space-x-6">
-            <img src="src/components/destinations.png" alt="Destinations" className="h-16 w-16" />
+            <img src="/destinations.png" alt="Destinations" className="h-16 w-16" />
             <div>
               <div className="text-4xl">50+</div>
               <div className="text-base font-normal">Destinations</div>
@@ -221,7 +221,7 @@ const Hero = () => {
           </div>
           <div className="border-l border-white/20 h-14" />
           <div className="flex items-center space-x-6">
-            <img src="src/components/experience.png" alt="Experience" className="h-20 w-16" />
+            <img src="/experience.png" alt="Experience" className="h-20 w-16" />
             <div>
               <div className="text-4xl">5 Years+</div>
               <div className="text-base font-normal">Experience</div>
