@@ -16,10 +16,10 @@
     --popover-foreground: 210 30% 8%;
 
     /* Ocean Blue Brand Colors */
-    --primary: 214 95% 40%;
+    --primary: 217 72% 47%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 214 85% 60%;
-    --primary-dark: 214 85% 25%;
+    --primary-light: 217 72% 62%;
+    --primary-dark: 217 72% 32%;
 
     /* Travel Gold Accents */
     --secondary: 38 85% 65%;
@@ -37,24 +37,24 @@
 
     --border: 210 20% 90%;
     --input: 210 20% 95%;
-    --ring: 214 95% 40%;
+    --ring: 217 72% 47%;
 
     /* Travel Specific Colors */
-    --ocean-blue: 214 95% 40%;
-    --ocean-light: 195 100% 88%;
+    --ocean-blue: 217 72% 47%;
+    --ocean-light: 217 72% 62%;
     --tropical-gold: 38 85% 65%;
     --island-green: 160 75% 45%;
     --sunset-orange: 25 90% 60%;
     
     /* Gradients */
-    --gradient-ocean: linear-gradient(135deg, hsl(214 95% 40%) 0%, hsl(195 100% 45%) 100%);
+    --gradient-ocean: linear-gradient(135deg, hsl(217 72% 47%) 0%, hsl(217 72% 62%) 100%);
     --gradient-sunset: linear-gradient(135deg, hsl(25 90% 60%) 0%, hsl(38 85% 65%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(214 95% 25%) 0%, hsl(214 85% 35%) 50%, hsl(195 80% 40%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(217 72% 47%) 0%, hsl(217 72% 62%) 50%, hsl(217 72% 47%) 100%);
     
     /* Shadows */
-    --shadow-card: 0 4px 20px hsl(214 95% 40% / 0.1);
-    --shadow-button: 0 4px 15px hsl(214 95% 40% / 0.2);
-    --shadow-hero: 0 10px 40px hsl(214 95% 25% / 0.3);
+    --shadow-card: 0 4px 20px hsl(217 72% 47% / 0.1);
+    --shadow-button: 0 4px 15px hsl(217 72% 47% / 0.2);
+    --shadow-hero: 0 10px 40px hsl(217 72% 47% / 0.3);
 
     --radius: 0.5rem;
 
@@ -85,10 +85,10 @@
     --popover: 210 50% 8%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 214 95% 55%;
+    --primary: 220 65% 55%;
     --primary-foreground: 0 0% 98%;
-    --primary-light: 214 85% 70%;
-    --primary-dark: 214 85% 35%;
+    --primary-light: 220 65% 70%;
+    --primary-dark: 220 65% 35%;
 
     --secondary: 38 85% 70%;
     --secondary-foreground: 210 50% 6%;
@@ -104,20 +104,20 @@
 
     --border: 210 30% 20%;
     --input: 210 30% 18%;
-    --ring: 214 95% 55%;
+    --ring: 220 65% 55%;
 
-    --ocean-blue: 214 95% 55%;
-    --ocean-light: 195 100% 30%;
+    --ocean-blue: 220 65% 55%;
+    --ocean-light: 220 65% 70%;
     --tropical-gold: 38 85% 70%;
     --island-green: 160 75% 55%;
     --sunset-orange: 25 90% 70%;
     
-    --gradient-ocean: linear-gradient(135deg, hsl(214 95% 55%) 0%, hsl(195 100% 50%) 100%);
+    --gradient-ocean: linear-gradient(135deg, hsl(220 65% 30%) 0%, hsl(220 65% 30%) 100%);
     --gradient-sunset: linear-gradient(135deg, hsl(25 90% 70%) 0%, hsl(38 85% 70%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(214 95% 35%) 0%, hsl(214 85% 45%) 50%, hsl(195 80% 50%) 100%);
-    
+    --gradient-hero: linear-gradient(135deg, hsl(220 65% 30%) 0%, hsl(220 65% 30%) 50%, hsl(220 65% 30%) 100%);
+
     --shadow-card: 0 4px 20px hsl(210 50% 3% / 0.5);
-    --shadow-button: 0 4px 15px hsl(214 95% 55% / 0.3);
+    --shadow-button: 0 4px 15px hsl(220 65% 55% / 0.3);
     --shadow-hero: 0 10px 40px hsl(210 50% 3% / 0.6);
   }
 }
@@ -162,16 +162,35 @@
   .text-ocean {
     color: hsl(var(--ocean-blue));
   }
-  
+
   .text-tropical {
     color: hsl(var(--tropical-gold));
   }
-  
+
   .bg-ocean {
     background-color: hsl(var(--ocean-blue));
   }
-  
+
   .bg-tropical {
     background-color: hsl(var(--tropical-gold));
+  }
+
+  .animate-slide-up {
+    animation: slideUp 3s ease-in-out;
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 }

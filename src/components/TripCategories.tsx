@@ -1,97 +1,61 @@
-import { Card } from "@/components/ui/card";
-import { 
-  Backpack, 
-  Car, 
-  Plane, 
-  Mountain, 
-  Heart, 
-  Users,
-  Compass,
-  Camera
+import {
+  Backpack,
+  Car,
+  Mountain,
+  Heart,
+  Users
 } from "lucide-react";
 
 const categories = [
   {
     icon: Backpack,
     title: "Backpacking Trips",
-    description: "Adventure awaits the bold",
-    color: "text-island"
+    href: "#"
   },
   {
     icon: Car,
     title: "Weekend Getaways",
-    description: "Quick escapes from routine",
-    color: "text-sunset"
-  },
-  {
-    icon: Plane,
-    title: "International Trips",
-    description: "Explore the world beyond",
-    color: "text-primary"
+    href: "#"
   },
   {
     icon: Mountain,
     title: "Adventure Treks",
-    description: "Conquer new heights",
-    color: "text-island"
+    href: "#"
   },
   {
     icon: Heart,
     title: "Honeymoon Trips",
-    description: "Romantic getaways",
-    color: "text-destructive"
+    href: "#"
   },
   {
     icon: Users,
     title: "Corporate Trips",
-    description: "Team building adventures",
-    color: "text-tropical"
-  },
-  {
-    icon: Compass,
-    title: "Solo Adventures",
-    description: "Discover yourself",
-    color: "text-primary"
-  },
-  {
-    icon: Camera,
-    title: "Photography Tours",
-    description: "Capture perfect moments",
-    color: "text-sunset"
+    href: "#"
   }
 ];
 
 const TripCategories = () => {
   return (
-    <section className="py-16 bg-muted/30">
+    <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-            Explore Our Trip Categories
-          </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Choose from our carefully curated selection of travel experiences designed to create unforgettable memories
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="flex flex-wrap justify-center gap-8 md:gap-24">
           {categories.map((category, index) => {
             const Icon = category.icon;
             return (
-              <Card 
+              <div
                 key={category.title}
-                className="p-6 text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer card-shadow border-0 bg-card/80 backdrop-blur-sm"
+                className="flex flex-col items-center cursor-pointer group"
               >
-                <div className="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
-                  <Icon className={`h-8 w-8 ${category.color}`} />
+                {/* Circular icon container */}
+                <div className="w-24 h-24 md:w-32 md:h-32 bg-blue-600 rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-blue-800 group-hover:scale-105 shadow-lg">
+                  <Icon className="h-10 w-10 md:h-12 md:w-12 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-2 text-foreground">
+
+                {/* Category title */}
+                <h3 className="text-center font-semibold text-foreground text-sm md:text-base whitespace-nowrap">
                   {category.title}
                 </h3>
-                <p className="text-muted-foreground text-sm">
-                  {category.description}
-                </p>
-              </Card>
+              </div>
             );
           })}
         </div>

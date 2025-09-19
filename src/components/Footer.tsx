@@ -1,10 +1,10 @@
 import { MapPin, Phone, Mail, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import TravelWisdomLogo from "@/Untitled-removebg-preview.png";
+import TravelWisdomLogo from "@/travel-wisdom-logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground">
+    <footer className="bg-blue-900 text-primary-foreground">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -13,7 +13,7 @@ const Footer = () => {
               <img 
                 src={TravelWisdomLogo} 
                 alt="Travel Wisdom" 
-                className="h-10 object-contain"
+                className="h-20 object-contain"
               />
             </div>
             <p className="text-primary-foreground/80 mb-4">
@@ -66,13 +66,13 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <div className="space-y-3 text-primary-foreground/80">
               <div className="flex items-center gap-2">
-                <MapPin className="h-4 w-4 text-tropical" />
-                <span className="text-sm">123 Travel Street, Adventure City, AC 12345</span>
+                <MapPin className="h-8 w-8 text-tropical" />
+                <span className="text-sm">Plot No 157, Sectror 28, Part-2, Bamnoli, Sector 28 Dwarka, Dwarka, New Delhi, Delhi, 110077</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-tropical" />
                 <a href="tel:+918076602635" className="text-sm hover:text-tropical transition-colors">
-                  +91 8076602635
+                  +91 9971545446
                 </a>
               </div>
               <div className="flex items-center gap-2">
