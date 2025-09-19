@@ -205,7 +205,7 @@ const Hero = () => {
           </div>
           <div className="border-l border-white/20 h-14" />
           <div className="flex items-center space-x-6">
-            <img src="src/components/travelers.png" alt="Satisfied Travelers" className="h-16 w-16" />
+            <img src="https://pngtree.com/freepng/travel-icon_4436720.html" alt="Satisfied Travelers" className="h-16 w-16" />
             <div>
               <div className="text-4xl">56541+</div>
               <div className="text-base font-normal">Satisfied Travelers</div>
