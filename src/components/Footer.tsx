@@ -4,7 +4,7 @@ import TravelWisdomLogo from "@/travel-wisdom-logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-primary-foreground">
+    <footer className="bg-[#0B3A55] text-primary-foreground">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}

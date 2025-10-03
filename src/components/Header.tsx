@@ -5,6 +5,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
 } from "@/components/ui/dropdown-menu";
+import { Link } from "react-router-dom";
 
 import { Phone, User, ChevronDown } from "lucide-react";
 import NewCircleLogo from "@/assets/logo_circle.png";
@@ -31,55 +32,59 @@ const Header = () => {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <div className="flex items-center">
+            <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
               <img
                 src={NewCircleLogo}
                 alt="Travel Wisdom Circle"
                 className="w-12 h-12 rounded-full mr-2 object-contain"
               />
               <span className="text-2xl font- text-[#000000] tracking-wide" style={{ fontFamily: 'Montserrat' }}>Travel Wisdom</span>
-            </div>
+            </Link>
 
             {/* Right section */}
             <div className="flex items-center gap-8">
               {/* Navigation links */}
               <nav className="hidden md:flex items-center gap-6">
-                <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">About Us</a>
-                <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">Blogs</a>
-                <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">Careers</a>
-                <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">Contact Us</a>
+                <a href="/about-us" className="text-gray-700 hover:text-blue-600 transition-colors">About Us</a>
+                <a href="/blogs" className="text-gray-700 hover:text-blue-600 transition-colors">Blogs</a>
+                <a href="/careers" className="text-gray-700 hover:text-blue-600 transition-colors">Careers</a>
+                <a href="/contact-us" className="text-gray-700 hover:text-blue-600 transition-colors">Contact Us</a>
               </nav>
 
               {/* Phone number */}
               <div className="flex items-center gap-2 text-gray-700">
                 <Phone className="h-4 w-4" />
-                <span className="font-medium">+91 9971545446</span>
+                <a href="tel:+919971545446" className="font-medium hover:text-blue-600 transition-colors cursor-pointer">+91 9971545446</a>
               </div>
 
               {/* User icon */}
-              <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
+              <Link to="/login" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
                 <User className="h-5 w-5 text-white" />
-              </div>
+              </Link>
             </div>
           </div>
         </div>
       </div>
 
       {/* Bottom navigation bar */}
-      <div className="bg-blue-900 text-white">
+      <div className="bg-[#0B3A55] text-white">
         <div className="container mx-auto px-4">
           <nav className="flex items-center justify-center gap-8 py-4">
             <div onMouseLeave={() => setIsUpcomingOpen(false)}>
               <DropdownMenu open={isUpcomingOpen} onOpenChange={setIsUpcomingOpen}>
                 <DropdownMenuTrigger asChild onMouseEnter={() => setIsUpcomingOpen(true)}>
-                  <a href="#" className="flex items-center gap-1 hover:bg-blue-700 px-3 py-2 rounded transition-colors outline-none">
+                  <Link to="/upcoming-group-trips" className="flex items-center gap-1 hover:bg-blue-700 px-3 py-2 rounded transition-colors outline-none">
                     <span>Upcoming Group Trips</span>
                     <ChevronDown className="h-4 w-12" />
-                  </a>
+                  </Link>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-[220px]">
                   {upcomingTrips.map((trip) => (
-                    <DropdownMenuItem key={trip} className="flex justify-center">{trip}</DropdownMenuItem>
+                    <DropdownMenuItem key={trip} asChild>
+                      <Link to={`/upcoming-group-trips?month=${encodeURIComponent(trip)}`} className="flex justify-center w-full">
+                        {trip}
+                      </Link>
+                    </DropdownMenuItem>
                   ))}
                 </DropdownMenuContent>
               </DropdownMenu>
