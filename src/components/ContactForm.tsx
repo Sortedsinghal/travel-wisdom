@@ -32,16 +32,6 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="py-6 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-            Let's Plan Your Next Trip
-          </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Fill out your details and we'll create the perfect travel experience for you
-          </p>
-        </div>
 
         <div className="max-w-md mx-auto">
           <Card className="p-6 card-shadow bg-card/95 backdrop-blur-sm">
@@ -89,65 +79,24 @@ const ContactForm = () => {
                 />
               </div>
 
-              <div className="grid grid-cols-2 gap-2">
-                <Select onValueChange={(value) => handleInputChange("travellersCount", value)}>
-                  <SelectTrigger className="h-12">
-                    <SelectValue placeholder="Travellers Count" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="1">1 Person</SelectItem>
-                    <SelectItem value="2">2 People</SelectItem>
-                    <SelectItem value="3-5">3-5 People</SelectItem>
-                    <SelectItem value="6+">6+ People</SelectItem>
-                  </SelectContent>
-                </Select>
-
-                <Select onValueChange={(value) => handleInputChange("monthOfTravel", value)}>
-                  <SelectTrigger className="h-12">
-                    <SelectValue placeholder="Month of Travel" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="january">January</SelectItem>
-                    <SelectItem value="february">February</SelectItem>
-                    <SelectItem value="march">March</SelectItem>
-                    <SelectItem value="april">April</SelectItem>
-                    <SelectItem value="may">May</SelectItem>
-                    <SelectItem value="june">June</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
               <div>
                 <Textarea
                   placeholder="Message (Optional)"
                   value={formData.message}
                   onChange={(e) => handleInputChange("message", e.target.value)}
-                  className="min-h-[100px]"
+                  className="min-h-[50px]"
                 />
-              </div>
-
-              <div className="space-y-2 text-sm">
-                <div className="flex items-center gap-2 text-island">
-                  <CheckCircle className="h-4 w-4" />
-                  <span>We assure the privacy of your contact data</span>
-                </div>
-                <div className="flex items-center gap-2 text-destructive">
-                  <Shield className="h-4 w-4" />
-                  <span>No annoying spam calls</span>
-                </div>
               </div>
 
               <Button 
                 type="submit" 
                 className="w-full h-12 button-shadow text-lg font-semibold bg-[#0B3A55] hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors"
               >
-                Send Details
+                Request Call Back
               </Button>
             </form>
           </Card>
         </div>
-      </div>
-    </section>
   );
 };
 

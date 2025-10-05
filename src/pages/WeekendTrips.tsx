@@ -176,8 +176,9 @@ const reasons = [
   },
 ];
 
-const DomesticTrips = () => {
+const WeekendTrips = () => {
   const [visibleCount, setVisibleCount] = useState(8);
+  const [showFullText, setShowFullText] = useState(false);
 
   const handleViewMore = () => {
     setVisibleCount((prev) => prev + 8);
@@ -195,7 +196,7 @@ const DomesticTrips = () => {
       <div className="bg-gray-50 py-12">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Domestic Trips For You</h1>
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">Weekend Trips For You</h1>
           </div>
 
           {/* Trip cards */}
@@ -251,6 +252,55 @@ const DomesticTrips = () => {
             )}
           </div>
 
+          {/* New section: About Weekend Trips */}
+          <div className="mt-14 bg-gray-100 p-6 rounded-lg max-w-8xl mx-auto text-left">
+            <h2 className="text-2xl font-bold mb-8">About Weekend Trips</h2>
+            <hr />
+            {showFullText ? (
+              <>
+                <p className="mb-4">
+                  Escape the hustle of Delhi with Travel Wisdom's handpicked weekend getaways. Our curated trips offer the perfect blend of adventure, relaxation, and cultural immersion, all within easy reach of the capital.
+                </p>
+                <p className="mb-4">
+                  Imagine waking up to the misty mountains of Shimla, exploring the winding streets of Jaipur's Pink City, or finding serenity in Rishikesh's spiritual atmosphere. Travel Wisdom makes these experiences more accessible with our thoughtfully designed weekend packages.
+                </p>
+                <p className="mb-4">
+                  We understand that your time is precious, which is why our trips are meticulously planned to maximize your enjoyment. From seamless transportation to carefully selected accommodations, we've got every detail covered. Our local guides reveal hidden gems and insider perspectives, ensuring you experience the authentic essence of each destination.
+                </p>
+                <p className="mb-4">
+                  Whether you're an adventure seeker, history buff, or simply in need of a peaceful retreat, Travel Wisdom has the perfect weekend escape for you. Trek through the lush forests of Jim Corbett, marvel at the Taj Mahal in Agra, or unwind in the tranquil surroundings of Lansdowne.
+                </p>
+                <p className="mb-4">
+                  Our user-friendly booking platform and dedicated support team make planning your getaway a breeze. With competitive pricing and exclusive deals, Travel Wisdom ensures you get the most value from your weekend adventure.
+                </p>
+                <p>
+                  Don't let your weekends slip away. Rediscover the joy of short trips and create lasting memories with Travel Wisdom. Your next unforgettable weekend getaway from Delhi is just a click away. Book now and let the exploration begin!
+                </p>
+                <button
+                  onClick={() => setShowFullText(false)}
+                  className="text-[#0B3A55] font-bold mt-4 hover:underline"
+                >
+                  View Less
+                </button>
+              </>
+            ) : (
+              <>
+                <p className="mb-4">
+                  Escape the hustle of Delhi with Travel Wisdom's handpicked weekend getaways. Our curated trips offer the perfect blend of adventure, relaxation, and cultural immersion, all within easy reach of the capital.
+                </p>
+                <p className="mb-4">
+                  Imagine waking up to the misty mountains of Shimla, exploring the winding streets of Jaipur's Pink City, or finding serenity in Rishikesh's spiritual atmosphere. Travel Wisdom makes these experiences more accessible with our thoughtfully designed weekend packages....
+                </p>
+                <button
+                  onClick={() => setShowFullText(true)}
+                  className="text-[#0B3A55] font-bold mt-4 hover:underline"
+                >
+                  View More
+                </button>
+              </>
+            )}
+          </div>
+
           {/* New section: Why Select To Travel With Us */}
           <div className="mt-16 text-center">
             <h2 className="text-3xl font-bold mb-8">
@@ -276,4 +326,5 @@ const DomesticTrips = () => {
   );
 };
 
-export default DomesticTrips;
+export default WeekendTrips;
+

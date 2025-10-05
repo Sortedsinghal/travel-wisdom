@@ -8,7 +8,7 @@ import {
 import { Link } from "react-router-dom";
 
 import { Phone, User, ChevronDown } from "lucide-react";
-import NewCircleLogo from "@/assets/logo_circle.png";
+import NewCircleLogo from "@/assets/travel-wisdom-logo.png";
 
 const Header = () => {
   const [isUpcomingOpen, setIsUpcomingOpen] = React.useState(false);
@@ -29,32 +29,32 @@ const Header = () => {
     <header className="bg-white shadow-sm">
       {/* Top navigation bar */}
       <div className="bg-white border-b">
-        <div className="container mx-auto px-4 py-3">
+        <div className="container mx-auto px-5 py-3">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
+            <Link to="/" className="flex items-center transition-opacity">
               <img
                 src={NewCircleLogo}
                 alt="Travel Wisdom Circle"
-                className="w-12 h-12 rounded-full mr-2 object-contain"
+                className="w-16 h-14 rounded-full mr-2.5 object-contain"
               />
-              <span className="text-2xl font- text-[#000000] tracking-wide" style={{ fontFamily: 'Montserrat' }}>Travel Wisdom</span>
+              <span className="text-2xl font- text-[#000000] bold tracking-wide" style={{ fontFamily: 'Outfit, sans-serif' }}>Travel Wisdom</span>
             </Link>
 
             {/* Right section */}
             <div className="flex items-center gap-8">
               {/* Navigation links */}
               <nav className="hidden md:flex items-center gap-6">
-                <a href="/about-us" className="text-gray-700 hover:text-blue-600 transition-colors">About Us</a>
-                <a href="/blogs" className="text-gray-700 hover:text-blue-600 transition-colors">Blogs</a>
-                <a href="/careers" className="text-gray-700 hover:text-blue-600 transition-colors">Careers</a>
-                <a href="/contact-us" className="text-gray-700 hover:text-blue-600 transition-colors">Contact Us</a>
+                <a href="/about-us" className="text-gray-700 hover:text-[#0B3A55] transition-colors">About Us</a>
+                <a href="/blogs" className="text-gray-700 hover:text-[#0B3A55] transition-colors">Blogs</a>
+                <a href="/careers" className="text-gray-700 hover:text-[#0B3A55] transition-colors">Careers</a>
+                <a href="/contact-us" className="text-gray-700 hover:text-[#0B3A55] transition-colors">Contact Us</a>
               </nav>
 
               {/* Phone number */}
               <div className="flex items-center gap-2 text-gray-700">
                 <Phone className="h-4 w-4" />
-                <a href="tel:+919971545446" className="font-medium hover:text-blue-600 transition-colors cursor-pointer">+91 9971545446</a>
+                <a href="tel:+919971545446" className="font-medium hover:text-[#0B3A55] transition-colors cursor-pointer">+91 9971545446</a>
               </div>
 
               {/* User icon */}
@@ -109,10 +109,10 @@ const Header = () => {
             <div onMouseLeave={() => setIsWeekendOpen(false)}>
               <DropdownMenu open={isWeekendOpen} onOpenChange={setIsWeekendOpen}>
                 <DropdownMenuTrigger asChild onMouseEnter={() => setIsWeekendOpen(true)}>
-                  <a href="#" className="flex items-center gap-1  px-3 py-2 rounded transition-colors outline-none">
+                  <Link to="/weekend-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Weekend Trips</span>
                     <ChevronDown className="h-4 w-12" />
-                  </a>
+                  </Link>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-[220px]">
                   {[
