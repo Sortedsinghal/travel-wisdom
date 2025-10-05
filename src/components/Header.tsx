@@ -58,7 +58,7 @@ const Header = () => {
               </div>
 
               {/* User icon */}
-              <Link to="/login" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
+              <Link to="/login" className="w-10 h-10 bg-[#0B3A55] rounded-full flex items-center justify-center hover:bg-[#0A2E44] transition-colors">
                 <User className="h-5 w-5 text-white" />
               </Link>
             </div>
@@ -73,7 +73,7 @@ const Header = () => {
             <div onMouseLeave={() => setIsUpcomingOpen(false)}>
               <DropdownMenu open={isUpcomingOpen} onOpenChange={setIsUpcomingOpen}>
                 <DropdownMenuTrigger asChild onMouseEnter={() => setIsUpcomingOpen(true)}>
-                  <Link to="/upcoming-group-trips" className="flex items-center gap-1 hover:bg-blue-700 px-3 py-2 rounded transition-colors outline-none">
+                  <Link to="/upcoming-group-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Upcoming Group Trips</span>
                     <ChevronDown className="h-4 w-12" />
                   </Link>
@@ -93,10 +93,10 @@ const Header = () => {
             <div onMouseLeave={() => setIsDomesticOpen(false)}>
               <DropdownMenu open={isDomesticOpen} onOpenChange={setIsDomesticOpen}>
                 <DropdownMenuTrigger asChild onMouseEnter={() => setIsDomesticOpen(true)}>
-                  <a href="#" className="flex items-center gap-1 hover:bg-blue-700 px-3 py-2 rounded transition-colors outline-none">
+                  <Link to="/domestic-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Domestic Trips</span>
                     <ChevronDown className="h-4 w-12" />
-                  </a>
+                  </Link>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-[220px]">
                   {["Himachal", "Kashmir", "Kerala", "Uttarakhand", "Rajasthan"].map((place) => (
@@ -109,7 +109,7 @@ const Header = () => {
             <div onMouseLeave={() => setIsWeekendOpen(false)}>
               <DropdownMenu open={isWeekendOpen} onOpenChange={setIsWeekendOpen}>
                 <DropdownMenuTrigger asChild onMouseEnter={() => setIsWeekendOpen(true)}>
-                  <a href="#" className="flex items-center gap-1 hover:bg-blue-700 px-3 py-2 rounded transition-colors outline-none">
+                  <a href="#" className="flex items-center gap-1  px-3 py-2 rounded transition-colors outline-none">
                     <span>Weekend Trips</span>
                     <ChevronDown className="h-4 w-12" />
                   </a>
@@ -131,7 +131,7 @@ const Header = () => {
             <div onMouseLeave={() => setIsBackpackingOpen(false)}>
               <DropdownMenu open={isBackpackingOpen} onOpenChange={setIsBackpackingOpen}>
                 <DropdownMenuTrigger asChild onMouseEnter={() => setIsBackpackingOpen(true)}>
-                  <a href="#" className="flex items-center gap-1 hover:bg-blue-700 px-3 py-2 rounded transition-colors outline-none">
+                  <a href="#" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Backpacking Trips</span>
                     <ChevronDown className="h-4 w-12" />
                   </a>
@@ -148,10 +148,10 @@ const Header = () => {
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
-            <a href="#" className="hover:bg-blue-700 px-3 py-2 rounded transition-colors">
+            <a href="#" className=" px-3 py-2 rounded transition-colors">
               <span>Corporate Tours</span>
             </a>
-            <a href="#" className="hover:bg-blue-700 px-3 py-2 rounded transition-colors">
+            <a href="#" className=" px-3 py-2 rounded transition-colors">
               <span>Customise Trip</span>
             </a>
           </nav>

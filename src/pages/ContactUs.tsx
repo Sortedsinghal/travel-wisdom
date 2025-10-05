@@ -78,7 +78,7 @@ const ContactUs = () => {
                 rows={1}
                 className="bg-gray-50 py-3 px-4 text-base"
               />
-              <Button type="submit" className="w-full bg-blue-700 hover:bg-blue-800 text-white rounded-lg text-base font-semibold py-3">
+              <Button type="submit" className="w-full bg-[#0B3A55] hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors text-white rounded-lg text-base font-semibold py-3">
                 Send Message
               </Button>
             </form>
@@ -88,7 +88,7 @@ const ContactUs = () => {
           <div className="space-y-10">
             <div className="bg-white rounded-xl p-10 border border-gray-300 flex items-center gap-4">
               <div className="p-3 bg-blue-100 rounded-full">
-                <Phone className="h-14 w-14 text-blue-600" />
+                <Phone className="h-14 w-14 text-[#0B3A55]" />
               </div>
               <div>
                 <h3 className="font-bold text-lg">Call Us</h3>
@@ -98,7 +98,7 @@ const ContactUs = () => {
             </div>
             <div className="bg-white rounded-xl p-10 border border-gray-300 flex items-center gap-4">
               <div className="p-3 bg-blue-100 rounded-full">
-                <Mail className="h-14 w-14 text-blue-600" />
+                <Mail className="h-14 w-14 text-[#0B3A55]" />
               </div>
               <div>
                 <h3 className="font-bold text-lg">Write Email</h3>

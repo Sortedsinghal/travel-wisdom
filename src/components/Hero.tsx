@@ -146,14 +146,14 @@ const Hero = () => {
               <Button
                 variant={activeTab === "tripPackages" ? "default" : undefined}
                 onClick={() => handleTabClick("tripPackages")}
-                className={activeTab === "tripPackages" ? "bg-white text-blue-900 hover:bg-white hover:text-blue-900 rounded-t-lg rounded-b-none" : "text-white hover:bg-blue-900 hover:text-white rounded-t-lg rounded-b-none"}
+                className={activeTab === "tripPackages" ? "bg-[#0B3A55] text-white hover:bg-white hover:text-[#0B3A55] rounded-t-lg rounded-b-none" : "bg-white text-[#0B3A55] hover:bg-[#0B3A55] hover:text-white rounded-t-lg rounded-b-none"}
               >
                 Trip Packages
               </Button>
               <Button
                 variant={activeTab === "travelGuides" ? "default" : undefined}
                 onClick={() => handleTabClick("travelGuides")}
-                className={activeTab === "travelGuides" ? "bg-white text-blue-900 hover:bg-white hover:text-blue-900 rounded-t-lg rounded-b-none" : "text-white hover:bg-blue-900 hover:text-white rounded-t-lg rounded-b-none"}
+                className={activeTab === "travelGuides" ? "bg-[#0B3A55] text-white hover:bg-white hover:text-[#0B3A55] rounded-t-lg rounded-b-none" : "bg-white text-[#0B3A55] hover:bg-[#0B3A55] hover:text-white rounded-t-lg rounded-b-none"}
               >
                 Travel Guides
               </Button>

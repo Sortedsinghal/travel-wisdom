@@ -47,7 +47,7 @@ const TripCategories = () => {
                 className="flex flex-col items-center cursor-pointer group"
               >
                 {/* Circular icon container */}
-                <div className="w-24 h-24 md:w-32 md:h-32 bg-blue-600 rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-blue-800 group-hover:scale-105 shadow-lg">
+                <div className="w-24 h-24 md:w-32 md:h-32 bg-[#0B3A55] rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-blue-800 group-hover:scale-105 shadow-lg">
                   <Icon className="h-10 w-10 md:h-12 md:w-12 text-white" />
                 </div>
 

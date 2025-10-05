@@ -8,6 +8,7 @@ import AboutUs from "./pages/AboutUs";
 import Blogs from "./pages/Blogs";
 import Careers from "./pages/Careers";
 import ContactUs from "./pages/ContactUs";
+import DomesticTrips from "./pages/DomesticTrips";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/upcoming-group-trips" element={<UpcomingGroupTrips />} />
+          <Route path="/domestic-trips" element={<DomesticTrips />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

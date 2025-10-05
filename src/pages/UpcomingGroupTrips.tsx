@@ -829,7 +829,7 @@ const UpcomingGroupTrips = () => {
                 key={month}
                 onClick={() => setSelectedMonth(month)}
                 className={`px-4 py-2 rounded-full border ${
-                  selectedMonth === month ? 'bg-blue-600 text-white border-blue-600' : 'border-gray-400 text-gray-800'
+                  selectedMonth === month ? 'bg-[#0B3A55] text-white border-[#0B3A55]' : 'border-gray-400 text-gray-800'
                 } transition-colors`}
               >
                 {month}
@@ -844,7 +844,7 @@ const UpcomingGroupTrips = () => {
                 key={category}
                 onClick={() => setSelectedCategory(category)}
                 className={`px-4 py-2 rounded-full border ${
-                  selectedCategory === category ? 'bg-blue-600 text-white border-blue-600' : 'border-gray-400 text-gray-800'
+                  selectedCategory === category ? 'bg-[#0B3A55] text-white border-[#0B3A55]' : 'border-gray-400 text-gray-800'
                 } transition-colors`}
               >
                 {category}
@@ -874,10 +874,10 @@ const UpcomingGroupTrips = () => {
                     <span className="font-bold text-lg">₹{trip.price} per person</span>
                   </div>
                   <div className="flex gap-2">
-                    <button className="flex-1 border border-blue-600 text-blue-600 rounded px-3 py-1 hover:bg-blue-600 hover:text-white transition-colors">
+                    <button className="flex-1 border border-black text-[#0B3A55] rounded px-3 py-1 hover:bg-[#0B3A55] hover:text-white transition-colors">
                       Trip Details
                     </button>
-                    <button className="flex-1 bg-blue-600 text-white rounded px-3 py-1 hover:bg-blue-700 transition-colors">
+                    <button className="flex-1 border border-black bg-[#0B3A55] text-white rounded px-3 py-1 hover:bg-white hover:text-[#0B3A55] transition-colors">
                       Send Query
                     </button>
                   </div>
