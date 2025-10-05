@@ -1,6 +1,7 @@
 import { Instagram, Youtube, Linkedin, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import TravelWisdomLogo from "@/travel-wisdom-logo.png";
+import PaymentMode from "@/assets/paymentmode.webp";
 
 const Footer = () => {
     // Content Data for the white bottom section
@@ -144,7 +145,7 @@ const Footer = () => {
             {/* 2. Payment Icons & Copyright Text (Center) */}
             <div className="flex flex-col items-center space-y-2 text-center w-full lg:w-auto">
                 {/* Payment Icons Placeholder (Based on the image URL in the HTML) */}
-                <div className="border-b-2 border-gray-200 pb-2"><img src="/src/assets/paymentmode.webp" alt="payment" />
+                <div className="border-b-2 border-gray-200 pb-2"><img src={PaymentMode} alt="payment" />
                 </div>
                 {/* Copyright Text */}
                 <p className="text-sm text-gray-600">

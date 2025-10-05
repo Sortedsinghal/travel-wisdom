@@ -1,22 +1,22 @@
 import React from "react";
 
 const logos = [
-  "/public/collabs/decathlon.webp",
-  "/public/collabs/delhi-tourism.webp",
-  "/public/collabs/deskers.webp",
-  "/public/collabs/garage-society.webp",
-  "/public/collabs/go-stops-footers.webp",
-  "/public/collabs/gujrat-tourism.webp",
-  "/public/collabs/hostler.webp",
-  "/public/collabs/incredible-india.webp",
-  "/public/collabs/j&k-tourism.webp",
-  "/public/collabs/manipur-tourism.webp",
-  "/public/collabs/mp-tourism.webp",
-  "/public/collabs/msme.webp",
-  "/public/collabs/nepal-tourism-board.webp",
-  "/public/collabs/nidhi-up.webp",
-  "/public/collabs/whoopers-hostel.webp",
-  "/public/collabs/start-up-india.webp"
+  "/collabs/decathlon.webp",
+  "/collabs/delhi-tourism.webp",
+  "/collabs/deskers.webp",
+  "/collabs/garage-society.webp",
+  "/collabs/go-stops-footers.webp",
+  "/collabs/gujrat-tourism.webp",
+  "/collabs/hostler.webp",
+  "/collabs/incredible-india.webp",
+  "/collabs/j&k-tourism.webp",
+  "/collabs/manipur-tourism.webp",
+  "/collabs/mp-tourism.webp",
+  "/collabs/msme.webp",
+  "/collabs/nepal-tourism-board.webp",
+  "/collabs/nidhi-up.webp",
+  "/collabs/whoopers-hostel.webp",
+  "/collabs/start-up-india.webp"
 ];
 
 const CollaborationsSlider = () => {
