@@ -1,26 +1,26 @@
 const categories = [
   {
-    icon: "/public/bagpack.png",
+    icon: "/bagpack.png",
     title: "Backpacking Trips",
     href: "#"
   },
   {
-    icon: "/public/traveling.webp",
+    icon: "/traveling.webp",
     title: "Adventure Treks",
     href: "#"
   },
   {
-    icon: "/public/glasses.webp",
+    icon: "/glasses.webp",
     title: "Honeymoon Trips",
     href: "#"
   },
   {
-    icon: "/public/van.webp",
+    icon: "/van.webp",
     title: "Weekend Getaways",
     href: "#"
   },
   {
-    icon: "/public/handshake.webp",
+    icon: "/handshake.webp",
     title: "Corporate Trips",
     href: "#"
   }

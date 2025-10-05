@@ -4,22 +4,22 @@ const steps = [
   {
     title: 'Choose Your Travel Destination',
     description: 'From a buffet of trip itineraries handcrafted by our travel experts.',
-    imageUrl: '/public/image4.png',
+    imageUrl: '/image4.png',
   },
   {
     title: 'Ask Queries & Book Your Trip!',
     description: 'Connect with us over a call, solve your queries and book your trip.',
-    imageUrl: '/public/image3.png',
+    imageUrl: '/image3.png',
   },
   {
     title: 'Ohai, Your Trip Day Has Arrived',
     description: 'Keep your adventure spirit high and pack your bags for a lifetime experience.',
-    imageUrl: '/public/image2.png',
+    imageUrl: '/image2.png',
   },
   {
     title: 'Share #InstaPerfect Memories...',
     description: 'Flaunt your memorable travel memories over social media with your dear ones.',
-    imageUrl: '/public/image1.png',
+    imageUrl: '/image1.png',
   },
 ];
 
