@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, useNavigate } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import TripInquiryModal from '@/components/TripInquiryModal';
 
 const UpcomingGroupTrips = () => {
   const months = [
@@ -38,7 +39,7 @@ const UpcomingGroupTrips = () => {
       price: 6500,
       originalPrice: 7500,
       discount: 1000,
-      imageUrl: '/public/jibhi_tirthan.jpg',
+      imageUrl: '/trip/jibhi.png',
       description: 'Experience the beauty of northern India with our group trips.',
     },
     {
@@ -50,7 +51,7 @@ const UpcomingGroupTrips = () => {
       price: 6500,
       originalPrice: 7500,
       discount: 1000,
-      imageUrl: '/public/kasol_kheerganga.jpg',
+      imageUrl: '/trip/kasol.png',
       description: 'Relax and rejuvenate with coastal and backwater adventures.',
     },
     {
@@ -62,7 +63,7 @@ const UpcomingGroupTrips = () => {
       price: 6000,
       originalPrice: 7000,
       discount: 1000,
-      imageUrl: '/public/chopta_tungnath.jpg',
+      imageUrl: 'trip/chopta.png',
       description: 'Discover the royal heritage and mountain landscapes.',
     },
     {
@@ -74,7 +75,7 @@ const UpcomingGroupTrips = () => {
       price: 8000,
       originalPrice: 8000,
       discount: 0,
-      imageUrl: '/public/yulla_kanda.jpg',
+      imageUrl: '/trip/yulla.png',
       description: 'A beautiful trek in the Himalayas.',
     },
     {
@@ -86,7 +87,7 @@ const UpcomingGroupTrips = () => {
       price: 5500,
       originalPrice: 5500,
       discount: 0,
-      imageUrl: '/public/kanatal_tehri.jpg',
+      imageUrl: '/trip/kanatal.png',
       description: 'Scenic lake and mountain views.',
     },
     {
@@ -98,7 +99,7 @@ const UpcomingGroupTrips = () => {
       price: 18000,
       originalPrice: 20000,
       discount: 2000,
-      imageUrl: '/public/winter_spiti.jpg',
+      imageUrl: '/trip/winterspiti.png',
       description: 'High-altitude adventures in the trans-Himalayan region.',
     },
     {
@@ -110,7 +111,7 @@ const UpcomingGroupTrips = () => {
       price: 5500,
       originalPrice: 5500,
       discount: 0,
-      imageUrl: '/public/chakrata.jpg',
+      imageUrl: '/trip/chakrata.png',
       description: 'Peaceful hill station getaway.',
     },
     {
@@ -122,7 +123,7 @@ const UpcomingGroupTrips = () => {
       price: 14000,
       originalPrice: 14000,
       discount: 0,
-      imageUrl: '/public/tungnath_kedarnath.jpg',
+      imageUrl: '/trip/tungnath.png',
       description: 'Spiritual trek to famous temples.',
     },
     {
@@ -134,7 +135,7 @@ const UpcomingGroupTrips = () => {
       price: 11000,
       originalPrice: 11000,
       discount: 0,
-      imageUrl: '/public/kedarnath_dham.jpg',
+      imageUrl: '/trip/kedarnath.png',
       description: 'Pilgrimage to Kedarnath temple.',
     },
     {
@@ -146,7 +147,7 @@ const UpcomingGroupTrips = () => {
       price: 7000,
       originalPrice: 7000,
       discount: 0,
-      imageUrl: '/public/hampta_pass.jpg',
+      imageUrl: '/trip/hampta.png',
       description: 'Challenging trek with stunning views.',
     },
     {
@@ -158,7 +159,7 @@ const UpcomingGroupTrips = () => {
       price: 20500,
       originalPrice: 23000,
       discount: 2500,
-      imageUrl: '/public/meghalaya_backpacking.jpg',
+      imageUrl: '/trip/meghalaya.png',
       description: 'Explore the natural beauty of Meghalaya.',
     },
     {
@@ -170,7 +171,7 @@ const UpcomingGroupTrips = () => {
       price: 12500,
       originalPrice: 14000,
       discount: 1500,
-      imageUrl: '/public/himachal_backpacking.jpg',
+      imageUrl: '/trip/himachal.png',
       description: 'Backpacking adventure in Himachal Pradesh.',
     },
     {
@@ -182,7 +183,7 @@ const UpcomingGroupTrips = () => {
       price: 23000,
       originalPrice: 23000,
       discount: 0,
-      imageUrl: '/public/leh_ladakh_turtuk.jpg',
+      imageUrl: '/trip/lehladakh.png',
       description: 'Explore the stunning landscapes of Ladakh.',
     },
     {
@@ -194,7 +195,7 @@ const UpcomingGroupTrips = () => {
       price: 12500,
       originalPrice: 14000,
       discount: 1500,
-      imageUrl: '/public/manali_sissu_kasol.jpg',
+      imageUrl: '/trip/sissu.png',
       description: 'Combination of popular treks.',
     },
     {
@@ -206,7 +207,7 @@ const UpcomingGroupTrips = () => {
       price: 16500,
       originalPrice: 16500,
       discount: 0,
-      imageUrl: '/public/do_dham_yatra.jpg',
+      imageUrl: '/trip/dodhamyatra.png',
       description: 'Pilgrimage to Kedarnath and Badrinath.',
     },
     {
@@ -218,7 +219,7 @@ const UpcomingGroupTrips = () => {
       price: 7500,
       originalPrice: 8500,
       discount: 1000,
-      imageUrl: '/public/udaipur_kumbhalgarh.jpg',
+      imageUrl: '/trip/udaipur.png',
       description: 'Explore the heritage of Rajasthan.',
     },
     {
@@ -230,7 +231,7 @@ const UpcomingGroupTrips = () => {
       price: 35000,
       originalPrice: 35000,
       discount: 0,
-      imageUrl: '/public/bhutan_backpacking.jpg',
+      imageUrl: '/trip/bhutan.png',
       description: 'Backpacking adventure in Bhutan.',
     },
     {
@@ -242,7 +243,7 @@ const UpcomingGroupTrips = () => {
       price: 9999,
       originalPrice: 9999,
       discount: 0,
-      imageUrl: '/public/mcleodganj_triund_bir.jpg',
+      imageUrl: '/trip/mcleodganj.png',
       description: 'Explore the scenic beauty of Mcleodganj and Bir.',
     },
     {
@@ -254,7 +255,7 @@ const UpcomingGroupTrips = () => {
       price: 29000,
       originalPrice: 29000,
       discount: 0,
-      imageUrl: '/public/adi_kailash_om_parvat.jpg',
+      imageUrl: '/trip/adikailash.png',
       description: 'Spiritual trek to Adi Kailash and Om Parvat.',
     },
     {
@@ -266,7 +267,7 @@ const UpcomingGroupTrips = () => {
       price: 15000,
       originalPrice: 16500,
       discount: 1500,
-      imageUrl: '/public/kerala_backpacking.jpg',
+      imageUrl: '/trip/kerala.png',
       description: 'Explore the backwaters and culture of Kerala.',
     },
     {
@@ -278,7 +279,7 @@ const UpcomingGroupTrips = () => {
       price: 25000,
       originalPrice: 27000,
       discount: 2000,
-      imageUrl: '/public/meghalaya_kaziranga.jpg',
+      imageUrl: '/trip/meghalaya.png',
       description: 'Backpacking with wildlife exploration.',
     },
     // November 2025 trips
@@ -291,7 +292,7 @@ const UpcomingGroupTrips = () => {
       price: 18000,
       originalPrice: 20000,
       discount: 2000,
-      imageUrl: '/public/winter_spiti.jpg',
+      imageUrl: '/trip/winterspiti.png',
       description: 'High-altitude adventures in the trans-Himalayan region.',
     },
     {
@@ -303,7 +304,7 @@ const UpcomingGroupTrips = () => {
       price: 8500,
       originalPrice: 10000,
       discount: 1500,
-      imageUrl: '/public/kuari_pass_trek.jpg',
+      imageUrl: '/trip/kuari.png',
       description: 'Scenic trek through the Himalayas.',
     },
     {
@@ -315,7 +316,7 @@ const UpcomingGroupTrips = () => {
       price: 6500,
       originalPrice: 7500,
       discount: 1000,
-      imageUrl: '/public/mcleodganj_triund.jpg',
+      imageUrl: '/trip/mcleodganj.png',
       description: 'Explore the scenic beauty of Mcleodganj and Triund.',
     },
     {
@@ -327,7 +328,7 @@ const UpcomingGroupTrips = () => {
       price: 6000,
       originalPrice: 7000,
       discount: 1000,
-      imageUrl: '/public/manali_sissu.jpg',
+      imageUrl: '/trip/sissu.png',
       description: 'Peaceful hill station getaway.',
     },
     {
@@ -339,7 +340,7 @@ const UpcomingGroupTrips = () => {
       price: 20500,
       originalPrice: 23000,
       discount: 2500,
-      imageUrl: '/public/meghalaya_backpacking.jpg',
+      imageUrl: '/trip/meghalaya.png',
       description: 'Explore the natural beauty of Meghalaya.',
     },
     {
@@ -351,7 +352,7 @@ const UpcomingGroupTrips = () => {
       price: 12500,
       originalPrice: 14000,
       discount: 1500,
-      imageUrl: '/public/himachal_backpacking.jpg',
+      imageUrl: '/trip/himachal.png',
       description: 'Backpacking adventure in Himachal Pradesh.',
     },
     {
@@ -363,7 +364,7 @@ const UpcomingGroupTrips = () => {
       price: 12500,
       originalPrice: 14000,
       discount: 1500,
-      imageUrl: '/public/manali_sissu_kasol.jpg',
+      imageUrl: '/trip/sissu.png',
       description: 'Combination of popular treks.',
     },
     {
@@ -375,7 +376,7 @@ const UpcomingGroupTrips = () => {
       price: 35000,
       originalPrice: 35000,
       discount: 0,
-      imageUrl: '/public/bhutan_backpacking.jpg',
+      imageUrl: '/trip/bhutan.png',
       description: 'Backpacking adventure in Bhutan.',
     },
     {
@@ -387,7 +388,7 @@ const UpcomingGroupTrips = () => {
       price: 9999,
       originalPrice: 9999,
       discount: 0,
-      imageUrl: '/public/mcleodganj_triund_bir.jpg',
+      imageUrl: '/trip/mcleodganj.png',
       description: 'Explore the scenic beauty of Mcleodganj and Bir.',
     },
     {
@@ -399,7 +400,7 @@ const UpcomingGroupTrips = () => {
       price: 10000,
       originalPrice: 15000,
       discount: 5000,
-      imageUrl: '/public/rishikesh_chopta_tungnath.jpg',
+      imageUrl: '/trip/chopta.png',
       description: 'Spiritual and scenic trek in Rishikesh.',
     },
     {
@@ -411,7 +412,7 @@ const UpcomingGroupTrips = () => {
       price: 49999,
       originalPrice: 49999,
       discount: 0,
-      imageUrl: '/public/kazakhstan_backpacking.jpg',
+      imageUrl: '/trip/kazakhstan.png',
       description: 'Backpacking adventure in Kazakhstan.',
     },
     {
@@ -423,7 +424,7 @@ const UpcomingGroupTrips = () => {
       price: 59999,
       originalPrice: 59999,
       discount: 0,
-      imageUrl: '/public/vietnam_backpacking.jpg',
+      imageUrl: '/trip/vietnam.png',
       description: 'Explore the culture and landscapes of Vietnam.',
     },
     {
@@ -435,7 +436,7 @@ const UpcomingGroupTrips = () => {
       price: 44999,
       originalPrice: 44999,
       discount: 0,
-      imageUrl: '/public/thailand_full_moon_party.jpg',
+      imageUrl: '/trip/thailand.png',
       description: 'Experience the famous full moon party in Thailand.',
     },
     {
@@ -447,7 +448,7 @@ const UpcomingGroupTrips = () => {
       price: 8000,
       originalPrice: 10000,
       discount: 2000,
-      imageUrl: '/public/manali_sissu_kasol.jpg',
+      imageUrl: '/trip/sissu.png',
       description: 'Popular trekking route in Himachal Pradesh.',
     },
     {
@@ -459,7 +460,7 @@ const UpcomingGroupTrips = () => {
       price: 8000,
       originalPrice: 9000,
       discount: 1000,
-      imageUrl: '/public/mcleodganj_bir.jpg',
+      imageUrl: '/trip/mcleodganj.png',
       description: 'Explore the scenic beauty of Mcleodganj and Bir.',
     },
     {
@@ -471,7 +472,7 @@ const UpcomingGroupTrips = () => {
       price: 13500,
       originalPrice: 15000,
       discount: 1500,
-      imageUrl: '/public/uttarakhand_backpacking.jpg',
+      imageUrl: '/trip/uttarakhand.png',
       description: 'Backpacking adventure in Uttarakhand.',
     },
     {
@@ -483,7 +484,7 @@ const UpcomingGroupTrips = () => {
       price: 49999,
       originalPrice: 49999,
       discount: 0,
-      imageUrl: '/public/georgia_backpacking.jpg',
+      imageUrl: '/trip/georgia.png',
       description: 'Backpacking adventure in Georgia.',
     },
     {
@@ -495,7 +496,7 @@ const UpcomingGroupTrips = () => {
       price: 15000,
       originalPrice: 16500,
       discount: 1500,
-      imageUrl: '/public/kerala_backpacking.jpg',
+      imageUrl: '/trip/kerala.png',
       description: 'Explore the backwaters and culture of Kerala.',
     },
     {
@@ -507,7 +508,7 @@ const UpcomingGroupTrips = () => {
       price: 25000,
       originalPrice: 27000,
       discount: 2000,
-      imageUrl: '/public/meghalaya_kaziranga.jpg',
+      imageUrl: '/trip/meghalaya.png',
       description: 'Backpacking with wildlife exploration.',
     },
     {
@@ -519,7 +520,7 @@ const UpcomingGroupTrips = () => {
       price: 24000,
       originalPrice: 28000,
       discount: 4000,
-      imageUrl: '/public/rajasthan_explorer.jpg',
+      imageUrl: '/trip/rajasthan.png',
       description: 'Explore the heritage of Rajasthan.',
     },
     // December 2025 trips (duplicates of October and November trips with new ids)
@@ -532,7 +533,7 @@ const UpcomingGroupTrips = () => {
       price: 6500,
       originalPrice: 7500,
       discount: 1000,
-      imageUrl: '/public/jibhi_tirthan.jpg',
+      imageUrl: '/trip/jibhi.png',
       description: 'Experience the beauty of northern India with our group trips.',
     },
     {
@@ -544,7 +545,7 @@ const UpcomingGroupTrips = () => {
       price: 6500,
       originalPrice: 7500,
       discount: 1000,
-      imageUrl: '/public/kasol_kheerganga.jpg',
+      imageUrl: '/trip/kasol.png',
       description: 'Relax and rejuvenate with coastal and backwater adventures.',
     },
     {
@@ -556,7 +557,7 @@ const UpcomingGroupTrips = () => {
       price: 6000,
       originalPrice: 7000,
       discount: 1000,
-      imageUrl: '/public/chopta_tungnath.jpg',
+      imageUrl: '/trip/chopta.png',
       description: 'Discover the royal heritage and mountain landscapes.',
     },
     {
@@ -568,7 +569,7 @@ const UpcomingGroupTrips = () => {
       price: 8000,
       originalPrice: 8000,
       discount: 0,
-      imageUrl: '/public/yulla_kanda.jpg',
+      imageUrl: '/trip/yulla.png',
       description: 'A beautiful trek in the Himalayas.',
     },
     {
@@ -580,7 +581,7 @@ const UpcomingGroupTrips = () => {
       price: 5500,
       originalPrice: 5500,
       discount: 0,
-      imageUrl: '/public/kanatal_tehri.jpg',
+      imageUrl: '/trip/kanatal.png',
       description: 'Scenic lake and mountain views.',
     },
     {
@@ -592,7 +593,7 @@ const UpcomingGroupTrips = () => {
       price: 18000,
       originalPrice: 20000,
       discount: 2000,
-      imageUrl: '/public/winter_spiti.jpg',
+      imageUrl: '/trip/winterspiti.png',
       description: 'High-altitude adventures in the trans-Himalayan region.',
     },
     {
@@ -604,7 +605,7 @@ const UpcomingGroupTrips = () => {
       price: 5500,
       originalPrice: 5500,
       discount: 0,
-      imageUrl: '/public/chakrata.jpg',
+      imageUrl: '/trip/chakrata.png',
       description: 'Peaceful hill station getaway.',
     },
     {
@@ -616,7 +617,7 @@ const UpcomingGroupTrips = () => {
       price: 14000,
       originalPrice: 14000,
       discount: 0,
-      imageUrl: '/public/tungnath_kedarnath.jpg',
+      imageUrl: '/trip/tungnath.png',
       description: 'Spiritual trek to famous temples.',
     },
     {
@@ -628,7 +629,7 @@ const UpcomingGroupTrips = () => {
       price: 11000,
       originalPrice: 11000,
       discount: 0,
-      imageUrl: '/public/kedarnath_dham.jpg',
+      imageUrl: '/trip/kedarnath.png',
       description: 'Pilgrimage to Kedarnath temple.',
     },
     {
@@ -640,7 +641,7 @@ const UpcomingGroupTrips = () => {
       price: 7000,
       originalPrice: 7000,
       discount: 0,
-      imageUrl: '/public/hampta_pass.jpg',
+      imageUrl: '/trip/hampta.png',
       description: 'Challenging trek with stunning views.',
     },
     {
@@ -652,7 +653,7 @@ const UpcomingGroupTrips = () => {
       price: 20500,
       originalPrice: 23000,
       discount: 2500,
-      imageUrl: '/public/meghalaya_backpacking.jpg',
+      imageUrl: '/trip/meghalaya.png',
       description: 'Explore the natural beauty of Meghalaya.',
     },
     {
@@ -664,7 +665,7 @@ const UpcomingGroupTrips = () => {
       price: 12500,
       originalPrice: 14000,
       discount: 1500,
-      imageUrl: '/public/himachal_backpacking.jpg',
+      imageUrl: '/trip/himachal.png',
       description: 'Backpacking adventure in Himachal Pradesh.',
     },
     {
@@ -676,7 +677,7 @@ const UpcomingGroupTrips = () => {
       price: 23000,
       originalPrice: 23000,
       discount: 0,
-      imageUrl: '/public/leh_ladakh_turtuk.jpg',
+      imageUrl: '/trip/lehladakh.png',
       description: 'Explore the stunning landscapes of Ladakh.',
     },
     {
@@ -688,7 +689,7 @@ const UpcomingGroupTrips = () => {
       price: 12500,
       originalPrice: 14000,
       discount: 1500,
-      imageUrl: '/public/manali_sissu_kasol.jpg',
+      imageUrl: '/trip/sissu.png',
       description: 'Combination of popular treks.',
     },
     {
@@ -700,7 +701,7 @@ const UpcomingGroupTrips = () => {
       price: 16500,
       originalPrice: 16500,
       discount: 0,
-      imageUrl: '/public/do_dham_yatra.jpg',
+      imageUrl: '/trip/dodhamyatra.png',
       description: 'Pilgrimage to Kedarnath and Badrinath.',
     },
     {
@@ -712,7 +713,7 @@ const UpcomingGroupTrips = () => {
       price: 7500,
       originalPrice: 8500,
       discount: 1000,
-      imageUrl: '/public/udaipur_kumbhalgarh.jpg',
+      imageUrl: '/trip/udaipur.png',
       description: 'Explore the heritage of Rajasthan.',
     },
     {
@@ -724,7 +725,7 @@ const UpcomingGroupTrips = () => {
       price: 35000,
       originalPrice: 35000,
       discount: 0,
-      imageUrl: '/public/bhutan_backpacking.jpg',
+      imageUrl: '/trip/bhutan.png',
       description: 'Backpacking adventure in Bhutan.',
     },
     {
@@ -736,7 +737,7 @@ const UpcomingGroupTrips = () => {
       price: 9999,
       originalPrice: 9999,
       discount: 0,
-      imageUrl: '/public/mcleodganj_triund_bir.jpg',
+      imageUrl: '/trip/mcleodganj.png',
       description: 'Explore the scenic beauty of Mcleodganj and Bir.',
     },
     {
@@ -748,7 +749,7 @@ const UpcomingGroupTrips = () => {
       price: 29000,
       originalPrice: 29000,
       discount: 0,
-      imageUrl: '/public/adi_kailash_om_parvat.jpg',
+      imageUrl: '/trip/adikailash.png',
       description: 'Spiritual trek to Adi Kailash and Om Parvat.',
     },
     {
@@ -760,7 +761,7 @@ const UpcomingGroupTrips = () => {
       price: 15000,
       originalPrice: 16500,
       discount: 1500,
-      imageUrl: '/public/kerala_backpacking.jpg',
+      imageUrl: '/trip/kerala.png',
       description: 'Explore the backwaters and culture of Kerala.',
     },
     {
@@ -772,7 +773,7 @@ const UpcomingGroupTrips = () => {
       price: 25000,
       originalPrice: 27000,
       discount: 2000,
-      imageUrl: '/public/meghalaya_kaziranga.jpg',
+      imageUrl: '/trip/meghalaya.png',
       description: 'Backpacking with wildlife exploration.',
     },
     {
@@ -784,13 +785,16 @@ const UpcomingGroupTrips = () => {
       price: 24000,
       originalPrice: 28000,
       discount: 4000,
-      imageUrl: '/public/rajasthan_explorer.jpg',
+      imageUrl: '/trip/rajasthan.png',
       description: 'Explore the heritage of Rajasthan.',
     },
   ];
   const [selectedMonth, setSelectedMonth] = useState('All Months');
   const [selectedCategory, setSelectedCategory] = useState('All Trips');
   const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedTrip, setSelectedTrip] = useState('');
 
   useEffect(() => {
     const month = searchParams.get('month');
@@ -813,6 +817,16 @@ const UpcomingGroupTrips = () => {
     return monthMatch && categoryMatch;
   });
 
+  const handleSendQuery = (tripTitle: string) => {
+    setSelectedTrip(tripTitle);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedTrip('');
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -827,7 +841,7 @@ const UpcomingGroupTrips = () => {
             {months.map((month) => (
               <button
                 key={month}
-                onClick={() => setSelectedMonth(month)}
+                onClick={() => { setSelectedMonth(month); if (month === 'All Months') navigate(''); else navigate(`?month=${encodeURIComponent(month)}`); }}
                 className={`px-4 py-2 rounded-full border ${
                   selectedMonth === month ? 'bg-[#0B3A55] text-white border-[#0B3A55]' : 'border-gray-400 text-gray-800'
                 } transition-colors`}
@@ -877,7 +891,10 @@ const UpcomingGroupTrips = () => {
                     <button className="flex-1 border border-black text-[#0B3A55] rounded px-3 py-1 hover:bg-[#0B3A55] hover:text-white transition-colors">
                       Trip Details
                     </button>
-                    <button className="flex-1 border border-black bg-[#0B3A55] text-white rounded px-3 py-1 hover:bg-white hover:text-[#0B3A55] transition-colors">
+                    <button 
+                      onClick={() => handleSendQuery(trip.title)}
+                      className="flex-1 border border-black bg-[#0B3A55] text-white rounded px-3 py-1 hover:bg-white hover:text-[#0B3A55] transition-colors"
+                    >
                       Send Query
                     </button>
                   </div>
@@ -894,6 +911,13 @@ const UpcomingGroupTrips = () => {
         </div>
       </div>
       <Footer />
+      
+      {/* Trip Inquiry Modal */}
+      <TripInquiryModal
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+        tripTitle={selectedTrip}
+      />
     </div>
   );
 };

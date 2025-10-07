@@ -15,6 +15,7 @@ const Header = () => {
   const [isDomesticOpen, setIsDomesticOpen] = React.useState(false);
   const [isWeekendOpen, setIsWeekendOpen] = React.useState(false);
   const [isBackpackingOpen, setIsBackpackingOpen] = React.useState(false);
+  const [isInternationalOpen, setIsInternationalOpen] = React.useState(false);
 
   const upcomingTrips = [
     "September 2025",
@@ -23,6 +24,15 @@ const Header = () => {
     "December 2025",
     "January 2026",
     "February 2026",
+  ];
+
+  const internationalTrips = [
+    "Vietnam",
+    "Thailand",
+    "Kazakhstan",
+    "Bali",
+    "Dubai",
+    "Bhutan"
   ];
 
   return (
@@ -148,11 +158,23 @@ const Header = () => {
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
+            <div onMouseLeave={() => setIsInternationalOpen(false)}>
+              <DropdownMenu open={isInternationalOpen} onOpenChange={setIsInternationalOpen}>
+                <DropdownMenuTrigger asChild onMouseEnter={() => setIsInternationalOpen(true)}>
+                  <a href="#" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
+                    <span>International Trips</span>
+                    <ChevronDown className="h-4 w-12" />
+                  </a>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-[220px]">
+                  {internationalTrips.map((place) => (
+                    <DropdownMenuItem key={place} className="flex justify-center">{place}</DropdownMenuItem>
+                  ))}
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
             <a href="#" className=" px-3 py-2 rounded transition-colors">
               <span>Corporate Tours</span>
-            </a>
-            <a href="#" className=" px-3 py-2 rounded transition-colors">
-              <span>Customise Trip</span>
             </a>
           </nav>
         </div>
