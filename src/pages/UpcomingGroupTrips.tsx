@@ -3,7 +3,6 @@ import { useSearchParams, useNavigate } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import TripInquiryModal from '@/components/TripInquiryModal';
 
 const UpcomingGroupTrips = () => {
   const months = [
@@ -911,13 +910,6 @@ const UpcomingGroupTrips = () => {
         </div>
       </div>
       <Footer />
-      
-      {/* Trip Inquiry Modal */}
-      <TripInquiryModal
-        isOpen={isModalOpen}
-        onClose={handleCloseModal}
-        tripTitle={selectedTrip}
-      />
     </div>
   );
 };
