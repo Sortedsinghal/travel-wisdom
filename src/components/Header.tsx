@@ -141,10 +141,10 @@ const Header = () => {
             <div onMouseLeave={() => setIsBackpackingOpen(false)}>
               <DropdownMenu open={isBackpackingOpen} onOpenChange={setIsBackpackingOpen}>
                 <DropdownMenuTrigger asChild onMouseEnter={() => setIsBackpackingOpen(true)}>
-                  <a href="#" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
+                  <Link to="/backpacking-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Backpacking Trips</span>
                     <ChevronDown className="h-4 w-12" />
-                  </a>
+                  </Link>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-[220px]">
                   {[

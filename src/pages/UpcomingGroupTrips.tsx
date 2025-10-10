@@ -787,6 +787,7 @@ const UpcomingGroupTrips = () => {
       imageUrl: '/trip/rajasthan.png',
       description: 'Explore the heritage of Rajasthan.',
     },
+
   ];
   const [selectedMonth, setSelectedMonth] = useState('All Months');
   const [selectedCategory, setSelectedCategory] = useState('All Trips');
@@ -794,6 +795,7 @@ const UpcomingGroupTrips = () => {
   const navigate = useNavigate();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedTrip, setSelectedTrip] = useState('');
+
 
   useEffect(() => {
     const month = searchParams.get('month');
@@ -825,6 +827,8 @@ const UpcomingGroupTrips = () => {
     setIsModalOpen(false);
     setSelectedTrip('');
   };
+
+
 
   return (
     <div className="min-h-screen bg-background">

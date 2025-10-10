@@ -14,6 +14,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
 import UpcomingGroupTrips from "./pages/UpcomingGroupTrips";
+import BackpackingTrips from "./pages/BackpackingTrips";
 
 const queryClient = new QueryClient();
 
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/upcoming-group-trips" element={<UpcomingGroupTrips />} />
           <Route path="/domestic-trips" element={<DomesticTrips />} />
           <Route path="/weekend-trips" element={<WeekendTrips />} />
+          <Route path="/backpacking-trips" element={<BackpackingTrips />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

@@ -1,7 +1,9 @@
-- [x] Remove the first duplicate "Why Choose Us Go4Explore?" section from src/pages/Index.tsx
-- [x] Remove the first <ContactForm /> component from src/pages/Index.tsx
-- [x] Restructure the conditional rendering in the remaining "Why Choose Us Go4Explore?" section to properly toggle full/partial text
-- [x] Ensure JSX is properly formed and syntax errors are resolved
-- [x] Run development server to verify the page loads without errors
-- [ ] Test the "View More"/"View Less" toggle functionality
-- [x] Move the "Let's Plan Your Next Trip" form (ContactForm) above the "Why Choose Us Go4Explore" section
+# TODO for Implementing Backpacking Trips Page
+
+- [ ] Create src/pages/BackpackingTrips.tsx with the page structure including Header, Footer, centered title "Backpacking Trips You ❤️", and a responsive grid of exactly 4 trip cards matching the provided images (using appropriate images from public/trip/, titles like "Leh 6 Nights Trip", prices, and buttons "Trip Details" and "Enquire Now").
+
+- [ ] Edit src/App.tsx to add import for BackpackingTrips and the new Route for path="/backpacking-trips".
+
+- [ ] Edit src/components/Header.tsx to update the "Backpacking Trips" dropdown trigger from <a href="#"> to <Link to="/backpacking-trips">.
+
+- [ ] Followup: Run `npm run dev` to start the dev server, verify the page loads at /backpacking-trips, the header link navigates correctly, and the cards render as expected. Use browser_action if needed to inspect.
