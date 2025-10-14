@@ -90,18 +90,18 @@ const Index = () => {
       <section
         className="rounded-lg max-w-7xl mx-auto text-left mt-10 mb-10 p-6 flex flex-col md:flex-row items-center"
         style={{
-          backgroundImage: "url('https://d2qa7a8q0vuocm.cloudfront.net/static/assets/backgrounds/yellow-paper-bg.webp')",
+          backgroundImage: "url('src/assets/blue-crumpled-bg.png')",
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
         }}
       >
         <div className="flex-1 text-center md:text-left mb-6 md:mb-0 px-6">
-          <div className="inline-block mb-4">
-            <img src="/customer-service.webp" alt="Contact Icon" className="w-30 h-30 mx-auto md:mx-0" />
+          <div className="inline-block mb-2">
+            <img src="/customer-service.png" alt="Contact Icon" className="mx-auto w-20 h-20" />
           </div>
-          <h3 className="text-2xl font-bold mb-2">Have Doubts? Talk To Our Travel Experts!</h3>
-          <p className="text-lg">
+          <h3 className="text-2xl font-bold mb-2 text-white">Have Doubts? Talk To Our Travel Experts!</h3>
+          <p className="text-lg text-white">
             we would <span className="text-red-700">❤️</span> to craft a trip just for you.
           </p>
         </div>

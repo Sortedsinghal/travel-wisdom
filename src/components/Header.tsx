@@ -161,10 +161,10 @@ const Header = () => {
             <div onMouseLeave={() => setIsInternationalOpen(false)}>
               <DropdownMenu open={isInternationalOpen} onOpenChange={setIsInternationalOpen}>
                 <DropdownMenuTrigger asChild onMouseEnter={() => setIsInternationalOpen(true)}>
-                  <a href="#" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
+                  <Link to="/international-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>International Trips</span>
                     <ChevronDown className="h-4 w-12" />
-                  </a>
+                  </Link>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-[220px]">
                   {internationalTrips.map((place) => (
@@ -173,9 +173,9 @@ const Header = () => {
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
-            <a href="#" className=" px-3 py-2 rounded transition-colors">
+            <Link to="/corporate-tours" className=" px-3 py-2 rounded transition-colors">
               <span>Corporate Tours</span>
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
