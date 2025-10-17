@@ -5,16 +5,13 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
 } from "@/components/ui/dropdown-menu";
-// Assuming you are using react-router-dom v6+
 import { Link } from "react-router-dom";
 import { Phone, User, ChevronDown } from "lucide-react";
 import NewCircleLogo from "@/assets/travel-wisdom-logo.png";
 
-// Helper function to create slugs (adjust if your routing needs differ)
 const createSlug = (text: string) => {
   return text.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
 };
-
 
 const Header = () => {
   const [isUpcomingOpen, setIsUpcomingOpen] = React.useState(false);
@@ -23,7 +20,6 @@ const Header = () => {
   const [isBackpackingOpen, setIsBackpackingOpen] = React.useState(false);
   const [isInternationalOpen, setIsInternationalOpen] = React.useState(false);
 
-  // Updated based on source HTML
   const upcomingTrips = [
     "October 2025",
     "November 2025",
@@ -33,44 +29,38 @@ const Header = () => {
     "March 2026",
   ];
 
-  // Updated based on source HTML
   const domesticTrips = [
     { name: "Himachal", path: "/himachal-pradesh" },
     { name: "Kashmir", path: "/kashmir" },
     { name: "Kerala", path: "/kerala" },
     { name: "Rajasthan", path: "/rajasthan" },
-    { name: "Uttarakhand", path: "/uttarakhand" }, // Assuming path based on others
+    { name: "Uttarakhand", path: "/uttarakhand" },
   ];
 
-  // Updated based on source HTML
   const weekendTripsList = [
-      { name: "Chopta Tungnath", path: "/trips/chopta-tungnath-deoriatal" }, // Path from source
-      { name: "Manali Sissu", path: "/trips/manali-sissu" }, // Path from source
-      { name: "Manali Sissu Kasol", path: "/trips/manali-sissu-kasol" }, // Path from source
-      { name: "Jibhi & Tirthan Valley", path: "/trips/jibhi-tirthan-valley" }, // Path from source
-      { name: "Kasol Kheerganga", path: "/trips/kasol-kheerganga-trek" }, // Path from source
-      { name: "Mcleodganj Triund", path: "/trips/mcleodganj-triund-trek" }, // Path from source
+    { name: "Chopta Tungnath", path: "/trips/chopta-tungnath-deoriatal" },
+    { name: "Manali Sissu", path: "/trips/manali-sissu" },
+    { name: "Manali Sissu Kasol", path: "/trips/manali-sissu-kasol" },
+    { name: "Jibhi & Tirthan Valley", path: "/trips/jibhi-tirthan-valley" },
+    { name: "Kasol Kheerganga", path: "/trips/kasol-kheerganga-trek" },
+    { name: "Mcleodganj Triund", path: "/trips/mcleodganj-triund-trek" },
   ];
 
-  // Updated based on source HTML
   const backpackingTripsList = [
-      { name: "Spiti Valley", path: "/spiti" }, // Path from source
-      { name: "Leh & Ladakh", path: "/leh-ladakh" }, // Path from source
-      { name: "Himachal Backpacking", path: "/himachal-backpacking-manali-kasol-jibhi" }, // Path from source
-      { name: "Meghalaya", path: "/meghalaya-backpacking" }, // Path from source
+    { name: "Spiti Valley", path: "/spiti" },
+    { name: "Leh & Ladakh", path: "/leh-ladakh" },
+    { name: "Himachal Backpacking", path: "/himachal-backpacking-manali-kasol-jibhi" },
+    { name: "Meghalaya", path: "/meghalaya-backpacking" },
   ];
 
-
-  // Updated based on source HTML (array was correct, added links)
   const internationalTripsList = [
     { name: "Vietnam", path: "/vietnam" },
     { name: "Thailand", path: "/thailand" },
-    { name: "Kazakhstan", path: "/kazakhstan" }, // Path from source
+    { name: "Kazakhstan", path: "/kazakhstan" },
     { name: "Bali", path: "/bali" },
     { name: "Dubai", path: "/dubai" },
-    { name: "Bhutan", path: "/bhutan" } // Path from source
+    { name: "Bhutan", path: "/bhutan" }
   ];
-
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
@@ -85,7 +75,9 @@ const Header = () => {
                 alt="Travel Wisdom Circle"
                 className="w-16 h-14 rounded-full mr-2.5 object-contain"
               />
-              <span className="text-2xl font-bold text-[#000000] tracking-wide" style={{ fontFamily: 'Outfit, sans-serif' }}>Travel Wisdom</span>
+              <span className="text-2xl font-bold text-[#000000] tracking-wide" style={{ fontFamily: 'Outfit, sans-serif' }}>
+                Travel Wisdom
+              </span>
             </Link>
 
             {/* Right section */}
@@ -101,7 +93,9 @@ const Header = () => {
               {/* Phone number */}
               <div className="flex items-center gap-2 text-gray-700">
                 <Phone className="h-4 w-4" />
-                <a href="tel:+919971545446" className="font-medium hover:text-[#0B3A55] transition-colors cursor-pointer">+91 9971545446</a>
+                <a href="tel:+919971545446" className="font-medium hover:text-[#0B3A55] transition-colors cursor-pointer">
+                  +91 9971545446
+                </a>
               </div>
 
               {/* User icon */}
@@ -171,9 +165,9 @@ const Header = () => {
                 <DropdownMenuContent className="w-[220px]">
                   {weekendTripsList.map((trip) => (
                     <DropdownMenuItem key={trip.name} asChild>
-                       <Link to={trip.path} className="flex justify-center w-full text-center"> {/* Added text-center */}
-                          {trip.name}
-                        </Link>
+                      <Link to={trip.path} className="flex justify-center w-full text-center">
+                        {trip.name}
+                      </Link>
                     </DropdownMenuItem>
                   ))}
                 </DropdownMenuContent>
@@ -186,19 +180,15 @@ const Header = () => {
                 <DropdownMenuTrigger asChild onMouseEnter={() => setIsBackpackingOpen(true)}>
                   <Link to="/backpacking-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Backpacking Trips</span>
-<<<<<<< Updated upstream
-                    <ChevronDown className="h-4 w-12" />
-=======
                     <ChevronDown className="h-4 w-4" />
->>>>>>> Stashed changes
                   </Link>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-[220px]">
                   {backpackingTripsList.map((trip) => (
                     <DropdownMenuItem key={trip.name} asChild>
-                      <Link to={trip.path} className="flex justify-center w-full text-center"> {/* Added text-center */}
-                          {trip.name}
-                        </Link>
+                      <Link to={trip.path} className="flex justify-center w-full text-center">
+                        {trip.name}
+                      </Link>
                     </DropdownMenuItem>
                   ))}
                 </DropdownMenuContent>
@@ -207,53 +197,29 @@ const Header = () => {
 
             {/* International Trips Dropdown */}
             <div onMouseLeave={() => setIsInternationalOpen(false)}>
-<<<<<<< Updated upstream
               <DropdownMenu open={isInternationalOpen} onOpenChange={setIsInternationalOpen}>
                 <DropdownMenuTrigger asChild onMouseEnter={() => setIsInternationalOpen(true)}>
                   <Link to="/international-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>International Trips</span>
-                    <ChevronDown className="h-4 w-12" />
+                    <ChevronDown className="h-4 w-4" />
                   </Link>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-[220px]">
-                  {internationalTrips.map((place) => (
-                    <DropdownMenuItem key={place} className="flex justify-center">{place}</DropdownMenuItem>
+                  {internationalTripsList.map((trip) => (
+                    <DropdownMenuItem key={trip.name} asChild>
+                      <Link to={trip.path} className="w-full flex justify-center">
+                        {trip.name}
+                      </Link>
+                    </DropdownMenuItem>
                   ))}
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
-            <Link to="/corporate-tours" className=" px-3 py-2 rounded transition-colors">
-              <span>Corporate Tours</span>
-            </Link>
-=======
-  <DropdownMenu open={isInternationalOpen} onOpenChange={setIsInternationalOpen}>
-    <DropdownMenuTrigger asChild onMouseEnter={() => setIsInternationalOpen(true)}>
-      <Link
-        to="/international-trips"
-        className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none"
-      >
-        <span>International Trips</span>
-        <ChevronDown className="h-4 w-4" />
-      </Link>
-    </DropdownMenuTrigger>
-    <DropdownMenuContent className="w-[220px]" align="start">
-      {internationalTripsList.map((trip) => (
-        <DropdownMenuItem key={trip.name} asChild>
-          <Link to={trip.path} className="w-full flex justify-center">
-            {trip.name}
-          </Link>
-        </DropdownMenuItem>
-      ))}
-    </DropdownMenuContent>
-  </DropdownMenu>
-</div>
 
             {/* Corporate Tours Link */}
-            <Link to="/corporate-tours" className="px-3 py-2 rounded transition-colors outline-none">
+            <Link to="/corporate-tours" className="px-3 py-2 rounded transition-colors hover:bg-white/10">
               Corporate Tours
             </Link>
-
->>>>>>> Stashed changes
           </nav>
         </div>
       </div>
