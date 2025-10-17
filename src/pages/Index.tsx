@@ -5,55 +5,30 @@ import TripCategories from "@/components/TripCategories";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import HowToPlanTrip from "@/components/HowToPlanTrip";
-import { Bed, Airplay, Mountain, Users, ThumbsUp, CreditCard, UserCheck } from 'lucide-react';
 import CollaborationsSlider from '@/components/CollaborationsSlider';
+import FeaturedTrips from "@/components/FeaturedTrips";
+import { Bed, Airplay, Mountain, Users, ThumbsUp, CreditCard, UserCheck } from 'lucide-react';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+// Data for the featured Himachal trips section
+const himachalTrips = [
+  { imageUrl: '/cloned_media/13464920240827063621.png', duration: '5 Days 4 Nights', title: 'Himachal Backpacking - Manali Kasol Jibhi', price: '₹12500', originalPrice: '₹14000', discount: '₹1,500' },
+  { imageUrl: '/cloned_media/5274820240826124530.png', duration: '3 Nights 4 Days', title: 'Manali Sissu Kasol', price: '₹8000', originalPrice: '₹10000', discount: '₹2,000' },
+  { imageUrl: '/cloned_media/22022520240827103638.png', duration: '5 Days 4 Nights', title: 'Manali Sissu Kasol Kheerganga', price: '₹12500', originalPrice: '₹14000', discount: '₹1,500' },
+  { imageUrl: '/cloned_media/28089820240827101831.png', duration: '4 Days 3 Nights', title: 'Manali Kasol Kheerganga', price: '₹9999' },
+];
 
 const reasons = [
-  {
-    icon: <Bed className="w-12  h-10 text-[#0B3A55]" />,
-    title: 'Handpicked Stays with Friendly Hosts',
-    description: 'All our accommodations are verified, pre-checked for quality and hygiene.',
-  },
-  {
-    icon: <Airplay className="w-12 h-10 text-[#0B3A55]" />,
-    title: '2500+ Trips Hosted PAN India & Abroad',
-    description: 'From group trips to custom tours exploring diverse landscapes, cultures & lots more.',
-  },
-  {
-    icon: <Mountain className="w-12 h-10 text-[#0B3A55]" />,
-    title: 'Solo Travel Friendly Trips for All',
-    description: 'We provide absolutely safe and comfortable environment for solo travellers.',
-  },
-  {
-    icon: <Mountain className="w-12 h-10 text-[#0B3A55]" />,
-    title: 'Trip Itineraries Curated with Love',
-    description: 'Trip plans handcrafted by destination experts for hassle-free travel experience.',
-  },
-  {
-    icon: <Users className="w-12 h-10 text-[#0B3A55]" />,
-    title: '8 Years of On-Ground Experience',
-    description: 'Being in Tourism industry for last 8 years, we put our heart in planning your trips.',
-  },
-  {
-    icon: <ThumbsUp className="w-12 h-10 text-[#0B3A55]" />,
-    title: 'Rated 4.8 Stars on Google Reviews',
-    description: 'Our growth lies in the memorable travel experiences we provide to our travellers.',
-  },
-  {
-    icon: <CreditCard className="w-12 h-10 text-[#0B3A55]" />,
-    title: 'Hassle-Free Booking Process',
-    description: 'Seamless booking process on all our trips with the help of our travel experts.',
-  },
-  {
-    icon: <Users className="w-12 h-10 text-[#0B3A55]" />,
-    title: 'Filtering Like-Minded Travellers',
-    description: 'We make sure to bring only like-minded travellers on basis of age, gender, comfort etc.',
-  },
-  {
-    icon: <UserCheck className="w-12 h-10 text-[#0B3A55]" />,
-    title: 'Experienced & Cool Trip Captains',
-    description: 'We appoint friendly trip leaders with strong leadership qualities & high spirit!',
-  },
+  { icon: <Bed className="w-12 h-10 text-[#0B3A55]" />, title: 'Handpicked Stays with Friendly Hosts', description: 'All our accommodations are verified, pre-checked for quality and hygiene.' },
+  { icon: <Airplay className="w-12 h-10 text-[#0B3A55]" />, title: '2500+ Trips Hosted PAN India & Abroad', description: 'From group trips to custom tours exploring diverse landscapes, cultures & lots more.' },
+  { icon: <Mountain className="w-12 h-10 text-[#0B3A55]" />, title: 'Solo Travel Friendly Trips for All', description: 'We provide absolutely safe and comfortable environment for solo travellers.' },
+  { icon: <Mountain className="w-12 h-10 text-[#0B3A55]" />, title: 'Trip Itineraries Curated with Love', description: 'Trip plans handcrafted by destination experts for hassle-free travel experience.' },
+  { icon: <Users className="w-12 h-10 text-[#0B3A55]" />, title: '8 Years of On-Ground Experience', description: 'Being in Tourism industry for last 8 years, we put our heart in planning your trips.' },
+  { icon: <ThumbsUp className="w-12 h-10 text-[#0B3A55]" />, title: 'Rated 4.8 Stars on Google Reviews', description: 'Our growth lies in the memorable travel experiences we provide to our travellers.' },
+  { icon: <CreditCard className="w-12 h-10 text-[#0B3A55]" />, title: 'Hassle-Free Booking Process', description: 'Seamless booking process on all our trips with the help of our travel experts.' },
+  { icon: <Users className="w-12 h-10 text-[#0B3A55]" />, title: 'Filtering Like-Minded Travellers', description: 'We make sure to bring only like-minded travellers on basis of age, gender, comfort etc.' },
+  { icon: <UserCheck className="w-12 h-10 text-[#0B3A55]" />, title: 'Experienced & Cool Trip Captains', description: 'We appoint friendly trip leaders with strong leadership qualities & high spirit!' },
 ];
 
 const Index = () => {
@@ -64,6 +39,13 @@ const Index = () => {
       <Header />
       <Hero />
       <TripCategories />
+
+      <FeaturedTrips 
+        title={<>Featured <span className="text-blue-700">Himachal</span> Trips</>}
+        trips={himachalTrips}
+        viewMoreLink="/himachal-pradesh"
+      />
+
       <HowToPlanTrip />
       <CollaborationsSlider />
       <section className="py-16 bg-background">

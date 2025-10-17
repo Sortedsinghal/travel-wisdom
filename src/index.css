@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick-theme.css";
 
 /* Travel Wisdom Design System - Ocean & Travel Inspired Colors */
 
@@ -8,114 +10,77 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 210 30% 8%;
-
     --card: 0 0% 100%;
     --card-foreground: 210 30% 8%;
-
     --popover: 0 0% 100%;
     --popover-foreground: 210 30% 8%;
-
-    /* Ocean Blue Brand Colors */
     --primary: 217 72% 47%;
     --primary-foreground: 0 0% 100%;
     --primary-light: 217 72% 62%;
     --primary-dark: 217 72% 32%;
-
-    /* Travel Gold Accents */
     --secondary: 38 85% 65%;
     --secondary-foreground: 210 30% 8%;
-
-    /* Neutral Ocean Tones */
     --muted: 210 15% 96%;
     --muted-foreground: 210 15% 45%;
-
     --accent: 195 100% 88%;
     --accent-foreground: 210 30% 8%;
-
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-
     --border: 210 20% 90%;
     --input: 210 20% 95%;
     --ring: 217 72% 47%;
-
-    /* Travel Specific Colors */
     --ocean-blue: 217 72% 47%;
     --ocean-light: 217 72% 62%;
     --tropical-gold: 38 85% 65%;
     --island-green: 160 75% 45%;
     --sunset-orange: 25 90% 60%;
-    
-    /* Gradients */
     --gradient-ocean: linear-gradient(135deg, hsl(217 72% 47%) 0%, hsl(217 72% 62%) 100%);
     --gradient-sunset: linear-gradient(135deg, hsl(25 90% 60%) 0%, hsl(38 85% 65%) 100%);
     --gradient-hero: linear-gradient(135deg, hsl(217 72% 47%) 0%, hsl(217 72% 62%) 50%, hsl(217 72% 47%) 100%);
-    
-    /* Shadows */
     --shadow-card: 0 4px 20px hsl(217 72% 47% / 0.1);
     --shadow-button: 0 4px 15px hsl(217 72% 47% / 0.2);
     --shadow-hero: 0 10px 40px hsl(217 72% 47% / 0.3);
-
     --radius: 0.5rem;
-
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
   .dark {
     --background: 210 50% 6%;
     --foreground: 0 0% 98%;
-
     --card: 210 50% 8%;
     --card-foreground: 0 0% 98%;
-
     --popover: 210 50% 8%;
     --popover-foreground: 0 0% 98%;
-
     --primary: 220 65% 55%;
     --primary-foreground: 0 0% 98%;
     --primary-light: 220 65% 70%;
     --primary-dark: 220 65% 35%;
-
     --secondary: 38 85% 70%;
     --secondary-foreground: 210 50% 6%;
-
     --muted: 210 30% 15%;
     --muted-foreground: 210 20% 70%;
-
     --accent: 195 100% 25%;
     --accent-foreground: 0 0% 98%;
-
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
-
     --border: 210 30% 20%;
     --input: 210 30% 18%;
     --ring: 220 65% 55%;
-
     --ocean-blue: 220 65% 55%;
     --ocean-light: 220 65% 70%;
     --tropical-gold: 38 85% 70%;
     --island-green: 160 75% 55%;
     --sunset-orange: 25 90% 70%;
-    
     --gradient-ocean: linear-gradient(135deg, hsl(220 65% 30%) 0%, hsl(220 65% 30%) 100%);
     --gradient-sunset: linear-gradient(135deg, hsl(25 90% 70%) 0%, hsl(38 85% 70%) 100%);
     --gradient-hero: linear-gradient(135deg, hsl(220 65% 30%) 0%, hsl(220 65% 30%) 50%, hsl(220 65% 30%) 100%);
-
     --shadow-card: 0 4px 20px hsl(210 50% 3% / 0.5);
     --shadow-button: 0 4px 15px hsl(220 65% 55% / 0.3);
     --shadow-hero: 0 10px 40px hsl(210 50% 3% / 0.6);
@@ -126,71 +91,54 @@
   * {
     @apply border-border;
   }
-
   body {
     @apply bg-background text-foreground font-sans;
   }
 }
 
-@layer components {
-  .hero-gradient {
-    background: var(--gradient-hero);
-  }
-  
-  .ocean-gradient {
-    background: var(--gradient-ocean);
-  }
-  
-  .sunset-gradient {
-    background: var(--gradient-sunset);
-  }
-  
-  .card-shadow {
-    box-shadow: var(--shadow-card);
-  }
-  
-  .button-shadow {
-    box-shadow: var(--shadow-button);
-  }
-  
-  .hero-shadow {
-    box-shadow: var(--shadow-hero);
-  }
+/* === UPDATED SLIDER STYLES === */
+.slick-arrow.slick-arrow-custom {
+  width: 40px;
+  height: 40px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background-color: #0B3A55; /* Solid brand color */
+  border-radius: 50%;
+  z-index: 20; /* High z-index to appear above images */
+  position: absolute;
+  top: 40%; /* Positioned relative to the card image height */
+  transition: all 0.2s ease-in-out;
 }
-
-@layer utilities {
-  .text-ocean {
-    color: hsl(var(--ocean-blue));
-  }
-
-  .text-tropical {
-    color: hsl(var(--tropical-gold));
-  }
-
-  .bg-ocean {
-    background-color: hsl(var(--ocean-blue));
-  }
-
-  .bg-tropical {
-    background-color: hsl(var(--tropical-gold));
-  }
-
-  .animate-slide-up {
-    animation: slideUp 3s ease-in-out;
-  }
-
-  @keyframes slideUp {
-    0% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-    50% {
-      transform: translateY(-30px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
+.slick-arrow.slick-arrow-custom:hover {
+  background-color: #0A2E44; /* Darker blue on hover */
+  transform: scale(1.1);
+}
+.slick-prev.slick-arrow-custom {
+  left: 0;
+  transform: translate(-50%, -50%); /* Position arrow halfway over the edge */
+}
+.slick-next.slick-arrow-custom {
+  right: 0;
+  transform: translate(50%, -50%); /* Position arrow halfway over the edge */
+}
+.slick-disabled.slick-arrow-custom {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+.slick-dots {
+  bottom: -15px;
+}
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #d1d5db; /* Lighter gray for inactive dots */
+  opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+  color: #0B3A55; /* Your primary blue */
+}
+@media (max-width: 768px) {
+  .slick-arrow-custom {
+    display: none !important;
   }
 }
