@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search, MapPin, Mic, MicOff } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
+import { allTrips } from "@/data/trips";
+import { useNavigate } from "react-router-dom";
 
 declare global {
   interface Window {
@@ -86,10 +88,48 @@ const Hero = () => {
     setSearchQuery(""); // reset search input on tab change
   };
 
+  const navigate = useNavigate();
+
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Implement search logic here based on activeTab and searchQuery
-    alert(`Searching for "${searchQuery}" in ${activeTab === "tripPackages" ? "Trip Packages" : "Travel Guides"}`);
+    if (!searchQuery.trim()) return;
+
+    if (activeTab === "tripPackages") {
+      // Search through trips
+      const filteredTrips = allTrips.filter(trip => 
+        trip.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        trip.destination.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        trip.overview.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+
+      // Navigate to search results or specific destination
+      const query = searchQuery.toLowerCase();
+      if (query.includes('dubai')) navigate('/dubai');
+      else if (query.includes('rajasthan')) navigate('/rajasthan');
+      else if (query.includes('kerala')) navigate('/kerala');
+      else if (query.includes('bhutan')) navigate('/bhutan');
+      else if (query.includes('leh') || query.includes('ladakh')) navigate('/leh-ladakh');
+      else if (query.includes('bali')) navigate('/bali');
+      else if (query.includes('kazakhstan')) navigate('/kazakhstan');
+      else if (query.includes('himachal') || query.includes('manali') || query.includes('shimla')) navigate('/himachal-pradesh');
+      else if (query.includes('kashmir')) navigate('/kashmir');
+      else if (query.includes('spiti')) navigate('/spiti');
+      else if (query.includes('uttarakhand') || query.includes('rishikesh')) navigate('/uttarakhand');
+      else if (query.includes('thailand')) navigate('/thailand');
+      else if (query.includes('vietnam')) navigate('/vietnam');
+      else if (query.includes('domestic')) navigate('/domestic-trips');
+      else if (query.includes('international')) navigate('/international-trips');
+      else if (query.includes('backpack')) navigate('/backpacking-trips');
+      else if (query.includes('weekend')) navigate('/weekend-trips');
+      else if (query.includes('corporate')) navigate('/corporate-tours');
+      else {
+        // Default to domestic trips if no specific match
+        navigate('/domestic-trips');
+      }
+    } else {
+      // For travel guides, navigate to blogs
+      navigate('/blogs');
+    }
   };
 
   return (

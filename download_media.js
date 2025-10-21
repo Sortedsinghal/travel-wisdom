@@ -8,12 +8,22 @@ import { fileURLToPath } from 'url';
 // --- Configuration ---
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const SOURCE_HTML_FILE = path.join(__dirname, 'source.html');
+const TARGET_URL = 'https://go4explore.com/blogs';
 const OUTPUT_DIR = path.join(__dirname, 'public', 'cloned_media');
 // ---------------------
 
-async function downloadAsset(url, filepath) {
-    const absoluteUrl = url.startsWith('http') ? url : `https:${url.startsWith('//') ? url : `//${url}`}`;
+async function downloadAsset(url, filepath, baseUrl) {
+    let absoluteUrl;
+    if (url.startsWith('http')) {
+        absoluteUrl = url;
+    } else if (url.startsWith('//')) {
+        absoluteUrl = `https:${url}`;
+    } else if (url.startsWith('/')) {
+        absoluteUrl = new URL(url, baseUrl).href;
+    } else {
+        absoluteUrl = new URL(url, baseUrl).href;
+    }
+    
     try {
         const response = await axios({ url: absoluteUrl, method: 'GET', responseType: 'stream' });
         const writer = fs.createWriteStream(filepath);
@@ -28,32 +38,62 @@ async function downloadAsset(url, filepath) {
 }
 
 async function main() {
-    console.log('🚀 Starting media download...');
-    if (!fs.existsSync(SOURCE_HTML_FILE)) {
-        console.error(`Error: Create source.html file in the root directory first.`);
-        return;
-    }
+    console.log(`🚀 Starting media download from ${TARGET_URL}...`);
+    
     if (!fs.existsSync(OUTPUT_DIR)) {
         fs.mkdirSync(OUTPUT_DIR, { recursive: true });
     }
 
-    const html = fs.readFileSync(SOURCE_HTML_FILE, 'utf-8');
-    const $ = cheerio.load(html);
-    const sources = new Set();
+    try {
+        // Fetch the webpage
+        console.log('📥 Fetching webpage...');
+        const response = await axios.get(TARGET_URL);
+        const html = response.data;
+        const $ = cheerio.load(html);
+        const sources = new Set();
 
-    $('img').each((i, img) => {
-        const src = $(img).attr('src');
-        if (src && !src.startsWith('data:')) sources.add(src);
-    });
+        // Extract images
+        $('img').each((i, img) => {
+            const src = $(img).attr('src');
+            if (src && !src.startsWith('data:')) sources.add(src);
+        });
 
-    console.log(`Found ${sources.size} unique images.`);
-    for (const src of sources) {
-        const filename = path.basename(new URL(src, 'https://example.com').pathname);
-        const localPath = path.join(OUTPUT_DIR, filename);
-        console.log(`Downloading ${src} -> ${localPath}`);
-        await downloadAsset(src, localPath);
+        // Extract CSS files
+        $('link[rel="stylesheet"]').each((i, link) => {
+            const href = $(link).attr('href');
+            if (href) sources.add(href);
+        });
+
+        // Extract JS files
+        $('script[src]').each((i, script) => {
+            const src = $(script).attr('src');
+            if (src) sources.add(src);
+        });
+
+        // Extract videos
+        $('video source, video').each((i, video) => {
+            const src = $(video).attr('src');
+            if (src) sources.add(src);
+        });
+
+        console.log(`Found ${sources.size} unique assets.`);
+        
+        for (const src of sources) {
+            try {
+                const url = new URL(src, TARGET_URL);
+                const filename = path.basename(url.pathname) || 'index.html';
+                const localPath = path.join(OUTPUT_DIR, filename);
+                console.log(`Downloading ${src} -> ${filename}`);
+                await downloadAsset(src, localPath, TARGET_URL);
+            } catch (error) {
+                console.error(`Skipping invalid URL: ${src}`);
+            }
+        }
+        
+        console.log('\n✅ All media downloaded successfully to /public/cloned_media');
+    } catch (error) {
+        console.error(`Error fetching webpage: ${error.message}`);
     }
-    console.log('\n✅ All media downloaded successfully to /public/cloned_media');
 }
 
 main();

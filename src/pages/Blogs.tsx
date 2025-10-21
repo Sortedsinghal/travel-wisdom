@@ -1,260 +1,213 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
-import { Search, Calendar, User, ArrowRight } from "lucide-react";
+import React from 'react';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import ContactForm from '@/components/ContactForm'; // Assuming this component exists
+import { Search, ChevronRight, Calendar, User } from 'lucide-react';
 
-const Blogs = () => {
-  const featuredPost = {
-    id: 1,
-    title: "Exploring the Hidden Gems of Himachal Pradesh",
-    excerpt: "Discover the lesser-known trails and serene valleys that make Himachal Pradesh a backpacker's paradise. From ancient temples to pristine lakes, this comprehensive guide covers everything you need to know.",
-    image: "/experience.png",
-    author: "Rajesh Kumar",
-    date: "December 15, 2024",
-    category: "Destinations",
-    readTime: "8 min read"
-  };
-
-  const blogPosts = [
+// --- DUMMY DATA FOR BLOG POSTS ---
+const dummyBlogs = [
     {
-      id: 2,
-      title: "A Complete Guide to Backpacking in Ladakh",
-      excerpt: "Everything you need to know about planning your Ladakh backpacking trip, from permits to packing essentials.",
-      image: "/travelers.png",
-      author: "Priya Sharma",
-      date: "December 12, 2024",
-      category: "Backpacking",
-      readTime: "6 min read"
+        id: 1,
+        title: '7 Must-Visit Hidden Gems in Himachal Pradesh',
+        excerpt: 'Discover the most tranquil and offbeat locations in the ' +
+                 'Land of Gods, perfect for a peaceful solo trip or a family getaway.',
+        imageUrl: '/trip/himachal.png', 
+        category: 'Himachal Trips',
+        date: 'Oct 15, 2025',
+        author: 'Jony Jindal',
+        link: '/blogs/hidden-gems-himachal'
     },
     {
-      id: 3,
-      title: "Sustainable Tourism: How We're Making Travel Greener",
-      excerpt: "Learn about our commitment to eco-friendly travel practices and how you can contribute to responsible tourism.",
-      image: "/experience.png",
-      author: "Amit Singh",
-      date: "December 10, 2024",
-      category: "Sustainability",
-      readTime: "5 min read"
+        id: 2,
+        title: 'A Solo Traveler\'s Guide to Trekking in the Himalayas',
+        excerpt: 'Everything you need to know before embarking on your first solo ' +
+                 'trek: gear, safety, and the best routes for beginners.',
+        imageUrl: '/trip/himalayas.jpg', 
+        category: 'Trekking & Adventure',
+        date: 'Sep 28, 2025',
+        author: 'Priyanka Jindal',
+        link: '/blogs/solo-trekking-guide'
     },
     {
-      id: 4,
-      title: "Top 10 Weekend Getaways from Delhi",
-      excerpt: "Perfect short trips for urban dwellers looking to escape the city chaos and rejuvenate in nature.",
-      image: "/destinations.png",
-      author: "Travel Wisdom Team",
-      date: "December 8, 2024",
-      category: "Weekend Trips",
-      readTime: "4 min read"
+        id: 3,
+        title: 'Top 5 International Destinations for Backpackers in 2026',
+        excerpt: 'Planning to travel abroad on a budget? Here are the top 5 ' +
+                 'must-see countries offering the best value for adventurous travelers.',
+        imageUrl: '/cloned_media/23958420231018151140.png', 
+        category: 'International',
+        date: 'Sep 10, 2025',
+        author: 'Sahil Singh',
+        link: '/blogs/top-5-international'
     },
     {
-      id: 5,
-      title: "Cultural Immersion: Experiencing Local Festivals",
-      excerpt: "How participating in local festivals can deepen your travel experience and create unforgettable memories.",
-      image: "/experience.png",
-      author: "Rajesh Kumar",
-      date: "December 5, 2024",
-      category: "Culture",
-      readTime: "7 min read"
+        id: 4,
+        title: 'The Ultimate Guide to Spiti Valley Winter Expedition',
+        excerpt: 'Tips, itinerary, and essential permits for tackling the harsh ' +
+                 'yet beautiful Spiti Valley in the winter season.',
+        imageUrl: '/trip/winterspiti.png', 
+        category: 'Backpacking',
+        date: 'Aug 20, 2025',
+        author: 'Amit Aggarwal',
+        link: '/blogs/spiti-winter-guide'
     },
     {
-      id: 6,
-      title: "Solo Female Travel: Safety Tips and Best Practices",
-      excerpt: "Essential safety guidelines and tips for women traveling solo in India and abroad.",
-      image: "/travelers.png",
-      author: "Priya Sharma",
-      date: "December 3, 2024",
-      category: "Travel Tips",
-      readTime: "6 min read"
+        id: 5,
+        title: 'Romantic Getaways: Kashmir vs. Kerala for Honeymoon Tours',
+        excerpt: 'A detailed comparison to help you choose the perfect romantic ' +
+                 'destination in India for your unforgettable honeymoon.',
+        imageUrl: '/trip/kerala.png', 
+        category: 'Honeymoon Tours',
+        date: 'Aug 05, 2025',
+        author: 'Tanya Kochhar',
+        link: '/blogs/kashmir-vs-kerala'
     },
     {
-      id: 7,
-      title: "The Magic of Spiti Valley: A Photographer's Paradise",
-      excerpt: "Capturing the breathtaking landscapes and unique culture of Spiti through the lens of a travel photographer.",
-      image: "/destinations.png",
-      author: "Amit Singh",
-      date: "December 1, 2024",
-      category: "Photography",
-      readTime: "5 min read"
-    }
-  ];
+        id: 6,
+        title: 'Best Practices for Corporate Team Building Retreats',
+        excerpt: 'Maximize productivity and collaboration with these proven strategies for planning successful corporate travel.',
+        imageUrl: '/trip/dodhamyatra.png', 
+        category: 'Corporate Tours',
+        date: 'Jul 22, 2025',
+        author: 'Pankaj Verma',
+        link: '/blogs/corporate-retreats'
+    },
+];
 
-  const categories = [
-    { name: "Destinations", count: 12 },
-    { name: "Backpacking", count: 8 },
-    { name: "Travel Tips", count: 15 },
-    { name: "Culture", count: 6 },
-    { name: "Sustainability", count: 4 },
-    { name: "Weekend Trips", count: 9 },
-    { name: "Photography", count: 5 }
-  ];
+const categories = [
+    'Himachal Trips', 'Trekking & Adventure', 'International',
+    'Backpacking', 'Honeymoon Tours', 'Corporate Tours',
+    'Weekend Trips', 'Custom Packages'
+];
 
-  const recentPosts = [
-    { title: "Monsoon Trekking in the Western Ghats", date: "Nov 28, 2024" },
-    { title: "Homestays: Authentic Rural Experiences", date: "Nov 25, 2024" },
-    { title: "Budget Travel Hacks for Long Trips", date: "Nov 22, 2024" },
-    { title: "Wildlife Safaris in India", date: "Nov 20, 2024" }
-  ];
+// --- Local Components for Blogs Page ---
 
-  return (
-    <div className="min-h-screen bg-background">
-      <Header />
-
-      {/* Main Content */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-4 gap-8">
-            {/* Main Content */}
-            <div className="lg:col-span-3">
-              {/* Featured Post */}
-              <div className="mb-12">
-                <h2 className="text-2xl font-bold mb-6 text-gray-900">Featured Post</h2>
-                <Card className="overflow-hidden">
-                  <div className="md:flex">
-                    <div className="md:w-1/2">
-                      <img
-                        src={featuredPost.image}
-                        alt={featuredPost.title}
-                        className="w-full h-64 md:h-full object-cover"
-                      />
-                    </div>
-                    <div className="md:w-1/2 p-6">
-                      <Badge className="mb-3">{featuredPost.category}</Badge>
-                      <h3 className="text-2xl font-bold mb-3 text-gray-900">{featuredPost.title}</h3>
-                      <p className="text-gray-600 mb-4">{featuredPost.excerpt}</p>
-                      <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
-                        <div className="flex items-center gap-1">
-                          <User className="h-4 w-4" />
-                          {featuredPost.author}
-                        </div>
-                        <div className="flex items-center gap-1">
-                          <Calendar className="h-4 w-4" />
-                          {featuredPost.date}
-                        </div>
-                        <span>{featuredPost.readTime}</span>
-                      </div>
-                      <Button className="bg-blue-600 hover:bg-blue-700">
-                        Read More <ArrowRight className="ml-2 h-4 w-4" />
-                      </Button>
-                    </div>
-                  </div>
-                </Card>
-              </div>
-
-              {/* Recent Posts */}
-              <div>
-                <h2 className="text-2xl font-bold mb-6 text-gray-900">Recent Posts</h2>
-                <div className="grid md:grid-cols-2 gap-6">
-                  {blogPosts.map((post) => (
-                    <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-shadow">
-                      <img
-                        src={post.image}
-                        alt={post.title}
-                        className="w-full h-48 object-cover"
-                      />
-                      <CardContent className="p-6">
-                        <Badge className="mb-3">{post.category}</Badge>
-                        <h3 className="text-xl font-semibold mb-3 text-gray-900">{post.title}</h3>
-                        <p className="text-gray-600 mb-4">{post.excerpt}</p>
-                        <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
-                          <div className="flex items-center gap-1">
-                            <User className="h-4 w-4" />
-                            {post.author}
-                          </div>
-                          <div className="flex items-center gap-1">
-                            <Calendar className="h-4 w-4" />
-                            {post.date}
-                          </div>
-                        </div>
-                        <Button variant="outline" size="sm">
-                          Read More <ArrowRight className="ml-2 h-3 w-3" />
-                        </Button>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </div>
-              </div>
+const BlogHeader = () => {
+    return (
+        <div className="w-full h-80 bg-[#0B3A55] flex items-center justify-center relative overflow-hidden">
+            <div className="absolute inset-0 bg-pattern-blogs opacity-10" style={{backgroundImage: 'url(/cloned_media/bg-pattern.png)'}}></div>
+            <div className="z-10 text-center px-4">
+                <h1 className="text-white text-5xl md:text-6xl font-extrabold mb-3">Our Travel Blogs</h1>
+                <p className="text-blue-200 text-lg">Tips, guides, and inspiration for your next adventure.</p>
             </div>
-
-            {/* Sidebar */}
-            <div className="lg:col-span-1">
-              {/* Search */}
-              <Card className="mb-6">
-                <CardHeader>
-                  <CardTitle>Search</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="relative">
-                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
-                    <Input
-                      placeholder="Search blogs..."
-                      className="pl-10"
-                    />
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* Categories */}
-              <Card className="mb-6">
-                <CardHeader>
-                  <CardTitle>Categories</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-2">
-                    {categories.map((category) => (
-                      <div key={category.name} className="flex justify-between items-center hover:bg-gray-50 p-2 rounded cursor-pointer">
-                        <span className="text-gray-700">{category.name}</span>
-                        <Badge variant="secondary">{category.count}</Badge>
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* Recent Posts */}
-              <Card className="mb-6">
-                <CardHeader>
-                  <CardTitle>Recent Posts</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-4">
-                    {recentPosts.map((post, index) => (
-                      <div key={index} className="border-b border-gray-100 pb-3 last:border-b-0">
-                        <h4 className="font-medium text-gray-900 mb-1 hover:text-blue-600 cursor-pointer">
-                          {post.title}
-                        </h4>
-                        <p className="text-sm text-gray-500">{post.date}</p>
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* Newsletter Signup */}
-              <Card>
-                <CardHeader>
-                  <CardTitle>Stay Updated</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-600 mb-4">
-                    Subscribe to our newsletter for the latest travel tips and destination guides.
-                  </p>
-                  <Input placeholder="Your email" className="mb-3" />
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700">
-                    Subscribe
-                  </Button>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
         </div>
-      </section>
+    );
+}
 
-      <Footer />
-    </div>
-  );
+const BlogCard = ({ blog }) => (
+    <a href={blog.link} className="block group border rounded-xl overflow-hidden shadow-md transition-all duration-300 hover:shadow-xl hover:scale-[1.02] bg-white">
+        <div className="relative">
+            <img 
+                src={blog.imageUrl} 
+                alt={blog.title} 
+                className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+            />
+            <span className="absolute top-3 left-3 bg-[#0B3A55] text-white text-xs font-semibold px-3 py-1 rounded-full">{blog.category}</span>
+        </div>
+        <div className="p-5">
+            <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#0B3A55] transition-colors duration-200 line-clamp-2">{blog.title}</h3>
+            <p className="text-gray-600 text-sm mb-4 line-clamp-3">{blog.excerpt}</p>
+            <div className="flex justify-between text-xs text-gray-500 border-t pt-3">
+                <span className="flex items-center">
+                    <Calendar className="w-3 h-3 mr-1 text-[#0B3A55]" />
+                    {blog.date}
+                </span>
+                <span className="flex items-center">
+                    <User className="w-3 h-3 mr-1 text-[#0B3A55]" />
+                    {blog.author}
+                </span>
+            </div>
+        </div>
+    </a>
+);
+
+const BlogSidebar = () => {
+    return (
+        <aside className="space-y-8 lg:sticky lg:top-24">
+            {/* Search Bar */}
+            <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">Search Blogs</h3>
+                <div className="relative">
+                    <input 
+                        type="text" 
+                        placeholder="Search posts..." 
+                        className="w-full p-3 pl-10 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B3A55] focus:border-[#0B3A55]"
+                    />
+                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
+                </div>
+            </div>
+
+            {/* Categories List */}
+            <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-4 text-gray-800">Categories</h3>
+                <ul className="space-y-3">
+                    {categories.map((category, index) => (
+                        <li key={index}>
+                            <a 
+                                href={`/blogs/category/${category.toLowerCase().replace(/\s/g, '-')}`} 
+                                className="flex justify-between items-center text-gray-600 hover:text-[#0B3A55] transition-colors duration-200 text-sm font-medium p-1 -m-1"
+                            >
+                                {category}
+                                <ChevronRight className="w-4 h-4 text-[#0B3A55]" />
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+
+            {/* Contact Form for Enquiry */}
+            <div className="border bg-[#0B3A55] p-6 rounded-2xl shadow-xl">
+                <h3 className="text-xl font-semibold text-center mb-1 text-white">Let's plan your next trip</h3>
+                <p className="text-center text-sm text-blue-100 mb-6">Make your move, fill out your details now!</p>
+                {/* ContactForm is an assumed external component */}
+                <ContactForm /> 
+            </div>
+        </aside>
+    );
+}
+
+// --- MAIN BLOGS PAGE COMPONENT ---
+const Blogs = () => {
+    return (
+        <div className="bg-gray-50 min-h-screen flex flex-col">
+            <Header />
+            <main className="flex-grow">
+                <BlogHeader />
+                
+                <section className="container mx-auto px-4 py-12 md:py-16">
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                        
+                        {/* Blog Post List (8 columns) */}
+                        <div className="lg:col-span-8 space-y-8">
+                            <h2 className="text-3xl font-bold text-gray-800 border-b-2 pb-4 mb-4">Latest Articles 📖</h2>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                {dummyBlogs.map(blog => (
+                                    <BlogCard key={blog.id} blog={blog} />
+                                ))}
+                            </div>
+                            
+                            {/* Simple Pagination Placeholder */}
+                            <div className="flex justify-center pt-8">
+                                <nav className="inline-flex rounded-md shadow-sm -space-x-px" aria-label="Pagination">
+                                    <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-l-md text-gray-700 bg-white hover:bg-gray-50">Previous</a>
+                                    {/* Active page matches theme color */}
+                                    <a href="#" aria-current="page" className="relative inline-flex items-center px-4 py-2 border border-[#0B3A55] text-sm font-semibold text-white bg-[#0B3A55] hover:bg-[#0B3A55]">1</a>
+                                    <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">2</a>
+                                    <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">3</a>
+                                    <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-r-md text-gray-700 bg-white hover:bg-gray-50">Next</a>
+                                </nav>
+                            </div>
+                        </div>
+
+                        {/* Sidebar (4 columns) */}
+                        <div className="lg:col-span-4">
+                            <BlogSidebar />
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <Footer />
+        </div>
+    );
 };
 
 export default Blogs;
