@@ -23,6 +23,8 @@ import Dubai from './pages/Dubai';
 import Bhutan from './pages/Bhutan';
 import Spiti from './pages/Spiti';
 import LehLadakh from './pages/LehLadakh';
+import HimachalBackpacking from './pages/HimachalBackpacking';
+import MeghalayaBackpacking from './pages/MeghalayaBackpacking';
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
@@ -31,6 +33,9 @@ import WeekendTrips from "./pages/WeekendTrips";
 import BackpackingTrips from "./pages/BackpackingTrips";
 import InternationalTrips from "./pages/InternationalTrips";
 import CorporateTours from "./pages/CorporateTours";
+
+// 1. IMPORT THE NEW TRIP DETAIL PAGE COMPONENT (You'll create this file next)
+import TripDetailPage from "./pages/TripDetailPage";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +46,7 @@ const App = () => (
       <Sonner />
       <Router>
         <Routes>
+          {/* --- Existing Static Routes --- */}
           <Route path="/" element={<Index />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/blogs" element={<Blogs />} />
@@ -60,6 +66,8 @@ const App = () => (
           <Route path="/bhutan" element={<Bhutan />} />
           <Route path="/spiti" element={<Spiti />} />
           <Route path="/leh-ladakh" element={<LehLadakh />} />
+          <Route path="/himachal-backpacking" element={<HimachalBackpacking />} />
+          <Route path="/meghalaya-backpacking" element={<MeghalayaBackpacking />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/upcoming-group-trips" element={<UpcomingGroupTrips />} />
@@ -67,6 +75,11 @@ const App = () => (
           <Route path="/backpacking-trips" element={<BackpackingTrips />} />
           <Route path="/international-trips" element={<InternationalTrips />} />
           <Route path="/corporate-tours" element={<CorporateTours />} />
+
+          {/* 2. ADD THE DYNAMIC ROUTE FOR TRIP DETAILS */}
+          <Route path="/trip/:tripSlug" element={<TripDetailPage />} />
+
+          {/* --- Catch-all 404 Route --- */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>

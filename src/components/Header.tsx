@@ -49,7 +49,7 @@ const Header = () => {
   const backpackingTripsList = [
     { name: "Spiti Valley", path: "/spiti" },
     { name: "Leh & Ladakh", path: "/leh-ladakh" },
-    { name: "Himachal Backpacking", path: "/himachal-backpacking-manali-kasol-jibhi" },
+    { name: "Himachal Backpacking", path: "/himachal-backpacking" },
     { name: "Meghalaya", path: "/meghalaya-backpacking" },
   ];
 
