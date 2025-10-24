@@ -40,16 +40,16 @@ const Footer = () => {
     ];
     const backpackingTrips = [
         { name: "Spiti Valley", href: "/spiti" },
-        { name: "Leh & Ladakh", href: "/trip/leh-ladakh-tour-packages" },
-        { name: "Himachal Backpacking", href: "/trips/himachal-backpacking-manali-kasol-jibhi" },
-        { name: "Meghalaya", href: "/trips/meghalaya-backpacking" }
+        { name: "Leh & Ladakh", href: "/leh-ladakh" },
+        { name: "Himachal Backpacking", href: "/himachal-backpacking" },
+        { name: "Meghalaya", href: "/meghalaya-backpacking" }
     ];
     const domesticTrips = [
-        { name: "Himachal", href: "/trip/himachal-backpacking" },
-        { name: "Kashmir", href: "/trip/kashmir" },
-        { name: "Kerala", href: "/trip/kerala" },
-        { name: "Rajasthan", href: "/trip/rajasthan" },
-        { name: "Uttarakhand", href: "/trip/uttarakhand-tour-packages" }
+        { name: "Himachal", href: "/himachal-pradesh" },
+        { name: "Kashmir", href: "/kashmir" },
+        { name: "Kerala", href: "/kerala" },
+        { name: "Rajasthan", href: "/rajasthan" },
+        { name: "Uttarakhand", href: "/uttarakhand" }
     ];
     const contactPhone = "+91-9917545446";
     const contactEmail = "info@travelwisdom.in";

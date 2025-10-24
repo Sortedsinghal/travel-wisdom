@@ -30,7 +30,7 @@ const HowToPlanTrip = () => {
       <div className="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-16 max-w-8xl mx-auto">
         {steps.map((step, index) => (
           <div key={index} className="relative flex justify-center items-center rounded-lg shadow-lg overflow-hidden" style={{height: '300px', width: '110%'}}>
-            <img src={step.imageUrl} alt={step.title} className="absolute inset-0 w-full h-full object-cover rounded-lg z-50" />
+            <img src={step.imageUrl} alt={step.title} className="absolute inset-0 w-full h-full object-cover rounded-lg z-10" />
             <div className="absolute inset-0 bg-yellow-400 opacity-0 rounded-lg z-20"></div>
           </div>
         ))}
