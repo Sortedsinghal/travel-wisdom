@@ -1,5 +1,6 @@
 import { Instagram, Youtube, Linkedin, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import TravelWisdomLogo from "@/travel-wisdom-logo.png";
 import PaymentMode from "@/assets/paymentmode.webp";
 
@@ -11,12 +12,9 @@ const Footer = () => {
     
     // Links content derived from the provided HTML
     const companyLinks = [
-        { name: "About us", href: "/aboutus" },
+        { name: "About us", href: "/about-us" },
         { name: "Contact us", href: "/contact-us" },
-        { name: "Career With us", href: "/careers" },
-        { name: "Our Blogs", href: "/blogs" },
-        { name: "Forums", href: "/forum" },
-        { name: "Extra Care", href: "/extra-care" }
+        { name: "Our Blogs", href: "/Blogs" },
     ];
     const weekendTrips = [
         { name: "Chopta Tungnath", href: "/trips/chopta-tungnath-deoriatal" },
@@ -27,12 +25,12 @@ const Footer = () => {
         { name: "Mcleodganj Triund", href: "/trips/mcleodganj-triund-trek" }
     ];
     const internationalTrips = [
-        { name: "Vietnam", href: "/trip/vietnam" },
-        { name: "Thailand", href: "/trip/thailand" },
-        { name: "Kazakhstan", href: "/trip/kazakhstan-tour-packages" },
-        { name: "Bali", href: "/trip/bali" },
-        { name: "Dubai", href: "/trip/dubai" },
-        { name: "Bhutan", href: "/trip/bhutan-tour-packages" }
+        { name: "Vietnam", href: "/vietnam" },
+        { name: "Thailand", href: "/thailand" },
+        { name: "Kazakhstan", href: "/kazakhstan" },
+        { name: "Bali", href: "/bali" },
+        { name: "Dubai", href: "/dubai" },
+        { name: "Bhutan", href: "/bhutan" }
     ];
     const quickLinks = [
         { name: "Privacy Policy", href: "/privacy-policy" },
@@ -41,13 +39,13 @@ const Footer = () => {
         { name: "Reviews", href: "/reviews" }
     ];
     const backpackingTrips = [
-        { name: "Spiti Valley", href: "/trip/spiti-valley-tour-packages" },
+        { name: "Spiti Valley", href: "/spiti" },
         { name: "Leh & Ladakh", href: "/trip/leh-ladakh-tour-packages" },
         { name: "Himachal Backpacking", href: "/trips/himachal-backpacking-manali-kasol-jibhi" },
         { name: "Meghalaya", href: "/trips/meghalaya-backpacking" }
     ];
     const domesticTrips = [
-        { name: "Himachal", href: "/trip/himachal-pradesh-tour-packages" },
+        { name: "Himachal", href: "/trip/himachal-backpacking" },
         { name: "Kashmir", href: "/trip/kashmir" },
         { name: "Kerala", href: "/trip/kerala" },
         { name: "Rajasthan", href: "/trip/rajasthan" },
@@ -63,9 +61,9 @@ const Footer = () => {
             <ul className="space-y-2 text-primary-foreground/80">
                 {links.map((link, index) => (
                     <li key={index}>
-                        <a href={link.href} className="text-sm hover:text-white transition-colors">
+                        <Link to={link.href} className="text-sm hover:text-white transition-colors">
                             {link.name}
-                        </a>
+                        </Link>
                     </li>
                 ))}
             </ul>
@@ -79,9 +77,9 @@ const Footer = () => {
             <ul className="space-y-2 text-primary-foreground/80">
                 {links.map((link, index) => (
                     <li key={index}>
-                        <a href={link.href} className="text-sm hover:text-white transition-colors block">
+                        <Link to={link.href} className="text-sm hover:text-white transition-colors block">
                             {link.name}
-                        </a>
+                        </Link>
                     </li>
                 ))}
             </ul>

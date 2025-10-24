@@ -133,6 +133,33 @@ const Index = () => {
         )}
     </section>
       <Footer />
+      
+      {/* Floating Action Buttons */}
+      <div className="fixed bottom-6 right-2 z-50 flex flex-col space-y-1">
+        {/* Send Query Button */}
+        <a
+          href="/contact-us"
+        >
+          <img src="/send_query.png" alt="Send Query" className="w-16 h-16" />
+        </a>
+        
+        {/* Call Us Button */}
+        <a
+          href="tel:+919971545446"
+          
+        >
+          <img src="/callus.png" alt="Call Us" className="w-16 h-16" />
+        </a>
+        
+        {/* WhatsApp Button */}
+        <a
+          href="https://wa.me/919971545446"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/whatsapp_icon.png" alt="WhatsApp" className="w-16 h-16" />
+        </a>
+      </div>
     </div>
   );
 };

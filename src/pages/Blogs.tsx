@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm'; // Assuming this component exists
@@ -120,7 +120,7 @@ const BlogCard = ({ blog }) => (
     </a>
 );
 
-const BlogSidebar = () => {
+const BlogSidebar = ({ searchQuery, setSearchQuery }) => {
     return (
         <aside className="space-y-8 lg:sticky lg:top-24">
             {/* Search Bar */}
@@ -129,29 +129,13 @@ const BlogSidebar = () => {
                 <div className="relative">
                     <input 
                         type="text" 
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
                         placeholder="Search posts..." 
                         className="w-full p-3 pl-10 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0B3A55] focus:border-[#0B3A55]"
                     />
                     <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
                 </div>
-            </div>
-
-            {/* Categories List */}
-            <div className="bg-white p-6 rounded-xl shadow-lg border">
-                <h3 className="text-xl font-bold mb-4 text-gray-800">Categories</h3>
-                <ul className="space-y-3">
-                    {categories.map((category, index) => (
-                        <li key={index}>
-                            <a 
-                                href={`/blogs/category/${category.toLowerCase().replace(/\s/g, '-')}`} 
-                                className="flex justify-between items-center text-gray-600 hover:text-[#0B3A55] transition-colors duration-200 text-sm font-medium p-1 -m-1"
-                            >
-                                {category}
-                                <ChevronRight className="w-4 h-4 text-[#0B3A55]" />
-                            </a>
-                        </li>
-                    ))}
-                </ul>
             </div>
 
             {/* Contact Form for Enquiry */}
@@ -167,6 +151,17 @@ const BlogSidebar = () => {
 
 // --- MAIN BLOGS PAGE COMPONENT ---
 const Blogs = () => {
+    const [searchQuery, setSearchQuery] = useState('');
+
+    const filteredBlogs = useMemo(() => {
+        return dummyBlogs.filter(blog => {
+            return searchQuery === '' || 
+                blog.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                blog.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                blog.author.toLowerCase().includes(searchQuery.toLowerCase());
+        });
+    }, [searchQuery]);
+
     return (
         <div className="bg-gray-50 min-h-screen flex flex-col">
             <Header />
@@ -178,29 +173,42 @@ const Blogs = () => {
                         
                         {/* Blog Post List (8 columns) */}
                         <div className="lg:col-span-8 space-y-8">
-                            <h2 className="text-3xl font-bold text-gray-800 border-b-2 pb-4 mb-4">Latest Articles 📖</h2>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                                {dummyBlogs.map(blog => (
-                                    <BlogCard key={blog.id} blog={blog} />
-                                ))}
+                            <div className="flex justify-between items-center border-b-2 pb-4 mb-4">
+                                <h2 className="text-3xl font-bold text-gray-800">Latest Articles 📖</h2>
+                                <span className="text-sm text-gray-500">
+                                    {filteredBlogs.length} article{filteredBlogs.length !== 1 ? 's' : ''} found
+                                </span>
                             </div>
+                            {filteredBlogs.length > 0 ? (
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                    {filteredBlogs.map(blog => (
+                                        <BlogCard key={blog.id} blog={blog} />
+                                    ))}
+                                </div>
+                            ) : (
+                                <div className="text-center py-12">
+                                    <p className="text-gray-500 text-lg mb-4">No articles found matching your search.</p>
+                                    <button 
+                                        onClick={() => setSearchQuery('')}
+                                        className="text-[#0B3A55] hover:underline font-medium"
+                                    >
+                                        Clear search
+                                    </button>
+                                </div>
+                            )}
                             
                             {/* Simple Pagination Placeholder */}
                             <div className="flex justify-center pt-8">
-                                <nav className="inline-flex rounded-md shadow-sm -space-x-px" aria-label="Pagination">
-                                    <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-l-md text-gray-700 bg-white hover:bg-gray-50">Previous</a>
-                                    {/* Active page matches theme color */}
-                                    <a href="#" aria-current="page" className="relative inline-flex items-center px-4 py-2 border border-[#0B3A55] text-sm font-semibold text-white bg-[#0B3A55] hover:bg-[#0B3A55]">1</a>
-                                    <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">2</a>
-                                    <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">3</a>
-                                    <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-r-md text-gray-700 bg-white hover:bg-gray-50">Next</a>
-                                </nav>
+                                
                             </div>
                         </div>
 
                         {/* Sidebar (4 columns) */}
                         <div className="lg:col-span-4">
-                            <BlogSidebar />
+                            <BlogSidebar 
+                                searchQuery={searchQuery}
+                                setSearchQuery={setSearchQuery}
+                            />
                         </div>
                     </div>
                 </section>
