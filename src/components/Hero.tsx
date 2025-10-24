@@ -182,29 +182,13 @@ const Hero = () => {
 
           {/* Search form */}
           <div className="max-w-lg mx-auto">
-            <div className="flex gap-4">
-              <Button
-                variant={activeTab === "tripPackages" ? "default" : undefined}
-                onClick={() => handleTabClick("tripPackages")}
-                className={activeTab === "tripPackages" ? "bg-[#0B3A55] text-white hover:bg-white hover:text-[#0B3A55] rounded-t-lg rounded-b-none" : "bg-white text-[#0B3A55] hover:bg-[#0B3A55] hover:text-white rounded-t-lg rounded-b-none"}
-              >
-                Trip Packages
-              </Button>
-              <Button
-                variant={activeTab === "travelGuides" ? "default" : undefined}
-                onClick={() => handleTabClick("travelGuides")}
-                className={activeTab === "travelGuides" ? "bg-[#0B3A55] text-white hover:bg-white hover:text-[#0B3A55] rounded-t-lg rounded-b-none" : "bg-white text-[#0B3A55] hover:bg-[#0B3A55] hover:text-white rounded-t-lg rounded-b-none"}
-              >
-                Travel Guides
-              </Button>
-            </div>
             <form onSubmit={handleSearchSubmit} className="relative flex items-center">
               <MapPin className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
               <Input 
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Pick Best Suitable Packages, Destinations & More For You"
-                className="pl-10 h-12 text-gray-600 rounded-tl-none rounded-tr-lg rounded-br-lg rounded-bl-lg w-half focus:ring-0 focus:border-white focus:shadow-none"
+                className="pl-10 h-12 text-gray-600 rounded-lg w-half focus:ring-0 focus:border-white focus:shadow-none"
               />
               <button type="submit" className="absolute right-10 top-1/2 transform -translate-y-1/2 border-0 bg-transparent">
                 <Search className="h-5 w-5 text-gray-600" />
