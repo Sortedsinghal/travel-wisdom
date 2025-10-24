@@ -1,12 +1,18 @@
 // src/components/TripCard.tsx
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Trip } from '@/data/trips'; // Import the main Trip interface
+import { QueryForm } from './QueryForm';
 
 // Update props to include slug and match the Trip interface
-interface TripCardProps extends Omit<Trip, 'destination' | 'overview' | 'itinerary' | 'inclusions' | 'exclusions'> {
-  // We already get slug, title, duration, price, originalPrice, discount, imageUrl
-  // from spreading the Trip object. No extra props needed if TripSlider passes the whole object.
+interface TripCardProps {
+  slug: string;
+  title: string;
+  duration: string;
+  price: string;
+  originalPrice?: string;
+  discount?: string;
+  imageUrl: string;
 }
 
 // Remove the createTripSlug function - we get slug directly from data
@@ -20,7 +26,7 @@ const TripCard: React.FC<TripCardProps> = ({
   originalPrice,
   discount
 }) => {
-  // No need to create slug here anymore
+  const [showQueryForm, setShowQueryForm] = useState(false);
 
   return (
     // Ensure the outer div allows the card to grow vertically if needed
@@ -70,15 +76,19 @@ const TripCard: React.FC<TripCardProps> = ({
             <Link to={`/trip/${slug}`} className="flex-1 text-center bg-blue-100 text-blue-800 font-semibold py-2 px-3 rounded-lg text-sm whitespace-nowrap hover:bg-blue-200 transition-colors">
               Trip Details
             </Link>
-            {/* You might want Send Query to open a modal or link to contact page with prefill */}
             <button
-               onClick={() => alert(`Query for: ${title}`)} // Placeholder action
+               onClick={() => setShowQueryForm(true)}
               className="flex-1 text-center bg-[#0B3A55] text-white font-semibold py-2 px-3 rounded-lg text-sm whitespace-nowrap hover:bg-opacity-90 transition-colors">
               Send Query
             </button>
           </div>
         </div>
       </div>
+      <QueryForm 
+        isOpen={showQueryForm} 
+        onClose={() => setShowQueryForm(false)} 
+        tripName={title}
+      />
     </div>
   );
 };

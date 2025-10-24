@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { QueryForm } from '@/components/QueryForm';
 import { Bed, Airplay, Mountain, Users, ThumbsUp, CreditCard, UserCheck } from 'lucide-react';
 
 const trips = [
@@ -177,6 +178,7 @@ const reasons = [
 ];
 
 const DomesticTrips = () => {
+  const [showQueryForm, setShowQueryForm] = useState(false);
   const [visibleCount, setVisibleCount] = useState(8);
 
   const handleViewMore = () => {
@@ -223,7 +225,7 @@ const DomesticTrips = () => {
                     <button className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-3 py-1 hover:bg-[#0B3A55] hover:text-white transition-colors">
                       Trip Details
                     </button>
-                    <button className="flex-1 bg-[#0B3A55] text-white rounded px-3 py-1 hover:bg-[white] hover:text-[#0B3A55] hover:border-black border transition-colors">
+                    <button onClick={() => setShowQueryForm(true)} className="flex-1 bg-[#0B3A55] text-white rounded px-3 py-1 hover:bg-[white] hover:text-[#0B3A55] hover:border-black border transition-colors">
                       Send Query
                     </button>
                   </div>
@@ -272,6 +274,11 @@ const DomesticTrips = () => {
         </div>
       </div>
       <Footer />
+      <QueryForm 
+        isOpen={showQueryForm} 
+        onClose={() => setShowQueryForm(false)} 
+        tripName="Domestic Trips"
+      />
     </div>
   );
 };

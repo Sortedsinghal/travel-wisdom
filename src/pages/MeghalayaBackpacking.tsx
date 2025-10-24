@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 // Assuming Header and Footer components exist in your project structure
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { QueryForm } from '@/components/QueryForm';
 import { Clock, MapPin, Star, ChevronDown, ChevronUp, Phone, MessageSquare, Send, Youtube, Linkedin, Instagram } from 'lucide-react'; // Added missing icons
 
 // --- Static Data extracted from the Meghalaya trip source ---
@@ -174,6 +175,7 @@ const BookingBox = ({ occupancy, setOccupancy, occupancyDetails, mobile = false 
 
 // --- Main Page Component ---
 const MeghalayaBackpacking = () => {
+  const [showQueryForm, setShowQueryForm] = useState(false);
   const [openItinerary, setOpenItinerary] = useState(0); // First itinerary item open
   const [openFaq, setOpenFaq] = useState(null); // No FAQ item open initially
   const [occupancy, setOccupancy] = useState('double'); // Default to double
@@ -392,7 +394,7 @@ const MeghalayaBackpacking = () => {
                   Whatsapp
               </a>
               <button
-                onClick={() => alert("Send Query functionality not implemented yet.")}
+                onClick={() => setShowQueryForm(true)}
                 className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-[#0B3A55] gap-0.5"
               >
                   <img src="/cloned_media/messenger.png" alt="query" className="w-5 h-5"/>
@@ -407,6 +409,11 @@ const MeghalayaBackpacking = () => {
 
        {/* Assuming Footer component works */}
        <Footer />
+       <QueryForm 
+         isOpen={showQueryForm} 
+         onClose={() => setShowQueryForm(false)} 
+         tripName="Meghalaya Backpacking"
+       />
     </div>
   );
 };

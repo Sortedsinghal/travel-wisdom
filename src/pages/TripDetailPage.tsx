@@ -5,6 +5,7 @@ import { allTrips, Trip } from '@/data/trips'; // Import your centralized data a
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm'; // Assuming you have this
+import { QueryForm } from '@/components/QueryForm';
 // import TripSlider from '@/components/TripSlider'; // You might want related trips later
 import NotFound from './NotFound'; // Import your 404 page
 import { Clock, MapPin, Star, ChevronDown, ChevronUp, Phone, MessageSquare, Send, Youtube, Linkedin, Instagram } from 'lucide-react'; // Import icons
@@ -75,6 +76,7 @@ const BookingBox: React.FC<{ trip: Trip }> = ({ trip }) => (
 const TripDetailPage = () => {
   const { tripSlug } = useParams<{ tripSlug: string }>();
   const [openItinerary, setOpenItinerary] = useState(0); // Open Day 1 by default
+  const [showQueryForm, setShowQueryForm] = useState(false);
 
   // Find the trip based on the slug
   const trip: Trip | undefined = tripSlug ? allTrips.find(t => t.slug === tripSlug) : undefined;
@@ -362,7 +364,7 @@ const TripDetailPage = () => {
                   <img src="/cloned_media/whatsapp.webp" alt="whatsapp" className="w-5 h-5"/>
                   Whatsapp
               </a>
-              <button onClick={() => document.querySelector('aside form')?.scrollIntoView({ behavior: 'smooth' })} className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-[#0B3A55] gap-0.5">
+              <button onClick={() => setShowQueryForm(true)} className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-[#0B3A55] gap-0.5">
                    <img src="/cloned_media/messenger.png" alt="query" className="w-5 h-5"/>
                   Send Query
               </button>
@@ -374,6 +376,11 @@ const TripDetailPage = () => {
       </div>
 
        <Footer />
+       <QueryForm 
+         isOpen={showQueryForm} 
+         onClose={() => setShowQueryForm(false)} 
+         tripName={trip.title}
+       />
     </div>
   );
 };

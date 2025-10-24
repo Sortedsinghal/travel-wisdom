@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 // Assuming Header and Footer components exist in your project structure
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { QueryForm } from '@/components/QueryForm';
 import { Clock, MapPin, Star, ChevronDown, ChevronUp, Phone, MessageSquare, Send, Youtube, Linkedin, Instagram } from 'lucide-react';
 
 // --- Static Data extracted from the Himachal trip source ---
@@ -152,6 +153,7 @@ const BookingBox = ({ occupancy, setOccupancy, occupancyDetails, mobile = false 
 const HimachalBackpacking = () => {
   const [openItinerary, setOpenItinerary] = useState(0); // Initialize with the first item open
   const [occupancy, setOccupancy] = useState('double'); // Default to double occupancy
+  const [showQueryForm, setShowQueryForm] = useState(false);
 
   const occupancyDetails = {
     quad: { price: tripData.pricing.quad, original: tripData.pricing.originalPriceQuad },
@@ -356,7 +358,7 @@ const HimachalBackpacking = () => {
               </a>
               {/* Send Query Button - Needs functionality (e.g., open modal) */}
               <button
-                onClick={() => alert("Send Query functionality not implemented yet.")} // Placeholder action
+                onClick={() => setShowQueryForm(true)}
                 className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-[#0B3A55] gap-0.5"
               >
                   <img src="/cloned_media/messenger.png" alt="query" className="w-5 h-5"/>
@@ -371,6 +373,11 @@ const HimachalBackpacking = () => {
 
        {/* Assuming Footer component is correctly imported and works */}
        <Footer />
+       <QueryForm 
+         isOpen={showQueryForm} 
+         onClose={() => setShowQueryForm(false)} 
+         tripName={tripData.title}
+       />
     </div>
   );
 };

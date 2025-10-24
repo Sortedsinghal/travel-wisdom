@@ -3,8 +3,10 @@ import { useSearchParams, useNavigate } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { QueryForm } from '@/components/QueryForm';
 
 const UpcomingGroupTrips = () => {
+  const [showQueryForm, setShowQueryForm] = useState(false);
   const months = [
     'All Months',
     'September 2025',
@@ -914,6 +916,11 @@ const UpcomingGroupTrips = () => {
         </div>
       </div>
       <Footer />
+      <QueryForm 
+        isOpen={isModalOpen} 
+        onClose={handleCloseModal} 
+        tripName={selectedTrip || "Upcoming Group Trips"}
+      />
     </div>
   );
 };
