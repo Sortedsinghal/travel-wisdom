@@ -19,12 +19,52 @@ const ContactForm = () => {
   
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Trip Details Sent!",
-      description: "We'll contact you soon with the best travel options.",
-    });
+    
+    try {
+      const response = await fetch('http://localhost:4000/api/send-query', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.fullName,
+          email: formData.email,
+          phone: formData.mobile,
+          message: formData.message || 'Request for call back',
+          tripName: 'Request Call Back'
+        }),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Request Sent!",
+          description: "We'll contact you soon with the best travel options.",
+        });
+        setFormData({
+          fullName: "",
+          mobile: "",
+          email: "",
+          travellersCount: "",
+          monthOfTravel: "",
+          message: ""
+        });
+      } else {
+        toast({
+          title: "Error",
+          description: "Failed to send request. Please try again.",
+          variant: "destructive"
+        });
+      }
+    } catch (error) {
+      console.error('Error sending request:', error);
+      toast({
+        title: "Error",
+        description: "Failed to send request. Please try again.",
+        variant: "destructive"
+      });
+    }
   };
 
   const handleInputChange = (field: string, value: string) => {

@@ -251,7 +251,7 @@ const BackpackingTrips = () => {
           {/* Trip cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {visibleTrips.map((trip) => (
-              <Card key={trip.id} className="hover:shadow-lg transition-shadow">
+              <Card key={trip.id} className="hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="relative">
                   <img src={trip.imageUrl} alt={trip.title} className="w-full h-48 object-cover rounded-t-md" />
                   <div className="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
@@ -261,25 +261,28 @@ const BackpackingTrips = () => {
                     {trip.duration}
                   </div>
                 </div>
-                <CardHeader>
-                  <CardTitle className="text-lg font-semibold">{trip.title}</CardTitle>
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-base font-semibold leading-tight h-12 overflow-hidden">{trip.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="line-through text-gray-400">₹{trip.originalPrice}</span>
-                    <span className="font-bold text-lg">₹{trip.price} per person</span>
+                <CardContent className="pt-2 flex-1 flex flex-col">
+                  <div className="mb-3 flex-1">
+                    {trip.discount > 0 && (
+                      <span className="line-through text-gray-400 text-sm block">₹{trip.originalPrice.toLocaleString()}</span>
+                    )}
+                    <span className="font-bold text-lg text-gray-900">₹{trip.price.toLocaleString()}</span>
+                    <span className="text-sm text-gray-600 block">per person</span>
                   </div>
-                  <div className="flex gap-2">
-                    <button className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-3 py-1 hover:bg-[#0B3A55] hover:text-white transition-colors">
+                  <div className="flex gap-2 mt-auto">
+                    <button className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-3 py-1 text-sm hover:bg-[#0B3A55] hover:text-white transition-colors">
                       Trip Details
                     </button>
-                    <button onClick={() => setShowQueryForm(true)} className="flex-1 bg-[#0B3A55] text-white rounded px-3 py-1 hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors">
+                    <button onClick={() => setShowQueryForm(true)} className="flex-1 bg-[#0B3A55] text-white rounded px-3 py-1 text-sm hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors">
                       Send Query
                     </button>
                   </div>
                 </CardContent>
               </Card>
-            ))}
+            ))
           </div>
 
           <div className="text-center mt-8 flex justify-center gap-4">

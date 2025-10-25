@@ -137,7 +137,7 @@ const BookingBox = ({ occupancy, setOccupancy, occupancyDetails, mobile = false 
             </div>
         </div>
 
-        <a href="#" className="block w-full text-center bg-[#0B3A55] text-white font-bold py-3 mt-4 rounded-lg hover:bg-opacity-90 transition-colors">Book Now</a> {/* Updated color */}
+        <button onClick={() => setShowQueryForm(true)} className="block w-full text-center bg-[#0B3A55] text-white font-bold py-3 mt-4 rounded-lg hover:bg-opacity-90 transition-colors">Book Now</button>
         <div className="flex gap-3 mt-3">
              <a href="https://api.whatsapp.com/send?phone=918076602635" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 text-sm w-full bg-green-500 text-white font-bold py-2.5 rounded-lg hover:bg-green-600 transition-colors">
                 {/* SVG for WhatsApp icon - lucide-react doesn't have a direct one */}

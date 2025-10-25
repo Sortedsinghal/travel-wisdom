@@ -177,37 +177,38 @@ const InternationalTrips = () => {
           {/* Trip cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {visibleTrips.map((trip) => (
-              <Card key={trip.id} className="hover:shadow-lg transition-shadow">
+              <Card key={trip.id} className="hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="relative">
                   <img src={trip.imageUrl} alt={trip.title} className="w-full h-48 object-cover rounded-t-md" />
                   <div className="absolute bottom-2 left-2 bg-yellow-300 text-black text-xs px-2 py-1 rounded">
                     {trip.duration}
                   </div>
                 </div>
-                <CardHeader>
-                  <CardTitle className="text-lg font-semibold">{trip.title}</CardTitle>
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-base font-semibold leading-tight h-12 overflow-hidden">{trip.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  {trip.price ? (
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className="font-bold text-lg">₹{trip.price.toLocaleString()} per person</span>
-                    </div>
-                  ) : (
-                    <div className="mb-2">
-                      <span className="text-gray-600">{trip.customization}</span>
-                    </div>
-                  )}
-                  <div className="flex gap-2">
-                    <button className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-3 py-1 hover:bg-[#0B3A55] hover:text-white transition-colors">
+                <CardContent className="pt-2 flex-1 flex flex-col">
+                  <div className="mb-3 flex-1">
+                    {trip.price ? (
+                      <>
+                        <span className="font-bold text-lg text-gray-900">₹{trip.price.toLocaleString()}</span>
+                        <span className="text-sm text-gray-600 block">per person</span>
+                      </>
+                    ) : (
+                      <span className="text-sm text-blue-600 font-medium">{trip.customization}</span>
+                    )}
+                  </div>
+                  <div className="flex gap-2 mt-auto">
+                    <button className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-3 py-1 text-sm hover:bg-[#0B3A55] hover:text-white transition-colors">
                       Trip Details
                     </button>
-                    <button onClick={() => setShowQueryForm(true)} className="flex-1 bg-[#0B3A55] text-white rounded px-3 py-1 hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors">
+                    <button onClick={() => setShowQueryForm(true)} className="flex-1 bg-[#0B3A55] text-white rounded px-3 py-1 text-sm hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors">
                       Send Query
                     </button>
                   </div>
                 </CardContent>
               </Card>
-            ))}
+            ))
           </div>
 
           <div className="text-center mt-8 flex justify-center gap-4">

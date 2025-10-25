@@ -19,15 +19,39 @@ const ContactUs = () => {
     setFormData((prev) => ({ ...prev, [field]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    alert("Message sent! We will get back to you soon.");
-    setFormData({
-      fullName: "",
-      phone: "",
-      email: "",
-      message: "",
-    });
+    
+    try {
+      const response = await fetch('http://localhost:4000/api/send-query', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.fullName,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+          tripName: 'Contact Us Form'
+        }),
+      });
+
+      if (response.ok) {
+        alert('Message sent! We will get back to you soon.');
+        setFormData({
+          fullName: "",
+          phone: "",
+          email: "",
+          message: "",
+        });
+      } else {
+        alert('Failed to send message. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      alert('Failed to send message. Please try again.');
+    }
   };
 
 

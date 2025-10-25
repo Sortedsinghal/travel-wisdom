@@ -6,6 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Users, Target, Award, Clock, Shield, HeartHandshake, ChevronLeft, ChevronRight } from 'lucide-react';
 import ContactForm from '@/components/ContactForm';
 import CollaborationsSlider from '@/components/CollaborationsSlider';
+import { QueryForm } from '@/components/QueryForm';
 
 
 // --- Data for Corporate Clients Carousel (Existing) ---
@@ -134,7 +135,7 @@ const VISIBLE_PLANS = 4;
 const CARD_GAP = 24; // Tailwind's gap-6 is 1.5rem or 24px
 
 // --- Domestic Plans Carousel Component (New) ---
-const DomesticPlansCarousel = () => {
+const DomesticPlansCarousel = ({ setShowQueryForm }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const totalCards = domesticPlansData.length;
   const slideDuration = 3500; // Auto-slide every 3.5 seconds
@@ -188,7 +189,7 @@ const DomesticPlansCarousel = () => {
       </div>
       <div className="p-6 text-center">
         <h3 className="text-xl font-semibold mb-4 text-gray-900">{location}</h3>
-        <button className="bg-[#0B3A55] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors w-full font-medium shadow-md">
+        <button onClick={() => setShowQueryForm(true)} className="bg-[#0B3A55] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors w-full font-medium shadow-md">
           Send Query
         </button>
       </div>
@@ -224,7 +225,7 @@ const DomesticPlansCarousel = () => {
         }}
       >
         {loopData.map((plan, index) => (
-          <PlanCard key={index} {...plan} /> 
+          <PlanCard key={`${plan.key}-${index}`} {...plan} /> 
         ))}
       </div>
     </div>
@@ -271,7 +272,7 @@ const internationalPlansData = [
 ];
 
 // --- International Plans Carousel Component (New) ---
-const InternationalPlansCarousel = () => {
+const InternationalPlansCarousel = ({ setShowQueryForm }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const totalCards = internationalPlansData.length;
     const slideDuration = 3500; 
@@ -325,7 +326,7 @@ const InternationalPlansCarousel = () => {
         </div>
         <div className="p-6 text-center">
           <h3 className="text-xl font-semibold mb-4 text-gray-900">{location}</h3>
-          <button className="bg-[#0B3A55] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors w-full font-medium shadow-md">
+          <button onClick={() => setShowQueryForm(true)} className="bg-[#0B3A55] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors w-full font-medium shadow-md">
             Send Query
           </button>
         </div>
@@ -361,7 +362,7 @@ const InternationalPlansCarousel = () => {
           }}
         >
           {loopData.map((plan, index) => (
-            <PlanCard key={index} {...plan} /> 
+            <PlanCard key={`${plan.key}-${index}`} {...plan} /> 
           ))}
         </div>
       </div>
@@ -433,6 +434,60 @@ const GallerySection = () => {
 
 // --- DETAILED CONTACT FORM COMPONENT (NEW) ---
 const DetailedContactForm = () => {
+    const [formData, setFormData] = useState({
+        fullName: '',
+        mobile: '',
+        email: '',
+        company: '',
+        travellers: '',
+        month: '',
+        destination: '',
+        remarks: ''
+    });
+
+    const handleInputChange = (field, value) => {
+        setFormData(prev => ({ ...prev, [field]: value }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        
+        try {
+            const response = await fetch('http://localhost:4000/api/send-query', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    name: formData.fullName,
+                    email: formData.email,
+                    phone: formData.mobile,
+                    message: `Company: ${formData.company}\nTravellers: ${formData.travellers}\nMonth: ${formData.month}\nDestination: ${formData.destination}\nRemarks: ${formData.remarks}`,
+                    tripName: 'Corporate Tours - Request Callback'
+                }),
+            });
+
+            if (response.ok) {
+                alert('Request sent! We will contact you soon.');
+                setFormData({
+                    fullName: '',
+                    mobile: '',
+                    email: '',
+                    company: '',
+                    travellers: '',
+                    month: '',
+                    destination: '',
+                    remarks: ''
+                });
+            } else {
+                alert('Failed to send request. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error sending request:', error);
+            alert('Failed to send request. Please try again.');
+        }
+    };
+
     return (
         <div className="bg-white p-8 rounded-3xl shadow-2xl max-w-xl w-full">
             <h2 className="text-3xl font-bold text-gray-900 mb-2">
@@ -441,64 +496,81 @@ const DetailedContactForm = () => {
             <p className="text-lg text-gray-600 mb-6">
                 we would <span className="text-red-600">❤️</span> to craft a trip just for you.
             </p>
-            <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input 
                     type="text" 
                     placeholder="Full Name" 
+                    value={formData.fullName}
+                    onChange={(e) => handleInputChange('fullName', e.target.value)}
+                    required
                     className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
                 />
                 <input 
                     type="tel" 
                     placeholder="Mobile Number" 
+                    value={formData.mobile}
+                    onChange={(e) => handleInputChange('mobile', e.target.value)}
+                    required
                     className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
                 />
                 <input 
                     type="email" 
                     placeholder="Email Address" 
+                    value={formData.email}
+                    onChange={(e) => handleInputChange('email', e.target.value)}
+                    required
                     className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
                 />
                 <input 
                     type="text" 
                     placeholder="Company Name" 
+                    value={formData.company}
+                    onChange={(e) => handleInputChange('company', e.target.value)}
                     className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
                 />
                 <input 
                     type="number" 
                     placeholder="No. of Travellers" 
+                    value={formData.travellers}
+                    onChange={(e) => handleInputChange('travellers', e.target.value)}
                     className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
                 />
                 <select
+                    value={formData.month}
+                    onChange={(e) => handleInputChange('month', e.target.value)}
                     className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] appearance-none cursor-pointer col-span-1"
-                    defaultValue="Month of Travel"
                 >
-                    <option disabled>Month of Travel</option>
-                    <option>January</option>
-                    <option>February</option>
-                    <option>March</option>
-                    {/* Add remaining months */}
-                    <option>April</option>
-                    <option>May</option>
-                    <option>June</option>
-                    <option>July</option>
-                    <option>August</option>
-                    <option>September</option>
-                    <option>October</option>
-                    <option>November</option>
-                    <option>December</option>
+                    <option value="">Month of Travel</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
                 </select>
                 <input 
                     type="text" 
                     placeholder="Destination Suggestion" 
+                    value={formData.destination}
+                    onChange={(e) => handleInputChange('destination', e.target.value)}
                     className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
                 />
                 <textarea 
                     placeholder="Remarks" 
                     rows="1"
+                    value={formData.remarks}
+                    onChange={(e) => handleInputChange('remarks', e.target.value)}
                     className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] resize-none col-span-1"
                 ></textarea>
                 
                 <button 
-                    type="submit" 
+                    type="submit"
                     className="w-full bg-[#0B3A55] text-white p-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors col-span-full mt-4"
                 >
                     Request Callback
@@ -731,6 +803,7 @@ const CorporateTours = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [showCursor, setShowCursor] = useState(true);
+  const [showQueryForm, setShowQueryForm] = useState(false);
 
   const words = React.useMemo(() => ['Vibe', 'Culture', 'Experience', 'Journey', 'Adventure'], []);
   const baseText = 'Redefine Your ';
@@ -1023,7 +1096,7 @@ const CorporateTours = () => {
             </h2>
           </div>
           
-          <DomesticPlansCarousel />
+          <DomesticPlansCarousel setShowQueryForm={setShowQueryForm} />
         </div>
       </div>
 
@@ -1036,7 +1109,7 @@ const CorporateTours = () => {
             </h2>
           </div>
           
-          <InternationalPlansCarousel />
+          <InternationalPlansCarousel setShowQueryForm={setShowQueryForm} />
           
         </div>
       </div>
@@ -1059,6 +1132,11 @@ const CorporateTours = () => {
       <FAQSection />
 
       <Footer />
+      <QueryForm 
+        isOpen={showQueryForm} 
+        onClose={() => setShowQueryForm(false)} 
+        tripName="Corporate Tours"
+      />
     </div>
   );
 };
