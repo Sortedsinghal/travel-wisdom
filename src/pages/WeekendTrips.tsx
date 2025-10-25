@@ -218,7 +218,7 @@ const WeekendTrips = () => {
                   <CardTitle className="text-base font-semibold leading-tight h-12 overflow-hidden">{trip.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="pt-2 flex-1 flex flex-col">
-                  <div className="mb-3 flex-1">
+                  <div className="mb-3 flex-grow">
                     {trip.discount > 0 && (
                       <span className="line-through text-gray-400 text-sm block">₹{trip.originalPrice.toLocaleString()}</span>
                     )}

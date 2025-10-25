@@ -208,7 +208,7 @@ const InternationalTrips = () => {
                   </div>
                 </CardContent>
               </Card>
-            ))
+            ))}
           </div>
 
           <div className="text-center mt-8 flex justify-center gap-4">
