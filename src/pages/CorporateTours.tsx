@@ -7,6 +7,7 @@ import { Users, Target, Award, Clock, Shield, HeartHandshake, ChevronLeft, Chevr
 import ContactForm from '@/components/ContactForm';
 import CollaborationsSlider from '@/components/CollaborationsSlider';
 import { QueryForm } from '@/components/QueryForm';
+import { API_BASE_URL } from '@/config/api';
 
 
 // --- Data for Corporate Clients Carousel (Existing) ---
@@ -453,7 +454,7 @@ const DetailedContactForm = () => {
         e.preventDefault();
         
         try {
-            const response = await fetch('http://localhost:4000/api/send-query', {
+            const response = await fetch(`${API_BASE_URL}/send-query`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

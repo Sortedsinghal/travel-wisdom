@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { API_BASE_URL } from "@/config/api";
 
 interface QueryFormProps {
   isOpen: boolean;
@@ -25,7 +26,7 @@ export const QueryForm = ({ isOpen, onClose, tripName }: QueryFormProps) => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('http://localhost:4000/api/send-query', {
+      const response = await fetch(`${API_BASE_URL}/send-query`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...formData, tripName })
