@@ -33,9 +33,15 @@ import WeekendTrips from "./pages/WeekendTrips";
 import BackpackingTrips from "./pages/BackpackingTrips";
 import InternationalTrips from "./pages/InternationalTrips";
 import CorporateTours from "./pages/CorporateTours";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
+import CancellationRefundPolicy from "./pages/CancellationRefundPolicy";
+import Reviews from "./pages/Reviews";
 
 // 1. IMPORT THE NEW TRIP DETAIL PAGE COMPONENT (You'll create this file next)
 import TripDetailPage from "./pages/TripDetailPage";
+import BlogDetail from "./pages/BlogDetail";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -45,6 +51,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <Router>
+        <ScrollToTop />
         <Routes>
           {/* --- Existing Static Routes --- */}
           <Route path="/" element={<Index />} />
@@ -75,9 +82,16 @@ const App = () => (
           <Route path="/backpacking-trips" element={<BackpackingTrips />} />
           <Route path="/international-trips" element={<InternationalTrips />} />
           <Route path="/corporate-tours" element={<CorporateTours />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-&-condition" element={<TermsConditions />} />
+          <Route path="/Cancellation-and-Refund-Policy" element={<CancellationRefundPolicy />} />
+          <Route path="/reviews" element={<Reviews />} />
 
           {/* 2. ADD THE DYNAMIC ROUTE FOR TRIP DETAILS */}
           <Route path="/trip/:tripSlug" element={<TripDetailPage />} />
+          
+          {/* 3. ADD THE DYNAMIC ROUTE FOR BLOG DETAILS */}
+          <Route path="/blogs/:slug" element={<BlogDetail />} />
 
           {/* --- Catch-all 404 Route --- */}
           <Route path="*" element={<NotFound />} />

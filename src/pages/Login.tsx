@@ -42,23 +42,6 @@ const Login = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
-      {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-md mx-auto text-center">
-            <div className="mb-8">
-              <img 
-                src={TravelWisdomLogo} 
-                alt="Travel Wisdom" 
-                className="h-16 w-16 mx-auto mb-4 object-contain"
-              />
-              <h1 className="text-3xl md:text-4xl font-bold">Welcome Back</h1>
-              <p className="text-xl opacity-90 mt-2">Sign in to your account to continue your journey</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Login Form */}
       <section className="py-16">
