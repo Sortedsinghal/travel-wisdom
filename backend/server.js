@@ -1,9 +1,10 @@
 const express = require('express');
 const cors = require('cors');
 const nodemailer = require('nodemailer');
+require('dotenv').config();
 
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 app.use(cors());
 app.use(express.json());
@@ -19,8 +20,8 @@ app.post('/api/send-query', async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'Krishnasinghal9711@gmail.com',
-        pass: 'aukg nwvl nsdx mkad'
+        user: process.env.EMAIL_USER || 'Krishnasinghal9711@gmail.com',
+        pass: process.env.EMAIL_PASS || 'aukg nwvl nsdx mkad'
       }
     });
     
@@ -40,6 +41,6 @@ app.post('/api/send-query', async (req, res) => {
   res.json({ success: true });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT}`);
 });
