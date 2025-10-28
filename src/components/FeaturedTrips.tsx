@@ -13,6 +13,7 @@ interface Trip {
   price: string;
   originalPrice?: string;
   discount?: string;
+  slug: string;
 }
 
 // Define the props that this component will accept
