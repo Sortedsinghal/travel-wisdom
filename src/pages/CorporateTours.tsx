@@ -564,7 +564,7 @@ const DetailedContactForm = () => {
                 />
                 <textarea 
                     placeholder="Remarks" 
-                    rows="1"
+                    rows={1}
                     value={formData.remarks}
                     onChange={(e) => handleInputChange('remarks', e.target.value)}
                     className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] resize-none col-span-1"
