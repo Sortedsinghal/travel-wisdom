@@ -70,7 +70,7 @@ const tripData = {
   reviews: [
       { name: "Satyam Srivastava", rating: 5, comment: "Many thanks for making such a trip possible. The organisation, the effectiveness, the planning and on top the driver were just perfect. I felt so comfortable although being so far from home...", image: '/cloned_media/profilepic.png' },
       { name: "Aditya Bhatt", rating: 5, comment: "After a lot of research, we choose G4E for our Himachal backpacking trip. We had an awesome experience. The trip started with a group of strangers and by the end there was mixed emotions...", image: '/cloned_media/24894620230801111526.png' },
-      { name: "Akash Wadhwa", rating: 5, comment: "\"*Himachal Backpacking Trip* Probably Yes! this will go as one of the best trips of our life without any doubt, a big shout out to Go4explore community for setting up an amazing trip at nominal prices...", image: '/cloned_media/159420230801111701.png' }
+      { name: "Akash Wadhwa", rating: 5, comment: "\"*Himachal Backpacking Trip* Probably Yes! this will go as one of the best trips of our life without any doubt, a big shout out to Travel Wisdom community for setting up an amazing trip at nominal prices...", image: '/cloned_media/159420230801111701.png' }
   ],
   relatedTrips: [
       { title: 'Himachal Pradesh', price: '₹7,000', image: '/cloned_media/himachal.webp' },

@@ -64,8 +64,8 @@ const Kazakhstan = () => {
             <ExpandableText>
               {/* ... (Keep the existing ExpandableText content) ... */}
               <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                <h2>Explore Kazakhstan with Go4Explore</h2>
-                <p>Get on board on a flight to Kazakhstan with Go4Explore, the largest landlocked country in the world, decorated with gorgeous landscapes, vibrant cities and rich cultural heritage. Our Kazakhstan Tour Packages have so much to offer for a unique and unforgettable travel experience, exploring a Central Asian wonder that blends modernity with untouched natural beauty and rich history.</p>
+                <h2>Explore Kazakhstan with Travel Wisdom</h2>
+                <p>Get on board on a flight to Kazakhstan with Travel Wisdom, the largest landlocked country in the world, decorated with gorgeous landscapes, vibrant cities and rich cultural heritage. Our Kazakhstan Tour Packages have so much to offer for a unique and unforgettable travel experience, exploring a Central Asian wonder that blends modernity with untouched natural beauty and rich history.</p>
                 {/* ... (rest of the text content) ... */}
               </div>
             </ExpandableText>

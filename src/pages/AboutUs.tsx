@@ -44,7 +44,7 @@ const AboutUs = () => {
                 Who We Are?
               </p>
               <p className="font-normal text-sm mx-auto font-poppins text-white text-center mt-0 mb-4 max-w-4xl">
-                Go4Explore is a community of avid travellers badly bitten by the travel bug thus providing you an unmatched travel experience as per your interest and comfort. Using our & experience.We curate personalized and fun-filled trips to unexplored Himalayan destinations. Choose the destination which you want to explore and you're done. Our enthusiastic community of wanderers create journeys that will exceed your expectations. From being an experience promoter to provider, who knows travel better than us? We design well-planned trip itineraries, trekking & camping activities without exceeding your budget.
+                Travel Wisdom is a community of avid travellers badly bitten by the travel bug thus providing you an unmatched travel experience as per your interest and comfort. Using our & experience.We curate personalized and fun-filled trips to unexplored Himalayan destinations. Choose the destination which you want to explore and you're done. Our enthusiastic community of wanderers create journeys that will exceed your expectations. From being an experience promoter to provider, who knows travel better than us? We design well-planned trip itineraries, trekking & camping activities without exceeding your budget.
               </p>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-8 mb-4 justify-center">
                 <div className="flex flex-col items-center justify-between">
@@ -466,7 +466,7 @@ const AboutUs = () => {
             <div className="grid grid-cols-1 lg:grid-cols-12 items-center justify-center gap-8">
               <div className="lg:col-span-4 order-2 lg:order-1">
                 <p className="mb-0 text-sm text-white font-poppins font-normal">
-                  We at Go4Explore are proud to boast that we have a team of over{" "}
+                  We at Travel Wisdom are proud to boast that we have a team of over{" "}
                   <span className="text-yellow-400 font-semibold">50+ strong & coolest Trip Captains</span>{" "}
                   who don't just have profound knowledge of the destination but also are committed to providing the best travel experience to our dear travellers.
                 </p>
@@ -500,7 +500,7 @@ const AboutUs = () => {
         >
           <div className="h-full flex flex-col justify-end items-center text-center p-8" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
             <p className="font-semibold text-lg font-poppins text-white mb-6">
-              Here at <span className="text-yellow-400">Go4Explore</span>, we welcome your creativity, hard work and dedication you'll bring to the table.
+              Here at <span className="text-yellow-400">Travel Wisdom</span>, we welcome your creativity, hard work and dedication you'll bring to the table.
             </p>
             <article>
               <a 
@@ -514,12 +514,12 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Life at Go4Explore Section */}
+      {/* Life at Travel Wisdom Section */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center w-full mb-12">
             <h2 className="font-poppins text-3xl font-semibold capitalize text-black text-center">
-              Life at Go4Explore
+              Life at Travel Wisdom
             </h2>
           </div>
 
@@ -648,12 +648,12 @@ const AboutUs = () => {
       >
         <div className="container mx-auto px-4">
           <h2 className="font-poppins text-3xl font-semibold capitalize text-white text-center mb-8">
-            Go4Explore's AIM Night
+            Travel Wisdom's AIM Night
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
             <div className="md:col-span-2">
               <p className="text-white text-sm mb-8">
-                <span className="text-yellow-400 font-semibold">AIM Night 2025</span> – the annual general meeting (AGM) and award ceremony of Go4Explore, brought together the company's core team members, employees, business vendors and distinguished guests to review the company's performance, discuss future strategies, and recognize outstanding contributions in the company's growth.
+                <span className="text-yellow-400 font-semibold">AIM Night 2025</span> – the annual general meeting (AGM) and award ceremony of Travel Wisdom, brought together the company's core team members, employees, business vendors and distinguished guests to review the company's performance, discuss future strategies, and recognize outstanding contributions in the company's growth.
               </p>
               <div>
                 <img 
@@ -697,7 +697,7 @@ const AboutUs = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="relative">
               <a 
-                href="https://www.instagram.com/go4explore.community/reel/DBxrM5Xp5XZ" 
+                href="https://www.instagram.com/Travel Wisdom.community/reel/DBxrM5Xp5XZ" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block"
@@ -749,7 +749,7 @@ const AboutUs = () => {
 
             <div className="relative">
               <a 
-                href="https://www.instagram.com/go4explore.community/reel/DHyPbUqpzE7/" 
+                href="https://www.instagram.com/Travel Wisdom.community/reel/DHyPbUqpzE7/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block"
@@ -775,7 +775,7 @@ const AboutUs = () => {
 
             <div className="relative">
               <a 
-                href="https://www.instagram.com/go4explore.community/reel/DJ6sohUJ0o9/" 
+                href="https://www.instagram.com/Travel Wisdom.community/reel/DJ6sohUJ0o9/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block"

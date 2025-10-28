@@ -97,7 +97,7 @@ const Rajasthan = () => {
             <ExpandableText>
               {/* ... (Keep the existing ExpandableText content) ... */}
               <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                 <p>Discover the enchanting land of Rajasthan, where the grandeur of royal palaces, majestic forts and vibrant culture awaits you! Step into the world of opulence and tradition as you explore the pink-hued streets of Jaipur, romantic lakes of Udaipur, and golden sands of Jaisalmer. Experience the regal hospitality, indulge in mouth watering delicacies and witness the colorful festivals that bring this desert state to vibrant life. Book your Rajasthan Tour with Go4Explore today and journey through India’s most captivating and mesmerizing state, where every corner tells a story of its glorious past. Don’t miss the chance to explore the heart of royal India - reserve your adventure now!</p>
+                 <p>Discover the enchanting land of Rajasthan, where the grandeur of royal palaces, majestic forts and vibrant culture awaits you! Step into the world of opulence and tradition as you explore the pink-hued streets of Jaipur, romantic lakes of Udaipur, and golden sands of Jaisalmer. Experience the regal hospitality, indulge in mouth watering delicacies and witness the colorful festivals that bring this desert state to vibrant life. Book your Rajasthan Tour with Travel Wisdom today and journey through India’s most captivating and mesmerizing state, where every corner tells a story of its glorious past. Don’t miss the chance to explore the heart of royal India - reserve your adventure now!</p>
                 {/* ... (rest of the text content) ... */}
               </div>
             </ExpandableText>

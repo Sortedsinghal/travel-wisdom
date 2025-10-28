@@ -116,7 +116,7 @@ const Kashmir = () => {
             <ExpandableText>
               {/* ... (Keep the existing ExpandableText content) ... */}
               <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                <p>Go4Explore provides special Kashmir tour packages and Kashmir honeymoon packages, offering best in-class accommodations, complete local sightseeing tours, delightful meals during the stay, thrilling adventure activities and a memorable travel experience. Decorated with the beauty of snow-clad Himalayas, Jannat-e-Kashmir is more than just a hill station and a perfect amalgamation of beauty, serenity and tranquility.</p>
+                <p>Travel Wisdom provides special Kashmir tour packages and Kashmir honeymoon packages, offering best in-class accommodations, complete local sightseeing tours, delightful meals during the stay, thrilling adventure activities and a memorable travel experience. Decorated with the beauty of snow-clad Himalayas, Jannat-e-Kashmir is more than just a hill station and a perfect amalgamation of beauty, serenity and tranquility.</p>
                 {/* ... (rest of the text content) ... */}
               </div>
             </ExpandableText>

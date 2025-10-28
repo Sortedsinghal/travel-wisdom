@@ -103,8 +103,8 @@ const Thailand = () => {
             <ExpandableText>
               {/* ... (Keep the existing ExpandableText content) ... */}
               <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                <h2>Explore Thailand with Go4Explore</h2>
-                <p>Searching for a perfect island nation to spend your holidays in? Why not plan a trip to Thailand, with one of the world’s most serene beaches and sparkling blue water bodies, it has jaw dropping sceneries to witness. It may become a headache to plan an international trip all by yourself, but Congratulations because you have landed on the right page, Go4Explore will make it all easy for you with its Thailand Tour packages.</p>
+                <h2>Explore Thailand with Travel Wisdom</h2>
+                <p>Searching for a perfect island nation to spend your holidays in? Why not plan a trip to Thailand, with one of the world’s most serene beaches and sparkling blue water bodies, it has jaw dropping sceneries to witness. It may become a headache to plan an international trip all by yourself, but Congratulations because you have landed on the right page, Travel Wisdom will make it all easy for you with its Thailand Tour packages.</p>
                 {/* ... (rest of the text content) ... */}
               </div>
             </ExpandableText>

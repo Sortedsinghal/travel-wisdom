@@ -65,7 +65,7 @@ const Dubai = () => {
             <ExpandableText>
               {/* ... (Keep the existing ExpandableText content) ... */}
               <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                <h2>Explore Dubai with Go4Explore</h2>
+                <h2>Explore Dubai with Travel Wisdom</h2>
                 <p>We all travel to places with beaches and mountains but how often have we seen prime destinations that not only have beaches or valleys but are also examples of futuristic worlds? Fame of UAE, Dubai is not just a marvel of modern engineering and architecture but also a model for luxurious lifestyle.</p>
                 {/* ... (rest of the text content) ... */}
               </div>

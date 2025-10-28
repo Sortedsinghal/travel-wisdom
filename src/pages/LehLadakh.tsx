@@ -88,7 +88,7 @@ const LehLadakh = () => {
             <ExpandableText>
               {/* ... (Keep the existing ExpandableText content) ... */}
                <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                <p>It’s your time to hit the road for ‘The Land of High Passes’, decorated with majestic landscapes and deep pristine valleys, this destination will help you escape the monotony of city life! Here we, at Go4Explore, are offering incredible Leh Ladakh Tour Packages to explore one of the most stunning regions nestled in the Indian Himalayas.</p>
+                <p>It’s your time to hit the road for ‘The Land of High Passes’, decorated with majestic landscapes and deep pristine valleys, this destination will help you escape the monotony of city life! Here we, at Travel Wisdom, are offering incredible Leh Ladakh Tour Packages to explore one of the most stunning regions nestled in the Indian Himalayas.</p>
                 {/* ... (rest of the text content) ... */}
               </div>
             </ExpandableText>

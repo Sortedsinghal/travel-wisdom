@@ -84,8 +84,8 @@ const Bali = () => {
             <ExpandableText>
               {/* ... (Keep the existing ExpandableText content) ... */}
               <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                <h2>Explore Bali with Go4Explore</h2>
-                <p>Last two decades has seen increased tourism to an Indonesian Island that is a perfect blend of beaches, rocky coastlines, relaxing spas, crazy nightlife and alot more activities to do. Yes this paradise is none other than, your favourite, Bali. If your dream destination also looks like Bali then what are we even waiting for? Book your seats right now with the Go4Explore Bali tour packages where you get to be a part of the most incredible journey to Bali. With 7 years of experience Go4Explore has travel expertise in international trips like our Bali Tour packages offers travelers with handcrafted Bali packages varying from Bali Adventure trips to Bali honeymoon trips.</p>
+                <h2>Explore Bali with Travel Wisdom</h2>
+                <p>Last two decades has seen increased tourism to an Indonesian Island that is a perfect blend of beaches, rocky coastlines, relaxing spas, crazy nightlife and alot more activities to do. Yes this paradise is none other than, your favourite, Bali. If your dream destination also looks like Bali then what are we even waiting for? Book your seats right now with the Travel Wisdom Bali tour packages where you get to be a part of the most incredible journey to Bali. With 7 years of experience Travel Wisdom has travel expertise in international trips like our Bali Tour packages offers travelers with handcrafted Bali packages varying from Bali Adventure trips to Bali honeymoon trips.</p>
                 {/* ... (rest of the text content) ... */}
               </div>
             </ExpandableText>

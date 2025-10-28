@@ -20,7 +20,7 @@ const Reviews = () => {
   ];
 
   const additionalReviews = [
-    { id: 9, name: "Deepika Agarwal", rating: 5, comment: "Go4Explore made our dream vacation come true! The Bali trip was perfectly planned with amazing accommodations." },
+    { id: 9, name: "Deepika Agarwal", rating: 5, comment: "Travel Wisdom made our dream vacation come true! The Bali trip was perfectly planned with amazing accommodations." },
     { id: 10, name: "Arjun Kapoor", rating: 4, comment: "Great experience with the Dubai tour. Everything was well-organized and the guide was very knowledgeable." },
     { id: 11, name: "Meera Nair", rating: 5, comment: "Wonderful experience! The Vietnam trip exceeded all expectations. Professional service and great value for money." },
     { id: 12, name: "Sanjay Verma", rating: 5, comment: "Excellent trip to Kazakhstan! Unique destinations and well-planned itinerary. Highly recommend Travel Wisdom." },

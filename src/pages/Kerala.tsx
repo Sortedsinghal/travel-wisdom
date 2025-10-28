@@ -68,8 +68,8 @@ const Kerala = () => {
             <ExpandableText>
               {/* ... (Keep the existing ExpandableText content) ... */}
                <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                <h2>Explore Kerala with Go4Explore</h2>
-                <p>Are you curious about one of the top tourist attractions in Southern India? I think by now you have heard enough about the majestic beauty of Kerala and now it is time to visit and experience the scenery yourself. Go4Explore is here to help you out plan your trip to Kerala, the godly city and take you on an incredible journey of discovering the hidden gems of the state.</p>
+                <h2>Explore Kerala with Travel Wisdom</h2>
+                <p>Are you curious about one of the top tourist attractions in Southern India? I think by now you have heard enough about the majestic beauty of Kerala and now it is time to visit and experience the scenery yourself. Travel Wisdom is here to help you out plan your trip to Kerala, the godly city and take you on an incredible journey of discovering the hidden gems of the state.</p>
                 {/* ... (rest of the text content) ... */}
               </div>
             </ExpandableText>

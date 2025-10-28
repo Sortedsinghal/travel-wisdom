@@ -106,7 +106,7 @@ const Vietnam = () => {
               {/* ... (Keep the existing ExpandableText content) ... */}
               <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
                   <h2>Explore Vietnam with Travel Wisdom</h2>
-                  <p>Have you ever dreamt of taking international trips? Well, then you have landed on the right page Go4Explore will turn your dreams to reality. Where one moment you were scrolling youtube and watching videos about Vietnam and Vietnamese culture, next moment you will find yourself hovering in the streets of Hanoi, Halong Bay and walking through the largest Cave Ecosystem. Vietnam is not just a place of exceptionally beautiful cities but also a place to experience hospitality by warm and welcoming locals.</p>
+                  <p>Have you ever dreamt of taking international trips? Well, then you have landed on the right page Travel Wisdom will turn your dreams to reality. Where one moment you were scrolling youtube and watching videos about Vietnam and Vietnamese culture, next moment you will find yourself hovering in the streets of Hanoi, Halong Bay and walking through the largest Cave Ecosystem. Vietnam is not just a place of exceptionally beautiful cities but also a place to experience hospitality by warm and welcoming locals.</p>
                   {/* ... (rest of the text content) ... */}
               </div>
             </ExpandableText>

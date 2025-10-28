@@ -85,7 +85,7 @@ const Spiti = () => {
             <ExpandableText>
               {/* ... (Keep the existing ExpandableText content) ... */}
               <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                <p>Escape the urban madness and soak in the charm of the Himalayas with Go4Explore’s best-suited Spiti Valley Tour Packages to explore one of the most stunning regions nestled in the mighty Himalayas.</p>
+                <p>Escape the urban madness and soak in the charm of the Himalayas with Travel Wisdom’s best-suited Spiti Valley Tour Packages to explore one of the most stunning regions nestled in the mighty Himalayas.</p>
                 {/* ... (rest of the text content) ... */}
               </div>
             </ExpandableText>
