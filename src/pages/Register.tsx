@@ -5,9 +5,10 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Link } from "react-router-dom";
-import { Mail, Lock, Eye, EyeOff, User, ExternalLink } from "lucide-react";
+import { Mail, Lock, Eye, EyeOff, User, ExternalLink, Phone } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { API_BASE_URL } from "@/config/api";
 import TravelWisdomLogo from "@/travel-wisdom-logo.png";
 
 const Register = () => {
@@ -15,6 +16,7 @@ const Register = () => {
     firstName: "",
     lastName: "",
     email: "",
+    phone: "",
     password: "",
     confirmPassword: "",
   });
@@ -23,7 +25,7 @@ const Register = () => {
   const [agreeToTerms, setAgreeToTerms] = useState(false);
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     if (formData.password !== formData.confirmPassword) {
@@ -44,20 +46,40 @@ const Register = () => {
       return;
     }
 
-    // Simulate registration - in real app, this would call an API
-    toast({
-      title: "Registration Successful!",
-      description: "Welcome to Travel Wisdom! Please check your email to verify your account.",
-    });
-    // Reset form
-    setFormData({
-      firstName: "",
-      lastName: "",
-      email: "",
-      password: "",
-      confirmPassword: "",
-    });
-    setAgreeToTerms(false);
+    try {
+      await fetch(`${API_BASE_URL}/send-query`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: `${formData.firstName} ${formData.lastName}`,
+          email: formData.email,
+          phone: formData.phone,
+          message: 'New user registration',
+          tripName: 'User Registration'
+        })
+      });
+
+      toast({
+        title: "Registration Successful!",
+        description: "Welcome to Travel Wisdom! Please check your email to verify your account.",
+      });
+      
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        password: "",
+        confirmPassword: "",
+      });
+      setAgreeToTerms(false);
+    } catch (error) {
+      toast({
+        title: "Registration Error",
+        description: "Something went wrong. Please try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   const handleGoogleSignUp = () => {
@@ -134,6 +156,25 @@ const Register = () => {
                 </div>
               </div>
 
+              {/* Phone Field */}
+              <div className="space-y-2">
+                <Label htmlFor="phone" className="text-sm font-medium text-gray-700">
+                  Mobile Number
+                </Label>
+                <div className="relative">
+                  <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <Input
+                    id="phone"
+                    type="tel"
+                    placeholder="Enter your mobile number"
+                    value={formData.phone}
+                    onChange={(e) => handleInputChange("phone", e.target.value)}
+                    required
+                    className="pl-10 h-12"
+                  />
+                </div>
+              </div>
+
               {/* Password Field */}
               <div className="space-y-2">
                 <Label htmlFor="password" className="text-sm font-medium text-gray-700">
@@ -143,7 +184,7 @@ const Register = () => {
                   <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
                   <Input
                     id="password"
-                    type="password"
+                    type={showPassword ? "text" : "password"}
                     placeholder="Create a password"
                     value={formData.password}
                     onChange={(e) => handleInputChange("password", e.target.value)}
@@ -207,7 +248,7 @@ const Register = () => {
               </div>
 
               {/* Register Button */}
-              <Button type="submit" className="w-full h-12 bg-blue-600 hover:bg-blue-700 text-white font-semibold text-lg">
+              <Button type="submit" className="w-full h-12 bg- hover:bg-blue-700 text-white font-semibold text-lg">
                 Create Account
               </Button>
             </form>
