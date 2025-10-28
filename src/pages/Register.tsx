@@ -9,6 +9,7 @@ import { Mail, Lock, Eye, EyeOff, User, ExternalLink, Phone } from "lucide-react
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { API_BASE_URL } from "@/config/api";
+import { useNavigate } from "react-router-dom";
 import TravelWisdomLogo from "@/travel-wisdom-logo.png";
 
 const Register = () => {
@@ -24,6 +25,7 @@ const Register = () => {
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [agreeToTerms, setAgreeToTerms] = useState(false);
   const { toast } = useToast();
+  const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -46,6 +48,24 @@ const Register = () => {
       return;
     }
 
+    // Check if user already exists
+    const registeredUsers = JSON.parse(localStorage.getItem('registeredUsers') || '[]');
+    const existingUser = registeredUsers.find((user: any) => 
+      user.email === formData.email || user.phone === formData.phone
+    );
+    
+    if (existingUser) {
+      toast({
+        title: "Already Registered",
+        description: "This email or mobile number is already registered. Please sign in instead.",
+        variant: "default",
+      });
+      setTimeout(() => {
+        navigate('/login');
+      }, 2000);
+      return;
+    }
+
     try {
       await fetch(`${API_BASE_URL}/send-query`, {
         method: 'POST',
@@ -59,6 +79,14 @@ const Register = () => {
         })
       });
 
+      // Store user in localStorage
+      registeredUsers.push({
+        email: formData.email,
+        name: `${formData.firstName} ${formData.lastName}`,
+        phone: formData.phone
+      });
+      localStorage.setItem('registeredUsers', JSON.stringify(registeredUsers));
+      
       toast({
         title: "Registration Successful!",
         description: "Welcome to Travel Wisdom! Please check your email to verify your account.",
@@ -73,6 +101,10 @@ const Register = () => {
         confirmPassword: "",
       });
       setAgreeToTerms(false);
+      
+      setTimeout(() => {
+        navigate('/');
+      }, 2000);
     } catch (error) {
       toast({
         title: "Registration Error",
@@ -83,8 +115,11 @@ const Register = () => {
   };
 
   const handleGoogleSignUp = () => {
-    // Redirect to Google sign-in page
-    window.location.href = 'https://accounts.google.com/signin/v2/identifier';
+    toast({
+      title: "Google Sign Up",
+      description: "Google authentication requires proper OAuth setup. Please use the regular registration form for now.",
+      variant: "default",
+    });
   };
 
   const handleInputChange = (field: string, value: string) => {
@@ -101,11 +136,11 @@ const Register = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* First Name */}
               <div className="space-y-2">
-                <Label htmlFor="firstName" className="text-sm font-medium text-gray-700">
+                <Label htmlFor="firstName" className="text-sm font-medium text-[#0B3A55]">
                   First Name
                 </Label>
                 <div className="relative">
-                  <User className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <User className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-[#0B3A55]" />
                   <Input
                     id="firstName"
                     type="text"
@@ -120,11 +155,11 @@ const Register = () => {
 
               {/* Last Name */}
               <div className="space-y-2">
-                <Label htmlFor="lastName" className="text-sm font-medium text-gray-700">
+                <Label htmlFor="lastName" className="text-sm font-medium text-[#0B3A55]">
                   Last Name
                 </Label>
                 <div className="relative">
-                  <User className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <User className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-[#0B3A55]" />
                   <Input
                     id="lastName"
                     type="text"
@@ -139,11 +174,11 @@ const Register = () => {
 
               {/* Email Field */}
               <div className="space-y-2">
-                <Label htmlFor="email" className="text-sm font-medium text-gray-700">
+                <Label htmlFor="email" className="text-sm font-medium text-[#0B3A55]">
                   Email Address
                 </Label>
                 <div className="relative">
-                  <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-[#0B3A55]" />
                   <Input
                     id="email"
                     type="email"
@@ -158,11 +193,11 @@ const Register = () => {
 
               {/* Phone Field */}
               <div className="space-y-2">
-                <Label htmlFor="phone" className="text-sm font-medium text-gray-700">
+                <Label htmlFor="phone" className="text-sm font-medium text-[#0B3A55]">
                   Mobile Number
                 </Label>
                 <div className="relative">
-                  <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-[#0B3A55]" />
                   <Input
                     id="phone"
                     type="tel"
@@ -177,11 +212,11 @@ const Register = () => {
 
               {/* Password Field */}
               <div className="space-y-2">
-                <Label htmlFor="password" className="text-sm font-medium text-gray-700">
+                <Label htmlFor="password" className="text-sm font-medium text-[#0B3A55]">
                   Password
                 </Label>
                 <div className="relative">
-                  <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-[#0B3A55]" />
                   <Input
                     id="password"
                     type={showPassword ? "text" : "password"}
@@ -194,7 +229,7 @@ const Register = () => {
                   <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
-                    className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                    className="absolute right-3 top-1/2 transform -translate-y-1/2 text-[#0B3A55] hover:text-blue-700"
                   >
                     {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
                   </button>
@@ -203,11 +238,11 @@ const Register = () => {
 
               {/* Confirm Password Field */}
               <div className="space-y-2">
-                <Label htmlFor="confirmPassword" className="text-sm font-medium text-gray-700">
+                <Label htmlFor="confirmPassword" className="text-sm font-medium text-[#0B3A55]">
                   Confirm Password
                 </Label>
                 <div className="relative">
-                  <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-[#0B3A55]" />
                   <Input
                     id="confirmPassword"
                     type={showConfirmPassword ? "text" : "password"}
@@ -220,7 +255,7 @@ const Register = () => {
                   <button
                     type="button"
                     onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                    className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                    className="absolute right-3 top-1/2 transform -translate-y-1/2 text-[#0B3A55] hover:text-blue-700"
                   >
                     {showConfirmPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
                   </button>
@@ -235,7 +270,7 @@ const Register = () => {
                   onCheckedChange={(checked) => setAgreeToTerms(!!checked)}
                   className="mt-1"
                 />
-                <Label htmlFor="terms" className="text-sm text-gray-700 cursor-pointer leading-relaxed">
+                <Label htmlFor="terms" className="text-sm text-[#0B3A55] cursor-pointer leading-relaxed">
                   I agree to the{" "}
                   <Link to="/terms-&-condition" className="text-blue-600 hover:text-blue-700 underline">
                     Terms and Conditions
@@ -248,7 +283,7 @@ const Register = () => {
               </div>
 
               {/* Register Button */}
-              <Button type="submit" className="w-full h-12 bg- hover:bg-blue-700 text-white font-semibold text-lg">
+              <Button type="submit" className="w-full h-12 bg-[#0B3A55] hover:bg-white hover:text-[#0B3A55] border border-[#0B3A55] text-white font-semibold text-lg">
                 Create Account
               </Button>
             </form>
@@ -268,7 +303,7 @@ const Register = () => {
               type="button"
               onClick={handleGoogleSignUp}
               variant="outline"
-              className="w-full h-12 border-gray-300 text-gray-700 hover:bg-gray-50"
+              className="w-full h-12 border-[#0B3A55] text-[#0B3A55] hover:bg-gray-50"
             >
               <ExternalLink className="h-4 w-4 mr-2" />
               Sign up with Google
@@ -276,9 +311,9 @@ const Register = () => {
 
             {/* Sign In Link */}
             <div className="mt-8 text-center">
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-[#0B3A55]">
                 Already have an account?{" "}
-                <Link to="/login" className="text-blue-600 hover:text-blue-700 font-medium">
+                <Link to="/login" className="text-blue-600 hover:text-white font-medium">
                   Sign in here
                 </Link>
               </p>

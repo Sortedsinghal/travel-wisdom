@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { Mail, Lock, Eye, EyeOff, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { useNavigate } from "react-router-dom";
 import TravelWisdomLogo from "@/travel-wisdom-logo.png";
 
 const Login = () => {
@@ -18,21 +19,41 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
   const { toast } = useToast();
+  const navigate = useNavigate();
+  
+  // Simple in-memory storage for registered users (in real app, this would be a database)
+  const registeredUsers = JSON.parse(localStorage.getItem('registeredUsers') || '[]');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate login - in real app, this would call an API
-    toast({
-      title: "Login Successful!",
-      description: "Welcome back to Travel Wisdom.",
-    });
-    // Reset form
-    setFormData({ email: "", password: "" });
+    
+    // Check if user exists in registered users
+    const userExists = registeredUsers.find((user: any) => user.email === formData.email);
+    
+    if (userExists) {
+      toast({
+        title: "Login Successful!",
+        description: "Welcome back to Travel Wisdom.",
+      });
+      setFormData({ email: "", password: "" });
+    } else {
+      toast({
+        title: "Welcome to Travel Wisdom!",
+        description: "It looks like you're new here. Let's create your account to get started on your travel journey.",
+        variant: "default",
+      });
+      setTimeout(() => {
+        navigate('/register');
+      }, 1500);
+    }
   };
 
   const handleGoogleSignIn = () => {
-    // Redirect to Google sign-in page
-    window.location.href = 'https://accounts.google.com/signin/v2/identifier';
+    toast({
+      title: "Google Sign In",
+      description: "Google authentication requires proper OAuth setup. Please use the regular login form for now.",
+      variant: "default",
+    });
   };
 
   const handleInputChange = (field: string, value: string) => {
@@ -50,11 +71,11 @@ const Login = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Email Field */}
               <div className="space-y-2">
-                <Label htmlFor="email" className="text-sm font-medium text-gray-700">
+                <Label htmlFor="email" className="text-sm font-medium text-[#0B3A55]">
                   Email Address
                 </Label>
                 <div className="relative">
-                  <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-[#0B3A55]" />
                   <Input
                     id="email"
                     type="email"
@@ -69,11 +90,11 @@ const Login = () => {
 
               {/* Password Field */}
               <div className="space-y-2">
-                <Label htmlFor="password" className="text-sm font-medium text-gray-700">
+                <Label htmlFor="password" className="text-sm font-medium text-[#0B3A55]">
                   Password
                 </Label>
                 <div className="relative">
-                  <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-[#0B3A55]" />
                   <Input
                     id="password"
                     type={showPassword ? "text" : "password"}
@@ -86,7 +107,7 @@ const Login = () => {
                   <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
-                    className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                    className="absolute right-3 top-1/2 transform -translate-y-1/2 text-[#0B3A55] hover:text-blue-700"
                   >
                     {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
                   </button>
@@ -101,7 +122,7 @@ const Login = () => {
                     checked={rememberMe}
                     onCheckedChange={(checked) => setRememberMe(!!checked)}
                   />
-                  <Label htmlFor="remember" className="text-sm text-gray-700 cursor-pointer">
+                  <Label htmlFor="remember" className="text-sm text-[#0B3A55] cursor-pointer">
                     Remember me
                   </Label>
                 </div>
@@ -131,7 +152,7 @@ const Login = () => {
               type="button"
               onClick={handleGoogleSignIn}
               variant="outline"
-              className="w-full h-12 border-gray-300 text-gray-700 hover:bg-gray-50"
+              className="w-full h-12 border-[#0B3A55] text-[#0B3A55] hover:bg-gray-50"
             >
               <ExternalLink className="h-4 w-4 mr-2" />
               Sign in with Google
@@ -139,7 +160,7 @@ const Login = () => {
 
             {/* Sign Up Link */}
             <div className="mt-8 text-center">
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-[#0B3A55]">
                 Don't have an account?{" "}
                 <Link to="/register" className="text-blue-600 hover:text-blue-700 font-medium">
                   Sign up here
