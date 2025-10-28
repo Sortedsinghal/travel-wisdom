@@ -12,13 +12,13 @@ import { API_BASE_URL } from '@/config/api';
 
 // --- Data for Corporate Clients Carousel (Existing) ---
 const tripData = [
-  { location: "Ranthambore", people: "hosted 90 people", company: "Shyam Construction", logoPath: "/src/assets/Shyam_Construction_logo.jpg", imagePath: "/src/assets/Shyam_Construction.jpg", key: 'sc' },
-  { location: "Jim Corbett", people: "hosted 35 people", company: "EY - Ernst & Young", logoPath: "/src/assets/ey_logo.jpg", imagePath: "/src/assets/EY_corporate.jpeg", key: 'ey' },
-  { location: "Jim Corbett", people: "hosted 60+ people", company: "Airtel Payments Bank", logoPath: "/src/assets/airtel-payments-bank-logo.webp", imagePath: "/src/assets/airtel-payments-bank.webp", key: 'apb' },
-  { location: "Dalhousie", people: "hosted 120+ people", company: "SNVA Finance", logoPath: "/src/assets/snva_logo_corporate.jpg", imagePath: "/src/assets/snva_finance.jpg", key: 'snva' },
-  { location: "Jim Corbett", people: "hosted 60+ people", company: "Sigfig", logoPath: "/src/assets/sigfig-logo.jpg", imagePath: "/src/assets/sigfig.jpg", key: 'sigfig' },
-  { location: "Jibhi Tirthan", people: "hosted 45+ people", company: "New Vision Digital", logoPath: "/src/assets/new_vision_digital_logo.jpg", imagePath: "/src/assets/new_vision_digital.jpg", key: 'nvd' },
-  { location: "Jim Corbett", people: "hosted 60+ people", company: "Cache Digitech", logoPath: "/src/assets/cache_digitech_logo.jpg", imagePath: "/src/assets/cache_digitech.jpg", key: 'cd' },
+  { location: "Ranthambore", people: "hosted 90 people", company: "Shyam Construction", logoPath: "/assets/Shyam_Construction_logo.jpg", imagePath: "/assets/Shyam_Construction.jpg", key: 'sc' },
+  { location: "Jim Corbett", people: "hosted 35 people", company: "EY - Ernst & Young", logoPath: "/assets/ey_logo.jpg", imagePath: "/assets/EY_corporate.jpeg", key: 'ey' },
+  { location: "Jim Corbett", people: "hosted 60+ people", company: "Airtel Payments Bank", logoPath: "/assets/airtel-payments-bank-logo.webp", imagePath: "/assets/airtel-payments-bank.webp", key: 'apb' },
+  { location: "Dalhousie", people: "hosted 120+ people", company: "SNVA Finance", logoPath: "/assets/snva_logo_corporate.jpg", imagePath: "/assets/snva_finance.jpg", key: 'snva' },
+  { location: "Jim Corbett", people: "hosted 60+ people", company: "Sigfig", logoPath: "/assets/sigfig-logo.jpg", imagePath: "/assets/sigfig.jpg", key: 'sigfig' },
+  { location: "Jibhi Tirthan", people: "hosted 45+ people", company: "New Vision Digital", logoPath: "/assets/new_vision_digital_logo.jpg", imagePath: "/assets/new_vision_digital.jpg", key: 'nvd' },
+  { location: "Jim Corbett", people: "hosted 60+ people", company: "Cache Digitech", logoPath: "/assets/cache_digitech_logo.jpg", imagePath: "/assets/cache_digitech.jpg", key: 'cd' },
 ];
 const MAX_VISIBLE_CLIENT_CARDS = 3;
 
@@ -99,35 +99,35 @@ const domesticPlansData = [
   {
     location: "Rishikesh",
     tag: "River Rafting",
-    image: "/src/assets/rishikesh.png", // Placeholder
+    image: "/assets/rishikesh.png", // Placeholder
     tagColor: 'bg-teal-500', 
     key: 'rishi'
   },
   {
     location: "Jibhi",
     tag: "Offbeat Escape",
-    image: "/src/assets/jibhi.png", // Placeholder
+    image: "/assets/jibhi.png", // Placeholder
     tagColor: 'bg-yellow-500', 
     key: 'jibhi'
   },
   {
     location: "Manali",
     tag: "Weekend Escape",
-    image: "/src/assets/manali.png", // Placeholder
+    image: "/assets/manali.png", // Placeholder
     tagColor: 'bg-blue-500', 
     key: 'manali'
   },
   {
     location: "Kanatal",
     tag: "Offbeat Escape",
-    image: "/src/assets/kanatal.png", // Placeholder
+    image: "/assets/kanatal.png", // Placeholder
     tagColor: 'bg-green-700', 
     key: 'kanatal'
   },
   {
     location: "Jim Corbett",
     tag: "Jungle Safari",
-    image: "/src/assets/jimcorbett.png", // Placeholder
+    image: "/assets/jimcorbett.png", // Placeholder
     tagColor: 'bg-orange-500', 
     key: 'corbett'
   },
@@ -376,27 +376,27 @@ const GallerySection = () => {
     // NOTE: Replace the src URLs with your actual image file paths!
     const galleryImages = [
         // 1. Leftmost Portrait (1 col, 2 rows)
-        { id: 1, src: "/src/assets/gallery1.webp", alt: "Team Portrait on Grass", 
+        { id: 1, src: "/assets/gallery1.webp", alt: "Team Portrait on Grass", 
           style: { gridArea: '1 / 1 / 3 / 2' } }, 
         
         // 2. Middle-Left Top (Group by Bus) - Col 2, Row 1
-        { id: 2, src: "/src/assets/gallery2.webp", alt: "Large Group Posing by Bus", 
+        { id: 2, src: "/assets/gallery2.webp", alt: "Large Group Posing by Bus", 
           style: { gridArea: '1 / 2 / 2 / 3' } },
         
         // 3. Middle-Left Bottom (Meeting) - Col 2, Row 2
-        { id: 3, src: "/src/assets/gallery3.webp", alt: "Meeting Session Indoors", 
+        { id: 3, src: "/assets/gallery3.webp", alt: "Meeting Session Indoors", 
           style: { gridArea: '2 / 2 / 3 / 3' } },
         
         // 4. Middle-Right Top (Group by Wooden House) - Col 3, Row 1
-        { id: 4, src: "/src/assets/gallery4.webp", alt: "Group by Wooden House", 
+        { id: 4, src: "/assets/gallery4.webp", alt: "Group by Wooden House", 
           style: { gridArea: '1 / 3 / 2 / 4' } },
         
         // 5. Middle-Right Bottom (Small Group) - Col 3, Row 2
-        { id: 5, src: "/src/assets/gallery5.webp", alt: "Small Group Photo", 
+        { id: 5, src: "/assets/gallery5.webp", alt: "Small Group Photo", 
           style: { gridArea: '2 / 3 / 3 / 4' } },
 
         // 6. Rightmost Group (Group by Lodge) - Col 4, Rows 1-2
-        { id: 6, src: "/src/assets/gallery6.webp", alt: "Right Main Group Photo", 
+        { id: 6, src: "/assets/gallery6.webp", alt: "Right Main Group Photo", 
           style: { gridArea: '1 / 4 / 3 / 5' } },
     ];
 
@@ -587,7 +587,7 @@ const QueryContactSection = () => {
         <div 
             className="relative w-full py-20 flex justify-center items-center overflow-hidden"
             style={{
-                backgroundImage: "url('/src/assets/query-section2.jpg')", // Use the provided background image
+                backgroundImage: "url('/assets/query-section2.jpg')", // Use the provided background image
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundAttachment: 'fixed', // Optional: adds a nice parallax effect
@@ -856,7 +856,7 @@ const CorporateTours = () => {
           loop
           playsInline
         >
-          <source src="/src/assets/corporate-homepage-website.mp4" type="video/mp4" />
+          <source src="/assets/corporate-homepage-website.mp4" type="video/mp4" />
         </video>
         
         {/* Overlay */}
@@ -887,7 +887,7 @@ const CorporateTours = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div className="text-center">
               <div className="w-24 h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-4">
-                <img src="/src/assets/corporate-trips-icon.webp" alt="Corporate Trips" className="w-12 h-12" />
+                <img src="/assets/corporate-trips-icon.webp" alt="Corporate Trips" className="w-12 h-12" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Corporate Trips</h3>
               <p className="text-gray-600 text-sm">
@@ -897,7 +897,7 @@ const CorporateTours = () => {
             
             <div className="text-center">
               <div className="w-24 h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-4">
-                <img src="/src/assets/team-incentive-travel-icon.webp" alt="Team Incentive Travel" className="w-12 h-12" />
+                <img src="/assets/team-incentive-travel-icon.webp" alt="Team Incentive Travel" className="w-12 h-12" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Team Incentive Travel</h3>
               <p className="text-gray-600 text-sm">
@@ -907,7 +907,7 @@ const CorporateTours = () => {
             
             <div className="text-center">
               <div className="w-24 h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-4">
-                <img src="/src/assets/business-travel-icon.webp" alt="Business Travel" className="w-12 h-12" />
+                <img src="/assets/business-travel-icon.webp" alt="Business Travel" className="w-12 h-12" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Business Travel</h3>
               <p className="text-gray-600 text-sm">
@@ -919,7 +919,7 @@ const CorporateTours = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="w-24 h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-4">
-                <img src="/src/assets/MICE-icon.webp" alt="MICE" className="w-12 h-12" />
+                <img src="/assets/MICE-icon.webp" alt="MICE" className="w-12 h-12" />
               </div>
               <h3 className="text-xl font-semibold mb-3">MICE</h3>
               <p className="text-gray-600 text-sm">
@@ -929,7 +929,7 @@ const CorporateTours = () => {
             
             <div className="text-center">
               <div className="w-24 h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-4">
-                <img src="/src/assets/vendor-incentive-plan-icon.webp" alt="Vendor Incentive Plan" className="w-12 h-12" />
+                <img src="/assets/vendor-incentive-plan-icon.webp" alt="Vendor Incentive Plan" className="w-12 h-12" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Vendor Incentive Plan</h3>
               <p className="text-gray-600 text-sm">
@@ -943,7 +943,7 @@ const CorporateTours = () => {
       <section
         className="rounded-lg max-w-7xl mx-auto text-left mt-10 mb-10 p-6 flex flex-col md:flex-row items-center"
         style={{
-          backgroundImage: "url('/src/assets/blue-crumpled-bg.png')",
+          backgroundImage: "url('/blue-crumpled-bg.png')",
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
@@ -1064,7 +1064,7 @@ const CorporateTours = () => {
       <div 
         className="py-16 relative"
         style={{
-          backgroundImage: "url('/src/assets/corporate-clients-section.jpg')",
+          backgroundImage: "url('/assets/corporate-clients-section.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'

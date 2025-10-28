@@ -72,7 +72,7 @@ const Index = () => {
       <section
         className="rounded-lg max-w-7xl mx-auto text-left mt-10 mb-10 p-6 flex flex-col md:flex-row items-center"
         style={{
-          backgroundImage: "url('/src/assets/blue-crumpled-bg.png')",
+          backgroundImage: "url('/blue-crumpled-bg.png')",
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
