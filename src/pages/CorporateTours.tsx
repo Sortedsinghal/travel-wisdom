@@ -64,7 +64,7 @@ const TripCarousel = () => {
         </div>
       </div>
       <div className="p-4 pt-8 text-center">
-        <span className="text- bold font-medium text-gray-800">{company}</span>
+        <span className="text-lg font-medium text-gray-800">{company}</span>
       </div>
     </div>
   );

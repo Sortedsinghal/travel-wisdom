@@ -115,7 +115,7 @@ const FaqItem = ({ item, isOpen, onClick }) => (
 );
 
 
-const BookingBox = ({ occupancy, setOccupancy, occupancyDetails, mobile = false }) => (
+const BookingBox = ({ occupancy, setOccupancy, occupancyDetails, mobile = false, setShowQueryForm }) => (
     <div className={`border bg-white p-4 sm:p-6 rounded-2xl shadow-lg ${mobile ? 'lg:hidden' : 'hidden lg:block'}`}>
         {!mobile && (
             <>
@@ -357,14 +357,14 @@ const MeghalayaBackpacking = () => {
               </div>
 
               {/* Mobile Booking Box */}
-              <BookingBox occupancy={occupancy} setOccupancy={setOccupancy} occupancyDetails={occupancyDetails} mobile={true} />
+              <BookingBox occupancy={occupancy} setOccupancy={setOccupancy} occupancyDetails={occupancyDetails} mobile={true} setShowQueryForm={setShowQueryForm} />
             </div>
           </div>
 
           {/* Sticky Sidebar (Right Column) */}
           <aside className="hidden lg:block lg:col-span-4">
               <div className="sticky top-24">
-                <BookingBox occupancy={occupancy} setOccupancy={setOccupancy} occupancyDetails={occupancyDetails} />
+                <BookingBox occupancy={occupancy} setOccupancy={setOccupancy} occupancyDetails={occupancyDetails} setShowQueryForm={setShowQueryForm} />
               </div>
           </aside>
         </div>
