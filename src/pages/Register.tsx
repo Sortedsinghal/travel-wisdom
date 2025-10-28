@@ -72,24 +72,6 @@ const Register = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-
-      {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-md mx-auto text-center">
-            <div className="mb-8">
-              <img
-                src={TravelWisdomLogo}
-                alt="Travel Wisdom"
-                className="h-16 w-16 mx-auto mb-4 object-contain"
-              />
-              <h1 className="text-3xl md:text-4xl font-bold">Join Travel Wisdom</h1>
-              <p className="text-xl opacity-90 mt-2">Create your account and start your adventure</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Registration Form */}
       <section className="py-16">
         <div className="container mx-auto px-4">
@@ -214,11 +196,11 @@ const Register = () => {
                 />
                 <Label htmlFor="terms" className="text-sm text-gray-700 cursor-pointer leading-relaxed">
                   I agree to the{" "}
-                  <Link to="/terms" className="text-blue-600 hover:text-blue-700 underline">
+                  <Link to="/terms-&-condition" className="text-blue-600 hover:text-blue-700 underline">
                     Terms and Conditions
                   </Link>{" "}
                   and{" "}
-                  <Link to="/privacy" className="text-blue-600 hover:text-blue-700 underline">
+                  <Link to="/Privacy-Policy" className="text-blue-600 hover:text-blue-700 underline">
                     Privacy Policy
                   </Link>
                 </Label>

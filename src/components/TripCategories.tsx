@@ -1,28 +1,30 @@
+import { Link } from "react-router-dom";
+
 const categories = [
   {
     icon: "/bagpack.png",
     title: "Backpacking Trips",
-    href: "#"
+    href: "/backpacking-trips"
   },
   {
     icon: "/traveling.webp",
     title: "Adventure Treks",
-    href: "#"
+    href: "/domestic-trips"
   },
   {
     icon: "/glasses.webp",
-    title: "Honeymoon Trips",
-    href: "#"
+    title: "International Trips",
+    href: "/international-trips"
   },
   {
     icon: "/van.webp",
     title: "Weekend Getaways",
-    href: "#"
+    href: "/weekend-trips"
   },
   {
     icon: "/handshake.webp",
     title: "Corporate Trips",
-    href: "#"
+    href: "/corporate-tours"
   }
 ];
 
@@ -33,8 +35,9 @@ const TripCategories = () => {
         <div className="flex flex-wrap justify-center gap-8 md:gap-24">
           {categories.map((category, index) => {
             return (
-              <div
+              <Link
                 key={category.title}
+                to={category.href}
                 className="flex flex-col items-center cursor-pointer group"
               >
                 {/* Circular icon container */}
@@ -46,7 +49,7 @@ const TripCategories = () => {
                 <h3 className="text-center font-semibold text-foreground text-sm md:text-base whitespace-nowrap">
                   {category.title}
                 </h3>
-              </div>
+              </Link>
             );
           })}
         </div>
