@@ -100,7 +100,7 @@ const ContactUs = () => {
                 value={formData.message}
                 onChange={(e) => handleInputChange("message", e.target.value)}
                 required
-                rows={1}
+                rows={4}
                 className="bg-gray-50 py-3 px-4 text-base"
               />
               <Button type="submit" className="w-full bg-[#0B3A55] hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors text-white rounded-lg text-base font-semibold py-3">
