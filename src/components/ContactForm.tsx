@@ -38,7 +38,9 @@ const ContactForm = () => {
         }),
       });
 
-      if (response.ok) {
+      const result = await response.json();
+      
+      if (response.ok && result.success) {
         toast({
           title: "Request Sent!",
           description: "We'll contact you soon with the best travel options.",
@@ -54,7 +56,7 @@ const ContactForm = () => {
       } else {
         toast({
           title: "Error",
-          description: "Failed to send request. Please try again.",
+          description: result.error || "Failed to send request. Please try again.",
           variant: "destructive"
         });
       }

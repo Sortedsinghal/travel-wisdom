@@ -39,6 +39,6 @@ export default async function handler(req, res) {
   } catch (error) {
     console.error('Email error:', error.message);
     console.log('Query logged:', { name, email, phone, tripName });
-    res.json({ success: true }); // Still return success to avoid user-facing errors
+    res.status(500).json({ success: false, error: 'Failed to send email' });
   }
 }
