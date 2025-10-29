@@ -75,8 +75,8 @@ const Header = () => {
                 alt="Travel Wisdom Circle"
                 className="w-16 h-14 rounded-full mr-2.5 object-contain"
               />
-              <span className="text-2xl font-bold text-[#000000] tracking-wide" style={{ fontFamily: 'Outfit, sans-serif' }}>
-                Travel Wisdom
+              <span className="text-2xl font-black text-[#000000]" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: '900' }}>
+                TRAVEL WISDOM
               </span>
             </Link>
 
