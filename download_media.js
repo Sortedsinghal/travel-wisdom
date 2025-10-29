@@ -8,7 +8,7 @@ import { fileURLToPath } from 'url';
 // --- Configuration ---
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const TARGET_URL = 'https://go4explore.com/trips/vietnam-danang-ho-chi-minh-6d5n';
+const TARGET_URL = 'https://go4explore.com/trips/shali-tibba-trek';
 const OUTPUT_DIR = path.join(__dirname, 'public', 'cloned_media');
 // ---------------------
 
