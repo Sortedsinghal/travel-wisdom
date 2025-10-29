@@ -20,12 +20,13 @@ export interface Trip {
   // --- NEW: Data for Trip Detail Page ---
   overview: string;
   itinerary: {
-    day: number;
+    day: number; // Day 0 will be treated as a number
     title: string;
     description: string;
   }[];
   inclusions: string[];
   exclusions: string[];
+  gallery?: string[]; // <-- ADDED THIS
 }
 
 // --- Helper function to create placeholder itinerary ---
@@ -50,29 +51,151 @@ export const allTrips: Trip[] = [
   //==========================================================================
   // DESTINATION: Dubai (from Dubai.tsx)
   //==========================================================================
-  {
+ {
     slug: 'dubai-6d5n-with-adventure-activities',
     title: 'Dubai 6D5N with Adventure Activities',
     destination: 'Dubai',
     duration: '6 Days 5 Nights',
     price: '₹80000',
     imageUrl: '/cloned_media/23958420231018151140.png',
-    overview: 'Experience the thrill of Dubai with our adventure-packed 6-day tour. From desert safaris to theme parks, this trip has it all.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Desert Safari', 'City Tour'],
-    exclusions: ['Flights', 'Visa Fees', 'Personal Expenses'],
+    gallery: [
+      '/cloned_media/39041520231018151140.png',
+      '/cloned_media/7920220231018151140.png',
+      '/cloned_media/29595020231018151140.png',
+      '/cloned_media/3374720231018151140.png',
+      '/cloned_media/5536120231018151140.png',
+      '/cloned_media/36505420231018151140.png',
+      '/cloned_media/18498320231018151140.png',
+      '/cloned_media/26992520231018151140.png',
+      '/cloned_media/1165720231018151140.png',
+      '/cloned_media/1285320231018151140.png',
+      '/cloned_media/19078620231018151140.png'
+    ],
+    overview: '<h2>About Dubai Adventure Tour Package</h2><p>How about gaining a euphoric experience in the city of contrasts amidst ultra Modern skyscrapers, incredible skylines, giant shopping malls, serene artificial beach and crystal clear water, all at once? <a href="/trip/dubai" style="color:blue;">Dubai Tour Package</a> offers you a lifetime opportunity to Travel around Dubai, the futuristic city in the United Arab Emirates that offers a treasure trove of tourist attractions to visitors, and while you are embracing liberal views of the city immerse yourself in the taste of unique Arabic cuisine. From the breathtaking green waters of Dubai Marina, encompassed by breathtaking architectural feats, to the Burj Khalifa, which is a global symbol and an evidence of how ambitious this city is, it always leaves one in awe.</p><p>After completing a 25 year journey of transformation, from a vast desert with a few tiny villages to an emerging global city, Dubai is a dream turned reality. This glamorous city of the United Arab Emirates is known for its festivals and concerts by international artists. While embracing modernity, Dubai hasn’t forgotten its cultural roots through its traditional souks, where the aroma of spices and the sparkling gold beckon helps travelers experience the city\'s rich heritage.</p><p>But Dubai is not just a city for travelers who love scenic experiences, it also welcomes adventure enthusiasts with its energy fueled rides in the Ferrari world that will boost your adrenaline rush. From feeling like the characters of fast and furious in the Ferrari world to skydiving from soaring heights of the building and erasing your fears forever, Dubai is a true adventure land.</p> <p>After reaching Dubai don\'t hesitate to take a dose of high energy and hop on to the Zipline next to Burj Khalifa, do flyboarding, take a close look at sharks while skydiving and the list doesn’t stop here because you can also get a chance to ride across the desert of Dubai in Hot Air Balloon. It\'s time for you to put a check mark across Dubai on your bucket list while Go4Explore’s Dubai Tour Package awaits your arrival.</p><h3>Top attractions to visit During Dubai Adventure Tour</h3><ul><li><strong>Dubai Frame:</strong> The Dubai Frame is a famous landmark located in Zabeel Park, Dubai, United Arab Emirates. Opened in January 2018, it is an impressive architectural structure that resembles a giant picture frame.</li><li><strong>Miracle Garden:</strong> The Dubai Miracle Garden is a stunning botanical garden located in the district of Dubailand, Dubai, United Arab Emirates. It is the world\'s largest natural flower garden, featuring over 50 million flowers and 250 million plants.</li><li><strong>Burj Al Arab:</strong> The very luxurious Burj Al Arab is found in Dubai that is one of the tallest hotels worldwide with its underwater dining experiences and rides on Rolls-Royce. The Mall of Emirates at Ski Dubai—the Middle East’s foremost indoor skiing center—is a shopper’s paradise as it has over 630 retail outlets, restaurants and entertainment facilities.</li><li><strong>Dubai Aquarium:</strong> At the Dubai Aquarium, one of the biggest suspended aquariums globally, technology and nature come together as over 33 thousand sea creatures are placed in its ten million liter tank enabling visitors to explore an underwater zoo as well. The biggest picture frame ever made called Dubai Frame allows people to see both the old town and modern skyline of this city.</li><li><strong>Abu Dhabi:</strong> The capital city also offers equally stunning architectural masterpieces, luxurious ways of life as well religiously significant mosques. From being a paradise to dessert lovers to offering a chance to treat your eyes with extraordinarily stunning deluxe and sights of the city.</li><li><strong>Ferrari World:</strong> An <a href="/trips/dubai-6d5n-with-adventure-activities" style="color:blue;">Dubai adventure tour</a> through the inaugural theme park operated under the Ferrari brand name opening its doors in 2010. This place is also home to Formula Rossa which is rated as the world\'s fastest roller coaster and Flying Aces regarded as the highest roller coaster loop under a space frame roof.</li></ul><h3>Adventurous Things to do in Dubai</h3><ul><li>The Burj Khalifa is the world’s tallest building from which one can have breathtaking panoramic views of the city and be amazed by its stunning skyline.</li><li>If you want to go to some of the biggest shopping centers in the world, then you must visit the Dubai Mall which is like a maze where people can hang out, eat their meals or even see an aquarium, go ice-skating as well as visit indoor theme parks.</li><li>When going for desert safari, you will get thrilled during dune bashing, camel riding or sandboarding and then take a traditional Arabic dinner under the stars at a Bedouin-style camp. Make your way through golden sand dunes of Dubai in vehicles for around 30-40 mins. Amidst dunes and tents explore the thrilling desert adventure. An Arabian Nights ambiance under starry skies.</li><li><a href="https://en.wikipedia.org/wiki/IMG_Worlds_of_Adventure" style="color:blue;" rel="noopener noreferrer" target="_blank">IMG Worlds of Adventure</a> offers visitors with some of the most amazing and thrilling rides like Ride of Gumball, an interactive ride that lets you shoot at targets and score points, Adventure Time - The Ride of OOO with Finn &amp; Jake, a rail ride to the Land of Ooo, and 5D cinema of Ben 10 5D Hero Time.</li><li>World’s largest natural flower garden The Dubai Miracle Garden has over 50 million flowers arranged into unique designs and patterns using over 250 million plants.</li><li>Go to the Gold Souk that is famous for all of gold, silver and precious stone jewelry; try bargaining for a keepsake too.</li><li>Find out how Al Fahidi Fort was transformed into Dubai Museum; learn more about this transformation among others when you visit through this ancient fort in the whole city of Dubai.</li></ul><h3>How to reach Dubai from India</h3><ul><li><strong>Airways:</strong> Flights for Dubai prominently fly from International airports of India and it takes around 2 to 3 hours to reach your dream destination.</li><li><strong>Roadways:</strong> After reaching Oman, Abu Dhabi, Sharjah, Ajman, Masafi you board a car or bus and reach Dubai, the futuristic city.</li></ul><h3>Best time to visit Dubai</h3><ul><li><strong>April to September:</strong> Dubai is considered as a hot region with dry winds due to deserts so it is advised to avoid these months.</li><li><strong>November to February:</strong> Though it is favorable to reach Dubai at all times, November to February is the best time to visit because of its pleasant weather. This calming weather only enhances your travel experience.</li></ul><p>Explore our popular Dubai Tour Packages: <a href="/trips/dubai-5d4n-with-ferrari-world" style="color:blue;">Dubai Abu Dhabi City Tour with Ferrari World</a>, <a href="/trips/dubai-7d6n" style="color:blue;">Dubai 7 Days Tour</a>, and <a href="/trips/dubai-4d3n" style="color:blue;">Dubai 4 Days Tours</a></p>',
+
+    itinerary: [
+      { 
+        day: 0, 
+        title: 'Journey Begins | Dubai Arrival', 
+        description: '<ul><li>With excitement and happiness on your face, jump into your flight for Dubai and say goodbye to India.</li><li>After landing in Dubai and clearing immigration (we’ll help you our dear traveler), drive towards your hotel. Check-in to our comfy hotel and have some leisure.</li><li>In the evening (around 7:00 pm), we’ll pick you up from the hotel and take you out to Marina Cruise. Experience 2hrs cruising in Dubai Marina and chill with welcome drinks on arrival, Arabic sweets, fresh fruits, unlimited soft drinks, juice, tea/coffee and much more. The lower deck of this cruise is fully air conditioned and the upper deck is open air.</li><li>Relish upon scrumptious buffet dinner (both veg &amp; non-veg dishes) along with live music and entertaining dance shows.</li><li>Post a leisure filled cruise experience, you’ll be dropped off at your hotel followed by a much-needed overnight stay.</li></ul>' 
+      },
+      { 
+        day: 1, 
+        title: 'Dubai City Tour | Desert Safari with BBQ Dinner', 
+        description: '<ul><li>Wake up early in the morning and post breakfast, hop on to your vehicle for an exciting Dubai city tour (half-day).</li><li>This exploratory city tour will start from the cultural landmark of Dubai, the Jumeirah Mosque, further taking you through the Jumeirah Beach Road.</li><li>Visit other major attractions in Dubai namely Burj Al Arab, Souq Madinat, Mall of the Emirates. You will travel down the Sheikh Zayed Road.</li><li>In the evening (around 3:00 pm), we’ll pick you up for Dubai’s famous desert safari. Head out for a thrilling desert safari in Arabian sandy desert and watch a super amazing belly dance show with tantra and fire show.</li><li>Relish upon a scrumptious buffet dinner and drive back to our hotel. Overnight stay at the hotel.</li></ul>' 
+      },
+      { 
+        day: 2, 
+        title: 'Burj Khalifa 124th Floor with Dubai Aquarium & Underwater Zoo', 
+        description: '<ul><li>Post a delightful breakfast, drive towards Burj Khalifa and ride up to the 124th floor observation deck in a high-speed elevator. With the help of telescopes watch Dubai\'s major attraction fountain show.</li><li>Stroll through the Dubai Aquarium to see interesting marine life with over 10 million different marine animals such as 300+ sharks and rays. This aquarium is a 48-meter tunnel that gives you a fascinating 270-degree view of the massive aquarium.</li><li>Drive back to our hotel followed by a much-needed overnight stay.</li></ul>' 
+      },
+      { 
+        day: 3, 
+        title: 'Abu Dhabi City Tour - Grand Mosque + Ferrari World', 
+        description: '<ul><li>Wake up in the morning and post a delightful breakfast, we will head out for the Abu Dhabi city tour.</li><li>Visit Sheikh Zayed Grand Mosque, recognised as one of the world’s largest mosques and an architectural masterpiece that beautifully combines Islamic architecture and design.</li><li>Post city tour we will move towards Ferrari World. Ferrari World transports you to a world of high-speed drifting supercars. The Family, F1, Adventure, Italian, and Welcome Zones are among the five spectacular zones with over 40 breathtaking rides and experiences.</li><li>Drive back to our hotel followed by a much-needed overnight stay.</li></ul>' 
+      },
+      { 
+        day: 4, 
+        title: 'Atlantis Aquaventure Water Park & Lost Chamber', 
+        // This is the one from your screenshot, now with bullet points
+        description: '<ul><li>Wake up in the morning and post a delightful breakfast, we will head out for Atlantis Aquaventure Water Park &amp; Lost Chamber.</li><li>Indulge in various exciting activities such as a 90-foot slide, rafting through the ship tunnel, and much more.</li><li>Inside the Lost Chambers Aquarium, get to know about the mythical city of the Lost City of Atlantis. Witness sharks, stingrays, piranhas, lobsters, and seahorses as you walk through a network of underwater glass tunnels.</li><li>Post a great exploratory day, return to your hotel followed by an overnight stay.</li></ul>' 
+      },
+      { 
+        day: 5, 
+        title: 'Goodbye Dubai | Depart for Homeland', 
+        description: '<ul><li>Wake up in the morning and post breakfast, check-out from our hotel and depart for the Dubai Future Museum tour.</li><li>Drive towards the airport and flyback to your respective destinations with the mesmerizing views and memories to cherish forever.</li></ul>' 
+      }
+    ],
+    // --- This remains a string[] to match the interface ---
+    inclusions: [
+      'Accommodation in a 3 star Hotel for 5 Nights.',
+      'Daily buffet Breakfast at Hotel & 2 Dinners.',
+      'Dubai airport to Hotel transfers on Pvt basis and vice versa.',
+      'Half-day Dubai guided city tour on SIC basis.',
+      'Dubai cruise with Dinner and transfers on SIC basis',
+      'Desert safari with BBQ Dinner & live shows.',
+      'Burj Khalifa 124th floor non prime time with transfers on SIC basis.',
+      'Abu Dhabi city tour + Ferrari World visit.',
+      'Atlantis Aquaventure Water Park & Lost Chambers',
+      'Museum of the Future and Dubai Frame (only visit)',
+      'Visa assistance.'
+    ],
+    // --- This remains a string[] to match the interface ---
+    exclusions: [
+      'Any kind of personal expense.',
+      'Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.',
+      'Museum/Monument entry fee/city tax.',
+      'Travel Insurance.',
+      '5% GST & 5% TCS (TCS can be claimed in full in your ITR).'
+    ],
   },
   {
     slug: 'dubai-5d4n-with-ferrari-world',
     title: 'Dubai 5D4N with Ferrari World',
     destination: 'Dubai',
     duration: '5 Days 4 Nights',
-    price: '₹55000',
-    imageUrl: '/cloned_media/25318520231018150041.png',
-    overview: 'A perfect family getaway combining the best of Dubai with a full-day thrilling experience at Ferrari World, Abu Dhabi.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Ferrari World Tickets', 'City Tour'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches and Dinners'],
+    price: '₹55000', // Updated price from HTML
+    imageUrl: '/cloned_media/25318520231018150041.png', // Updated main image from HTML
+    gallery: [ // Added gallery from HTML
+      '/cloned_media/24093020231018150041.png',
+      '/cloned_media/39155620231018150041.png',
+      '/cloned_media/15107120231018150041.png',
+      '/cloned_media/39311320231018150041.png',
+      '/cloned_media/16661120231018150041.png',
+      '/cloned_media/37830820231018150041.png',
+      '/cloned_media/6615420231018150041.png',
+      '/cloned_media/18893720231018150041.png',
+      '/cloned_media/14715320231018150041.png',
+      '/cloned_media/38351420231018150041.png',
+      '/cloned_media/27333920231018150041.png'
+    ],
+    overview: '<h2>About Ferrari World Dubai Tour Package 5 Days 4 Nights</h2><p>Fuel your wanderlust and get ready to experience the ultimate fusion of luxury, thrill, and Arabian grandeur on our spectacular Dubai 5D4N with Ferrari World Tour Package! This meticulously crafted adventure promises to leave you spellbound from the moment you set foot in this dazzling desert metropolis.</p><p>Try to picture how it would be to wake up in one of the posh hotels in Dubai with iconic towers and structures standing majestically all over. You will feel like the belle of the ball, experiencing the charm of the city and the luxuries of the five-star treatment and the shiniest attractions, as if moved from a fairy tale.</p><p>But that’s not all, it cannot get any better as the next stop in the tour is Ferrari World! Fasten your seat belts for a quite thrilling ride as Eight Acres is all set to have the world’s largest indoor theme park where fans can experience the awesome Italian supercar. Enticing heart-recoiling outer space like rollercoasters to ultimate car lover experiences through myriad displays on Ferrari’s glorious past, this is a real treat.</p><p>Try yourself behind the wheel, let a professional guide drive you and enjoy the sand rush along with the astonishing view of the sunset on the sand dunes. In the evening after sunset, you are welcomed to the medium of Cultural live show, Delicious Arabic Dinner and Warm Hospitality of Bedouin King Size Tent.</p><p>Don\'t miss this once in a lifetime opportunity to catch a glimpse of the over the top luxury that <a href="/trip/dubai" style="color:blue;">Dubai Tour Package</a> has to offer and the amazing desert adventures and the deep rooted cultural heritage. Don’t miss this opportunity to be part of the “Dubai 5D4N with Ferrari World Tour Package so that you can be part of the moment to cherish for some time to come!</p><h3>Best Places to Visit in Dubai with Ferrari World Tour Package</h3><ul><li><strong>Grand Mosque:</strong> The Sheikh Zayed Grand Mosque is undoubtedly one of the most stunning architectural resources, and one of the major attractions in Abu Dhabi. This exquisite mosque is known as Sheikh Zayed bin Sultan Al Nahyan mosque and it is a perfect example of the Islamic architecture.</li><li><strong>Ferrari World:</strong> Ferrari World located at Yas Island of Abu Dhabi, is a Land of Legends that is wholly devoted to Ferrari’s sports cars. It is an enclosed structure that houses some of the tallest and fastest that will appeal to visitors seeking exciting experiences as well as the car lovers.</li><li><strong>Abu Dhabi City:</strong> This city is different for its contrast between oil industry references and cutting-edge architecture: it is the capital city of the United Arab Emirates. When you are roaming around the city, you are going to note that it has large elegant buildings that are complemented by towering skyscrapers and remarkable landmarks.</li><li><strong>Dubai Desert Safari:</strong> Head for Desert to enjoy Dune Bashing and also for sand boarding, Camel Riding and after all of this to enjoy the Authentic Arabian Barbeque Dinner under the stars.</li><li><strong>Dubai Aquarium and Underwater Zoo:</strong> Situated in the ever-distinguished Dubai Mall, Dubai Aquarium brings into reality the presence of thousands of global fish species, some of which include sharks, stingrays and many more. One of the sites; it even provides a walk-through tunnel that will give the guests an excellent view of the sea creatures.</li><li><strong>Burj Khalifa:</strong> It is an awesome structure with Standing Height: 828 meters and that makes it the tallest structure globally. On the 124th floor as well as the 148th floor you may go to the observation decks, which offer splendid views of the skyline of the city.</li><li><strong>Dubai Mall:</strong> A visit to the Dubai Mall will reveal that this is one of biggest shopping malls in the entire globe. It offers a stunning number of outlets, an Oceanarium, the Dubai Rink, an Ice- Skating Rink as well as the fabulous Dubai Fountain – the world’s largest dancing water fountain system, which is accompanied by music every evening.</li><li><strong>Dubai Museum:</strong> Located in the Al Fahidi Fort, this <a href="https://en.wikipedia.org/wiki/Dubai_Museum" style="color:blue;" rel="noopener noreferrer" target="_blank">Dubai Museum</a> provides a great view over the city’s historical and cultural development. For history lovers, you can check out the pre-oil era of the UAE with an Emirati-style village, architecture, and even artifacts explaining the development of the country from pearl diversity to an iconic city we know today.</li><li><strong>Dubai Desert Safari:</strong> Be adventurous by going for a dune bashing and follow this by sand boarding, camel riding with a chance to enjoy a ‘shawarma’ Arabia styled barbeque dinner.</li><li><strong>Dubai Aquarium and Underwater Zoo:</strong> The Dubai Mall Aquarium is another fascinating attraction that will take your breath away when you set your eyes on it. This is the largest aquarium with thousands of fish, sharks, stingrays and so on. If you want, you can spend some time in an underwater tunnel, where you can meet the locals from a really close distance.</li></ul><h3>Top Things to do in Dubai Tour</h3><p><strong>1. Desert Safari:</strong> Experience the thrills of sand dune bashing with others that include sand boarding, camel riding along with having a delicious Barbeque Arabic cuisine dinner under the light of the star.</p><p><strong>2. Skydiving:</strong> You potentially release endorphins for the biggest of leaps and feel the free fall as you go skydiving over the Palm Jumeirah or over the Dubai desert.</p><p><strong>3. Dubai Fountain Show:</strong> Take a tour around the city and behold the light and water show where water sprouts from the fountain in sync with the tunes and glow from the creativity of Dubai.</p><p><strong>4. Ski Dubai:</strong> Have a fun and unique experience of skiing and snowboarding in the interior, with actual snow and an opportunity to meet with and take pictures with a group of penguins.</p><p><strong>5. Dhow Cruise Dinner:</strong> Savor an Arabic dinner onboard a wooden boat or dhow – The wooden boats or dhows that you can rent are designed in Arabic style, and you can take them for a ride along the Dubai Creek or the Marina while having a traditional Arabic buffet meal.</p><p><strong>6. Burj Khalifa At The Top:</strong> Go up to the 124th and the 148 observational floors of the Burj Khalifa Tower to get a broad view of the city.</p><p><strong>7. Dubai Aquarium and Underwater Zoo:</strong> Experience the unusual atmosphere of the water-filled kingdom and enjoy the walk through the underwater tunnel in the Dubai Aquarium.</p><p><strong>8. Dubai Shopping Festival:</strong> Benefit from great offers and promotions as well as being entertained during the Dubai Shopping Festival annually.</p><p><strong>9. Dubai Miracle Garden:</strong> Visit this fascinating garden which features the region’s nurseries showcasing their beautiful flower arrangements and legally-required for weddings manifestations – lifelike floral creations meant for marriage ceremonies.</p><p><strong>10. Dubai Marina Yacht Tour: </strong>Try taking a private yacht rental or a water taxi service to get the gorgeous view of Dubai Marina, as well as the skyline.</p><p><strong>11. Dubai Parks and Resorts:</strong> Propose a day trip to one of the many fun filled amusement places in Dubai eg. Dubai Parks and Resorts which consists of Motiongate, Bollywood Parks, Legoland and more.</p><p><strong>12. Cooking Classes:</strong> Discover the beauty and enigma of Arabic and learn the delicacies of Emirates with a personal cooking class with local meals.</p><p><strong>13. Desert Camping:</strong> The glamorous camping where you will be taken back to the ancient Bedouin life with lots of actions, including dinner round the fire, music or even stars gazing.</p><p><strong>14. Helicopter Tour:</strong> Feel free to explore the city in a helicopter and experience the sightseeing of Dubai’s achievements and magnificent panoramas.</p><p><strong>15. Hot Air Balloon Ride:</strong> Take a hot air balloon tour in the morning to evening to appreciate the mesmerizing beauty of Dubai skyline or the sand dunes.</p><h3>How to Reach Dubai from India</h3><p><strong>By Air:</strong> This is the most convenient and fastest way to reach Dubai from India. Currently, the Leading Airlines operating within the region have scheduled daily flights that connect major Indian cities such as Delhi, Mumbai, Bengaluru, Chennai, and Hyderabad to Dubai. The main line carries passengers, some of the numerous airlines include Emirates airlines, Air India, Indigo, Spice Jet, Vistara among others. The length of a flight spans from 3 to 4 hours based on the city of takeoff and the destination area.</p><h3>Best Time to Visit Dubai</h3><p><strong>Peak Season (November to March):</strong> Dubai\'s peak tourist season offers comfortable temperatures between 20°C-28°C. It\'s ideal for outdoor activities, beach days, and sightseeing without extreme heat. However, expect higher hotel rates and crowds during this popular winter period.</p><p><strong>Off-Peak Season (June to August):</strong> Summer in Dubai is scorchingly hot, with temperatures exceeding 40°C. While not suitable for outdoor exploration, it\'s a great time to find discounted hotels and flights. Indoor attractions like malls and theme parks are popular escapes from the heat.</p><p>Other related tour packages: <a href="/trips/dubai-6d5n-with-adventure-activities" style="color:blue;">Dubai Adventure Tour Packages</a>, <a href="/trips/dubai-4d3n" style="color:blue;">Dubai 4 Days Tour Package </a>, <a href="/trips/dubai-5d4n" style="color:blue;">Dubai 5 Days Tour Package </a>, <a href="/trips/dubai-6d5n" style="color:blue;">Dubai 6 Days Tour Package </a>, <a href="/trips/dubai-7d6n" style="color:blue;">Dubai 7 Days Tour Package </a></p>',
+    itinerary: [ // Updated itinerary with HTML formatting
+      { 
+        day: 0, 
+        title: 'Journey Begins | Dubai Arrival', 
+        description: '<ul><li>With excitement and happiness on your face, jump into your flight for Dubai and say goodbye to India.</li><li>After landing in Dubai and clearing immigration (we’ll help you our dear traveler), drive towards your hotel. Check-in to our comfy hotel and have some leisure.</li><li>In the evening (around 7:00 pm), we’ll pick you up from the hotel and take you out to Marina Cruise. Experience 2hrs cruising in Dubai Marina and chill with welcome drinks on arrival, Arabic sweets, fresh fruits, unlimited soft drinks, juice, tea/coffee and much more. The lower deck of this cruise is fully air conditioned and the upper deck is open air.</li><li>Relish upon scrumptious buffet dinner (both veg &amp; non-veg dishes) along with live music and entertaining dance shows.</li><li>Post a leisure filled cruise experience, you’ll be dropped off at your hotel followed by a much-needed overnight stay.</li></ul>' 
+      },
+      { 
+        day: 1, 
+        title: 'Dubai City Tour | Desert Safari with BBQ Dinner', 
+        description: '<ul><li>Wake up early in the morning and post breakfast, hop on to your vehicle for an exciting Dubai city tour (half-day).</li><li>This exploratory city tour will start from the cultural landmark of Dubai, the Jumeirah Mosque, further taking you through the Jumeirah Beach Road.</li><li>Visit other major attractions in Dubai namely Burj Al Arab, Souq Madinat, Mall of the Emirates. You will travel down the Sheikh Zayed Road.</li><li>In the evening (around 3:00 pm), we’ll pick you up for Dubai’s famous desert safari. Head out for a thrilling desert safari in Arabian sandy desert and watch a super amazing belly dance show with tantra and fire show.</li><li>Relish upon a scrumptious buffet dinner and drive back to our hotel. Overnight stay at the hotel.</li></ul>' 
+      },
+      { 
+        day: 2, 
+        title: 'Burj Khalifa 124th Floor with Dubai Aquarium & Underwater Zoo', 
+        description: '<ul><li>Post a delightful breakfast, drive towards Burj Khalifa and ride up to the 124th floor observation deck in a high speed elevator. With the help of telescopes watch Dubai\'s major attraction fountain show.</li><li>Stroll through the Dubai Aquarium to see interesting marine life with over 10 million different marine animals such as 300+ sharks and rays. This aquarium is a 48 meter tunnel that gives you a fascinating 270 degree view of the massive aquarium.</li><li>Drive back to our hotel followed by a much-needed overnight stay.</li></ul>' 
+      },
+      { 
+        day: 3, 
+        title: 'Abu Dhabi City Tour - Grand Mosque + Ferrari World', 
+        description: '<ul><li>Wake up in the morning and post a delightful breakfast, we will head out for the Abu Dhabi city tour.</li><li>Visit Sheikh Zayed Grand Mosque, recognised as one of the world’s largest mosques and an architectural masterpiece that beautifully combines Islamic architecture and design.</li><li>Post city tour we will move towards Ferrari World. Ferrari World transports you to a world of high-speed drifting supercars. The Family, F1, Adventure, Italian, and Welcome Zones are among the five spectacular zones with over 40 breathtaking rides and experiences.</li><li>Drive back to our hotel followed by a much-needed overnight stay.</li></ul>' 
+      },
+      { 
+        day: 4, 
+        title: 'Goodbye Dubai | Depart for Homeland', 
+        description: '<ul><li>Wake up in the morning and post breakfast, check-out from our hotel and depart for the Dubai Future Museum tour.</li><li>Drive towards the airport and flyback to your respective destinations with the mesmerizing views and memories to cherish forever.</li></ul>' 
+      }
+    ],
+    inclusions: [ // Kept as string[]
+      'Accommodation in a 3 star Hotel for 4 Nights.',
+      'Daily buffet Breakfast at Hotel & 2 Dinners.',
+      'Dubai airport to Hotel transfers on Pvt basis and vice versa.',
+      'Half-day Dubai guided city tour on SIC basis.',
+      'Dubai cruise with Dinner and transfers on SIC basis',
+      'Desert safari with BBQ Dinner & live shows.',
+      'Burj Khalifa 124th floor non prime time with transfers on SIC basis.',
+      'Abu Dhabi city tour + Ferrari World visit.',
+      'Dubai Aquarium + Underwater Zoo on SIC basis.',
+      'Visa assistance.'
+    ],
+    exclusions: [ // Kept as string[]
+      'Any kind of personal expense.',
+      'Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.',
+      'Museum/Monument entry fee/city tax.',
+      'Travel Insurance.',
+      '5% GST & 5% TCS (TCS can be claimed in full in your ITR).'
+    ],
   },
   {
     slug: 'dubai-6d5n',
@@ -2271,12 +2394,82 @@ export const allTrips: Trip[] = [
     title: 'Vietnam Backpacking',
     destination: 'Vietnam',
     duration: '8 Days 7 Nights',
-    price: '₹59999',
-    imageUrl: '/cloned_media/38391920240919072750.png',
-    overview: 'An 8-day backpacking adventure across Vietnam, from the bustling streets of Ho Chi Minh to the serene landscapes of Ha Long Bay.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Hostel/Guesthouse Stay', 'Intercity Transfers (Bus/Train)', 'Tours', 'Ha Long Bay Cruise'],
-    exclusions: ['Flights', 'Visa Fees', 'Meals'],
+    price: '₹59999', // From HTML
+    imageUrl: '/cloned_media/38391920240919072750.png', // From HTML (was already correct)
+    gallery: [ // From HTML
+      '/cloned_media/14217820240125172935.png',
+      '/cloned_media/21664120240125172935.png',
+      '/cloned_media/9569820240125172936.png',
+      '/cloned_media/7309620240125172936.png',
+      '/cloned_media/13964420240125172936.png',
+      '/cloned_media/34890420240125172936.png',
+      '/cloned_media/31222920240125172936.png',
+      '/cloned_media/14633520240125172936.png',
+      '/cloned_media/4166120240125172936.png',
+      '/cloned_media/14292420240125172936.png'
+    ],
+    overview: '<h2>About Vietnam Backpacking Trip</h2><p>There are various hidden gems that are yet to be discovered by travelers and tourists around the world. Though beauty and charm of Southeast Asian countries hasn’t gained fame like Australia, Singapore, Maldives or Dubai have, a beautiful country like Vietnam deserves your attention. Combination of two words “Viet” and “Nam,” Vietnam literally means “southern people”. Vietnamese people have a long history of being suppressed by countries like Thailand and China, yet their lifestyle and the value system stands still within them and passes on from generation to generation but not as a burden rather it is carried as a wealth.</p><p>This stunning country of Southeast Asia is known for its stunning lush meadows, picturesque landscapes, cultural heritage and resilient people. The ancient temples and colonial buildings in Hoi An and Hanoi are living narrators of Vietnam\'s storied history. Beyond its architectural wonders, one thing that can become your <a href="https://go4explore.com/trip/vietnam" style="color:blue;">Vietnam Tour Package </a>highlight is Vietnamese people whose charm lies in the warmth and hospitality they have for their tourists leaving a mark of respect in visitors\' hearts. From savoring the aromatic pho at street-side stalls to basking on the tranquil beaches of Phu Quoc, Vietnam offers a tapestry of experiences.</p><p>Remarkably, this nation is home to numerous flora and fauna like Great Hornbills, Indian Elephants, Sun bears, Pygmy Slow Loris, Asian Water Monitor, Water Buffaloes, Burmese Pythons, a vast network of natural caves and underground rivers. Vietnam is a land of intricate beauty, where lush rice terraces seamlessly blend with striking mountains and highlands, captivating travelers with its unparalleled splendor. This enchanting country gives an opportunity to adventurers to explore its vast wonders, unveiling a tapestry of cultural richness and natural beauty at every turn.</p><h3>Top attractions to visit in Vietnam Backpacking Trip</h3><ul><li><strong>Halong Bay:</strong> Vietnam’s pride and UNESCO World Heritage site, is full of limestone islands that are surrounded with mystic caves and lagoons. According to Vietnamese legends, this place was created by descending dragons from heaven to protect the Vietnamese people.</li><li><strong>Da Nang:</strong> <a href="https://go4explore.com/trips/vietnam-danang-hanoi-6d5n" style="color:blue;">Da Nang</a> has numerous attractions including My Khe beach with golden sand, Dragon Bridge that illuminates at night and Marble Mountain caves where religious rites take place.</li><li><strong>Hanoi:</strong> Hanoi is a city that combines ancient customs with modern life. Some of its features include strolling through bustling markets and streets in the Old Quarter region; visiting enigmatic temples together with vendors of street foods; as well as seeing landmarks of Turtle Tower or St. Joseph\'s Cathedral as a reminder of French domination over Hanoi’s citizens.</li><li><strong>Golden Hand Bridge:</strong> Constructed out of steel mesh and fiberglass, the illusionary Golden Bridge measures 150 meters long. It is supported by huge stone hands that appear like they were made by gods living in the mountains.</li><li><strong>Hoi An:</strong> Hoi An is an ancient river town decorated with lanterns. Tranquility characterizes it along its streets while other historical symbols such as the Japanese covered bridge and Phung Hung Temple represent their rich heritage.</li><li><strong>Cu Chi Tunnels:</strong> <a href="https://en.wikipedia.org/wiki/C%E1%BB%A7_Chi_tunnels" style="color:blue;" rel="noopener noreferrer" target="_blank">Cu Chi Tunnels</a> are a chance for visitors to see what life was like for Viet Cong guerrillas during the Vietnam War, including opportunities to climb through some remaining sections.</li><li><strong>Ho Chi Minh:</strong> The mummified body of their first prime minister Hoi Chi Minh can still be seen today at inHanoi.</li></ul><h3>Things to do in Vietnam Backpacking Adventure Trip</h3><p>From exploring historic cities to cruising through breathtaking natural landscapes, Vietnam offers a diverse array of experiences for every type of traveler.</p><ul><li><strong>Visit Hanoi\'s Old Quarter:</strong> Wander through the narrow streets lined with traditional shops, temples, and street food vendors in this historic district.</li><li><strong>Cruise Halong Bay:</strong> Take a boat tour through the stunning limestone islands and emerald waters of this UNESCO World Heritage Site.</li><li><strong>Visit the Imperial City of Hue:</strong> Explore the ancient citadel, royal tombs, and pagodas in this former capital city.</li><li><strong>Experience Cu Chi Tunnels:</strong> Learn about the intricate network of tunnels used by the Viet Cong during the Vietnam War.</li><li><strong>Relax in Hoi An:</strong> Stroll through this charming ancient town, known for its well-preserved architecture, lanterns, and tailor shops.</li><li><strong>Discover Ho Chi Minh City:</strong> Experience the dynamic blend of modern and traditional in this bustling city, visiting landmarks like the Reunification Palace and War Remnants Museum.</li><li><strong>Try Vietnamese cuisine:</strong> Indulge in iconic dishes like Pho, Banh Mi, Bun Cha, Goi Chuon etc available at street food stalls and restaurants across the country.</li></ul><h3>How to reach Vietnam</h3><ul><li><strong>Airways:</strong> If you are looking for the most convenient and fastest way to reach Vietnam then you must opt for travel via flight. Major cities of India like Delhi, Mumbai, Bangalore, Kolkata etc are well connected to international airports of Hanoi, Ho Chi Minh City, and Danang in Vietnam.</li></ul><h3>Best time to visit Vietnam</h3><p>While the best months to visit in terms of weather are February and March, the ideal time to visit Northern, Central and Southern part of Vietnam differs. It is considered more ideal to visit <a href="https://go4explore.com/trips/vietnam-north" style="color:blue;">North Vietnam</a> between May to October as it remains less crowded during these times. September to May would be the best time to explore the central region of Vietnam. May to September can be an ideal time to travel in and around <a href="https://go4explore.com/trips/vietnam-south" style="color:blue;">Southern Vietnam.</a></p>',
+    itinerary: [ // Formatted with HTML
+      {
+        day: 1, // Adjusted day numbering to start from 1
+        title: 'Ho Chi Minh Calling | Kickass Nightlife & Chill',
+        description: '<ul><li>With excitement and happiness on your face, jump into your flight for Vietnam and say goodbye to India.</li><li>After landing in Vietnam and clearing immigration (we’ll help you our dear traveler), drive towards your hotel. Check-in to your hotel and have some leisure.</li><li>Soak in the vibes of Vietnam and feel free to stroll around the central district.</li><li>Visit Saigon Skydeck or Cafe Apartment (on your own). Not to miss the tasty Banh Mi sandwich while exploring like a local.</li><li>Feel free to take a stroll around in the city & explore the delectable food and nightlife of Ho Choi Minh.</li></ul>'
+      },
+      {
+        day: 2,
+        title: 'Ho Chi Minh City Tour & Explore Cu Chi Tunnels',
+        description: '<ul><li>Wake up in the morning and post breakfast get on board to your vehicle to explore the famous Cu Chi Tunnels.</li><li>Explore the hidden underground world of Vietnam\'s guerrilla Cu Chi Tunnels and learn about the complicated lives of the tunnel residents on a Cu Chi Tunnels Tour.</li><li>You can try using real guns like AK-47, M16, Machine Gun at at the shooting range of Cu Chi Tunnels.</li><li>Post lunch, drive back to Ho Chi Minh city.</li><li>Visit the War Remnant Museum, Notre Dame Cathedral, Independence Palace & Old Central Post office.</li><li>Back to hotel and overnight stay.</li></ul>'
+      },
+      {
+        day: 3,
+        title: 'Transfers to Da Nang | Enjoy Nightlife',
+        description: '<ul><li>Wake up and post breakfast, check-out from the hotel.</li><li>Get on board on your flight to the pretty town of Da Nang.</li><li>Pick up from airport & drive to your hotel.</li><li>Soak in the vibes of Da Nang, known as ‘The City of Bridges & Beaches’, and feel free to stroll around the city.</li><li>Enjoy the night life of Da Nang and explore epic pubs & cafes.</li></ul>'
+      },
+      {
+        day: 4,
+        title: 'Explore Hoi An & Coconut Village',
+        description: '<ul><li>Wake up to a leisure-filled morning and enjoy a delightful breakfast, in afternoon head out for an exploratory tour of Hoi An and Coconut Village.</li><li>Drive towards Hoi An and experience the stunning heritage of Hoi An, one of the oldest cities and also declared as a World Heritage Site by UNESCO.</li><li>Visit Coconut Village to experience the famous Basket Boat Ride.</li><li>Take a walk along the Hoai River and soak in the old town vibes at Hoi An lantern town and capture some #InstaPerfcet pictures.</li><li>Enjoy the night life of this beautiful town and explore the cafes.</li></ul>'
+      },
+      {
+        day: 5,
+        title: 'Golden Hand Bridge | Ba Na Hills',
+        description: '<ul><li>One of the most memorable and enchanting experience awaits you today. Decorated with spectacular greenery and beautiful vista of East Sea and mountains, head out to explore Ba Na Hills.</li><li>Experience the world\'s best cable cars taking you through the clouds, misty funicular and majestic architecture.</li><li>Visit the iconic Golden Hand Bridge at Ba Na Hills.</li><li>Make a trip to the French Village and jump into a replica of classical France evident in its architectural elegance.</li><li>Take part in amusing games and activities at popular entertainment sites: Fantasy Park and Tombstone Temple.</li><li>Drive back to your hotel around 17:00 Hrs.</li><li>In the evening, opt to chill in a local cafe or go out for pub crawl.</li></ul>'
+      },
+      {
+        day: 6,
+        title: 'Transfers to Hanoi City | Local Exploration',
+        description: '<ul><li>Wake up early and have your delicious buffet breakfast.</li><li>Board your flight to Hanoi from Da Nang.</li><li>After arriving in Hanoi, check-in into your hotel and have some leisure.</li><li>Begin a walking tour around the hotel at Old Quarter of Hanoi, stopping at Ngoc Son Temple located on the Hoan Kiem Lake (the “Sword” Lake), visit the famous train street (on your own).</li><li>Make the most out of your evening in Hanoi, either by exploring the kickass nightlife & bars or chilling in a quaint cafe, thus experiencing the wonderful hospitality of this lovely country.</li></ul>'
+      },
+      {
+        day: 7,
+        title: 'The Halong Bay | Epic Cruise Ride & More',
+        description: '<ul><li>Wake up early and drive towards Tuan Chau harbor to get on board on your cruise to Halong Bay.</li><li>Keep your energy high as you sail on the majestic emerald blue waters.</li><li>Known for its towering karst limestone pillars, small islets of various shapes and sizes amidst crystal blue turquoise waters, Halong Bay is truly an experience of a lifetime.</li><li>Treat yourself with a hearty lunch on the deck and head out for an amazing Kayak ride, boat ride and swimming in the sea.</li><li>In the evening, drive back to Hanoi city.</li><li>You can chill around the beer street of Hanoi or go for shopping.</li></ul>'
+      },
+      {
+        day: 8,
+        title: 'Goodbye Vietnam | Trip Ends',
+        description: '<ul><li>Wake up in the morning and post breakfast feel free to take a stroll around in the city to finish any last minute shopping and treat yourself with some good Vietnamese food.</li><li>It’s time to say goodbye to a lovely Vietnam trip.</li><li>Drive towards the airport and board your flight back to India with a heart full of numerous memories, fun amazing experiences and new bonds.</li></ul>'
+      }
+    ],
+    inclusions: [ // Extracted as string[]
+      'Internal Flight Tickets: Ho Chi Minh to Da Nang & Da Nang to Hanoi. (Upto Rs 10,000).',
+      'Surface Transfers & Travel as per the itinerary: All airport pick ups and drops, Hoi An & Coconut Village day tour from Da Nang, Da Nang to Ba Na Hills Transfers, Halong Bay day tour with lunch (from Hanoi) - SIC, Ho Chi Minh sightseeing & Cu Chi Tunnels day Tour - SIC.',
+      'Entry Tickets: Ba Na Hills (Cable Car Ride, Golden Hand Bridge, Fantasy Park, French Village and more), Cu Chi Tunnels, Halong Bay, Ho Chi Minh Sightseeing.',
+      'Activities: Boating & Kayaking at Halong Bay.',
+      'Accommodation: 7 nights stay at our handpicked Hotels. To save on travel time within the locations all stays are located within 0 to 05 km proximity from the city centre.',
+      'Meals: 8 meals for the entire trip including 7 Breakfasts and 1 Lunch (Halong Bay only).',
+      'VISA Assistance: Professional visa assistance is provided by experts. Our Visa experts will help you prepare documents, draft a cover letter, help you fill necessary forms, and submit the application, in a completely organized stress-free manner.',
+      'Other Inclusions: Virtual real-time guide & assistance from start to end of the trip. Personalized real time information on free walking tours in all cities you are visiting.'
+    ],
+    exclusions: [ // Extracted as string[]
+      'International Flights (From India to Vietnam & Back)',
+      'Any kind of personal expenses.',
+      'Anything (Meals, Transport & Services) that are not mentioned in the above ‘Inclusions’ section.',
+      'Visa fee for Vietnam needs to be paid directly at visa website $25.',
+      'Travel Insurance.',
+      'GST (5%) is applicable extra.',
+      '5% TCS as per govt. rules will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax. This amount will be refunded in your ITR.'
+    ],
   },
   {
     slug: 'vietnam-trip-with-flights',

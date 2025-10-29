@@ -6,9 +6,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm'; // Assuming you have this
 import { QueryForm } from '@/components/QueryForm';
-// import TripSlider from '@/components/TripSlider'; // You might want related trips later
 import NotFound from './NotFound'; // Import your 404 page
-import { Clock, MapPin, Star, ChevronDown, ChevronUp, Phone, MessageSquare, Send, Youtube, Linkedin, Instagram } from 'lucide-react'; // Import icons
+import { Clock, MapPin, Star, ChevronDown, ChevronUp, Phone, MessageSquare, Send, Youtube, Linkedin, Instagram, X } from 'lucide-react'; // <-- IMPORTED X icon
 
 // --- Reusable UI Components (Adapted from HimachalBackpacking.tsx) ---
 
@@ -28,7 +27,7 @@ const ItineraryItem: React.FC<{ item: { day: number | string; title: string; con
             </button>
             {isOpen && (
                 <div className="p-4 border-t border-gray-200">
-                    <div className="prose prose-sm max-w-none text-gray-600" dangerouslySetInnerHTML={{ __html: displayContent }} />
+                    <div className="content-display max-w-none text-gray-600" dangerouslySetInnerHTML={{ __html: displayContent }} />
                 </div>
             )}
         </div>
@@ -71,12 +70,59 @@ const BookingBox: React.FC<{ trip: Trip }> = ({ trip }) => (
     </div>
 );
 
+// --- NEW GALLERY MODAL COMPONENT (Defined in-file) ---
+interface GalleryModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  images: string[];
+}
+
+const GalleryModal: React.FC<GalleryModalProps> = ({ isOpen, onClose, images }) => {
+  if (!isOpen) return null;
+
+  return (
+    <div 
+      className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4"
+      onClick={onClose}
+    >
+      <button
+        className="absolute top-4 right-4 text-white hover:text-gray-300 z-50"
+        onClick={onClose}
+      >
+        <X size={32} />
+      </button>
+      
+      <div 
+        className="relative w-full max-w-4xl max-h-full bg-white rounded-lg shadow-xl overflow-y-auto"
+        onClick={(e) => e.stopPropagation()} // Prevent modal from closing when clicking inside
+      >
+        <div className="p-4 sm:p-6">
+            <h2 className="text-xl font-bold text-gray-900 mb-4 text-center">Trip Gallery</h2>
+            <div className="space-y-4">
+                {images.map((img, index) => (
+                    <img
+                        key={index}
+                        src={img}
+                        alt={`Gallery image ${index + 1}`}
+                        className="w-full h-auto object-contain rounded-lg shadow-md max-h-[80vh]"
+                    />
+                ))}
+            </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+// --- END GALLERY MODAL ---
+
 
 // --- Main Page Component ---
 const TripDetailPage = () => {
   const { tripSlug } = useParams<{ tripSlug: string }>();
-  const [openItinerary, setOpenItinerary] = useState(0); // Open Day 1 by default
+  const [openItinerary, setOpenItinerary] = useState(0); // Open Day 0 by default
   const [showQueryForm, setShowQueryForm] = useState(false);
+  const [isOverviewExpanded, setIsOverviewExpanded] = useState(false); // <-- STATE FOR OVERVIEW
+  const [showGalleryModal, setShowGalleryModal] = useState(false); // <-- STATE FOR GALLERY MODAL
 
   // Find the trip based on the slug
   const trip: Trip | undefined = tripSlug ? allTrips.find(t => t.slug === tripSlug) : undefined;
@@ -86,15 +132,19 @@ const TripDetailPage = () => {
     return <NotFound />;
   }
 
-  // Placeholder gallery images (You might want to add gallery arrays to trips.ts)
-  // For now, using the main image and potentially repeating it
-  const galleryImages = [
+  // --- UPDATED GALLERY LOGIC ---
+  // desktopGridImages uses the first 4 from the gallery array, or fallback
+  const desktopGridImages = (trip.gallery && trip.gallery.length >= 4
+          ? trip.gallery.slice(0, 4) // Use first 4 from the new gallery array
+          : [trip.imageUrl, trip.imageUrl, trip.imageUrl, trip.imageUrl]); // Fallback
+
+  // allGalleryImages is used for the mobile slider AND the modal
+  const allGalleryImages = [
       trip.imageUrl,
-      trip.imageUrl, // Placeholder
-      trip.imageUrl, // Placeholder
-      trip.imageUrl, // Placeholder
+      ...(trip.gallery && trip.gallery.length > 0 ? trip.gallery : [trip.imageUrl, trip.imageUrl, trip.imageUrl])
   ];
-   const mobileGallery = [trip.imageUrl, ...galleryImages.slice(1)]; // Use main + others
+  // --- END UPDATED GALLERY LOGIC ---
+
 
    // Placeholder features (Ideally, add features to trips.ts)
     const features = [
@@ -135,12 +185,19 @@ const TripDetailPage = () => {
 
       <main className="max-w-screen-xl mx-auto px-4 pt-4 sm:pt-8 pb-20 lg:pb-8">
         {/* Mobile-only Gallery */}
-        <div className="lg:hidden mb-4">
+        <div className="lg:hidden mb-4 relative"> {/* <-- ADDED relative */}
            <div className="overflow-x-auto snap-x snap-mandatory flex gap-2">
-                {mobileGallery.map((img, i) => (
+                {allGalleryImages.map((img, i) => ( // Use allGalleryImages
                     <img key={i} src={img} className="snap-center flex-shrink-0 w-full h-64 object-cover rounded-lg shadow-md" alt={`${trip.title} scenery ${i+1}`} />
                 ))}
            </div>
+           {/* --- ADDED MOBILE "SEE ALL" BUTTON --- */}
+           <button
+             onClick={() => setShowGalleryModal(true)}
+             className="absolute bottom-4 right-4 bg-white/80 backdrop-blur-sm text-gray-800 font-semibold py-1 px-3 rounded-lg shadow-md text-sm"
+           >
+             See All
+           </button>
         </div>
 
         {/* Desktop Gallery */}
@@ -149,9 +206,24 @@ const TripDetailPage = () => {
             <div className="w-3/5">
               <img src={trip.imageUrl} className="w-full h-full object-cover rounded-l-2xl shadow-lg" alt={`Main view of ${trip.title}`}/>
             </div>
+            {/* --- UPDATED DESKTOP GALLERY GRID --- */}
             <div className="w-2/5 grid grid-cols-2 grid-rows-2 gap-2">
-              {galleryImages.slice(1, 5).map((img, i) => ( // Use placeholders for now
-                <img key={i} src={img} className={`w-full h-full object-cover shadow-lg ${i === 0 ? 'rounded-tr-2xl' : ''} ${i === 2 ? 'rounded-br-2xl' : ''}`} alt={`${trip.title} gallery image ${i+1}`}/>
+              {desktopGridImages.map((img, i) => ( // Use desktopGridImages
+                <div key={i} className="relative w-full h-full"> {/* Wrapper */}
+                  <img
+                    src={img}
+                    className={`w-full h-full object-cover shadow-lg ${i === 1 ? 'rounded-tr-2xl' : ''} ${i === 3 ? 'rounded-br-2xl' : ''}`} // Corrected rounding
+                    alt={`${trip.title} gallery image ${i + 1}`}
+                  />
+                  {i === 3 && ( // Overlay on the 4th image (index 3)
+                    <button
+                      onClick={() => setShowGalleryModal(true)}
+                      className="absolute inset-0 w-full h-full flex items-center justify-center bg-black/50 text-white font-bold text-lg hover:bg-black/70 transition-colors rounded-br-2xl"
+                    >
+                      See All
+                    </button>
+                  )}
+                </div>
               ))}
             </div>
           </div>
@@ -238,10 +310,24 @@ const TripDetailPage = () => {
 
             {/* --- Content Sections --- */}
             <div className="space-y-6">
+              {/* --- UPDATED OVERVIEW SECTION --- */}
               <div id="overview" className="border bg-white p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
                 <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-100 pb-3 mb-4">Overview</h2>
-                {/* Use dangerouslySetInnerHTML if overview contains HTML, otherwise just {trip.overview} */}
-                <div className="prose prose-sm max-w-none text-gray-600" dangerouslySetInnerHTML={{ __html: trip.overview || '<p>Detailed overview coming soon.</p>' }} />
+                <div className={`relative ${isOverviewExpanded ? '' : 'max-h-64 overflow-hidden'}`}>
+                  <div 
+                    className="content-display max-w-none text-gray-600" 
+                    dangerouslySetInnerHTML={{ __html: trip.overview || '<p>Detailed overview coming soon.</p>' }} 
+                  />
+                  {!isOverviewExpanded && (
+                    <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-white to-transparent" />
+                  )}
+                </div>
+                <button
+                  onClick={() => setIsOverviewExpanded(!isOverviewExpanded)}
+                  className="text-sm font-semibold text-[#0B3A55] hover:underline mt-4"
+                >
+                  {isOverviewExpanded ? 'Read Less' : 'Read More'}
+                </button>
               </div>
 
               <div id="itinerary" className="border bg-white p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
@@ -263,24 +349,25 @@ const TripDetailPage = () => {
                 </div>
               </div>
 
+              {/* --- REVERTED INCLUSIONS SECTION --- */}
               <div id="inclusions" className="border bg-green-50 p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
                   <h2 className="text-xl font-bold text-green-800 border-b-2 border-green-200 pb-3 mb-4">Inclusions ✅</h2>
                   {trip.inclusions && trip.inclusions.length > 0 ? (
-                    // If inclusions are simple strings:
-                    <ul className="prose prose-sm max-w-none text-gray-700 list-disc pl-5 space-y-1">
+                    // Reverted to mapping the string[]
+                    <ul className="content-display max-w-none text-gray-700 list-disc pl-5 space-y-1">
                         {trip.inclusions.map((item, index) => <li key={index}>{item}</li>)}
                     </ul>
-                    // If inclusions contain HTML (like in HimachalBackpacking):
-                    // <div className="prose prose-sm max-w-none text-gray-700" dangerouslySetInnerHTML={{ __html: trip.inclusions.join('') // Or however HTML is stored }} />
                   ) : (
                     <p className="text-gray-600 italic">Details coming soon.</p>
                   )}
               </div>
 
+              {/* --- REVERTED EXCLUSIONS SECTION --- */}
               <div id="exclusions" className="border bg-red-50 p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
                    <h2 className="text-xl font-bold text-red-800 border-b-2 border-red-200 pb-3 mb-4">Exclusions ❌</h2>
                    {trip.exclusions && trip.exclusions.length > 0 ? (
-                       <ul className="prose prose-sm max-w-none text-gray-600 list-disc pl-5 space-y-1">
+                       // Reverted to mapping the string[]
+                       <ul className="content-display max-w-none text-gray-600 list-disc pl-5 space-y-1">
                            {trip.exclusions.map((item, index) => <li key={index}>{item}</li>)}
                        </ul>
                    ) : (
@@ -324,8 +411,6 @@ const TripDetailPage = () => {
                      <p className="text-gray-600 italic">No reviews yet for this trip.</p>
                    )}
               </div>
-                {/* Mobile Booking Box (appears at the bottom on mobile) */}
-                 {/* <BookingBox trip={trip} /> --- No need to repeat if handled by layout */}
             </div>
           </div>
 
@@ -343,7 +428,6 @@ const TripDetailPage = () => {
                 <h2 className="text-2xl font-bold text-center mb-8 text-gray-900">More Trips in {trip.destination} 🗺️</h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
                     {relatedTrips.map((relatedTrip, index) => (
-                         // IMPORTANT: This Link needs TripSlider updated first
                         <Link to={`/trip/${relatedTrip.slug}`} key={index} className="bg-white rounded-lg shadow-md overflow-hidden group transition-transform duration-300 hover:scale-105 hover:shadow-xl block">
                             <img src={relatedTrip.imageUrl} alt={relatedTrip.title} className="w-full h-32 sm:h-40 object-cover"/>
                             <div className="p-3 sm:p-4">
@@ -360,7 +444,7 @@ const TripDetailPage = () => {
        {/* Mobile Bottom Bar - Placeholder */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-white shadow-[0_-2px_10px_rgba(0,0,0,0.1)] z-40 border-t border-gray-200">
           <div className="flex justify-around items-center p-2">
-               <a href="https://api.whatsapp.com/send?phone=919971545446&text=Hi%2C%20I%27m%20interested%20in%20the%20${encodeURIComponent(trip.title)}%20trip%20(${window.location.href})" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-green-600 gap-0.5">
+               <a href="https://api.whatsapp.com/send?phone=919971545446&text=Hi%2C%20I%27m%20interested%2C%20I%27m%20interested%20in%20the%20${encodeURIComponent(trip.title)}%20trip%20(${window.location.href})" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-green-600 gap-0.5">
                   <img src="/cloned_media/whatsapp.webp" alt="whatsapp" className="w-5 h-5"/>
                   Whatsapp
               </a>
@@ -380,6 +464,13 @@ const TripDetailPage = () => {
          isOpen={showQueryForm} 
          onClose={() => setShowQueryForm(false)} 
          tripName={trip.title}
+       />
+
+       {/* --- ADDED GALLERY MODAL --- */}
+       <GalleryModal
+          isOpen={showGalleryModal}
+          onClose={() => setShowGalleryModal(false)}
+          images={allGalleryImages} // Pass all images to the modal
        />
     </div>
   );
