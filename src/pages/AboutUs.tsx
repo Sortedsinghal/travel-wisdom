@@ -94,8 +94,8 @@ const AboutUs = () => {
             </h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 max-w-6xl mx-auto">
-            <div className="flex flex-col items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-blue-50 flex items-center justify-center mb-4">
+            <a href="/fixed-departures" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
                 <img 
                   alt="van" 
                   width="70" 
@@ -107,9 +107,9 @@ const AboutUs = () => {
               <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
                 Fixed-<br />Departures
               </p>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-blue-50 flex items-center justify-center mb-4">
+            </a>
+            <a href="/customized-packages" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
                 <img 
                   alt="rest-table" 
                   width="70" 
@@ -121,37 +121,37 @@ const AboutUs = () => {
               <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
                 Customized<br />Packages
               </p>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-blue-50 flex items-center justify-center mb-4">
+            </a>
+            <a href="/international-trips" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
                 <img 
                   alt="plane" 
                   width="70" 
                   height="70" 
                   className="w-16 h-auto" 
-                  src="https://d2qa7a8q0vuocm.cloudfront.net/static/icons/plane.webp" 
+                  src="https://d2qa7a8q0vuocm.cloudfront.net/static/assets/icons/plane.webp" 
                 />
               </div>
               <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
                 International<br />Trips
               </p>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-blue-50 flex items-center justify-center mb-4">
+            </a>
+            <a href="/trekking" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
                 <img 
                   alt="trekking" 
                   width="70" 
                   height="70" 
                   className="w-16 h-auto" 
-                  src="https://d2qa7a8q0vuocm.cloudfront.net/static/icons/traveling.webp" 
+                  src="/cloned_media/trekking-icon.png" 
                 />
               </div>
               <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
                 Trekking
               </p>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-blue-50 flex items-center justify-center mb-4">
+            </a>
+            <a href="/bike-trips" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
                 <img 
                   alt="bike" 
                   width="70" 
@@ -163,21 +163,21 @@ const AboutUs = () => {
               <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
                 Bike Trips
               </p>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-blue-50 flex items-center justify-center mb-4">
+            </a>
+            <a href="/corporate-trips" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
+              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
                 <img 
                   alt="handshake" 
                   width="70" 
                   height="70" 
                   className="w-16 h-auto" 
-                  src="https://d2qa7a8q0vuocm.cloudfront.net/static/icons/handshake.webp" 
+                  src="https://d2qa7a8q0vuocm.cloudfront.net/static/assets/icons/handshake.webp" 
                 />
               </div>
               <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
                 Corporate<br />Trips
               </p>
-            </div>
+            </a>
           </div>
         </div>
       </section>
