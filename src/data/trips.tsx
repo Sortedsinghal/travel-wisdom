@@ -1779,86 +1779,90 @@ export const allTrips: Trip[] = [
   //==========================================================================
   // DESTINATION: Himachal (from HimachalPradesh.tsx)
   //==========================================================================
-  {
-    slug: 'himachal-backpacking-manali-kasol-jibhi',
-    title: 'Himachal Backpacking - Manali Kasol Jibhi', // From HTML
-    destination: 'Himachal',
-    duration: '6 Days 5 Nights', // Corrected duration based on itinerary
-    price: '₹12500', // From HTML (discounted quad price)
-    originalPrice: '₹14000', // From HTML (quad price)
-    discount: '₹1,500', // From HTML (14000 - 12500)
-    imageUrl: '/cloned_media/13464920240827063621.png', // From HTML
-    gallery: [ // From HTML gallary array
-      '/cloned_media/20559820230315061806.png',
-      '/cloned_media/42136120230315061806.png',
-      '/cloned_media/20903920230315061806.png',
-      '/cloned_media/38986820230315061806.png',
-      '/cloned_media/9820920230315061806.png',
-      '/cloned_media/2153920230705060501.png',
-      '/cloned_media/37298820230705060501.png',
-      '/cloned_media/32916220230705060501.png',
-      '/cloned_media/23833420230705060501.png',
-      '/cloned_media/41456920230705060501.png',
-      '/cloned_media/36060020230705060501.png',
-      '/cloned_media/12778620230705060501.png',
-      '/cloned_media/6788220230705060501.png',
-      '/cloned_media/21100120230705060501.png',
-      '/cloned_media/36920920230705060501.png',
-      '/cloned_media/1804520230705060501.png'
-    ],
-    overview: '<p>Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It\'s also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass. The town of Manali is just a starting point for our trip - we explore the nearby hills, valleys and hidden gems of Himachal Pradesh. There\'s so much to see and do here!</p>', // From HTML
-    itinerary: [ // From HTML i_data
-      {
-        day: 0,
-        title: 'Delhi to Manali | Overnight Journey',
-        description: '<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain. </li><li>Start an overnight journey to Manali and socialize with your co-travellers.</li></ul>'
-      },
-      {
-        day: 1,
-        title: 'Manali Arrival | Local Exploration & Cafe Hopping',
-        description: '<ul><li>After arriving in Manali, check-in to our comfy hotel, freshen up and have some leisure.</li><li>Post leisure, head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>'
-      },
-      {
-        day: 2,
-        title: 'Drive to Sissu via Atal Tunnel & Solang Valley',
-        description: '<ul><li>Wake up to a beautiful mountain morning and post breakfast, drive from Manali to Lahaul Valley via the newly opened Atal Tunnel. Witness a sudden transformation in the landscape once you cross from Kullu to Lahaul region. Visit Sissu village and Sissu Lake (if weather permits).</li><li>While returning back to Manali, take a stop at Solang Valley and indulge in various adventure activities over there.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>'
-      },
-      {
-        day: 3,
-        title: 'Manali to Kasol | Kasol Arrival & Cafe Hopping',
-        description: '<ul><li>Wake up early in the morning and post breakfast, check out from the hotel and drive towards Kasol from Manali.</li><li>Enroute Kasol, you can indulge in adventure activities like paragliding at Kullu (by your own).</li><li>After arriving in Kasol, check-in to our hotel/campsite & freshen-up.</li><li>Post refreshment, we will head out to explore the streets of Kasol, visit Chalal bridge and chill along Parvati riverside. Soak in the hippie vibes of Kasol, go for cafe hopping and treat your stomach with mouth-watering local dishes.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/campsite in Kasol.</li></ul>'
-      },
-      {
-        day: 4,
-        title: 'Manikaran Hot Springs | Jibhi Arrival',
-        description: '<ul><li>Wake up early in the morning and post breakfast, check out from the hotel/campsite and say goodbye to our lovely host.</li><li>Drive towards Manikaran and visit the famous holy hot water springs at Manikaran Sahib Gurudwara & Shiva Temple.</li><li>Enroute Jibhi, you can indulge in river rafting adventure activity.</li><li>After arriving in Jibhi, check-in to our cozy homestay/hotel and quickly head out to visit the beautiful Jibhi waterfall and soak in the soothing surroundings of the place.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/hotel in Jibhi/Banjar.</li></ul>'
-      },
-      {
-        day: 5,
-        title: 'Trek to Serolsar Lake | Depart for Delhi',
-        description: '<ul><li>Wake up early in the morning and post breakfast, check out from the homestay/hotel and drive to Jalori Pass situated at 10,800 feet.</li><li>Hike to 360° Himalayan view point and get mesmerized by the stunning landscape of snow-clad Himalayas (if weather permits).</li><li>Trek further to the beautiful Serolsar Lake surrounded by lush forest cover and pay homage at Budhi Nagin Temple (if weather permits).</li><li>Post lunch, gather for an #InstaPerfect group picture, trek back to Jalori Pass and drive back to Aut.</li><li>In the evening, start-off your overnight journey to Delhi from Jibhi.</li></ul>'
-      },
-      // Day 6 is arrival, not part of the active itinerary
-    ],
-    inclusions: [ // Extracted as string[] from HTML
-      'Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.',
-      '4 Nights Accommodation on Sharing Basis: 2 Nights in Hotel (Manali), 1 Night in Hotel/Campsite (Kasol) & 1 Night in Hotel/Homestay (Jibhi/Banjar).',
-      '8 Meals: Manali (2 Breakfasts+2 Dinners), Kasol (Breakfast+Dinner) Jibhi (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 5.',
-      'Bonfire (if weather permits) & music only on any 3 Nights and local explorations as per itinerary.',
-      'Experienced and cool Trip Captain/Trek Guide.',
-      'River Rafting Adventure Activity on Day 4.',
-      'Driver allowances, toll taxes, parking, state taxes.'
-    ],
-    exclusions: [ // Extracted as string[] from HTML
-      'Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.',
-      'Travel Insurance, items of a personal nature like porterage, tips, laundry etc.',
-      'Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.',
-      'Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.',
-      'Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.',
-      'Anything which is not mentioned in the above inclusions.',
-      'GST (5%) is applicable extra.'
-    ],
-  },
+{
+  "slug": "himachal-backpacking-manali-kasol-jibhi",
+  "title": "Himachal Backpacking - Manali Kasol Jibhi",
+  "destination": "Himachal",
+  "duration": "5 Days 4 Nights",
+  "price": "₹12500",
+  "originalPrice": "₹14000",
+  "discount": "₹1,500",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/13464920240827063621.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/20559820230315061806.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/42136120230315061806.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/20903920230315061806.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/38986820230315061806.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/9820920230315061806.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/2153920230705060501.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/37298820230705060501.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/32916220230705060501.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/23833420230705060501.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/41456920230705060501.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/36060020230705060501.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/12778620230705060501.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/6788220230705060501.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/21100120230705060501.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/36920920230705060501.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/1804520230705060501.png"
+  ],
+  "overview": "<p>Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass. The town of Manali is just a starting point for our trip - we explore the nearby hills, valleys and hidden gems of Himachal Pradesh. There's so much to see and do here!</p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Manali | Overnight Journey",
+      "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain. </li><li>Start an overnight journey to Manali and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Manali Arrival | Local Exploration & Cafe Hopping",
+      "description": "<ul><li>After arriving in Manali, check-in to our comfy hotel, freshen up and have some leisure.</li><li>Post leisure, head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Drive to Sissu via Atal Tunnel & Solang Valley",
+      "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, drive from Manali to Lahaul Valley via the newly opened Atal Tunnel. Witness a sudden transformation in the landscape once you cross from Kullu to Lahaul region. Visit Sissu village and Sissu Lake (if weather permits).</li><li>While returning back to Manali, take a stop at Solang Valley and indulge in various adventure activities over there.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Manali to Kasol | Kasol Arrival & Cafe Hopping",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, check out from the hotel and drive towards Kasol from Manali.</li><li>Enroute Kasol, you can indulge in adventure activities like paragliding at Kullu (by your own).</li><li>After arriving in Kasol, check-in to our hotel/campsite & freshen-up.</li><li>Post refreshment, we will head out to explore the streets of Kasol, visit Chalal bridge and chill along Parvati riverside. Soak in the hippie vibes of Kasol, go for cafe hopping and treat your stomach with mouth-watering local dishes.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/campsite in Kasol.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Manikaran Hot Springs | Jibhi Arrival",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, check out from the hotel/campsite and say goodbye to our lovely host.</li><li>Drive towards Manikaran and visit the famous holy hot water springs at Manikaran Sahib Gurudwara & Shiva Temple.</li><li>Enroute Jibhi, you can indulge in river rafting adventure activity.</li><li>After arriving in Jibhi, check-in to our cozy homestay/hotel and quickly head out to visit the beautiful Jibhi waterfall and soak in the soothing surroundings of the place.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/hotel in Jibhi/Banjar.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Trek to Serolsar Lake | Depart for Delhi",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, check out from the homestay/hotel and drive to Jalori Pass situated at 10,800 feet.</li><li>Hike to 360° Himalayan view point and get mesmerized by the stunning landscape of snow-clad Himalayas (if weather permits).</li><li>Trek further to the beautiful Serolsar Lake surrounded by lush forest cover and pay homage at Budhi Nagin Temple (if weather permits).</li><li>Post lunch, gather for an #InstaPerfect group picture, trek back to Jalori Pass and drive back to Aut.</li><li>In the evening, start-off your overnight journey to Delhi from Jibhi.</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Delhi Arrival | Trip Ends",
+      "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+    "4 Nights Accommodation on Sharing Basis: 2 Nights in Hotel (Manali), 1 Night in Hotel/Campsite (Kasol) & 1 Night in Hotel/Homestay (Jibhi/Banjar).",
+    "8 Meals: Manali (2 Breakfasts+2 Dinners), Kasol (Breakfast+Dinner) Jibhi (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 5.",
+    "Bonfire (if weather permits) & music only on any 3 Nights and local explorations as per itinerary.",
+    "Experienced and cool Trip Captain/Trek Guide.",
+    "River Rafting Adventure Activity on Day 4.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "Anything which is not mentioned in the above inclusions.",
+    "GST (5%) is applicable extra."
+  ]
+},
   {
     slug: 'manali-sissu-kasol',
     title: 'Manali Sissu Kasol', // From HTML
@@ -2341,7 +2345,7 @@ export const allTrips: Trip[] = [
     slug: 'winter-spiti',
     title: 'Winter Spiti', // From HTML
     destination: 'Himachal',
-    duration: '9 Days / 6 Nights', // Corrected from itinerary (Day 0-8)
+    duration: '7 Days / 6 Nights', // Corrected from itinerary (Day 0-8)
     price: '₹18000', // From HTML (discounted triple price)
     originalPrice: '₹20000', // From HTML (triple price)
     discount: '₹2,000', // From HTML
@@ -3739,116 +3743,729 @@ export const allTrips: Trip[] = [
   // DESTINATION: Spiti (from Spiti.tsx)
   //==========================================================================
   {
-    slug: 'spiti-valley-circuit-trip-with-manali',
-    title: 'Spiti Valley Circuit Trip with Manali',
-    destination: 'Spiti',
-    duration: '7 Days 6 Nights',
-    price: '₹20000',
-    imageUrl: '/cloned_media/7956720250203104119.png',
-    overview: 'The classic Spiti circuit starting and ending in Manali, covering Kaza, Key Monastery, and Chandratal Lake.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Homestay/Guesthouse', 'Transfers from Manali', 'Inner Line Permits'],
-    exclusions: ['Meals', 'Entry Fees'],
+    "slug": "spiti-valley-circuit-trip-with-manali",
+    "title": "Spiti Valley Circuit Trip with Manali",
+    "destination": "Spiti",
+    "duration": "7 Days 6 Nights",
+    "price": "₹20000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/7956720250203104119.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4256620250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6021120250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34559120250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18030520250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31746320250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4118220250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17209820250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27722420250203122132.png"
+    ],
+    "overview": "<h2>About Spiti Valley Circuit Trip With Manali</h2><p>Situated at an altitude of 12,500ft above sea level, Spiti is a little Tibetian heaven that falls under the boundary of India. Spiti is not just an ordinary valley but it has so much more to offer the tourists other than breath holding sceneries. This extraordinary valley beholds ancient monasteries, trekking trails and adventures you don’t want to miss out on in this lifetime at least. Though Spiti is a remote location and it requires a little effort to reach here, once travelers reach Spiti Valley there is no looking back as everything seems worthawhile. Spiti is known for its charming villages, crystal clear waters, snow capped mountains but more than the beauty of the valley what tourists love is the hospitality and welcoming nature of locals.</p><p>Manali also known as the Valley of Gods because of their majestic temples &amp; monasteries Manali also treats the eyes of travelers and tourists with serene beauty and provides the picture perfect view of the surrounding mountains. Manali is not just an attraction for those who love nature eternally but also for those who want to try adventure sports like ziplining, quad biking, snowboarding, zorbing etc.</p><p>All in all Spiti Valley Circuit Trip with Manali is all about expressing your love for nature and taking back home a fun-filled journey and unforgettable memories.</p>\r\n\r\n<h3>Places to Visit in Spiti Valley Circuit Trip with Manali</h3><p>Embarking on a <a href=\"https://go4explore.com/trips/spiti-valley-circuit-trip\" style=\"color:blue;\">Spiti Valley Circuit Trip</a> is a fantastic way to experience the breathtaking landscapes and unique culture of the Indian Himalayas. Here are some must visit places, We recommend you to explore:-</p>\r\n<ul>\r\n<li><strong>Shimla-</strong> The capital city of Himachal Pradesh, Shimla is known for its colonial architecture, including the Viceregal Lodge and Christ Church. The bustling Mall Road and the Ridge are popular spots for shopping, dining and enjoying the Hill station’s vibrant atmosphere.&nbsp;</li>\r\n<li><strong>Chitkul-</strong> The last inhabited village near the Indo-Tibetan border, Chitkul offers pristine landscapes, wooden houses, fields of peas and potatoes. This village is a perfect spot for trekking, picnicking and experiencing the tranquility of nature.</li>\r\n<li><strong>Sangla Valley-</strong> Also known as Baspa Valley, Sangla is famous for its scenic beauty, apple orchards and the Baspa River that flows through it. Kamru Fort, an ancient fort with a temple dedicated to Kamakhya Devi, adds historical significance.</li>\r\n<li><strong>Khab Sangam-</strong> The picturesque spot marks the significance of the Spiti and Sutlej rivers, set against a backdrop of towering mountains. Located near the village of Khab, it offers a dramatic and scenic view making it a popular spot for travelers exploring the Spiti Valley. The merging of the two rivers symbolizes the unity of the barren, rugged terrain of Spiti with the lush, green landscapes of Kinnaur.</li>\r\n<li><strong>Gue Monastery-</strong> Famous for housing the well-preserved 500-year-old mummy of Sangha Tenzin, a monk, this monastery offers a unique and slightly eerie experience. The mummy is a testament to the region's rich spiritual history and practices.</li>\r\n<li><strong>Nako Village and Lake-</strong> Nako is a picturesque village at an altitude of 3,662 meters, known for its serene lake surrounded by willow and poplar trees. The village offers ancient monasteries and rock-cut caves, adding to its spiritual and historic charm.</li>\r\n<li><strong>Tabo Monastery-</strong> Established in 996 AD, Tabo Monastery is renowned for its ancient murals, statues, and intricate stucco images. Often called the 'Ajanta of the Himalayas,' it is a UNESCO World Heritage Site candidate and a center of Buddhist learning.</li>\r\n<li><strong>Dhankar Monastery and Lake-</strong> Perched on a cliff overlooking the confluence of the Spiti and Pin Rivers, Dhankar Monastery is an architectural wonder. A short trek from the monastery leads to Dhankar Lake, offering tranquility and stunning views.</li>\r\n<li><strong>Kaza-</strong> As the administrative center of Spiti Valley, Kaza offers various accommodations, eateries, and serves as a base for exploring the surrounding region. The town, set against a backdrop of barren mountains, provides essential services and a taste of local Spitian culture.</li>\r\n<li><strong>Kibber Village-</strong> Situated at 4,270 meters, Kibber is one of the highest inhabited villages in the world. It is known for its unique architecture, wildlife sanctuary, and serves as a starting point for several treks.</li>\r\n<li><strong>Chicham Bridge-</strong> The highest bridge in Asia, Chicham Bridge connects the villages of Kibber and Chicham over a deep gorge. The bridge offers breathtaking views and is an engineering marvel in this remote region.</li>\r\n<li><strong>Langza Village-</strong> Nestled at an altitude of around 4,400 meters, Langza is known for its giant Buddha statue overlooking the valley. It offers spectacular views of the snow-capped Chau Chau Kang Nilda peak and is famous for its rich fossil reserves, making it a paradise for fossil hunters.</li>\r\n<li><strong>Komic Village-</strong> One of the highest motorable villages in the world at approximately 4,587 meters, Komic is home to the ancient Tangyud Monastery. The village offers breathtaking panoramic views of the surrounding mountains and a glimpse into the traditional lifestyle of the Spitian people.</li>\r\n<li><strong>Hikkim Village-</strong> Situated at around 4,400 meters, Hikkim is famous for having the world's highest post office. This tiny, remote village allows visitors to send postcards from an extraordinary altitude, offering a unique travel experience and a connection to the outside world from one of the highest inhabited places on Earth.</li>\r\n<li><strong>Chandratal-</strong> Known as the \"Moon Lake,\" <a href=\"https://en.wikipedia.org/wiki/Chandra_Taal\" style=\"color:blue;\">Chandratal</a>&nbsp;is a crescent-shaped high-altitude lake situated at 4,300 meters in the Spiti Valley. Its crystal-clear blue waters and stunning surroundings make it a popular trekking destination and a perfect spot for camping under the stars.</li>\r\n<li><strong>Manali-</strong> A bustling hill station in Himachal Pradesh, Manali is famous for its scenic beauty, adventure sports, and vibrant culture. Nestled in the Kullu Valley, it offers attractions like the Solang Valley, Hadimba Temple, and hot springs at Vashisht, making it a favorite destination for tourists year-round.</li>\r\n<li><strong>Atal Tunnel-</strong> Atal Tunnel is the world’s longest highway tunnel, named after former Prime Minister Atal Bihari Vajpayee. This tunnel reduces the distance between Manali and Leh by 46 km.</li>\r\n<li><strong>Kunzum Pass-</strong> Kunzum Pass is one of the highest motorable passes in India. Situated at a height of around 4600 meters above sea level, It serves as the gateway of the mesmerizing Spiti Valley. On your way to the pass, you will get a chance to navigate through the winding roads amidst breathtaking himalayan peaks, A destination every traveler should visit.</li>\r\n<li><strong>Solang Valley-</strong> Solang Valley is one of the most popular tourist destinations in Himachal Pradesh, this valley offers numerous adventure sports such as Paragliding, zorbing, horse riding, photography and Skiing in winters.</li>\r\n</ul>\r\n<h3>Things to do in Spiti Valley Circuit Trip with Manali</h3><ul>\r\n<li><strong>Stargazing in Spiti Valley-</strong> The high altitude and minimal light pollution make Spiti Valley ideal for observing the Milky Way and shooting stars. Top spots include Chandratal Lake, Kibber, and Langza, offering clear, dark skies perfect for night sky enthusiasts. Visit from May to October for the best conditions, avoiding full moon nights for the darkest skies.</li>\r\n<li><strong>Learn About the Ancient Monasteries-</strong> Ancient monasteries like Key Monastery in Spiti Valley, Tabo Monastery, and Dhankar Monastery date back over a thousand years, housing exquisite murals, scriptures, and statues. They serve as spiritual sanctuaries and cultural landmarks, offering panoramic views of the Himalayan landscape and preserving the rich heritage of Tibetan Buddhism in the region.</li>\r\n<li><strong>Visit the World’s Highest Motorable Village-</strong> Visit Komic village in Spiti Valley, Himachal Pradesh, known as one of the world's highest inhabited villages, situated at an altitude of around 4,587 meters. Experience the unique lifestyle of the local people, explore the ancient Tangyud Monastery, and soak in the breathtaking panoramic views of the surrounding Himalayan mountains.</li>\r\n<li><strong>Adventure Activities in Spiti Valley-</strong> In Spiti Valley, adventurers can embark on thrilling treks like the Pin Parvati Trek or Kanamo Peak Trek, offering panoramic views of the Himalayas and high-altitude lakes. Camping near Chandratal Lake or Langza Village allows for serene nights under the stars amidst pristine landscapes. Rock climbing and rappelling adventures near monasteries like Key and Dhankar provide challenges amidst stunning vistas. Wildlife enthusiasts can spot rare species like the snow leopard and Himalayan Ibex in Pin Valley National Park and Kibber Wildlife Sanctuary.</li>\r\n<li><strong>Send a postcard to your loved ones from Hikkim-</strong> In Hikkim, visitors can utilize the world's highest post office to send postcards, nestled amid the Himalayan peaks. This unique experience allows travelers to share the beauty and adventure of Spiti Valley with loved ones, capturing moments of serenity and awe. Each postcard becomes a tangible connection, bridging distances and sharing the essence of the journey with recipients afar.</li>\r\n<li><strong>Collect Fossils From Langza Village-</strong> Ascend on a unique adventure to Langza Village, nestled in the Spiti Valley of Himachal Pradesh where you can uncover ancient marine fossils dating back millions of years.</li>\r\n<li><strong>Eat at Hindustan ka Akhri Dhaba-</strong> Experience, authentic local cuisine at Hindustan ka Akhri Dhaba, India’s last eatery set against the breathtaking backdrop of Spiti Valley near the India-Tibet border. Enjoy delicious dishes and stunning himalayan views in this remote and iconic spot.</li>\r\n<li><strong>Cafe Hopping in Old Manali-</strong> Indulge in a delightful cafe-hopping experience in Old Manali, where charming cafes line the streets, offering everything from aromatic coffee to delectable international cuisine. Enjoy the cozy, bohemian atmosphere, live music, and stunning mountain views as you explore the eclectic array of cafes in this vibrant Himalayan village.</li>\r\n<li><strong>Shopping at Kaza Market-</strong> Explore the vibrant Kaza Market in Spiti Valley, where you can shop for unique handicrafts, traditional jewelry, and local souvenirs. Immerse yourself in the lively atmosphere and discover the rich culture and craftsmanship of this Himalayan region.</li>\r\n<li><strong>Try Tibetan Delicacies in Spiti Valley-</strong> Savor authentic Tibetan delicacies in Spiti Valley, where local eateries offer traditional dishes like momos, thukpa, and butter tea. Enjoy the rich flavors and cultural experience of Tibetan cuisine amidst the stunning Himalayan landscape.</li>\r\n</ul>\r\n<h3>Best Time to Visit Spiti Valley Circuit Trip with Manali&nbsp;</h3><ul>\r\n<li><strong>Spring-</strong> In spring, from March to May, Spiti Valley blooms with the promise of a new season, offering pleasant weather and clear skies. This period is perfect for witnessing the valley come to life, with flowers blooming and wildlife emerging from hibernation. The roads from Manali to Spiti gradually open up during this time, allowing travelers to embark on their circuit trip with ease and enjoy the serene beauty of the surroundings.</li>\r\n<li><strong>Summer-</strong> Summer, from June to September, is the peak tourist season in Spiti Valley, attracting travelers from around the world. The weather is warm and conducive to outdoor activities like trekking, camping, and exploring ancient monasteries. During these months, all roads to Spiti Valley, including the infamous Rohtang Pass, are open, providing unrestricted access to the region's wonders.</li>\r\n<li><strong>Autumn-</strong> Autumn, from September to November, brings a unique charm to Spiti Valley as the landscape transforms into a canvas of golden hues. The weather starts to cool down, offering relief from the summer heat, while the changing colors of the foliage add a dramatic flair to the scenery. This is an excellent time for photography enthusiasts to capture the valley's beauty in its entirety.</li>\r\n<li><strong>Winter-</strong> Winter, from December to February, envelops Spiti Valley in a blanket of snow, transforming it into a winter wonderland and disrupts the route from Kaza to Manali. While the valley receives fewer visitors during this time due to harsh weather conditions and road closures, it offers a serene and surreal experience for adventurous souls. Travelers can witness the valley's raw beauty in solitude, with opportunities for winter sports like skiing and snowboarding adding an extra thrill to their Spiti Valley circuit trip.</li>\r\n</ul>\r\n<h4>FAQs About Spiti Valley Circuit Trip with Manali</h4><p><strong>1. How to plan a Spiti Valley trip With Manali?</strong></p>\r\n<p>Plan your trip during summer, choose transportation, obtain permits, plan itinerary, and pack essentials.</p>\r\n<p><strong>2. Which pass connects Manali to Spiti Valley?</strong></p>\r\n<p>Atal Tunnel connects Manali to Spiti Valley.</p>\r\n<p><strong>3. How to reach Spiti valley from Delhi?</strong></p>\r\n<p>Take a bus or drive from Delhi to Manali, then proceed to Spiti Valley via Atal Tunnel.</p>\r\n<p><strong>4. What should I pack for the Spiti Valley trip?</strong></p>\r\n<p>Pack warm layers, rain gear, sturdy footwear, and sun protection for Spiti Valley's varied weather and high altitude conditions. Also, carry medications, reusable water bottles, snacks, camera gear, maps, personal items, cash, documents, and entertainment for a comfortable and prepared journey.</p>\r\n<p><strong>5. What type of vehicle is suitable for this trip?</strong></p>\r\n<p>Choose a sturdy SUV or 4x4 vehicle capable of handling rugged mountain roads and high-altitude passes like Rohtang and Kunzum for the Spiti Valley trip.</p>\r\n\r\n\r\n<p>Explore our popular Spiti Valley Tour Packages: <a href=\"https://go4explore.com/trips/spiti-valley-biking-edition\" style=\"color:blue;\">Spiti Valley Biking Edition</a>, <a href=\"https://go4explore.com/trips/winter-spiti\" style=\"color:blue;\">Winter Spiti</a>, <a href=\"https://go4explore.com/trips/spiti-valley-circuit-trip-from-chandigarh\" style=\"color:blue;\">Spiti Valley Circuit Trip From Chandigarh</a>, <a href=\"https://go4explore.com/trips/spiti-valley-trip-from-chandigarh-manali-edition\" style=\"color:blue;\">Spiti Valley from Chandigarh</a>, and <a href=\"https://go4explore.com/trips/spiti-valley-circuit-trip-manali-to-shimla\" style=\"color:blue;\">Spiti Valley Circuit Trip Manali To Shimla</a></p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Shimla | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla/Kashmere Gate Bus Stand and meet your Trip Captain. </li><li>Start an overnight journey to Shimla and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Drive from Shimla to Chitkul | Chitkul Arrival",
+        "description": "<ul><li>After arriving in Shimla, we will take a halt for breakfast around Narkanda and soak in the much-needed #MountainVibes. Post breakfast, we will drive ahead to reach the Sangla Valley.</li><li>Check in to our scenic campsite in Rakcham, freshen-up and have some leisure. What can be more magical than relaxing near the pristine Baspa River? A perfect location in the lap of majestic Himalayas to disconnect from the urban madness and connect with nature.</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in swiss-camps.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Chitkul to Nako/Tabo via Khab Sangam & Gue",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, we will head out to take a stroll around the Chitkul - last Indian village before the Indo-Tibetan border.</li><li>Visit Mathi Temple dedicated to the Goddess of local people of Kinnaur and take a soothing sip of tea or get yourself clicked at ‘Hindustan Ka Akhri Dhaba’.</li><li>Drive from Chitkul to Nako/Tabo and get mesmerized by the shape-shifting landscapes of mountains with every turn.</li><li>Enroute we will take a halt at Khab Sangam, visit the famous Nako Lake and Gue village to see from your naked eyes the 500-year-old mummified remains of the Buddhist monk Sangha Tenzin.</li><li>After arriving in Nako/Tabo village, check in to our comfy hotel/homestay and have some leisure. Savour home-style cooked dinner and overnight stay in a hotel/homestay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Nako/Tabo to Kaza | Dhankar & Pin Valley | Kaza Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from our hotel/homestay and visit Tabo Monastery. Take a walk inside the old monastery and learn about the history. Go for the famous Tabo caves (if time permits).</li><li>Drive from Tabo to Dhankar Village and meditate in the cliff top Dhankar Monastery. </li><li>After arriving in Kaza, check in to our cozy hotel, freshen-up and have some leisure.</li><li>The ones with high energy levels, feel free to take a stroll around Kaza and old bazaars. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Exploring Langza, Komic & Hikkim | Kaza Cafe Hopping",
+        "description": "<ul><li>Post breakfast, quickly head out for an action packed exploration of various quaint villages nestled in and around Kaza. </li><li>Visit Spiti’s gorgeous fossil village Langza and get clicked with the iconic statue of Medicine Buddha with your clan. Feel proud for making it to the World’s highest motorable village Komic and absorb in the jaw dropping vistas of snow-laden Himalayas. The day will come to an end at Hikkim village known for its World’s highest post office.</li><li>Since this is your last night in Kaza, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Key Monastery, Chicham & Kunzum | Chandratal Arrival",
+        "description": "<ul><li>Post breakfast, bid adieu to your hosts in Kaza and drive towards Key Monastery. Spend quality time speaking to the monks or sip a cup of herbal tea in Key Monastery’s kitchen.</li><li>Explore the Kibber village and take some #InstaPerfect shots at Chicham Bridge - Asia’s highest suspension bridge connecting the peaceful Kibber village.</li><li>Enroute Chandratal, we will take a pit stop at Losar to grab a satisfying lunch and continue towards Kunzum La situated at 15,000ft approx. </li><li>After arriving at Chandratal, check in to our scenic campsite and experience the calmness of the Moon Lake. In the evening chill with your travel clan under the gaze of million stars and savour home-style cooked dinner and overnight stay in swiss-camps.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Chandratal to Manali | Manali Arrival",
+        "description": "<ul><li>Wake up quite early in the morning and post breakfast drive towards Manali from Chandratal. Enroute Manali, we will take a pit stop for morning tea at the famous Chacha-Chachi Ka Dhaba or Chhatru.</li><li>Traverse from barren landscapes of Lahaul & Spiti to lush green vistas of Kullu Valley via Atal Tunnel.</li><li>After arriving in Manali, check in to our comfy hotel, freshen-up and have some leisure.</li><li>In the evening, enjoy a warm bonfire with good music. Savour delightful dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Manali Self Explore & Leisure | Depart For Delhi",
+        "description": "<ul><li>Wake up to a relaxed mountain morning and post breakfast, check-out from the property and head out for self exploration of Manali.</li><li>Head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. Feel free to take a stroll on The Mall Road by yourself.</li><li>In the evening, start-off your overnight journey to Delhi.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Delhi to Shimla & Manali to Delhi) and Force Traveler/Cab at all other times.",
+      "Accommodation on Sharing Basis: Hotel/Homestays (Nako/Tabo, Kaza & Manali), Swiss Camps (Rakcham & Chandratal).",
+      "Meals: Rakcham (Breakfast+Dinner), Nako/Tabo (Breakfast+Dinner), Kaza (2 Dinners+2 Breakfasts), Chandratal (Breakfast+Dinner), Manali (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 7.",
+      "Experienced and cool Trip Captain.",
+      "Bonfire (if weather permits) & music only during the stay (Rakcham & Manali) and local explorations as per itinerary.",
+      "Driver allowances, toll taxes, parking, state taxes and permits.",
+      "Oxygen cylinder and medical kit to handle extreme health problems."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
+  },{
+    "slug": "spiti-valley-manali-edition",
+    "title": "Spiti Valley- Manali Edition",
+    "destination": "Spiti",
+    "duration": "5 Days 4 Nights",
+    "price": "₹15000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/9191320250203134935.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36450720210604164116.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36310920250203135041.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18098020250203135042.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18301420250203135042.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1545520250203135042.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24692720250203135042.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25081220250203135042.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38406620250203135042.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15113920250203135042.png"
+    ],
+    "overview": "<h2>About 5 Days Manali Spiti Valley Tour Package</h2><p>Spiti Valley is nestled amidst the majestic Himalayas in the Indian state of Himachal Pradesh is a rugged and remote destination that beckons adventurers and nature enthusiasts alike. One of the popular routes to <b>reach Spiti Valley is via Manali</b>, a charming picturesque hill station known for its lush greenery and snow-capped peaks. The journey from Manali to Spiti Valley is a mesmerizing experience, offering travelers a glimpse into the tender beauty of the Himalayan landscape. This route passes through various towering mountain passes, unique remote villages, each offering its own rustic charm and character. As you'll travel through the rugged terrain, you'll be treated to panoramic views of snow capped peaks, serene valleys and crystal clear rivers. Along the way you can stop through various key attractions such as Rohtang Pass, Kaza and Keylong, soaking in the rich cultural heritage and warm hospitality of the local people.</p><p>Embarking on a road trip to <a href=\"/trip/spiti-valley-tour-packages\" style=\"color:blue;\">Spiti Valley</a> is a thrilling and adventurous escapade for every trip, whenever Spiti is mentioned it evokes the feeling of serenity and excitement, encapsulating the essence of adventure that Spiti promises to offer. Spiti Valley is a high altitude geological location situated in the Himalayan region of the Indian state of Himachal Pradesh, dutching the borders with Tibet. The ascent to <b><a href=\"/trips/spiti-valley-manali-edition\" style=\"color:blue;\">Spiti Valley from Manali</a></b> is not for faint hearted with its rugged terrain, crystalline rivers and craggy cliffs, it entails navigating treacherous mountain roads and that wind precariously through deep chasm and across high passes. Still, those who dare to venture, The rewards are limitless from the surreal vistas of towering peaks reflected upon the azure lakes to come across the warm hospitality of the spitian people. Spiti is beautiful, from the picturesque beauty of the region to the culture, festivals, and traditions local people follow.</p>\r\n\r\n<h3>Places to Visit in Manali to Spiti Valley Trip</h3>\r\n<p>There are a plethora of places to visit during the Manali to Spiti Road Trip with mesmerizing scenic views and cultural experiences. Here are some of them to explore during this adventurous trip:-</p>\r\n<ul>\r\n<li><strong>Kaza-</strong> Kaza is the administrative capital of Spiti valley, it's a quaint pretty town which offers a brilliant blend of modern amenities and traditional Spitian Culture. Explore the local markets, interact with friendly local people and experience their culture and traditions.</li>\r\n  <li><strong>Atal Tunnel-</strong> Atal Tunnel, a marvel of engineering. It takes 9.02 hour through, the PiR Panjal Range, facilitating year round connectivity between Manali and Lahaul-spiti valleys chiseled beneath towering mountains, the travel time shortens and ensures vital access to remote regions, heralding a new era of accessibility and opportunity in the himalayas.</li>\r\n<li><strong>Kunzum Pass-</strong> Kunzum Pass is one of the highest motorable mountain passes of India, nestled at an altitude of around 4600 meters above sea level. It connects Lahaul and Spiti Valley. Exploring Kunzum Pass has its own perks, as the second longest glacier BaraSigri Glacier can be seen from the Kunzum Pass, photography lovers and nature enthusiasts should really visit this place.</li>\r\n  <li><strong>Hikkim-</strong> Hikkim is a home to one of the highest post offices in India, it is a tiny quaint village nestled amidst lofty peaks with breathtaking surroundings. You can explore around, send a postcard from the post office, interact with the friendly locals and marvel at the beauty of the Himalayan Vistas.</li>\r\n  <li><strong>Komik-</strong> Komik is one of the highest inhabited villages in Asia with an elevation at around 4,587 meters (15,049 feet) above sea level. Marvel at the rustic charm of the village, immerse yourself with the traditional way of life of the Spitian people. You can also interact with friendly locals and savor authentic Himalayan cuisine.</li>\r\n  <li><strong>Langza-</strong> Known as the ‘fossil village’, Langza is famous for its rich fossil deposits and stunning Himalayan landscapes. Take a leisurely walk around the village, visit the ancient Langza Buddha Statue and immerse yourself in the tranquility of this picturesque hamlet.</li>\r\n  <li><strong>Key Monastery-</strong> Settled atop a hill at an altitude of 4,166 meters, Key Monastery is one of the highest and oldest Tibetan Buddhists monasteries in Spiti Valley. The serene architecture and peaceful ambiance of this place makes it an ideal place to visit for spiritual seekers and photographers.</li>\r\n  <li><strong>Kibber Wildlife Sanctuary-</strong> <a href=\"https://en.wikipedia.org/wiki/Kibber\" style=\"color:blue;\" rel=\"noopener noreferrer\">Kibber Wildlife Sanctuary</a> is a home to rare himalayan species like the Tibetan Wild Ass, Snow Leopard and Himalayan Wolf. embark on wildlife safari and explore the biodiverse ecosystem of the Kibber Wildlife Sanctuary and also witness the untamed beauty of the Himalayan Wilderness.</li>\r\n  <li><strong>Chicham Bridge-</strong> Located at an altitude of around 4500 meters above sea level, Chicham Bridge is one the most splendid and highest suspension Bridges in the world. It connects two villages Chicham Village and Kibber Village, helping people cross securely and making their lives easier.</li>\r\n</ul>\r\n\r\n<h3>Things to do in 5 Days Manali Spiti Valley Package</h3>\r\n<p>Embarking on a journey towards Spiti Valley Tour From Manali offers various thrilling adventures and enriching experiences. Here are some captivating things to do along this unforgettable route:</p>\r\n<ul>\r\n<li><strong>Camp by Chandratal Lake-</strong> Chandratal Lake is one of the most exquisite lakes nestled amidst the barren landscapes of the Spiti Valley. Set up a camp nearby along the shore of this shimmering jewel surrounded by towering mountains and star studded skies and experience the tranquility of this natural wonder.</li>\r\n  <li><strong>Postcard from Hikkim-</strong> A Postcard from Hikkim whispers tales of the world's biggest post office nestled amidst the Himalayan peaks. Its picture perfect views and handwritten notes carry the essence of mountain serenity and human connections across wide distances.</li>\r\n  <li><strong>Experience Local Culture-</strong> Indulge yourself in the unique traditions and culture of the Spiti Valley, interact with friendly locals, visit local villages like Komik, Kaza and Langza and savor authentic Himalayan cuisine.</li>\r\n  <li><strong>Photography Expedition-</strong> You can capture the raw beauty of the Spiti Valley Tour through your lens as you ascend through Spiti’s dramatic landscapes and witness the picturesque beauty of the Himalayan Vistas, every corner of Spiti Offers a treasure trove of photographic opportunities.</li>\r\n  <li><strong>Tea at Chacha Chachi Dhaba-</strong> Sipping tea at Chacha Chachi dhaba is a quintessential experience, where the whiff of freshly brewed tea mixes with crisp mountain air. Surrounded by majestic peaks of himalayas, this humble roadside eatery offers more than just beverages, it's a warm welcome to Spiti where travelers share laughter, enjoy themselves and create memories.</li>\r\n  <li><strong>Stargazing-</strong> You can spend an evening under vast starry skies, feel the magic of stargazing, far away from the city lights and experience the celestial wonders of the night sky. The clear mountain air and minimal light pollution in Manali to Spiti Valley Trip create the perfect conditions for stargazing.</li>\r\n  <li><strong>Cafe Hopping in Kaza Market-</strong> There are several cafes in Kaza Market to explore around, Cafe hopping in Kaza market offers a wide range of Varietes. It is a delightful journey through the flavors and ambiance of Spiti Valley. From cozy nooks with scenic views of the surrounding mountains to vibrant hangouts buzzing with local chatter each cafe offers a unique experience. Whether you are indulging with Tibetan Butter Tea, savoring home-made pastries or simply soaking in the laid back atmosphere, every stop promises a taste of the valley's charm and hospitality.</li>\r\n</ul>\r\n\r\n<h3>Best Time to Visit Spiti Valley from Manali</h3>\r\n<p>The best time to visit Spiti Valley from Manali is during the summer months from mid may to mid october. During this period the weather is generally pleasant making it an ideal time.</p>\r\n<ul>\r\n<li><strong>Summer (May to June)-</strong> The weather is generally pleasant during this season of the year with clear skies and it is also considered as the peak tourist season, the roads are usually crystalline allowing for smooth travel and access to most tourist destinations. Furthermore, you can witness the blooming flora and lush greenery in the month of june adding to the picturesque beauty of the region.</li>\r\n  <li><strong>Monsoon (July to August)-</strong> While the Spiti Valley experiences minimal rainfall as compared to the other parts of India, the monsoon season can still bring occasional showers and landslides which may affect road conditions, traveling during this season might be little challenging due to the risk of road closures and slippery roads. However, if you're willing to travel during this time, you'll be rewarded with the little crowd and beautiful landscapes.</li>\r\n  <li><strong>Autumn (September to October)-</strong> Autumn is another excellent time to visit Spiti Valley, the weather remains pleasant with temperature gradually dropping as the season progresses. September offers clear skies and comfortable temperatures making it ideal for outdoor activities and sightseeing. By October the temperature starts to dip but the landscapes are adorned with golden hues as the foliage begins to change colors.</li>\r\n</ul>\r\n\r\n<h4>Faq's</h4>\r\n<p><b>What is Manali to Spiti Valley Distance by Road</b></p>\r\n<p>Distance between Manali to Spiti Valley by Road is 177.4 km which can be cover within 4 hr 48 min.</p>\r\n<p><b>Can we go to Spiti Valley via Atal Tunnel?</b></p>\r\n<p>Yes, You can go Spiti via Atal Tunnel. It connects Manali to Spiti</p>\r\n\r\n<p>Other Related Tour Packages: <a href=\"https://go4explore.com/trips/spiti-valley-jibhi-edition\" style=\"color:blue;\">Spiti Valley From Jibhi</a>, <a href=\"https://go4explore.com/trips/spiti-valley-circuit-trip\" style=\"color:blue;\">Spiti Valley Circuit Trip</a>, <a href=\"https://go4explore.com/trips/spiti-valley-biking-edition\" style=\"color:blue;\">Spiti Valley Bike Edition</a>, <a href=\"https://go4explore.com/trips/all-girls-spiti-valley-trip\" style=\"color:blue;\">Spiti Valley Girls Trip</a></p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla/Kashmere Gate Bus Stand and meet your Trip Captain. </li><li>Start an overnight journey to Manali and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali Arrival | Local Exploration & Acclimatization",
+        "description": "<ul><li>After arriving in Manali, check-in to our comfy hotel, freshen up and have some leisure.</li><li>Post leisure, head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Treat yourself with mouthwatering dishes at various themed cafes in Old Manali, and visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by a delightful dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Manali to Kaza via Kunzum Pass",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, drive from Manali to Kaza village and get mesmerized by the shape-shifting landscapes of mountains with every turn.</li><li>Enroute Kaza, treat yourself with the alluring landscapes of Solang Valley and cross the iconic Atal Tunnel. Take a pit stop for a quick re-fill at the famous Chacha-Chachi Ka Dhaba in Batal.</li><li>Feel high on the Himalayas while crossing the majestic Kunzum Pass nestled at 14,931 feet, Gateway to Spiti Valley.</li><li>After arriving in Kaza, check in to our cozy hotel, freshen-up and have some leisure.</li><li>The ones with high energy levels, feel free to take a stroll around Kaza and old bazaars. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Exploring Langza, Komic & Hikkim | Kaza Cafe Hopping",
+        "description": "<ul><li>Post breakfast, quickly head out for an action packed exploration of various quaint villages nestled in and around Kaza. </li><li>Visit Spiti’s gorgeous fossil village Langza and get clicked with the iconic statue of Medicine Buddha with your clan. Feel proud for making it to the World’s highest motorable village Komic and absorb in the jaw dropping vistas of snow-laden Himalayas. The day will come to an end at Hikkim village known for its World’s highest post office.</li><li>Since this is your last night in Kaza, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Key Monastery, Chicham & Kunzum | Chandratal Arrival",
+        "description": "<ul><li>Post breakfast, bid adieu to your hosts in Kaza and drive towards Key Monastery. Spend quality time speaking to the monks or sip a cup of herbal tea in Key Monastery’s kitchen.</li><li>Explore the Kibber village and take some #InstaPerfect shots at Chicham Bridge - Asia’s highest suspension bridge connecting the peaceful Kibber village.</li><li>Enroute Chandratal, we will take a pit stop at Losar to grab a satisfying lunch and continue towards Kunzum La situated at 15,000ft approx. </li><li>After arriving at Chandratal, check in to our scenic campsite and experience the calmness of the Moon Lake. In the evening chill with your travel clan under the gaze of million stars and savour home-style cooked dinner and overnight stay in swiss camps.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Chandratal to Manali | Depart For Delhi",
+        "description": "<ul><li>Wake up quite early in the morning and post breakfast drive towards Manali from Chandratal. Enroute Manali, we will take a pit stop for morning tea at the famous Chacha-Chachi Ka Dhaba or Chhatru.</li><li>Traverse from barren landscapes of Lahaul & Spiti to lush green vistas of Kullu Valley via Atal Tunnel.</li><li>After arriving in Manali, feel free to take a stroll around Old Manali cafes or The Mall Road (if time permits) by yourself and start-off your return journey to Delhi in the evening.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Delhi to Manali & back) and Force Traveler/Cab at all other times.",
+      "Accommodation on Sharing Basis: Hotel/Homestays (Manali & Kaza), Swiss Camps (Chandratal).",
+      "Meals: Manali (Breakfast+Dinner), Kaza (2 Dinners+2 Breakfasts), Chandratal (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 5.",
+      "Experienced and cool Trip Captain.",
+      "Bonfire (if weather permits) & music only during the stay (Manali only) and local explorations as per itinerary.",
+      "Driver allowances, toll taxes, parking, state taxes and permits.",
+      "Oxygen cylinder and medical kit to handle extreme health problems."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'spiti-valley-manali-edition',
-    title: 'Spiti Valley- Manali Edition',
-    destination: 'Spiti',
-    duration: '5 Days 4 Nights',
-    price: '₹15000',
-    imageUrl: '/cloned_media/9191320250203134935.png',
-    overview: 'A shorter 5-day Spiti trip from Manali, focusing on Kaza and nearby monasteries, plus Chandratal.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Homestay/Guesthouse', 'Transfers from Manali', 'Inner Line Permits'],
-    exclusions: ['Meals', 'Entry Fees'],
+    "slug": "spiti-valley-circuit-trip-manali-to-shimla",
+    "title": "Spiti Valley Circuit Trip Manali to Shimla",
+    "destination": "Spiti",
+    "duration": "7 Days 6 Nights",
+    "price": "₹24999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/10602120240210055925.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23186920240210055923.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38035020240210055924.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5779420240210055924.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31605020240210055924.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21139720240210055924.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29402120240210055924.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2371720240210055924.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19512020240210055924.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16881320240210055924.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10148620240210055925.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21566120240210055925.png"
+    ],
+    "overview": "<h2>About Spiti Valley Circuit Trip Manali to Shimla</h2><p>Spiti Valley Circuit Trip through which one travels from Manali over the Chandratal to Shimla is one of the most fascinating drives in the middle of the Greater Himalayas. This stunning route provides an amazing combination of stunning rough terrains, ancient monasteries, the wild and angelic natural scenery that will make you feel stunned in <a href=\"https://go4explore.com/trip/spiti-valley-tour-packages\" style=\"color:blue;\">Spiti Valley Tour Package.</a></p><p>It commences at Manali, a beautiful hill station located in the district of Kullu. So, the next destination where you will be going through a sightseeing tour is the overwhelming Rohtang Pass that features snowy mountains and breathtaking views. The transitional phase that one gets to undergo as the terrain descends into the Spiti Valley is the epitome of a dream world of arid mountain ranges, deep ravines and sheer desolation.</p><p>Spiti Valley alone is a cold desert area with high altitude, characterized by monastic institutions with strong reference to Buddhism perched on cliffs representing culture and belief. Tourists can also visit the Key Monastery, Tabo Monastery, and the Dhankar Monastery that provide a sneak peek into the historical background of that area along with the sightseeing of marvelous monasteries.</p><p>The journey to Shimla continues with the themes change and as you move forward, thick forests, lush green valleys, sparkling rivers etc is what you get to see. The route passes by many picturesque villages, numerous fascinating views of high mountains, snowfields and fresh meadows can be seen.</p><p>Shimla, the last place to visit, is a delightful colonial town, immaculately styled with colonial architecture. It even has a beautiful Mall Road for walking, majestic structures scattered around the city and finally a wonderful sight of Himalayas starting from the window of the train.</p>\r\n\r\n<h3>Best Places to Visit in Spiti Valley Circuit Trip Manali to Shimla</h3>\r\n<p><strong>1. Shimla–</strong> Home to the capital of Himachal Pradesh, Shimla also boast some buildings of Victoria era such as the Viceregal Lodge and Christ Church. Mall Road and Ridge are the most shop Dick and the most popular places where one can find restaurants and other eateries and can actually feel the liveliness of the Hill station.</p>\r\n<p><strong>2. Chitkul–</strong> The last settled village in Himachal, near the Indo-Tibetan border, is full of absolute beauty, wooden houses, superb farming land for peas and potatoes. This village is ideal for trekking, taking a picnic and for tourists who just want to have the touch of the natural feeling of a countryside.</p>\r\n<p><strong>3. Sangla Valley–</strong> Sangla is also called Baspa Valley, with apple laden trees, lush greenery, Baspa River making its way through the valley. A few other attractions that make historical importance include the Kamru Fort with a temple known as the Kamakhya Devi temple.</p>\r\n<p><strong>4. Khab Sangam–</strong> The beautiful location efficiently denotes the unification of Spiti and Sutlej rivers and the steep mountains on the backdrop. At present it is located close to a village named Khab and Owing to the unevenness of rocks and the spectacular view it has become a favorite tourist spot for the people traveling in Spiti Valley. In this way, the two rivers confluence with each other and joining their forces symbolizes the integration of the barren and rocky landscape of Spiti with the fertile and fertile geography of Kinnaur.&nbsp;</p>\r\n<p><strong>5. Gue Monastery-</strong> Home to the 500 year old preserved mummy of a monk named Sangha Tenzin Lamah, this is a monastery that is quite famous and has a somewhat spooky allure. This mummy is surely a remnant of a once active spiritual history and practice of the people of the region.</p>\r\n<p><strong>6. Nako Village and Lake-</strong> Nako is a beautiful village perched in a height of 2362 meters featuring a calm outspread area surrounded with willow &amp; poplar trees in the middle of a lake. It possesses ancient monasteries and rock carved caves which further enhances it spiritual as well as historical side.</p>\r\n<p><strong>7. Tabo Monastery-</strong> <a href=\"https://en.wikipedia.org/wiki/Tabo_Monastery\" style=\"color:blue;\">Tabo Monastery</a> was initiated in the year of 996 AD and rich in paintings on walls, clay images and stucco work. Now known as the ‘Ajanta of the Himalayas,’ it is an IDA and world heritage site nominee and a scholars’ residence.</p>\r\n<p><strong>8. Dhankar Monastery-</strong> Located at a height of 4,017 meters and surrounded by towering mountains, the Dhankar Monastery is an architectural marvel, perched right on the edge of the Spiti and Pin rivers. There is a small hike from the monastery to the beautiful Dhankar Lake that gives one a chill and a view.</p>\r\n<p><strong>9. Kaza-</strong> Some of the recommended places to stay in Kaza are the monasteries or homestays. There are several restaurants where you can get some local delicious food, Kaza serves as a starting point when traveling around Spiti Valley. The site is a life support town offering basic amenities and glimpses of local Spitian culture situated in the backdrop of barren mountains.</p>\r\n<p><strong>10. Kibber Village-</strong> Kibber is one of those villages which is almost on the edge of habitability as it is situated at an altitude of 4,270 meters. Due to the Darjeeling Tourist Information Centre, the approach to the town is marked by spectacular architecture, it has a wildlife sanctuary and is a starting point for several treks.</p>\r\n<p><strong>11. Chicham Bridge-</strong> Chicham Bridge even though it is a small one is the tallest bridge of Asia and is a bridge between the Kibber and the Chicham villages, which passes over a deep gorge. Amazing views are available to photograph on this bridge and even though it is located in the middle of nowhere it is a significant piece of engineering.</p>\r\n<p><strong>12. Langza Village-</strong> Situated at an elevation of about 4464 meters, More Siyachen, or known by its recent name, Langza is famous to house a giant Buddha statue overlooking the valley. Moreover, it provides captivating views of the snowy Chau Chau Kang Nilda peak, and it is also popular for the fossil lover as it has a large number of fossils found here.</p>\r\n<p><strong>13. Komic Village-</strong> This is one of the highest motorable villages in the world and is situated at an altitude of approximately 4,587 meters above sea level, and is inhabited by Buddhists. Scenic and picturesque village with splendid views of mountains and a chance to peek into the culturally rich and preserved way of life of the Spiti people.</p>\r\n<p><strong>14. Hikkim Village-</strong> Located at an altitude of 4,400 meters, Hikkim also sees the marvel of being home to the highest post office in the world. This very small and isolated village is famous for its postcards that can be postmarked at the height of 3,886 meters, a very interesting traveling experience and, at the same time, people can send messages to the outside world from one of the highest settlements on the Earth.</p>\r\n<p><strong>15. Chandratal-</strong> Chandratal also referred to as the ‘Moon Lake’ is a crescent-shaped high-altitude lake which is located at a height of about 14,100 ft in Spiti Valley. It has crystal clear water that touches the sky and is surrounded by pristine nature, which makes it a great place for trekking and pitching a tent in the wild.</p>\r\n<p><strong>16. Manali-</strong> Manali is a popular hill station situated in the state of Himachal Pradesh, which is known for its natural splendor, adventurous activities and Josh basics. Located in the Kullu valley, the tourist is spoilt for choices as there are places such as the Solang valley, the Hadimba temple and hot springs at Vashisht to capture the tourists’ fancy year in and year out.</p>\r\n<p><strong>17. Atal Tunnel–</strong> Atal Tunnel is around 9.02 km in length and is one of the longest highway tunnels globally, it is named after India’s former Prime Minister Atal Bihari Vajpayee. This tunnel has effectively brought down the distance between Manali and Leh by forty-six km.</p>\r\n<p><strong>18. Kunzum Pass–</strong> It is one of the highest motorable passes; situated in the Spiti region in the state of Himachal Pradesh. Located at an altitude of roughly 4600 meters above sea level, It can largely be described as the gateway to the picturesque Spiti Valley. On your way to the pass you will have a thrilling experience in steering through many curves while being surrounded by the majestic hills of himalayas which is indeed a place worth every travelers visit.</p>\r\n<p><strong>19. Solang Valley–</strong> Solang Valley is one of the prime attraction spots in Himachal Pradesh state and tourists can enjoy adventure activities like Paragliding, zorbing, horse riding, some photo shoots and skiing in winter.</p>\r\n<h3>Things to do in Spiti Valley Circuit Trip Manali to Shimla</h3>\r\n<ul>\r\n<li><strong>Visit Ancient Monasteries:</strong> One should definitely visit Key Monastery (Kye Gompa) Tabo Monastery, Dhankar Monastery, and others to see the Buddhist heritage of Spiti Valley. They also have beautiful work of architecture, history with murals, and cool surroundings. Engage in meditation sessions or speak to the monks in order to grasp more knowledge on Tibetan buddhism.</li>\r\n<li><strong>Explore High-altitude Villages:</strong> Many of the villages are at high altitudes you may visit a few such as Kibber, Langza and Dhankar. Stroll through the historic town’s typical streets and watch the old houses constructed of mud and stones. Talk to native people to get to know more about their way of life, their traditions, and their schedules. The incredible shots would show empty deserts, large fields, and even snow covered mountains.</li>\r\n<li><strong>Trekking and Hiking:</strong> Engage in exciting and thrilling nature walks and explore beautiful landscapes of the Himalayas. Some of the popular trek routes are Pin Parvati Pass, Chandratal Lake Trek and Dhankar Lake Trek. Trekking in Spiti Valley is very attractive since it will provide you with a possibility to feel completely in touch with the untouched nature, to observe the wild animals, and to visit some of the most secluded valleys.</li>\r\n<li><strong>Visit Chandratal Lake:</strong> While on your tour, take a diversion to the ‘Moon Lake’ also known as the ‘Chandratal Lake’ a spectacular Lake that sits at the base of high mountains and glaciers and the reflection of the surrounding peaks in the water is stunning. It is always special if you can pitch the tent near the Chandratal and if you are a lover of nature, it will really be fascinating when you can sleep under the starry night.</li>\r\n<li><strong>Experience Local Culture:</strong> Attend local events such as fairs, carnivals, and ceremonies in order to observe ceremonial and folk dances, music and other cultural activities and practices among the locals. Winter Bon, celebrated in February or March as the Losar Festival or the Ladarcha Fair in July is a grand cultural event which gives a peep into the cultural heritage of this place.</li>\r\n<li><strong>Photography and Sightseeing:</strong> Capture beautiful nature sceneries, steep terrains like the Rohtang Pass and other passes, beautiful valleys, and ancient monasteries. There are innumerable photo opportunities for the wide-eyed visitor to the Spiti Valley – the stunning Himalayas, unique structures and the ordinary local’s way of life.</li>\r\n<li><strong>Wildlife Spotting:</strong> Explore the beautiful pin valley national park, where different animals like the snow leopard, ibex, blue sheep and different birds are found. Take part in various activities such as guided wild view wildlife safaris or nature walks to view and photograph wildlife &amp; nature gifts of this beautiful region.</li>\r\n</ul>\r\n<h3>How to Reach Spiti Valley Circuit Trip Manali to Shimla</h3>\r\n<p>The Spiti Valley circuit trip from Manali to Shimla is best undertaken by road. The journey begins in Manali, a popular hill station in Himachal Pradesh that is well-connected by roads from major cities like Delhi, Chandigarh, and Dehradun. From Manali, you can hire a private vehicle or join a tour to undertake the adventurous drive through the Rohtang Pass, which will take you into the remote and rugged Spiti Valley. The road trip winds through breathtaking landscapes, ancient monasteries, and remote villages, offering a chance to experience the unique culture and way of life in this cold desert region. After exploring the wonders of Spiti, the journey continues towards Kinnaur district, where you can visit picturesque villages like Chitkul and Kalpa before eventually reaching the charming hill station of Shimla, the final destination of the circuit.</p>\r\n\r\n<h3>Best Time to Visit Spiti Valley Circuit Trip Manali to Shimla</h3>\r\n<p><strong>Summer (May to June):</strong> The circuit is believed to be best done during the summer months although there are still challenges that may be faced depending on the weather patterns of that time of the year. The roads are available for use while the weather is good and thus this is the best time for tours and other activities. Nevertheless, it gets very hot with the sun all day, and therefore it is necessary to wear proper clothing and to take water with you.</p>\r\n<p><strong>Monsoon (July to September):</strong> The monsoon season is largely shunned for the <a href=\"https://go4explore.com/trips/spiti-valley-circuit-trip\" style=\"color:blue;\">Spiti Valley circuit trip</a> as rain can lead to slippery movement of soil bringing about landslides in the area. Some of the areas may not be accessible, and chances of being stuck in a car or any vehicle are extremely high. But if you can brave a couple showers, this time of year presents fewer people and a countryside colored in shades of green.</p>\r\n<p><strong>Autumn (October to November):</strong> Autumn also appears to be a convenient time to visit the Spiti Valley circuit. The climate is comparatively moderate and the atmosphere is quite sunny and fine at times so that one can have a breathtaking view of the surrounding mountains which are usually capped with a bright snow. It is appropriate to visit during this season especially for photographers because the landscapes look bronzed. However, it is recommended that you should carry warm clothes and a jacket since it gets cold mostly at night.</p>\r\n<p><strong>Winter (December to April):</strong> The winters are extremely difficult for the Spiti Valley circuit trip because most roads are blocked due to the snowfall there. But for people who seek for a new experience, this season becomes the only chance to see the area in its natural appearance. The environment is wintry with snow-decking all landscapes, while the monasteries look quiet and calm. However, it is important to mention that traveling at this time, and especially to such a region, needs good preparation, warm clothes, equipment, and, most importantly, the necessary permits.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi To Manali | Overnight Journey",
+        "description": "<ul>\r\n    <li>Assemble at the boarding point in Delhi - RK Ashram Metro Station or Majnu Ka Tilla.</li>\r\n    <li>Start an overnight journey to Manali and socialize with your co-travelers.</li>\r\n</ul>"
+      },
+      {
+        "day": 2,
+        "title": "Manali Arrival | Acclimatization & Day At Leisure | Local Explore & Cafe Hopping",
+        "description": "<ul>\r\n    <li>After arriving in Manali, check in to our hotel, freshen-up and have some leisure.</li>\r\n    <li>This will be your acclimatization day as you will be starting a thrilling road trip to a high altitude region in the Himalayas the next day.</li>\r\n    <li>Post refreshment, feel free to take a stroll around by yourself - visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping in Old Manali and try different local cuisines.</li>\r\n    <li>In the evening, don’t miss out the much-needed acclimatisation session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive From Manali To Chandratal",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, we will head out to Chandratal Lake.</li>\r\n    <li>Enroute Chandratal, we will take a pit stop for morning tea at the famous Chacha-Chachi Ka Dhaba or Chhatru.</li>\r\n    <li>After arriving at Chandratal, check in to our scenic campsite and experience the calmness of the Moon Lake. In the evening chill with your travel clan under the gaze of million stars and savour home-style cooked dinner and overnight stay in swiss tents.</li>\r\n</ul>"
+      },
+      {
+        "day": 4,
+        "title": "Key Monastery | Kibber Village & Chicham Bridge | Kaza Arrival",
+        "description": "<ul>\r\n    <li>Post breakfast, Begin your drive towards Kaza.</li>\r\n    <li>Enroute Kaza, we will take a pit stop at Kunzum La situated at 15,000ft approx.</li>\r\n    <li>Explore the Kibber village and take some #InstaPerfect shots at Chicham Bridge - Asia’s highest suspension bridge connecting the peaceful Kibber village.</li>\r\n    <li>Spend quality time speaking to the monks or sip a cup of herbal tea in Key Monastery’s kitchen.</li>\r\n    <li>After reaching Kaza in Spiti valley, check in to our property and have some leisure.</li>\r\n    <li>The ones with high energy levels, feel free to take a stroll around and experience the untouched natural beauty of Kaza town.</li>\r\n    <li>In the evening, regroup for some group bonding exercises, savour home-style cooked dinner and overnight stay.</li>\r\n</ul>"
+      },
+      {
+        "day": 5,
+        "title": "Exploring Langza, Komic & Hikkim Villages | Kaza - Cafes, Bazaars & More",
+        "description": "<ul>\r\n    <li>Post breakfast, quickly head out for an action packed exploration of various quaint villages nestled in and around Kaza.</li>\r\n    <li>Visit Spiti’s gorgeous fossil village Langza and get clicked with the iconic statue of Medicine Buddha with your clan. Feel proud for making it to the World’s highest motorable village Komic and absorb in the jaw dropping vistas of snow-laden Himalayas. The day will come to an end at Hikkim village known for its World’s highest post office.</li>\r\n    <li>Since this is your last night in Kaza, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. Post exploration, savour home-style cooked dinner and overnight stay.</li>\r\n</ul>"
+      },
+      {
+        "day": 6,
+        "title": "Kaza to Nako | Dhankar Monastary | Tabo Monastary",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, check-out from our property and begin your drive from Kaza to Dhankar Village and meditate in the cliff top Dhankar Monastery.</li>\r\n    <li>Drive along the Pin river towards one of the less explored regions and the only green national park in Spiti i.e Pin Valley (if time permits).</li>\r\n    <li>Visit Tabo Monastery. Take a walk inside the old monastery and learn about the history.</li>\r\n    <li>After arriving in Nako, check in to our cozy homestay, freshen-up and have some leisure.</li>\r\n    <li>Dinner and overnight stay in a homestay.</li>\r\n</ul>"
+      },
+      {
+        "day": 7,
+        "title": "A Day On Road | Khab Sangam & Gue Mummy | Chitkul Arrival",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, visit the famous Nako Lake and monastery.</li>\r\n    <li>Drive from Nako to Chitkul/Rakcham village.</li>\r\n    <li>Enroute we will take a halt at Khab Sangam and Gue village to see from your naked eyes the 500-year-old mummified remains of the Buddhist monk Sangha Tenzin.</li>\r\n    <li>Check in to our scenic campsite in Rakcham/Chitkul, freshen-up and have some leisure. What can be more magical than relaxing near the pristine Baspa River? A perfect location in the lap of majestic Himalayas to disconnect from the urban madness and connect with nature.</li>\r\n</ul>"
+      },
+      {
+        "day": 8,
+        "title": "Drive From Chitkul To Shimla | Depart For Delhi",
+        "description": "<ul>\r\n    <li>Wake to a stunning view of the snow-covered mountains.</li>\r\n    <li>Post breakfast, drive from Chitkul to Shimla.</li>\r\n    <li>Take a halt at Shimla, you can visit the Mall road and church (If time permits).</li>\r\n    <li>Start off your overnight journey from Shimla to Delhi and reach Delhi next morning with lots of amazing memories and unforgettable experiences.</li>\r\n</ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Volvo (Delhi to Manali & Shimla to Delhi) and Force Traveler/Cab at all other times.",
+      "Accommodation on Sharing Basis.",
+      "12 Meals (6 Dinners + 6 Breakfast)",
+      "Experienced and cool Trip Captain.",
+      "Driver allowances, toll taxes, parking",
+      "State road taxes and permits.",
+      "Oxygen cylinder and medical kit to handle extreme health problems."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'spiti-valley-circuit-trip-manali-to-shimla',
-    title: 'Spiti Valley Circuit Trip Manali to Shimla',
-    destination: 'Spiti',
-    duration: '7 Days 6 Nights',
-    price: '₹24999',
-    imageUrl: '/cloned_media/10602120240210055925.png',
-    overview: 'The full circuit starting from Manali, crossing Kunzum Pass, exploring Spiti & Kinnaur, and ending in Shimla.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Homestay/Guesthouse', 'Transfers', 'Inner Line Permits'],
-    exclusions: ['Meals', 'Entry Fees'],
+    "slug": "spiti-valley-circuit-trip-from-chandigarh",
+    "title": "Spiti Valley Circuit Trip From Chandigarh",
+    "destination": "Spiti",
+    "duration": "7 Days 6 Nights",
+    "price": "₹25000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/13017620240210061613.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/520120240210061611.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5523220240210061612.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27076920240210061612.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35814520240210061612.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8972520240210061612.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12879620240210061612.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2316320240210061612.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11551320240210061612.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32160420240210061613.png"
+    ],
+    "overview": "<h2>Spiti Valley Circuit Trip from Chandigarh</h2><p>Starting the Spiti Valley Circuit Trip from Chandigarh is one unique ride. Tucked into the Himachal Pradesh state of northern India, this region promises adventure travel in a stark and captivating alpine environment, centuries-old monastery architecture and an intriguing ethnic background.</p><p>The journey starts with the settings off from Chandigarh towards the great beautiful and green hills of Himachal Pradesh. First, the traveler reaches Narkanda, an exquisite town ideal for experiencing the enchanting sight of the Himalayas in their full glory. Here it winds its way through the Kinnaur Valley, affording tantalizing views of mountains cloaked in snow and the glistening rivers.</p><p>This is especially true when you are crossing Kunzum La which is located at an altitude of 4551 meters or 14,931 feet after which the rocky desert of Spiti starts. The barrenness of this place is rather majestic: the gray and red rocks, clear blue sky, and color shifts with occasional bright red and yellow of the prayer flags swaying in the wind.</p>\r\n<p>Explore the historical site of Key monastery, situated on a hill that dominates the area – get stunned by Buddhist life still actively practiced in the region. Experience the liberty of moving through the network of pathways to Kaza, the biggest village in the Spiti Valley, and adequate a glance into the people’s lifestyle. Do not leave without a visit to Komic – the highest motorized village in the world with an altitude of 2583m( 7887 ft).</p>\r\n<p>The <a href=\"/trips/spiti-valley-circuit-trip\" style=\"color:blue;\">Spiti Valley Circuit Trip</a> is a combination of joy, trekking, exploring nature and culture. The roads here are like a combination of highly challenging terrain and from inside the people to the welcoming and warm locals, this trip is very likely to stamp its mark on your souls making some memories that you will treasure in a lifetime though time and space will tell on such a busy and vibrant city life.</p>\r\n<h3>Best Places to Visit in Spiti Valley Trip from Chandigarh</h3><ul><li><strong>Key Monastery:</strong> One of the oldest and largest monasteries in Spiti, Key Monastery dates back to the 11th century. It is renowned for its stunning architecture, vibrant Buddhist culture, and a collection of ancient murals and thangkas.</li><li><strong>Tabo Monastery:</strong> Established in 996 AD, Tabo Monastery is often referred to as the 'Ajanta of the Himalayas' due to its remarkable wall paintings and mud-brick structure. It is a UNESCO World Heritage Site and a must-visit for its historical and cultural significance.</li><li><strong>Dhankar Monastery:</strong> Perched atop a cliff at an altitude of 3,894 meters, Dhankar Monastery offers breathtaking views of the Spiti Valley and the confluence of the Spiti and Pin rivers. It is an excellent example of Tibetan Buddhist architecture and houses ancient murals and sculptures.</li><li><strong>Komic:</strong> Komic is the highest village in Asia, located at an **altitude of 4,587 meters**. It is a fascinating place to witness the traditional lifestyle of the hardy inhabitants who brave the harsh Himalayan conditions.</li><li><strong>Chandratal Lake:</strong> Nestled amidst towering mountains, Chandratal Lake is a stunning crescent-shaped lake known for its pristine turquoise waters and scenic surroundings. It is a popular trekking destination and offers incredible views of the Himalayas.</li><li><strong>Langza Village:</strong> <a href=\"https://en.wikipedia.org/wiki/Langza\" style=\"color:blue;\" target=\"_blank\" rel=\"noopener noreferrer\">Langza</a> is a picturesque village famous for its unique fossil park, where you can find ancient marine fossils embedded in the rocks. It also offers panoramic views of the Spiti Valley and opportunities for cultural immersion.</li><li><strong>Pin Valley National Park:</strong> This national park is a haven for nature lovers and trekkers, offering opportunities to spot rare Himalayan wildlife such as snow leopards, Ibex, and blue sheep, as well as stunning landscapes and pristine glaciers.</li><li><strong>Kibber Village:</strong> Situated at an **altitude of 4,270 meters**, Kibber is one of the highest villages in the world with a motorable road. It offers stunning views of the snow-capped Himalayas and is known for its unique lifestyle and traditional houses made of stone and mud.</li><li><strong>Lahaul Valley:</strong> While not technically part of Spiti Valley, the neighboring Lahaul Valley is a must-visit for its stunning landscapes, ancient monasteries, and opportunities for trekking and adventure sports.</li><li><strong>Kunzum Pass:</strong> At an **altitude of 4,551 meters**, the Kunzum Pass is one of the highest motorable passes in the world and offers breathtaking views of the surrounding Himalayas. It is a popular spot for photography and a <a href=\"/trip/spiti-valley-tour-packages\" style=\"color:blue;\">gateway to the Spiti Valley</a>.</li><li><strong>Hikkim:</strong> This small village is known for its **highest post office in the world**, located at an **altitude of 4,400 meters**. It is also a great base for trekking and exploring the nearby glaciers and natural landscapes.</li><li><strong>Suraj Tal:</strong> Translated as 'Lake of the Sun,' Suraj Tal is a beautiful high-altitude lake surrounded by rugged mountains and glaciers. It is a popular camping spot and a paradise for nature lovers and photographers.</li><li><strong>Chitkul:</strong> Chitkul is another famous village which is located in the Kinnaur district of Himachal Pradesh and the last human inhabited place in India before the border of Tibet. This is the brightest example of traditional wooden houses, apple gardens and clean nature perspectives. Chitkul is a center for trekking and easy access to explore the alpine pasture and glaciers.</li><li><strong>Sangla:</strong> Sangla is one of the beautiful subsidiary effects in the Kinnaur valley offering marvelous sights of Himalayas, ancient temples and the Kamru Fort. The sanctuary is visited frequently on the way to Chitkul, though it provides possibilities for hiking, camping, and rafting on the river.</li><li><strong>Khab Sangam:</strong> The Khab Sangam is the junction of Spiti and Sutlej River and is fairly spectacular because of the Different shades of water at this place. This natural wonder is situated around Khab village itself and is a common place for visitors to pose for pictures.</li><li><strong>Chicham Bridge:</strong> The Chicham Bridge also termed the Hindustan-Tibet Road Bridge is the historic bridge constructed over the Baspa River at Sangla valley. Interestingly, it was built using traditional engineering techniques and, just so you know, the place has windows that give a spectacular view of the nearby mountains and valleys.</li><li><strong>Kaza:</strong> Kaza is one of the principal towns in the Spiti Valley and serves as the sub divisional headquarters of the valley. It is a perfect launch pad for visiting popular monastic circuits including the example of Key Monastery; people here are very colorful and follow a rather traditional way of life. Kaza is also an ideal place for trekking along with other attractions of the area and some of the nearby villages namely Kibber and Langza.</li><li><strong>Manali:</strong> Manali is the beautiful hill station in <a href=\"/trip/himachal-pradesh-tour-packages\" style=\"color:blue;\">Himachal Pradesh,</a> which is best known for its tourist destinations, adventitious sports, and as entrance to Spiti Valley and Lahaul regions. It has a lot of hotels, restaurants, and shopping places to visit, and also it has treks, River rafting, aerial activities such as Paragliding and others.</li></ul><h3>Top Things to do in Spiti Valley Circuit Trip from Chandigarh</h3><ul><li><strong>Visit Ancient Buddhist Monasteries-</strong> Discover art history visits locations of monasteries like Key Monastery , Monastery of Tabo popularly known as the “Ajanta of Himalayas”, Monastery of Dhankar. Look at their design and structure which are so unique and colorful paintings and religious items.</li><li><strong>Visit High-Altitude Villages-</strong> Experience the isolation of far-flung Tawang like Kibber, Langza, Komic ( Motor able Village in the stupendous height) &amp; Demul. Observe the local buildings that stand as symbols of traditional architecture, drive around and get to know the hospitable hosts, as well as learn about their determined way of living.</li><li><strong>Photography-</strong> The beauty of the Spiti Valley is without parallel – its rocks, monasteries, and the people are a perfect backdrop for photography enthusiasts. Look at the stunning top views of the mountains, water bodies, and the vast expanses of desert decorated with snow and ice.</li><li><strong>Camping and Stargazing-</strong> Sleep in the open surrounded by the incredible Himalayan nights that are as wild and stunning as the mountains themselves. Admire and watch stars and feel the beauty of the Milky Way in the sky of Spiti valley in which no pollution has been covered yet.</li><li><strong>Cultural Immersion-</strong> Visit fairs and festivals, participate in customs such as paying respect in temples or chanting Buddhist prayer etc; walking tour with culturally informative local tour guides and inhabitants.</li><li><strong>Explore Historical Sites-</strong> Find out more about the area by visiting such attractions as the Chicham Bridge or the Hindustan-Tibet Road Bridge and the Kamru Fort in Sangla some 47 km south-east of Kullu.</li><li><strong>Cafe Hopping in Kaza-</strong> Kaza's cozy cafés like Monastery Café, Himalayan Café, and Spiti Valley Café offer a warm respite, serving traditional Spitian delicacies, homemade baked goods, and panoramic mountain views, providing an authentic cultural experience amid stunning Himalayan landscapes.</li></ul><h3>How to Reach Spiti Valley From Chandigarh</h3><p>The road trip which is undertaken from <a href=\"/trips/spiti-valley-trip-from-chandigarh-manali-edition\" style=\"color:blue;\"><b>Chandigarh to Spiti Valley</b></a> is a pure blend of the Himalayan Road trip. There is a chain of some distance, and after passing through Narkanda, Rampur, and Reckong Peo, one can get to Kalpa. Visit the powerful Sutlej River before trying to cross the serious Kunzum La pass to reach the Spiti region. Drive through to visit the Tabo Monastery which is a 1000-year-old monastery after which the drive to Kaza which is considered the hub of the region. From this base one can cross the villages like Kibber, Langza and such others.</p><h3>Best Time to Visit Spiti Valley</h3><p>Autumn (**Mid-September to Mid-October**) is the peak season to visit Spiti Valley. With mild temperatures from **10°C to 20°C** and golden landscapes contrasting with azure skies, this is the ideal time for trekking and witnessing vibrant fall colors.</p><p>The best time is **Mid-September to Mid-October** when Spiti Valley's barren terrain takes on a breathtaking golden hue. Mild days between **10°C-20°C** make it perfect for exploring. This peak season also offers excellent trekking opportunities amid stunning fall scenery.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Drive To India’s Last Village : Chitkul | Sangla Valley",
+        "description": "<ul>\r\n    <li>Pick up from Chandigarh, drive towards Chitkul</li>\r\n    <li>We will take a halt for breakfast around Narkanda and soak in the much-needed #MountainVibes. Post breakfast, we will drive ahead to reach the last Indian village before the Indo-Tibetan border - Chitkul.</li>\r\n    <li>Check in to our scenic campsite in Rakcham/Chitkul, freshen up and have some leisure. What can be more magical than relaxing near the pristine Baspa River? A perfect location in the lap of majestic Himalayas to disconnect from the urban madness and connect with nature.</li>\r\n    <li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by a home-style cooked dinner and overnight stay in swiss-camps.</li>\r\n</ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive From Chitkul To Kalpa | The Kinnaur Kailash Views",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, we will head out to take a stroll around the Chitkul village.</li>\r\n    <li>Visit Mathi Temple dedicated to the Goddess of local people of Kinnaur and treat your stomach with a satisfying plate of steamy momos or rajma chawal at ‘Hindustan Ka Akhri Dhaba’.</li>\r\n    <li>Drive towards Kalpa, check in to our cozy hotel and have some leisure. Witness the magical sunset as the golden light falls on the mighty Kinnaur Kailash range. Visit the famous Roghi (suicide-point) and if time permits take a stroll in the beautiful Kalpa village.</li>\r\n    <li>In the evening chill with your travel clan, savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 3,
+        "title": "A Day On Road | Khab Sangam & Gue Mummy | Nako/Tabo Arrival",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, drive from Kalpa to Nako/Tabo village - home to the oldest Buddhist monastery located in Spiti Valley. Get mesmerized by the shape-shifting landscapes of mountains with every turn.</li>\r\n    <li>Enroute we will take a halt at Khab Sangam, visit the famous Nako Lake and monastery and Gue village to see from your naked eyes the 500-year-old mummified remains of the Buddhist monk Sangha Tenzin.</li>\r\n    <li>After arriving in Nako/Tabo village, check in to our comfy hotel/homestay and have some leisure. Savour home-style cooked dinner and overnight stay in a hotel/homestay.</li>\r\n</ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive From Nako/Tabo To Kaza | Dhankar & Pin Valley | Kaza Arrival",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, check-out from our hotel/homestay and visit Tabo Monastery. Take a walk inside the old monastery and learn about the history. Go for the famous Tabo caves (if time permits).</li>\r\n    <li>Drive from Tabo to Dhankar Village and meditate in the cliff top Dhankar Monastery.</li>\r\n    <li>Before arriving at our homely abode in Kaza we will drive along the Pin river towards one of the less explored regions and the only green national park in Spiti i.e Pin Valley (if time permits).</li>\r\n    <li>After arriving in Kaza, check in to our cozy hotel, freshen-up and have some leisure.</li>\r\n    <li>The ones with high energy levels, feel free to take a stroll around Kaza and old bazaars. Savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 5,
+        "title": "Exploring Langza, Komic & Hikkim Villages | Kaza - Cafes, Bazaars & More",
+        "description": "<ul>\r\n    <li>Post breakfast, quickly head out for an action packed exploration of various quaint villages nestled in and around Kaza.</li>\r\n    <li>Visit Spiti’s gorgeous fossil village Langza and get clicked with the iconic statue of Medicine Buddha with your clan. Feel proud for making it to the World’s highest motorable village Komic and absorb in the jaw dropping vistas of snow-laden Himalayas. The day will come to an end at Hikkim village known for its World’s highest post office.</li>\r\n    <li>Since this is your last night in Kaza, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 6,
+        "title": "Key Monastery | Kibber Village & Chicham Bridge | Chandratal Arrival",
+        "description": "<ul>\r\n    <li>Post breakfast, bid adieu to your hosts in Kaza and drive towards Key Monastery. Spend quality time speaking to the monks or sip a cup of herbal tea in Key Monastery’s kitchen.</li>\r\n    <li>Explore the Kibber village and take some #InstaPerfect shots at Chicham Bridge - Asia’s highest suspension bridge connecting the peaceful Kibber village.</li>\r\n    <li>Enroute Chandratal, we will take a pit stop at Losar to grab a satisfying lunch and continue towards Kunzum La situated at 15,000ft approx.</li>\r\n    <li>After arriving at Chandratal, check in to our scenic campsite and experience the calmness of the Moon Lake. In the evening chill with your travel clan under the gaze of million stars and savour home-style cooked dinner and overnight stay in swiss camps.</li>\r\n</ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive From Chandratal To Manali | Manali #MeTime | Depart For Chandigarh",
+        "description": "<ul>\r\n    <li>Wake up quite early in the morning and post breakfast drive towards Manali from Chandratal via Kunzum La. En route to Manali, we will take a pit stop for morning tea at the famous Chacha-Chachi Ka Dhaba or Chhatru.</li>\r\n    <li>After arriving in Manali, feel free to take a stroll around Old Manali cafes or The Mall Road (if time permits) by yourself and start your return journey to Chandigarh in the evening.</li>\r\n</ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Chandigarh to Chandigarh",
+      "Accommodation on Sharing Basis: Hotel/Homestays (Chitkul, Kalpa, Nako/Tabo & Kaza), Swiss Tents (Chitkul & Chandratal).",
+      "Meals: 6 Breakfast & 6 Dinner (starting from Dinner on Day 2 to Breakfast on Day 8).",
+      "Experienced and cool trip leader.",
+      "Driver allowances, toll taxes, parking, state taxes, and inner line permits.",
+      "Oxygen cylinder and medical kit to handle extreme health problems."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'spiti-valley-circuit-trip-from-chandigarh',
-    title: 'Spiti Valley Circuit Trip From Chandigarh',
-    destination: 'Spiti',
-    duration: '7 Days 6 Nights',
-    price: '₹25000',
-    imageUrl: '/cloned_media/13017620240210061613.png',
-    overview: 'A 7-day Spiti circuit trip with convenient start and end points in Chandigarh, covering the Shimla-Spiti-Manali route.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Homestay/Guesthouse', 'Transfers from Chandigarh', 'Inner Line Permits'],
-    exclusions: ['Meals', 'Entry Fees'],
+    "slug": "spiti-valley-trip-from-chandigarh-manali-edition",
+    "title": "Spiti Valley Trip From Chandigarh - Manali Edition",
+    "destination": "Spiti",
+    "duration": "5 Days 4 Nights",
+    "price": "₹22000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/31067820240210063828.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8570420240210063827.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10459420240210063827.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25236420240210063828.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9138420240210063828.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34449820240210063828.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26543920240210063828.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18500920240210063828.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41431820240210063828.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41808920240210063828.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28172920240210063828.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37741220240210063828.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14781220240210063828.png"
+    ],
+    "overview": "<p>Bordering with Tibet and home to some of the oldest Buddhist monasteries in the Himalayas, Spiti is a cold desert mountain valley, sparsely populated region whose beauty unveils after a challenging and tricky ride through the most treacherous roads of the mighty Himalayas. The term ‘Spiti’ means ‘The Middle Land’ - land between the lush green valleys and the cold mountain deserts of the Himalayas. Thanks to the thrilling roadways, rustic landscapes and beautiful clear skies, road trip to Himachal’s Spiti Valley is a once in a lifetime experience. Decorated with beautiful villages, welcoming locals and their 1000 year old culture, Spiti is an ancient Himalayan kingdom so unique that it was kept a secret for centuries. Come and experience with us as we travel to Himachal’s cold desert.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Manali Arrival | Acclimatization & Day At Leisure | Local Explore & Cafe Hopping",
+        "description": "<ul>\r\n    <li>Pick up from Chandigarh, drive towards Manali</li>\r\n    <li>After arriving in Manali, check in to our hotel, freshen-up and have some leisure.</li>\r\n    <li>This will be your acclimatization day as you will be starting a thrilling road trip to a high altitude region in the Himalayas the next day.</li>\r\n    <li>Post refreshment, feel free to take a stroll around by yourself - visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping in Old Manali and try different local cuisines.</li>\r\n    <li>In the evening, don’t miss out the much-needed acclimatisation session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive From Manali To Kaza | Atal Tunnel & Kunzum Pass | Kaza Arrival",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, start a long yet most scenic road journey to Kaza via Atal Tunnel and Kunzum La (14,931 Ft). Make your way through alluring landscapes.</li>\r\n    <li>Enroute Kaza, we will take a pit stop for a quick lunch at Batal. Treat yourself with a hearty meal at the famous 'Chacha Chachi Ka Dhaba'.</li>\r\n    <li>After reaching Kaza in Spiti valley, check in to our Homestay and have some leisure.</li>\r\n    <li>The ones with high energy levels, feel free to take a stroll around and experience the untouched natural beauty of Kaza town.</li>\r\n    <li>In the evening, regroup for some group bonding exercises, savour home-style cooked dinner and overnight stay in a hotel/homestay.</li>\r\n</ul>"
+      },
+      {
+        "day": 3,
+        "title": "Exploring Langza, Komic & Hikkim Villages | Kaza - Cafes, Bazaars & More",
+        "description": "<ul>\r\n    <li>Post breakfast, quickly head out for an action packed exploration of various quaint villages nestled in and around Kaza.</li>\r\n    <li>Visit Spiti’s gorgeous fossil village Langza and get clicked with the iconic statue of Medicine Buddha with your clan. Feel proud for making it to the World’s highest motorable village Komic and absorb in the jaw dropping vistas of snow-laden Himalayas. The day will come to an end at Hikkim village known for its World’s highest post office.</li>\r\n    <li>Since this is your last night in Kaza, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. Post exploration, savour home-style cooked dinner and overnight stay in a hotel/homestay.</li>\r\n</ul>"
+      },
+      {
+        "day": 4,
+        "title": "Key Monastery | Kibber Village & Chicham Bridge | Chandratal Arrival",
+        "description": "<ul>\r\n    <li>Post breakfast, bid adieu to your hosts in Kaza and drive towards Key Monastery. Spend quality time speaking to the monks or sip a cup of herbal tea in Key Monastery’s kitchen.</li>\r\n    <li>Explore the Kibber village and take some #InstaPerfect shots at Chicham Bridge - Asia’s highest suspension bridge connecting the peaceful Kibber village.</li>\r\n    <li>Enroute Chandratal, we will take a pit stop at Losar to grab a satisfying lunch and continue towards Kunzum La situated at 15,000ft approx.</li>\r\n    <li>After arriving at Chandratal, check in to our scenic campsite and experience the calmness of the Moon Lake. In the evening chill with your travel clan under the gaze of million stars and savour home-style cooked dinner and overnight stay in swiss tents.</li>\r\n</ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive From Chandratal To Manali | Depart For Chandigarh",
+        "description": "<ul>\r\n    <li>Wake up quite early in the morning and post breakfast drive towards Manali from Chandratal via Kunzum La. Enroute Manali, we will take a pit stop for morning tea at the famous Chacha-Chachi Ka Dhaba or Chhatru.</li>\r\n    <li>After arriving in Manali, feel free to take a stroll around The Mall Road (if time permits) by yourself and start-off your return journey to Chandigarh</li>\r\n</ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Force Traveler/Cab From Chandigarh to Chandigarh.",
+      "Accommodation on Sharing Basis: Hotel/Homestays (Manali & Kaza), Swiss Tents (Chandratal).",
+      "Meals: Manali (Breakfast+Dinner), Kaza (2 Dinners+2 Breakfasts), Chandratal (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 5.",
+      "Experienced and cool Trip Captain.",
+      "Driver allowances, toll taxes, parking, state taxes and permits.",
+      "Oxygen cylinder and medical kit to handle extreme health problems."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'spiti-valley-trip-from-chandigarh-manali-edition',
-    title: 'Spiti Valley Trip From Chandigarh - Manali Edition',
-    destination: 'Spiti',
-    duration: '5 Days 4 Nights',
-    price: '₹22000',
-    imageUrl: '/cloned_media/31067820240210063828.png',
-    overview: 'A 5-day trip from Chandigarh, taking the Manali route to explore Kaza, Key, and Chandratal.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Homestay/Guesthouse', 'Transfers from Chandigarh', 'Inner Line Permits'],
-    exclusions: ['Meals', 'Entry Fees'],
+    "slug": "spiti-valley-explorer-edition",
+    "title": "Spiti Valley Explorer Edition",
+    "destination": "Spiti",
+    "duration": "11 Days 10 Nights",
+    "price": "₹35000",
+    "originalPrice": "₹38000",
+    "discount": "₹3,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/17027820240211112306.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4428820240211112305.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14452720240211112305.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18383320240211112305.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25081820240211112305.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39848420240211112305.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24797120240211112306.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24236720240211112306.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21529520240211112306.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29088020240211112306.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34381920240211112306.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3449120240211112306.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2864320240211112306.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33168620240211112306.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31041420240211112306.png"
+    ],
+    "overview": "<h2>About Spiti Valley Explorer Edition</h2><p>The Spiti Valley Explorer Edition reveals the most remote and captivating regions of India. Though based in the high-altitude desert of Himachal Pradesh, it manages to merge amazingly with Tibetan culture and sceneries that stand so stark that they come with a rich cultural heritage from ancient Buddhist times.</p><p>This <b>Spiti Valley Expedition Trip Package</b> typically starts from an acclimatization process in either Shimla or Manali, setting the base for entry into the heart of Spiti. Travelers will witness legendary cliff-top monasteries, visit some of the highest villages in the world, and be spellbound by the crescent-shaped Chandratal Lake. Amidst this 11D10N Himalayan adventure, from enjoying local hospitality in Spiti to spotting rare Himalayan wildlife, there is much more to experience. Be it the adventure enthusiast, the culture seeker, or a nature lover, the <a href=\"/trip/spiti-valley-tour-packages\" style=\"color:blue;\">Spiti Valley Tour Package</a> will strike a perfect chord with its crystal-clear night skies that are just right for stargazing and unique landscapes that present brilliant photography opportunities. Best carried out during the summer months of June to September, this tour allows one to truly soak in raw naturality and spiritual atmosphere across this 'Little Tibet,' making it most unforgettable among Himalayan adventures.</p>\r\n\r\n<h3>Best Places to Explore in Spiti Valley Expedition</h3>\r\n<ul>\r\n<li><strong>Key Monastery:</strong> Situated at 4,166 meters on top of a hill, Key Monastery is the biggest and most famous Buddhist hub of Spiti. Unique architecture, ancient murals, and breathtaking views turn this place into one of the most-visited spiritual and cultural landmarks.</li>\r\n<li><strong>Chandratal Lake:</strong> This high-altitude lake is crescent-shaped, popularly named \"Moon Lake.\" It glistens with sparkling turquoise waters and is bare of mountains all around—a perfect place for camping. At night, the stargazing at this place indeed feels otherworldly.</li>\r\n<li><strong>Dhankar Monastery:</strong> Perilously located between Spiti and Pin valleys, the Dhankar Monastery commands a panoramic view of the landscape below. This marvel of engineering is approximately 1200 years old and holds spiritual significance.</li>\r\n<li><strong>Tabo Monastery:</strong> Often referred to as the \"Ajanta of the Himalayas,\" Tabo is over 1000 years old with exquisite murals and stucco sculptures. Its ancient architecture and calm make it a UNESCO World Heritage site.</li>\r\n<li><strong>Kibber Village:</strong> At 4,270 meters, this village is one of the highest-inhabited villages in the world. Kibber gives one a glimpse into the traditional Spitian way of life. The stark beauty and proximity to some important wildlife spotting areas make it an unparalleled destination.</li>\r\n<li><strong>Pin Valley National Park:</strong> Encompassing within itself an elusive snow leopard and other Himalayan wildlife, this is what Pin Valley National Park in Spiti offers. The rugged terrain, together with high-altitude meadows, forms an ideal trekking ground.</li>\r\n<li><strong>Komic Village:</strong> The highest motorable village in the world, Komic showcases views of the Spiti Valley. Its ancient monastery and traditional lifestyle make it such an offbeat destination.</li>\r\n<li><strong>Kunzum Pass:</strong> The Kunzum Pass lies between the Lahaul and Spiti valleys at 4,590 meters. Multi-colored prayer flags adorn this pass, which gives excellent views down the Chandrabhaga Range, a photographer's delight not to be missed.</li>\r\n<li><strong>Langza Village:</strong> With its giant Buddha statue overlooking the village, Langza is famous for its finds of fossils. This self-same picturesque village, with its unique geological history, makes for a great stop in and of itself.</li>\r\n<li><strong>Hikkim Village:</strong> Hikkim—hosting the world's highest post office at an altitude of 4,440 meters—is one location where one can send posts. Also drawing visitors is the village's architecture and hospitality in the eyes of the faces.</li>\r\n<li><strong>Nako Lake:</strong> This is a small, high-altitude lake surrounded with willow and poplar trees; the scene is picturesque. The serene settings with the nearby ancient Nako Monastery form an ideal location to spend in peaceful thought and capturing snaps.</li>\r\n<li><strong>Giu Village:</strong> One of the weirder and more surreal attractions in Giu village is its 500-year-old mummified monk. So, according to reports, this well-preserved mummy has allegedly continued to grow hair and fingernails through the glass case to this day.</li>\r\n<li><strong>Chitkul:</strong> Although technically a part of Kinnaur, <a href=\"https://en.wikipedia.org/wiki/Chitkul\" style=\"color:blue;\" target=\"_blank\" rel=\"noopener noreferrer\">Chitkul</a> has been included in almost all the Spiti itineraries. The absolute display of snow-capped peaks and pristine landscapes of the last inhabited village near the Indo-Tibet border is one to behold.</li>\r\n<li><strong>Losar Village:</strong> The first village on your way into Spiti from Manali is Losar. This ancient gateway to the valley is an exciting stop, not only because of its beauty but also due to its strategic location and traditional Spitian architecture.</li>\r\n<li><strong>Kaza:</strong> Kaza is the administrative center of Spiti, and thus, most travelers take up their base here. It has modern facilities with a local market and serves as aulos of excursions within the valley.</li>\r\n<li><strong>Dhankar Lake:</strong> It's one of the high-altitude glacial lakes, located near Dhankar Monastery, and it involves some amount of challenging hike to reach but offers excellent views with a sense of accomplishment.</li>\r\n<li><strong>Lhalung Monastery:</strong> Lhalung is one of the oldest monasteries in Spiti, known for its famous 'Golden Temple.' With its isolation and ancient artifacts, one has a preschool-like insight, opening the eyes to a rich Buddhist heritage within Spiti.</li>\r\n<li><strong>Tashigang:</strong> Here, it was claimed to be the highest village in Asia accessible by a motorable road. From Trashigang, there is a broad panoramic view of the mountain and valley surroundings.</li>\r\n<li><strong>Mudh Village saga:</strong> The last village in the Pin Valley, Mudah, is a picturesque hamlet surrounded by snow-capped peaks. It's an excellent base for treks into the Pin Valley National Park.</li>\r\n<li><strong>Sagnam Village:</strong> One such destination for picnickers and trekkers is Sagnam, a village in the Pin Valley that reflects the unique cultures prevailing in the area of Pin Valley.</li>\r\n  <li><strong>Sarahan:</strong> Located in the highlands of Himachal Pradesh, Sarahan is a picturesque town that offers excellent views of the Himalayas. It is considered on the way to Kinnaur and is quite famous for its Bhimakali temple complex and Apple orchards. Serene landscapes and the unique culture of the Kinnauris could be experienced here.</li>\r\n<li><strong>Bhimakali Temple:</strong> The Bhimakali Temple at Sarahan is a beautiful example of both Hindu and Buddhist architecture combined. This temple, constructed unusually with a mixture of wood-steel and wood-copper, is dedicated to Goddess Bhimakali. Intricately carved wood and silver doors are indeed a viewer's delight. There are two towers: the taller of the two has the idol of the presiding deity.</li>\r\n</ul>\r\n<h3>Things to do in Spiti Valley</h3>\r\n<p><strong>1. Stargazing:</strong> Witness the celestial spectacle of Spiti's high-altitude, clear skies. Almost stripped of all artificial light, the sky is home to countless stars, constellations, and, at times even the Milky Way. Carry a telescope or join guided astronomy sessions for an unforgettable nocturnal adventure in the Himalayas.</p>\r\n<p><strong>2. Trekking:</strong> From simple day hikes to gigantic multi-day treks, take on adventure. Let breathtaking landscapes surprise you, bargain for steep passes, or camp inside secret valleys. Some famous routes are Dhankar to Lhalung, Pin-Parvati Pass, and Parang La. Always have proper acclimatization and go responsibly during your trek.</p>\r\n<p><strong>3. Mountain biking:</strong> Explore the rough landscape of Spiti on two wheels and get up close to raw beauty. Ride through winding mountain roads along monasteries and traditional villages. Test your strength on steep ascents and thrill on wild descents. Hire bikes in Kaza or take organized tours for safety and support.</p>\r\n<p><strong>4. Wildlife spotting:</strong> Get cheeky with the reclusive Himalayan wildlife of Spiti. One may be fortunate enough to spot a snow leopard, Tibetan wolf, blue sheep, and ibex, to name a few, when patience accompanies exploration of the Pin Valley National Park or embark on wildlife safaris. Respect the boundaries, however, and other responsible wildlife viewing practices can elevate your experience while ensuring sustainable eco-tourism.</p>\r\n<p><strong>5. Fossil hunting:</strong> It's also possible to uncover Spiti's prehistoric past while searching for marine fossils in its villages, such as Langza. These remains of millions of years ago betray an ancient oceanic heritage of the valley. Join guided walks in fossil hunting or indulge on your own, but always respect local regulations and leave larger specimens in place.</p>\r\n<p><strong>6. Photography:</strong> Capture the stark beauty of Spiti through your lens. Frame ancient monasteries against rugged mountains, document traditional Spitian life and shoot the valley's light, ever-changing. From sweeping landscapes to intimate portraits, Spiti's photographic opportunities are endless. Remember to get permission before photographing people.</p>\r\n<p><strong>7. Meditation and Yoga:</strong> Let your body and mind be one with the tranquil high-altitude ambiance of Spiti. Meditate at the monasteries or anywhere amidst nature. Many guesthouse hosts offer yoga classes against sensational backgrounds. The overall peaceful atmosphere of the valley is perfect for the rejuvenation of the spirit and body.</p>\r\n<p><strong>8. Attend local festivals:</strong> Be a part of the socio-cultural festivities in Spiti with a festive hue splashed with colorful local festivals. Masked dances, traditional music, and vibrant costumes are the order of the day in events like the Ladarcha Fair or Gue-Stupa inauguration. Such festivals bring out a slice of rich Buddhist heritage and community bonding in Spiti.</p>\r\n<p><strong>9. Try Local Cuisine:</strong> Try local delicacies, which include dishes like thukpa, momos, and sea buckthorn juice. Don't miss tasting salted butter tea, which is very regional. Try small, local, village restaurants or have a home-cooked meal to taste the region's cuisine.</p>\r\n<p><strong>10. Study Tibetan Buddhism:</strong> Go through the spirituality of Spiti, start from the Tibetan Buddhism course. Attend morning prayer sessions at monasteries, interact with monks, and observe how sand mandalas are created. Many of these monasteries offer short courses or talks on Buddhist philosophy and meditation techniques for interested visitors.</p>\r\n\r\n<h3>How to Reach Spiti Valley</h3>\r\n<p>To reach Spiti Valley from Sarahan Via Chitkul, Start from Sarahan and head towards Sangla Valley. Continue to Chitkul, India's last inhabited village before the Tibet border. After exploring Chitkul, backtrack to Sangla and proceed to Reckong Peo. From there, follow the Hindustan-Tibet Road through Kalpa, Nako, and Tabo, finally reaching Kaza in Spiti Valley. This scenic detour adds about 100 km to your journey, offering views of the Kinnaur Valley and Baspa River. The entire trip covers roughly 440 km and takes 2-3 days, depending on stops and road conditions.</p>\r\n\r\n\r\n<h3>Best Time to Visit Spiti Valley</h3>\r\n<p><strong>Summer (June to September):</strong> This is the best time to visit. The temperature ranges from 15°C to 25°C, hence suitable for wandering. All passes are open and easily accessible. It is the best season for trekking, camping, and sightseeing. However, it gets crowded along with increased rates of accommodations.</p>\r\n<p><strong>Monsoon (July - August):</strong> Spiti, being in the rain shadow area, receives significantly little rainfall. The rest of Himachal witnesses heavy rains, though it remains comparatively dry here. Some areas may face landslides; hence, check out road conditions. The landscape turns lush green during this time.</p>\r\n<p><strong>Autumn (October to November):</strong> Great times for photography enthusiasts with cool and crisp weather; the temperature stays between 5°C-15°C. The changing colors of the landscape present some fantastic visuals. A crowd of tourists thins out and offers a more serene experience.</p>\r\n<p><strong>Winter (December to February):</strong> For adventure seekers and snow lovers, this is the time when temperatures drop below freezing often to -20°C or lower. Many pass close. Therefore limited access exists. The landscape assumes a stark, snow-covered beauty. This also happens to be the best time for spotting snow leopards.</p>\r\n<p><strong>Spring (March to May):</strong> It is the period when snow starts melting, and severe life goes to the valley. The temperature ranges at times from 0°C to 15°C. This is an excellent time for bird watching and first-hand experience with flora returning to life. Some passes may remain shut in early spring, so accessibility must be checked.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Sarahan & Bhimakali Temple",
+        "description": "<ul>\r\n    <li>Pickup from Chandigarh, we will drive towards Sarahan.</li>\r\n    <li>After arriving in Sarahan, check in to our cozy homestay/hotel, freshen-up and have some leisure.</li>\r\n    <li>Quickly, we will head out to seek blessings at the sacred Bhimakali Temple - the local deity of Sarahan village. Feel free to take a stroll around this sleepy village also known as ‘Gateway to Kinnaur’.</li>\r\n    <li>In the evening, return back to your comfy abode, savour home-style cooked dinner and overnight stay in a homestay/hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive From Sarahan To India’s Last Village | Rakcham/Chitkul Arrival",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, we will drive ahead from Sarahan to reach the Rakcham/Chitkul - the last Indian village before the Indo-Tibetan border.</li>\r\n    <li>After arriving in Chitkul, take a stroll around the village and visit Mathi Temple dedicated to the Goddess of the local people of Kinnaur. Treat your stomach with a satisfying plate of steamy momos or rajma chawal at ‘Hindustan Ka Akhri Dhaba’. What can be more magical than relaxing near the pristine Baspa River? A perfect location in the lap of majestic Himalayas to disconnect from the urban madness and connect with nature.</li>\r\n    <li>Post exploration, check in to our cozy campsite/hotel, freshen-up and have some leisure.</li>\r\n    <li>Savour home-style cooked dinner and overnight stay in a campsite/hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive From Chitkul To Kalpa | The Kinnaur Kailash Views",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, we will head out to take a stroll around the Chitkul village.</li>\r\n    <li>Visit Mathi Temple dedicated to the Goddess of local people of Kinnaur and treat your stomach with a satisfying plate of steamy momos or rajma chawal at ‘Hindustan Ka Akhri Dhaba’.</li>\r\n    <li>Drive towards Kalpa, check in to our cozy hotel and have some leisure. Witness the magical sunset as the golden light falls on the mighty Kinnaur Kailash range. Visit the famous Roghi (suicide-point) and if time permits take a stroll in the beautiful Kalpa village.</li>\r\n    <li>In the evening chill with your travel clan, savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 4,
+        "title": "A Day On Road | Kalpa | Khab Sangam | Nako Arrival",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, drive from Kalpa to Nako village. Get mesmerized by the shape-shifting landscapes of mountains with every turn.</li>\r\n    <li>Enroute we will take a halt at Khab Sangam, visit the famous Nako Lake and monastery.</li>\r\n    <li>After arriving in Nako village, check in to our comfy hotel/homestay and have some leisure. Savour home-style cooked dinner and overnight stay in a hotel/homestay.</li>\r\n</ul>"
+      },
+      {
+        "day": 5,
+        "title": "Nako to Tabo | Tabo Arrival",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, drive from Nako to Tabo village.</li>\r\n    <li>visit the famous Gue village to see from your naked eyes the 500-year-old mummified remains of the Buddhist monk Sangha Tenzin.</li>\r\n    <li>After arriving in Tabo village, check in to our comfy hotel/homestay and have some leisure.</li>\r\n    <li>visit the famou Tabo Monastery. Take a walk inside the old monastery and learn about the history.</li>\r\n    <li>Savour home-style cooked dinner and overnight stay in a hotel/homestay.</li>\r\n</ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive From Tabo To Kaza | Dhankar & Pin Valley | Kaza Arrival",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, check-out from our hotel/homestay.</li>\r\n    <li>Drive from Tabo to Dhankar Village and meditate in the cliff top Dhankar Monastery.</li>\r\n    <li>Before arriving at our homely abode in Kaza we will drive along the Pin river towards one of the less explored regions and the only green national park in Spiti i.e Pin Valley.</li>\r\n    <li>After arriving in Kaza, check in to our cozy hotel, freshen-up and have some leisure.</li>\r\n    <li>The ones with high energy levels, feel free to take a stroll around Kaza and old bazaars. Savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 7,
+        "title": "Exploring Langza, Komic & Hikkim Villages | Kaza - Cafes, Bazaars & More",
+        "description": "<ul>\r\n    <li>Post breakfast, quickly head out for an action packed exploration of various quaint villages nestled in and around Kaza.</li>\r\n    <li>Visit Spiti’s gorgeous fossil village Langza and get clicked with the iconic statue of Medicine Buddha with your clan. Feel proud for making it to the World’s highest motorable village Komic and absorb in the jaw dropping vistas of snow-laden Himalayas. The day will come to an end at Hikkim village known for its World’s highest post office.</li>\r\n    <li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 8,
+        "title": "Key Monastery | Kibber Village & Chicham Bridge",
+        "description": "<ul>\r\n    <li>Post breakfast, drive towards Key Monastery. Spend quality time speaking to the monks or sip a cup of herbal tea in Key Monastery’s kitchen.</li>\r\n    <li>Explore the Kibber village and take some #InstaPerfect shots at Chicham Bridge - Asia’s highest suspension bridge connecting the peaceful Kibber village.</li>\r\n    <li>Since this is your last night in Kaza, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 9,
+        "title": "Kaza to Chandratal Lake",
+        "description": "<ul>\r\n    <li>Post breakfast, bid adieu to your hosts in Kaza and drive towards Chandratal.</li>\r\n    <li>Enroute Chandratal, we will take a pit stop at Losar to grab a satisfying lunch and continue towards Kunzum La situated at 15,000ft approx.</li>\r\n    <li>After arriving at Chandratal, check in to our scenic campsite and experience the calmness of the Moon Lake. In the evening chill with your travel clan under the gaze of million stars and savour home-style cooked dinner and overnight stay in swiss camps.</li>\r\n</ul>"
+      },
+      {
+        "day": 10,
+        "title": "Drive From Chandratal To Manali | Manali #MeTime",
+        "description": "<ul>\r\n    <li>Wake up quite early in the morning and post breakfast drive towards Manali from Chandratal via Kunzum La.</li>\r\n    <li>Enroute Manali, we will take a pit stop for morning tea at the famous Chacha-Chachi Ka Dhaba or Chhatru.</li>\r\n    <li>After arriving in Manali, check in to our comfy hotel and have some leisure.</li>\r\n    <li>Feel free to take a stroll around Old Manali cafes or The Mall Road by yourself.</li>\r\n    <li>Savour home-style cooked dinner and overnight stay in a hotel</li>\r\n</ul>"
+      },
+      {
+        "day": 11,
+        "title": "Manali to Chandigarh",
+        "description": "<ul>\r\n    <li>Wake up to the relaxed morning and post breakfast, check-out from our hotel.</li>\r\n    <li>Begin your drive to Chandigarh.</li>\r\n    <li>Drop at Chandigarh by evening with lots of unforgettable memories.</li>\r\n</ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: from Chandigarh to Chandigarh by Force Traveler/Cab.",
+      "10 Nights Accommodation in Hotel/Homestay/campsite.",
+      "20 Meals (Breakfast & Dinner at the time of stay)",
+      "Cool Trip Captain.",
+      "Oxygen Cylinder to handle medical issues.",
+      "Driver allowances, toll taxes, parking, state taxes and permits."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'spiti-valley-explorer-edition',
-    title: 'Spiti Valley Explorer Edition',
-    destination: 'Spiti',
-    duration: '11 Days 10 Nights',
-    price: '₹35000',
-    originalPrice: '₹38000',
-    discount: '₹3,000',
-    imageUrl: '/cloned_media/17027820240211112306.png',
-    overview: 'An 11-day explorer edition to Spiti, allowing for a more relaxed pace and visits to remote villages.',
-    itinerary: createItinerary('11 Days 10 Nights'),
-    inclusions: ['Homestay/Guesthouse', 'Transfers', 'Inner Line Permits'],
-    exclusions: ['Meals', 'Entry Fees'],
+    "slug": "spiti-valley-biking-edition",
+    "title": "Spiti Valley - Biking Edition",
+    "destination": "Spiti",
+    "duration": "8 Days 7 Nights",
+    "price": "₹30000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/1420620250217154705.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18009020230321103012.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1033820250217154704.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26657720250217154704.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31902920250217154705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38702920250217154705.png"
+    ],
+    "overview": "<p>Surrounded on all sides by the Himalayan ranges, we have an attractive off-road destination for bikers on the mainland of Asia—the Spiti Valley. Imagine training right through the winding trails and winding passes, the sound of your bike echoing through the towering peaks. With every turn, another breathtaking vista unfolds: we offer our travelers a well curated bike trip package of their dream location.</p>\r\n\r\n<p>Spiti Valley is a place to remind yourself of the existence of monasteries that remained untouched since earliest ages and warm hearted people. Get ready to tie-down your ride and commence the journey on the roads of this fabulous Spiti Valley that you will never forget.</p>\r\n\r\n<h2 style=\"font-size:25px !important;\">About Spiti Valley Bike Trip</h2>\r\n\r\n<p>Spiti Valley Bike Trip is one of the best places where cycling enthusiasts can enjoy their adventure. Check out the <a href=\"/trips/spiti-valley-biking-edition\" style=\"color:blue;\">Spiti Valley Bike Tour Packages</a> offered by Go4Explore and experience the thrill of the countryside, the dangers of challenging roads, the thrill of crossing the famous Northeast Himalayas and once you are done you will be delighted with the beautiful and beautiful view of Spiti Valley. Every biker's dream trip!</p>\r\n<p>Let the cool breeze blow on you as you speed past the pristine blue lake flowing through the gentle desert mountains, let the ivory river fill the sky and the clouds you name each mountain pass. Happy Pause to admire the vibrant flowers and green hills, or soak in the rushing waterfalls on an enchanting <b>bike ride to Spiti Valley</b>. Immerse yourself in the charm of Spiti with our carefully selected <a href=\"/trip/spiti-valley-tour-packages\" style=\"color:blue;\">Spiti Valley tour packages</a> that guarantee you an enriching and unforgettable trip.</p>\r\n\r\n<h3>Best time to visit Spiti Valley on Bike</h3><p>The best time to visit Spiti Valley by bike always depends on your taste, preferences, riding style and willingness for the challenge.</p>\r\n<p><b>From September to October:</b> The best time to visit Spiti Valley by bike is from September to October, thanks to the good climate, lack of snow, clear skies, access to mountain passes and beautiful views.</p>\r\n\r\n<p><b>Summer in Spiti Valley:</b> Summer in Spiti is the safest and safest time to visit Spiti Valley by bike. In summer the weather is less severe and most of the roads and mountains pass through it, paving the way more smoothly and unobstructed.</p>\r\n<p><b>From May to June:</b> Spiti may still be covered in snow, so you may experience the difficulties of crossing rivers and some mountain passes due to snow melt, as it is beautiful. Going to Spiti in summer by bike is a must!</p>\r\n<p><b>From July to August:</b> Be prepared for occasional rains in Spiti, which can be beneficial if green areas are your thing. cycling experience.</p>\r\n\r\n<p><b>Winter in Spiti Valley:</b> The month from November to early April is only advisable if you are an experienced biker seeking a challenging and unique adventure. The winter season of Spiti Valley, especially from November to March, has extremely low temperatures, heavy snowfall, bad weather conditions, many inaccessible mountain passes and roads, and limited options for accommodation and other services. Some areas might require permits for access. Hence, it is advisable to travel with Go4Explore’s Spiti Bike Trip Experts to make the most of your <a href=\"/trips/winter-spiti\" style=\"color:blue;\">Spiti Valley Trip in winter</a>, as Winter in Spiti is still an enthralling winter wonderland that an adventure lover should experience!</p>\r\n\r\n<h2 style=\"font-size:25px !important;\">Best Route for Spiti Valley Bike Trip</h2>\r\n<p><b>Understanding the route</b></p>\r\n<p>Before embarking on a Spiti Valley bike tour, it is important to understand the route and plan your itinerary accordingly. The route can be divided into two parts: Manali to Kaza section and Kaza to Shimla section. The Manali to Kaza section is approximately 200 kilometers long and takes you through the famous Rohtang Pass. The Kaza to Shimla stretch spans approximately 400 kilometers, showcasing breathtaking views of the Spiti River, high mountain passes, and remote villages.</p>\r\n<h3>Bike Route from Manali to Kaza</h3>\r\n<p><b>Manali to Rohtang Pass/Atal Tunnel:</b> Start your journey from Manali and head towards Rohtang Pass/Atal Tunnel, traversing scenic landscapes and breathtaking views.</p>\r\n<p><b>Rohtang Pass/Atal Tunel to Gramphu:</b> From Rohtang Pass/Atal Tunnel descend towards Gramphu which is a small village in Lahaul valley.</p>\r\n<p><b>Gramphu to Chhatru:</b> Drive through rough roads from Gramphu to Chhatru where you can take a short break and soak up the beauty of the surroundings.</p>\r\n<p><b>Chhatru to Batal:</b> The journey from Chhatru to Batal is adventurous, with steep climbs and sharp turns aplenty.</p>\r\n<p><b>Batal to Kunzum Pass:</b> Enjoy a scenic drive from Batal to Kunzum Pass, which is one of the highest mountain passes in India.</p>\r\n<p><b>Kunzum Pass to Losar:</b> This stretch offers a scenic journey through the charming villages of the Spiti Valley.Losar to Kaza: The last leg of the Manali to Kaza route takes you from Losar to Kaza, the capital of the Spiti Valley.</p>\r\n\r\n<h3>Bike Route from Shimla to Kaza</h3>\r\n<p><b>Sarahan to Shimla:</b> Shimla route takes you from Shimla to Sarahan, the Gateway to Kinnaur district and home to the famous Bhimakali Temple.</p>\r\n<p><b>Sarahan to Kalpa:</b> Take a scenic drive from Sarahan to Kalpa, offering the best views of Kinnaur Kailash.</p>\r\n<p><b>Kalpa to Nako:</b> From Kalpa proceed towards Nako, a picturesque village on the lake shore.</p>\r\n<p><b>Nako to Tabo:</b> Ride from Nako towards Tabo and enter Spiti Valley.</p>\r\n<p><b>Tabo to Kaza:</b> The last leg of the journey takes you from Tabo to Kaza.</p>\r\n<p>Another favorite route of bikers is to go to Spiti via Kinnaur via Shimla, the capital of Himachal Pradesh. The journey from Delhi to Shimla is around 350 km and is generally easier than reaching Manali. This journey will take you to NH-22 (Hindustan-Tibet Highway).</p>\r\n<p>When traveling to Spiti by bike, please note that you will need a travel permit for some areas. It is advisable to plan your Spiti Biking trip in advance according to Spiti season, weather and route.</p>\r\n\r\n<h3>Places to visit in Spiti Valley by Bike</h3>\r\n<p><b>Tabo Monastery:</b> On your way to Spiti you will find the oldest and most famous monastery built in 996 AD, its interior is decorated with beautiful paintings. The church was built like a castle with walls 3 meters high and this is the main reason why it has survived for hundreds of years.</p>\r\n<p><b>Dhankar Monastery:</b> An important site of Buddhism, famous for the Vairocana statue showing four statues of the Buddha in meditation. The architecture and paintings of the monastery will fascinate you. This temple is located between Kaza and Thabo at an altitude of 12,700 feet. This Gompa is a 300 meters high structure overlooking the Spiti and Pin rivers.</p>\r\n<p><b>Chandratal Lake:</b> Sit by the stone banks of the ethereal Chandratal Lake which is molded like a Bow moon, and genuine to its title, an unmatched excellence. Be a tease with the pleasant mountains and lose yourself within the endless skies, as you set up a camping tent within the peaceful climate of the Chandratal Lake.</p>\r\n<p><b>Komic:</b> There can be nothing more energizing for a biker to ride through the World’s most elevated motorable town which is found in Spiti, and rests at 18,000 feet over ocean level. Appreciate the foremost unpredictable supper at the highest cafe within the World, while appreciating the shocking magnificence of Spiti from a thrillingly tall- elevation point.</p>\r\n<p><b>Hikkim:</b> When you bike through the stunning scenes of the tall height of Hikkim, to reach the highest post office within the world, don't forget to sending your loved ones a postcard gloating around your fun biking adventures, and where the postcard is coming from!</p>\r\n\r\n<p><b>Gue:</b> You cannot take a bike trip to Spiti, and not visit the foremost interesting Mummy village which holds the tomb of the 600-year-old mummified monk.</p>\r\n<p><b>Langza:</b> Motor through the celebrated Fossil Town, and release your hands to drag the foremost captivating fossils out of your clench hands to require back domestic Fossil trinkets as your Biking in Spiti memories. Pay a visit to the generous Medicine Buddha statue that neglects the lovely, beautiful Spiti Valley, and could be a radiant work of craftsmanship in itself.</p>\r\n\r\n<h3>Things to carry while travelling for a Spiti Valley on Bike</h3>\r\n<ul>  \r\n  <li><b>Warm Clothes:</b> Spiti Valley has a cool temperature throughout the year, so bring a warm jacket, thermals, gloves and woolen socks.</li>  \r\n  <li><b>Rib Equipment:</b> Invest in good riding gear, including helmets, knee and elbow pads, riding boots, durable gloves, etc.</li>  \r\n  <li><b>First Aid Supplies:</b> Be sure to bring first aid supplies with you, including band-aids, antibiotics, and any medications.</li>  \r\n  <li><b>Water &amp; Snacks:</b> Bring enough water bottles to stay hydrated throughout your trip. Bring energy bars, nuts, and other snacks to keep you energized.</li>  \r\n  <li><b>Bike Accessories/Tools:</b> When you join the Spiti Bike Tour, you must have all the necessary tools to repair your bike in case it gets damaged anywhere.</li>  \r\n  <li><b>Spare Tires:</b> If one of our bike's tires punctures or something happens, we need to have a spare tire so we can replace it and continue on our way.</li>  \r\n  <li><b>Photography Equipment:</b> Our eyes are the best cameras in the world, but if you want to see everything you have accomplished in life, you can take your photography equipment with you.</li>  \r\n  <li><b>Take Diamox:</b> reduce the chances of AMS (Altitude Sickness).</li>  \r\n  <li><b>Pro-Max Tip:</b> Between the Reckong people and Kaza, there is no petrol station. Fill it up there and keep extra gasoline or fuel in the bike. Don't worry if you didn't obtain it; you'll be able to get it from a local shop for a small fee. Locate one and obtain the oil.</li>  \r\n  <li><b>Power Bank:</b> It is recommended that you always carry a portable charger on your trip. Make sure you plan backup, especially in a restricted area like Spiti.</li>  \r\n  <li><b>Navigation Equipment:</b> Such as Compasses, GPS devices and satellite devices in remote areas.</li>\r\n</ul>\r\n\r\n<p>Explore our Spiti Valley travel packages offered by different Indian cities: <a href=\"/trips/spiti-valley-manali-edition\" style=\"color:blue;\">Spiti Valley trip with Manali</a>, <a href=\"/trips/winter-spiti\" style=\"color:blue;\">Winter Spiti Valley Trip</a>, <a href=\"/trips/spiti-valley-circuit-trip-from-chandigarh\" style=\"color:blue;\">Spiti Valley Trip From Chandigarh</a>, <a href=\"/trips/manali-leh-backpacking-bike-trip\" style=\"color:blue;\">Manali Leh Backpacking Bike Trip</a></p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Jibhi | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla/Kashmere Gate Bus Stand and meet your Trip Captain. </li><li>Start an overnight journey to Jibhi and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Jibhi Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>The travelers who opted for the Tempo Traveller option, will get off at Aut Tunnel and head towards Jibhi directly.</li><li>The travelers who opted for a Bike Trip will head down to Manali to collect their respective bikes, followed by a test run. After which, they will also head to Jibhi as well.</li><li>After arriving in Jibhi, check-in to our scenic campsite/homestay, freshen-up and have some leisure. Feel free to go out and self-explore, visit the beautiful Jibhi waterfall and soak in the soothing surroundings of the place.</li><li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Ride from Jibhi to Chitkul | Sangla Valley Diaries",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, drive from Jibhi to Chitkul village via Jalori Pass situated at 10,800 feet. </li><li>After arriving in Sangla Valley, soak in the stunning surroundings.</li><li>Check in to our scenic campsite/hometstay in Rakcham/Chitkul, freshen-up and have some leisure. What can be more magical than relaxing near the pristine Baspa River? A perfect location in the lap of majestic Himalayas to disconnect from the urban madness and connect with nature.</li><li>In the evening, chill with your travel clan, savour home-style cooked dinner and overnight stay in swiss-camps/homestay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Ride from Chitkul to Kalpa | Explore Kalpa",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, we will head out to take a stroll around the Chitkul - last Indian village before the Indo-Tibetan border.</li><li>Visit Mathi Temple dedicated to the Goddess of local people of Kinnaur and take a soothing sip of tea or get yourself clicked at ‘Hindustan Ka Akhri Dhaba’.</li><li>Drive towards Kalpa, check in to our cozy hotel and have some leisure. Witness the magical sunset as the golden light falls on the mighty Kinnaur Kailash range. Visit the famous Roghi (suicide-point) and if time permits take a stroll in the beautiful Kalpa village.</li><li>In the evening chill with your travel clan, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Ride from Kalpa to Tabo via Khab Sangam, Nako & Gue",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, drive from Kalpa to Tabo village - home to the oldest Buddhist monastery located in Spiti Valley. Get mesmerized by the shape-shifting landscapes of mountains with every turn.</li><li>Enroute we will take a halt at Khab Sangam, visit the famous Nako Lake and monastery and Gue village to see from your naked eyes the 500-year-old mummified remains of the Buddhist monk Sangha Tenzin.</li><li>After arriving in Tabo village, check in to our comfy hotel/homestay and have some leisure. Savour home-style cooked dinner and overnight stay in a hotel/homestay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Ride from Tabo to Kaza via Dhankar & Pin Valley",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from our hotel/homestay and visit Tabo Monastery. Take a walk inside the old monastery and learn about the history. Go for the famous Tabo caves (if time permits).</li><li>Drive from Tabo to Dhankar Village and meditate in the cliff top Dhankar Monastery. </li><li>Before arriving at our homely abode in Kaza we will drive along the Pin river towards one of the less explored regions and the only green national park in Spiti i.e. Pin Valley (if time permits).</li><li>After arriving in Kaza, check in to our cozy hotel, freshen-up and have some leisure.</li><li>The ones with high energy levels, feel free to take a stroll around Kaza and old bazaars. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Exploring Langza, Komic & Hikkim | Kaza Cafe Hopping",
+        "description": "<ul><li>Post breakfast, quickly head out for an action packed exploration of various quaint villages nestled in and around Kaza. </li><li>Visit Spiti’s gorgeous fossil village Langza and get clicked with the iconic statue of Medicine Buddha with your clan. Feel proud for making it to the World’s highest motorable village Komic and absorb in the jaw dropping vistas of snow-laden Himalayas. The day will come to an end at Hikkim village known for its World’s highest post office.</li><li>Since this is your last night in Kaza, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Key Monastery, Chicham & Kunzum | Chandratal Arrival",
+        "description": "<ul><li>Post breakfast, bid adieu to your hosts in Kaza and drive towards Key Monastery. Spend quality time speaking to the monks or sip a cup of herbal tea in Key Monastery’s kitchen.</li><li>Explore the Kibber village and take some #InstaPerfect shots at Chicham Bridge - Asia’s highest suspension bridge connecting the peaceful Kibber village.</li><li>Enroute Chandratal, we will take a pit stop at Losar to grab a satisfying lunch and continue towards Kunzum La situated at 15,000ft approx. </li><li>After arriving at Chandratal, check in to our scenic campsite and experience the calmness of the Moon Lake. In the evening chill with your travel clan under the gaze of million stars and savour home-style cooked dinner and overnight stay in swiss camps.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Ride from Chandratal to Manali | Depart For Delhi",
+        "description": "<ul><li>Wake up quite early in the morning and post breakfast drive towards Manali from Chandratal. Enroute Manali, we will take a pit stop for morning tea at the famous Chacha-Chachi Ka Dhaba or Chhatru.</li><li>Traverse from barren landscapes of Lahaul & Spiti to lush green vistas of Kullu Valley via Atal Tunnel.</li><li>After arriving in Manali, feel free to take a stroll around Old Manali cafes or The Mall Road (if time permits) by yourself and start-off your return journey to Delhi in the evening.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Delhi to Manali & back) and Force Traveler/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support & mechanic will be included. Bikes will be provided from Manali to Manali. Riding gears like knee guard, elbow guard and helmet will be provided. Bikers will test drive their respective bike from Manali to Jibhi/Gushaini.",
+      "7 Nights Accommodation on Sharing Basis: Hotel/Homestays (Jibhi, Kalpa, Tabo & Kaza), Swiss Camps (Rakcham/Chitkul & Chandratal).",
+      "13 Meals: Jibhi (Dinner), Rakcham/Chitkul (Breakfast+Dinner), Kalpa (Breakfast+Dinner), Tabo (Breakfast+Dinner), Kaza (2 Dinners+2 Breakfasts), Chandratal (Breakfast+Dinner), starting from Dinner on Day 1 & Day 2 to Breakfast on Day 8.",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "All local explorations as per itinerary.",
+      "Driver allowances, toll taxes, parking, state taxes and permits.",
+      "Oxygen cylinder and medical kit to handle extreme health problems."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'spiti-valley-biking-edition',
-    title: 'Spiti Valley - Biking Edition',
-    destination: 'Spiti',
-    duration: '8 Days 7 Nights',
-    price: '₹30000',
-    imageUrl: '/cloned_media/1420620250217154705.png',
-    overview: 'An 8-day biking adventure through the Spiti Valley circuit, designed for motorcycle enthusiasts.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Bike Rental', 'Fuel', 'Homestay/Guesthouse', 'Mechanic Support'],
-    exclusions: ['Personal Riding Gear', 'Meals', 'Entry Fees'],
+    "slug": "all-girls-spiti-valley-trip",
+    "title": "All Girls Spiti Valley Trip",
+    "destination": "Spiti",
+    "duration": "9 Days 8 Nights",
+    "price": "₹29999",
+    "originalPrice": "₹34999",
+    "discount": "₹5,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/786720240210060450.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32635920240210060449.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24633420240210060450.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2664520240210060450.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25709720240210060450.png"
+    ],
+    "overview": "<h2>About All Girls Spiti Valley Trip</h2><p>Imagine the pure wantonness of wilderness melds with the concept of adventure, the travel becomes more poignant and provoking the heart to explore. Our exclusive Spiti Valley Trip Package is a girl’s trip adventure that is spectacularly planned for the young hearts to discover the unexplored beauty of this restricted paradise which will make everlasting bond of ‘Sisterhood’ among you. Get ready for a trip that will take more than just your eyes would usually guide you through – an Iron Fey-inspired adventure that will be as life changing as it is breathtaking.</p><p>Lying in the union territory of Himachal Pradesh, Spiti valley promises to be an eternal land of tradition and progressive views. Here is the schedule of sightseeing which was designed to give you an exhilarating experience of the bewitching beauty of the country, a sight of which will seem to be at every turn. From the living fortress that is Key Monastery sitting on a hillock overlooking its world, to the moon like Chandratal Lake, every place is a creation of the great sculptor-mother nature.</p><p>However, our journey should not merely be about checking off what we have seen; the goal is to create an encounter that breaks geographical boundaries. Let your hearts be saturated in the colors of intercultural interaction as we meet the population, listen to their stories, and get familiar with their traditions where personality and culture harmoniously intertwine to create unforgettable impressions. The amazingly hospitable people of Spiti always welcome an extra hand in the preparation of their heritage dishes and traditional festivals or any other activity that can make the most of every single moment in this unique region.</p><p>As a group of all girls it was something that embraces the feeling that comes with invincibility that comes with such trips. If friends are like the ones found in the series one is able to find strength in facing the odds in order to overcome challenges and realize breathtaking discovery of the independent woman in one or other, not mentioning the encouraging factor of having close friendships which is found in having so much in common. Every time we decide to take a bold step and do a daring trek in the mountains, or pitch a tent and sleep in a starry night, we are celebrating an unheard of strength of women.</p><p>Therefore, assemble the traveling companions and get ready to move your heart for an incredible journey full of passion that symbolizes travel and fondness for the great world out there. Come, listen to the beat of the trek, come be a part of this <b>all-girls Spiti Valley trip</b> for memories that will last a lifetime, for friendship that cannot be explained, and for an adventure that cannot be tamed!</p>\r\n\r\n<h3>Best Places to Visit in All Girls Spiti Valley Trip</h3><ul><li><strong>Key Monastery:</strong> Founded on the hills at a height of 4,166 meters, Key Monastery is one of the oldest and most popular Buddhist Monasteries in Spiti Valley. Even its general view is perfect for photographers as it sits amidst mountainous terrains without vegetation and affords a panoramic view of the Spiti river.</li><li><strong>Chandratal Lake:</strong> Chandratal is also popular by the name of ‘Moon lake,’ which is a high altitude lake perched at a height of 4300 meters. Another spectacular feature is its blue-green shores that are flanked by snow-covered hills which gives it an out-of-this-world feel.</li><li><strong>Tabo Monastery:</strong> Located in Spiti Valley, Himachal Pradesh, Tabo Monastery was constructed in 996 AD to commemorate the visit of the second Karmapa Karma Pakshi; it has been dubbed the ‘Ajanta of the Himalayas’ due to its structure, the quality of works of art that are featured here, with red mud-brick structure and more importantly well-preserved frescoes and sculptures. The place is a UNESCO list as a world heritage site and ideal for tourism, especially by history and architecture lovers.</li><li><strong>Dhankar Monastery:</strong> Sitting in a vertiginous altitude of 3,894m, Dhankar Monastery is clearly affiliated with the Buddhist religion and showcases a beautiful view over the Spiti valley and the convergence of Spiti and Pin rivers. They attach great importance to their centuries old gompa, monasteries, and the nearby ancient fort which is a treat to the architects’ eye.</li><li><strong>Kunzum Pass:</strong> Kunzum Pass which is also called Kunzum La is one of the highest motorable passes in the Himalayan range at an altitude of 4,551 meters. It provides magnificent landscapes of high mountains, glaciers and Tierra Fria, thus being an excellent place for those in the photographic and adventure fields.</li><li><strong>Kibber Village:</strong> Kibber is one of the top most inhabited villages that resides in the heart of the towering peaks at an altitude of 4,270 meters. One gets a chance to encounter the besetting characteristic nature of the area’s traditions of living.</li><li><strong>Pin Valley National Park:</strong> This beautiful stretch of land is a natural preserve that offers various plant and animal species especially the snow leopard. It provided the possibilities for trekking, observing wildlife and experiencing a close up outlet to the untouched great Himalayas.</li><li><strong>Komic Monastery:</strong> Located in a small isolated community Komic Monastery boasts of elaborate mud brick reliefs as well as dazzling and colorful murals. It gives information on the Buddhist culture and arts in the region and how they have evolved over time.</li><li><strong>Shimla:</strong> Shimla– the capital city of the global state of Himachal Pradesh, is a famous hill station set in the Shivalik region. Delight in unpacking colonial structures, colorful mall road, and breathtaking mountain views or feature shopping in this amazing city embrace the crisp mountain air, good food, vibrant culture and everything that makes Shimla the most popular hill station.</li><li><strong>Sangla Valley:</strong> Defined as the ‘heaven for nature lovers,’ <a href=\"https://en.wikipedia.org/wiki/Sangla,_India\" style=\"color:blue;\" target=\"_blank\" rel=\"noopener noreferrer\">Sangla Valley</a> is a picturesque valley situated in the Kinnaur district renowned for the scenic beauty of apples, the Baspa River, and more. Discover quaint towns, explore the stunning beauty of the natural surroundings, and perhaps lose sight of the fact that there is a world beyond those landscapes.</li><li><strong>Chitkul:</strong> Chitkul is a small village situated in Sangla valley and here a major part of houses are constructed with wood having majestic natural view of mountains. Understand and enjoy the traditional enchants of the local, and embrace the rustic, satisfying lifestyle proper to a remote nest nestled in the Himalayas.</li><li><strong>Kalpa:</strong> Kalpa is another fascinating village that is located on magnificent hills, and the traditional houses are more like wooden structures since the view of the valleys and surrounding hills is so magnificent. It is recommended to wander around the picturesque narrow streets, have friendly encounters with the locals, and capture the peaceful atmosphere that pervades this beautiful location.</li><li><strong>Khab Sangam:</strong> See how the Spiti and Sutlej rivers join making the Khab Sangam- an awe-inspiring view that is sure to leave one breathless. Boy: That is the greatness of the nature! Be impressed by its might and contemplate the incredible view.</li><li><strong>Nako Lake:</strong> The Nako Lake is another tourist attraction site with high-altitude lake scenery that is complemented by snow capped mountains and fluttering prayer flags. Bask in the tranquility, take great shots, and touch the spiritual connection that is found in this special place for worship.</li><li><strong>Kaza:</strong> The biggest town of Spiti Valley is Kaza which can be well used for discovering the gorgeous nature and exciting cultural sights. Enjoy the delicious meals and traditions of the people of this colorful town and also a good point to start exploring the scenery.</li><li><strong>Manali:</strong> Manali, a popular hill station, is known for its stunning landscapes, adventure activities, and vibrant culture. Explore charming villages, ancient temples, and embrace the thrill of outdoor pursuits amidst the majestic Himalayas.</li><li><strong>Atal Tunnel:</strong> The Atal Tunnel, one of the world's highest motorable tunnels, connects Manali to the Lahaul and Spiti valleys, revolutionizing travel in the region. Marvel at this engineering marvel as you traverse through the heart of the mighty Himalayas.</li></ul><h3>Top Things to do in All Girls Spiti Trip</h3><ul><li><strong>Explore Ancient Monasteries:</strong> Exploring the stunning Key Monastery, the sacred Tabo Monastery, a UNESCO Site, and the adventurous Dhankar Monastery built on a cliff. Buddhist Art and Culture; take your time to explore the interesting art the monasteries and stupas have to offer, the exquisite arts works on the walls of monasteries, the wooden carving, painted frescoes.</li><li><strong>Visit Remote Villages:</strong> Check out the small villages, such as Kibber or Langza, or drive up to the villages of Komic and Lavior to get to know more about the life of Spiti and its people. Indeed, meet friendly people, to talk to them and see how they live, what traditions they have preserved until now.</li><li><strong>Camping under the Stars:</strong> Due to the vast span of clear blue skies and pure environment of the Spiti Valley, camping is a perfect activity one can opt for. camping is either near lakes like Chandratal or Suraj tal and that night you are going to spend gazing at stars in the Himalayas.</li><li><strong>Photography Excursions:</strong> The Spiti Valley is an area full of astonishing vistas, monasteries that date back to a couple of centuries, and peppy local people, which makes it photographers’ dream destination. It may include the desert type of terrains, mountain types with snow-like features, and the typical dug out villages and valleys.</li><li><strong>Attend Local Festivals:</strong> Another way by which one can be able to enjoy the flora and fauna is by being part of cultural events such as the Ladarcha Fair or the Tserap Festival. Many tourists are very lucky to see colorful events, style dances and moreover realize the Peru people’s hospitality.</li><li><strong>Wildlife Spotting:</strong> This valley is also blessed with a rich and vibrant wildlife and biodiversity over a wide variety of species such as snow leopard which is very rarely sighted. Consider hiking to the Pin Valley National Park or observing various animals on the habitats of the northern Himalayas on the wildlife safari.</li><li><strong>Adventure Activities:</strong> Choose from options such as Rafting over the river, Mountain biking, Rock climbing amidst breathtaking sceneries of Spiti Valley. Push your boundaries and/or embark on the most unforgettable adventure of your life in the arena of the Himalayas.</li><li><strong>Spiritual Pursuits:</strong> Quiet and sacred, the monasteries and serenity of the Spiti Valley are perfect for some solitude, attending a meditation, yoga retreat, or learning about the tenets of Buddhism. Find spiritual fulfillment and salvation through the use of meditation in the serene surroundings of the Himalayas.</li><li><strong>Road Trips:</strong> The next fun-filled journey for the adventure freaks is a bustling road trip through the meandering route of Spiti Valley passing through high mountain terrains. It takes on the aspect of an adventure and the views to be seen simply from turning the corner of a road can be outstanding.</li></ul><h3>How to Reach Spiti Valley</h3><p><strong>Delhi to Shimla to Kaza (Spiti Valley) by Road-</strong> Travelers can start from Delhi – NH 44 towards Chandigarh and then proceed on the NH 5 also known as the Chandigarh-Shimla highway. From Shimla, there is a route to Narkanda, Further it leads to Rampur and one can begin their journey to Kaza which is the largest area of Spiti Valley. This route passes through curved roads, picturesque terrains, and towering mountain ramps including Kunzum La Pass (4551 Meters). If done in a two day format with an overnight halt at Rampur or Reckong Peo, the distance is about 960 kms from Delhi.</p><h3>Best Time to Visit Spiti Valley</h3><ul><li><strong>Spring (April to May):</strong> Spring is considered a shoulder season, with the snow starting to melt, and the landscapes coming alive with blooming wildflowers. However, the weather can be unpredictable, and some areas may still be inaccessible due to snow.</li><li><strong>Summer (June to September):</strong> The summer months offer the best weather conditions for a <a href=\"/trip/spiti-valley-tour-packages\" style=\"color:blue;\">Spiti Valley trip.</a> Temperatures are mild, and the roads are mostly clear and accessible. This is the peak season for trekking and outdoor activities.</li><li><strong>Autumn (Mid-September to November):</strong> Autumn is a beautiful time to visit Spiti Valley, with clear skies and stunning views of the changing colors. The weather remains pleasant, and the region is less crowded after the peak season.</li><li><strong>Winter (December to March):</strong> In <a href=\"/trips/winter-spiti\" style=\"color:blue;\">winter Spiti Valley</a> experiences extreme cold and heavy snowfall. Most areas remain inaccessible, and temperatures can drop to sub-zero levels. However, this season offers opportunities for unique winter activities and experiences.</li></ul>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi To Shimla | Overnight Journey",
+        "description": "<ul>\r\n    <li>Assemble at the boarding point in Delhi - Majnu Ka Tilla.</li>\r\n    <li>Start an overnight journey to Shimla and socialize with your co-travellers.</li>\r\n</ul>"
+      },
+      {
+        "day": 2,
+        "title": "Shimla Arrival | Drive To India’s Last Village : Chitkul | Sangla Valley",
+        "description": "<ul>\r\n    <li>After arriving in Shimla, we will take a halt for breakfast around Narkanda and soak in the much-needed #MountainVibes. Post breakfast, we will drive ahead to reach the last Indian village before the Indo-Tibetan border - Chitkul.</li>\r\n    <li>Check in to our scenic campsite in Rakcham/Chitkul, freshen-up and have some leisure. What can be more magical than relaxing near the pristine Baspa River? A perfect location in the lap of majestic Himalayas to disconnect from the urban madness and connect with nature.</li>\r\n    <li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in swiss-camps.</li>\r\n</ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive From Chitkul To Kalpa | The Kinnaur Kailash Views",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, we will head out to take a stroll around the Chitkul village and visit the widely popular ‘Hindustan Ka Akhri Dhaba’.</li>\r\n    <li>Enroute Kalpa, take a pit stop at Reckong Peo town.</li>\r\n    <li>Drive towards Kalpa, we’ll head out to visit the 3000-year-old Kalpa Monastery and the Roghi (Suicide Point) which offers a picturesque view of the Kinnaur Kailash ranges.</li>\r\n    <li>Check in to our cozy hotel and have some leisure. In the evening chill with your travel clan, savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 4,
+        "title": "A Day On Road | Khab Sangam | Nako Lake & Tabo | Dhankar Arrival",
+        "description": "<ul>\r\n\u003cli\u003eWake up early in the morning and post breakfast, drive from Kalpa to Dhankar village located in Spiti Valley. Get mesmerized by the shape-shifting landscapes of mountains with every turn.\u003c/li\u003e\r\n\u003cli\u003eEnroute we will take a halt at Khab Sangam, further visit the famous Nako Lake and Tabo Monastery. Take a walk inside the old Tabo monastery and learn about the history.\u003c/li\u003e\r\n\u003cli\u003eAfter arriving in Dhankar village, check in to our comfy hotel/homestay and have some leisure. Savour home-style cooked dinner and overnight stay in a hotel/homestay.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      },
+      {
+        "day": 5,
+        "title": "Drive From Dhankar To Kaza | Dhankar Gompa & Pin Valley | Kaza Arrival",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, check-out from our hotel/homestay and visit Dhankar Monastery &amp; Fort. Spend some time here and meditate in the cliff top Dhankar Monastery.</li>\r\n    <li>Before arriving at our homely abode in Kaza we will drive along the Pin river towards one of the less explored regions and visit Kungri Monastery in Pin Valley which holds extreme significance among the locals.</li>\r\n    <li>After arriving in Kaza, check in to our cozy hotel, freshen-up and have some leisure.</li>\r\n    <li>The ones with high energy levels, feel free to take a stroll around Kaza and old bazaars. Savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 6,
+        "title": "Exploring Langza, Komic & Hikkim Villages | Kaza - Cafes, Bazaars & More",
+        "description": "<ul>\r\n    <li>Post breakfast, quickly head out for an action packed exploration of various quaint villages nestled in and around Kaza.</li>\r\n    <li>Visit Spiti’s gorgeous fossil village Langza and get clicked with the iconic statue of Medicine Buddha with your clan. Feel proud for making it to the World’s highest motorable village Komic and absorb in the jaw dropping vistas of snow-laden Himalayas. The day will come to an end at Hikkim village known for its World’s highest post office.</li>\r\n    <li>Since this is your last night in Kaza, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 7,
+        "title": "Key Monastery | Kibber Village & Chicham Bridge | Chandratal Arrival",
+        "description": "<ul>\r\n    <li>Post breakfast, bid adieu to your hosts in Kaza and drive towards Key Monastery. Spend quality time speaking to the monks or sip a cup of herbal tea in Key Monastery’s kitchen.</li>\r\n    <li>Explore the Kibber village and take some #InstaPerfect shots at Chicham Bridge - Asia’s highest suspension bridge connecting the peaceful Kibber village.</li>\r\n    <li>Enroute Chandratal, we will take a pit stop at Losar to grab a satisfying lunch and continue towards Kunzum La situated at 15,000ft approx.</li>\r\n    <li>After arriving at Chandratal, check in to our scenic campsite and experience the calmness of the Moon Lake. In the evening chill with your travel clan under the gaze of million stars and savour home-style cooked dinner and overnight stay in swiss camps.</li>\r\n</ul>"
+      },
+      {
+        "day": 8,
+        "title": "Drive From Chandratal To Manali | Atal Tunnel | Manali Arrival",
+        "description": "<ul>\r\n    <li>Wake up quite early in the morning and post breakfast drive towards Manali from Chandratal via Kunzum La. Enroute Manali, we will take a pit stop for morning tea at the famous Chacha-Chachi Ka Dhaba or Chhatru.</li>\r\n    <li>En route, we'll be traversing the iconic Atal Tunnel.</li>\r\n    <li>After arriving in Manali, check in to our comfy hotel and have some leisure. Feel free to take a stroll around Old Manali cafes or The Mall Road. Savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 9,
+        "title": "Manali Self Exploration & #MeTime | Depart For Delhi",
+        "description": "<ul>\r\n    <li>After early morning breakfast, the rest of the day is at leisure.</li>\r\n    <li>Travelers are advised to spend their time indulging in cafe hopping, visiting the local market, Mall road, etc.</li>\r\n    <li>Later in the evening, start-off your return journey to Delhi.</li>\r\n</ul>"
+      },
+      {
+        "day": 10,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul>\r\n    <li>Reach Delhi next morning with lots of amazing memories and unforgettable experiences.</li>\r\n</ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Volvo (Delhi to Shimla & Manali to Delhi) and Force Traveler/Cab at all other times.",
+      "Accommodation on Sharing Basis: Hotel/Homestays (Kalpa, Dhankar, Kaza & Manali), Swiss Camps (Chitkul & Chandratal).",
+      "Meals: Chitkul (Breakfast+Dinner), Kalpa (Breakfast+Dinner), Dhankar (Breakfast+Dinner), Kaza (2 Dinners+2 Breakfasts), Chandratal (Breakfast+Dinner), Manali (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 8.",
+      "Experienced and cool Trip Captain.",
+      "Driver allowances, toll taxes, parking, state taxes and permits.",
+      "Oxygen cylinder and medical kit to handle extreme health problems."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'all-girls-spiti-valley-trip',
-    title: 'All Girls Spiti Valley Trip',
-    destination: 'Spiti',
-    duration: '9 Days 8 Nights',
-    price: '₹29999',
-    originalPrice: '₹34999',
-    discount: '₹5,000',
-    imageUrl: '/cloned_media/786720240210060450.png',
-    overview: 'A 9-day all-girls trip to Spiti Valley, ensuring a safe and fun experience with a female trip lead.',
-    itinerary: createItinerary('9 Days 8 Nights'),
-    inclusions: ['Homestay/Guesthouse', 'Transfers', 'Female Trip Lead', 'Permits'],
-    exclusions: ['Meals', 'Entry Fees'],
-  },
-  {
-    slug: 'spiti-valley-jibhi-edition',
-    title: 'Spiti Valley - Jibhi Edition',
-    destination: 'Spiti',
-    duration: '7 Days 6 Nights',
-    price: '₹22999',
-    imageUrl: '/cloned_media/16800620210605120557.png',
-    overview: 'A unique 7-day trip combining the rugged desert of Spiti Valley with the lush, green Tirthan Valley (Jibhi).',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Homestay/Guesthouse', 'Transfers', 'Permits'],
-    exclusions: ['Meals', 'Entry Fees'],
+    "slug": "spiti-valley-jibhi-edition",
+    "title": "Spiti Valley - Jibhi Edition",
+    "destination": "Spiti",
+    "duration": "7 Days 6 Nights",
+    "price": "₹22999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/16800620210605120557.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7882620210605120557.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33536220210605120557.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22864620210605120557.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38535520210605120557.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18777020210605120557.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/516320210605120557.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28836020210605120557.png"
+    ],
+    "overview": "<p>Bordering with Tibet and home to some of the oldest Buddhist monasteries in the Himalayas, Spiti is a cold desert mountain valley, sparsely populated region located in the northeastern part of Himachal Pradesh. The terms ‘Spiti’ means ‘The Middle Land’ - the land between Tibet and India. Snow laden landscapes and sub-zero temperatures, road trip to Himachal’s Spiti Valley is a once in a lifetime experience. Decorated with beautiful villages, welcoming locals and their 1000 year old culture, Spiti road trip during winters is all about never-ending adventure and white blanket of snow. Come and experience with us as we travel to Himachal’s cold desert.</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Jibhi | Overnight Journey",
+        "description": "<ul><li>Assemble at the boarding point in Delhi - RK Ashram Metro Station or Majnu Ka Tilla.</li><li>Start an overnight journey to Jibhi and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Jibhi Arrival | Acclimatization & Day At Leisure",
+        "description": "<ul>\r\n    <li>After arriving in Tirthan Valley, check in to our cozy hotel/homestay in Jibhi, freshen-up and have some leisure.</li>\r\n    <li>Regroup and head out for a quick nature walk near to our hotel/homestay. Visit the beautiful Jibhi waterfall and soak in the soothing surroundings of the place.</li>\r\n    <li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel/homestay.</li>\r\n</ul>"
+      },
+      {
+        "day": 2,
+        "title": "India's Last Village: Chitkul",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, we will drive ahead from Jibhi (via Jalori Pass at 10,800ft approx)/Narkanda to reach the last Indian village before Indo-Tibetan border.</li>\r\n    <li>After arriving in Chitkul, take a stroll around the village and visit Mathi Temple dedicated to the Goddess of local people of Kinnaur. Treat your stomach with a satisfying plate of steamy momos or rajma chawal at ‘Hindustan Ka Akhri Dhaba’. What can be more magical than relaxing near the pristine Baspa River? A perfect location in the lap of majestic Himalayas to disconnect from the urban madness and connect with nature.</li>\r\n    <li>Post Chitkul village exploration, check in to our cozy hotel/swiss tents, freshen-up and have some leisure.</li>\r\n    <li>In the evening, savour home-style cooked dinner and overnight stay in a hotel/swiss tents.</li>\r\n</ul>"
+      },
+      {
+        "day": 3,
+        "title": "Nako : The Sleepy Village",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, drive from Chitkul to Nako village. Get mesmerized by the shape-shifting landscapes of mountains, from green to brown; with every turn.</li>\r\n    <li>Enroute Nako, we will take a pit stop at Spillow or Pooh Village to grab a satisfying lunch at small Tibetan food joints.</li>\r\n    <li>After arriving in Nako, check in to our hotel/homestay and have some leisure. Feel free to scroll around this sleepy village. Visit the famous Nako Lake and Monastery, hike upto the Nako prayer wheel to treat your eyes with a panoramic view of this quaint Himalayan village.</li>\r\n    <li>In the evening, chill with your travel clan, savour home-style cooked dinner and overnight stay in a hotel/homestay.</li>\r\n</ul>"
+      },
+      {
+        "day": 4,
+        "title": "A Day On Road | Gue, Tabo & Dhankar Villages | Kaza Arrival",
+        "description": "<ul>\r\n    <li>Wake up to a peaceful mountain morning and post breakfast, drive from Nako to Gue - a small village 9kms off the Tibetan border to see from your naked eyes the 500-year-old mummified remains of the Buddhist monk, Sangha Tenzin.</li>\r\n    <li>From Gue, we will drive ahead towards Tabo Village. After arriving in Tabo, take a walk inside the Tabo Monastery and learn about the history of this Tibetan spiritual site also known as ‘Ajanta of Himalayas’.</li>\r\n    <li>Before arriving at our homely abode in Kaza, we will take a halt at Dhankar Village, interact with the Buddhist monks in cliff top Dhankar Monastery or village locals if you feel like.</li>\r\n    <li>Treat yourself with jaw dropping scenes of pristine Spiti river and the gorgeous Himalayas. After arriving in Kaza, check in to our cozy hotel/homestay, freshen-up and have some leisure.</li>\r\n    <li>The ones with high energy levels, feel free to take a stroll around Kaza and old bazaars. In the evening, enjoy a warm bonfire, savour home-style cooked dinner and overnight stay in a hotel/homestay.</li>\r\n</ul>"
+      },
+      {
+        "day": 5,
+        "title": "Exploring Langza, Komic & Hikkim Villages | Kaza - Cafes, Bazaars & More",
+        "description": "<ul>\r\n    <li>Wake to a relaxed mountain morning in your homely abode and post breakfast, quickly head out for an action packed exploration of various quaint villages nestled in and around Kaza.</li>\r\n    <li>Visit Spiti’s gorgeous fossil village Langza and get clicked with the iconic statue of Medicine Buddha with your clan. Feel proud for making it to the World’s highest motorable village Komic and absorb in the jaw dropping vistas of snow-laden Himalayas. The day will come to an end at Hikkim village known for its World’s highest post office.</li>\r\n    <li>Since this is your last day in Kaza, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home.</li>\r\n    <li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel/homestay.</li>\r\n</ul>"
+      },
+      {
+        "day": 6,
+        "title": "Key Monastery | Kibber & Chicham | Chandratal Stargazing",
+        "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast, bid adieu to your hosts in Kaza and drive towards Key Monastery - biggest and most picturesque Buddhist monastery nestled in the gorgeous Spiti Valley. Spend quality time speaking to the monks or sip a cup of herbal tea in Key Monastery’s kitchen.</li>\r\n    <li>Explore the Kibber village - home to snow leopard and various other wildlife species like Himalayan Ibex and Red Fox to name a few. Take some #InstaPerfect shots at Chicham Bridge - Asia’s highest suspension bridge connecting the peaceful Kibber village.</li>\r\n    <li>Enroute Chandratal, we will take a pit stop at Losar to grab a satisfying lunch and continue towards Kunzum La situated at 15,000ft approx. This stretch is indeed the journey’s most adventurous and beautiful part.</li>\r\n    <li>After arriving at Chandratal, check in to our scenic campsite. Quickly head out to soak in the calmness of the Moon Lake and capture some #InstaPerfect shots.</li>\r\n    <li>In the evening chill with your travel clan under the gaze of million stars and the Milky Way Galaxy. Savour home-style cooked dinner and overnight stay in swiss tents.</li>\r\n</ul>"
+      },
+      {
+        "day": 7,
+        "title": "Back to Home",
+        "description": "<ul>\r\n    <li>Wake up quite early in the morning and drive towards Manali from Chandratal via Kunzum La. Enroute Manali, we will take a pit stop for a quick breakfast at Chhatru.</li>\r\n    <li>After arriving in Manali, feel free to take a stroll around The Mall Road (if time permits) and start-off your return journey to Delhi in the evening.</li>\r\n    <li>Reach Delhi next morning with lots of amazing memories and unforgettable experiences.</li>\r\n</ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Volvo/Bharatbenz (Delhi to Manali/Shimla & back) and Force Traveler/Cab at all other times or entire journey by Force Traveler/Cab from Delhi.",
+      "Accommodation on Sharing Basis: Hotel/Homestays (Jibhi, Chitkul, Nako & Kaza), Swiss Tents (Chitkul & Chandratal).",
+      "Meals: 6 Breakfast & 6 Dinner. Breakfast & Dinner each day of the trip.",
+      "Experienced and cool trip leader.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any inner line permits/environmental permits, entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
 
   //==========================================================================
