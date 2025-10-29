@@ -25,6 +25,7 @@ import Spiti from './pages/Spiti';
 import LehLadakh from './pages/LehLadakh';
 import HimachalBackpacking from './pages/HimachalBackpacking';
 import MeghalayaBackpacking from './pages/MeghalayaBackpacking';
+import ChoptaTungnath from './pages/ChoptaTungnath';
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
@@ -75,6 +76,7 @@ const App = () => (
           <Route path="/leh-ladakh" element={<LehLadakh />} />
           <Route path="/himachal-backpacking" element={<HimachalBackpacking />} />
           <Route path="/meghalaya-backpacking" element={<MeghalayaBackpacking />} />
+          <Route path="/chopta-tungnath" element={<ChoptaTungnath />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/upcoming-group-trips" element={<UpcomingGroupTrips />} />

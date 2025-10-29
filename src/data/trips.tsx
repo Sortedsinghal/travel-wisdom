@@ -2474,4 +2474,22 @@ export const allTrips: Trip[] = [
     inclusions: ['Hotel/Boutique Stay', 'Private Transfers', 'Ha Long Bay Cruise (1 Night)', 'Romantic Inclusions'],
     exclusions: ['Flights', 'Visa Fees', 'Lunches'],
   },
+  {
+    slug: 'chopta-tungnath-trek',
+    title: 'Chopta Tungnath Trek - Mini Switzerland of India',
+    destination: 'Uttarakhand',
+    duration: '3 Days 2 Nights',
+    price: '₹7500',
+    originalPrice: '₹9000',
+    discount: '₹1,500',
+    imageUrl: '/cloned_media/chopta-main.jpg',
+    overview: 'Chopta, often called the "Mini Switzerland of India," is a picturesque hill station in Uttarakhand. This trek takes you to Tungnath Temple, the highest Shiva temple in the world at 3,680 meters, and further to Chandrashila Peak at 4,000 meters. Experience breathtaking views of Himalayan peaks including Nanda Devi, Trishul, and Chaukhamba.',
+    itinerary: [
+      { day: 1, title: 'Delhi to Chopta | Overnight Journey', description: 'Assemble at boarding point in Delhi and meet your Trip Captain. Start overnight journey to Chopta in comfortable transport. Enjoy the scenic drive through Haridwar and Rishikesh.' },
+      { day: 2, title: 'Chopta Arrival | Tungnath Temple Trek', description: 'Arrive in Chopta early morning and check-in to camps/hotel. After breakfast, start trek to Tungnath Temple (3.5 km). Visit the highest Shiva temple in the world. Return to Chopta base camp for dinner and overnight stay.' },
+      { day: 3, title: 'Chandrashila Summit | Return to Delhi', description: 'Early morning trek to Chandrashila Peak (1.5 km from Tungnath). Witness spectacular sunrise and 360-degree Himalayan views. Return to base camp, have breakfast and check-out. Start return journey to Delhi with packed lunch.' }
+    ],
+    inclusions: ['Transportation from Delhi to Delhi in comfortable vehicle', '2 Nights accommodation in camps/hotel on sharing basis', 'All meals from Day 1 breakfast to Day 2 lunch', 'Experienced trek guide and support staff', 'All necessary permits and entry fees', 'Basic first aid and safety equipment'],
+    exclusions: ['Personal expenses and items of personal nature', 'Travel insurance and medical expenses', 'Any meals not mentioned in inclusions', 'Tips for guide and support staff', 'Any expenses due to natural calamities or unforeseen circumstances', 'GST (5%) is applicable extra']
+  },
 ];
