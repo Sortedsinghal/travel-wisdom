@@ -135,7 +135,7 @@ const Index = () => {
       <Footer />
       
       {/* Floating Action Buttons */}
-      <div className="fixed bottom-6 right-2 z-50 flex flex-col space-y-1">
+      <div className="fixed bottom-6 right-2 z-50 flex flex-col space-y-1 items-center">
         {/* Send Query Button */}
         <a
           href="/contact-us"
@@ -146,9 +146,9 @@ const Index = () => {
         {/* Call Us Button */}
         <a
           href="tel:+919971545446"
-          
+          className="w-12 h-12 bg-[#0B3A55] rounded-full flex items-center justify-center"
         >
-          <img src="/callus.png" alt="Call Us" className="w-16 h-16" />
+          <img src="/callus.png" alt="Call Us" className="w-13 h-13" />
         </a>
         
         {/* WhatsApp Button */}

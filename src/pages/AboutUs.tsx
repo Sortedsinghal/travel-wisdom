@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import TripCategories from "@/components/TripCategories";
 
 const AboutUs = () => {
   return (
@@ -35,7 +36,7 @@ const AboutUs = () => {
       {/* Who We Are Section */}
       <section>
         <div 
-          style={{ backgroundColor: '#1a365d' }} 
+          style={{ backgroundColor: '#0B3A55' }} 
           className="relative py-16"
         >
           <div className="container mx-auto px-4">
@@ -46,35 +47,27 @@ const AboutUs = () => {
               <p className="font-normal text-sm mx-auto font-poppins text-white text-center mt-0 mb-4 max-w-4xl">
                 Travel Wisdom is a community of avid travellers badly bitten by the travel bug thus providing you an unmatched travel experience as per your interest and comfort. Using our & experience.We curate personalized and fun-filled trips to unexplored Himalayan destinations. Choose the destination which you want to explore and you're done. Our enthusiastic community of wanderers create journeys that will exceed your expectations. From being an experience promoter to provider, who knows travel better than us? We design well-planned trip itineraries, trekking & camping activities without exceeding your budget.
               </p>
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-8 mb-4 justify-center">
-                <div className="flex flex-col items-center justify-between">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mb-3 mt-3">
-                    <span className="text-2xl">🚐</span>
-                  </div>
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-8 mb-4 justify-center items-end">
+                <div className="flex flex-col items-center h-full">
+                  <img src="/who-we-are icon1.png" alt="Trips Hosted" className="w-12 h-12 mb-3 mt-3" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
                     2500+ Trips Hosted PAN India & Abroad
                   </p>
                 </div>
-                <div className="flex flex-col items-center justify-between">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mb-3 mt-3">
-                    <span className="text-2xl">✈️</span>
-                  </div>
+                <div className="flex flex-col items-center h-full">
+                  <img src="/who-we-are icon2.png" alt="Countries" className="w-12 h-12 mb-3 mt-3" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
                     Proudly operating in 15+ countries
                   </p>
                 </div>
-                <div className="flex flex-col items-center justify-between">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mb-3 mt-3">
-                    <span className="text-2xl">😊</span>
-                  </div>
+                <div className="flex flex-col items-center h-full">
+                  <img src="/who-we-are icon3.png" alt="Happy Travelers" className="w-12 h-12 mb-3 mt-3" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
-                    30,000+ Happy Travelers
+                    30,000+ Happy Travellers
                   </p>
                 </div>
-                <div className="flex flex-col items-center justify-between">
-                  <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mb-3 mt-3">
-                    <span className="text-2xl">👍</span>
-                  </div>
+                <div className="flex flex-col items-center h-full">
+                  <img src="/who-we-are icon4.png" alt="Travel Enthusiasts" className="w-12 h-12 mb-3 mt-3" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
                     Team of 100+ Travel Enthusiasts
                   </p>
@@ -85,102 +78,7 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* What We Offer Section */}
-      <section className="py-8 sm:py-12">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-center mb-12 w-full">
-            <h2 className="font-poppins text-3xl font-semibold capitalize text-black text-center">
-              What We Offer
-            </h2>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 max-w-6xl mx-auto">
-            <a href="/fixed-departures" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
-                <img 
-                  alt="van" 
-                  width="70" 
-                  height="70" 
-                  className="w-16 h-auto" 
-                  src="https://d2qa7a8q0vuocm.cloudfront.net/static/assets/icons/van.webp" 
-                />
-              </div>
-              <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
-                Fixed-<br />Departures
-              </p>
-            </a>
-            <a href="/customized-packages" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
-                <img 
-                  alt="rest-table" 
-                  width="70" 
-                  height="70" 
-                  className="w-16 h-auto" 
-                  src="https://d2qa7a8q0vuocm.cloudfront.net/static/assets/icons/rest-table.webp" 
-                />
-              </div>
-              <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
-                Customized<br />Packages
-              </p>
-            </a>
-            <a href="/international-trips" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
-                <img 
-                  alt="plane" 
-                  width="70" 
-                  height="70" 
-                  className="w-16 h-auto" 
-                  src="https://d2qa7a8q0vuocm.cloudfront.net/static/assets/icons/plane.webp" 
-                />
-              </div>
-              <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
-                International<br />Trips
-              </p>
-            </a>
-            <a href="/trekking" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
-                <img 
-                  alt="trekking" 
-                  width="70" 
-                  height="70" 
-                  className="w-16 h-auto" 
-                  src="/cloned_media/trekking-icon.png" 
-                />
-              </div>
-              <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
-                Trekking
-              </p>
-            </a>
-            <a href="/bike-trips" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
-                <img 
-                  alt="bike" 
-                  width="70" 
-                  height="70" 
-                  className="w-16 h-auto" 
-                  src="https://d2qa7a8q0vuocm.cloudfront.net/static/assets/icons/bike.webp" 
-                />
-              </div>
-              <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
-                Bike Trips
-              </p>
-            </a>
-            <a href="/corporate-trips" className="flex flex-col items-center justify-center cursor-pointer hover:transform hover:scale-105 transition-transform">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#0B3A55' }}>
-                <img 
-                  alt="handshake" 
-                  width="70" 
-                  height="70" 
-                  className="w-16 h-auto" 
-                  src="https://d2qa7a8q0vuocm.cloudfront.net/static/assets/icons/handshake.webp" 
-                />
-              </div>
-              <p className="mb-0 font-poppins text-sm font-semibold text-black text-center">
-                Corporate<br />Trips
-              </p>
-            </a>
-          </div>
-        </div>
-      </section>
+      <TripCategories />
 
       {/* Our Journey So Far Timeline */}
       <div className="py-16 bg-gray-50">

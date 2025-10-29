@@ -161,10 +161,6 @@ const Footer = () => {
               <Button asChild size="sm" className="h-9 w-9 p-0 text-white bg-[#0077B5] hover:bg-[#0077B5]/90 rounded-full">
                 <a target="_blank" href="https://www.linkedin.com/in/travel-wisdom-034a45382/"><Linkedin className="h-5 w-5" /></a>
               </Button>
-              {/* YouTube */}
-              <Button asChild size="sm" className="h-9 w-9 p-0 text-white bg-[#FF0000] hover:bg-[#FF0000]/90 rounded-full">
-                <a target="_blank" href="https://www.youtube.com/"><Youtube className="h-5 w-5" /></a>
-              </Button>
             {/* WhatsApp */}
             <Button asChild size="sm" className="h-9 w-9 p-0 text-white bg-[#25D366] hover:bg-[#25D366]/90 rounded-full">
               <a target="_blank" href="https://api.whatsapp.com/send?phone=919971545446"><MessageCircle className="h-5 w-5" /></a>
