@@ -40,7 +40,7 @@ const tripData = {
     { name: 'Meals', icon: '/cloned_media/17264920241021125723.png' },
     { name: 'Explorations', icon: '/cloned_media/13075920241021125921.png' },
     { name: 'Trekking', icon: '/cloned_media/11999820241021130308.png' },
-    { name: 'Photography', icon: '/cloned_media/photography-icon.png' },
+    { name: 'Photography', icon: '/assets/photography.png' },
   ],
   overview: `<p>Chopta, often called the "Mini Switzerland of India," is a picturesque hill station in Uttarakhand. This trek takes you to Tungnath Temple, the highest Shiva temple in the world at 3,680 meters, and further to Chandrashila Peak at 4,000 meters. Experience breathtaking views of Himalayan peaks including Nanda Devi, Trishul, and Chaukhamba. The trek offers stunning meadows, rhododendron forests, and an unforgettable sunrise from Chandrashila summit.</p>`,
   itinerary: [
