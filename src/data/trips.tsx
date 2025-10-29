@@ -254,210 +254,1062 @@ export const allTrips: Trip[] = [
   // DESTINATION: Rajasthan (from Rajasthan.tsx)
   //==========================================================================
   {
-    slug: 'rajasthan-explorer-jaipur-udaipur-jodhpur-jaisalmer',
-    title: 'Rajasthan Explorer - Jaipur Udaipur Jodhpur Jaisalmer',
-    destination: 'Rajasthan',
-    duration: '8 Days 7 Nights',
-    price: '₹24000',
-    originalPrice: '₹28000',
-    discount: '₹4,000',
-    imageUrl: '/cloned_media/36156220250913134901.png',
-    overview: 'A grand tour of Rajasthan\'s most iconic cities. Experience the culture of Jaipur, the lakes of Udaipur, the blue city of Jodhpur, and the desert of Jaisalmer.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Accommodation', 'Intercity Transfers', 'Sightseeing as per itinerary'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Meals'],
-  },
+  "slug": "rajasthan-explorer-jaipur-udaipur-jodhpur-jaisalmer",
+  "title": "Rajasthan Explorer - Jaipur Udaipur Jodhpur Jaisalmer",
+  "destination": "Rajasthan",
+  "duration": "8 Days 7 Nights",
+  "price": "₹24,000",
+  "originalPrice": "₹28,000",
+  "discount": "₹4,000",
+  "imageUrl": "/cloned_media/36156220250913134901.png",
+  "gallery": [
+    "/cloned_media/27393520250913134901.png",
+    "/cloned_media/10269520250913134901.png",
+    "/cloned_media/24171520250913134901.png",
+    "/cloned_media/16277620250913134901.png",
+    "/cloned_media/40556620250913134901.png"
+  ],
+  "overview": "<p>Embark on a magical journey through the royal land of Rajasthan with our Rajasthan Explorer Tour Package with Go4Explore. Covering the iconic cities of Jaipur, Jodhpur, Udaipur, and Jaisalmer, this tour offers the perfect blend of history, culture, architecture, and desert adventures. From Jaipur’s vibrant bazaars and grand palaces to the golden sands of Jaisalmer, every destination tells a story of royalty and timeless beauty. Whether you’re a culture enthusiast, history lover, or an adventure seeker, this Rajasthan trip ensures unforgettable experiences.</p><p>Your journey begins in Jaipur – the Pink City, famous for Amer Fort, Hawa Mahal, City Palace, and colorful markets. Next, discover the charm of Jodhpur – the Blue City, with the mighty Mehrangarh Fort and narrow blue lanes full of local life. Move on to Udaipur – the City of Lakes, known for its romantic ambiance, shimmering lakes, and royal palaces like City Palace and Lake Pichola. Finally, experience the golden charm of Jaisalmer – the Golden City, where desert safaris, sand dunes, and Jaisalmer Fort await to give you a once-in-a-lifetime desert adventure.</p><p>Our Rajasthan Explorer Tour Package is designed to provide the best of heritage, comfort, and adventure. With guided sightseeing, cultural experiences, and authentic Rajasthani flavors, this trip captures the true essence of Rajasthan. Perfect for families, couples, and groups, this tour combines royal hospitality with unforgettable memories. Book your Rajasthan package with Go4Explore today and get ready to explore forts, palaces, lakes, deserts, and stories that live forever in the heart of India.</p>",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Jaipur Arrival | Local Exploration",
+      "description": "<ul><li>After arriving in Jaipur, check-in to our hotel & meet your group.</li><li>We set out to explore the Pink City. Explore Amer Fort, a majestic red sandstone and marble fortress perched on a hill.</li><li>Enjoy a quick photo stop at the stunning Jal Mahal.</li><li>We then head to the Hawa Mahal, Jaipur’s iconic “Palace of Winds,” admired for its honeycomb windows.</li><li>Enjoy a leisurely stroll through Jaipur’s vibrant local market, famous for handicrafts, juttis and colorful textiles.</li><li>Dinner and overnight stay in a hotel in Jaipur.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Drive to Udaipur | Explore Kishangarh & Statue of Belief",
+      "description": "<ul><li>Wake up early and post breakfast, visit the iconic Patrika Gate, known for its vibrant arches and stunning hand-painted interiors.</li><li>Begin your drive to Udaipur.</li><li>On the way, visit the Kishangarh Dumping Yard, a unique photography hotspot with striking marble waste formations.</li><li>Make a stop at the Statue of Belief, the world’s tallest Shiva statue.</li><li>After arriving in Udaipur, check-in to our hotel and have some leisure.</li><li>Dinner and overnight stay in a hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Udaipur Local Exploration | Old City Vibes",
+      "description": "<ul><li>Post Breakfast, head out to explore Rajasthan’s lake city and various heritage wonders. Visit Udaipur’s City Palace and experience the rich history of Mewar region.</li><li>Visit Jagdish Temple and witness the intricate carvings of the temple.</li><li>In the evening, feel free to either witness the cultural & folk-art performances at the beautiful Bagore Ki Haveli (on your own) nestled along Lake Pichola or explore Gangaur Ghat and streets of Udaipur decorated with various local handicrafts, colorful fabrics, souvenirs, and chill at lake-view cafes.</li><li>Dinner and overnight stay in a hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Udaipur to Jodhpur | Kumbhalgarh Fort | Jodhpur Arrival",
+      "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel in Udaipur and drive to Jodhpur - Rajasthan’s blue city.</li><li>Enroute Jodhpur, we will take a halt and visit Kumbhalgarh Fort also known as The Great Wall of India, one of the most beautiful forts in Rajasthan and a UNESCO World Heritage Site. Next we will visit Maharana Pratap Museum in Haldighati built in honor of Mewari Rana and his battle with the Mughals. </li><li>After arriving in Jodhpur, check-in to our hotel and have some leisure.</li><li>Dinner and overnight stay in a hotel in Jodhpur.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Jodhpur Local Exploration | Historical Marvels",
+      "description": "<ul><li>Wake up early and post breakfast, we will head out for a local sightseeing tour of Jodhpur.</li><li>We will visit Umaid Bhawan Palace to witness the royalty and one of the largest private residencies in the world. Experience the grandeur of Mehrangarh Fort, one of the largest forts positioned in Rajasthan perched on top of a perpendicular cliff. We will end our blue city exploratory tour at Jaswant Thada, a cenotaph dedicated to Mewar kings and commonly known as the Taj Mahal of Mewar.</li><li>In the evening, feel free to treat your tastebuds with local flavours of Jodhpur near the Ghanta Ghar market.</li><li>Dinner and overnight stay in a hotel in Jodhpur.</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Jodhpur to Jaisalmer | Thar Desert Diaries",
+      "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel in Jodhpur and drive to Jaisalmer - Rajasthan’s golden city.</li><li>After arriving in Thar Desert, check-in to our campsite located in Sam Sand Dunes, freshen-up and have some leisure.</li><li>Get ready and head out for Camel Safari in Thar Desert. Witness the beautiful sunset while enjoying your camel ride. Experience the thrill in Jeep Dune Bashing.</li><li>In the evening, enjoy a warm bonfire with Rajasthani folk music, Kalbelia dance and quick snacks.</li><li>Savour home-style cooked Rajasthani dinner and overnight stay in camps.</li></ul>"
+    },
+    {
+      "day": 7,
+      "title": "Rajasthan’s Golden City | Depart for Jaipur",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from our campsite in Sam Sand Dunes and drive towards Jaisalmer old city. Enroute, we'll visit Kuldhara village, an abandoned village dating back to 200 hundred years.</li><li>Head out to explore India’s only living fort - Jaisalmer Fort. Take a walk in this magnificent historic fort and learn the legends associated with it. Visit other major attractions like Gadsisar Lake, Patwon Ki Haveli, etc.</li><li>Feel free to explore Jaisalmer’s local market and taste different cuisines at recommended themed cafes/restaurants.</li><li>In the evening, start-off your return journey to Jaipur.</li></ul>"
+    },
+    {
+      "day": 8,
+      "title": "Reach Jaipur | Trip Ends",
+      "description": "<ul><li>Reach Jaipur early in the morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Jaipur to Jaipur: Tempo Traveler/Cab.",
+    "6 Nights Accommodation on sharing basis: 1 night in hotel (Jaipur), 2 nights in hotel (Udaipur), 2 nights in hotel (Jodhpur), 1 night in swiss camps (Jaisalmer).",
+    "12 Meals: Breakfast (6) and Dinner (6), starting from Dinner on Day 1 till Breakfast on Day 7. Complimentary evening snacks (veg) in Jaisalmer.",
+    "Activities in Jaisalmer: camel safari & jeep dune bashing and Rajasthani dinner & folk show.",
+    "All local explorations as per itinerary.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
   {
-    slug: 'udaipur-kumbhalgarh',
-    title: 'Udaipur & Kumbhalgarh',
-    destination: 'Rajasthan',
-    duration: '3 Days 2 Nights',
-    price: '₹7500',
-    originalPrice: '₹8500',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/29769220240826125805.png',
-    overview: 'A short trip to the city of lakes, Udaipur, and a visit to the majestic Kumbhalgarh Fort, a UNESCO World Heritage Site.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Hotel Stay', 'Transfers', 'Sightseeing'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Meals'],
-  },
+  "slug": "udaipur-kumbhalgarh",
+  "title": "Udaipur & Kumbhalgarh",
+  "destination": "Rajasthan",
+  "duration": "3 Days 2 Nights",
+  "price": "₹7,500",
+  "originalPrice": "₹8,500",
+  "discount": "₹1,000",
+  "imageUrl": "/cloned_media/29769220240826125805.png",
+  "gallery": [
+    "/cloned_media/2541020250604105520.png",
+    "/cloned_media/34125820250604105520.png",
+    "/cloned_media/25662820250604105521.png",
+    "/cloned_media/13828220250604105521.png",
+    "/cloned_media/28271520250604105521.png",
+    "/cloned_media/29191720250604105521.png"
+  ],
+  "overview": "<h2>About Udaipur Kumbhalgarh Tour Package</h2><p>Live through the royal beauty of Rajasthan with our specially designed Udaipur Kumbhalgarh tour package. Imagine that you are walking through the enchanting palaces of Udaipur, their white marble walls reflecting and repeating the effect in the waters of Lake Pichola. Afternoons lounging around intricate artwork in the City Palace or lazy ones with a rooftop dinner while the sun sets over the Aravalli Hills, this is what it feels like to be in this haven.</p><p>Later, see the mighty Kumbhalgarh Fort with its massive walls that stretch for as long as 36 km, the second-longest uninterrupted wall in the world, next only to the Great Wall of China. You will feel the charge of history and the excitement of exploration from its ramparts.</p><p>Our thoughtfully designed itinerary balances must-see destinations with off-the-tourist-map surprises, letting you thoroughly soak up Rajasthan's rich culture and warm hospitality. From luxury accommodations and fine dining to local experts, know that we've thought of everything. Book our <a href=\"https://go4explore.com/trip/rajasthan\" style=\"color:blue;\">Rajasthan Tour Package</a> and make memories that last a lifetime.</p><h3>Best Places to Visit in 3 Days Udaipur Kumbhalgarh Trip</h3><p><strong>City Palace:</strong> Udaipur, known as the \"City of Lakes,\" is a romantic destination in Rajasthan. Its City Palace, a massive complex on Lake Pichola, showcases stunning Rajasthani architecture. Visitors can explore ornate rooms, courtyards, and museums, gaining insight into royal life and local history.</p><p><strong>Lake Pichola:</strong> Lake Pichola, Udaipur's crown jewel, offers serene boat rides and picturesque views. The lake is dotted with islands, including Jag Mandir and Jag Niwas (now Lake Palace Hotel). Sunset cruises are particularly popular, providing unforgettable vistas of the surrounding palaces and hills.</p><p><strong>Kumbhalgarh Fort:</strong> Kumbhalgarh Fort, a UNESCO World Heritage site, boasts the second-longest continuous wall after the Great Wall of China. Built in the 15th century, it played a crucial role in Mewar's defense. The fort's massive ramparts stretch over 38 kilometers, enclosing temples, palaces, and gardens.</p><p><strong>Kumbhalgarh Wildlife Sanctuary:</strong> The Kumbhalgarh Wildlife Sanctuary surrounds the fort, offering a diverse ecosystem. Home to leopards, sloth bears, and numerous bird species, it's a haven for nature enthusiasts. Jeep safaris and nature walks allow visitors to explore its rich biodiversity and stunning landscapes.</p><p><strong>Saheliyon Ki Bari:</strong> Saheliyon Ki Bari in Udaipur is a charming garden built for royal ladies. It features lush lawns, marble fountains, and lotus pools. This tranquil oasis provides a refreshing escape from the city's bustle, showcasing the elegance of Rajasthani landscaping and architecture.</p><p><strong>Bagore Ki Haveli:</strong> Bagore Ki Haveli, situated on Lake Pichola's waterfront, is a magnificent 18th-century mansion. Now a museum, it displays Mewar's cultural heritage through costumes, art, and puppets. Evening cultural performances here offer a glimpse into Rajasthani folk traditions.</p><p><strong>Fateh Sagar Lake:</strong> Fateh Sagar Lake, Udaipur's second artificial lake, is surrounded by hills and gardens. It houses three small islands, including Nehru Park with its boat-shaped restaurant. The lake's promenade is perfect for leisurely walks and enjoying street food.</p><p><strong>Gangaur Ghat:</strong> Located in Udaipur, Rajasthan, Gangaur Ghat is a famous waterfront area on Lake Pichola. It's known for its beautiful architecture and as a site for religious ceremonies, particularly during the Gangaur festival. The ghat offers stunning views of the lake and surrounding palaces.</p><p><strong>Under The Sun Aquarium:</strong> This is an aquarium in Udaipur that showcases various species of fish and aquatic life. It's a popular attraction for families and those interested in marine biodiversity.</p><p><strong>Bahubali Hills:</strong> Also known as Machhla Magra, this hill in Udaipur offers panoramic views of the city and its lakes. It's famous for a large statue of Bahubali (a Jain Tirthankara) at its peak.</p><p><strong>Badi Lake:</strong> This artificial lake, also called Jiyan Sagar, is located near Udaipur. It was built in the 17th century to combat drought. The lake is surrounded by hills and offers a peaceful retreat away from the city bustle.</p><p><strong>Ambrai Ghat:</strong> Another picturesque ghat in Udaipur, Ambrai Ghat is known for its stunning views of Lake Pichola, City Palace, and Jag Mandir. It's a popular spot for watching sunsets and houses several restaurants offering lakeside dining.</p><h3>Things to do in 3 Days Udaipur Kumbhalgarh Tour</h3><ul><li><strong>Explore Udaipur’s Vibrant Markets:</strong> Shopping in Udaipur is a vibrant experience. Visit Hathi Pol Bazaar for traditional textiles, jewelry, and handicrafts. Bada Bazaar offers colorful bandhani fabrics and leather goods. Don't miss Shilpgram for authentic Rajasthani arts and crafts. Bargaining is expected, so negotiate prices with a smile.</li><li><strong>Try Rajasthani Delicacies:</strong> Rajasthani cuisine is a feast for the senses. Try dal baati churma, a hearty lentil dish with baked wheat balls. Sample gatte ki sabzi, gram flour dumplings in spicy gravy. Indulge in laal maas, a fiery mutton curry. For dessert, enjoy mawa kachori or ghevar, sweet delicacies unique to the region.</li><li><strong>Boat ride on Lake Pichola:</strong> This tranquil experience gives one stunning view of waterfront architecture in Udaipur. You see the whole view of the City Palace, Lake Palace, and <a href=\"https://en.wikipedia.org/wiki/Jag_Mandir_Palace\" style=\"color:blue;\" rel=\"noopener noreferrer\" target=\"_blank\">Jag Mandir</a> while gliding across the lake. Sunset rides are specially magical because the golden light brings out the white buildings of the city.</li><li><strong>Rajasthani puppet show:</strong> They would be folk performances, colorful, based on folk storylines. Skilled puppeteers enact local legends through intricate marionettes with the backing of live music. It's a great deal of fun experiencing Rajasthan's folk culture.</li><li><strong>Trek to Kumbhalgarh Fort:</strong> Walking along the extortionate walls of this fort gives a different view of its scale and strategic importance. The trek can be really tough but offers you breathless views of the Aravalli range and the countryside around.</li><li><strong>Kumbhalgarh Wildlife Safari:</strong> Jeep safaris through varied landscapes within the sanctuary, spotting the leopard rarely but you can see various deer species, monkeys, and a lot of birds. Added to the adventure is the lush forests and rugged terrain.</li><li><strong>Udaipur Cooking Class:</strong> Learn to cook traditional Rajasthani fare with a local family or in one of the many cooking schools. You will learn all about typical spices, techniques, and recipes of the region. Most classes include a market visit to gather ingredients, which reveals as much about the local produce as other culinary traditions.</li><li><strong>Sajjangarh Sunset:</strong> This palace, situated on top of a hill, provides a bird's eye view of Udaipur and its lakes. The golden light that bathes the city during the sunset is pure magic. It is any photographer's paradise and a romantic location for couples.</li><li><strong>Sound and Light show at Kumbhalgarh Fort:</strong> This evening spectacle brings the fort to life with narration, music, and illumination. The massive walls of Mewar rise as a backdrop for the colorful display, telling of legends and battles.</li><li><strong>Ropeway to Karni Mata Mandir:</strong> This cable car ride takes visitors to the Karni Mata Temple atop Machla Magra Hill. The ropeway offers panoramic views of Udaipur, its lakes, and surrounding hills. At the summit, you'll find the temple dedicated to Karni Mata and can enjoy spectacular vistas of the city below.</li><li><strong>Cafe Hopping with Lake View:</strong> Udaipur is famous for its cafes overlooking Lake Pichola and other water bodies. Many of these are located in the old city area, offering scenic views along with diverse cuisine. Popular spots include Cafe Edelweiss, Jheel's Ginger Coffee Bar, and Cafe Namaste. Visitors can savor local and international dishes while enjoying serene lake views.</li><li><strong>Cultural Program in Bagore ki Haveli:</strong> Bagore ki Haveli, an 18th-century mansion at Gangaur Ghat, hosts a nightly cultural show called \"Dharohar.\" This popular program showcases traditional Rajasthani music, dance, and puppetry. It's an excellent opportunity to experience the rich cultural heritage of Rajasthan in a historic setting.</li></ul><h3>How to Reach Udaipur</h3><p><strong>By Air:</strong> Maharana Pratap Airport, located about 20 km from the city center, connects Udaipur to major Indian cities. Direct flights operate from Delhi, Mumbai, Jaipur, and other key destinations. Taxis and prepaid cabs are available at the airport for city transfers.</p><p><strong>By Train:</strong> Udaipur City Railway Station is well-connected to major cities across India. Luxury trains like Palace on Wheels and Royal Rajasthan on Wheels also stop here. The station is centrally located, making it easy to reach hotels and tourist spots.</p><p><strong>By Road:</strong> Udaipur has excellent road connectivity. Regular buses, both government and private, operate from nearby cities. For a more comfortable journey, consider hiring a taxi or self-drive car from cities like Jaipur, Ahmedabad, or Mumbai.</p><h3>Best Time to Visit Udaipur</h3><p><strong>Winter (October to March):</strong> This is considered the peak tourist season. Daytime temperatures are pleasant, ranging from 20-28°C (68-82°F). Nights can be cool, dropping to 5-10°C (41-50°F). The weather is ideal for sightseeing and outdoor activities.</p><p><strong>Summer (April to June):</strong> Temperatures can soar to 40°C (104°F) or higher. While it's less crowded and hotel rates are lower, the heat can be intense for outdoor exploration. Early mornings and evenings are more comfortable for activities.</p><p><strong>Monsoon (July to September):</strong> Rainfall brings relief from the summer heat. The landscape turns lush green, offering beautiful scenery. However, humidity increases and some outdoor activities may be limited. Hotel rates are often at their lowest during this period.</p><p>Other related tour packages: <a href=\"https://go4explore.com/trips/udaipur\">Udaipur Tour Package</a>, <a href=\"https://go4explore.com/trips/udaipur-mount-abu-trip-from-delhi\">Udaipur Mount Abu Trip</a>, <a href=\"https://go4explore.com/trips/rajasthan-backpacking-from-delhi-udaipur-jodhpur-jaisalmer\">Udaipur Jodhpur Jaisalmer Backpacking</a></p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Gurugram to Udaipur | Overnight Journey",
+      "description": "<ul><li>Assemble at the boarding point in Gurugram (IFFCO Chowk Metro Station or as informed).</li><li>Start an overnight journey to Udaipur and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Udaipur Arrival | Lakes, Bazaars & More",
+      "description": "<ul><li>After arriving in Udaipur, check-in to our hotel, have some leisure and freshen-up.</li><li>Head out to explore Rajasthan’s lake city and various heritage wonders.</li><li>Visit the Saheliyon Ki Bari, Maharana Pratap Memorial and Under the Sun Aquarium. A trip to Udaipur will remain incomplete without soaking in the serenity of its freshwater lakes. In the evening, enjoy mesmerizing sunset at Fatehsagar Lake, go out in Fatehsagar’s local market area for lip-smacking street food options.</li><li>Post explorations, head back to your comfy accommodation.</li><li>Dinner and overnight stay in a hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Udaipur Old City Exploration | Cafe Hopping",
+      "description": "<ul><li>Wake up and post a delightful breakfast, set out to explore the other major attractions in Rajasthan’s lake city.</li><li>Visit Udaipur’s City Palace and experience the grandeur and rich history of Mewar region. The City Palace offers panoramic views of Pichola lake and the entire white city. </li><li>Built in the 17th century and dedicated to Lord Vishnu, visit Jagdish Temple and witness the intricate carvings of the temple. Also, visit Karni Mata Temple (via ropeway/by foot on your own).</li><li>In the evening, feel free to either witness the cultural & folk-art performances at the beautiful Bagore Ki Haveli (on your own) nestled along Lake Pichola or explore Gangaur Ghat and streets of Udaipur decorated with various local handicrafts, colorful fabrics, souvenirs, and chill at lake-view cafes.</li><li>Dinner and overnight stay in a hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Kumbhalgarh Fort | Depart for Gurugram",
+      "description": "<ul><li>Wake up and post a delightful breakfast, check-out from our hotel and drive towards Kumbhalgarh Fort - one of the most beautiful forts in Rajasthan and a UNESCO World Heritage Site.</li><li>After arriving at Kumbhalgarh, head out to explore the magnificent fort. The walls of the fort extend over 38 km and is the second longest wall after the Great Wall of China.</li><li>In the evening, say goodbye to Kumbhalgarh and start-off your return journey for Gurugram.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Gurugram Arrival | Trip Ends",
+      "description": "<ul><li>Reach Gurugram early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Gurugram to Gurugram: Tempo Traveler/AC Bus.",
+    "Accommodation on Sharing Basis: 2 Nights in Hotel.",
+    "4 Meals: Dinner (2) & Breakfast (2), starting from Dinner on Day 1 to Breakfast on Day 3.",
+    "All local explorations as per itinerary: City Palace, Jagdish Temple, Karni Mata Temple, Fatesagar Lake, Saheliyon Ki Bari, Lake Pichola, Gangaur Ghat, Bagore Ki Haveli and Kumbhalgarh Fort.",
+    "Experienced and cool Trip Captain.",
+    "Driver allowances, toll taxes, parking, state road taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees/monuments fees, extra expenses for optional activities, room heaters or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
   {
-    slug: 'jaisalmer-and-longewala',
-    title: 'Jaisalmer and Longewala',
-    destination: 'Rajasthan',
-    duration: '3 Days 2 Nights',
-    price: '₹7500',
-    originalPrice: '₹8500',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/15931420240830095731.png',
-    overview: 'Experience the Golden City of Jaisalmer, enjoy a desert safari, and pay respects at the historic Longewala border post.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Camp Stay', 'Hotel Stay', 'Transfers', 'Desert Safari'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Meals'],
-  },
+  "slug": "jaisalmer-and-longewala",
+  "title": "Jaisalmer and Longewala",
+  "destination": "Rajasthan",
+  "duration": "3 Days 2 Nights",
+  "price": "₹7,500",
+  "originalPrice": "₹8,500",
+  "discount": "₹1,000",
+  "imageUrl": "/cloned_media/15931420240830095731.png",
+  "gallery": [
+    "/cloned_media/42218720201110122656.png",
+    "/cloned_media/15412320201110122656.png",
+    "/cloned_media/40019020201110122656.png",
+    "/cloned_media/23060920201110122656.png",
+    "/cloned_media/2203520201110122656.png",
+    "/cloned_media/37662720201110122656.png",
+    "/cloned_media/10682820201110122656.png",
+    "/cloned_media/22461420201110122656.png",
+    "/cloned_media/5708220201110122656.png"
+  ],
+  "overview": "<h2>About Jaisalmer and Longewala Tour Package</h2><p>Imagine stepping into the golden sands of the land of Rajasthan, where history and adventure blend seamlessly. Our Jaisalmer and Longewala tour package presents before you the majestic \"Golden City\" and its surrounding wonders. Picture yourself wandering through the narrow lanes of Jaisalmer in wonder at intricately carved havelis or the imposing Fort of Jaisalmer. As the sun sets, you will be treated to a magical desert safari replete with camel rides and a night under the starry sky.</p><p>But that's not all! Visit Longewala and pay a tribute to those brave soldiers who protected our nation. All of a sudden, stand on the exact battlefield where history was written, and again you feel this surge of patriotism. This isn't some sort of vacation; it's a voyage through time and emotions. This is not just a holiday but a journey through time and emotions. Get ready for this perfect amalgamation of culture, history, and natural beauty. Book this <a href=\"/trip/rajasthan\" style=\"color:blue;\">Rajasthan Tour Package</a> now and create lifelong memories!</p><h3>Best Places to Visit Jaisalmer</h3><p><strong>Jaisalmer Fort-</strong> <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Jaisalmer_Fort\" style=\"color:blue;\">Jaisalmer Fort</a> is also called Sonar Qila, a citadel of imposing golden sandstone, dominating the rooftops of the city. A living fort, within its walls are shops, hotels, and residences that give the visitor a unique glimpse of medieval life and panoramic views of the surrounding desert.</p><p><strong>Patwon Ki Haveli-</strong> Patwon Ki Haveli is a group of five beautifully carved havelis showing the finest examples of Rajasthani architecture. Some 19th-century masterpieces, these havelis have beautiful jharokhas or balconies, intricate murals, and mirror work, which showcase the lavishness of the wealthy merchants of that time.</p><p><strong>Gadisar Lake-</strong> Another manmade lake, constructed in the 14th century, Gadisar Lake supplied Jaisalmer with the main source of water. Now it is a peaceful, serene spot surrounded by temples and ghats. One can take a boat ride, watch migratory birds, or simply sit by the peaceful waters.</p><p><strong>Sam Sand Dunes-</strong> Sam Sand Dunes, located approximately 40 km from Jaisalmer, offers you an ultimate desert experience. Take camel safaris, witness breathtaking sunsets, camp under starry skies, and get soaked in the endless undulating golden landscape of Thar Desert.</p><p><strong>Longewala War Memorial-</strong> <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.tourism.rajasthan.gov.in/content/rajasthan-tourism/en/longewala_war_memorial.html\" style=\"color:blue;\">Longewala War Memorial</a> is dedicated to the brave, fearless soldiers of India who fight for the nation. It embarks on captured Pakistani tanks, a war museum, and information on display that depict the historic battle, its importance, and significance.</p><p><strong>Bada Bagh-</strong> Bada Bagh, literally \"Big Garden,\" is a royal cenotaph complex situated about 6 km north of Jaisalmer. Actually, it's an assemblage of wonderful chhatris—cenotaphs—of every ruler who has ever ruled Jaisalmer. Set up for calm surroundings, carrying solemn silence and beautiful views of surroundings, especially during sunrise and sunset.</p><p><strong>Jain Temples-</strong> Jain Temples within Jaisalmer Fort are some other architectural marvels of the 12th century. Beautiful sculptures with intricate carving and facings, tinted with yellow sandstone, reflect a rich cultural heritage of Jainism in this region.</p><p><strong>Desert National Park-</strong> This Desert National Park is a big chunk of the Thar ecosystem with its manifold wildlife, from picturesque sand dunes to rocky landscapes and salt lake bottoms, providing a view of the Great Indian Bustard and other important desert animals and birds.</p><p><strong>Kuldhara Abandoned Village-</strong> Situated 18 km away from Jaisalmer, Kuldhara Abandoned Village is cloaked in mystery and wrapped in legend. This 13th century village was inhabited by Paliwal Brahmins and one fine day it was abandoned overnight. Today, it stands in ruins, haunting and interestingly beckoning curious tourists and history buffs alike.</p><p><strong>Thar Heritage Museum-</strong> The fast-responding Thar Heritage Museum comes up with an alluring glance at the culture and history of the Thar Desert, displaying the samples selected from the fossils, ancient musical instruments, turbans, and several artifacts having a rich reflection of Rajasthan heritage.</p><p><strong>Nathmal Ki Haveli-</strong> Nathmal Ki Haveli, built in the 19th century, is one of the most unique architectures. Two brothers, architectural designers, designed it in such a way that on one side of the central façade, they just created a mirror image of the other. This asymmetrical yet harmonious facade makes up for beautiful stone carvings.</p><p><strong>Longewala Battle Site-</strong> <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Battle_of_Longewala\" style=\"color:blue;\">Longewala Battle Site</a> is the site that still retains the exact area where, in 1971, a small Indian army post withstanded a massive attack launched by Pakistan. Tourists can see original bunkers, trenches, and the land that played their crucial part in this historic battle.</p><p><strong>Tanot Mata Temple-</strong> Tanot Mata Temple, located next to Longewala, is revered because it miraculously survived the 1965 Indo-Pak war. It is now maintained by the Border Security Force and contains unexploded Pakistani shells, drawing both pilgrims and history buffs.</p><p><strong>Border Pillar 609-</strong> Infrastructure-wise, Border Pillar 609 marks its presence at the India-Pakistan border near Longewala. While visitors are not allowed to go very close, one can watch over this symbolic pillar from a distance to get an idea of the strategic importance of this desert frontier region.</p><p><strong>Abandoned Pakistani tanks-</strong> Abandoned Pakistani tanks astride the Longewala settlement are a grim pointer to the battle there in 1971. These rusting war machines in the midst of the desert provide powerful photo opportunities and bring out a feel of the area's military history.</p><h3>Things to do in Jaisalmer</h3><p>Desert safari in the Thar Desert Experience the magic of the desert with camel rides, jeep tours, and camping under the stars.</p><p>Sunset at Sam Sand Dunes Witness a spectacular desert sunset and enjoy traditional Rajasthani music and dance performances.</p><p>Architectural tours Explore the intricate havelis, like Patwon Ki Haveli and Salim Singh Ki Haveli, to admire Rajasthani architecture.</p><p>Boating on Gadisar Lake Enjoy a peaceful boat ride on this picturesque lake, especially beautiful during sunrise or sunset.</p><p>Shop for local handicrafts Purchase colorful textiles, embroidered items, and silver jewelry in Jaisalmer's bustling markets.</p><p>Take a cooking class Learn to prepare traditional Rajasthani dishes and spice blends from local experts.</p><p>Attend the Desert Festival If visiting in February, experience this vibrant celebration of Rajasthani culture with music, dance, and camel races.</p><p>Photograph abandoned tanks at Longewala Capture striking images of war relics set against the desert landscape.</p><p>Local delicacies of Jaisalmer offer unique desert delights. Savor spicy Ker Sangri, crispy Gatte ki Sabzi, and rich Laal Maas. Don't miss Daal Baati Churma, Bajre ki Khichdi, and sweet Ghotua for an authentic taste of Rajasthan.</p><h3>How to Reach Jaisalmer</h3><p><strong>By Air:</strong> Jaisalmer Airport is about 5 km from the city center. It will have limited connectivity with flights mainly from Delhi and Jaipur. You can also fly to Jodhpur, 285 km away, and then take a taxi or bus to Jaisalmer.</p><p><strong>By Train:</strong> The Jaisalmer Railway Station has good connectivity to all major cities like Delhi, Mumbai, and Jaipur. The luxury train Palace on Wheels also has a halt here. It offers a royal way to travel.</p><p><strong>By Road:</strong> Highways are well-maintained, and regular buses run from Jaipur, Jodhpur, and Bikaner. You may drive down or hire a taxi for a desert journey of sheer scenery.</p><p><strong>From Longewala:</strong> Longewala is 120 km away from Jaisalmer. One can hire a taxi or take a guided tour for a day's excursion. Special permits may be required due to its border alignment.</p><h3>Best Time to Visit Jaisalmer</h3><p><strong>October to March:</strong> This is the peak tourist season and considered to be the best time to visit Jaisalmer. The weather is pleasant with daytime temperatures ranging from 24°C to 30°C, which makes it perfect for sightseeing purposes and desert activities. However, the nights can get cool and drop to around 7°C to 12°C.</p><p>Other Related Rajasthan Packages: <a href=\"/trips/udaipur\" style=\"color:blue;\">Udaipur Tour Packages</a>, <a href=\"/trips/rajasthan-backpacking-udaipur-jodhpur-jaisalmer\" style=\"color:blue;\">Udaipur Jodhpur Jaisalmer Backpacking</a>, <a href=\"/trips/ny-rajasthan-backpacking\" style=\"color:blue;\">New Year Rajasthan Backpacking</a>, <a href=\"/trips/rajasthan-backpacking-pushkar-udaipur-bikaner\" style=\"color:blue;\">Pushkar Udaipur Bikaner Backpacking</a>, <a href=\"/trips/rajasthan-backpacking-from-delhi-udaipur-jodhpur-jaisalmer\" style=\"color:blue;\">Udaipur Jodhpur Jaisalmer from Delhi</a></p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Gurugram to Jaisalmer | Overnight Journey",
+      "description": "<ul><li>Assemble at the boarding point in Gurugram (IFFCO Chowk Metro Station or as informed).</li><li>Start an overnight journey to Jaisalmer and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Jaisalmer Arrival | Desert Safari & Rajasthani Folk Night",
+      "description": "<ul><li>After arriving in Jaisalmer, check-in to our campsite located in Sam Sand Dunes, freshen-up and have some leisure.</li><li>Get ready and head out for Camel Safari in Thar Desert. Witness the beautiful sunset while enjoying your camel ride. Experience the thrill in Jeep Dune Bashing.</li><li>In the evening, enjoy a warm bonfire with Rajasthani folk music, Kalbelia dance and quick snacks.</li><li>Savour home-style cooked Rajasthani dinner and overnight stay in camps.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Ruins of Kuldhara | The Longewala Battlefield",
+      "description": "<ul><li>Wake up and post a delightful breakfast, drive from Sam Sand Dunes to Longewala Post, near Indo-Pakistan Border.</li><li>Enroute Longewala, we'll visit Kuldhara village, an abandoned village dating back to 200 hundred years.</li><li>After arriving at Longewala Post, visit the war memorial and museum stationed near the India-Pak border; gather for an #InstaPerfect group picture. Also, visit Tanot Mata (if time permits).</li><li>Drive back to camps, enjoy the traditional Rajasthani cultural program with a dance around the bonfire and quick snacks.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Jaisalmer City Exploration | Depart for Gurugram",
+      "description": "<ul><li>Wake up and post a delightful breakfast, check-out from our property and drive towards Jaisalmer city from Sam Sad Dunes.</li><li>Head out to explore India’s only living fort - Jaisalmer Fort. Take a walk in this magnificent historic fort and learn the legends associated with it.</li><li>Visit other major attractions like Gadsisar Lake, Patwon Ki Haveli, etc.</li><li>Feel free to explore the local market and taste different cuisines at recommended themed cafes/restaurants.</li><li>In the evening, say goodbye to Rajasthan’s Golden City and start-off your return journey for Gurugram.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Gurugram Arrival | Trip Ends",
+      "description": "<ul><li>Reach Gurugram early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Gurugram to Gurugram: Tempo Traveler/AC Bus.",
+    "2 Nights Accommodation on Sharing Basis: Swiss Camps (Sam Sand Dunes).",
+    "6 Meals: Dinner (2), Breakfast (2) & Evening Snacks (2), starting from Evening snacks on Day 1 to Breakfast on Day 3, including Rajasthani Dinner only on any 1 Night during the stay.",
+    "Rajasthani folk show with Bonfire & music at Sam Sand Dunes.",
+    "Desert Activities: camel safari & jeep dune bashing.",
+    "Experienced and cool Trip Captain.",
+    "Driver allowances, toll taxes, parking, state road taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees/monuments fees, extra expenses for optional activities, room heaters or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
   {
-    slug: 'rajasthan-backpacking-udaipur-jodhpur-jaisalmer',
-    title: 'Rajasthan Backpacking- Udaipur Jodhpur Jaisalmer',
-    destination: 'Rajasthan',
-    duration: '5 Days 4 Nights',
-    price: '₹22000',
-    imageUrl: '/cloned_media/18890720240830122755.png',
-    overview: 'A backpacking adventure through three of Rajasthan\'s most captivating cities: Udaipur, Jodhpur, and Jaisalmer.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hostel/Guesthouse Stay', 'Intercity Bus Tickets', 'Guided Tours'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Meals'],
-  },
+  "slug": "rajasthan-backpacking-udaipur-jodhpur-jaisalmer",
+  "title": "Rajasthan Backpacking- Udaipur Jodhpur Jaisalmer",
+  "destination": "Rajasthan",
+  "duration": "5 Days 4 Nights",
+  "price": "₹22,000",
+  "originalPrice": null,
+  "discount": null,
+  "imageUrl": "/cloned_media/18890720240830122755.png",
+  "gallery": [
+    "/cloned_media/37286020231024132811.png",
+    "/cloned_media/34699520231024132811.png",
+    "/cloned_media/24931020240801125850.png",
+    "/cloned_media/35065820240801125850.png",
+    "/cloned_media/28973320240801125851.png",
+    "/cloned_media/19940820240801125851.png",
+    "/cloned_media/18034720240801125851.png",
+    "/cloned_media/17230820240801125851.png"
+  ],
+  "overview": "<h2>About Udaipur Jodhpur Jaisalmer Backpacking Trip</h2><p>Embarking on a backpacking trip to Rajasthan’s most breathtaking and historically rich cities like Udaipur, Jodhpur and Jaisalmer offers an incredibly topmost experience for travelers. Rajasthan, ‘The Land of Kings’ or ‘The Land of Kingdom’ is India’s largest state by area. The state is situated in the north-west part of the country and is a realm of cultural diversity.</p><p>Primarily, we’ll explore the ‘City of Lakes’ also known as ‘White City’ which is Udaipur, famous for its pristine lakes like Lake Pichola, historic forts like Sajjangarh Fort also known as ‘Monsoon Palace’ and City Palace, galleries, museums we’ll explore all these places which are mentioned in our itinerary as well as local market where travelers can find Rajasthan’s famous traditional bandhani and batik sarees, handmade juttis, oxidized silver and camel jewelry for women and traditional clothing for men as well and we’ll get to relish the taste of traditional Rajasthani’s cuisine also enjoy the cultural performances at Bagore ki Haveli.</p><p>After exploring ‘White City’ we’ll advance towards Kumbhalgarh Fort also known as ‘The Great Wall of India’ one of the most alluring Forts of the Rajasthan, which is also a UNESCO World Heritage Site and next we’ll stop by to visit the Maharana Pratap Museum in Haldighati, constructed in the honor of Mewari Rana, before arriving at our next destination Jodhpur ’. It is the second largest city in Rajasthan with its genesis going back to 1459 AD. Jodhpur is also known as the ‘Blue City’ which makes perfect sense since most of its palaces, forts and temples are painted in shades of blue. In Jodhpur, you’ll be awestruck by the grandeur of Mehrangarh Fort, the serene beauty of Jaswant Thada, The royal beauty of Umaid Bhawan and the vibrant chaos of the old city’s narrow lanes and bustling markets.</p><p>The clock tower and Sardar Market offer a sensory overload of spices, textiles, and handicrafts while affordable lodging and local delicacies like Mirchi vada and Mawa kachori add to the experience.</p><p>Finally Jaisalmer, ‘The Golden City’ captivates with its living fort, labyrinthine streets and golden hue at sunsets. Highlights include the famous architectural splendor of Patwon Ki Haweli, the adventure of camel safaris at sam sand dunes and the tranquility of Gadisar Lake. Travelers can camp under the stars and savor Rajasthani dishes like Gatte ki Sabzi.</p><h3>Places to Visit in Udaipur, Jodhpur and Jaisalmer</h3><p>There are plethora of places to explore</p><ul><li><strong>City Palace-</strong> It is one of the most breathtaking attractions and a magnificent complex of courtyards, museum and palaces in Udaipur offering glimpses of Rajasthan’s royal history and stunning views of Lake Pichola.</li><li><strong>Lake Pichola-</strong> Enjoy a serene boat ride and visit the island palaces like Jag Mandir and Jag Niwas (now the lake palace hotel).</li><li><strong>Jagdish Temple-</strong> Jagdish Temple is an architectural marvel with intricate carvings dedicated to Lord Vishnu, located in the heart of the city.</li>  <li><strong>Sajjangarh Fort-</strong> Sajjangarh Fort, also known as the <a href=\"https://en.wikipedia.org/wiki/Monsoon_Palace\" style=\"color:blue;\" target=\"_blank\" rel=\"noopener noreferrer\">Monsoon Palace,</a> nestled atop a hill in Udaipur, offering panoramic views of the city, its lakes and the surrounding Aravalli Hills, built by Maharana Sajjan Singh in 1884, it was originally intended as an astronomical center and a monsoon retreat. The fort’s majestic architecture and breathtaking sunset views make it a popular tourist destination.</li><li><strong>Mehrangarh Fort-</strong> one of India's largest forts, with panoramic views of the blue city, museums and palaces within its walls.</li><li><strong>Jaswant Thada-</strong> A beautiful marble cenotaph near Mehrangarh Fort, known for its intricate carvings and serene gardens.</li><li><strong>Umaid Bhawan Palace-</strong> A luxurious palace, now partly a hotel and museum, showcasing the royal family’s history and vintage car collection.</li><li><strong>Clock Tower and Sardar Market-</strong> A bustling market area offering spices, textiles, handicrafts and an authentic local shopping experience.</li><li><strong>Jaisalmer Fort-</strong> A living fort with a maze of narrow streets, temples, havelis and shops glowing golden at sunset.</li><li><strong>Patwon ki Haveli-</strong> A cluster of 5 havelis with intricate architecture and historical artifacts offering insights into the affluent merchants style.</li><li><strong>Sam Sand Dunes-</strong> Experience the Thar desert with camel safaris, jeep rides, and overnight stays in desert camps under the stars.</li><li><strong>Gadisar Lake-</strong> A peaceful spot for a leisurely stroll or boat ride, surrounded by Temples and ghats, built to store water.</li></ul><h3>Things to do in Udaipur Jodhpur, Jaisalmer Trip</h3><ul><li><strong>Fort and Museum Exploration-</strong> In Udaipur, explore a grand palace complex and a historic haveli turned museum both showcasing royal artifacts and traditional art. Jodhpur offers a hill top fort with extensive exhibits of regional history and a grandpa palace museum displaying royal heirlooms. Jaisalmer features a bustling living fort with a palace museum and intricately carved mansions depicting merchant style. These sights offer rich insights into the architectural and cultural heritage of Rajasthan.</li><li><strong>Mehrangarh Fort Tour-</strong> Jodhpur, meaning ‘fort of the sun’, built by Rao Jodha. Over 500 yards long, Mehrangarh Fort’s wall rises in places to a height of 120 feet and is 70 feet thick, so colossal are its proportions that Rudyard Kipling called it “ the work of giants”. It is an exquisite blend of rajputana and Mughal architecture Today, it is acknowledged as one of the best preserved forts in India.</li><li><strong>Osian Desert Safari-</strong> Osian is an amazing desert safari place and historical town located off the Jodhpur-Jaisalmer train route. It is an oasis in the Thar known for 12th century Hindu &amp; Jain temples. If you are looking for a camel ride and luxury desert camping near Jodhpur? Osian is the perfect place to go.</li><li><strong>Explore Lakes of Udaipur-</strong> Lake Fatehsagar located in Udaipur is an artificial lake named after Maharana Fateh Singh. The lake has three islands, the biggest the nehru island is famous with tourists, the middle has a park and a spectacular water jet fountain with the third housing the Udaipur observatory. The lake shows a quintessential stillness of water. The mesmerizing ripples, the crystal clear effect of the lake makes it one of the best places to visit. Lake Pichola is one of the most memorable sites in India.<br>It even captivated Maharana Udai Singh with its beauty that decided to build the city of Udaipur on its banks. The lake is known for the many places that line banks such as City palace, Jag Mandir, Mohan Mandir, Lake palace, Arsi Vilas and so much more. Visiting this place is a must from my perspective at least once in your life.  <br>Gadisar lake is another artificial lake built by the founder of Jaisalmer king Rawal Jaisal. A calm and magical experience during sunset can leave you breathless and lost in its beauty. A one of its kind highly recommended place to visit.</li><li><strong>Explore City Palace-</strong> Located at an elevation of 1,962 ft, the City Palace complex was built by the 22 generations of Sisodia Rajputs. 11 smaller palaces and other structures are built seamlessly into its design. Built from marble and granite, the amazing blend between the architectural styles of rajputs and other influential civilizations of the time will render you speechless and awestruck.</li><li><strong>Jaisalmer’s Living Fort Tour-</strong> Jaisalmer Fort or sonar quila aka. the golden fortress. One of the most magnificent fortresses located in the city of Jaisalmer. Recognised by UNESCO as a world heritage site, it is one of the largest fully preserved fortresses of its time. Showing a magnificent style of Rajputana architecture with Mughal influence. The fort is a splendid example of historical Rajasthani style.</li><li><strong>Try Rajasthani Delicacies-</strong> Exploring Rajasthani cuisine is a feast for the senses, with an array of robust and aromatic dishes. Start with Dal Baati Churma, where the crisp baatis are drenched in ghee and served with a sweet Churma. Savor the intense flavors of Laal Maas, a traditional spicy mutton curry and the unique Gatte ki Sabzi, made from gram flour dumplings in a tangy yogurt sauce. The variety extends to snacks like Pyaaz Kachori, and Mirchi Bada perfect for a spicy kick. Relish the famous Rajasthani desserts such as Ghewar and Mawa Kachori showcasing the region’s penchant for indulgence and intricate flavors.</li><li><strong>Lake-View Cafes in Udaipur-</strong> Udaipur’s lake view cafes, like Ambrai Restaurant, Jagat Niwas Palace Hotel, offer breathtaking vistas of Lake Pichola alongside delicious cuisine. Enjoy a romantic meal at Upre by 1559 AD or relax at Jheel Ginger’s Bar and Bakery with serene water views. For a more royal experience, The Sunset Terrace at Fateh Prakash Palace is a must visit.</li><li><strong>Desert Safari in Sam and Sand Dunes-</strong> A desert safari in Sam Sand Dunes offers an exhilarating experience of the vast thar desert in Jaisalmer. Visitors can enjoy thrilling activities such as dune bashing, camel rides and mesmerizing sunsets over the golden sands. The evening cultural programs with traditional music and dance further enrich the enchanting desert experience.</li><li><strong>Flying Fox in Jodhpur-</strong> Flying Fox in Jodhpur provides an adrenaline-pumping zip-lining experience over the majestic Mehrangarh Fort. Participants soar high above the fort's battlements and the stunning landscapes of the blue city. This adventure offers breathtaking views and a unique perspective of Jodhpur’s historic and architectural beauty.</li></ul><h3>Best time to visit Udaipur Jodhpur Jaisalmer</h3><p>The peak season to visit Udaipur, Jodhpur, Jaisalmer together is during the winter months from October to March. This period is considered the peak season for tourism in Rajasthan due to the pleasant and cool weather, which makes exploring these cities enjoyable. The temperature ranges from 10 degree celsius to 27 degree celsius, with warm sunny days and cool nights especially in the desert areas like Jaisalmer. Additionally this time coincides with several local festivals including the Pushkal camel fair, Diwali and the desert festival in Jaisalmer providing a rich cultural experience.</p><p>The favorable weather allows for comfortable sightseeing and outdoor activities such as visiting palaces, forts, lakes and the Thar Desert. However, it’s advisable to book accommodations well in advance as places can get fully booked quickly during this popular tourist season. Packing layers to accommodate the temperature changes between day and night including light woolens or jackets for cooler evenings are recommended. Planning for outdoor activities like camel safaris in Jaisalmer, boat rides in Udaipur and exploring the forts and palaces in Jodhpur will enhance your trip making it a more memorable experience.</p><h3>How To Reach Udaipur From Delhi</h3><ul><li><strong>By Air-</strong> The fastest way to reach Udaipur from Delhi is by taking a direct flight. Several airlines operate daily flights between Indira Gandhi international airport in Delhi and Maharana Pratap Airport in Udaipur. It takes around 1.5 hours to reach Udaipur From Delhi.</li><li><strong>By Train-</strong> Indian Railways operate several trains from Delhi to Udaipur. Popular options include The Mewar Express, Chetak Express and Udaipur City Express. Trains depart from various stations in Delhi such as Hazrat Nizamuddin (NZM), Delhi Cantonment (DEC) and New Delhi (NDLS). It takes around 12-14 hours to reach Udaipur from Delhi by Train.</li><li><strong>By Bus-</strong> Numerous private and state run buses connect Delhi to Udaipur. You can choose from luxury coaches, Volvo buses and sleeper buses. Buses usually depart from various points in Delhi including ISBT Kashmere Gate and Rajiv Chowk. It takes approximately 11-12 hours to reach Udaipur from Delhi by bus.</li><li><strong>By Car-</strong> Driving from Delhi to Udaipur is a viable option for those who prefer road trips, the distance is around 660 kilometers and the route typically taken is via NH48.</li></ul><h4>FAQ’s</h4><p><strong>1. How many days are required for the Udaipur, Jodhpur and Jaisalmer trip?</strong></p><p>Udaipur, Jodhpur and Jaisalmer Trip require 5-6 days to complete and enjoy the whole exploration experience.</p><p><strong>2. Which month is best to visit Jodhpur or Udaipur?</strong></p><p>October to March are the best months to visit Udaipur, Jodhpur and Jaisalmer.</p><p><strong>3. What is Jaisalmer famous for?</strong></p><p>Jaisalmer is famous for its Forts and historical architecture.</p><p><strong>4. Which is the most beautiful lake in Udaipur?</strong></p><p>There are several breathtaking lakes present in Udaipur, but the one which stands out the most is Lake Pichola.</p>",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Udaipur Arrival | Local Exploration",
+      "description": "<ul><li>After arriving in Udaipur, check-in to our hotel, have some leisure and freshen-up.</li><li>Head out to explore Rajasthan’s lake city and various heritage wonders. Visit Udaipur’s City Palace and experience the grandeur and rich history of Mewar region. Built in the 17th century and dedicated to Lord Vishnu, visit Jagdish Temple and witness the intricate carvings of the temple. Move towards Sajjangarh Fort also known as Monsoon Palace situated on a hilltop.</li><li>In the evening, feel free to either witness the cultural &amp; folk-art performances at the beautiful Bagore Ki Haveli (on your own) nestled along Lake Pichola or explore Gangaur Ghat and streets of Udaipur decorated with various local handicrafts, colorful fabrics, souvenirs, and chill at lake-view cafes.</li><li>Dinner and overnight stay in a hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Udaipur to Jodhpur | Kumbhalgarh Fort | Jodhpur Arrival",
+      "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel in Udaipur and drive to Jodhpur - Rajasthan’s blue city.</li><li>Enroute Jodhpur, we will take a halt and visit Kumbhalgarh Fort also known as The Great Wall of India, one of the most beautiful forts in Rajasthan and a UNESCO World Heritage Site. Next we will visit Maharana Pratap Museum in Haldighati built in honor of Mewari Rana and his battle with the Mughals.&nbsp;</li><li>After arriving in Jodhpur, check-in to our hotel and have some leisure.</li><li>Dinner and overnight stay in a hotel in Jodhpur.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Jodhpur Local Exploration | Historical Marvels",
+      "description": "<ul><li>Wake up early and post breakfast, we will head out for a local sightseeing tour of Jodhpur.</li><li>We will visit Umaid Bhawan Palace to witness the royalty and one of the largest private residencies in the world. Experience the grandeur of Mehrangarh Fort, one of the largest forts positioned in Rajasthan perched on top of a perpendicular cliff. We will end our blue city exploratory tour at Jaswant Thada, a cenotaph dedicated to Mewar kings and commonly known as the Taj Mahal of Mewar.</li><li>In the evening, feel free to treat your tastebuds with local flavours of Jodhpur near the Ghanta Ghar market.</li><li>Dinner and overnight stay in a hotel in Jodhpur.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Jodhpur to Jaisalmer | Thar Desert Diaries",
+      "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel in Jodhpur and drive to Jaisalmer - Rajasthan’s golden city.</li><li>After arriving in Thar Desert, check-in to our campsite located in Sam Sand Dunes, freshen-up and have some leisure.</li><li>Get ready and head out for Camel Safari in Thar Desert. Witness the beautiful sunset while enjoying your camel ride. Experience the thrill in Jeep Dune Bashing.</li><li>In the evening, enjoy a warm bonfire with Rajasthani folk music, Kalbelia dance and quick snacks.</li><li>Savour home-style cooked Rajasthani dinner and overnight stay in camps.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Rajasthan’s Golden City | Depart for Udaipur",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from our campsite in Sam Sand Dunes and drive towards Jaisalmer old city. Enroute, we'll visit Kuldhara village, an abandoned village dating back to 200 hundred years.</li><li>Head out to explore India’s only living fort - Jaisalmer Fort. Take a walk in this magnificent historic fort and learn the legends associated with it. Visit other major attractions like Gadsisar Lake, Patwon Ki Haveli, etc.</li><li>Feel free to explore Jaisalmer’s local market and taste different cuisines at recommended themed cafes/restaurants.</li><li>In the evening, start-off your return journey to Udaipur.</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Reach Udaipur | Trip Ends",
+      "description": "<ul><li>Reach Udaipur early in the morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Udaipur to Udaipur: Cab/Force Traveler.",
+    "Accommodation on sharing basis: 1 night in hotel (Udaipur), 2 nights in hotel (Jodhpur), 1 night in swiss camps (Jaisalmer).",
+    "8 Meals: Breakfast (4) and Dinner (4), starting from Dinner on Day 1 till Breakfast on Day 5. Complimentary evening snacks (veg) in Jaisalmer.",
+    "Activities in Jaisalmer: camel safari & jeep dune bashing and Rajasthani dinner & folk show.",
+    "All local explorations as per itinerary.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
   {
-    slug: 'pushkar-holi-special',
-    title: 'Pushkar Holi Special',
-    destination: 'Rajasthan',
-    duration: '2 Days 1 Night',
-    price: '₹6999',
-    imageUrl: '/cloned_media/10269820250204094556.png',
-    overview: 'Experience the vibrant and unique Holi celebrations in the holy city of Pushkar. A trip filled with colors, music, and culture.',
-    itinerary: createItinerary('2 Days 1 Night'),
-    inclusions: ['Camp/Hotel Stay', 'Transfers from Jaipur/Delhi', 'Holi Celebration Entry'],
-    exclusions: ['Meals', 'Personal Expenses'],
-  },
+  "slug": "pushkar-holi-special",
+  "title": "Pushkar Holi Special",
+  "destination": "Rajasthan",
+  "duration": "2 Days 1 Night",
+  "price": "₹6,999",
+  "originalPrice": null,
+  "discount": null,
+  "imageUrl": "/cloned_media/10269820250204094556.png",
+  "gallery": [
+    "/cloned_media/26717720250204100527.png",
+    "/cloned_media/24623820250204100527.png",
+    "/cloned_media/22606520250204100527.png",
+    "/cloned_media/22294620250204100527.png",
+    "/cloned_media/41176220250204100527.png",
+    "/cloned_media/17326920250204100527.png"
+  ],
+  "overview": "<p>Packed with beautiful temples, soothing lake ghats and hippie vibes, Pushkar is truly a paradise for backpackers and turns into the most happening travel destination during the ‘festival of colours’ - Holi. A tiny holy town dwelled between Aravalli hills, Pushkar is home to World's only Brahma Temple. So, just lose yourself in Pushkar’s epic Holi celebration, enjoy delightful street food and gather the best memories of your lifetime.</p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Gurugram to Pushkar | Overnight Journey",
+      "description": "<ul><li>Assemble at boarding point in Gurugram and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Pushkar and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Pushkar Arrival | Holi Celebrations, Cafe Hopping & More",
+      "description": "<ul><li>After arriving in Pushkar, check-in to our comfy hotel, freshen-up and treat yourself with a delightful breakfast.</li><li>Hit the streets of Pushkar for an #InstaPerfect Holi celebration like never before. Your Holi celebrations will remain incomplete without tasting the delicious malpuas and the refreshing bhang wali lassi or thandai. Post Holi celebrations, return to your property and have some leisure.</li><li>In the evening, feel free to stroll around on the streets of Pushkar on your own. Witness the divine aarti at Brahma Ghat on the banks of Pushkar Sarovar or go for cafe hopping.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Pushkar Local Explorations | Ajmer Sharif Dargah",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from our property and head out for Pushkar’s local explorations.&nbsp;</li><li>Seek blessings at the only Brahma Temple in the World, explore the sacred ghats of Pushkar Sarovar and treat your stomach with mouth-watering street food like falafal rolls and pakoras. Visit Savitri Mata Temple via ropeway (on your own) and witness the jaw dropping view of Pushkar from the Aravalli hilltop.</li><li>In the evening, drive from Pushkar towards Ajmer city and pay homage at the popular Ajmer Dargah Sharif - a sacred sufi shrine, and eat at local food spots nearby.</li><li>In the night, start your overnight journey from Ajmer to Gurugram.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Gurugram Arrival | Trip Ends",
+      "description": "<ul><li>Reach Gurugram early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Gurugram to Gurugram: Tempo Traveler/AC Bus.",
+    "Accommodation on Sharing Basis: 1 Night in Hotel with Swimming Pool.",
+    "3 Meals: Dinner (1) & Breakfast (2), starting from Breakfast on Day 1 to Breakfast on Day 2.",
+    "All local explorations as per itinerary: Pushkar Sarovar, Jagatpita Brahma Temple, Savitri Mata Temple, Ajmer Dargah Sharif and Ghats of Pushkar.",
+    "Experienced and cool Trip Captain.",
+    "Holi celebrations.",
+    "Driver allowances, toll taxes, parking, state road taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees/monuments fees, extra expenses for optional activities, room heaters or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
   {
-    slug: 'udaipur-mount-abu-trip-from-delhi',
-    title: 'Udaipur & Mount Abu Trip From Delhi',
-    destination: 'Rajasthan',
-    duration: '4 Days 3 Nights',
-    price: '₹11999',
-    imageUrl: '/cloned_media/2774120230716155320.png',
-    overview: 'A refreshing journey from Delhi to the city of lakes, Udaipur, and Rajasthan\'s only hill station, Mount Abu.',
-    itinerary: createItinerary('4 Days 3 Nights'),
-    inclusions: ['Transfers from Delhi', 'Hotel Stay', 'Sightseeing'],
-    exclusions: ['Entry Fees', 'Meals'],
-  },
+  "slug": "udaipur-mount-abu-trip-from-delhi",
+  "title": "Udaipur & Mount Abu Trip From Delhi",
+  "destination": "Rajasthan",
+  "duration": "4 Days 3 Nights",
+  "price": "₹11,999",
+  "originalPrice": null,
+  "discount": null,
+  "imageUrl": "/cloned_media/2774120230716155320.png",
+  "gallery": [
+    "/cloned_media/39201220230716155320.png",
+    "/cloned_media/36140920230716155320.png",
+    "/cloned_media/16810620230716155320.png",
+    "/cloned_media/20396620230716155320.png",
+    "/cloned_media/15782820230716155320.png",
+    "/cloned_media/36352920230716155320.png",
+    "/cloned_media/21553820230716155320.png",
+    "/cloned_media/10515020230716155320.png",
+    "/cloned_media/5449220230716155320.png",
+    "/cloned_media/27188220230716155320.png"
+  ],
+  "overview": "<h2>About Udaipur and Mount Abu Tour Package</h2><p>Our Udaipur and Mount Abu tour package is an enigmatic combination of royal grandeur and hill station charm in the beautiful state of Rajasthan. \"The City of Lakes,\" Udaipur, welcomes one with its romantic ambiance and majestic palaces. Imagine floating on Lake Pichola as the sun sets, the golden light across the sparkling waters as one approaches the iconic Lake Palace.</p><p>Visit the sumptuous City Palace, reflecting multi amount Rajasthani architecture, and lose yourself in leafy Saheliyon Ki Bari gardens. From there, retreat to the cool breezes and teak forests of Mount Abu, the only hill station in Rajasthan.</p><p>Hike to stunning Nakki Lake, set amidst rolling hills and ancient rock formations, and visit the exquisitely carved Dilwara Jain Temples, surely a testament to human adeptness in art. Our exclusive itinerary has been specially designed so that you get the best of both places with comfortable accommodation, expert guides, and hassle-free transportation.</p><p>We give you experiences in store, be it with the historical buff, the nature enthusiast, or the romantic getaway, this tour will leave you with memories. Imagine relishing authentic Rajasthani food, shopping in colorful markets, and seeing the sun set behind the Aravalli Hills. Let us help you live out that dream of a Rajasthan adventure. Book our exclusive <a href=\"https://go4explore.com/trip/rajasthan\" style=\"color:blue;\">Rajasthan Tour Package</a> with Go4Explore and get set for the journey of your senses that will leave you with life-long tales.</p><h3>Best Places to Visit in Udaipur Mount Abu Tour</h3><ul><li><strong>City Palace:</strong> Perhaps the most breathtaking complex views of Lake Pichola are from the hallowed halls of this city palace, a marvelous example of Rajasthani architecture. It comprises an extensive structure with palaces, museums, courtyards, and ornate rooms that present a visitor with vivid glimpses into the life of luxury led by the royal family of Mewar.</li><li><strong>Lake Pichola:</strong> Flanked by hills, palaces, and temples, Lake Pichola is the heart of Udaipur. This artificial lake with serene waters and two island palaces makes the <a href=\"https://go4explore.com/trips/udaipur\" style=\"color:blue;\">Udaipur Tour</a> very romantic. It had been appropriately tagged as the \"Venice of the East\".</li><li><strong>Saheliyon Ki Bari:</strong> The major attraction of this ornamental garden is that it was made so that royal ladies could pass their leisure time. With its lotus pools, marble elephants, and fountains, the place, prima facie, is a peaceful retreat from the maddening crowd of the city and essays the aesthetics of the nobility of Rajasthan.</li><li><strong>Nakki Lake:</strong> Legend has it that gods carved Nakki Lake with their nails. This beautiful lake overlooked by hills and rock formations is a favorite haunt for boating and picnics. Here the atmosphere does reasonable justice to give a refreshing refrieve in Mount Abu.</li><li><strong>Dilwara Jain Temples:</strong> The Dilwara Temples are among the finest marvels in architecture because of their exquisite marble carvings. Intricate designs and delicate workmanship—such as the remains of those five temples, built during the 11th to 13th centuries, still evoke awe in visitors' minds.</li><li><strong>Monsoon Palace:</strong> Perched atop Bandara Hill, the Monsoon Palace overshadows Udaipur's lakes and palaces in a panoramic view. What was this hilltop retreat turned into for the vantage point of the tracking of monsoon clouds is an attraction today for the tourists to view the exquisite sunset and get a glimpse of the romantic landscape of this city.</li><li><strong>Fateh Sagar Lake:</strong> With the Aravalli Hills on either side, this artificial lake forms a good picnic/picnic spot. Fateh Sagar Lake has three small islands—on one of these is situated the Nehru Park; it offers boating facilities and breathtaking views, especially at sunset.</li><li><strong>Jagdish Temple:</strong> Situated beside the City Palace, Jagdish Temple is one of the most beautiful examples of Indo-Aryan architecture. This is a three-storied house of God dedicated to Lord Vishnu. Delicately carved sculptures and valorous pillars, combined with an imposing 79-foot spire, are subordinate to attract not only devotees but also architecture enthusiasts.</li><li><strong>Guru Shikhar:</strong> Guru Shikhar is the highest peak of the Aravalli Range, offering panoramic views in all directions. This place houses a temple dedicated to Guru Dattatreya. At this spot, the significance of spirituality has been blended along with natural beauty, thus making this a must-visit for trekkers and pilgrims.</li><li><strong>Mount Abu Wildlife Sanctuary:</strong> Encompassing an area of 290 square kilometers, this sanctuary hosts a wide range of flora and fauna. Debbie is home to leopards, sloth bears, over 250 species of birds, nature trails, and a view of the rarest of these animals in their natural surroundings.</li><li><strong>Bagore ki Haveli:</strong> This 18th-century haveli (mansion) is located at Gangaur Ghat on Lake Pichola's waterfront. Once home to Mewar's prime minister, it's now a museum showcasing Rajasthani culture. The haveli features intricate carvings, colorful glass and mirror work, and displays of costumes and modern art. In the evenings, it hosts the popular \"Dharohar\" cultural show, presenting traditional Rajasthani music and dance.</li><li><strong>Gangaur Ghat:</strong> Named after the Gangaur festival, this ghat (series of steps leading to the water) is one of the most famous in Udaipur. It's located on the banks of Lake Pichola and is known for its architectural beauty and religious significance. During the Gangaur festival, it becomes a center of celebrations. The ghat offers beautiful views of the lake and surrounding palaces, making it a popular spot for both locals and tourists.</li><li><strong>Ambrai Ghat:</strong> Also situated on Lake Pichola, Ambrai Ghat is renowned for its spectacular views of the City Palace, Lake Palace, and Jag Mandir. It's a favorite spot for watching sunsets over the lake. The ghat is home to several restaurants offering lakeside dining, where visitors can enjoy local cuisine while taking in the picturesque surroundings. It's particularly beautiful in the evening when the palaces are illuminated.</li></ul><h3>Things to do in Udaipur and Mount Abu Trip</h3><p><strong>Take a boat ride across Lake Pichola:</strong> Experience the calm waters of Lake Pichola and get up-close views of the City Palace, Lake Palace, and Jag Mandir. Of concern are the sunset cruises, offering a most romantic experience with the striking golden rays bathing the surroundings of architecture.</p><p><strong>Shopping at local markets:</strong> The vibrant bazaars of Udaipur will soak you in their intoxicating colors. Brilliant textiles, minute handicrafts with intricate details, and unique jewelry of the Rajasthani style are some things that would work well as souvenirs or placeholders in your memory. The most famous places to shop include Bada Bazaar, Chetak Circle, and Hathi Pol Bazaar for exclusive items.</p><p><strong>Watch a cultural performance:</strong> Attend the traditional Rajasthani dance and music performance at Bagore Ki Haveli. Colorful costumes, folk music, and captivating performances will give you the feel of the rich cultural heritage of the place.</p><p><strong>Take a cooking class:</strong> Join a local cooking class to prepare authentic Rajasthani food items. Get acquainted with the usage of unique spices and the special manner of cooking used under Mewari cuisines, and relish your prepared meal.</p><p><strong>Time for Guru Shikhar Hike:</strong> Trek to the top of the Aravalli Hills that offer great views of <a href=\"https://en.wikipedia.org/wiki/Mount_Abu\" style=\"color:blue;\" target=\"_blank\" rel=\"noopener noreferrer\">Mount Abu</a> and landscapes around. Visit the shrine of Guru Dattatreya and cherish some moments of peace in the calm atmosphere present at the top.</p><p><strong>Visit Dilwara Jain Temples:</strong> Get surprised by intricate marble carvings depicted in the Dilwara Jain Temples. Look at the minute designs and intricate craftsmanship, which renders the temples a keynote to Indian architecture.</p><p><strong>Boating in Nakki Lake:</strong> Take a paddle-boat on rent and enjoy the calm waters of Nakki Lake. Relish the surroundings of hills and strange rock formations while simply relaxing on the lake. The famous Toad Rock is also located here.</p><p><strong>Watch sunset at Sunset Point:</strong> Wind up your day in Mount Abu at Sunset Point. Help paint the sky with various shades of bright colors as the day ends over the Aravallis, truly making it a picture-perfect moment.</p><p><strong>Go to Monsoon Palace during sunset:</strong> Head to Sajjangarh, or Monsoon Palace, for an excellent view of the sunset. Situated on a hilltop, this palace has commanding views of the lakes, palaces, and countryside of Udaipur. The golden hour light simply casts a magical spell over the City of Lakes.</p><p><strong>Cycle around Fateh Sagar Lake:</strong> Rent a bicycle and cycle around Fateh Sagar Lake. The breeze was very nice, with a stop at Nehru Park on one of the islands and an ambiance that is so peaceful at the man-made lake.</p><p><strong>Visit Vintage Car Museum:</strong> Visit the Vintage Car Museum and get an insight into a fine collection of vintage and rare cars. From Rolls-Royces to Mercedes, each one well-preserved to take you back in time for a royally rolling experience in automobile history and royal lifestyles.</p><p><strong>Take Heritage Walk in Old City:</strong> Take a guided heritage walk through the old city of Udaipur. Hidden gems, local legends, beautiful havelis, ancient temples, and traditional crafts workshops are found in narrow lanes.</p><p><strong>Practice yoga in Mount Abu:</strong> Do some yoga in the absolute serenity of Mount Abu. Several retreats and ashrams offer classes for all levels, and you can connect your spirit with nature directly to be at peace.</p><p><strong>Take a Jeep safari:</strong> Explore a night-themed jeep safari through extreme landscapes around Mount Abu. Drive on off-beat paths, spot local wildlife, and witness breathtaking landscapes that regular vehicles are not able to reach.</p><p><strong>Visit Shri Raghunathji Temple:</strong> This shrine is dedicated to Lord Raghunathji, the avatar of Lord Vishnu, constructed way back in the 14th century. The intricate carvings, the serene environment, knowing a bit about its history, these are all things that make this a must visit temple.</p><h3>How to Reach Udaipur</h3><p><strong>By Air:</strong> Fly to Maharana Pratap Airport, located about 20 km from Udaipur city center. The airport is well-connected to major Indian cities like Delhi, Mumbai, and Jaipur. Taxis and prepaid cabs are available from the airport to reach your destination.</p><p><strong>By Train:</strong> Udaipur City Railway Station is well-connected to major cities across India. Luxury trains like Palace on Wheels and Royal Rajasthan on Wheels also stop here. The station is centrally located, making it easy to reach hotels and attractions.</p><p><strong>By Bus:</strong> Regular bus services connect Udaipur to nearby cities and states. Both government-run and private buses are available. The main bus stand is located in the heart of the city, providing easy access to various parts of Udaipur.</p><p><strong>By Car:</strong> Drive to Udaipur via well-maintained national and state highways. Major routes include NH48 from Ahmedabad, NH58 from Jaipur, and NH76 from Chittorgarh. Scenic drives offer glimpses of Rajasthan's diverse landscape along the way.</p><h3>Best Time to visit Udaipur</h3><p><strong>Winter-</strong> More or less, this is considered to be the best time to visit Udaipur. The temperature is pleasant and lies between 11°C and 28°C. The weather is perfect for sightseeing purposes, outdoor activities, the tourist places are busier than usual, and the city is busy organizing various cultural events.</p><p><strong>Summer-</strong> Summers are very hot and dry, and could reach as worse as 45°C. It definitely does not come as the most comfortable time for outdoor activities, but great deals on accommodations can work for people. Early mornings and evenings would be fine for sightseeing.</p><p><strong>Monsoon-</strong> The monsoon relieves the scorching heat of the summer months. The temperatures range from 25°C to 35°C. The monsoon leaves the city lush and lakes full, though some outdoor activities may be restricted, and it is a romantic part of the year.</p><p><strong>Autumn-</strong> Autumn is a season of pleasant climate, with the temperature being from 20°C to 33°C, compared to when the monsoon is receding. Green landscapes, less tourist rush, perfect time to capture moments in your cameras, and perfect driving time outdoors.</p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Udaipur | Overnight Journey",
+      "description": "<ul>    <li>Assemble at the boarding point in Delhi (as informed).</li>    <li>Start an overnight journey to Udaipur and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Udaipur Arrival | Old City Exploration",
+      "description": "<ul>    <li>After arriving in Udaipur, check-in to our comfy hotel, have some leisure and freshen-up.</li>    <li>Head out to explore Rajasthan’s lake city and various heritage wonders. Visit Udaipur’s City Palace and experience the grandeur and rich history of Mewar region. The City Palace offers panoramic views of Pichola lake and the entire white city. Built in the 17th century and dedicated to Lord Vishnu, visit Jagdish Temple and witness the intricate carvings of the temple. We will also visit the beautiful Bagore Ki Haveli nestled along Lake Pichola and further explore streets of Udaipur decorated with various local handicrafts, colorful fabrics, souvenirs, temples and tasty street food.</li>    <li>Dinner and overnight stay in a hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Udaipur Sightseeing | Lakes, Bazaar & More",
+      "description": "<ul>    <li>Wake up and post a delightful breakfast, set out to explore the other major attractions in Rajasthan’s lake city.</li>    <li>A trip to Udaipur will remain incomplete without soaking in the serenity of its freshwater lakes. We will visit the most prominent ones in our sightseeing tour such as Lake Pichola and Fatehsagar Lake. Move ahead to visit the Saheliyon Ki Bari and Shilpgram.</li>    <li>Before calling it a day, explore the Hathi Pol Bazar known for miniature paintings, ichhwai paintings and hand paintings on silk. This local market is just best for shopping and lip smacking street food options.</li>    <li>Dinner and overnight stay in a hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Udaipur to Mount Abu | Mount Abu Chill Scenes",
+      "description": "<ul>    <li>Wake up and post a delightful breakfast, check-out from our hotel and drive towards Mount Abu, Rajasthan’s only hill station.</li>    <li>After arriving in Mount Abu, check-in to our lovely campsite and have some leisure. Indulge in adventure activities like rock climbing, zipline, loop bridge, etc.</li>    <li>In the evening, treat yourself with a stunning sunset view, enjoy a warm bonfire along with mouthwatering evening snacks.</li>    <li>Dinner and overnight stay in camps in Mount Abu.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Mount Abu Exploration | Depart for Delhi",
+      "description": "<ul>    <li>Wake up and post a delightful breakfast, check-out from our campsite and head towards Nakki Lake. Travelers can enjoy calm and relaxed boating in Nakki Lake.</li>    <li>Later, say goodbye to Mount Abu and start-off your return journey for Delhi.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: comfortable AC Volvo/Deluxe bus/Force Traveler.",
+    "Accommodation on sharing basis: 2 nights in Hotel (Udaipur), 1 night in camps (Mount Abu).",
+    "Meals: Breakfast (3), Dinner (3).",
+    "Experienced and cool trip leader.",
+    "Bonfire, evening snacks and light music (only in Mount Abu).",
+    "Local explorations as per the itinerary.",
+    "Activities in Mount Abu like rock climbing, zipline, loop bridge, etc.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
+{
+  "slug": "udaipur",
+  "title": "Udaipur",
+  "destination": "Rajasthan",
+  "duration": "3 Days 2 Nights",
+  "price": "₹7,999",
+  "originalPrice": "₹8,999",
+  "discount": "₹1,000",
+  "imageUrl": "/cloned_media/29224320230701062448.png",
+  "gallery": [
+    "/cloned_media/38559620230701062448.png",
+    "/cloned_media/9003320230701062448.png",
+    "/cloned_media/17918820230701062448.png",
+    "/cloned_media/7751620230701062448.png",
+    "/cloned_media/26993220230701062448.png",
+    "/cloned_media/22261920230701062448.png",
+    "/cloned_media/40552920230701062448.png",
+    "/cloned_media/1562720230701062448.png",
+    "/cloned_media/4426120230701062448.png",
+    "/cloned_media/24194720230701062448.png"
+  ],
+  "overview": "<h2>About 3 Days Udaipur Tour Package</h2><p>Let’s take you on a quick getaway to Rajasthan’s lake city Udaipur. Our 3 Days 2 Nights, well-structured <b>Udaipur Tour Package</b> will make you experience an unforgettable journey across Rajasthan. Soak up the rich tapestry of history, culture, delightful food and natural beauty during your 3 Days resplendent escapade. Take a warm welcome in the city with a taste of authentic Mewari cuisine to begin your adventure.</p><p>The framework of this architectural marvel, the City Palace, stands to the grandeur of narration. Cruise across serene Lake Pichola, taking in the floating Lake Palace and enchanting city skyline. Visit ancient temples that exemplify the spiritual heart of Udaipur, and see how local artists skillfully work on miniature paintings and intricate jewelry.</p>\n<p>Visit the countryside to explore hilltop palaces and regal cenotaphs, providing astounding vistas and a glimpse of royal Rajasthan's past. Treat yourselves to cultural programs, savor the taste of traditional cooking, or unwind with yoga and spa treatments.</p><p>Live Udaipur stories that come alive through our guides, and stay in heritage hotels for a taste of royal life in comfortable accommodation. Our itinerary has balanced activities so as to give you a feel of being completely guided, along with enough time for personal leisure that can be spent in creating those magical moments of staying in the Venice of the East. From tiring bazaars to the shores of quiet lakes. All moments, one experiences across Udaipur are sure to engage the senses and leave behind some very beautiful memories of this jewel of <a style=\"color:blue;\" href=\"https://go4explore.com/trip/rajasthan\">Rajasthan Tour Package</a>.</p><h3>Places to Visit in 3 Days Udaipur Tour</h3><ul>    <li><strong>City Palace:</strong> Perched on the east bank of Lake Pichola, the City Palace is a magnificent complex of courtyards, pavilions, and gardens. Built over 400 years, it showcases a blend of Rajasthani and Mughal architecture. The palace's museums display royal artifacts, while its terraces offer stunning views of the lake and city.</li>    <li><strong>Lake Pichola:</strong> This artificial freshwater lake is Udaipur's pride, fringed by hills, palaces and bathing ghats. Tranquil boat rides amidst this beauty complete with the famous Lake Palace, almost floating literally on the waters add to its ethereal beauty. Sunset cruises are particularly popular among the visitors.</li>    <li><strong>Jagdish Temple:</strong> Situated next to the City Palace, Jagdish Temple is a fine example of Indo-Aryan architecture. Erected in 1651, it is dedicated to Lord Vishnu. Intricate carvings on the walls, sculpted pillars, and painted walls make it one of the marvels of Hindu craftsmanship and an important religious site.</li>    <li><strong>Sahelion-ki-Bari:</strong> This ornamental garden comprised royal ladies. It contains lush lawns, marble elephants, fountains, and a lotus pool. The name of this garden means \"Garden of the Maidens.\" It offers an escape from the triviality of this hustle city, perfect to take a leisure walk.</li>    <li><strong>Monsoon Palace:</strong> Also known as Sajjangarh Palace, this hilltop royal residence has panoramic views over Udaipur's lakes, palaces, and surrounding countryside. Built to watch monsoon clouds, it's now a popular spot for sunsets. The drive up provides beautiful vistas of the Aravalli hills.</li>    <li><strong>Fateh Sagar Lake:</strong> Situated north of Pichola Lake, this artificial lake lies between the hills and gardens. It features three small islands out of which one is a popular picnic spot known as Nehru Park. Afternoon strolls through its promenade are simply great views, while boat rides turn out to be ideal for souls seeking peace.</li>    <li><strong>Bagore Ki Haveli:</strong> Located on the waterfront of Lake Pichola, this 18th-century haveli now houses a museum showcasing Rajasthani culture. Its 138 rooms display costumes, traditional art, and unique collections. In the evenings, it hosts cultural performances, including the famous Dharohar folk dance.</li>    <li><strong>Gangaur Ghat:</strong> Located in Udaipur, Rajasthan, Gangaur Ghat is a famous waterfront area on Lake Pichola. It's known for its beautiful architecture and as a site for religious ceremonies, particularly during the Gangaur festival. The ghat offers stunning views of the lake and surrounding palaces.</li>    <li><strong>Under The Sun Aquarium:</strong> This is an aquarium in Udaipur that showcases various species of fish and aquatic life. It's a popular attraction for families and those interested in marine biodiversity.</li>    <li><strong>Bahubali Hills:</strong> Also known as Machhla Magra, this hill in Udaipur offers panoramic views of the city and its lakes. It's famous for a large statue of Bahubali (a Jain Tirthankara) at its peak.</li>    <li><strong>Badi Lake:</strong> This artificial lake, also called Jiyan Sagar, is located near Udaipur. It was built in the 17th century to combat drought. The lake is surrounded by hills and offers a peaceful retreat away from the city bustle.</li>    <li><strong>Ambrai Ghat:</strong> Another picturesque ghat in Udaipur, Ambrai Ghat is known for its stunning views of Lake Pichola, City Palace, and Jag Mandir. It's a popular spot for watching sunsets and houses several restaurants offering lakeside dining.</li></ul><h3>Things to do in Udaipur Trip</h3><p><strong>1. Palace Tour:</strong> Explore the magnificent City Palace complex, marveling at its blend of Rajasthani and Mughal architecture. Wander through ornate courtyards, admire the intricate mirror work in Sheesh Mahal, and visit the palace museum to view royal artifacts.</p><p><strong>2. Lake Pichola Boat Ride:</strong> Take a serene boat ride on <a style=\"color:blue;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Lake_Pichola\">Lake Pichola,</a> especially during sunset. Glide past the famous Lake Palace, Jag Mandir, and ghats, enjoying panoramic views of the city's skyline and surrounding Aravalli Hills.</p><p><strong>3. Cultural Performance:</strong> Attend an evening cultural show at Bagore Ki Haveli. Watch traditional Rajasthani folk dances, puppet shows, and music performances that bring local legends and culture to life.</p><p><strong>4. Cooking Class:</strong> Participate in a Rajasthani cooking class to learn about local spices and techniques. Prepare traditional dishes like dal baati churma or gatte ki sabzi, then enjoy your culinary creations.</p><p><strong>5. Handicraft Shopping:</strong> Visit local markets like Surag Pol &amp; Hathi Pol and artisan workshops to watch craftspeople create miniature paintings, textiles, and jewelry. Purchase authentic souvenirs directly from skilled artisans.</p><p><strong>6. Sunrise at Monsoon Palace:</strong> Wake up early for a trip to Monsoon Palace (Sajjangarh). Watch the sunrise over Udaipur, painting the city and lakes in golden hues. The panoramic views from this hilltop location are truly breathtaking.</p><p><strong>7. Bicycle Tour:</strong> Take a guided bicycle tour through Udaipur's old city. Pedal through narrow lanes, past ancient havelis, and along the lakeside, getting an intimate look at local life and hidden architectural gems.</p><p><strong>8. Heritage Walk:</strong> Join a heritage walk to discover Udaipur's rich history. Visit lesser-known sites, learn about local legends, and gain insights into the city's royal past and cultural significance.</p><p><strong>9. Sunset at Fateh Sagar Lake:</strong> Enjoy a leisurely evening at Fateh Sagar Lake. Take a stroll along the promenade, rent a paddleboat, or simply relax at a lakeside café while watching the sun set behind the Aravalli hills.</p><p><strong>10. Yoga by the Lake:</strong> Start your day with a rejuvenating yoga session by Lake Pichola. Many hotels and local instructors offer classes with stunning lake views, providing a peaceful way to connect with Udaipur's serene atmosphere.</p><p><strong>11. Ropeway to Karni Mata Mandir:</strong> This ropeway, or cable car, takes visitors to the Karni Mata Temple atop Machla Magra Hill (also known as Bahubali Hills). The ride offers panoramic views of Udaipur city and its lakes. At the top, you'll find the temple dedicated to Karni Mata, along with stunning vistas of the surrounding landscape.</p><p><strong>12. Cafe Hopping with Lake View:</strong> Udaipur is known for its picturesque cafes overlooking Lake Pichola and other water bodies. Many of these cafes are located in the old city area, offering not just great views but also a variety of cuisines. Popular spots include Cafe Edelweiss, Jheel's Ginger Coffee Bar, and Cafe Namaste. Visitors can enjoy local and international dishes while taking in the serene lake views.</p><p><strong>13. Cultural Program in Bagore ki Haveli:</strong> Bagore ki Haveli is a historic 18th-century haveli (mansion) located at Gangaur Ghat on the banks of Lake Pichola. In the evenings, it hosts a popular cultural show called \"Dharohar,\" which showcases traditional Rajasthani dance, music, and puppet performances. This program offers visitors a glimpse into the rich cultural heritage of Rajasthan.</p><h3>How to reach Udaipur</h3><p><strong>By Air:</strong> The Maharana Pratap Airport in Udaipur is well-connected to the major Indian cities. There are direct flights from Delhi, Mumbai, Jaipur, and Ahmedabad. It is about 22 km from the city center, so one can hire a taxi or a pre-paid cab easily.</p><p><strong>By Train:</strong> Udaipur City Railway Station has connectivity to nearly all major cities in India. Luxury trains like Palace on Wheels also halt here. There are regular trains from Delhi, Mumbai, Jaipur, and Ahmedabad. One can find the railway station at the city center and is well linked with hotels and tourist spots.</p><p><strong>By Road:</strong> The connectivity of Udaipur by roads is pretty good. You can drive down or take a bus from the nearby cities. While the journey from Jaipur takes about 6-7 hours, from Ahmedabad, you would take something about 5 hours to reach Udaipur. There are frequent bus services, voluntary ones included, available with comfortable AC buses from various major cities in Rajasthan and neighboring states.</p><h3>Best Time to Visit Udaipur</h3><p><strong>Winter (October to March):</strong> This is the peak tourist season and generally considered the best time to visit Udaipur. Daytime temperatures are pleasant, ranging from 20-28°C (68-82°F), perfect for sightseeing and outdoor activities. Nights can be cool, dropping to 5-10°C (41-50°F). The clear skies and comfortable weather make it ideal for boat rides and exploring the city.</p><p><strong>Summer (April to June):</strong> Summers are hot and dry in Udaipur, with temperatures soaring to 40°C (104°F) or higher. While this isn't the most comfortable time for tourists, you can find good deals on accommodations. Early mornings and evenings are better for outdoor activities. The Gangaur Festival in March-April is a colorful attraction during this time.</p><p><strong>Monsoon (July to September):</strong> The monsoon brings relief from the summer heat, with temperatures ranging from 25-35°C (77-95°F). The city looks lush and beautiful with rain-washed streets and full lakes. While some outdoor activities might be limited, the romantic atmosphere and fewer tourists make it appealing for some. The Teej Festival in August is a vibrant celebration during this season.</p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Udaipur | Overnight Journey",
+      "description": "<ul>    <li>Assemble at the boarding point in Delhi (as informed).</li>    <li>Start an overnight journey to Udaipur and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Udaipur Arrival | Old City Exploration",
+      "description": "<ul>    <li>After arriving in Udaipur, check-in to our hotel, have some leisure and freshen-up.</li>    <li>Head out to explore Rajasthan’s lake city and various heritage wonders.</li>    <li>Visit Udaipur’s City Palace and experience the grandeur and rich history of Mewar region. The City Palace offers panoramic views of Pichola lake and the entire white city.</li>    <li>Built in the 17th century and dedicated to Lord Vishnu, visit Jagdish Temple and witness the intricate carvings of the temple.</li>    <li>We will also visit the beautiful Bagore Ki Haveli nestled along Lake Pichola and further explore streets of Udaipur decorated with various local handicrafts, colorful fabrics, souvenirs, temples and tasty street food.</li>    <li>Dinner and overnight stay in a hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Udaipur Sightseeing | Lakes, Bazaar & More",
+      "description": "<ul>    <li>Wake up and post a delightful breakfast, set out to explore the other major attractions in Rajasthan’s lake city.</li>    <li>A trip to Udaipur will remain incomplete without soaking in the serenity of its freshwater lakes. We will visit the most prominent ones in our sightseeing tour such as Lake Pichola and Fatehsagar Lake. Move ahead to visit the Saheliyon Ki Bari and Shilpgram.</li>    <li>Before calling it a day, explore the Hathi Pol Bazar known for miniature paintings, ichhwai paintings, and hand paintings on silk.</li>    <li>This local market is just best for shopping and lip-smacking street food options.</li>    <li>Dinner and overnight stay in a hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Udaipur #MeTime | Depart for Delhi",
+      "description": "<ul>    <li>Wake up and post a delightful breakfast, check-out from our hotel and quickly head out to explore some nearby local markets, lakeside themed-cafes and pick some souvenirs for your home &amp; dear ones.</li>    <li>In the evening, say goodbye to Udaipur and start-off your return journey for Delhi and reach Delhi early next morning with lots of amazing memories and unforgettable experiences..</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: comfortable AC Volvo/Deluxe bus/Force Traveler.",
+    "Accommodation on sharing basis: 2 nights in Hotel (Udaipur).",
+    "Meals: Breakfast (2), Dinner (2).",
+    "Experienced and cool trip leader.",
+    "Local explorations as per the itinerary.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions"
+  ]
+},
   {
-    slug: 'udaipur',
-    title: 'Udaipur',
-    destination: 'Rajasthan',
-    duration: '3 Days 2 Nights',
-    price: '₹7999',
-    originalPrice: '₹8999',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/29224320230701062448.png',
-    overview: 'A quick weekend escape to the romantic city of Udaipur. Explore its palaces, lakes, and vibrant markets.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Hotel Stay', 'Sightseeing', 'Airport/Station Transfers'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Meals'],
-  },
+  "slug": "rajasthan-backpacking-from-delhi-udaipur-jodhpur-jaisalmer",
+  "title": "Rajasthan Backpacking From Delhi - Udaipur-Jodhpur-Jaisalmer",
+  "destination": "Rajasthan",
+  "duration": "5 Days 4 Nights",
+  "price": "₹29,999",
+  "originalPrice": null,
+  "discount": null,
+  "imageUrl": "/cloned_media/37210520230716153323.png",
+  "gallery": [
+    "/cloned_media/31934620230716153323.png",
+    "/cloned_media/12173220230716153323.png",
+    "/cloned_media/4275820230716153323.png",
+    "/cloned_media/31899820230716153323.png",
+    "/cloned_media/13696720230716153323.png",
+    "/cloned_media/7083020230716153323.png",
+    "/cloned_media/38030420230716153323.png",
+    "/cloned_media/1245220230716153323.png",
+    "/cloned_media/4686920230716153323.png",
+    "/cloned_media/2671920230716153323.png"
+  ],
+  "overview": "<h2>About Rajasthan Backpacking Udaipur Jodhpur Jaisalmer Trip Package</h2><p>Imagine walking in a world where ancient tales come alive, where every street turn beckons with whispers of its erstwhile royal past, and with stretches of golden sand as far as the eye can see. Welcome to <a style=\"color:blue;\" href=\"https://go4explore.com/trip/rajasthan\">Rajasthan</a>, land of the kings and warriors; your next adventure awaits!</p><p>Get ready to color up your life with our Rajasthan Backpacking Trip Package, the ticket for any explorer at heart in India's most colorful state. Over the time of 5 unforgettable days, you will journey through enchanting cities Udaipur, Jodhpur, and Jaisalmer each different in its feel and story to share.</p><p>Begin in Udaipur, the Venice of the East, where gleaming lakes reflect opulent palaces. Wander small alleys lined with colorful artisan shops and lose yourself in the romance of this city. Then we will whisk you away to Jodhpur, where an ocean of blue-painted houses lies at the foot of the mighty Mehrangarh Fort. You'll discover bustling markets and taste spicy flavors of authentic Rajasthani cuisine.</p><p>Finally, you will end up in Jaisalmer, a desert city that has come alive out of 'Arabian Nights'. Picture yourself mounted on a camel, going deep into the Thar Desert as the sun sets and the sky turns orange and pink. A night camping in the middle of the desert, with specifications like sleeping under the starry sky and hearing folk tales to the merry chirping of a campfire—this would be a lifetime experience.</p><p>It is not a journey but a ride through time; it is a carnival of senses—they will make stories you would tell for years to come. Our finely crafted itinerary creates the best balance between must-see sights and off-the-beaten-path experiences, lending you the most authentic taste of Rajasthan.</p><p>Do not just dream about the wonders of India – live them. Let the booking for the Rajasthan Backpacking Trip get you ready for the most unforgettable journey of your life. The palaces, deserts, and warm smiles of Rajasthan await your arrival!</p><h3>Best places to visit in Rajasthan Backpacking Trip</h3><p><b>City Palace:</b> The city palace in Udaipur, overlooking the Pichola Lake, is a magnificent complex. In the blend of Rajasthani and Mughal architecture, detailed mirror work, and stunning views of the lake, the place itself turns out to be a must-visit. The palace museum hosts many royal artifacts and historical treasures.</p><p><b>Lake Pichola:</b> Located in Udaipur, the summit of beauty, Lake Pichola offers serene boat rides amidst breathtaking views. With the hills, palaces, and temples surrounding from all sides, its beauty becomes irresistible at sunset. Legendary Lake Palace Hotel on Jag Niwas island must not be left out.</p><p><b>Jaisalmer Fort:</b> One such live UNESCO World Heritage site fort is Jaisalmer Fort. Within its golden sandstone walls lie temples, palaces, and residences. Wander through narrow lanes, shop at artisan shops, and then take in the panoramic view of the desert from here.</p><p><b>Sam Sand Dunes:</b> At Sam Sand Dunes, located near Jaisalmer, one experiences the quintessential Thar Desert adventure. Take camel-back rides across wavy dunes, get enchanted by the hypnotic view of the sunsets, and camp under star-studded nights. Rajasthani folk music and folk dance add to bringing charisma to the night in the desert.</p><p><b>Mehrangarh Fort:</b> Mehrangarh dominates the skyline of Jodhpur. While still a formidable building, inside this very imposing structure, it contains museums with royal palanquins, arms, and artwork. From its ramparts, one offers stunning views of the blue-painted old city below, justifying the \"Blue City\" moniker.</p><p><b>Ghanta Ghar Chowk:</b> The Clock Tower and Sardar Market are considered to be the heart of the old city in Jodhpur. This colorful bazaar sells everything—from spices to textiles. The almost-century-old Clock Tower is an important landmark and the meeting point</p><p><b>Jagdish Temple:</b> Jagdish Temple in Udaipur is one of the finest examples of Indo-Aryan architecture. It belongs to Lord Vishnu and has intense carvings with a tall, peaked shikhara, making it a matchless attraction both for the devotees and those who love fine art. Its location at the center renders this temple a popular stoppage.</p><p><b>Fateh Sagar Lake:</b> Fateh Sagar Lake, located near Fateh Sagar, is the second-largest artificial lake in Udaipur. It is secluded and ideal for a boat ride or walking along its lake, surrounded as it is by hills and gardens. The Nehru Park island in its middle adds to its beauty.</p><p><b>Patwon Ki Haveli:</b> Patwon Ki Haveli in Jaisalmer, is a five joined havelis. It fronts the main bazaar and is noted for its intricate stone carvings, jali or jharokhas—balconies—and paintings. This is an architectural marvel of Jaisalmer, showing how rich its merchants were.</p><p><b>Gadisar Lake:</b> Gadisar Lake was the man-made reservoir providing the city of Jaisalmer with its main water supply until recently. Now, it's a serene spot with temples and ghats built along its banks. Afternoon boat rides offer serene views.</p><p><b>Jaswant Thada:</b> Jaswant Thada is a dazzling marble memorial in Jodhpur for Maharaja Jaswant Singh II. Frequently noted as the \"Taj Mahal of Marwar,\" its intricate carvings and beset gardens are indeed tranquil, an escape from the bustle of city life.</p><p><b>Umaid Bhawan Palace:</b> Located in Jodhpur, Umaid Bhawan Palace happens to be among the largest private residences across the globe. Part royal residence, Luxury Hotel, and part museum, it gives insight into the royal heritage of Rajasthan and the Art Deco style.</p><p><b>Sajjangarh Palace:</b> Located at the top of a hill overlooking Udaipur is Sajjangarh Palace, otherwise called Monsoon Palace. The place was originally built to watch monsoon clouds; currently, it presents an all-round view of the city, more mesmerizing at sunset.</p><p><b>Bada Bagh:</b> Situated close to Jaisalmer, Bada Bagh is a garden complex with imperial cenotaphs. The intricate carving on monuments in sandstone at the desert backdrop hastens the haunting beauty more so during time zones of sunrise and sunset.</p><p><b>Mandore Gardens:</b> All the cenotaphs of Jodhpur's former rulers are to be found in Mandore Gardens, a few kilometers outside the city. Lush gardens, rock terraces, and a bathing pool set amidst the remains of Mandore's medieval town—all fashioned from the same bright red sandstone, a tranquil oasis in Jodhpur's arid landscape.</p><p><b>Vintage Car Museum:</b> The Vintage Car Museum houses some very rare and vintage automobiles owned by the Maharana. From Rolls-Royces to Mercedes, it is a treat for car buffs and history lovers.</p><p><b>Rao Jodha Desert Rock Park:</b> The Rao Jodha Desert Rock Park at the foot of Mehrangarh Fort in Jodhpur is a good example of the rugged beauty of this region. Walking trails here bring one face to face with native plants and give a view of the fort.</p><p><b>The Saheliyon Ki Bari</b> is a fine garden laid out for the royal ladies in Udaipur. The fountains, kiosks, marble elephants, and lotus pool make this a tranquil retreat and a telling view of the activities pursued by the royalty in their leisure time.</p><p><b>Haldighati:</b> Located in Rajasthan, Haldighati is a mountain pass famous for the 1576 battle between Maharana Pratap and the Mughals. The area is known for its yellow soil and historical significance. Visitors can explore the battlefield and can learn about Rajput history.</p><p><b>Maharana Pratap Museum:</b> Situated in Udaipur, this museum showcases the life and times of legendary Rajput king Maharana Pratap. It houses a collection of weapons. Paintings and artifacts offer insights into Mewar’s rich cultural heritage. They also illuminate Pratap's valorous deeds.</p><p><b>Bal Samand Lake:</b> This artificial lake near Jodhpur was built in the 12th century. Surrounded by lush gardens and a palace-turned-heritage hotel. It offers a serene retreat. Visitors can enjoy boating, birdwatching. Visitors can also enjoy picturesque views of the Rajasthani landscape.</p><p><span style=\"color: var(--bs-heading-color,inherit); font-size: 1.35rem; font-weight: 600; background-color: var(--bs-card-bg); text-align: var(--bs-body-text-align);\">Things to do in Rajasthan Backpacking Trip</span><br></p><p>In Udaipur, an evening cruise experience on Lake Pichola awaits visitors. Further on, you shall have an unforgettable view of that city—the golden light falling on City Palace and the surroundings around the hills, passing by historic islands and lakeside ghats.</p><p>It is presumed that a camel safari executed across the Thar Desert near Jaisalmer would be a typical Rajasthani experience. Rolling sand dunes, fantastic sunset, and a night spent stargazing and listening to traditional Rajasthani music seated around the campfire are only some of the attractions on this journey.</p><p>Zip-lining across Jodhpur is unusually thrilling, offering added adrenaline rushes and perspectives. See ancient step wells and fortifications from high up above, along with the sea of blue-painted houses, while Mehrangarh Fort provides a dramatic backdrop to your adventure.</p><p>The cultural performance is also held in the Bagore Ki Haveli of Udaipur. It envelops all kinds of Rajasthani arts that one can experience by visiting their evening shows, which present guests with folk music, colorfully costumed performers, and captivating dance forms, famous ones being the Rajasthani puppet show and fire dance.</p><p>Stroll through Jodhpur's Sardar Market, indeed a treat for sore eyes. Popular lanes are colorfully drenched with bright textiles, aromatic spices, and intricate handicrafts. The central Clock Tower serves as a unique landmark for this bustling bazaar.</p><p>Some regional Rajasthani cuisine, on the rooftops of Jodhpur, offers views and flavors that will take your breath away. You'll find the likes of dal baati churma, laal maas, and ker sangri here, accompanied by an even better view—the light-lit Mehrangarh Fort at night.</p><p>Take a village safari from Jodhpur out to the nearby villages of the Bishnoi. Witness the authentic exposure of rural Rajasthani life, the age-old traditional crafts of pottery and weaving, and the commitment of the Bishnoi community toward environmental conservation and protection of wildlife.</p><p>It is an ideal place for Pichwai and miniature painting works, normally detailing scenes from Indian mythology, royal life, and nature. You can watch the artists at work before picking up a unique souvenir of your Rajasthan trip in Udaipur's old city.</p><p>Visit the Vintage Car Museum, located off Helipad Road in Udaipur, showcasing Maharana's fleet of vintage vehicles. Shining Rolls-Royles to grace-inspiring Mercedes, these well-maintained automobiles speak volumes about royal rides of the past.</p><p>Wander through Jaisalmer's havelis, the most ornate mansions of the region, those like Patwon Ki Haveli and Salim Singh Ki Haveli. These ornate private mansions reveal adopted displays in minute sandstone carvings, intricately designed jharokhas linked to balconies, and frescoes inspired by Rajasthani life and the age of legends.</p><p>Enjoy sunset at Gadi Sagar Lake. This beautiful artificial lake, surrounded by sandstone structures and temples on all sides, is in comparison to none. The golden light of their setting adds to this mesmerizing reflection on the water surface.</p><p>Take a cooking class in Udaipur to unlock the secrets of traditional Rajasthani local cuisine. Learn about the entailment of local spices, traditional techniques of cooking, and preparation of dishes such as gatte ki sabzi or dal tadka. Share an assortment of food for a communal meal after preparing what you will eat.</p><p>Visit Jaswant Thada, a serene marble memorial at Jodhpur. Frequently called the \"Taj Mahal of Marwar,\" this intricate lattice work and serene gardens offer quiet retreat from the city below.</p><p>Do attend the sound and light spectacle at Kumbhalgarh Fort, absolutely a day outing from Udaipur. Lighted walls of this fortress and narration alive with rich history and legends of this UNESCO World Heritage site.</p><p>Join a block printing workshop in Udaipur and come up with your designs. Learn this traditional Rajasthani textile art and take this unique handmade piece as a memory, epitomizing the artistic heritage of this land.</p><p>Take a morning heritage walk in the old city of Jodhpur. Stroll down narrow lanes and explore the local temples, witnessing the emerging life of the city. Soft morning light paints magic hues on blue houses.</p><h3>How to Reach Rajasthan from Delhi?</h3><p><b>By Air:</b> Direct flights connect Delhi to Udaipur's Maharana Pratap Airport. It takes approximately 1.5 hours by flight; hence, it is the quickest way.</p><p><b>By Train:</b> Multiple trains run between Delhi and Udaipur. These trains include Chetak Express and Mewar Express. The journey takes anywhere between 12-16 hours, depending on the train.</p><p><b>By Bus:</b> Overnight AC buses are available from Delhi for Udaipur. It generally takes about 12-14 hours; so a fairly cheap way to reach.</p><p><b>By Car:</b> The distance is 665 km. You can either drive or hire a taxi. The journey would at best take you about 12 to 14 hours with stoppages on the way.</p><h3>Best Time to Visit Rajasthan</h3><p>Rajasthan's peak tourist season spans from mid-October to mid-March, offering comfortable temperatures and clear skies perfect for exploration. This period hosts major festivals and ideal conditions for desert activities. December and January are the busiest, with high tourist influx and premium pricing. Popular attractions can be crowded, and advance bookings are often necessary, especially around New Year's Eve. While this time provides the best weather, consider shoulder seasons for a balance of good conditions and smaller crowds.</p>\n<p>Other Related tour packages: <a style=\"color:blue;\" href=\"https://go4explore.com/trips/udaipur\">Udaipur Tour Package</a>, <a style=\"color:blue;\" href=\"https://go4explore.com/trips/rajasthan-backpacking-udaipur-jodhpur-jaisalmer\">Rajasthan Backpacking- Udaipur Jodhpur Jaisalmer</a>, <a style=\"color:blue;\" href=\"https://go4explore.com/trips/rajasthan-backpacking-pushkar-udaipur-bikaner\">Rajasthan Backpacking - Pushkar Udaipur Bikaner</a>.</p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Udaipur | Overnight Journey",
+      "description": "<ul>    <li>Assemble at the boarding point in Delhi (as informed).</li>    <li>Start an overnight journey to Udaipur and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Udaipur Arrival | Local Exploration",
+      "description": "<ul>    <li>After arriving in Udaipur, check-in to our hotel, have some leisure and freshen-up.</li>    <li>Head out to explore Rajasthan’s lake city and various heritage wonders. Visit Udaipur’s City Palace and experience the grandeur and rich history of Mewar region. The City Palace offers panoramic views of Pichola lake and the entire white city. Move towards Sajjangarh Fort also known as Monsoon Palace situated on a hilltop. We will also visit the Vintage Car Museum and further explore streets of Udaipur decorated with various local handicrafts, colorful fabrics, souvenirs, temples and tasty street food.</li>    <li>A trip to Udaipur will remain incomplete without soaking in the serenity of its freshwater lakes. We will visit the most prominent ones in our sightseeing tour such as Lake Pichola and Fatehsagar Lake.</li>    <li>Dinner and overnight stay in a hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Udaipur to Jodhpur | Kumbhalgarh Fort | Jodhpur Arrival",
+      "description": "<ul>    <li>Wake up early and post breakfast, check-out from our hotel in Udaipur and drive to Jodhpur - Rajasthan’s blue city.</li>    <li>Enroute Jodhpur, we will take a halt and visit Kumbhalgarh Fort also known as The Great Wall of India. Next we will visit Maharana Pratap Museum in Haldighati built during the war between Mewar Kings and Mughals.</li>    <li>After arriving in Jodhpur, check-in to our hotel and have some leisure.</li>    <li>Dinner and overnight stay in a hotel in Jodhpur.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Jodhpur Local Exploration",
+      "description": "<ul>    <li>Wake up early and post breakfast, we will head out for a local sightseeing tour of Jodhpur.</li>    <li>We will visit Bal Samand Lake (if the time permits) and Umaid Bhawan Palace to witness the royalty. Experience the grandeur of Mehrangarh Fort, one of the largest forts positioned in Rajasthan perched on top of a perpendicular cliff. We will end our blue city exploratory tour at Jaswant Thada, a cenotaph dedicated to Mewar kings and commonly known as the Taj Mahal of Mewar.</li>    <li>Dinner and overnight stay in a hotel in Jodhpur.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Jodhpur to Jaisalmer | Thar Desert Diaries",
+      "description": "<ul>    <li>Wake up early and post breakfast, check-out from our hotel in Jodhpur and drive to Jaisalmer - Rajasthan’s golden city.</li>    <li>After arriving in Thar Desert, check-in to our campsite located in Sam Sand Dunes, freshen-up and have some leisure.</li>    <li>Post refreshment, we will head out for Camel Safari in Thar Desert. Witness the beautiful sunset while enjoying your camel ride. Experience the thrill in Jeep Dune Bashing.</li>    <li>In the evening, enjoy a warm bonfire with Rajasthani folk music, Kalbelia dance and mouth-watering snacks.</li>    <li>Savour home-style cooked Rajasthani dinner and overnight stay in camps.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Rajasthan’s Golden City | Delhi Departure",
+      "description": "<ul>    <li>Wake up early in the morning and post breakfast check-out from our hotel.</li>    <li>Head out to explore India’s only living fort - Jaisalmer Fort. Take a walk in this magnificent historic fort and learn the legends associated with it.</li>    <li>Visit other major attractions like Gadsisar Lake, Patwon Ki Haveli, etc.</li>    <li>Feel free to explore the local market and taste different cuisines at recommended themed cafes/restaurants.</li>    <li>In the evening, start-off your return journey to Gurgaon.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: comfortable AC Deluxe bus/Force Traveler.",
+    "Accommodation on sharing basis: 1 night in hotel (Udaipur), 2 nights in hotel (Jodhpur), 1 night in swiss camps (Jaisalmer).",
+    "Meals: Breakfast (4), Dinner (4).",
+    "Experienced and cool trip leader.",
+    "Activities (camel safari & jeep dune bashing) and Rajasthani folk show (only in Jaisalmer).",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
   {
-    slug: 'rajasthan-backpacking-from-delhi-udaipur-jodhpur-jaisalmer',
-    title: 'Rajasthan Backpacking From Delhi - Udaipur-Jodhpur-Jaisalmer',
-    destination: 'Rajasthan',
-    duration: '5 Days 4 Nights',
-    price: '₹29999',
-    imageUrl: '/cloned_media/37210520230716153323.png',
-    overview: 'An all-inclusive backpacking trip from Delhi covering the essential trio of Udaipur, Jodhpur, and Jaisalmer.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Transfers from Delhi', 'Hostel/Guesthouse Stay', 'Guided Tours'],
-    exclusions: ['Entry Fees', 'Meals'],
-  },
-  {
-    slug: 'rajasthan-backpacking-pushkar-udaipur-bikaner',
-    title: 'Rajasthan Backpacking - Pushkar-Udaipur-Bikaner',
-    destination: 'Rajasthan',
-    duration: '6 Days 5 Nights',
-    price: '₹22000',
-    imageUrl: '/cloned_media/31962220230716154259.png',
-    overview: 'Explore a different circuit of Rajasthan, from the holy city of Pushkar to the lakes of Udaipur and the desert city of Bikaner.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hostel/Guesthouse Stay', 'Intercity Bus Tickets', 'Sightseeing'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Meals'],
-  },
+  "slug": "rajasthan-backpacking-pushkar-udaipur-bikaner",
+  "title": "Rajasthan Backpacking - Pushkar-Udaipur-Bikaner",
+  "destination": "Rajasthan",
+  "duration": "6 Days 5 Nights",
+  "price": "₹22,000",
+  "originalPrice": null,
+  "discount": null,
+  "imageUrl": "/cloned_media/31962220230716154259.png",
+  "gallery": [
+    "/cloned_media/17264520230716154259.png",
+    "/cloned_media/7843020230716154259.png",
+    "/cloned_media/6676420230716154259.png",
+    "/cloned_media/31664020230716154259.png",
+    "/cloned_media/19287520230716154259.png",
+    "/cloned_media/40020520230716154259.png",
+    "/cloned_media/28934820230716154259.png",
+    "/cloned_media/26439520230716154259.png",
+    "/cloned_media/38368620230716154259.png",
+    "/cloned_media/39140820230716154259.png"
+  ],
+  "overview": "<h2>About Rajasthan Backpacking - Pushkar Udaipur Bikaner Trip Package</h2>\n<p>Embark on an unforgettable Rajasthan Backpacking - Pushkar Udaipur Bikaner Trip Package  through the heart of Rajasthan, where ancient traditions blend seamlessly with vibrant culture. This backpacking journey shall begin with a visit to the holy town of Pushkar, meriting the visit of the sacred Brahma Temple and accompanied by a serene lake perfect for spiritual reflection. Walking down narrow streets, the aroma of incense and colorful markets selling all kinds of things like embroidered dresses, colorful shiny bangles, jewelry, footwear, leather items, and aromatic spices shall be seen.</p>\n<p>The next would be in the city of romance itself <a href=\"/trips/udaipur\" style=\"color:blue;\">Udaipur</a>, often called the \"Venice of the East.\" Here, majestic palaces reflect in shimmering lakes, and winding alleys lead up to some really interesting items that are waiting to be discovered. Envision sipping chai at a rooftop café when the sun sets over Lake Pichola, painting the sky in hues of orange and pink.</p>\n<p>Your final stop will be at Bikaner, this desert jewel that has time frozen. Arguably, only one of the largest forts of India, Junagarh Fort should make up your list. Other than this, you shall pay a fascinating visit amidst intricate Havelis. And if you dare, take a visit to an eerie Karni Mata Temple dedicated to thousands of revered rats. Join a camel safari into the Thar Desert at night, camp under a blanket of stars sharing stories around a campfire with fellow travelers.</p>\n<p>This Rajasthan backpacking trip isn't any vacation, but a soul-stirring odyssey that is going to rise, awaken your senses, and leave behind memories for a lifetime. So what are you waiting for? Pack your bags and move out, it's time to embrace the unknown.</p><p>Let the magic of Rajasthan Tour Package transform you. Your adventure awaits!</p>\n<h3>Best Places to Visit in Rajasthan</h3>\n<p><b>Brahma Temple:</b> Located in Pushkar, it happens to be one of the few temples dedicated to Lord Brahma in the world. It has a striking red spire and ancient architecture that attracts pilgrims and tourists. This temple stands at the front in the list of places to visit because of its spiritual nature and elaborate carvings.</p>\n<p><b>Ghats of Pushkar Sarovar:</b> These are surrounded by 52 bathing ghats, all of different significance. Pilgrims flock to these stairways leading to holy waters for ritual bathing and offerings. During festivals, the ghats come alive with colorful ceremonies.\n</p><p><b>Ajmer Dargah Sharif:</b> This is a hallowed Sufi shrine of Khwaja Moinuddin Chishti. White marble domes embellished with intricate carvings attract devotees belonging to every faith and belief. Spiritual atmosphere, enchanting Qawwalis and communal harmony all combine to make it a symbol of religious tolerance.</p>\n<p><b>Ana Sagar's Lake:</b> This artificial lake in Ajmer, offers a serene retreat with its glittering waters and the surrounding Daulat Bagh gardens. The Baradari, a white marble pavilion on its banks, provides stunning views. Boating and picnicking are popular activities here.</p>\n<p><b>Akbar Palace and Museum:</b> Originally built as a residence for Emperor Akbar, this palace is now converted into a museum displaying Rajasthani and Mughal artifacts. That fusion of Islamic and Rajput styles in architecture and the weapons and sculptures that are on display at this museum give an inside view of the history of this region.</p>\n<p><b>Prithviraj Smarak:</b> This is a memorial situated in Ajmer, after the legendary Rajput king Prithviraj Chauhan. This statue and the surrounding park give an idea regarding the valor that existed in the land of Rajasthan in the past. It's an interesting spot among locals as well as history buffs.</p>\n<p><b>Lake City's Heritage Wonders:</b> Udaipur, otherwise known as the City of Lakes, holds huge cultural heritage significance. This can be reflected in its heritage destinations, from palaces filled with extravagance to calm and serene lakes, which stupefy the visitors and reflect the past glory of the royal state of Rajasthan. Its romantic ambiance and architectural marvels attract visitors worldwide.</p>\n<p><b>City Palace:</b> The city palace complex in Udaipur is a brilliant mix of Rajasthani and Mughal styles. Offering great views over Lake Pichola, it comprises museums, courtyards, and ornately decorated chambers. Detailed mirror work, murals, and views of the lake are its main attractions.</p>\n<p><b>Pichola Lake:</b> It is the most picturesque lake that forms the centerpiece of Udaipur's beauty. Having hills all around, a palace, and ghats enriches the beauty. More charming is the atmosphere created by the Lake Palace on the island and the boat rides during sunset.</p>\n<p><b>Sajjangarh Fort:</b> The hilltop fort overlooks Udaipur and its lakes and is famous as Monsoon Palace. Although constructed as a monsoon retreat, the location and white marble walls make it an outstanding site to watch sunsets over the city.</p>\n<p><b>Vintage Car Museum:</b> It is one of the unique museums available in Udaipur, which comprises a great collection of classic and rare automobiles. Starting from Rolls-Royces to Mercedes-Benzes, it showcases the vintage cars of the royal family. A well-preserved fleet gives a punctuation for the luxury life the royalties of Rajasthan have lived.</p>\n<p><b>Fateh Sagar Lake:</b> This artificial lake in Udaipur is surrounded by hills and gardens, hence a calm place. Its islands house an observatory for solar observations and a general park. Boating and picnicking are usual past times. The scenic beauty draws large crowds.</p>\n<p><b>Jaisamand Lake:</b> One of the biggest artificial lakes in India, it is perhaps better known as Dhebar Lake. On its one side lies Udaipur, surrounded by marble chhatris, palaces, and wildlife. Inside the lake islands, surrounded by forests, it offers a great haven for nature lovers.</p>\n<p><b>Junagarh Fort:</b> This magnificent fort of the Bikaner region captures an essence of architecture from the house of Rajputs. Ornate palaces, temples, and intricately crafted courtyards add further charm to its beauty. The museum inside displays royal artifacts, weapons, and works of art telling tales about the erstwhile royals of Rajasthan.</p>\n<p><b>Lalgarh Palace and Museum:</b> This red sandstone palace in Bikaner brings together Rajputana, Mughal, and European styles of architecture. It is now partly converted into a luxury hotel and museum, housing the memorabilia of the royal family and having a library. Intricate filigree work and beautiful gardens are especially noteworthy.</p>\n<p><b>Gajner Palace and Lake:</b> This lakeside palace, a former hunting lodge near Bikaner, has red sandstone architecture and is now a heritage hotel. Leveled on a wildlife sanctuary and a lake, it offers a distinct desert oasis experience. Boat rides and nature walks form very prominent activities in demand.</p>\n<p><b>Deshnok Karni Mata Temple:</b> It is called the Rat Temple, and this shrine in Deshnok is dedicated to Karni Mata. This temple is populated by hundreds of rats that wander everywhere freely and are believed to be the divine incarnation of Karni Mata. All marble and silver adornments stand in contrast to the unusual sight of revered rodents.</p>\n<h3>Top Things to do in Rajasthan</h3>\n<p><b>Take part in a traditional puja ceremony:</b> Dive headfirst into Pushkar's spiritual atmosphere, take part in a puja ceremony down at the ghats. Pick up a thing or two about Hindu customs, offer flowers, say some prayers, and get blessed by a local priest. It's definitely a great look into the deep religious traditions of India.</p>\n<p><b>Take a cooking class to learn Rajasthani Cuisine:</b> Experience the real taste of Rajasthan through a self-cooking class where you will learn to cook up local delicacies such as Dal Baati Churma or Gatte Ki Sabzi. Relish the self-made food and take along recipes to relive the memory of your voyage.</p>\n<p><b>Participate in sessions of Yoga or Meditation:</b> Find peace within, swing into the serene Pushkar environment. Take a yoga class beside the lake or attend a guided meditation session. These are activities which provide the chance to put back some rest, reflect, and communicate with one's self amidst traveling.</p>\n<p><b>Shop for handmade souvenirs in the local markets:</b> Wander through some of Pushkar's resplendent bazaars, full of colorful textiles, glittering silver jewelry, and handicrafts. Haggling with shopkeepers, watching the artisans at work, and getting hold of souvenirs which you will cherish and remember from your travels. There, you will not want to miss the famous rose products of Pushkar.</p>\n<p><b>Witness a cultural dance performance:</b> Get up and dance with the traditional troupe at Udaipur, and redefine the cultural experience in Rajasthan. Intricate body gestures clothed in multihued garments bring folk tales alive, which one can hardly miss due to their vivacity.</p>\n<p><b>Try yourself at miniature painting:</b> Participate in a workshop on Rajasthani miniature painting to learn this most delicate of arts. With fine brushes and vibrant colors, under the guidance of skilled artists, students can compose their own miniature masterpiece. This is a hands-on experience and provides insight into the local traditions of art.</p>\n<p><b>Take a bicycle tour of the countryside:</b> Explore the countryside around Udaipur on two wheels. Cycling through rural villages, past lakes and hills, immerse in local life along the way. This eco-friendly adventure allows you to experience the region's natural beauty up close.</p>\n<p><b>Enjoy a rooftop dinner with lake views:</b> Taste Rajasthani cuisine with the cityscape of Udaipur in all its grandeur. Many restaurants offer rooftop seating with views of illuminated palaces reflected in Lake Pichola. The perfect way to end a day of exploration in the City of Lakes.</p>\n<p><b>Go on a desert camping adventure:</b> Be charmed by the Thar Desert, located next to the city of Bikaner. Take a camel safari, spend the night in a desert camp under the star-studded sky, and enjoy Rajasthani folk performances around the bonfire. That's one great way to bond with the local landscapes.</p>\n<p><b>Learn the art of Rajasthani block printing:</b> These workshops are done using the traditional technique of textile decoration. Identify and design your own pattern, then carve a wooden block and print on fabric. Take home what you produce, a unique souvenir, and appreciate the value of local craftsmanship.</p>\n<p><b>Volunteer at a local animal welfare center:</b> Volunteer your time in one of Bikaner's animal welfare organizations. Help take care of the rescue cows, dogs, and camels. It is Godly work, and its satisfaction will also provide a dose of learning about local attitudes toward animals.</p>\n<p><b>Participate in a traditional puppet-making workshop:</b> Join the workshop on Rajasthani puppetry in Bikaner to learn. Learn how to prepare them and manage these gorgeous string puppets; understand their significance in cultural terms. This interactive experience will give you a fun way to engage in local traditions.</p>\n<h3>How to Reach Rajasthan</h3><p><b>By Air:</b> Fly to Jaipur International Airport, the nearest major airport to Pushkar (about 150 km away). From Jaipur, take a taxi or bus to Pushkar. The flight from Delhi to Jaipur takes about 1 hour.</p><p><b>By Train:</b> Take a train to Ajmer Junction, the nearest railway station to Pushkar (11 km away). Several trains run daily from Delhi to Ajmer, with the journey taking 6-8 hours. From Ajmer, take a local bus or taxi to Pushkar.</p><p><b>By Bus:</b> Direct buses operate from Delhi to Pushkar, typically taking 10-12 hours. Both government and private operators offer this service, with options for AC and non-AC buses.</p><p><b>By Car:</b> Drive from Delhi to Pushkar, a journey of about 400 km that takes around 7-8 hours. The route passes through Jaipur, offering a chance to break the journey if desired.</p>\n<h3>Best Time to Visit Rajasthan</h3><p>The best time to visit Pushkar, Udaipur, and Bikaner together would be during the winters, from October to March. During this time, the climatic conditions are desirable at all three destinations, hence making it quite feasible to visit places of interest and carry out outdoor activities without problems.</p><p>The temperatures during this period of the year range from 10°C to 25°C, making it comfortable to walk around and explore. Skies are clear with beautiful views and sunny photo moments.</p>\n<p>Other Related Rajasthan Packages: <a href=\"/trips/udaipur\" style=\"color:blue;\">Udaipur Tour Packages</a>, <a href=\"/trips/rajasthan-backpacking-udaipur-jodhpur-jaisalmer\" style=\"color:blue;\">Udaipur Jodhpur Jaisalmer Backpacking</a>, <a href=\"/trips/ny-rajasthan-backpacking\" style=\"color:blue;\">New Year Rajasthan Backpacking</a>, <a href=\"/trips/jaisalmer-and-longewala\" style=\"color:blue;\">Jaisalmer and Longewala Tour</a>, <a href=\"/trips/rajasthan-backpacking-from-delhi-udaipur-jodhpur-jaisalmer\" style=\"color:blue;\">Udaipur Jodhpur Jaisalmer from Delhi</a></p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Pushkar | Overnight Journey",
+      "description": "<ul><li>Assemble at the boarding point in Delhi (as informed).</li><li>Start an overnight journey to Pushkar and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Pushkar Arrival | Local Exploration",
+      "description": "<ul>    <li>After arriving in Pushkar, check-in to our comfy hotel decorated with gorgeous Aravallis in the backdrop, freshen-up, regroup for a much-needed breakfast and have some leisure.</li>    <li>Post refreshment, we will head out to pay homage at the only Brahma Temple in the World, explore the sacred ghats of Pushkar Sarovar and treat your stomach with mouth-watering street food like <i>malpuas, falafel rolls</i> and <i>pakoras</i>.</li>    <li>In the evening, feel free to visit the Pushkar ghat for aarti or just chill at nearby lake view cafes with good food and good mood.</li>    <li>Dinner and overnight stay in the hotel in Pushkar.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Pushkar to Udaipur | Ajmer Dargah | Udaipur Arrival",
+      "description": "<ul>    <li>Wake up early and post breakfast, check-out from our hotel in Pushkar and drive towards Udaipur via Ajmer.</li>    <li>In Ajmer, we will pay homage at Dargah Sharif - a sacred sufi shrine and eat at local food spots near Ajmer Dargah. Before starting-off our journey towards Udaipur, we will also visit Ana Sagar Lake, Akbar’s Palace and Museum and Prithviraj Smarak.</li>    <li>After arriving in Udaipur, check-in to our relaxing hotel and have some leisure.</li>    <li>Dinner and overnight stay in the hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Udaipur Local Exploration",
+      "description": "<ul>    <li>Wake up early and post breakfast, head out to explore Rajasthan’s lake city and various heritage wonders.</li>    <li>Visit Udaipur’s City Palace and experience the grandeur and rich history of Mewar region. The City Palace offers panoramic views of Pichola lake and the entire white city. Move towards Sajjangarh Fort also known as Monsoon Palace situated on a hilltop. We will also visit the Vintage Car Museum and other major attractions.</li>    <li>A trip to Udaipur will remain incomplete without soaking in the serenity of its freshwater lakes. We will visit the most prominent ones in our sightseeing tour such as Lake Pichola, Fatehsagar Lake and Jaisamand Lake.</li>    <li>Dinner and overnight stay in a hotel in Udaipur.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Udaipur to Bikaner | Bikaner Arrival",
+      "description": "<ul>    <li>Wake up early and post breakfast, check-out from our hotel in Udaipur and drive towards Bikaner.</li>    <li>Before saying goodbye to Rajasthan’s lake city, we will go out to explore streets of Udaipur decorated with various local handicrafts, colorful fabrics, souvenirs, temples and tasty street food.</li>    <li>After arriving in Bikaner, check-in to our relaxing hotel and have some leisure.</li>    <li>Dinner and overnight stay in the hotel in Bikaner.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Bikaner Local Exploration",
+      "description": "<ul>    <li>Wake up early and post breakfast, head out to explore the heritage city of Bikaner.</li>    <li>We will explore the magnificent Junagarh Fort built using red sandstone by Raja Jai Singh. The exploration will be followed by Lalgarh Palace &amp; Museum, Gajner Palace &amp; Lake and Devi Kund</li>    <li>Witness a sight so different at Deshnok Karni Mata Temple famous for the rats that roam in the temple premises freely.</li>    <li>Dinner and overnight stay in the hotel in Bikaner.</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Delhi Departure | Trip Ends",
+      "description": "<ul>    <li>Wake up early and post breakfast, check-out from our hotel in Bikaner and drive towards Delhi.</li>    <li>Reach Delhi by day end with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: comfortable AC Deluxe bus/Force Traveler.",
+    "Accommodation on sharing basis: 1 night in hotel (Pushkar), 2 nights in hotel (Udaipur), 2 nights in hotel (Bikaner).",
+    "Meals: Breakfast (6), Dinner (5).",
+    "Experienced and cool trip leader.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
 
   //==========================================================================
   // DESTINATION: Kerala (from Kerala.tsx)
   //==========================================================================
   {
     slug: 'kerala-backpacking-4n5d',
-    title: 'Kerala Backpacking 4N5D',
+    title: 'Kerala Backpacking 4N5D', // From HTML
     destination: 'Kerala',
-    duration: '5 Days 4 Nights',
-    price: '₹15000',
-    originalPrice: '₹16500',
-    discount: '₹1,500',
-    imageUrl: '/cloned_media/16514620250619134346.png',
-    overview: 'A backpacker\'s dream trip through God\'s Own Country. Explore Kochi, Munnar, and the backwaters of Alleppey.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hostel/Guesthouse Stay', 'Transfers', 'Houseboat Stay (1 Night)'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Meals'],
+    duration: '5 Days 4 Nights', // From HTML
+    price: '₹15000', // From HTML (discounted_triple_price)
+    originalPrice: '₹16500', // From HTML (triple_price)
+    discount: '₹1,500', // Calculated from HTML
+    imageUrl: '/cloned_media/16514620250619134346.png', // From HTML
+    gallery: [ // From HTML gallary array
+      '/cloned_media/12318420250619135458.png',
+      '/cloned_media/10638520250619135458.png',
+      '/cloned_media/14238920250619135458.png',
+      '/cloned_media/21517020250619135458.png',
+      '/cloned_media/7976220250619135841.png',
+      '/cloned_media/3434920250619135841.png'
+    ],
+    overview: '<p>Discover the lush beauty of God’s Own Country with our Kerala Backpacking Tour Packages by Go4Explore. From misty hill stations and serene backwaters to golden beaches and rich culture, Kerala is the perfect destination for all kinds of travelers. Our most popular Kerala Group Trip Packages from Kochi to Kochi are specially designed for backpackers and adventure lovers who wish to explore the state hassle-free. With carefully planned itineraries covering Munnar, Alleppey, Thekkady, and Kochi, you can enjoy nature, adventure, and authentic local experiences without worrying about travel arrangements.</p><p>Whether you’re planning a family vacation, a romantic getaway, or a fun holiday with friends, Go4Explore offers customized Kerala Tour Packages to suit every need. Couples can opt for cozy stays in houseboats and hill-view cottages with our Kerala Couple Packages, while families can enjoy comfortable and safe travel with guided sightseeing at Kerala’s top attractions. For groups of friends, our Kerala Backpacking Group Trips include thrilling activities like trekking, beach camping, spice plantation visits, and exploring hidden waterfalls, ensuring a perfect mix of adventure and relaxation.</p>', // From HTML
+    itinerary: [ // From HTML i_data
+      {
+        day: 1,
+        title: 'Arrival at Kochi | Drive to Munnar',
+        description: '<ul><li>On arrival at Kochi Airport/Railway Station, you’ll be picked-up in our vehicle and transfer to Munnar.</li><li>Visit the scenic Athirapalli Waterfall (Bahubali movie shooting location).</li><li>Enroute Munnar, take a halt to appreciate the scenic Valara Waterfall, Cheeyappara Waterfalls and others.</li><li>Munnar is a magnificent hill station in the Western Ghats of Kerala. Anamudi, the highest peak in South India (8883 ft.) is nearby Munnar.</li><li>By noon we’ll reach Munnar, check-in to our hotel and have some leisure. In the evening, feel free to stroll around. </li><li>Overnight stay in a hotel in a Munnar.</li></ul>'
+      },
+      {
+        day: 2,
+        title: 'Munnar Local Sightseeing',
+        description: '<ul><li>Wake up to a beautiful morning and post breakfast, proceed for local sightseeing in and around Munnar - sprawling tea plantations, picture-book towns, winding lanes and holiday facility makes this a popular town. </li><li>Visit the beautiful Blossom Park, take a leisure walk around Mattupetty Lake and Dam. Also, explore Echo Point and capture the breathtaking views as seen from here. Also, visit Kundala Lake, Eravikulam National Park, and Sevenmallay Tea Estate.</li><li>Post explorations, drive back to your accommodation & have leisure.</li><li>Overnight stay in a hotel in Munnar.</li></ul>'
+      },
+      {
+        day: 3,
+        title: 'Drive from Munnar to Thekkady',
+        description: '<ul><li>Wake up early in the morning and post breakfast, begin your drive to Thekkady.</li><li>On arrival in Thekkady, check-in to our hotel and have some leisure.</li><li>In afternoon, proceed for local sightseeing in and around Thekkady.</li><li>Thekkady is one of the world\'s most fascinating wildlife reserves, the Periyar Wildlife Sanctuary spread across 777 sq. km. of which 360 sq. km. is a thick evergreen forest. </li><li>In the evening, feel free to go to the market for shopping for spices.</li><li>Overnight stay in a hotel in Thekkady.</li></ul>'
+      },
+      {
+        day: 4,
+        title: 'Drive from Thekkady to Alleppey',
+        description: '<ul><li>Wake up early in the morning and post breakfast, begin your drive to Alleppey.</li><li>Upon arrival in Alleppey, check-in to our houseboat/hotel. Explore the beauty of Kerala’s backwaters, sit back and relax while the houseboat/cruise travels through the serene backwaters, witness amazing views of coconut trees, and more along. </li><li>Enjoy a hearty lunch on backwaters (only if staying in houseboat).</li><li>Dinner (only if staying in houseboat) and overnight stay in a houseboat/hotel in Alleppey.</li></ul>'
+      },
+      {
+        day: 5,
+        title: 'Drive from Alleppey to Kochi | Trip Ends',
+        description: '<ul><li>Wake up early in the morning and post breakfast, check-out from your houseboat/hotel in Alleppey and begin your drive to Kochi.</li><li>You’ll be dropped off at the Kochi Airport/Railway Station and the trip ends with lots of amazing memories and unforgettable experiences.</li></ul>'
+      }
+    ],
+    inclusions: [ // Extracted as string[] from HTML
+      'Transportation: All local sightseeing by Tempo Traveller/Cab (depending upon total travellers).',
+      'Accommodation on Sharing Basis: 2 nights in Munnar, 1 night in Thekkady, 1 night in Alleppey (Houseboat with AC timings 9 pm - 6 am).',
+      '6 Meals: Daily Breakfast only, starting from Day 2 to Day 5 & 1 Lunch + 1 Dinner additional in Alleppey Houseboat.',
+      'All transfers and local sightseeing (as per the itinerary from 8 am - 6 pm) by an AC Vehicle (AC will be switched off on hills).',
+      'Airport pick-up & drop (transfers at fixed time only).',
+      'All trip assistance and experienced drivers.',
+      'Driver allowances, toll taxes, parking & state road taxes.'
+    ],
+    exclusions: [ // Extracted as string[] from HTML
+      'Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.',
+      'Items of a personal nature like room heater, room/hotel upgrade, early/late check-in/checkout, porterage, tips, laundry etc.',
+      'Travel Insurance, items of personal nature like porterage, tips, laundry etc.',
+      'Any entry fees, extra expenses for optional activities, room heaters or tickets, unless quoted in Inclusions.',
+      'Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.',
+      'Anything which is not mentioned in the above inclusions.',
+      'GST (5%) is applicable extra.'
+    ],
   },
   {
     slug: 'weekend-escape-to-kerala-3d2n',
-    title: 'Weekend Escape to Kerala 3D2N',
+    title: 'Weekend Escape to Kerala 3D2N', // From HTML
     destination: 'Kerala',
-    duration: '3 Days 2 Nights',
-    price: '₹8750',
-    imageUrl: '/cloned_media/40386720240717080101.png',
-    overview: 'A short and sweet weekend getaway to experience the essence of Kerala, perfect for a quick refresh.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Sightseeing in Kochi/Munnar'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Meals'],
+    duration: '3 Days 2 Nights', // From HTML
+    price: '₹8750', // From HTML (Double Occupancy price)
+    // originalPrice: '', // No discount in HTML
+    // discount: '', // No discount in HTML
+    imageUrl: '/cloned_media/40386720240717080101.png', // From HTML
+    gallery: [ // From HTML gallary array
+      '/cloned_media/40202120240717080101.png',
+      '/cloned_media/3900920240717080101.png',
+      '/cloned_media/2563920240717080101.png'
+    ],
+    overview: '<h2>Munnar Tour Package 3 Days 2 Nights</h2><p>Located in the Western Ghats of Kerala, Munnar is a paradise for nature-loving and adventure enthusiasts simply because it presents the most beautiful gift of paradise. Imagine getting up one fine morning with misty scenes all around you, with the rolling hills carpeted in infinite stretches of lush green. ...This Munnar tour package is all about exploring the breathtaking beauty of the hill station.</p><p>...Our experienced local guides will share fascinating stories and insider tips, ensuring you experience the heart and soul of Munnar. Whether you\'re a honeymooning couple, a family seeking quality time, or a solo traveler in search of serenity, our Munnar package promises an unforgettable journey. Don\'t just dream about it, <a href="https://go4explore.com/trip/kerala" style="color:blue;">book Kerala Tour Package</a> with Go4Explore now and let the magic of Munnar captivate you!</p><h3>Best Places to Visit in Munnar</h3><p><b>Valara Waterfalls-</b> ...nestled in the midst of the green landscape of Munnar.</p><p><b>Cheeyappara Waterfalls-</b> ...a seven-step cascade that falls in the midst of thick tropical forests.</p><p><b>Eravikulam National Park-</b> Home to the endangered Nilgiri Tahr...</p><p><b>Tea Gardens-</b> Munnar\'s vast tea plantations are its iconic attraction.</p><p><b>Top Station-</b> ...offering some spectacular views in Munnar.</p><p><b>Mattupetty Dam-</b> This scenic dam has boating facilities...</p><p><b>Kundala Lake-</b> This artificial lake... is perfect for boating and picnics.</p><p><b>Echo Point-</b> Named for its natural echo phenomenon...</p>', // From HTML
+    itinerary: [ // From HTML i_data
+      {
+        day: 1,
+        title: 'Arrival at Kochi | Drive to Munnar',
+        description: '<ul><li>On arrival at Kochi Airport/Station, you’ll be picked-up in our vehicle and transfer to Munnar.</li><li>Enroute Munnar, take a halt to appreciate the scenic Valara Waterfall, Cheeyappara Waterfalls and others.</li><li>Munnar is a magnificent hill station in the Western Ghats of Kerala. Anamudi, the highest peak in South India (8883 ft.) is nearby Munnar.</li><li>By noon we’ll reach Munnar, check-in to our hotel and have some leisure. In the evening, feel free to stroll around.</li><li>Overnight stay in a hotel in a Munnar.</li></ul>'
+      },
+      {
+        day: 2,
+        title: 'Munnar Local Sightseeing',
+        description: '<ul><li>Wake up to a beautiful morning and post breakfast, proceed for local sightseeing in and around Munnar - Sprawling Tea Plantations, picture-book towns, winding lanes and holiday facility makes this a popular town.</li><li>Visit the beautiful Blossom Park, take a leisure walk around Mattupetty Lake and Dam. Also, explore Echo Point and capture the breathtaking views as seen from here. Also, visit Kundala Lake, Eravikulam National Park, and Sevenmallay Tea Estate.</li><li>Post explorations, drive back to your accommodation &amp; have leisure.</li><li>Overnight stay in a hotel in Munnar.</li></ul>'
+      },
+      {
+        day: 3,
+        title: 'Munnar to Kochi | Tour Ends',
+        description: '<ul><li>Wake up early in the morning and post breakfast, check-out from your hotel in Munnar and begin your drive to Kochi.</li><li>You’ll be dropped off at the Kochi airport/railway station and the trip ends with lots of amazing memories and unforgettable experiences.</li></ul>'
+      }
+    ],
+    inclusions: [ // Extracted as string[] from HTML
+      'Transportation: All local sightseeing by Tempo Traveller/Cab (depending upon total travellers).',
+      'Accommodation on Sharing Basis: 2 nights in Munnar.',
+      'Meals: 2 Breakfasts only, starting from Day 2 to Day 3.',
+      'All transfers and local sightseeing (as per the itinerary from 8am-6pm) by an AC Vehicle. (AC will be switched off on hills)',
+      'Airport transfers.',
+      'All trip assistance.',
+      'Driver allowances, toll taxes, parking, state taxes.'
+    ],
+    exclusions: [ // Extracted as string[] from HTML
+      'Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.',
+      'Travel Insurance, items of personal nature like porterage, tips, laundry etc.',
+      'Any other activities you do there.',
+      'Any entry fees, extra expenses for optional activities, room heaters or tickets, unless quoted in Inclusions.',
+      'Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.',
+      'GST (5%) is applicable extra.',
+      'Anything which is not mentioned in the above inclusions.'
+    ],
   },
   {
     slug: 'vibrant-kerala-retreat-4d3n',
-    title: 'Vibrant Kerala Retreat 4D3N',
+    title: 'Vibrant Kerala Retreat 4D3N', // From HTML
     destination: 'Kerala',
-    duration: '4 Days 3 Nights',
-    price: '₹14700',
-    imageUrl: '/cloned_media/26901420240717095829.png',
-    overview: 'A 4-day retreat to explore the vibrant culture, lush tea gardens, and serene backwaters of Kerala.',
-    itinerary: createItinerary('4 Days 3 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'All Transfers', 'Breakfast'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Lunches and Dinners'],
+    duration: '4 Days 3 Nights', // From HTML
+    price: '₹14700', // From HTML (Starting price, Double Occupancy)
+    // originalPrice: '', // No discount in HTML
+    // discount: '', // No discount in HTML
+    imageUrl: '/cloned_media/26901420240717095829.png', // From HTML
+    gallery: [ // From HTML gallary array
+      '/cloned_media/42246920240717095828.png',
+      '/cloned_media/26281620240717095829.png',
+      '/cloned_media/22243720240717095829.png',
+      '/cloned_media/1001320240717095829.png'
+    ],
+    overview: '<h2>4 Days 3 Nights Munnar Alleppey Tour Package</h2><p>Discover the magic of Kerala with our Munnar-Alleppey tour package! This perfect blend of misty mountains and serene backwaters offers an unforgettable journey through God\'s Own Country.</p><p>Start in Munnar where emerald tea plantations carpet rolling hills Explore winding trails and Spot exotic wildlife. Learn the art of tea-making. Our package includes guided tours to hidden waterfalls, spice gardens and breathtaking viewpoints.</p><p>Next we\'ll transport you to Alleppey, the Venice of the East. Board a traditional houseboat for cruise through Kerala\'s famous backwaters. Glide past lush paddy fields and quaint villages.</p><p>This package is perfect for honeymooners, families or solo travelers seeking to connect with nature and culture. Experience the cool mountain air of Munnar. Enjoy the gentle lapping of Alleppey\'s waters. Immerse yourself in Kerala\'s rich traditions, savor its flavors and create memories to last a lifetime.</p><p>Don\'t just visit Kerala , live it. Book <a href="https://go4explore.com/trip/kerala" style="color:blue;">Kerala Tour Package</a> with Go4Explore and Let us guide you through an enchanting journey!</p><h3>Best Places to Visit in 4 Days Munnar Alleppey Tour</h3><p><b>Eravikulam National Park:</b> Home to endangered Nilgiri Tahr...</p><p><b>Tea Gardens:</b> Munnar\'s vast tea plantations are its iconic attraction...</p><p><b>Mattupetty Dam:</b> This picturesque dam offers boating facilities...</p><p><b>Top Station:</b> ...offers the most spectacular views Munnar...</p><p><b>Alleppey Backwaters:</b> The crown jewel of Kerala...</p><h3>Top Things to do in 4 Days Munnar Alleppey Trip</h3><p><b>Tea Tasting:</b> ...sample various locally produced teas.</p><p><b>Trekking and Nature Walks:</b> Embark on guided treks...</p><p><b>Spice Garden Tours:</b> Join guided tours of spice plantations...</p><p><b>Houseboat Cruise:</b> Experience a traditional Kerala houseboat cruise...</p><p><b>Ayurvedic Treatments:</b> Indulge in authentic Ayurvedic massages...</p>', // From HTML
+    itinerary: [ // From HTML i_data
+      {
+        day: 1,
+        title: 'Arrival at Kochi | Drive to Munnar',
+        description: '<ul><li>On arrival at Kochi Airport/Station, you’ll be picked-up in our vehicle and transfer to Munnar.</li><li>Enroute Munnar, take a halt to appreciate the scenic Valara Waterfall, Cheeyappara Waterfalls and others.</li><li>Munnar is a magnificent hill station in the Western Ghats of Kerala. Anamudi, the highest peak in South India (8883 ft.) is nearby Munnar.</li><li>By noon we’ll reach Munnar, check-in to our hotel and have some leisure. In the evening, feel free to stroll around.</li><li>Overnight stay in a hotel in a Munnar.</li></ul>'
+      },
+      {
+        day: 2,
+        title: 'Munnar Local Sightseeing',
+        description: '<ul><li>Wake up to a beautiful morning and post breakfast, proceed for local sightseeing in and around Munnar - Sprawling Tea Plantations, picture-book towns, winding lanes and holiday facility makes this a popular town.</li><li>Visit the beautiful Blossom Park, take a leisure walk around Mattupetty Lake and Dam. Also, explore Echo Point and capture the breathtaking views as seen from here. Also, visit Kundala Lake, Eravikulam National Park, and Sevenmallay Tea Estate.</li><li>Post explorations, drive back to your accommodation &amp; have leisure.</li><li>Overnight stay in a hotel in Munnar.</li></ul>'
+      },
+      {
+        day: 3,
+        title: 'Drive from Munnar to Alleppey',
+        description: '<ul><li>Wake up early in the morning and post breakfast, begin your drive to Alleppey.</li><li>Upon arrival in Alleppey, check-in to our houseboat/hotel. Explore the beauty of Kerala’s backwaters, sit back and relax while the houseboat/cruise travels through the serene backwaters, witness amazing views of coconut trees, and more along.</li><li>Enjoy a hearty lunch (only if you’re staying in houseboat).</li><li>Dinner (only in houseboat) and overnight stay in a houseboat/hotel in Alleppey.</li></ul>'
+      },
+      {
+        day: 4,
+        title: 'Alleppey to Kochi | Tour Ends',
+        description: '<ul><li>Wake up early in the morning and post breakfast, check-out from your houseboat/hotel in Alleppey and begin your drive to Kochi.</li><li>You’ll be dropped off at the Kochi airport/railway station and the trip ends with lots of amazing memories and unforgettable experiences.</li></ul>'
+      }
+    ],
+    inclusions: [ // Extracted as string[] from HTML
+      'Transportation: All local sightseeing by Tempo Traveller/Cab (depending upon total travellers).',
+      'Accommodation on Sharing Basis: 2 nights in Munnar, 1 night in Alleppey.',
+      'Meals: Daily Breakfast only, starting from Day 2 to Day 4. There will be 1 Dinner+1 Lunch (only in Alleppey Houseboat).',
+      'All transfers and local sightseeing (as per the itinerary from 8am-6pm) by an AC Vehicle. (AC will be switched off on hills)',
+      'Airport transfers.',
+      'All trip assistance.',
+      'Driver allowances, toll taxes, parking, state taxes.'
+    ],
+    exclusions: [ // Extracted as string[] from HTML
+      'Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.',
+      'Travel Insurance, items of personal nature like porterage, tips, laundry etc.',
+      'Any other activities you do there.',
+      'Any entry fees, extra expenses for optional activities, room heaters or tickets, unless quoted in Inclusions.',
+      'Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.',
+      'GST (5%) is applicable extra.',
+      'Anything which is not mentioned in the above inclusions.'
+    ],
   },
   {
     slug: 'mesmerizing-kerala-getaway-4n5d',
-    title: 'Mesmerizing Kerala Getaway 4N5D',
+    title: 'Mesmerizing Kerala Getaway 4N5D', // From HTML
     destination: 'Kerala',
-    duration: '5 Days 4 Nights',
-    price: '₹17200',
-    imageUrl: '/cloned_media/15154220240717101812.png',
-    overview: 'A mesmerizing 5-day getaway covering the hills of Munnar, the wildlife of Thekkady, and the backwaters of Alleppey.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'All Transfers', 'Breakfast'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Lunches and Dinners'],
+    duration: '5 Days 4 Nights', // From HTML
+    price: '₹17200', // From HTML (double_price)
+    // originalPrice: '', // No discount in HTML
+    // discount: '', // No discount in HTML
+    imageUrl: '/cloned_media/15154220240717101812.png', // From HTML
+    gallery: [ // From HTML gallary array
+      '/cloned_media/32337420240717101812.png',
+      '/cloned_media/17916320240717101812.png',
+      '/cloned_media/18680420240717101812.png',
+      '/cloned_media/25497320240717101812.png',
+      '/cloned_media/1876720240717101812.png'
+    ],
+    overview: '<h2>About Munnar Thekkady Alleppey Tour Package</h2><p>Embark on unforgettable journeys through Kerala\'s most captivating destinations with our Munnar-Thekkady-Alleppey tour package! This expertly crafted itinerary offers the perfect blend of misty mountains, wild forests and serene backwaters. It promises an experience that will enchant your senses and rejuvenate your soul.</p><p>Begin your adventure in Munnar. Rolling hills are carpeted with emerald tea plantations. Breathe in the crisp mountain air as you explore winding trails. Discover hidden waterfalls. Enjoy picturesque viewpoints. Next, venture into the wilds of Thekkady. It is home to the renowned Periyar Tiger Reserve. Immerse yourself in nature with guided jungle treks. Enjoy bamboo rafting and the thrill of spotting exotic wildlife in their natural habitat.</p><p>Cap off your journey in Alleppey. It is known as the Venice of the East. Drift along tranquil backwaters on a traditional houseboat. Watch the world go by as you glide past lush paddy fields and quaint villages. Savor freshly prepared Kerala cuisine. Fall asleep to the gentle lapping of water against your boat.</p><h3>Best Places to Visit in Munnar Thekkady Alleppey</h3><p><b>Tea Gardens:</b> Explore vast expanses of lush green tea plantations...</p><p><b>Eravikulam National Park:</b> Home to the endangered Nilgiri Tahr...</p><p><b>Mattupetty Dam:</b> This picturesque spot offers boating experiences...</p><p><b>Top Station:</b> The highest point in Munnar, offering breathtaking views...</p><p><b>Periyar National Park:</b> Take a boat safari on Periyar Lake to spot wildlife...</p><p><b>Spice Plantations:</b> Visit aromatic spice gardens...</p><p><b>Backwater Cruise:</b> Glide through serene backwaters on traditional houseboats...</p><p><b>Alappuzha Beach:</b> Relax on this pristine beach...</p><h3>Things to do in Munnar Thekkady and Alleppey</h3><p>Take a tea plantation tour and learn about tea production...</p><p>Enjoy a scenic trek through Munnar\'s lush landscapes...</p><p>Embark on a wildlife safari in Periyar National Park...</p><p>Participate in a spice plantation tour...</p><p>Cruise the backwaters on a traditional houseboat...</p>', // From HTML
+    itinerary: [ // From HTML i_data
+      {
+        day: 1,
+        title: 'Arrival at Kochi | Drive to Munnar',
+        description: '<ul><li>On arrival at Kochi Airport/Station, you’ll be picked-up in our vehicle and transfer to Munnar.</li><li>Enroute Munnar, take a halt to appreciate the scenic Valara Waterfall, Cheeyappara Waterfalls and others.</li><li>Munnar is a magnificent hill station in the Western Ghats of Kerala. Anamudi, the highest peak in South India (8883 ft.) is nearby Munnar.</li><li>By noon we’ll reach Munnar, check-in to our hotel and have some leisure. In the evening, feel free to stroll around.</li><li>Overnight stay in a hotel in a Munnar.</li></ul>'
+      },
+      {
+        day: 2,
+        title: 'Munnar Local Sightseeing',
+        description: '<ul><li>Wake up to a beautiful morning and post breakfast, proceed for local sightseeing in and around Munnar - Sprawling Tea Plantations, picture-book towns, winding lanes and holiday facility makes this a popular town.</li><li>Visit the beautiful Blossom Park, take a leisure walk around Mattupetty Lake and Dam. Also, explore Echo Point and capture the breathtaking views as seen from here. Also, visit Kundala Lake, Eravikulam National Park, and Sevenmallay Tea Estate.</li><li>Post explorations, drive back to your accommodation &amp; have leisure.</li><li>Overnight stay in a hotel in Munnar.</li></ul>'
+      },
+      {
+        day: 3,
+        title: 'Drive from Munnar to Thekkady',
+        description: '<ul><li>Wake up early in the morning and post breakfast, begin your drive to Thekkady.</li><li>On arrival in Thekkady, check-in to our hotel and have some leisure.</li><li>In afternoon, proceed for local sightseeing in and around Thekkady.</li><li>Thekkady is one of the world\'s most fascinating wildlife reserves, the Periyar Wildlife Sanctuary spread across 777 Sq. KM. of which 360 Sq. KM is a thick evergreen forest.</li><li>In the evening, feel free to go to the market for shopping for spices.</li><li>Overnight stay in a hotel in Thekkady.</li></ul>'
+      },
+      {
+        day: 4,
+        title: 'Drive from Thekkady to Alleppey',
+        description: '<ul><li>Wake up early in the morning and post breakfast, begin your drive to Alleppey.</li><li>Upon arrival in Alleppey, check-in to our houseboat/hotel. Explore the beauty of Kerala’s backwaters, sit back and relax while the houseboat/cruise travels through the serene backwaters, witness amazing views of coconut trees, and more along.</li><li>Enjoy a hearty lunch (only if you’re staying in houseboat).</li><li>Dinner (only in houseboat) and overnight stay in a houseboat/hotel in Alleppey.</li></ul>'
+      },
+      {
+        day: 5,
+        title: 'Alleppey to Kochi | Tour Ends',
+        description: '<ul><li>Wake up early in the morning and post breakfast, check-out from your houseboat/hotel in Alleppey and begin your drive to Kochi.</li><li>You’ll be dropped off at the Kochi airport/railway station and the trip ends with lots of amazing memories and unforgettable experiences.</li></ul>'
+      }
+    ],
+    inclusions: [ // Extracted as string[] from HTML
+      'Transportation: All local sightseeing by Tempo Traveller/Cab (depending upon total travellers).',
+      'Accommodation on Sharing Basis: 2 nights in Munnar, 1 night in Thekkady, 1 night in Alleppey.',
+      'Meals: Daily Breakfast only, starting from Day 2 to Day 5. There will be 1 Dinner+1 Lunch (only in Alleppey Houseboat).',
+      'All transfers and local sightseeing (as per the itinerary from 8am-6pm) by an AC Vehicle. (AC will be switched off on hills)',
+      'Airport transfers.',
+      'All trip assistance.',
+      'Driver allowances, toll taxes, parking, state taxes.'
+    ],
+    exclusions: [ // Extracted as string[] from HTML
+      'Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.',
+      'Travel Insurance, items of personal nature like porterage, tips, laundry etc.',
+      'Any other activities you do there.',
+      'Any entry fees, extra expenses for optional activities, room heaters or tickets, unless quoted in Inclusions.',
+      'Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.',
+      'GST (5%) is applicable extra.',
+      'Anything which is not mentioned in the above inclusions.'
+    ],
   },
   {
     slug: 'kerala-backpacking',
-    title: 'Kerala Backpacking',
+    title: 'Kerala Backpacking', // From HTML
     destination: 'Kerala',
-    duration: '7 Days 6 Nights',
-    price: '₹27500',
-    imageUrl: '/cloned_media/2193820220831123359.png',
-    overview: 'A week-long backpacking adventure across Kerala, from the beaches of Varkala to the tea estates of Munnar.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hostel/Guesthouse Stay', 'Intercity Transfers', 'Houseboat Stay'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Meals'],
+    duration: '7 Days 6 Nights', // From HTML
+    price: '₹27500', // From HTML (Triple sharing price)
+    // originalPrice: '', // No discount in HTML
+    // discount: '', // No discount in HTML
+    imageUrl: '/cloned_media/2193820220831123359.png', // From HTML
+    gallery: [ // From HTML gallary array
+      '/cloned_media/12183020230720180607.png',
+      '/cloned_media/22961220230720180607.png',
+      '/cloned_media/27291820230720180607.png',
+      '/cloned_media/20218320230720180607.png',
+      '/cloned_media/30664920230720180607.png',
+      '/cloned_media/30808520230720180607.png',
+      '/cloned_media/2592220230720180607.png',
+      '/cloned_media/34656620230720180607.png',
+      '/cloned_media/28869020230720180607.png',
+      '/cloned_media/3579220230720180607.png'
+    ],
+    overview: '<h2>About Kerala Backpacking Trip</h2><p>Kerala, also known as the Jewel of India and God’s Own Country is one of the most remarkable states in India. Bestowed with rich and diverse culture. Kerala is a destination so alluring and magical, which every traveler would want to explore without any second thoughts. This haven is situated in the southern corner of India bordered by Karnataka, Tamil Nadu and the Arabian Sea along with numerous breathtaking attractions.</p><p>Known for its lush landscapes Kerala attributes the Western Ghats, tropical forests, backwaters and beaches. ...Kerala is not only rich in wildlife but also has diversity in culture and festivals like Onam and Vishu, are the most celebrated. From traditional arts such as Kathakali and Theyyam to predominately found coconut and spices, Kerala is acknowledged for all.</p><h3>Best Places to Visit in Kerala Backpacking</h3><ul><li><strong>Kochi (Cochin)-</strong> Kochi is a vibrant port city...</li><li><strong>Munnar-</strong> ...a hill station known for its rolling Tea Gardens...</li><li><strong>Thekkady-</strong> Thekkady is a home to the Periyar National Park...</li><li><strong>Alleppey-</strong> Often called the ‘Venice of the East’...</li><li><strong>Varkala-</strong> A coastal paradise in Kerala, Varkala\'s towering red laterite cliffs...</li><li><strong>Munroe Island-</strong> ...a secret paradise of swaying palms...</li><li><strong>Trivandrum-</strong> India\'s southernmost city...</li></ul><h3>Things to do in Kerala Backpacking Trip</h3><ul><li><strong>Cruise the serene Backwaters on a Kettuvallam Houseboat-</strong> Drift along palm-fringed lakes and canals...</li><li><strong>Go Jeep Safari &amp; Trekking in Periyar Wildlife Sanctuary...</strong></li><li><strong>Hike through the lush Tea Plantations of Munnar-</strong> ...</li><li><strong>Relax on Alleppey\'s beautiful Beaches-</strong> ...</li><li><strong>Indulge in an Ayurvedic Massage and Yoga Retreat-</strong> ...</li><li><strong>Spice Tours in Thekkady-</strong> Embark on a fascinating journey through the fragrant spice plantations...</li></ul>', // From HTML
+    itinerary: [ // From HTML i_data
+      {
+        day: 1,
+        title: 'Kochi Arrival | Drive to Munnar',
+        description: '<ul><li>Reach Kochi around 9:30 Am in the morning and begin your drive towards Munnar.</li><li>Visit the famous Cheeyappara & Vallarta Waterfalls on the way to Munnar.</li><li>After reaching Munnar, check in to our hotel and have some leisure.</li><li>Feel free to take a stroll around the place and take the Kerala vibes.</li><li>Overnight stay in a hotel in Munnar.</li></ul>'
+      },
+      {
+        day: 2,
+        title: 'Munnar Exploration',
+        description: '<ul><li>Wake up to the peaceful morning and post breakfast, head out to explore the Teastates.</li><li>Visit the Rose garden, Photo point, Eco point, Mattupetty dam and Chennai shooting point.</li><li>After that, we will visit KDHP Tea Tasting, Team Museum & Eravikulam National park (This will be open in April).</li><li>Overnight stay in a hotel in Munnar.</li></ul>'
+      },
+      {
+        day: 3,
+        title: 'Munnar to Thekkady | Exploration',
+        description: '<ul><li>Wake up to the peaceful morning and post breakfast, drive toward Thekkady from Munnar.</li><li>After reaching Munnar, check in to our hotel and have some leisure.</li><li>Head out to explore spice plantations with a guide.</li><li>After that we will go to Periyar national park (you can do a safari ride on your own).</li><li>If time allows, You can also see a Kathakali-Kalari show at Kadathanadan Kalari center.</li><li>Overnight stay in a hotel in Thekkady.</li></ul>'
+      },
+      {
+        day: 4,
+        title: 'Thekkady to Alleppey | Exploration',
+        description: '<ul><li>Wake up to the relaxed morning and post breakfast, begin your drive from Thekkady to Alleppey “The Backwater Capital of Kerala”.</li><li>After arriving at Alleppey, check into the houseboat and have some leisure.</li><li>After that, cruise through the backwater, discover the swaying beauty of the narrow canals, verdant paddy fields, coconut lagoons and coir villages.</li><li>Overnight stay in a houseboat in Alleppey.</li></ul>'
+      },
+      {
+        day: 5,
+        title: 'Alleppey to Varkala | Exploration',
+        description: '<ul><li>Wake up early and have breakfast, begin your drive towards Varkala.</li><li>After arriving at the city with the most gorgeous beaches - Varkala, check in to our hotel and have some leisure.</li><li>Spend some time at Virgin beach Papanasam and thereafter visit the Sivagiri Memorial of Late. Sri Narayana Guru and Janardhana Swami Temple.</li><li>Overnight stay in a hotel in Varkala.</li></ul>'
+      },
+      {
+        day: 6,
+        title: 'Varkala to Munroe Island',
+        description: '<ul><li>Post breakfast, head out to explore Munroe Island via boat.</li><li>After that, visit the Jatayu Earth Center at Chadayamangalam.</li><li>Drive back to Varkala.</li><li>Overnight stay in a hotel in Varkala.</li></ul>'
+      },
+      {
+        day: 7,
+        title: 'Varkala to Trivandrum',
+        description: '<ul><li>Post breakfast, check-out from the hotel and proceed to Trivandrum Airport</li><li>Reach home with lots of unforgettable memories.</li></ul>'
+      }
+    ],
+    inclusions: [ // Extracted as string[] from HTML
+      'Transportation from Kochi to Trivandrum: Tempo Traveler/Cab',
+      '6 nights accommodation on a sharing basis',
+      'All local assistance.',
+      '11 Meals: Breakfast (6), Dinner (4), Lunch (1).',
+      'KDHP Tea Museum + Tea Tasting',
+      'Spice Plantation Tour, KTDC Boating, Bus Ticket, and Forest Entrance',
+      'Houseboat Ride with Kerala Lunch (Banana Leaves)',
+      'Munroe Boating -2 Hours',
+      'Jatayu Cable car ride + Jatayu Sculpture visit',
+      'Guided trek to various point',
+      'Driver allowances, toll taxes, parking and state taxes'
+    ],
+    exclusions: [ // Extracted as string[] from HTML
+      'Any extra meals apart from the ones mentioned under inclusions.',
+      'Travel Insurance, items of personal nature like porterage, tips, laundry etc.',
+      'Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.',
+      'Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.',
+      'GST (5%) is applicable extra.',
+      'Anything which is not mentioned in the above inclusions.'
+    ],
+  },
+  {
+    slug: 'mesmerizing-kerala-getaway-4n5d',
+    title: 'Mesmerizing Kerala Getaway 4N5D', // From HTML
+    destination: 'Kerala',
+    duration: '5 Days 4 Nights', // From HTML
+    price: '₹17200', // From HTML (double_price)
+    // originalPrice: '', // No discount in HTML
+    // discount: '', // No discount in HTML
+    imageUrl: '/cloned_media/15154220240717101812.png', // From HTML
+    gallery: [ // From HTML gallary array
+      '/cloned_media/32337420240717101812.png',
+      '/cloned_media/17916320240717101812.png',
+      '/cloned_media/18680420240717101812.png',
+      '/cloned_media/25497320240717101812.png',
+      '/cloned_media/1876720240717101812.png'
+    ],
+    overview: '<h2>About Munnar Thekkady Alleppey Tour Package</h2><p>Embark on unforgettable journeys through Kerala\'s most captivating destinations with our Munnar-Thekkady-Alleppey tour package! This expertly crafted itinerary offers the perfect blend of misty mountains, wild forests and serene backwaters. It promises an experience that will enchant your senses and rejuvenate your soul.</p><p>Begin your adventure in Munnar. Rolling hills are carpeted with emerald tea plantations. ...Next, venture into the wilds of Thekkady. It is home to the renowned Periyar Tiger Reserve. ...Cap off your journey in Alleppey. It is known as the Venice of the East. Drift along tranquil backwaters on a traditional houseboat.</p><h3>Best Places to Visit in Munnar Thekkady Alleppey</h3><p><b>Tea Gardens:</b> Explore vast expanses of lush green tea plantations...</p><p><b>Eravikulam National Park:</b> Home to the endangered Nilgiri Tahr...</p><p><b>Mattupetty Dam:</b> This picturesque spot offers boating experiences...</p><p><b>Top Station:</b> The highest point in Munnar, offering breathtaking views...</p><p><b>Periyar National Park:</b> Take a boat safari on Periyar Lake to spot wildlife...</p><p><b>Spice Plantations:</b> Visit aromatic spice gardens...</p><p><b>Backwater Cruise:</b> Glide through serene backwaters on traditional houseboats...</p><p><b>Alappuzha Beach:</b> Relax on this pristine beach...</p><h3>Things to do in Munnar Thekkady and Alleppey</h3><p>Take a tea plantation tour and learn about tea production...</p><p>Enjoy a scenic trek through Munnar\'s lush landscapes...</p><p>Embark on a wildlife safari in Periyar National Park...</p><p>Cruise the backwaters on a traditional houseboat...</p>', // From HTML
+    itinerary: [ // From HTML i_data
+      {
+        day: 1,
+        title: 'Arrival at Kochi | Drive to Munnar',
+        description: '<ul><li>On arrival at Kochi Airport/Station, you’ll be picked-up in our vehicle and transfer to Munnar.</li><li>Enroute Munnar, take a halt to appreciate the scenic Valara Waterfall, Cheeyappara Waterfalls and others.</li><li>Munnar is a magnificent hill station in the Western Ghats of Kerala. Anamudi, the highest peak in South India (8883 ft.) is nearby Munnar.</li><li>By noon we’ll reach Munnar, check-in to our hotel and have some leisure. In the evening, feel free to stroll around.</li><li>Overnight stay in a hotel in a Munnar.</li></ul>'
+      },
+      {
+        day: 2,
+        title: 'Munnar Local Sightseeing',
+        description: '<ul><li>Wake up to a beautiful morning and post breakfast, proceed for local sightseeing in and around Munnar - Sprawling Tea Plantations, picture-book towns, winding lanes and holiday facility makes this a popular town.</li><li>Visit the beautiful Blossom Park, take a leisure walk around Mattupetty Lake and Dam. Also, explore Echo Point and capture the breathtaking views as seen from here. Also, visit Kundala Lake, Eravikulam National Park, and Sevenmallay Tea Estate.</li><li>Post explorations, drive back to your accommodation &amp; have leisure.</li><li>Overnight stay in a hotel in Munnar.</li></ul>'
+      },
+      {
+        day: 3,
+        title: 'Drive from Munnar to Thekkady',
+        description: '<ul><li>Wake up early in the morning and post breakfast, begin your drive to Thekkady.</li><li>On arrival in Thekkady, check-in to our hotel and have some leisure.</li><li>In afternoon, proceed for local sightseeing in and around Thekkady.</li><li>Thekkady is one of the world\'s most fascinating wildlife reserves, the Periyar Wildlife Sanctuary spread across 777 Sq. KM. of which 360 Sq. KM is a thick evergreen forest.</li><li>In the evening, feel free to go to the market for shopping for spices.</li><li>Overnight stay in a hotel in Thekkady.</li></ul>'
+      },
+      {
+        day: 4,
+        title: 'Drive from Thekkady to Alleppey',
+        description: '<ul><li>Wake up early in the morning and post breakfast, begin your drive to Alleppey.</li><li>Upon arrival in Alleppey, check-in to our houseboat/hotel. Explore the beauty of Kerala’s backwaters, sit back and relax while the houseboat/cruise travels through the serene backwaters, witness amazing views of coconut trees, and more along.</li><li>Enjoy a hearty lunch (only if you’re staying in houseboat).</li><li>Dinner (only in houseboat) and overnight stay in a houseboat/hotel in Alleppey.</li></ul>'
+      },
+      {
+        day: 5,
+        title: 'Alleppey to Kochi | Tour Ends',
+        description: '<ul><li>Wake up early in the morning and post breakfast, check-out from your houseboat/hotel in Alleppey and begin your drive to Kochi.</li><li>You’ll be dropped off at the Kochi airport/railway station and the trip ends with lots of amazing memories and unforgettable experiences.</li></ul>'
+      }
+    ],
+    inclusions: [ // Extracted as string[] from HTML
+      'Transportation: All local sightseeing by Tempo Traveller/Cab (depending upon total travellers).',
+      'Accommodation on Sharing Basis: 2 nights in Munnar, 1 night in Thekkady, 1 night in Alleppey.',
+      'Meals: Daily Breakfast only, starting from Day 2 to Day 5. There will be 1 Dinner+1 Lunch (only in Alleppey Houseboat).',
+      'All transfers and local sightseeing (as per the itinerary from 8am-6pm) by an AC Vehicle. (AC will be switched off on hills)',
+      'Airport transfers.',
+      'All trip assistance.',
+      'Driver allowances, toll taxes, parking, state taxes.'
+    ],
+    exclusions: [ // Extracted as string[] from HTML
+      'Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.',
+      'Travel Insurance, items of personal nature like porterage, tips, laundry etc.',
+      'Any other activities you do there.',
+      'Any entry fees, extra expenses for optional activities, room heaters or tickets, unless quoted in Inclusions.',
+      'Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.',
+      'GST (5%) is applicable extra.',
+      'Anything which is not mentioned in the above inclusions.'
+    ],
   },
   {
     slug: 'blissful-kerala-tour-5n6d',
-    title: 'Blissful Kerala Tour 5N6D',
+    title: 'Blissful Kerala Tour 5N6D', // From HTML
     destination: 'Kerala',
-    duration: '6 Days 5 Nights',
-    price: '₹25400',
-    imageUrl: '/cloned_media/31979820240717110038.png',
-    overview: 'A blissful 6-day tour designed for relaxation and rejuvenation, covering Kerala\'s most peaceful spots.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Resort/Hotel Stay', 'Houseboat Stay', 'All Transfers', 'Breakfast'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Lunches and Dinners'],
-  },
-  {
-    slug: 'enchanting-expedition-of-kerala-6n7d',
-    title: 'Enchanting Expedition of Kerala 6N7D',
-    destination: 'Kerala',
-    duration: '7 Days 6 Nights',
-    price: '₹28600',
-    imageUrl: '/cloned_media/16930020240717111059.png',
-    overview: 'An enchanting 7-day expedition to explore the depths of Kerala\'s culture, nature, and cuisine.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'All Transfers', 'Breakfast', 'Cultural Show'],
-    exclusions: ['Flights/Trains', 'Entry Fees', 'Lunches and Dinners'],
+    duration: '6 Days 5 Nights', // From HTML
+    price: '₹25400', // From HTML (double_price)
+    // originalPrice: '', // No discount in HTML
+    // discount: '', // No discount in HTML
+    imageUrl: '/cloned_media/31979820240717110038.png', // From HTML
+    gallery: [ // From HTML gallary array
+      '/cloned_media/19397620240717110037.png',
+      '/cloned_media/19902320240717110037.png',
+      '/cloned_media/10360220240717110038.png',
+      '/cloned_media/8300320240717110038.png',
+      '/cloned_media/32150320240717110038.png',
+      '/cloned_media/41850020240717110038.png'
+    ],
+    overview: '<h2>About Blissful Kerala 6 Days 5 Nights Tour Package</h2><p>Witness the ravishing beauty of Kerala, India\'s tropical paradise, with our specially designed 6-day, 5-night tour package. From the moment you arrive, you will be swept away by the lush landscapes, serene backwaters, and rich culture that make Kerala truly God\'s Own Country.</p><p>Imagine yourself gliding along palm-fringed canals of backwaters in a traditional houseboat... Picture vibrant spice plantations... Envision rejuvenation with an authentic Ayurvedic massage...</p><p>Our package includes some of the pristine beaches, sanctuaries filled with exotic wildlife, and hill stations that are a cool relief from heat. You will enjoy delicious Kerala food, scintillating Kathakali performances, and warm hospitality by the locals.</p><p>Don\'t just dream about paradise, experience it firsthand. This tour offers the perfect blend of adventure, culture, and relaxation. Book <a href="https://go4explore.com/trip/kerala" style="color:blue;">Kerala Tour Package</a> now and craft memories for a lifetime in this beautiful “God’s Own Country” Kerala.</p><h3>Best Places to Visit in 6 Days Kerala Package</h3><p><b>Munnar -</b> ...famous for its vast tea plantations and misty mountains. Explore Eravikulam National Park...</p><p><b>Thekady -</b> ...captivating with its lush forests and diverse wildlife. Take a boat safari in Periyar Wildlife Sanctuary...</p><p><b>Alleppey -</b> ...offers tranquil backwater cruises on traditional houseboats.</p><p><b>Kovalam -</b> ...boasts beautiful crescent-shaped beaches...</p><p><b>Trivandrum -</b> Thiruvananthapuram, Kerala\'s capital, blends tradition with modernity. Visit the opulent Padmanabhaswamy Temple...</p>', // From HTML
+    itinerary: [ // From HTML i_data
+      {
+        day: 1,
+        title: 'Arrival at Kochi | Drive to Munnar',
+        description: '<ul><li>On arrival at Kochi Airport/Station, you’ll be picked-up in our vehicle and transfer to Munnar.</li><li>Enroute Munnar, take a halt to appreciate the scenic Valara Waterfall, Cheeyappara Waterfalls and others.</li><li>Munnar is a magnificent hill station in the Western Ghats of Kerala. Anamudi, the highest peak in South India (8883 ft.) is nearby Munnar.</li><li>By noon we’ll reach Munnar, check-in to our hotel and have some leisure. In the evening, feel free to stroll around.</li><li>Overnight stay in a hotel in a Munnar.</li></ul>'
+      },
+      {
+        day: 2,
+        title: 'Munnar Local Sightseeing',
+        description: '<ul><li>Wake up to a beautiful morning and post breakfast, proceed for local sightseeing in and around Munnar - Sprawling Tea Plantations, picture-book towns, winding lanes and holiday facility makes this a popular town.</li><li>Visit the beautiful Blossom Park, take a leisure walk around Mattupetty Lake and Dam. Also, explore Echo Point and capture the breathtaking views as seen from here. Also, visit Kundala Lake, Eravikulam National Park, and Sevenmallay Tea Estate.</li><li>Post explorations, drive back to your accommodation &amp; have leisure.</li><li>Overnight stay in a hotel in Munnar.</li></ul>'
+      },
+      {
+        day: 3,
+        title: 'Drive from Munnar to Thekkady',
+        description: '<ul><li>Wake up early in the morning and post breakfast, begin your drive to Thekkady.</li><li>On arrival in Thekkady, check-in to our hotel and have some leisure.</li><li>In afternoon, proceed for local sightseeing in and around Thekkady.</li><li>Thekkady is one of the world\'s most fascinating wildlife reserves, the Periyar Wildlife Sanctuary spread across 777 Sq. KM. of which 360 Sq. KM is a thick evergreen forest.</li><li>In the evening, feel free to go to the market for shopping for spices.</li><li>Overnight stay in a hotel in Thekkady.</li></ul>'
+      },
+      {
+        day: 4,
+        title: 'Drive from Thekkady to Alleppey',
+        description: '<ul><li>Wake up early in the morning and post breakfast, begin your drive to Alleppey.</li><li>Upon arrival in Alleppey, check-in to our houseboat/hotel. Explore the beauty of Kerala’s backwaters, sit back and relax while the houseboat/cruise travels through the serene backwaters, witness amazing views of coconut trees, and more along.</li><li>Enjoy a hearty lunch (only if you’re staying in houseboat).</li><li>Dinner (only in houseboat) and overnight stay in a houseboat/hotel in Alleppey.</li></ul>'
+      },
+      {
+        day: 5,
+        title: 'Drive from Alleppey to Kovalam',
+        description: '<ul><li>Wake up early in the morning and post breakfast, begin your drive to Kovalam.</li><li>Upon arrival in Kovalam, check-in to our hotel and have some leisure. Board your transfer to visit to the iconic Lighthouse Beach in Kovalam and explore the picturesque Hawa Beach. After enjoying the scenic beaches, return to your comfy hotel.</li><li>Overnight stay in a hotel in Kovalam.</li></ul>'
+      },
+      {
+        day: 6,
+        title: 'Kovalam to Trivandrum | Tour Ends',
+        description: '<ul><li>Wake up early in the morning and post breakfast, check-out from your hotel in Kovalam and begin your drive to Trivandrum.</li><li>Vist Sree Padmanabhaswamy Temple in Thiruvananthapuram or Trivandrum, known as the world\'s richest temple.</li><li>You’ll be dropped off at the Trivandrum airport/railway station and the trip ends with lots of amazing memories and unforgettable experiences.</li></ul>'
+      }
+    ],
+    inclusions: [ // Extracted as string[] from HTML
+      'Transportation: All local sightseeing by Tempo Traveller/Cab (depending upon total travellers).',
+      'Accommodation on Sharing Basis: 2 nights in Munnar, 1 night in Thekkady, 1 night in Alleppey, 1 night in Kovalam.', // Total 5 nights
+      'Meals: Daily Breakfast only, starting from Day 2 to Day 6. There will be 1 Dinner+1 Lunch (only in Alleppey Houseboat).',
+      'All transfers and local sightseeing (as per the itinerary from 8am-6pm) by an AC Vehicle. (AC will be switched off on hills)',
+      'Airport transfers.',
+      'All trip assistance.',
+      'Driver allowances, toll taxes, parking, state taxes.'
+    ],
+    exclusions: [ // Extracted as string[] from HTML
+      'Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.',
+      'Travel Insurance, items of personal nature like porterage, tips, laundry etc.',
+      'Any other activities you do there.',
+      'Any entry fees, extra expenses for optional activities, room heaters or tickets, unless quoted in Inclusions.',
+      'Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.',
+      'GST (5%) is applicable extra.',
+      'Anything which is not mentioned in the above inclusions.'
+    ],
   },
 
   //==========================================================================
