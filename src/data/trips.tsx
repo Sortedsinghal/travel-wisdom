@@ -3855,105 +3855,528 @@ export const allTrips: Trip[] = [
   // DESTINATION: Uttarakhand (from Uttarakhand.tsx)
   //==========================================================================
   {
-    slug: 'uttarakhand-backpacking-rishikesh-auli-chopta',
-    title: 'Uttarakhand Backpacking- Rishikesh Auli Chopta',
-    destination: 'Uttarakhand',
-    duration: '4 Nights 5 Days',
-    price: '₹13500',
-    originalPrice: '₹15000',
-    discount: '₹1,500',
-    imageUrl: '/cloned_media/13159420240830104817.png',
-    overview: 'The ultimate Uttarakhand backpacking circuit, combining adventure in Rishikesh, skiing in Auli, and trekking in Chopta.',
-    itinerary: createItinerary('4 Nights 5 Days'),
-    inclusions: ['Hostel/Camp Stay', 'Transfers', 'Sightseeing'],
-    exclusions: ['Meals', 'Activity Fees', 'Entry Fees'],
-  },
+  "slug": "uttarakhand-backpacking-rishikesh-auli-chopta",
+  "title": "Uttarakhand Backpacking- Rishikesh Auli Chopta",
+  "destination": "Uttarakhand",
+  "duration": "4 Nights 5 Days",
+  "price": "₹13,500",
+  "originalPrice": "₹15,000",
+  "discount": "₹1,500",
+  "imageUrl": "/cloned_media/13159420240830104817.png",
+  "gallery": [
+    "/cloned_media/7382420241204104502.png",
+    "/cloned_media/16719620241204104502.png",
+    "/cloned_media/8688220241204104502.png",
+    "/cloned_media/33225220241204104502.png",
+    "/cloned_media/7523720241204104502.png"
+  ],
+  "overview": "<p>Head out for an unforgettable Uttarakhand Backpacking Trip for 10 Days adventure amidst the soul-stirring landscapes of “Land of the Gods”. It's not a journey but an odyssey that can sweep each soul, stir it, and change you forever.</p><p>Imagine waking up to misty mountain views, trekking through lush forests, and camping under star-studded skies. Every day brings something new in the way of surprises—from the spiritual energy of Rishikesh to the serenity of Chopta, challenge in the Tungnath trek, and uncover with wonder the pristine Deoria Tal. Bring serenity to your soul in the snow-capped peaks of Auli.</p><p>It is less about places and more of stories that you shall gather. Share chai with locals in quaint villages, learn age-old traditions; make lifetime friends around campfires. Our expert guides ensure that you are safe while giving you the freedom to truly soak up the raw beauty that the Himalayas have to offer.</p><p>Whether you are a seasoned trekker or a curious first-timer, this trip will have a little bit of everything. We have carefully crafted an itinerary balancing adventure and cultural experiences that make you experience the best of both worlds.</p><p>Don't just dream of adventure; live it. Let us take you to Uttarakhand with our exclusive Uttarakhand Tour Package and come back with a backpack full of memories and a heart full of stories. Your travel story starts here!</p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Rishikesh | Overnight Journey",
+      "description": "<ul><li>Assemble at boarding point in Delhi - Akshardham Metro Station and meet your Trip Captain. </li><li>Start an overnight journey to Rishikesh and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Rishikesh Arrival | River Rafting, Cafe Hopping & More",
+      "description": "<ul><li>After arriving in Rishikesh, check-in to our property, freshen-up and have some leisure.</li><li>Experience the thrilling rapids of Ganga river in an exciting white water river rafting activity in Rishikesh.</li><li>Post lunch, head out to explore the locals of Rishikesh like Ram Jhula, Janaki Setu and other famous temples.</li><li>In the evening, witness the sacred Ganga Aarti and later indulge in Cafe Hopping and Shopping.</li><li>Dinner and overnight stay in camps/hotel in Rishikesh.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Holy Sangams of Uttarakhand | Joshimath Arrival",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from the property and drive from Rishikesh to Joshimath.</li><li>Enroute Joshimath, we will take a pit stop at Devprayag in early morning to witness the beautiful confluence of Bhagirathi &amp; Alaknanda rivers ultimately becoming Ganga river.</li><li>Further, we will witness other holy sangams of Uttarakhand namely Rudraprayag, Karnprayag and Nandprayag.</li><li>After arriving in Joshimath, check in to our hotel, freshen-up and have some leisure. Feel free to take a stroll around this gorgeous Himalayan town and visit nearby attractions like Narsingh Temple (on your own).</li><li>Dinner and overnight stay in Joshimath.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Auli Sightseeing | Chopta Arrival",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from the property and head out to visit Auli.</li><li>Take a Ropeway from Joshimath to Auli (Asia's highest &amp; longest ropeway) and enjoy the breathtaking views of majestic Himalayan peaks like Nanda Devi as seen from Auli.</li><li>Here you can try your hands at Skiing (on your own only during snow season) and indulge in various other adventures activities. Also, you can take a Chair Car Ride or go for a short hike to Auli’s artificial lake.</li><li>Post exploration, return to Joshimath and drive towards Chopta.</li><li>After arriving in Chopta Valley, check-in to our property, freshen-up and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in camps/homestay in Chopta.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Trek to Chandrashila via Tungnath Mahadev Temple",
+      "description": "<ul><li>Wake up early to witness the beautiful sunrise and post breakfast, drive to the starting point of our trek.</li><li>Begin your trek to Tungnath - one of the Panch Kedar and World’s highest temple dedicated to Lord Shiva.</li><li>Trek further to magnificent Chandrashila Peak situated at 13,000 ft (if weather &amp; conditions permits) and gather for an #InstaPerfect group picture.</li><li>Trek back to Chopta village and drive back to our property and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in camps/homestay in Chopta.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Trek to Deoriatal | Depart for Delhi",
+      "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check out from the property and drive to Sari Village.</li><li>Begin your trek to mesmerising Deoriatal Lake. Trek down to Sari village and post lunch start-off your return journey to Delhi.</li><li>Take a halt at Rishikesh in the night to explore the local market, go for cafe hopping, visit temples and serene Ganga ghats (if time permits).</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Delhi Arrival | Trip Ends",
+      "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Tempo Traveler/Cab.",
+    "4 Nights Accommodation on sharing basis: 2 Nights in Camps/Homestay (Chopta/Sari), 1 Night in Camps/Hotel (Rishikesh) & 1 Night in Hotel (Joshimath).",
+    "10 Veg Meals: Chopta (2 Breakfasts+2 Dinners+2 Evening Snacks), Joshimath (Breakfast+Dinner) & Rishikesh (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 5.",
+    "Bonfire (if weather permits) & music only on any 1 Night during the stay (Chopta) and local explorations as per itinerary.",
+    "River Rafting Adventure Activity in Rishikesh.",
+    "Experienced and cool Trip Captain/Trek Guide.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "Anything which is not mentioned in the above inclusions.",
+    "GST (5%) is applicable extra."
+  ]
+},
   {
-    slug: 'chopta-tungnath-deoriatal',
-    title: 'Chopta-Tungnath-Deoriatal',
-    destination: 'Uttarakhand',
-    duration: '3 Days 2 Nights',
-    price: '₹6000',
-    originalPrice: '₹7000',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/9518720240826103510.png',
-    overview: 'A classic weekend trek to Chopta, the "Mini Switzerland of India," including the trek to Tungnath temple and Deoriatal Lake.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Transfers from Rishikesh/Delhi', 'Camp Stay', 'Trek Guide', 'Meals on Trek'],
-    exclusions: ['Meals during transfer', 'Entry Fees'],
-  },
+  "slug": "chopta-tungnath-deoriatal",
+  "title": "Chopta-Tungnath-Deoriatal",
+  "destination": "Uttarakhand",
+  "duration": "3 Days 2 Nights",
+  "price": "₹6,000",
+  "originalPrice": "₹7,000",
+  "discount": "₹1,000",
+  "imageUrl": "/cloned_media/9518720240826103510.png",
+  "gallery": [
+    "/cloned_media/1232720230702175334.png",
+    "/cloned_media/28892920230702175334.png",
+    "/cloned_media/6167420230702175334.png",
+    "/cloned_media/31125120230702175334.png",
+    "/cloned_media/16597720230702175334.png",
+    "/cloned_media/7016020230702175334.png",
+    "/cloned_media/30053820230702175334.png",
+    "/cloned_media/11914020230702175334.png",
+    "/cloned_media/14281720230702175334.png",
+    "/cloned_media/11017820230702175334.png"
+  ],
+  "overview": "<p>If you are planning a refreshing getaway in the Himalayas, the <strong>Chopta Tungnath Trek Package</strong> by <strong>Go4Explore</strong> is the perfect option. Known for its calm meadows, ancient temples, and snow-covered peaks, this trek offers a mix of spirituality and adventure. It is an ideal choice for beginners as well as seasoned trekkers looking for a scenic short escape from city life.</p><h3>About Chopta Tungnath &amp; Deoriatal</h3><p>Chopta, often called the 'Mini Switzerland of Uttarakhand', is a picturesque village surrounded by lush forests and snowy peaks. From here begins the trek to <strong>Tungnath Temple</strong>, the highest Shiva temple in the world, located at an altitude of about 3,680 meters. This ancient shrine, believed to be over a thousand years old, holds great significance in Hindu mythology and is a part of the sacred Panch Kedar temples.</p><p>After visiting Tungnath, trekkers continue the trail to Chandrashila Peak, which stands at 3,700 meters. From this summit, one can enjoy a mesmerizing 360° view of major Himalayan peaks like Nanda Devi, Trishul, Kedar Dome, and Chaukhamba. The Chopta Tungnath Trek Package combines natural beauty, spiritual exploration, and adventure in one memorable journey.</p><h3>Starting the Chopta Tungnath Trip from Delhi</h3><p>The <strong>Chopta Tungnath Trip from Delhi</strong> begins with an overnight journey to Chopta. This drive passes through scenic towns like Rishikesh, Devprayag, and Rudraprayag, giving travelers glimpses of river valleys, confluences, and mountain views. Once you reach Chopta, you are greeted by the crisp mountain air and pine forests, the perfect start for your Himalayan adventure.</p><p>Go4Explore’s Chopta Tour Package From Delhi ensures comfortable transportation, delicious meals, and experienced trek leaders who make the trip enjoyable and safe for all participants.</p><h3>Route Details for Chopta Tungnath &amp; Deoriatal Trek</h3><ul><li><strong>Day 1:</strong> Depart from Delhi, overnight journey to Chopta.</li><li><strong>Day 2:</strong> Reach Chopta and start your Chopta Tungnath Trek Package experience. The 3.5 km trail to Tungnath is easy to moderate, ideal for first-time trekkers. Visit the sacred Tungnath Temple, and for those who wish to explore further, hike 1.5 km more to Chandrashila Peak.</li><li><strong>Day 3:</strong> Trek to Deoriatal, a crystal-clear lake offering reflections of the mighty Chaukhamba peaks. Later, descend to Sari Village.</li><li><strong>Day 4:</strong> Return journey to Delhi with lifelong memories from your <strong>Chopta Tungnath Weekend Trip</strong>.</li></ul><h3>Highlights of the Chopta Tungnath Group Trip</h3><ul><li>Visit the <strong>highest Shiva temple</strong> in the world.</li><li>Witness snow-clad Himalayan peaks from <strong>Chandrashila</strong>.</li><li>Camp in scenic meadows and enjoy bonfire evenings.</li><li>Explore the serene <strong>Deoriatal Lake</strong>.</li><li>Perfect for beginners and nature lovers.</li></ul><h3>Places to Visit During the Chopta Tungnath Trip from Delhi</h3><ol><li><strong> Chopta:</strong> This small but beautiful valley offers captivating views of the Himalayas. Its tranquil atmosphere makes it ideal for nature walks and camping.</li><li><strong> Tungnath Temple:</strong> The centerpiece of the <strong>Chopta Tungnath Group Trip</strong>, this temple attracts both trekkers and devotees for its beauty and mythological importance.</li><li><strong> Chandrashila Peak:</strong> One of the most rewarding viewpoints in Uttarakhand. The sunrise view from the summit is breathtaking.</li><li><strong> Deoriatal Lake:</strong> The reflection of snow-capped mountains in the lake’s crystal-clear water is a sight to remember.</li><li><strong> Sari Village:</strong> The base point for the Deoriatal trek, famous for its traditional Garhwali homes and warm hospitality.</li><li><strong> Ukhimath &amp; Rudraprayag:</strong> Both towns are known for ancient temples and scenic river confluences, often included in the Chopta Tour Package From Delhi itinerary.</li></ol><h3>Activities to Try with Go4Explore’s Chopta Tungnath Trek Package</h3><ul><li><strong>Trekking &amp; Hiking:</strong> Experience one of the easiest yet most rewarding treks in the Garhwal Himalayas.</li><li><strong>Camping:</strong> Stay under a starlit sky, surrounded by alpine meadows.</li><li><strong>Photography:</strong> Capture sunrise views from Chandrashila, reflections at Deoriatal, and the beauty of Tungnath Temple.</li><li><strong>Bird Watching:</strong> Chopta is home to many Himalayan species like Monal, making it a paradise for bird lovers.</li><li><strong>Meditation &amp; Spiritual Time:</strong> Feel a divine calm at the sacred Tungnath Temple.</li></ul><h3>Best Time to Visit with Go4Explore’s Chopta Tungnath Weekend Trip Packages</h3><ul><li><strong>March to May (Spring):</strong> Pleasant weather, blooming rhododendrons and clear mountain views.</li><li><strong>June to August (Summer):</strong> Ideal for those who enjoy lush greenery and mild rain.</li><li><strong>September to November (Autumn):</strong> Crystal-clear skies and colorful valleys, great for photography.</li><li><strong>December to February (Winter):</strong> Perfect for snow trekking and those who wish to see Tungnath covered in snow.</li></ul><h3>Accommodation &amp; Food</h3><p>With <strong>Go4Explore’s </strong>Chopta Tungnath Trek Package, travelers stay in comfortable camps or guesthouses with clean bedding and hygienic food. Meals include nutritious vegetarian options, perfect to fuel your trekking journey.</p><h3>Cost &amp; Inclusions</h3><p>The Chopta Tungnath Group Trip package starts at just Rs. 7499 per person (on quad sharing) from Delhi for 3 Days &amp; 2 Nights. The cost covers:</p><ul><li>Transportation (Delhi to Delhi)</li><li>Accommodation and Meals</li><li>Experienced trek guides</li><li>Permits and basic first aid</li></ul><h3>Why Choose Go4Explore for Chopta Tungnath Trek Package?</h3><ul><li>100% safety assurance with expert leaders</li><li>Transparent pricing with no hidden costs</li><li>Small group batches for a personalized experience</li><li>Quality campsites with scenic views</li><li>Trusted by 10,000+ happy trekkers across India</li></ul><p>Join Go4Explore and plan your Chopta Tungnath Trek now for an unforgettable Himalayan journey. Enjoy stunning views, ancient temples, and peaceful meadows on this well-organized Chopta Tungnath Group Trip from Delhi. Whether seeking adventure, nature photography, or spiritual calm, this short yet exciting trip provides everything for travelers of all kinds. Each moment from Chopta to Chandrashila promises serenity, joy, and lifelong memories of mountain beauty, divine energy, and thrilling exploration that make this Chopta Tour Package From Delhi truly special and worth every step you take.</p><h3><strong>Chopta Tungnath Chandrashila Deoriatal Trek Video</strong></h3><h3><strong><br></strong></h3><p><iframe id=\"testimonials\" style=\"border-style: none; min-height: 315px; overflow-x: hidden; overflow-y: hidden; width: 100%;\" src=\"https://www.youtube.com/embed/bauToLOL-ZI?si=7dLCsJ8GxPyMzfp7\" name=\"testimonials\" width=\"300\" height=\"150\" scrolling=\"no\" bis_size=\"{&quot;x&quot;:658,&quot;y&quot;:-148,&quot;w&quot;:518,&quot;h&quot;:315,&quot;abs_x&quot;:658,&quot;abs_y&quot;:-148}\" bis_id=\"fr_gawygdgo1q84otsj4zqhsu\" bis_depth=\"0\" bis_chainid=\"1\"></iframe></p><p>Explore our travel packages: Rishikesh Chopta Tungnath, Kedarkantha Trek, Haar Ki Doon Trek, Valley of Flowers Trek, Hampta Pass Trek, New Year Rishikesh Chopta Tungnath, Kedarnath Dham</p><h3>FAQs about Chopta Tungnath Trek Package</h3><p><strong> What is the best time for the Chopta Tungnath Trek ?</strong><strong><br></strong>The best time to plan the Chopta Tungnath Trek is between March to May and September to November when the weather stays clear, comfortable, and perfect for scenic exploration and adventure activities.</p><p><strong> How far is Chopta from Delhi?</strong><strong><br></strong>Chopta is approximately 450 kilometers from Delhi, and the road journey generally takes about 12 to 13 hours offering mesmerizing views of valleys, rivers, and beautiful mountain terrains throughout the route.</p><p><strong> How difficult is the Chopta Tungnath Trip from Delhi?</strong><strong><br></strong>The Chopta Tungnath Trip from Delhi is considered an easy to moderate trek suitable for beginners and casual travelers who wish to experience Himalayan trekking without any technical climbing requirements.</p><p><strong> Can I join a Chopta Tungnath Group Trip solo?</strong><strong><br></strong>Yes, solo travelers can comfortably join the Chopta Tungnath Group Trip and enjoy traveling with like-minded adventurers while making new friends and sharing unforgettable mountain experiences together.</p><p><strong> Does the Chopta Tour Package From Delhi include Deoriatal?</strong><strong><br></strong>Yes, almost all Chopta Tour Package From Delhi options offered by Go4Explore include the enchanting Deoriatal Lake which is famous for its stunning reflection of the snow-covered Himalayan peaks.</p><p><strong> Is there snowfall during the Chopta Tungnath Trip from Delhi?</strong><strong><br></strong>Yes, between December and February heavy snowfall graces the Chopta region creating mesmerizing winter landscapes ideal for snow trekking, photography, and serene Himalayan camping experiences.</p><p><br></p><p>Explore our travel packages: <a href=\"/trips/rishikesh-chopta-tungnath\">Rishikesh Chopta Tungnath</a>&nbsp;|&nbsp;<a href=\"/trips/kedarkantha-trek\">Kedarkantha Trek</a>&nbsp;|&nbsp;<a href=\"/trips/har-ki-doon-trek\">Haar Ki Doon Trek</a>&nbsp;|&nbsp;<a href=\"/trips/valley-of-flowers-trek\">Valley of Flowers Trek</a>&nbsp;|&nbsp;<a href=\"/trips/hampta-pass-trek\">Hampta Pass Trek</a>&nbsp;|&nbsp;<a href=\"/trips/ny-rishikesh-chopta-tungnath\">New Year Rishikesh Chopta Tungnath</a>&nbsp;|&nbsp;<a href=\"/trips/kedarnath-dham\">Kedarnath Dham</a></p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Chopta | Overnight Journey",
+      "description": "<ul><li>Assemble at boarding point in Delhi - Akshardham Metro Station and meet your Trip Captain. </li><li>Start an overnight journey to Chopta and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Devprayag Sangam | Chopta Arrival",
+      "description": "<ul><li>Enroute Chopta, we will take a pit stop at Devprayag in early morning to witness the beautiful confluence of Bhagirathi &amp; Alaknanda rivers ultimately becoming Ganga river.</li><li>Further we will take a halt around Rudraprayag to grab a satisfying breakfast and continue our journey towards Chopta. </li><li>After arriving in Chopta Valley, check-in to our campsite/homestay, freshen-up and have some leisure.</li><li>Go for a forest walk and absorb in the charming Himalayan beauty.</li><li>In the evening, enjoy warm bonfire and mouth-watering snacks under a million stars.</li><li>Savour home-style cooked dinner and overnight stay in camps/homestay.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Trek to Chandrashila via Tungnath Mahadev Temple",
+      "description": "<ul><li>Wake up early to witness the beautiful sunrise and post breakfast, drive to the starting point of our trek.</li><li>Begin your trek to Tungnath - one of the Panch Kedar and World’s highest temple dedicated to Lord Shiva. </li><li>Trek further to magnificent Chandrashila Peak situated at 13,000 ft (if weather &amp; conditions permits) and gather for an #InstaPerfect group picture.</li><li>Trek back to Chopta village and drive back to our property and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a camps/homestay.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Trek to Deoriatal | Depart for Delhi via Rishikesh",
+      "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check out from the property and drive to Sari Village.</li><li>Begin your trek to mesmerising Deoriatal Lake. Trek down to Sari village and post lunch start-off your return journey to Delhi.</li><li>Take a halt at Rishikesh in the night to explore the local market, go for cafe hopping, visit temples and serene Ganga ghats (if time permits).</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Delhi Arrival | Trip Ends",
+      "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Tempo Traveler/Cab.",
+    "2 Nights Accommodation on Sharing Basis: Swiss Camps/Homestay.",
+    "Experienced and cool Trip Captain/Trek Guide.",
+    "Bonfire (if weather permits) during the stay and local explorations as per itinerary.",
+    "6 Veg Meals: Dinner (2), Breakfast (2) and Evening Snacks (2), starting from Evening Snacks on Day 1 to Breakfast on Day 3.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "Anything which is not mentioned in the above inclusions.",
+    "GST (5%) is applicable extra."
+  ]
+},
   {
-    slug: 'rishikesh-chopta-tungnath',
-    title: 'Rishikesh Chopta Tungnath',
-    destination: 'Uttarakhand',
-    duration: '4 Days 3 Nights',
-    price: '₹10000',
-    imageUrl: '/cloned_media/4619220240827083456.png',
-    overview: 'A 4-day trip combining the adventure of Rishikesh (rafting) with the spiritual trek to Tungnath from Chopta.',
-    itinerary: createItinerary('4 Days 3 Nights'),
-    inclusions: ['Transfers', 'Camp Stay', 'Trek Guide', 'Rafting'],
-    exclusions: ['Meals', 'Entry Fees'],
-  },
+  "slug": "rishikesh-chopta-tungnath",
+  "title": "Rishikesh Chopta Tungnath",
+  "destination": "Uttarakhand",
+  "duration": "4 Days 3 Nights",
+  "price": "₹10,000",
+  "originalPrice": null,
+  "discount": null,
+  "imageUrl": "/cloned_media/4619220240827083456.png",
+  "gallery": [
+    "/cloned_media/27484020231006115337.png",
+    "/cloned_media/28956420231006115337.png",
+    "/cloned_media/32687120231006115337.png",
+    "/cloned_media/489820231006115337.png",
+    "/cloned_media/25953120231006115337.png",
+    "/cloned_media/19004820231006115337.png",
+    "/cloned_media/5541120231006115337.png",
+    "/cloned_media/24790020231006115337.png",
+    "/cloned_media/23342120231006115337.png",
+    "/cloned_media/40018520231006115337.png"
+  ],
+  "overview": "<h2>About Rishikesh Chopta Tungnath</h2><p>The journey starts within the picturesque beauty of Chopta tucked away in the Garhwal Himalayas of Uttarakhand, Chopta is a hidden glittering gem often referred to as the “Mini Switzerland of Uttarakhand”, dazzling travelers with its lush pastures, dense forests of rhododendron and deodar and mesmerizing views of the snow-capped peaks. It serves as the base camp for the trek to Tungnath, the highest Shiva Temple in the world. The trek to Tungnath from Chopta is a moderate ascent meandering through picturesque trails adorned with vibrant wildflowers and offering occasional encounters with playful Himalayan Wildlife.</p>\n<p>As travelers ascend, they are greeted by the majestic sight of the towering Himalayan Peaks including Nanda Devi, Trishul and Chaukhamba standing sentinel over the valley below. Upon reaching Tungnath, at an altitude 3,860 meters (12,073 feet), travelers are immersed in a realm of spirituality and serenity. This ancient Temple is believed to be over 1000 years old, exudes an aura of reverence, inviting pilgrims and trekkers alike to pay homage to Lord Shiva.</p>\n<p>From Tungnath, the trek further leads to Chandrashila, the summit embellished with mesmerizing views of the Himalayan range, making it a perfect climax for Chopta - Tungnath expedition.</p>\n<p>Further on, the natural and spiritual immersion of Chopta, Tungnath, the journey concludes in the bustling city of Rishikesh located at the banks of sacred Ganges River. Rishikesh is also known as the “Yoga Capital of the World” offers a lively tapestry of spirituality, adventure and restoration.</p>\n<p>Tourists can also explore countless Ashrams and Temples scattered around the city, each resonating with centuries old-wisdom and tranquility. The Ganges River, considered holy by millions beckons visitors for cleansing dips and serene boat rides amidst the serene surroundings. Adventure enthusiasts can indulge in thrilling activities like white-water rafting, bungee jumping, and cliff jumping adding an adrenaline rush to their spiritual sojourn.</p>\n<h3>Quick Facts: Rishikesh Chopta Tungnath</h3><ul><li>Chopta is referred to as the “Mini Switzerland of India” for its mesmerizing beauty.</li><li>Tungnath is the highest Shiva Temple, situated at an altitude of around 3,860 meters (12,073) feet.</li><li>The trek to Tungnath from Chopta offers stunning views of the surrounding mountains and lush green pastures.</li>  <li>Rishikesh is renowned as the “Yoga Capital of the World”, famous for its adventure activities and spiritual ambiance.</li><li>Rishikesh is nestled on the shore of the Ganges River, providing opportunities for water sports and tranquil boat rides.</li>  <li>The Chopta-Tungnath trek is a moderate ascent, ideal for both pilgrims and trekkers.</li><li>Chopta is rich in biodiversity, with dense forests of rhododendron and deodar.</li><li>The trekking season for Chopta Tungnath generally starts from April to November.</li></ul>\n<h3>Top Attractions near Rishikesh Chopta Tungnath</h3><p>There are several attractions near Rishikesh Chopta Tungnath Trek beckoning travelers to explore further:-</p><ul><li><strong>Rudraprayag-</strong> Rudraprayag is one of the Confluence rivers, where the Alaknanda and Mandakini river meets, it holds religious significance and provides peaceful surroundings.</li><li><strong>Haridwar-</strong> Haridwar is the holy city on the banks of The Ganges River, It offers rich tapestry, temples, ghats and spiritual vehemence.</li><li><strong>Rishikesh-</strong> Rishikesh is known as the “Yoga Capital of the World”, you can enjoy the serene atmosphere of rishikesh by sitting on the shore of River Ganges, and visit all the ancient temples.</li><li><strong>Devprayag-</strong> <a href=\"https://en.wikipedia.org/wiki/Devprayag\" style=\"color:blue;\" target=\"_blank\" rel=\"noopener noreferrer\">Devprayag</a> is nestled in the foothills of the Himalayas, it is a sacred confluence where the emerald waters of Alaknanda and Bhagirathi river merge to form the holy Ganges, providing a serene sanctuary for spiritual seekers and nature enthusiasts alike.</li>  <li><strong>Deoriatal-</strong> Deoriatal is a serene lake surrounded by alpine lush pastures, providing stunning reflections of Chaukhamba Peaks. Deoriatal is accessible via moderate ascent from sari village.</li><li><strong>Tungnath Mahadev-</strong> Tungnath Mahadevis the highest Shiva Temple, nestled amidst the Garhwal region of Uttarakhand, offering breathtaking views and spiritual solace to pilgrims and nature enthusiasts alike.</li><li><strong>Chandrashila Peak-</strong> Besides being the ending point of the <a href=\"https://go4explore.com/trips/chopta-tungnath-deoriatal\" style=\"color:blue;\">Chopta Tungnath Trek</a>. Chandrashila Peak offers breathtaking views of the surrounding himalayan ranges including Nanda Devi and Trishul.</li></ul>\n<h3>Things to do in Rishikesh Chopta Tungnath</h3><ul><li><strong>Explore Temples in Rishikesh-</strong> Exploring ancient temples in Rishikesh offers a spiritual ascent through hindu traditions, with iconic sites like The Neelkanth Mahadev Temple dedicated to Lord Shiva and the Triveni Ghat where devotees gather for holy rituals on the banks of Ganges River. In the midst of the serene city, ambiance of this sacred city, immerse yourself in meditation, prayer and a vibrant atmosphere of devotion.</li><li><strong>River Rafting in Ganga-</strong> River Rafting in Ganga is one of the most exhilarating experiences one can have, encountering frothy rapids against the backdrop of the majestic Himalayas, offering an unforgettable experience that blends adrenaline with the serenity of nature’s grandeur.</li><li><strong>Cafe Hopping in Rishikesh-</strong> Cafe Hopping in Rishikesh reveals a delightful culinary journey, where each mesmerizing cafe along the Ganga River serves a fusion of global flavors, yoga friendly snacks, and serene riverside views, creating a perfect blend of serene atmosphere and relaxation in this spiritual haven.</li>  <li><strong>Trek to Tungnath Mahadev Temple-</strong> Embarking on a trek to Tungnath Mahadev Temple offers an intrepid yet serene experience for adventure seekers, nature lovers and pilgrims alike. The distance of the trek is not more than 3.5 kilometers and gradual ascent which takes you at an altitude of stunning 3500 meters at Tungnath.</li>  <li><strong>Hike to Deoriatal-</strong> The Hike to Deoria Tal unveils scenic array winding through lush forests and pristine meadows, ending in the stunning vista of a picturesque mountain lake offering a serene escape in the midst of the Himalayan Wilderness.</li>  <li><strong>Camping in Chopta-</strong> Camping under the starry skies in Chopta, offers an unforgettable experience where nature’s symphony lulls you into deep slumber and provides you a break from the chaos of modern life.</li></ul>\n<h3>Best Time To Do Rishikesh Chopta Tungnath Trek</h3><p>The best time to do Rishikesh Chopta Tungnath Trek is during the late spring, summer and early autumns, from the months of April to November.</p><ul><li><strong>Spring (April to June)-</strong> Spring is the one of the peak seasons to ascend on this trek, the weather is generally mild and pleasant with clear skies and fresh air. The lush greenery and breathtaking landscapes are the highlights throughout the trek.</li>  <li><strong>Summer (June to August)-</strong> Summers bring warmer temperatures compared to spring but it also coincides with the monsoon season. Trekking during this time can be challenging due to heavy rainfall, slippery trails and heavy chances of landslides.</li><li><strong>Autumn (September to November)-</strong> Autumn is another excellent season to embark on this trek. The weather remains pleasant and humid free with clear skies and cooler temperatures making it ideal for trekking. The landscapes may start to change the colors as the foliage transitions to shades of red, orange and golden adding to its scenic beauty.</li></ul>\n<p>Explore our other trek packages: <a href=\"https://go4explore.com/trips/tungnath-kedarnath-5d4n\" style=\"color:blue;\">Tungnath Kedarnath</a>, <a href=\"https://go4explore.com/trips/chadar-trek\" style=\"color:blue;\">Chadar Trek</a>, <a href=\"https://go4explore.com/trips/hampta-pass-trek\" style=\"color:blue;\">Hampta Pass Trek</a>, <a href=\"https://go4explore.com/trips/valley-of-flowers-trek\" style=\"color:blue;\">Valley of Flowers Trek</a>, <a href=\"https://go4explore.com/trips/madmaheshwar-trek\" style=\"color:blue;\">Madmaheshwar Trek</a></p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Chopta | Overnight Journey",
+      "description": "<ul><li>Assemble at boarding point in Delhi - Akshardham Metro Station and meet your Trip Captain. </li><li>Start an overnight journey to Chopta and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Devprayag Sangam | Chopta Arrival",
+      "description": "<ul><li>Enroute Chopta, we will take a pit stop at Devprayag in early morning to witness the beautiful confluence of Bhagirathi &amp; Alaknanda rivers ultimately becoming Ganga river.</li><li>Further we will take a halt around Rudraprayag to grab a satisfying breakfast and continue our journey towards Chopta.</li><li>After arriving in Chopta Valley, check-in to our property, freshen-up and have some leisure.</li><li>In the evening, enjoy warm bonfire under a million stars.</li><li>Savour home-style cooked dinner and overnight stay in camps/homestay in Chopta.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Trek to Chandrashila via Tungnath Mahadev Temple",
+      "description": "<ul><li>Wake up early to witness the beautiful sunrise and post breakfast, drive to the starting point of our trek.</li><li>Begin your trek to Tungnath - one of the Panch Kedar and World’s highest temple dedicated to Lord Shiva.</li><li>Trek further to magnificent Chandrashila Peak situated at 13,000 ft (if weather &amp; conditions permits) and gather for an #InstaPerfect group picture.</li><li>Trek back to Chopta village and drive back to our property and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in camps/homestay in Chopta.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Trek to Deoriatal | Rishikesh Arrival",
+      "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check out from the property and drive to Sari Village.</li><li>Begin your trek to mesmerising Deoriatal Lake. Trek down to Sari village and post lunch start-off your return journey to Rishikesh</li><li>After arriving in Rishikesh, check-in to our campsite/hotel, freshen-up and have some leisure.</li><li>Dinner and overnight stay in camps/hotel in Rishikesh.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Rishikesh Rafting & Sightseeing | Depart for Delhi",
+      "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check-out from the property and head out for a day of adventure.</li><li>Experience the thrilling rapids of Ganga river in an exciting white water river rafting activity in Rishikesh.</li><li>Post lunch, head out to explore the locals of Rishikesh like Ram Jhula, Janaki Setu and other famous temples.</li><li>In the evening, witness the sacred Ganga Aarti and later indulge in Cafe Hopping and Shopping.</li><li>In the night, start your overnight journey from Rishikesh to Delhi.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Delhi Arrival | Trip Ends",
+      "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Tempo Traveler/Cab.",
+    "3 Nights Accommodation on sharing basis: 2 Nights in Camps/Homestay (Chopta/Sari), 1 Night in Camps/Hotel (Rishikesh).",
+    "8 Veg Meals: Chopta (2 Breakfasts+2 Dinners+2 Evening Snacks) & Rishikesh (Breakfast+Dinner), starting from Evening Snacks on Day 1 to Breakfast on Day 4.",
+    "Bonfire (if weather permits) during the stay and local explorations as per itinerary.",
+    "River Rafting Adventure Activity in Rishikesh.",
+    "Experienced and cool Trip Captain/Trek Guide.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities , room heaters or tickets, unless quoted in Inclusions.",
+    "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
   {
-    slug: 'char-dham-yatra-ex-haridwar-dehradun',
-    title: 'Char Dham Yatra Ex Haridwar-Dehradun',
-    destination: 'Uttarakhand',
-    duration: '10 Days 9 Nights',
-    price: '₹32000',
-    imageUrl: '/cloned_media/42312820230316110103.png',
-    overview: 'The complete Char Dham Yatra, a holy pilgrimage to the four shrines of Yamunotri, Gangotri, Kedarnath, and Badrinath, starting from Haridwar.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Hotel/Guesthouse Stay', 'All Transfers', 'Meals (Breakfast & Dinner)'],
-    exclusions: ['Helicopter/Pony/Palki charges', 'Special Pooja Fees', 'Lunches'],
-  },
+  "slug": "char-dham-yatra-ex-haridwar-dehradun",
+  "title": "Char Dham Yatra Ex Haridwar-Dehradun",
+  "destination": "Uttarakhand",
+  "duration": "10 Days 9 Nights",
+  "price": "₹32,000",
+  "originalPrice": null,
+  "discount": null,
+  "imageUrl": "/cloned_media/42312820230316110103.png",
+  "gallery": [
+    "/cloned_media/36891120230316110103.png"
+  ],
+  "overview": "<p>According to Hindu belief, Chardham is the four most important Hindu religious site in the Garhwal region of Uttarakhand state, India. Yamunotri, Badrinath, Gangotri, and Kedarnath are collectively known as Chardham. Chardhams are sacred temples dedicated to lord Vishnu and lord Shiva.</p><p>The Char Dham Yatra of Uttarakhand is dignified as one of the foremost auspicious Yatra for Hindu devotees and this Yatra visits by a huge percentage of pilgrims from all over the earth. The essence of the Gods and nature's appeal of the ideal Himalayas are a perfect fusion that improves the religious and religious warmth of the Char Dham Yatra.</p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Dehradun/Rishikesh/Haridwar -Barkot (210 km / 7-8 hours)",
+      "description": "<ul>    <li>Pickup from Dehradun airport/Haridwar/Rishikesh railway station</li>    <li>Enroute Barkot, visit the famous Mussoorie Lake and Kempty Fall in Mussoorie.</li>    <li>After arriving in Barkot, check in to your hotel, freshen-up and have some leisure.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Barkot - Yamunotri - Barkot (60 km/2 hours and start trek)",
+      "description": "<ul>    <li>Wake up early in the morning and post breakfast (packed breakfast), visit to Jankichatti/Phoolchatti and start trek to Yamunotri (6kms) (Either by walk or by horse or by Doli at your own cost).</li>    <li>After taking bath in Yamunabai Kund’s warm water and and “Darshan” of “Yamunaji” return back to Jankichatti by trek.</li>    <li>In the evening, drive back to Barkot.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Barkot - Uttarkashi (100 km/3 hours)",
+      "description": "<ul>    <li>Wake up to the relaxed morning and post breakfast, begin your drive from Barkot to Uttarkashi. After arriving in Uttarkashi, check in to your hotel, freshen-up and have some leisure.</li>    <li>In the evening, visit Kashi Vishwanath Temple in Uttarkashi.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Uttarkashi - Gangotri - Uttarkashi (200 km/9 to 10 hours)",
+      "description": "<ul>    <li>Wake up early in the morning and post breakfast (packed breakfast), begin your drive to Gangotri.</li>    <li>Enroute of Gangotri, take a holy dip in GaramKund, further drive to Gangotri via beautiful Harsil Valley. Harsil is famous for its natural beauty with majestic views of the Deodar trees and stunning mountains.</li>    <li>After arriving at Shree Gangotri Dham, take a holy dip in the sacred river Ganges which is also knowns as Bhagirathi at its origin. After Pooja and Darshan, relax for some time in the lovely surroundings.</li>    <li>In the evening, drive back to Uttarkashi.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Uttarkashi - Guptkashi (200 km/9-10 hours)",
+      "description": "<ul>    <li>Wake up early in the morning and post breakfast, begin your drive to Guptkashi in Rudraparag District.</li>    <li>Enroute you can see the Mandakini river at Tilwara. Drive alongside the river to reach Guptakashi, Visit Ardhnarishwar Temple in Guptakashi.</li>    <li>After arriving in Uttarkashi, check in to your hotel, freshen-up and have some leisure.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Guptkashi - Kedarnath (30 km + 16 km trek)",
+      "description": "<ul>    <li>Wake up early in the morning and post breakfast check out from our property. Drive to Sitapur and take a local jeep from there till Gaurikund (price included).</li>    <li>Begin your trek to Kedarnath Dham - one of the Char Dham of Uttarakhand.</li>    <li>You can also choose Pony/Doli/Helicopter for the trek at your own cost.</li>    <li>After arriving in Kedarnath by late evening, attend the aarti.</li>    <li>Post evening aarti, check in to our guest house, freshen up and have some leisure.</li>    <li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Kedarnath - Guptkashi (16 km trek + 30 Kms)",
+      "description": "<ul>    <li>Wake up early morning to visit the Kedarnath Temple. Seek blessings at one of the most prominent shrine dedicated to Lord Shiva.</li>    <li>Witness the mesmerizing view as the sunrays falls on the snow-clad Himalayan range located behind Kedarnath Temple.</li>    <li>Post breakfast, check out from our guest house and begin your trek down to Gaurikund.</li>    <li>Drive back to Guptkashi. Check in to our comfortable rooms/camps and freshen up. Feel free to stroll around and spend your rest day at leisure.</li>    <li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 7,
+      "title": "Guptkashi - Badrinath (200 km / 8-9 hours)",
+      "description": "<ul>    <li>Wake up early in the morning and post breakfast, begin your drive to Badrinath.</li>    <li>After arriving at Badrinath, check in to your hotel, freshen-up and have some leisure.</li>    <li>After having a bath in the Taptkund go for the Darshan of Badri Vishal and attend Aarti in the evening.</li>    <li>Brahamakapal is significant for Pinddan Shraddh of ancestors (Pitras).</li>    <li>There are other interesting sightseeing spots like Mana, VyasGufa, Maatamoorti, Charanpaduka, Bhimkund and the \"Mukh\" of the Saraswati River.</li>    <li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 8,
+      "title": "Badrinath - Srinagar via Joshimath (195 km / 7-8 hours)",
+      "description": "<ul>    <li>Wake up to the relaxed morning and post breakfast, begin your drive to Srinagar via Joshimath.</li>    <li>Enroute, visit Narsingh Temple at Joshimath.</li>    <li>Further drive for Srinagar.</li>    <li>After arriving at Srinagar, check in to your hotel, freshen-up and have some leisure.</li>    <li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 9,
+      "title": "Srinagar – Haridwar/Dehradun (165 km / 5-6 hours)",
+      "description": "<ul>    <li>Wake up early in the morning and post breakfast, drive back to Haridwar/Dehradun via Rishikesh.</li>    <li>Enroute, visit Devprayag Sangam (Confluence of river Bhagirathi &amp; Alaknanda).</li>    <li>In Rishikesh, visit Ram Jhulla, Janaki setu, Parmarth niketan, swarg ashram and also attend evening Ganga arti at Triveni ghat.</li>    <li>Drop at Dehradun airport/Haridwar/Rishikesh railway station</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation: all local travel in Force Traveler/Cab.",
+    "9 Nights of Accommodation in hotels.",
+    "18 Meals: Breakfast & Dinner at the time of stay.",
+    "All Local Assistance.",
+    "Driver allowance",
+    "Toll taxes",
+    "Parking Charges",
+    "State road taxes."
+  ],
+  "exclusions": [
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "Anything which is not mentioned in the above inclusions.",
+    "GST (5%) is applicable extra.",
+    "Porter, pony, horse, cable car, boat, train tickets, air tickets charges.",
+    "Helicopter Ticket (As per Uttarakhand Goverment).",
+    "VIP Ticket for Kedarnath Darshan."
+  ]
+},
   {
-    slug: 'rishikesh-rafting-trip',
-    title: 'Rishikesh Rafting Trip',
-    destination: 'Uttarakhand',
-    duration: '2 Days 1 Night',
-    price: '₹5999',
-    imageUrl: '/cloned_media/36941120190611050808.png',
-    overview: 'A quick weekend getaway to Rishikesh for a thrilling river rafting experience and beach camping.',
-    itinerary: createItinerary('2 Days 1 Night'),
-    inclusions: ['Transfers from Delhi', 'Beach Camp Stay', 'Rafting', 'All Meals at Camp'],
-    exclusions: ['Meals during transfer'],
-  },
+  "slug": "rishikesh-rafting-trip",
+  "title": "Rishikesh Rafting Trip",
+  "destination": "Uttarakhand",
+  "duration": "2 Days 1 Night",
+  "price": "₹5,999",
+  "originalPrice": null,
+  "discount": null,
+  "imageUrl": "/cloned_media/36941120190611050808.png",
+  "gallery": [],
+  "overview": "<p>Rishikesh is the Yoga capital of the world and adventure capital of Uttarakhand. Famous for White Water River Rafting, Ganga Aarti at Ghats, Camping and Bonfire Party. Set against the backdrop of the Himalayas and with the pristine Ganga flowing through it, the ancient town of Rishikesh is one of the major tourist and pilgrimage hubs in northern India, where people from across the world arrive in search of peace.</p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Rishikesh | Overnight Journey",
+      "description": "<ul><li>Assemble at boarding point in Delhi.</li><li>Start an overnight journey to Rishikesh and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Haridwar Aarti | Rishikesh Camping | Waterfall Hike",
+      "description": "<ul>    <li>Early morning visit to Har ki Pauri at Haridwar &amp; attend Ganga Aarti.</li>    <li>After reaching Rishikesh, Check in to our campsite, get freshen up.</li>    <li>Hike to a hidden waterfall and spend some time there.</li>    <li>In the evening, enjoy warm bonfire and music.</li>    <li>Dinner and overnight stay at camps.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "River Rafting | Rishikesh Sightseeing | Depart for Delhi",
+      "description": "<ul>    <li>Wake up and enjoy the awesome sunrise view.</li>    <li>Post breakfast, check out from the campsite and drive to the river-rafting point.</li>    <li>You can also enjoy the cliff-jumping &amp; bodysurfing.</li>    <li>Post river rafting, visit the Rishikesh city - Janki Setu, Lakshman Jhula, Cafes &amp; Market.</li>    <li>Start-off your return journey to Delhi and reach Delhi by late night.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Taxi/Tempo Traveler.",
+    "Accommodation on sharing basis - Swiss Camps with Attach Washr0om.",
+    "Experienced and cool trip leader/trek guide.",
+    "Bonfire along with music.",
+    "16 Km white water river rafting.",
+    "3 Meals: Dinner (1), Breakfast (2).",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
   {
-    slug: 'jim-corbett-2d1n',
-    title: 'Jim Corbett  - 2D1N',
-    destination: 'Uttarakhand',
-    duration: '2 Days 1 Night',
-    price: '₹3600',
-    imageUrl: '/cloned_media/315020200213143326.png',
-    overview: 'A short trip to Jim Corbett National Park, India\'s oldest national park, for a chance to spot the Royal Bengal Tiger.',
-    itinerary: createItinerary('2 Days 1 Night'),
-    inclusions: ['Resort Stay', 'Meals at Resort', 'Jeep Safari'],
-    exclusions: ['Transfers to/from Ramnagar', 'Entry Fees'],
-  },
+  "slug": "jim-corbett-2d1n",
+  "title": "Jim Corbett - 2D1N",
+  "destination": "Uttarakhand",
+  "duration": "2 Days 1 Night",
+  "price": "₹5,000",
+  "originalPrice": null,
+  "discount": null,
+  "imageUrl": "/cloned_media/315020200213143326.png",
+  "gallery": [
+    "/cloned_media/42371920200213143326.png"
+  ],
+  "overview": "<p>Jim Corbett National Park is one of the best natural destinations where the richest concentrations of animals occur. Game drives in open jeep safari vehicles are the best way to discover the beauty and wilderness.</p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Jim Corbett | Overnight Journey",
+      "description": "<ul><li>Pick up at 11 pm from Delhi &amp; start your journey in AC tempo traveler (push back seats).</li><li>Overnight journey to Jim Corbett.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Jim Corbett Arrival | Resort Activities & Safari",
+      "description": "<ul>    <li>Reach Jim Corbett in the morning and check in to the resort - Take rest &amp; enjoy the property.</li>    <li>You can enjoy the swimming pool and other indoor activities like volleyball, cricket, badminton, chess etc.</li>    <li>Jungle Safari by jeep.</li>    <li>Bonfire, dinner &amp; Overnight stay.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Sightseeing & Depart for Delhi",
+      "description": "<ul>    <li>Have breakfast and checkout from the Resort. Visit Hanuman Dham &amp; Garijya Devi Temple.</li>    <li>At 1 pm, start the return journey to Delhi.</li>    <li>Reach Delhi around 9 pm.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: AC Tempo Traveler.",
+    "Accommodation in resort (sharing basis).",
+    "Experienced and cool trip leader/trek guide.",
+    "Meals: Dinner (1), Breakfast (1).",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Jungle safari at Jim Corbett National Park",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
   {
-    slug: 'jim-corbett-ranikhet',
-    title: 'Jim Corbett Ranikhet',
-    destination: 'Uttarakhand',
-    duration: '4 Days 3 Nights',
-    price: '₹9999',
-    imageUrl: '/cloned_media/31981120240211121011.png',
-    overview: 'A 4-day tour combining the wildlife of Jim Corbett with the serene hill station of Ranikhet.',
-    itinerary: createItinerary('4 Days 3 Nights'),
-    inclusions: ['Hotel/Resort Stay', 'Transfers', 'Jeep Safari', 'Sightseeing'],
-    exclusions: ['Meals', 'Entry Fees'],
-  },
+  "slug": "jim-corbett-ranikhet",
+  "title": "Jim Corbett Ranikhet",
+  "destination": "Uttarakhand",
+  "duration": "4 Days 3 Nights",
+  "price": "₹9,999",
+  "originalPrice": null,
+  "discount": null,
+  "imageUrl": "/cloned_media/31981120240211121011.png",
+  "gallery": [
+    "/cloned_media/31457220240211121009.png",
+    "/cloned_media/3533520240211121010.png",
+    "/cloned_media/41239320240211121010.png",
+    "/cloned_media/26143020240211121010.png",
+    "/cloned_media/19236920240211121010.png",
+    "/cloned_media/20671920240211121010.png",
+    "/cloned_media/26655520240211121010.png",
+    "/cloned_media/34463020240211121010.png",
+    "/cloned_media/40673820240211121011.png",
+    "/cloned_media/49362020240211121011.png",
+    "/cloned_media/7693320240211121011.png"
+  ],
+  "overview": "<h2>About Jim Corbett Ranikhet Tour Package</h2><p>Get ready for the most unforgettable experience of adventure and serenity in our Jim Corbett-Ranikhet tour package, where the thrill of the wild will mingle with the tranquility of the mountains.</p><p>Imagine a heart-pumping jeep safari across the oldest tiger reserve of India, Jim Corbett National Park. Your adrenaline surges at the sighting of majestic Bengal tigers, herds of elephants, and a variety of exotic birds right in their natural setting. Our expert naturalists ensure that you don't miss a single wildlife moment of action!</p><p>Then, retreat to Ranikhet, the quiet hill station with pine scented air and views of the Himalayas beckoning you at every turn. Stroll around the apple orchards, play golf at one of the finest and highest courses in Asia, or just rest in the lap of nature.</p><p>An itinerary that carefully balances excitement and relaxation, assuring one of getting the best of both worlds: be pampered in jungle lodges or heritage hotels with local cuisine that will treat every taste bud.</p><p>Whether you are a wildlife enthusiast, a nature lover, or just looking for a perfect getaway, this tour has something for everyone. Take back unforgettable memories of exciting animal encounters and serene mountain sunsets.</p><p>Stop dreaming about the perfect vacation, live it! Book our Jim Corbett Ranikhet Tour Package now and get a complimentary forest meditation session. Your jungle-mountain adventure awaits!</p><h3>Best Places to Visit in Jim Corbett Ranikhet</h3><p><b>Jim Corbett National Park:</b> India's first national park displays the Bengal tiger. It is an area of 520 square kilometers with thrilling wildlife safaris, various flora and fauna, and scenic beauty. There one can view tigers, elephants, and different varieties of bird species in their habitat.</p><p><b>Garjiya Devi Temple:</b> This is a sacred Hindu shrine located on a big rock in the Kosi River near Corbett. Spiritualism and natural beauty lure devotees and tourists to this enchanting temple, which is dedicated to Goddess Garjiya Devi.</p><p><b>Corbett Falls:</b> It is a natural 20-meter-high waterfall in thick forests, 25 km from Ramnagar. The falls create a mesmerizing spectacle as water cascades over moss-covered rocks, offering a perfect spot for nature photography and peaceful contemplation.</p><p><b>Ranikhet Golf Course:</b> It is considered one of the highest golf courses in Asia. Thus, it is set up absolutely in the middle of a wonderful backdrop of snow-capped Himalayas. The 9-hole course is not only meant for playing golf but also for the panoramic breathtaking views it offers. It thus draws sports and nature lovers alike throughout the year.</p><p><b>Chaubatia Gardens:</b> Located near Ranikhet, Chaubatia Gardens are well known for their apple orchards and breathtaking views of the Himalayas. It is indeed a paradise of horticulture sprawling across 265 acres of area with various fruit trees and flowers, especially beautiful during spring blooms.</p><p><b>Jhula Devi Temple:</b> 750 years old temple is located near Ranikhet. The temple has a unique tradition of offering hanging bells. It is surrounded by deodar and pine forests and, therefore, presents a tranquil atmosphere in which one can spend days steeped in spiritual thoughts and appreciate nature's beauty.</p><p><b>Bhalu Dam:</b> A peaceful destination ideal for picnics and watching birds at Ranikhet. The placid waters of the dam, reflecting the surrounding hills and forests, provide a peaceful retreat for nature lovers and view to catch several species of birds.</p><p>Upat Kalika: Hilltop temple overlooking Ranikhet, commanding a panoramic view of the Himalayas. It is one of the most beautiful spots to view sunrise and sunset, hence much visited for photographing and meditation. That makes it a spiritual and visual treat.</p><p><b>Binsar Mahadev Temple:</b> This ancient Shiva Temple is located near Ranikhet and is nestled in thick forests of cedar and pine. Famed for its intricate architecture, the temple is an important spiritual site and offers nice views of the surrounding landscape.</p><p><b>Kosi River:</b> Beating life into the heart of Corbett, Kosi River provides the thrill with activities like river rafting and angling. Its banks spell premier spotting of wildlife and birds, making it a quintessential part of the Corbett experience</p><h3>Top Things to do in Jim Corbett &amp; Ranikhet</h3><p>Jim Corbett National Park offers an exhilarating safari that could very well present you with the great Bengal tiger, along with many others. Expert guides drive you through widely spread forests, beautifully clustered in grasslands, to ensure some thrilling encounters with nature at its best.</p><p>Elephant rides in Jim Corbett offer one the panoramic view of the park; sitting on the huge mammals, one is able to traverse areas not open to vehicles, which indeed provide ideal opportunities to view the wild animals closely and lay a deeper connection to their natural surroundings.</p><p>The Corbett Museum, located in the famous hunter-turned-conservationist Jim Corbett's former home, offers fascinating insights into his life and work. Exhibits showcase his efforts in wildlife conservation and the park's rich history.</p><p>Birdwatching enthusiasts will find paradise in Jim Corbett, home to over 600 bird species. From vibrant kingfishers to majestic eagles, the park's diverse habitats provide ample opportunities to observe and photograph rare and beautiful avian life.</p><p>Nature walks and hiking trails in Jim Corbett allow visitors to immerse themselves in the park's stunning landscapes. Guided treks offer opportunities to learn about local flora and fauna while enjoying breathtaking views of the Himalayan foothills.</p><p>Adventure seekers can experience the thrill of rafting on the Kosi River in Jim Corbett. Navigate rapids while surrounded by picturesque scenery, creating an exhilarating blend of natural beauty and adrenaline-pumping excitement.</p><p>Ranikhet's Chaubatia Gardens offer a serene escape with its apple, peach, and apricot orchards. Visitors can stroll through fragrant pathways, enjoy panoramic views of the Himalayas, and sample fresh fruits in season.</p><p>The Jhula Devi Temple in Ranikhet is a spiritual haven dedicated to Goddess Durga. Known for its unique swinging idol and tranquil atmosphere, it attracts both devotees and tourists seeking blessings and inner peace.</p><p>Golf enthusiasts can tee off at Ranikhet's up at Golf Course, one of the highest golf courses in Asia. The 9-hole course offers challenging play amidst breathtaking mountain vistas, creating a truly unique golfing experience.</p><p>Ranikhet's surrounding hills provide excellent trekking and hiking opportunities for all skill levels. From gentle nature walks to challenging mountain trails, outdoor enthusiasts can explore the region's stunning landscapes and diverse ecosystems.</p><p>The Kalika Temple in Ranikhet, dedicated to Goddess Kali, is an important pilgrimage site. Perched atop a hill, it offers not only spiritual solace but also panoramic views of the snow-capped Himalayan peaks.</p><p>Tarikhet, near Ranikhet, offers some of the most spectacular viewpoints in the region. Visitors can enjoy sweeping vistas of the Himalayan range, including Nanda Devi and Trishul peaks, especially stunning during sunrise and sunset.</p><h3>How to Reach Jim Corbett, Ranikhet</h3><p>Jim Corbett and Ranikhet can be reached through various means of transportation. Road travel is the most flexible option, with buses and taxis available from major cities. Railways connect to nearby stations, while air travel to Pantnagar Airport offers quicker access for long-distance travelers.</p><h3>Best Time to Visit Jim Corbett, Ranikhet</h3><p>Jim Corbett is ideal from November to June. The park is fully open, and wildlife sightings are frequent. Ranikhet is pleasant year-round, but March to June and September to November offer comfortable temperatures and clear views of the Himalayas.</p><p>Check other related packages: <a href=\"https://go4explore.com/trips/jim-corbett-2d1n\" style=\"color:blue;\">2 Days Jim Corbett tour Packages</a>, <a href=\"https://go4explore.com/trip/uttarakhand-tour-packages\" style=\"color:blue;\">Uttarakhand Tour Packages</a></p>",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Jim Corbett Safari | Drive to Ranikhet",
+      "description": "<ul>    <li>After arriving in Jim Corbett, Start your jungle safari in deep jungle.</li>    <li>There is a strong probability to spot the Royal Bengal Tiger roaming around.</li>    <li>Keep your cameras at the ready and capture the rare images of tigers and various other wildlife species while they are resting in their habitats.</li>    <li>Start your journey towards Ranikhet,</li>    <li>On the way sightseeing kainchi temple, frog point,</li>    <li>After arriving in Ranikhet, Check into the cozy hotel, freshen-up and have some leisure.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Explore Ranikhet",
+      "description": "<ul>    <li>Wake up to the relaxed morning and post breakfast, start your journey to explore Ranikhet.</li>    <li>Visit Kalika Temple,</li>    <li>Proceed to the Golf Course and Mankameshwar Temple,</li>    <li>You can also visit Jhula Devi Temple,</li>    <li>In the evening, feel free to take a stroll around the market.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Return to Delhi",
+      "description": "<ul>    <li>Wake up to a peaceful mountain morning, post breakfast, and checkout from the hotel.</li>    <li>Spend a few hours at Chaubattia Garden.</li>    <li>Start your return journey towards Gurugram.</li>    <li>Reached Delhi in the night with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Tempo Traveler",
+    "Accommodation on Sharing Basis: 2 Nights in Hotel",
+    "Local sightseeing as per itinerary.",
+    "All trip assistance.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities, room heaters or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
   {
-    slug: 'do-dham-yatra-kedarnath-badrinath',
-    title: 'Do Dham Yatra - Kedarnath Badrinath',
-    destination: 'Uttarakhand',
-    duration: '6 Days 5 Nights',
-    price: '₹16500',
-    imageUrl: '/cloned_media/34512320250505063944.png',
-    overview: 'A 6-day pilgrimage to the two holy shrines of Kedarnath and Badrinath, starting from Haridwar.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel/Guesthouse Stay', 'All Transfers', 'Meals (Breakfast & Dinner)'],
-    exclusions: ['Helicopter/Pony/Palki charges', 'Special Pooja Fees', 'Lunches'],
-  },
+  "slug": "do-dham-yatra-kedarnath-badrinath",
+  "title": "Do Dham Yatra - Kedarnath Badrinath",
+  "destination": "Uttarakhand",
+  "duration": "6 Days 5 Nights",
+  "price": "₹16,500",
+  "originalPrice": null,
+  "discount": null,
+  "imageUrl": "/cloned_media/34512320250505063944.png",
+  "gallery": [
+    "/cloned_media/9809520230328065139.png",
+    "/cloned_media/42368220230328065139.png",
+    "/cloned_media/2969220230328065139.png",
+    "/cloned_media/21804520230328065139.png"
+  ],
+  "overview": "<h2>About Do Dham Yatra</h2><p>Devbhoomi or the Land of Gods, is home to a number of major Hindu pilgrimage sites. Bucket list of every devotee has Dham Yatras included in them, Among Dham Yatras the most popular places include Kedarnath and Badrinath. Located in the middle of the Himalayan peaks, Kedarnath temple is said to have been suppressed under Ice for around 400 years. Badrinath is located at an elevation of around 3,100 m, it is also known as the Sapta Badri which is around 218 kms away from Kedarnath Temple.</p>\n<h3>History of Do Dham Yatra</h3><p>As the epitome of religious belief Do Dham Yatra holds special significance in Hindu Mythology and culture. Everyone who deeply believes, finds Do Dham Yatra as one step closer to god. Do Dham Yatra is a journey of solace to Kedarnath and Badrinath.</p><p>Built around 1000 years ago, buried under ice for approximately 400 years, this temple has faced bruises by continuous falling of ice rocks from 13th CE to 17th CE. Devoted to Lord Shiva, this holi temple Kedarnath, has one of the most unique-shaped Jyotirlinga. There are many legends associated with Kedarnath temple of Uttrakhand, one is linked with the famous epic of Hindu Mythology, Mahabharata. Legends believe that after the Kurukshetra war Pandavas couldn’t attain inner peace in the guilt of killing their own kin. After ruling in Hastinapur for 100 years, Pandavas crowned Abhimanyu’s son as the next king and left in search of Lord Shiva along with Draupadi. Wherever Pandavas went in search of Lord Shiva, he moved away from that place and shifted somewhere else. Ultimately he settled in Gupt Kashi and when Pandavas finally reached there, he incarnated himself as a bull but when Bhima spotted him, Lord shiva started disappearing into the earth. Before Lord Shiva could entirely disappear, Bhima caught hold of a part of his back and the same part remained out of the earth, which led to the birth of pyramid shaped Jyotirlinga. It is believed that this temple was built by Pandavas. Another legend says that when the two twins, Nar and Narayan performed penance to Lord Shiva, after a rigorous prayer he was impressed and appeared before them. The twins requested Lord Shiva to stay in Kedarnath forever and thus, Lord Shiva transformed into Linga and rested here.</p><p>It is an unwritten religious rite to visit, the temple dedicated to Lord Shiva. According to popular beliefs, Lord Vishnu was lectured by sage Narada when he saw Goddess Laxmi massaging his feet. Lord Vishnu then sat for meditation in Padmasana, for a very long time unaware of the cold weather. His consort Goddess Laxmi protected Lord Vishnu in the form of Badri tree while he was engrossed in meditation. Delighted by Goddess Laxmi’s action he named the place as Badrika ashram and he was recognized as Badrinath (husband of Badri vishal that is goddess Laxmi). Thus Lord Vishnu is depicted in Padmasana posture at the Badrinath temple.</p>\n<h3>Places to Visit near Do Dham Yatra</h3><ul><li><strong>Adi Shankaracharya Samadhi:</strong> Placed behind the esteemed Kedarnath temple, saint Shankracharya is said to have established four dhams that are popularly visited by pilgrims. He is believed to have attained Nirvana and merged into land where he tread upon. All the tourists who visit this place can feel spiritual and physical rejuvenation in themselves.</li><li><strong>Shri Bhairavnath Temple:</strong> Revered to Lord Bhairav, this temple is situated at top of the hill treating the eyes of viewers with mesmerizing sights of Himalayas and the entire Kedarnth valley. The divine deity of the temple is also known as Kshetrapal (the guardian of the region), who carries a Trishul as a weapon and a dog with him.</li><li><strong>Vasuki Tal:</strong> Vasuki Tal is situated at 13,600 ft altitude which is a delight to trekkers and pilgrims both. On your trek you will be able to witness majestic sights of crystal clear water and scenic landscapes, to reach the lake and attain tranquility.</li><li><strong>Chandrashila:</strong> It is believed that Lord Laxman from the epic Ramanayana had meditated here at Chandrashila which is 13000 ft above sea level. Other than reference to spirituality Chandrashila also excites trekkers with stunning scenes.</li><li><strong>Rudra Meditation Cave:</strong> It is a modern meditation cave that gained fame after Narendra Modi visited Rudra meditation cave before the 2019 elections. It is a place away from the chaotic world for people who want to meditate truly.</li><li><strong>Sonprayag:</strong> Famous among the pilgrims for its spiritual significance <a href=\"https://en.wikipedia.org/wiki/Sonprayag\" style=\"color:blue;\">Sonprayag</a>, is a meeting point of Basuki and Mandakini rivers. Pilgrims usually visit this place to take a dip in holy water, while some want to cleanse their sins some want to attain moksha.</li><li><strong>Charanpaduka:</strong> A trek 3 kms away from Kedarnath will take you to Charanpaduka, which has a rock with imprints of footprint. It is believed by legends that this is an imprint of Lord Vishnu’s foot from the time when he first set his foot on earth.</li><li><strong>Brahma Kapal:</strong> Wouldn’t you love to visit a religious site where people believe that Lord Brahma still exists. As it is located on the shores of river Alaknanda, it is a place where many visitors arrive to immerse ashes of their deceased family members.</li><li><strong>Vyas Gufa:</strong> This sacred site is notably famous because people believe this is the place where Maharishi Ved Vyas and Lord Ganesha sat down to document the epic of Mahabharata and sage Vyas also documents some other important documents and Vedas here.</li><li><strong>Gaurikund:</strong> Gaurikund is not only the basecamp for Kedarnath but also a sacred site in itself. Situated at an altitude of 1,982 meters above sea level, it is named after Hindu Goddess Mata Parvati. According to the beliefs spread across Hinduism, Gaurikund is the place where Mata Parvati meditated and did penance to win Lord Shiva’s heart.</li><li><strong>Guptkashi:</strong> Around 49 km away from Kedarnath, Guptkashi is renowned for its old Vishwanathan temple that is devoted to Lord Shiva.</li><li><strong>Vasundhara falls:</strong> This majestic waterfall is a major tourist attraction for pilgrims and nature lovers equally. It is located near the sacred Badrinath and everyone who visits Vasundhara falls is left speechless after the heavenly beauty they witness.</li><li><strong>Govindghat:</strong> Govind Ghat Lies in the Chamoli District of Uttarakhand, this place acts as a basecamp for Valley of Flowers trek and sets the trail to holy pilgrimage site Hemkund Sahib too.</li><li><strong>Joshimath:</strong> At the height of 6100 ft it is recognised as a gateway to Himalayan treks and has religious significance too as it is one of the four ‘maths’ that are dedicated to the Atharvaveda of holy Hindu scriptures.</li></ul>\n<h3>Things to do in and around Do Dham Yatra</h3><ul><li><strong>Trekking in Kedarnath:</strong> Trekking in Kedarnath excites both devotees and trekkers even after difficult trails and there are several treks near Kedarnath like Vasuki Tal, Paniya Tal, Panwali Kantha, Khatling Sahastra Trek, and Panwali Kedarnath.</li><li><strong>River Rafting in Rishikesh:</strong> Get a chance to explore river rafting from the mighty river ganga in Rishikesh and experience the joy and thrill of river rafting.</li><li><strong>Temple Hopping in Valleys:</strong> Uttarakhand is also known as Dev Bhoomi because it is home to a variety of temples, apart from offering prayers at two prominent Dhams, you will be able to visit Bhairavnath temple, Laxman temple etc and earn blessings.</li><li><strong>Take Holy Dip in Gaurikund:</strong> Gaurikund holds a large significance in hindu mythology. Legends believe that if you take a dip in holy Gaurikund in the Garhwal Himalayas, your sins are cleansed away and you become pure again.</li><li><strong>Scenic Photography:</strong> Photographers are often in search of places that can provide them stunning landscapes, Kedarnath and Badrinath are not just the places with spiritual significance but even the valleys and mountains around them adds to the allure of the place.</li><li><strong>Mana Village:</strong> Having tea in the first village of Mana while enjoying the wonderful surroundings.</li><li><strong>Hike to Vasudhara Falls:</strong> The Kedarnath and Badrinath region is not only famous for pilgrimage sites but also popular among the hikers. Hike to Vasundhara falls while witnessing the scenic landscapes and mesmerizing beauty of the region.</li><li><strong>Darshan at Badri Vishal Temple:</strong> Badrinath is not just a temple dedicated to Lord Vishnu but it is also believed that this is home to Lord Vishnu’s vehicle, Garuda. Darshan of this sacred temple will make your life blessed and fulfill the religious and spiritual needs.</li><li><strong>Visit Narsingh Temple in Joshimath:</strong> God Narshima, is the deity of this Narsingh Temple in Joshimath, He is said to be one of the 7 incarnations of Lord Vishnu. When a pilgrim is visiting Kedarnath and Badrinath they make sure that they visit this temple in Joshimath too, to earn blessings from God Narshima.</li></ul>\n<h3>Best Time to Visit Do Dham Yatra</h3><p>Many devotees stay eager to go on Kedarnath Yatra throughout the year. Here are divisions according to seasons:</p><ul><li><strong>Summers:</strong> From April to June the temperature remains around 5 degree celsius and this is the best time to complete the Yatra. If you are confused on how to plan the trip Go4Explore provides one of the best packages for Do Dham Yatra.</li><li><strong>Monsoon:</strong> From July to September Kedarnath and Badrinath face heavy rainfall and the area is prone to landslides. But the temperature hovers around 8 degree celsius and you will find less rush during these times. Don't forget to carry raincoats, trekking shoes etc with yourselves to protect yourself from weather.</li><li><strong>Winters:</strong> During the months October to February, Kedarnath and Badrinath face heavy snowfall and temperature drops down to minus 2 degree celsius and the doors of Kedarnath and Badrinath are closed during this season.</li></ul>\n<h3>How to Reach Do Dham Yatra</h3><ul><li><strong>Roadways:</strong> Well connected roads from Delhi to Rishikesh eases your travel journey. From Rishikesh you can either take a bus or book a cab to Guptkashi and Guptkashi takes the last motorable road to Gaurikund from where Kedarnth trek begins.</li><li><strong>Railways:</strong> Nearest railway stations to Kedarnath are Dehradun and Haridwar railway stations from where you can take a bus to Rishikesh and Guptkashi.</li><li><strong>Airways:</strong> Major cities of India like Delhi, Mumbai, Kolkata etc are connected to Jolly Grant Airport of Dehradun. Dehradun’s airport is the closest airport from where you can reach Rishikesh. If you want to avoid trekking for Kedarnath Yatra you can take up helicopter service from Sirsi, Phata, and Guptkashi.</li></ul>\n<h3>Festivals in Do Dham Yatra</h3><p>How beautiful would it be to witness divine union of two most sacred and religiously significant temples? Badri-Kedar Utsav is a festival that takes place in June that creates a magical union of Lord Badrinath and Lord Kedarnath with a line up of various cultural programmes and a vibrant procession.</p>\n<h4>FAQ’s</h4><p><strong>1. How many days are required to visit Kedarnath and Badrinath?</strong></p><p>Around 7-8 days are required to visit both Kedarnath and Badrinath.</p><p><strong>2. Can you cover Badrinath and Kedarnath together?</strong></p><p>Yes, it is possible to cover Badrinath and Kedarnath.</p><p><strong>3. How far is Kedarnath from Badrinath?</strong></p><p>The distance of Kedarnath is 243 kms from Badrinath.</p><p><strong>4. What are the best months to cover Kedarnath and Badrinath?</strong></p><p>April to June are the best months to cover both.</p><p><strong>5. What is the closing date of Kedarnath and Badrinath Dham?</strong></p><p>The doors of Kedarnath and Badrinath Dham usually close around the time of Diwali.</p>\n<p>Explore our other Uttarakhand Tour Packages: <a href=\"https://go4explore.com/trips/uttarakhand-backpacking-chopta-edition\" style=\"color:blue;\">Uttarakhand Backpacking Chopta Edition</a>, <a href=\"https://go4explore.com/trips/hampta-pass-trek\" style=\"color:blue;\">Hampta Pass Trek</a>, <a href=\"https://go4explore.com/trips/valley-of-flowers-trek\" style=\"color:blue;\">Valley of Flowers Trek</a>, <a href=\"https://go4explore.com/trips/madmaheshwar-trek\" style=\"color:blue;\">Madmaheshwar Trek</a></p>",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Guptkashi/Sitapur | Overnight Journey",
+      "description": "<ul><li>Assemble at boarding point in Delhi as per given time & location.</li><li>Start overnight journey from Delhi to Guptkashi/Sitapur and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Devprayag Sangam | Guptkashi/Sitapur Arrival",
+      "description": "<ul><li>Enroute Guptkashi/Sitapur, we will take a pit stop at Devprayag in early morning to witness the beautiful confluence of Bhagirathi & Alaknanda rivers ultimately becoming Ganga river.</li><li>Further we will take a halt to grab a satisfying breakfast and continue our journey towards Guptkashi/Sitapur. Also, witness Rudraprayag Sangam and visit Ardh Nareshwar Temple.</li><li>After arriving in Guptkashi/Sitapur, check-in to our comfortable rooms/camps, freshen up, enjoy delightful lunch and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Guptkashi/Sitapur to Gaurikund | Trek to Kedarnath",
+      "description": "<ul><li>Wake early in the morning and post breakfast, head towards Sonprayag and then Gaurikund (the place from where we will start our trek to Kedarnath Dham). From Sonprayag/Sitapur, you have to board local transportation for Gaurikund.</li><li>Begin your trek to Kedarnath Dham - it will be a trek of approx. 22 kms and take 8 to 10 hrs. to reach Kedarnath Dham.</li><li>After arriving in Kedarnath Temple by late evening, attend the mesmerizing aarti and feel the divine aura.</li><li>Post evening aarti, check-in to our guest house/sarai, freshen up and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Kedarnath to Gaurikund | Guptkashi Arrival",
+      "description": "<ul><li>Wake up early morning to visit the Kedarnath Temple. Seek blessings at one of the most prominent shrines dedicated to Lord Shiva and amongst 12 Jyotirlinga of India.</li><li>Witness the mesmerizing view as the sun rays falls on the snow-clad Himalayan range located behind Kedarnath Temple.</li><li>Post darshan & breakfast, check-out from our accommodation, and begin your trek down to Gaurikund.</li><li>Drive back to Guptkashi/Sitapur from Sonprayag.</li><li>Check-in to our comfortable rooms/camps and freshen up. Feel free to stroll around and spend your rest day at leisure.</li><li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Drive to Chopta | Trek to Tungnath & Chandrashila",
+      "description": "<ul><li>Wake up early morning and post breakfast, head towards Chopta and arrive at the starting point of Tungnath Mahadev trek.</li><li>Begin your trek to Tungnath Temple - one of the Panch Kedar and World’s highest temple dedicated to Lord Shiva. </li><li>Trek further to magnificent Chandrashila Peak situated at 13,000 ft (if weather & conditions permits) and gather for an #InstaPerfect group picture.</li><li>Descend to Chopta village, drive to our campsite and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Drive from Chopta to Badrinath | Explore Mana Village",
+      "description": "<ul><li>Wake up early morning and post breakfast, head towards Badrinath, enjoying surreal views of Alaknanda river & Himalayas.</li><li>Visit India’s first village namely Mana Village.</li><li>Later arrive at Badrinath, take a bath in hot springs at Tapt Kund (optionally) and seek blessings at Badrinath Temple.</li><li>Dinner and overnight stay in Badrinath/Joshimath.</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Badrinath/Joshimath to Delhi | Rishikesh #MeTime",
+      "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, drive from Badrinath/Joshimath to Delhi via Rishikesh.</li><li>If time permits, after arriving in Rishikesh, self-explore the local market, Ram Jhula & Lakshman Jhula, go for the cafe-hopping, and visit temples and serene Ganga ghats by walking. </li><li>By late night, start your overnight journey from Rishikesh to Delhi.</li></ul>"
+    },
+    {
+      "day": 7,
+      "title": "Delhi Arrival | Trip Ends",
+      "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Tempo Traveler/Cab.",
+    "5 Nights Accommodation on Sharing Basis: 2 in Guptkashi/Sitapur, 1 in Kedarnath, 1 in Badrinath/Joshimath and 1 in Chopta.",
+    "Experienced and cool Trip Captain/Trek Guide.",
+    "All local explorations as per itinerary.",
+    "10 Veg Meals: Dinner (5), Breakfast (5), starting from Dinner on Day 1 to Breakfast on Day 6.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "Anything which is not mentioned in the above inclusions.",
+    "GST (5%) is applicable extra."
+  ]
+},
   {
     slug: 'auli-joshimath',
     title: 'Auli & Joshimath',

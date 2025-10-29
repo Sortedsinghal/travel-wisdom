@@ -63,18 +63,18 @@ const Header = () => {
   ];
 
   const weekendTripsList = [
-    { name: "Chopta Tungnath", path: "/chopta-tungnath" },
-    { name: "Manali Sissu", path: "/manali-sissu" },
-    { name: "Manali Sissu Kasol", path: "/manali-sissu-kasol" },
-    { name: "Jibhi & Tirthan Valley", path: "/jibhi-tirthan-valley" },
-    { name: "Kasol Kheerganga", path: "/kasol-kheerganga-trek" },
-    { name: "Mcleodganj Triund", path: "/mcleodganj-triund-trek" },
+    { name: "Chopta Tungnath", path: "/trip/chopta-tungnath-deoriatal" },
+    { name: "Manali Sissu", path: "/trip/manali-sissu" },
+    { name: "Manali Sissu Kasol", path: "/trip/manali-sissu-kasol" },
+    { name: "Jibhi & Tirthan Valley", path: "/trip/jibhi-tirthan-valley" },
+    { name: "Kasol Kheerganga", path: "/trip/kasol-kheerganga-trek" },
+    { name: "Mcleodganj Triund", path: "/trip/mcleodganj-triund-trek" },
   ];
 
   const backpackingTripsList = [
     { name: "Spiti Valley", path: "/spiti" },
     { name: "Leh & Ladakh", path: "/leh-ladakh" },
-    { name: "Himachal Backpacking", path: "/himachal-backpacking" },
+    { name: "Himachal Backpacking", path: "/trip/himachal-backpacking-manali-kasol-jibhi" },
     { name: "Meghalaya", path: "/meghalaya-backpacking" },
   ];
 
