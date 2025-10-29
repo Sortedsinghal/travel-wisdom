@@ -27,6 +27,10 @@ import HimachalBackpacking from './pages/HimachalBackpacking';
 import MeghalayaBackpacking from './pages/MeghalayaBackpacking';
 import ChoptaTungnath from './pages/ChoptaTungnath';
 import ManaliSissu from './pages/ManaliSissu';
+import ManaliSissuKasol from './pages/ManaliSissuKasol';
+import JibhiTirthanValley from './pages/JibhiTirthanValley';
+import KasolKheerganga from './pages/KasolKheerganga';
+import McleodganjTriund from './pages/McleodganjTriund';
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
@@ -79,6 +83,10 @@ const App = () => (
           <Route path="/meghalaya-backpacking" element={<MeghalayaBackpacking />} />
           <Route path="/chopta-tungnath" element={<ChoptaTungnath />} />
           <Route path="/manali-sissu" element={<ManaliSissu />} />
+          <Route path="/manali-sissu-kasol" element={<ManaliSissuKasol />} />
+          <Route path="/jibhi-tirthan-valley" element={<JibhiTirthanValley />} />
+          <Route path="/kasol-kheerganga-trek" element={<KasolKheerganga />} />
+          <Route path="/mcleodganj-triund-trek" element={<McleodganjTriund />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/upcoming-group-trips" element={<UpcomingGroupTrips />} />

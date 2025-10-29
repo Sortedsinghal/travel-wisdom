@@ -65,10 +65,10 @@ const Header = () => {
   const weekendTripsList = [
     { name: "Chopta Tungnath", path: "/chopta-tungnath" },
     { name: "Manali Sissu", path: "/manali-sissu" },
-    { name: "Manali Sissu Kasol", path: "/trips/manali-sissu-kasol" },
-    { name: "Jibhi & Tirthan Valley", path: "/trips/jibhi-tirthan-valley" },
-    { name: "Kasol Kheerganga", path: "/trips/kasol-kheerganga-trek" },
-    { name: "Mcleodganj Triund", path: "/trips/mcleodganj-triund-trek" },
+    { name: "Manali Sissu Kasol", path: "/manali-sissu-kasol" },
+    { name: "Jibhi & Tirthan Valley", path: "/jibhi-tirthan-valley" },
+    { name: "Kasol Kheerganga", path: "/kasol-kheerganga-trek" },
+    { name: "Mcleodganj Triund", path: "/mcleodganj-triund-trek" },
   ];
 
   const backpackingTripsList = [
