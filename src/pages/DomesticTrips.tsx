@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { QueryForm } from '@/components/QueryForm';
+import { getTripRoute } from '@/utils/tripRoutes';
 import { Bed, Airplay, Mountain, Users, ThumbsUp, CreditCard, UserCheck } from 'lucide-react';
 
 const trips = [
@@ -180,6 +182,7 @@ const reasons = [
 const DomesticTrips = () => {
   const [showQueryForm, setShowQueryForm] = useState(false);
   const [visibleCount, setVisibleCount] = useState(8);
+  const navigate = useNavigate();
 
   const handleViewMore = () => {
     setVisibleCount((prev) => prev + 8);
@@ -225,7 +228,10 @@ const DomesticTrips = () => {
                     <span className="text-sm text-gray-600 block">per person</span>
                   </div>
                   <div className="flex gap-2 mt-auto">
-                    <button className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-3 py-1 text-sm hover:bg-[#0B3A55] hover:text-white transition-colors">
+                    <button 
+                      onClick={() => navigate(getTripRoute(trip.title))}
+                      className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-3 py-1 text-sm hover:bg-[#0B3A55] hover:text-white transition-colors"
+                    >
                       Trip Details
                     </button>
                     <button onClick={() => setShowQueryForm(true)} className="flex-1 bg-[#0B3A55] text-white rounded px-3 py-1 text-sm hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors">

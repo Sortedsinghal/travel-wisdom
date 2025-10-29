@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { QueryForm } from '@/components/QueryForm';
+import { getTripRoute } from '@/utils/tripRoutes';
 
 const UpcomingGroupTrips = () => {
   const [showQueryForm, setShowQueryForm] = useState(false);
@@ -893,7 +894,10 @@ const UpcomingGroupTrips = () => {
                     <span className="font-bold text-lg">₹{trip.price} per person</span>
                   </div>
                   <div className="flex gap-2">
-                    <button className="flex-1 border border-black text-[#0B3A55] rounded px-3 py-1 hover:bg-[#0B3A55] hover:text-white transition-colors">
+                    <button 
+                      onClick={() => navigate(getTripRoute(trip.title))}
+                      className="flex-1 border border-black text-[#0B3A55] rounded px-3 py-1 hover:bg-[#0B3A55] hover:text-white transition-colors"
+                    >
                       Trip Details
                     </button>
                     <button 
