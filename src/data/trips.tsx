@@ -2504,304 +2504,1576 @@ export const allTrips: Trip[] = [
     ],
   },
   {
-    slug: 'honeymoon-special-shimla-to-manali',
-    title: 'Honeymoon Special- Shimla to Manali',
-    destination: 'Himachal',
-    duration: '6 Days 5 Nights',
-    price: '₹23000',
-    imageUrl: '/cloned_media/14516820240909124607.png',
-    overview: 'A romantic honeymoon journey from the colonial charm of Shimla to the adventurous valleys of Manali.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Private Car', 'Hotel Stay', 'Breakfast & Dinner', 'Honeymoon Inclusions (cake, decor)'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "honeymoon-special-shimla-to-manali",
+    "title": "Honeymoon Special- Shimla to Manali",
+    "destination": "Himachal",
+    "duration": "6 Days 5 Nights",
+    "price": "₹23000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/14516820240909124607.png",
+    "overview": "<h2>Honeymoon Special - Shimla Manali Honeymoon Tour Package</h2><p>Embark on a dreamy getaway with our Shimla Manali Honeymoon Tour Package, designed to kindle romance amidst the breathtaking Himalayas. Imagine strolling hand-in-hand through Shimla's charming colonial streets, the crisp mountain air filling your lungs as you create lasting memories. In Manali, lose yourselves in the enchanting apple orchards and snow-capped peaks, the perfect backdrop for your love story.</p><p>Our carefully curated package includes cozy accommodations, private transportation, and intimate experiences tailored for two. Savor candlelit dinners with local delicacies, unwind with a couple's spa treatments, and enjoy thrilling activities like paragliding or river rafting to strengthen your bond.</p><p>From the serene Hadimba Temple to the vibrant Mall Road, every moment is an opportunity to fall deeper in love. As the sun sets, snuggle up by a crackling bonfire, sharing dreams under a starlit sky.</p><p>Don't just start your married life, celebrate it in style. Book our <a href=\"/trips/honeymoon-special-shimla-to-manali\" style=\"color:blue;\">Shimla Manali Honeymoon Tour Package</a> now and let the magic of the mountains ignite your passion. Your perfect beginning awaits in the lap of nature. Make memories that will last a lifetime because you deserve nothing less.</p><h3>Places to Visit in 5 Days Shimla Manali Honeymoon Tour</h3><p><strong>The Ridge-</strong> The Ridge, Shimla's central landmark, offers panoramic views of the surrounding mountains. This spacious open area hosts various events and festivals throughout the year. Visitors can enjoy leisurely walks, horse riding, and admire the neo-Gothic architecture of Christ Church nearby.</p><p><strong>Mall Road (Shimla)-</strong> Mall Road, the main street of Shimla, bustles with activity. Lined with shops, cafes, and colonial-era buildings, it's perfect for shopping and people-watching. The road offers a blend of modern amenities and historical charm, making it a must-visit destination.</p><p><strong>Jakhu Temple-</strong> Jakhu Temple, dedicated to Lord Hanuman, sits atop Shimla's highest peak. The 108-foot statue of Hanuman is a prominent landmark. Visitors can enjoy a scenic ropeway ride to the temple and encounter playful monkeys along the way.</p><p><strong>Christ Church-</strong> Christ Church, with its striking yellow facade, is one of India's oldest churches. Its neo-Gothic architecture, stained glass windows, and serene ambiance make it a popular attraction. The church offers a glimpse into Shimla's colonial past and architectural heritage.</p><p><strong>Kufri-</strong> Kufri, a small hill station near Shimla, is famous for its scenic beauty and winter sports. Visitors can enjoy horse riding, hiking, and skiing during winter. The Himalayan Nature Park and the views from Mahasu Peak are major attractions.</p><p><strong>Shimla State Museum-</strong> Shimla State Museum houses a rich collection of artifacts showcasing Himachal Pradesh's cultural heritage. Exhibits include ancient sculptures, paintings, coins, and handicrafts. The museum's colonial architecture adds to its charm, offering insights into the region's history and art.</p><p><strong>Annandale-</strong> Annandale, a flat terrain amidst Shimla's hilly landscape, serves as a recreational area. It hosts activities like golf, cricket, and polo. The Army Heritage Museum here offers a glimpse into military history, making it an interesting stop for history buffs.</p><p><strong>Green Valley-</strong> Green Valley, a picturesque spot on the way to Kufri, offers breathtaking views of the surrounding mountains. The lush green meadows and dense forests create a serene atmosphere. It's an ideal location for nature lovers and photographers.</p><p><strong>Chadwick Falls-</strong> Chadwick Falls, nestled in Glen Forests, offers a tranquil escape from Shimla's bustle. The waterfall, surrounded by pine and deodar trees, is particularly impressive during the monsoon season. It's a perfect spot for nature walks and picnics.</p><p><strong>Viceregal Lodge-</strong> Viceregal Lodge, now Indian Institute of Advanced Study, is a magnificent example of British architecture. Its intricate woodwork, sprawling lawns, and historical significance make it a must-visit. Guided tours offer insights into India's pre-independence era and the building's rich history.</p><p><strong>Rohtang Pass-</strong> Rohtang Pass, connecting Kullu Valley to Lahaul and Spiti Valleys, offers breathtaking Himalayan views. It's popular for snow activities and adventure sports. The pass provides a unique opportunity to experience snow even in summer months.</p><p><strong>Solang Valley-</strong> Solang Valley, known as 'Snow Point', is a hub for adventure sports. Visitors can enjoy paragliding, zorbing, and skiing. The valley's scenic beauty, coupled with adrenaline-pumping activities, makes it a favorite among thrill-seekers and nature lovers.</p><p><strong>Hadimba Temple-</strong> Hadimba Temple, an ancient cave temple, is dedicated to Hidimba Devi. Its pagoda-shaped architecture and serene surroundings make it a unique attraction. The temple offers a blend of religious significance and architectural marvel amidst cedar forests.</p><p><strong>Old Manali-</strong> Old Manali, with its laid-back vibe, offers a contrast to the bustling New Manali. Its quaint cafes, guesthouses, and handicraft shops attract backpackers and culture enthusiasts. The area retains a charming, rustic feel with traditional Himachali architecture.</p><p><strong>Manu Temple-</strong> Manu Temple, dedicated to sage Manu, holds significant religious importance. According to legend, Manu stepped off his boat in Manali after the great flood. The temple's tranquil atmosphere and panoramic views make it a popular spot for meditation and photography.</p><p><strong>Vashisht Hot Springs-</strong> Vashisht Hot Springs, known for their therapeutic properties, attract visitors seeking relaxation and healing. The ancient stone temples nearby add cultural interest. The hot springs offer a unique way to unwind while enjoying the surrounding mountain scenery.</p><p><strong>Mall Road-</strong> Manali's Mall Road is the town's commercial hub, bustling with shops and eateries. It's ideal for souvenir shopping, trying local cuisines, and people-watching. The road captures the essence of Manali's vibrant tourist culture and local lifestyle.</p><p><strong>Jogini Falls-</strong> Jogini Falls, a majestic waterfall near Vashisht village, offers a refreshing hiking experience. The trek to the falls passes through pine forests and small villages. The waterfall's natural beauty and the surrounding landscape make it a photographer's delight.</p><p><strong>Beas River-</strong> Beas River, flowing through Manali, adds to the town's scenic beauty. Its banks are perfect for picnics and riverside walks. Adventure enthusiasts can enjoy river rafting, while nature lovers can simply soak in the peaceful ambiance.</p><p><strong>Great Himalayan National Park-</strong> Great Himalayan National Park, a UNESCO World Heritage site, showcases the region's rich biodiversity. It's home to numerous rare and endangered species. The park offers trekking opportunities and a chance to experience the Himalayan ecosystem in its pristine form.</p><h3>Things to do in 5 Days Shimla Manali Honeymoon Package</h3><ul>    <li>Ice skating in Shimla's open-air rink is a unique winter experience. As Asia's only naturally frozen outdoor rink, it offers a magical setting for gliding across the ice surrounded by snow-capped mountains.</li>    <li>River rafting on the Beas River near Manali provides an adrenaline rush. Navigate through rapids while enjoying stunning mountain scenery. It's suitable for both beginners and experienced rafters, offering different grades of difficulty.</li>    <li>Horseback riding around Kufri lets you explore Shimla's outskirts in a traditional way. Trot through pine forests and meadows, enjoying panoramic views of the Himalayas from a unique vantage point.</li>    <li>Paragliding in Solang Valley offers a bird's-eye view of Manali's breathtaking landscape. Soar above snow-capped peaks and lush valleys with experienced pilots, experiencing the thrill of free flight.</li>    <li>The Jakhu Ropeway in Shimla provides a scenic cable car ride to Jakhu Temple. Glide above the city, enjoying panoramic views of the surrounding mountains and forests during this romantic aerial journey.</li>    <li>Trekking in Shimla and Manali allows you to immerse yourself in nature. From easy walks to challenging hikes, trails cater to all fitness levels, offering encounters with local flora, fauna, and stunning vistas.</li>    <li>Savoring Himachali cuisine introduces you to unique local flavors. Try dishes like Dham, Siddu, or Chha Gosht in traditional restaurants, experiencing the region's culinary heritage firsthand.</li>    <li>Shopping for woolen garments and Kullu shawls supports local artisans. Explore markets in both cities to find authentic handicrafts, intricate woodwork, and colorful textiles as souvenirs or gifts.</li>    <li>Camping and bonfire experiences near Manali offer a night under the stars. Enjoy storytelling, local music, and stargazing while surrounded by the majestic Himalayas, creating unforgettable memories.</li>    <li>Zorbing in Solang Valley provides a unique thrill. Roll down hills in a giant transparent ball, experiencing an exhilarating mix of adventure and fun in a safe, controlled environment.</li>    <li>Nature walks through deodar and pine forests offer tranquility. Breathe in the fresh mountain air, listen to bird calls, and enjoy the serenity of Himalayan forests at your own pace.</li>    <li>Mountain biking around Manali challenges adventure enthusiasts. Ride through rugged terrain, enjoying stunning views and testing your skills on trails suitable for various experience levels.</li>    <li>Picnicking by the Beas River or in Shimla's green spaces allows for relaxation amidst nature. Pack a local meal, find a scenic spot, and enjoy quality time with loved ones in beautiful surroundings.</li>    <li>Pottery classes and craft workshops provide hands-on cultural experiences. Learn traditional techniques from local artisans, creating your own souvenirs while gaining insight into Himachali craftsmanship.</li>    <li>Snow activities like skiing or snowboarding are popular winter pastimes. Whether you're a beginner or expert, the slopes around Shimla and Manali offer thrilling snow sports opportunities in breathtaking settings.</li></ul><h3>How to Reach Shimla Manali</h3><ul>    <li>Fly to Chandigarh Airport, the nearest major airport to both destinations. It's well-connected to major Indian cities.</li>    <li>From Chandigarh, take a taxi or bus to Shimla. The journey is about 4-5 hours through scenic mountain roads.</li>    <li>To reach Manali from Shimla, you have two main options:</li>    <li>Direct bus: Take a direct bus from Shimla to Manali. The journey takes about 8-10 hours.</li>    <li>Private taxi: Hire a taxi for a more comfortable ride. This also allows stops at scenic points.</li></ul><h3>Best Time to Visit Shimla Manali</h3><p><strong>Summer (March to June):</strong> Ideal for escaping the heat of the plains. Temperatures range from 15°C to 30°C. Perfect for outdoor activities and sightseeing. Peak tourist season, so expect crowds.</p><p><strong>Monsoon (July to September):</strong> Lush green landscapes and flowing waterfalls. Some risk of landslides and road closures. Lower hotel rates, but some activities may be limited due to rain.</p><p><strong>Autumn (October to November):</strong> Pleasant weather with clear skies. Temperatures range from 10°C to 20°C. Great for photography and outdoor activities. Less crowded than summer.</p><p><strong>Winter (December to February):</strong> For snow lovers and winter sports enthusiasts. Temperatures can drop below freezing. Shimla and Manali offer different snow experiences. Some roads may be closed due to heavy snowfall.</p><p>Other related tour packages: <a href=\"/trips/honeymoon-special-chandigarh-shimla-manali\" style=\"color:blue;\">Honeymoon Special- Chandigarh Shimla Manali</a>, <a href=\"/trips/honeymoon-special-himachal-pardesh\" style=\"color:blue;\">Honeymoon Special- Himachal Pardesh</a>, <a href=\"/trips/kashmir-honeymoon-package-7-days-6-nights\" style=\"color:blue;\">Kashmir Honeymoon Package</a>, <a href=\"/trips/manali-honeymoon-trip-6-days-5-nights\" style=\"color:blue;\">Manali Honeymoon Trip</a></p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Shimla | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Shimla and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Shimla Arrival | Shimla Local Explorations",
+        "description": "<ul><li>After arriving in Shimla, check-in to our cozy hotel, freshen up and have some leisure.</li><li>Get ready and head out for Shimla’s local explorations.</li><li>We’ll visit the famous Jakhu Temple (on the top of Jakhu Hill) and Indian Institute of Advanced Studies (The grand architectural beauty).</li><li>In the evening, visit the iconic Shimla Ridge and feel free to take a stroll around Lakkar Bazar, enjoy shopping while enjoying the scenery of the mountains, valleys and colonial buildings; and visit the famous Christ Church.</li><li>Savour delightful dinner and overnight stay in a hotel in Shimla.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Day Excursion to Kufri | Manali Arrival",
+        "description": "<ul><li><li>Wake early in the morning and post breakfast, check out from the property and drive from Shimla to Manali.</li><li>Enroute Manali, we will take a halt at Kufri. Experience fun filled adventure activities in Kufri such as skiing, zip-lining, rock climbing, horse riding and rappelling (on your own). Enjoy the stunning vistas of Himalayan peaks as seen from this quaint hill retreat near Shimla. Further, stop in Kullu where you can indulge in adventure activities like paragliding and river rafting (on your own).</li><li>After arriving in Manali, check-in to our comfy hotel, freshen up and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Manali Local Explorations & Cafe Hopping",
+        "description": "<ul><li>Wake early in the morning and post breakfast, get ready for Manali's local explorations.</li><li>Head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive to Sissu via Atal Tunnel & Solang Valley",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, drive from Manali to Lahaul Valley via the newly opened Atal Tunnel. Witness a sudden transformation in the landscape once you cross from Kullu to Lahaul region. Visit Sissu village and Sissu Lake (if weather permits).</li><li>While returning back to Manali, take a stop at Solang Valley and indulge in various adventure activities over there.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Manikaran Hot Springs | Depart for Delhi",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Manali to Manikaran.</li><li>Visit the famous holy hot water springs at Manikaran Sahib Gurudwara &amp; Shiva Temple.</li><li>Soak in the hippie vibes of Kasol, go for cafe hopping and treat your stomach with mouth-watering local dishes (if time permits).</li><li>In the evening, start-off your overnight journey to Delhi.<br></li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi next morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Cab at all other times.",
+      "4 Nights Accommodation on Sharing Basis: 1Night in Hotel (Shimla) & 3 Nights in Hotel (Manali).",
+      "8 Meals: Shimla (Breakfast+Dinner) & Manali (3 Breakfasts+3 Dinners), starting from Dinner on Day 1 to Breakfast on Day 5.",
+      "Bonfire (if weather permits) & music only on any 1 Night during the stay (Manali) and local explorations as per itinerary.",
+      "Complimentary Candle Night Dinner & Room Decoration.",
+      "Experienced & All Local Assistance.<br>",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'manali-honeymoon-trip-6-days-5-nights',
-    title: 'Manali Honeymoon Trip - 6 Days 5 Nights',
-    destination: 'Himachal',
-    duration: '6 Days 5 Nights',
-    price: '₹44500',
-    imageUrl: '/cloned_media/10354320210311141256.png',
-    overview: 'A 6-day honeymoon trip focused on Manali and its beautiful surroundings, like Solang Valley and Rohtang Pass.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Private Car', 'Hotel Stay', 'Breakfast & Dinner', 'Honeymoon Inclusions'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "manali-honeymoon-trip-6-days-5-nights",
+    "title": "Manali Honeymoon Trip - 6 Days 5 Nights",
+    "destination": "Himachal",
+    "duration": "6 Days 5 Nights",
+    "price": "₹44500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/10354320210311141256.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19062320210311141256.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35612620210311141256.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20526120210311141256.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17596820210311141256.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32610220210311141256.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22663720210311141256.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/74420210311141256.png"
+    ],
+    "overview": "<h2>About Manali Honeymoon 6 Days 5 Nights Tour Package</h2><p>Dive into the magic of Himachal Pradesh with our Manali Honeymoon 6 Days 5 Nights Tour Package for newlyweds. Picture you and your love surrounded by tall, snowy mountains, lush pine trees, and the gentle flow of the Beas River. This getaway is going to be the ideal romantic escape, something that you'd reminisce about forever. From the moment you arrive, you'll get to see Manali in all its splendor. Take some light walks together in the lovely alleyways of Old Manali, savor local food, and breathe deeply the fresh mountain air. We've picked up cozy, comfortable, and fancy places for you to stay, which will give peaceful, homely vibes and be exclusively for the two of you.</p><p>Our package includes thrilling activities for adventurous couples, like paragliding over the Solang Valley or river rafting on the Beas. For those seeking tranquility, we offer visits to ancient temples and hot springs. Imagine cuddling up with a warm cup of tea as you watch the sunset paint the Himalayan peaks in hues of gold and pink.</p><p>We understand that your honeymoon should be stress-free, which is why we take care of all the details. From transportation to guided tours and meals at romantic restaurants, we've got you covered. Our experienced team is dedicated to making your honeymoon dreams come true.</p><p>Don't settle for an ordinary honeymoon when you can have an extraordinary adventure in Manali. Book now and let us help you create the perfect start to your happily ever after. Your love story deserves a magical backdrop – let Manali be that backdrop.</p> \r\n\r\n<h3>Places to Visit in 6 Days Manali Honeymoon Trip</h3>\r\n<p><b>Solang Valley:</b> Solang Valley lies 13 km away from Manali. In summers, it serves as a valve for adventure lovers in sojourn, paragliding, parachuting, and zorbing; and in winter, it becomes a snowy wonderland for skiing and snowboarding. The panoramic views with the surrounding peaks are no less than a breathtaking sight any time throughout the year.</p>\r\n<p><b>Hadimba Temple:</b> This ancient wooden temple is dedicated to Hidimba Devi and represents an architectural marvel. The pagoda-like structure was fitted into the cedar forest backdrop of 1553. Intricate carvings and the peaceful environment make it one of the most visited spiritual places in Manali.</p>\r\n<p><b>Old Manali:</b> Level-headed and charming, it is in complete contrast to the bustling New Manali. The place is highly bohemian, with cafes, old rustic guesthouses, and shops selling local handicrafts. Old Manali offers a relaxed atmosphere, perfect for leisurely walks and soaking in local culture.</p>\r\n<p><b>Rohtang Pass:</b> Situated at an altitude of 3,978 meters, Rohtang Pass offers great views of glaciers and peaks around with valleys. This place is the gateway to Lahaul and Spiti valleys, famous for their snow activities and photography. The drive up is highly challenging and thus is rewarded with breathtaking Himalayan panoramas.</p>\r\n<p><b>Mall Road:</b> Mall Road is the heart of Manali's shopping and dining scenes because it's never deprived of activities. It offers, all in one beat, everything from local woolens, handicrafts, and trendy cafes to restaurants. It is the place to soak one-self in Manali's resurgent urban culture.</p>\r\n<p><b>Vashisht Hot Springs:</b> These hot springs are, by nature, medicated, and thus form a wonderful resting spot. The Turkish-style bath houses offer a rejuvenating experience. The adjoining Vashisht Temple is dedicated to the sage Vashisht and adds a touch of spirituality to your visit.</p>\r\n<p><b>Jogini Waterfall:</b> This is a mesmerizing waterfall a short trek from Vashisht. It's a journey through lush forests and streams that's rewarding in its own sake. The cascading water and serene surroundings form the crux of this favorite spot for nature lovers.</p>\r\n<p><b>Manu Temple:</b> This temple is dedicated to the sage Manu, the progenitor of mankind in Hindu mythology. The temple has both spiritual and historical significance. It sports unique architecture and sounds of silence, far from the uproar of the loud environments back in Manali.</p>\r\n<p><b>Raghunath Temple:</b> One of the major temples dedicated to Lord Rama is located in Kullu. This temple is well-known not only for its religious significance but also for its magnificent architecture. The famous Kullu Dussehra festival celebrated here presents a significant view of the local culture and traditions.</p>\r\n<p><b>Bijli Mahadev Temple:</b> This temple is located on a hilltop and commands a panoramic view of the Kullu and Parvati valleys. Famous for its 60-foot staff, as many believe that when the weather is conducive, it attracts divine blessings of lightning, hence lending the temple its name.</p>\r\n<p><b>Manikaran Gurudwara:</b> Manikaran Gurudwara stands as a spiritual oasis. This Sikh temple, famous for its hot springs, offers a unique blend of faith and natural wonder. Dip your feet in the healing waters and savor the serene atmosphere that envelops this sacred place.</p>\r\n<h3>Things to do in Manali Honeymoon Tour</h3>\r\n<p>Go paragliding together for an adrenaline rush and stunning views: Experience the thrill of flying tandem over Manali's breathtaking landscape. As you soar above the Solang Valley, you'll share an unforgettable adventure while taking in panoramic views of snow-capped peaks and lush valleys below.</p>\r\n<p>Take a couples' spa treatment for relaxation and bonding: Indulge in a pampering session designed for two. Many Manali resorts offer special couples' packages featuring massages, aromatherapy, and hot stone treatments. Relax side by side, rejuvenating both body and spirit in a tranquil mountain setting.</p>\r\n<p>Enjoy a romantic candlelit dinner with mountain views: Savor a private dining experience at a rooftop restaurant or in your resort. As the sun sets, enjoy gourmet cuisine by candlelight, with the silhouette of the Himalayas as your backdrop. It's the perfect setting for intimate conversation.</p>\r\n<p>Go on a scenic bike ride through the valleys: Rent a bike and explore Manali's picturesque surroundings together. Wind through apple orchards, pine forests, and quaint villages. Stop at viewpoints to admire the scenery and capture photos of your adventure.</p>\r\n<p>Try your hand at river rafting as a team: Bond over an exciting rafting expedition on the Beas River. Navigate rapids together, working as a team to steer your raft. The combination of thrills and stunning riverside scenery makes for an exhilarating shared experience.</p>\r\n<p>Take a cooking class to learn local Himachali cuisine together: Join a local chef to learn the art of preparing traditional Himachali dishes. It's a fun, interactive way to immerse yourselves in the local culture. Plus, you'll take home new culinary skills to recreate your honeymoon memories.</p>\r\n<p>Go on a romantic horse riding excursion: Explore Manali's countryside on horseback. Trot through meadows and forests, enjoying the peaceful mountain atmosphere. It's a charming, old-world way to discover hidden scenic spots and spend quality time together.</p>\r\n<p>Enjoy a picnic by the Beas River: Pack a basket with local delicacies and find a secluded spot by the river. The sound of rushing water and the beauty of the surrounding mountains create a perfect setting for an intimate outdoor meal.</p>\r\n<p>Take a couple's photography session in scenic locations: Hire a local photographer for a professional shoot. Capture your love against Manali's stunning backdrops, from snow-capped peaks to verdant valleys. These photos will be cherished mementos of your honeymoon for years to come.</p>\r\n<p>Go stargazing on a clear night: Find a quiet spot away from city lights to admire the night sky together. The clear mountain air offers excellent visibility of stars and constellations. It's a romantic and awe-inspiring way to end your day.</p>\r\n<p>Try skiing or snowboarding (seasonal) as a fun couple's activity: If visiting in winter, hit the slopes together. Whether you're beginners or experienced, sharing the excitement of gliding down snow-covered hills will create lasting memories. Finish with hot cocoa by a cozy fire.</p>\r\n<p>Take a romantic cable car ride for panoramic views: Ascend the mountains in a cable car, holding hands as you float above the landscape. At the top, you'll be rewarded with breathtaking views of the Himalayan range and valleys below.</p>\r\n<p>Go on a nature walk or easy trek together: Explore Manali's natural beauty on foot. Choose from various trails suitable for beginners. Walk through pine forests, cross gentle streams, and discover hidden waterfalls. It's a great way to connect with nature and each other.</p>\r\n<p>Attend a bonfire night with local music and dance: Join a cultural evening featuring traditional Himachali music and dance. Sit around a warming bonfire, wrapped in blankets, as you enjoy the performances. It's a cozy and entertaining way to experience local culture.</p>\r\n<p>Visit a local market and shop for souvenirs together: Explore Manali's bustling markets hand in hand. Shop for traditional Kullu shawls, wooden crafts, and local spices. Choosing mementos together is a fun way to preserve memories of your honeymoon.</p>\r\n\r\n\r\n<h3>How to Reach Manali from Delhi</h3>\r\n<p><b>By Air:</b> The nearest airport is Bhuntar Airport (also known as Kullu-Manali Airport), located about 50 km from Manali. From there, you can take a taxi or bus to Manali. Flights connect Bhuntar to Delhi and Chandigarh.</p>\r\n<p><b>By Road:</b> Manali is well-connected by road. You can drive or take a bus from major cities like Delhi, Chandigarh, or Shimla. The journey offers scenic views of the Himalayas and can be an adventure in itself.</p>\r\n<p><b>By Bus:</b> Regular bus services operate from Delhi, Chandigarh, and other nearby cities. Both government and private operators offer comfortable overnight buses to Manali.</p>\r\n<p><b>By Train:</b> The nearest major railway station is Joginder Nagar, about 166 km away. However, most travelers prefer to take a train to Chandigarh or Ambala and then continue by road to Manali.</p>\r\n<h3>Best Time to Visit Manali</h3>\r\n<p><b>Summer (March to June):</b> Ideal for most tourists. The weather is pleasant with temperatures ranging from 10°C to 25°C. Perfect for outdoor activities, sightseeing, and adventure sports. However, it's also the peak tourist season, so expect crowds.</p>\r\n<p><b>Monsoon (July to September):</b> Rainfall makes the landscape lush and beautiful. Some adventure activities may be restricted due to safety concerns. There's a risk of landslides, but hotel rates are lower. Good time for budget travelers who don't mind occasional rain.</p>\r\n<p><b>Autumn (October to November):\u003c/b> Excellent weather with clear skies and comfortable temperatures. The fall colors are stunning. It's a great time for photography and outdoor activities. Tourist crowds are fewer compared to summer.</p>\r\n<p><b>Winter (December to February):</b> Perfect for snow lovers. Temperatures can drop below freezing. Ideal for winter sports like skiing and snowboarding. The snow-covered landscape is breathtaking. Some roads, including to Rohtang Pass, may be closed due to heavy snowfall.</p>\r\n<p>Other related packages: <a href=\"https://go4explore.com/trips/honeymoon-special-shimla-to-manali\" style=\"color:blue;\">Honeymoon Special- Shimla to Manali</a>, <a href=\"https://go4explore.com/trips/honeymoon-special-himachal-pardesh\" style=\"color:blue;\">Honeymoon Special- Himachal Pardesh</a>, <a href=\"https://go4explore.com/trips/honeymoon-special-chandigarh-shimla-manali\" style=\"color:blue;\">Honeymoon Special- Chandigarh Shimla Manali</a>, <a href=\"https://go4explore.com/trips/kasol-manali-jibhi-honeymoon-trip\" style=\"color:blue;\">Kasol Manali Jibhi Honeymoon Trip</a></p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Departure from Delhi in the evening.</li><li>Overnight Journey to Manali in AC semi-sleeper luxury bus.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Manali Arrival | Local Exploration & Cafe Hopping",
+        "description": "<ul>\r\n    <li>Check in to the hotel in Manali.</li>\r\n    <li>Freshenup & take rest.</li>\r\n    <li>Visit the Hadimba Temple, Manu temple, Club house by walk.</li>\r\n    <li>Visit mall road at evening time and chill up in cafes of Manali.</li>\r\n    <li>Dinner & Overnight stay in hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive to Solang Valley",
+        "description": "<ul>\r\n    <li>Take breakfast.</li>\r\n    <li>Drive to Solang Valley.</li>\r\n    <li>Explore the Solang valley and do adventure or snow activities (By own).</li>\r\n    <li>Drive back to our hotel at evening time.</li>\r\n    <li>Dinner & Overnight stay in hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive to Sissu via Atal Tunnel & Sissu Waterfall",
+        "description": "<ul>\r\n    <li>Wake up early and take breakfast.</li>\r\n    <li>Drive towards Sissu, cross the Atal Tunnel (the longest tunnel above 10,000 feet in the world ) and witness the mesmerising view of Lahaul Valley.</li>\r\n    <li>Hike to Sissu Waterfall.</li>\r\n    <li>Drive back to our hotel at evening time.</li>\r\n    <li>Dinner & Overnight stay in hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 5,
+        "title": "Naggar Village & Roerich Art Gallery",
+        "description": "<ul>\r\n    <li>Take breakfast.</li>\r\n    <li>Drive to Naggar village.</li>\r\n    <li>Visit the Roerich Art Gallery.</li>\r\n    <li>Visit the Naggar Castle.</li>\r\n    <li>Drive back to our hotel at evening time.</li>\r\n    <li>Dinner & Overnight stay in hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 6,
+        "title": "Kasol & Manikaran Gurudwara",
+        "description": "<ul>\r\n    <li>Take breakfast</li>\r\n    <li>Drive to Kasol.</li>\r\n    <li>Check in to your hotel in Kasol.</li>\r\n    <li>Visit the Chalal river bridge, Kasol Nature Park in Kasol.</li>\r\n    <li>Dinner & Overnight stay in hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 7,
+        "title": "Manikaran Sahib & Return to Delhi",
+        "description": "<ul>\r\n    <li>Take Breakfast</li>\r\n    <li>Visit Gurudwara Manikaran Sahib</li>\r\n    <li>Drive to Kullu, visit the kullu market.</li>\r\n    <li>Overnight journey to Delhi by Volvo bus and reach Delhi next morning.</li>\r\n</ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Luxury bus",
+      "Local transportation by sedar cab.",
+      "4 Nights stay in a 4-Star hotel in Manali.",
+      "1 Nights stay in a 3-Star hotel in Kasol.",
+      "Meals: Dinner (5), Breakfast (5).",
+      "Driver allowances, toll taxes, parking, state taxes"
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'honeymoon-special-chandigarh-shimla-manali',
-    title: 'Honeymoon Special- Chandigarh Shimla Manali',
-    destination: 'Himachal',
-    duration: '5 Days 4 Nights',
-    price: '₹20000',
-    imageUrl: '/cloned_media/18890920240907115537.png',
-    overview: 'A quick 5-day honeymoon trip starting from Chandigarh, covering the two most popular hill stations: Shimla and Manali.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Private Car', 'Hotel Stay', 'Breakfast & Dinner'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "honeymoon-special-chandigarh-shimla-manali",
+    "title": "Honeymoon Special- Chandigarh Shimla Manali",
+    "destination": "Himachal",
+    "duration": "5 Days 4 Nights",
+    "price": "₹20000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/18890920240907115537.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23518420240226124048.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6853120240226124048.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/800420240226124049.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/42394720240226124049.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31404520240226124049.png"
+    ],
+    "overview": "<p>\"Escape to the Enchanting Himalayas: Shimla &amp; Manali Honeymoon Getaway\" Indulge in the ultimate romantic retreat as you embark on a breathtaking journey through the picturesque landscapes of Shimla and Manali. Your honeymoon adventure begins with the serene beauty of Shimla, followed by the charming allure of Manali.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Chandigarh to Shimla | Shimla Local Explorations",
+        "description": "<ul><li>Assemble at boarding point in Chandigarh and start your journey to Shimla.</li><li>After arriving in Shimla, check-in to our cozy hotel, freshen up and have some leisure.</li><li>Get ready and head out for Shimla’s local explorations.</li><li>We’ll visit the famous Jakhu Temple (on the top of Jakhu Hill) and Indian Institute of Advanced Studies (The grand architectural beauty).</li><li>In the evening, visit the iconic Shimla Ridge and feel free to take a stroll around Lakkar Bazar, enjoy shopping while enjoying the scenery of the mountains, valleys and colonial buildings; and visit the famous Christ Church.</li><li></li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Day Excursion to Kufri | Manali Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Shimla to Manali.</li><li>Enroute Manali, we will take a halt at Kufri. Experience fun filled adventure activities in Kufri such as skiing, zip-lining, rock climbing, horse riding and rappelling (on your own). Enjoy the stunning vistas of Himalayan peaks as seen from this quaint hill retreat near Shimla. Further, stop in Kullu where you can indulge in adventure activities like paragliding and river rafting (on your own).</li><li>After arriving in Manali, check-in to our comfy hotel, freshen up and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive to Sissu via Atal Tunnel & Solang Valley",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, drive from Manali to Lahaul Valley via the newly opened Atal Tunnel. Witness a sudden transformation in the landscape once you cross from Kullu to Lahaul region. Visit Sissu village and Sissu Lake (if weather permits).</li><li>While returning back to Manali, take a stop at Solang Valley and indulge in various adventure activities over there.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Manali Local Explorations & Cafe Hopping",
+        "description": "<ul><li>Wake early in the morning and post breakfast, get ready for Manali's local explorations.</li><li>Head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Manikaran Hot Springs | Depart for Chandigarh",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Manali to Manikaran.</li><li>Visit the famous holy hot water springs at Manikaran Sahib Gurudwara &amp; Shiva Temple.</li><li>Soak in the hippie vibes of Kasol, go for cafe hopping and treat your stomach with mouth-watering local dishes (if time permits)</li><li>Start-off your return journey to Chandigarh with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Chandigarh to Chandigarh: AC Semi-Sleeper Volvo Bus or Cab at all other times.",
+      "4 Nights Accommodation on Sharing Basis: 1Night in Hotel (Shimla) & 3 Nights in Hotel (Manali).",
+      "8 Meals: Shimla (Breakfast+Dinner) & Manali (3 Breakfasts+3 Dinners), starting from Dinner on Day 1 to Breakfast on Day 5.",
+      "Bonfire (if weather permits) & music only on any 1 Night during the stay (Manali) and local explorations as per itinerary.",
+      "Complimentary Candle Night Dinner & Room Decoration.",
+      "Experienced & All Local Assistance.<br>",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Ropeway charges, Skiing or other snow activities you do there Any entry fees, extra expenses for optional activities , room heaters or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control. GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'manali-jibhi-honeymoon-trip',
-    title: 'Manali Jibhi Honeymoon Trip',
-    destination: 'Himachal',
-    duration: '4 Days 3 Nights',
-    price: '₹28000',
-    imageUrl: '/cloned_media/37597320200416073327.png',
-    overview: 'A romantic trip combining the popular Manali with the serene and offbeat Tirthan Valley (Jibhi).',
-    itinerary: createItinerary('4 Days 3 Nights'),
-    inclusions: ['Private Car', 'Hotel/Cottage Stay', 'Breakfast & Dinner'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "manali-jibhi-honeymoon-trip",
+    "title": "Manali Jibhi Honeymoon Trip",
+    "destination": "Himachal",
+    "duration": "4 Days 3 Nights",
+    "price": "₹28000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/37597320200416073327.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24176220200416073327.png"
+    ],
+    "overview": "<p>﻿Manali Jibhi Honeymoon Trip</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi to Aut | Overnight Journey",
+        "description": "<ul><li>Assemble at pickup point - RK Ashram Metro Station or Majnu ka Tila bus stop.</li><li>Overnight journey to Aut (Near Manali).</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Jibhi Arrival | Jibhi Waterfall & Bonfire",
+        "description": "<ul>\r\n    <li>Drive to Jibhi by car.</li>\r\n    <li>Visit the famous Jibhi waterfall.</li>\r\n    <li>Check in to the Wooden Tree House.</li>\r\n    <li>Bonfire along with evening snacks.</li>\r\n    <li>Dinner &amp; overnight stay.</li>\r\n</ul>"
+      },
+      {
+        "day": 3,
+        "title": "Jalori Pass Hike | Drive to Naggar/Manali",
+        "description": "<ul>\r\n    <li>Take breakfast</li>\r\n    <li>Drive to Jalori Pass</li>\r\n    <li>Hike to Jalori Pass 360 Degree view point.</li>\r\n    <li>Drive to Naggar near Manali.</li>\r\n    <li>Check in to our 3 star cottages.</li>\r\n    <li>Dinner and overnight stay.</li>\r\n</ul>"
+      },
+      {
+        "day": 4,
+        "title": "Manali Local Sightseeing & Naggar",
+        "description": "<ul><li>Wake up and enjoy the awesome sunrise view of Pir Panjal Range.</li><li>Post breakfast, Drive to Manali for sightseeing.</li><li>Visit the famous Hadimba Temple, Mall Road, Old Manali.</li><li>Drive back to the hotel.</li><li>Visit Naggar Castle and Rorick art gallery.</li><li>Dinner and Overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Solang Valley & Departure to Delhi",
+        "description": "<ul>\r\n    <li>Take breakfast</li>\r\n    <li>Drive to Solang Valley</li>\r\n    <li>Experience the adventure activities there.</li>\r\n    <li>Overnight journey to Delhi by Volvo Bus</li>\r\n</ul>"
+      },
+      {
+        "day": 6,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi around 8 am in the morning (Tentative).</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: Volvo Bus and Taxi for local transport.",
+      "Accommodation - Tree House in Jibhi & Cottages in Manali.",
+      "Local assistance.",
+      "Decoration & cake at tree house.",
+      "Bonfire (if weather permits)",
+      "Meals: Lunch (1), Dinner (3), Breakfast (3).",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'kasol-manali-jibhi-honeymoon-trip',
-    title: 'Kasol Manali JIbhi Honeymoon Trip',
-    destination: 'Himachal',
-    duration: '5 Days 4 Nights',
-    price: '₹29999',
-    imageUrl: '/cloned_media/35355220200411161835.png',
-    overview: 'A honeymoon trip for nature lovers, covering the Parvati Valley (Kasol), Manali, and Tirthan Valley (Jibhi).',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Private Car', 'Hotel/Cottage Stay', 'Breakfast & Dinner'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "kasol-manali-jibhi-honeymoon-trip",
+    "title": "Kasol Manali JIbhi Honeymoon Trip",
+    "destination": "Himachal",
+    "duration": "5 Days 4 Nights",
+    "price": "₹29999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/35355220200411161835.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7689320200411161835.png"
+    ],
+    "overview": "<h2>About Kasol Manali Jibhi Honeymoon Trip</h2><p>Get ready to lose yourselves amidst the breathtaking beauty of Himachal Pradesh with our enchanting Kasol Manali Jibhi Honeymoon Tour Package. Just imagine waking up with your loved one by your side while misty mountain landscapes unfurl outside your window the beginning of a truly unforgettable romantic adventure across India's most enchanting landscapes. This perfectly designed tour package puts together the hippie vibes of Kasol, the adventure-swept slopes of Manali, and the hidden gem that Jibhi is to try and create unforgettable memories for you and your partner.</p><p>It is a blend of relaxation and adventure that ranges from languid walks along the Parvati River to flying high in paragliding, from warm bonfires done at night under starry skies to visiting the ancient temples. Relish a taste of the local Himachali cuisine and retire into warm homestays just before completely losing yourselves in the magic of these mountains. Be it an adrenaline recharge through a variety of adventure sports or just tranquil moments of bonding, our Kasol Manali Jibhi tour makes sure you soak in just that.</p><p>Let us worry about the details while you think of the important things like how to enjoy each moment with your loved one in this little piece of heaven on earth. Book Our Kasol Manali Jibhi Honeymoon Trip Package now and set the stage for a lifetime of love and adventure!</p><h3>Best Places to Visit in Kasol Manali Jibhi Trip</h3><p><b>Parvati Valley:</b> Set high in the lap of the Himalayas, Parvati Valley is a paradise for nature and adventure lovers. It has beautiful landscapes, gurgling rivers, and vibrant, adventurous treks, all in one package, to blend into a heady cocktail of natural beauty and spiritual quiet.</p><r\n<p><b>Manikaran Sahib Gurudwara:</b> This revered Sikh shrine is famous for hot springs and spiritual atmosphere. Pilgrimage and tourists visit here to take bath in the healing waters, enjoy langar, and know this uniqueness of rice cooked by natural hot waters.</p>\r\n<p><b>Chalal Village:</b> Chalal, just a small trek away from Kasol, is a serene village with spectacular scenery of the Parvati River and the mountains around. The perfect place for any peace lover, it is rural and slow with a sense of tranquility.</p>\r\n<p><b>Tosh Village:</b> Nestled at the end of the Parvati Valley, Tosh is a small village that provides the tourist with a bird's eye view besides catching the traditional Himachali architectural sights. It assumes a kind of gateway to many treks and is pervasively embedded with local culture.</p>\r\n<p><b>Kheerganga Trek:</b> The trek goes to a high-altitude meadow with hot springs and has wonderful views of the Parvati Valley, dense forests, and waterfalls culminating in an invigorating bath in the natural hot water pool.</p>\r\n<p><b>Serolsar Lake:</b> It is one of those pristine alpine lakes which is nestled within a lush green forest in the Seraj Valley. It also attracts nature lovers and gives bewildering views and a serene atmosphere to perform meditation or have a quiet moment of thought.</p>\r\n<p><b>Jalori Pass:</b> From here, at 3,120 meters, the prefect panoramic view of the Himalayas is vestured. It's a popular spot for trekking and camping, bringing in adventure and nature goals through trails to Serolsar Lake and Raghupur Fort.</p>\r\n<p><b>Raghupur Fort:</b> This ancient fort on the hill offers fantastic views of valleys and mountains alongside. The trek to the fort is of medium challenge but gives a historical feel with breathtaking panoramas.</p>\r\n<p><b>Chehni Kothi:</b> This centuries-old tower standing tall in Jibhi is an epitome of Himachali architecture. The 45m tall structure is one of the tallest free-standing structures in this region and requires great skill, thus providing insight into local history and the Skill building technique.</p>\r\n<p><b>Shringa Rishi Temple:</b> This is a very ancient wooden temple dedicated to Shringa Rishi. The essence of this temple includes intricately done carvings that are spiritually significant in their nature. It showcases rich cultural heritage and, hence, is highly recommended for history buffs.</p>\r\n<p><b>Hadimba Devi Temple:</b> This is an ancient wooden temple in the Manali city dedicated to Hidimba Devi. The architecture of the temple is distinct, with a tranquil ambiance that surrounds it. It seems to be surrounded by cedar forests and offers a mix of spiritual or natural beauty.</p>\r\n<p><b>Solang Valley:</b> This valley is the finest point in sports adventures like paragliding, zorbing, and skiing in winters. The snow-capped peaks make the place more enchanting with its stunning views turning it into a heaven on earth and give this place a touch of being visited all round the year for adventure seekers and natural lovers.</p>\r\n<p><b>Rohtang Pass:</b> This high mountain pass is surrounded by beautiful vistas of Glaciers, Peaks, and Valleys. It's a popular hub for snow activities and also serves as the gateway to Lahaul and Spiti valleys lending the flavor of inhospitable Himalayan inhospitability.</p>\r\n<p><b>Old Manali:</b> This area steals the show from New Manali since it consists of traditional houses, quaint cafes, and an atmosphere typical of the old world. It is popular among backpackers and those who want to feel the pulse of local life a bit more.</p>\r\n<p><b>Manu Temple:</b> The temple holds great religious significance as it is dedicated to the sage Manu. From here, one can get a panoramic view of Beas Valley, the surrounding mountains, and it joins in spiritual with natural beauty in a serene setting.</p>\r\n<p><b>Vashisht Hot Springs:&nbsp;</b>These natural hot springs are said to be colon soups. The area of Vashisht village is an epitome of local culture, with its traditional architecture and ancient temples standing side by side with the medicinal value that these springs possess.</p>\r\n<p><b>Naggar Castle:</b> This medieval castle now turned heritage hotel commands a fabulous view of the Kullu Valley. Once the seat of Kullu kings; now it houses a museum and art gallery dedicated to the rich history and culture of the region.</p>\r\n<p><b>Jogini Waterfall:</b> A small climb from Vashisht takes one to this beautiful waterfall. Surrounded by dense forests, it makes for a loneliness retreat with the promise of refreshing splashes and rejuvenation with an acquaintance of nature.</p>\r\n<p><b>Gulaba:</b> On the way to Rohtang Pass, Gulaba is famous for its snow-based and adventure sports land. It is much less crowded than Rohtang but offers the same vistas and winter sports opportunities.</p>\r\n<p><b>The Mall Road:</b> Mall Road, lined with shops, restaurants, and hotels, marks the exuberant heart of Manali. It's a great place to catch the pulse of local life, do some souvenir shopping, and get struck by the tacit enthusiasm of this hill station.</p>\r\n<h3>Things to do in Kasol Manali Jibhi Honeymoon Trip</h3>\r\n<p>Go trekking or hiking in the surrounding mountains. Varied routes on tough and not-so-tough terrain will test both of you while giving you great views of the Himalayas. End it with a mountaintop romantic lunch.</p>\r\n<p>Take a ride on the Parvati or Beas rivers for the most pleasurable experience in white-water river rafting. Work together through bumpy rapids, raising your adrenalin level to bond closer, and have sets of memories. Professional guides ensure your safety throughout this exhilirating activity.</p>\r\n<p>Feel serenity within, and join yoga and meditation sessions in very tranquil settings. Most of the local retreats offer classes for couples to connect with your loved one even on a deeper level. Peaceful mountain atmosphere—Perfect setting to just relax, reflect and rejuvenate.</p>\r\n<p>Take part in a Himachali cooking class and really be submerged into the local culture. Learn how to prepare traditional dishes with fresh, locally-sourced ingredients. Interactive and hands-on, it's not only about learning something new but bonding over some great food and making good memories.</p>\r\n<p>Try your luck at fishing in clean mountain streams. It's an activity that affords quality time together in nature, whether experienced anglers or total novices. Local guides can provide the gear and how-tos for catching native trout species.</p>\r\n<p>Treat your bodies and heads to indulgent couples' spa treatments. Many resorts offer special honeymooner packages for massages, aromatherapy, and holistic treatments that hail from ancient Himalayan healing techniques. Relax and be, in perfect harmony.</p>\r\n<p>Get undisturbed serene landscape views in your cameras. Be it professional cameras or smartphones, they work together to frame the most perfect shots of mountains, valleys, and quaint villages. Take a photographic diary to cherish these moments all your life during your honeymoon.</p>\r\n<p>Stargaze at the heavens. The clarity of mountain air, lack of pollution, will showcase such a tremendous array of stars and constellations. Bring along a blanket, mug o' cocoa, and get all snuggly warm to view such vastness in the universe.</p>\r\n<p>Visit the local markets for some unique handicrafts and souvenirs. Colorful shawls, intrinsically designed wood carvings there are going to be loads of things that you would want to bring back home to remember the trip by. Haggling is a joyful, shared experience in markets and should be tried out for its negotiations.</p>\r\n<p>If possible, try attending some of the local festivals or cultural events that might take place during your visit. Such events would evoke the rich traditions of this region with resplendent costumed parades, usually accompanied by folk music and dance, and very palatable food prepared in the local traditions.</p>\r\n<h3>How to Reach Kasol Manali?</h3>\r\n<p><b>By Air:</b> The nearest airport is Bhuntar Airport (KUU) in Kullu, about 31 km from Manali. Flights connect it to Delhi and Chandigarh. From the airport, you can hire a taxi or take a bus to reach your destinations. For more options, consider flying to Chandigarh Airport.</p>\r\n<p><b>By Road:</b> Driving from Delhi takes about 12-14 hours via NH44 and NH3. You can rent a car or take a bus from Delhi's ISBT. Many private operators offer overnight bus services. The journey is scenic but long, with winding mountain roads in the latter part.</p>\r\n<p><b>By Train:</b> The nearest major railway station is Joginder Nagar, about 166 km from Manali. However, it's more common to take a train to Chandigarh or Ambala and then continue by road. From these stations, you can find buses or hire taxis to reach your destination.</p>\r\n<h3>Best Time to Visit Kasol Manali</h3>\r\n<p><b>Spring (March to May):</b> Pleasant temperatures and blooming flowers make this an ideal time for outdoor activities. The weather is comfortable for trekking and sightseeing. However, some high-altitude areas might still have snow. This season offers a good balance of weather and fewer crowds.</p>\r\n<p><b>Summer (June to August):</b> This is peak tourist season due to comfortable temperatures. It's perfect for outdoor activities and escaping the heat of the plains. However, it can get crowded, and prices are often higher. Occasional rainfall might occur, especially in July and August.</p>\r\n<p><b>Autumn (September to November):</b> Another excellent time to visit, with clear skies and pleasant weather. The landscape turns golden with fall colors. It's ideal for photography and outdoor activities. Crowds thin out after the summer rush, offering a more peaceful experience.</p>\r\n<p><b>Winter (December to February):</b> For snow lovers, this is the best time. The region transforms into a winter wonderland. Skiing and other snow sports are popular in Manali. However, extreme cold and heavy snowfall can limit accessibility to some areas, particularly higher altitudes.</p>\r\n\r\n<p>Other related packages: <a href=\"https://go4explore.com/trips/honeymoon-special-shimla-to-manali\" style=\"color:blue;\">Honeymoon Special- Shimla to Manali</a>, <a href=\"https://go4explore.com/trips/honeymoon-special-himachal-pardesh\" style=\"color:blue;\">Honeymoon Special- Himachal Pardesh</a>, <a href=\"https://go4explore.com/trips/honeymoon-special-chandigarh-shimla-manali\" style=\"color:blue;\">Honeymoon Special- Chandigarh Shimla Manali</a></p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi to Aut | Overnight Journey",
+        "description": "<ul><li>Assemble at pickup point - RK Ashram Metro Station or Majnu ka Tila bus stop.</li><li>Overnight journey to Aut (Near Manali).</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Jibhi Arrival | Jibhi Waterfall & Bonfire",
+        "description": "<ul>\r\n    <li>Drive to Jibhi by car.</li>\r\n    <li>Visit the famous Jibhi waterfall.</li>\r\n    <li>Check in to the Wooden Tree House.</li>\r\n    <li>Bonfire along with evening snacks.</li>\r\n    <li>Dinner &amp; overnight stay.</li>\r\n</ul>"
+      },
+      {
+        "day": 3,
+        "title": "Jalori Pass Hike | Drive to Naggar/Manali",
+        "description": "<ul>\r\n    <li>Take breakfast</li>\r\n    <li>Drive to Jalori Pass</li>\r\n    <li>Hike to Jalori Pass 360 Degree view point.</li>\r\n    <li>Drive to Naggar near Manali.</li>\r\n    <li>Check in to our 3 star cottages.</li>\r\n    <li>Dinner and overnight stay.</li>\r\n</ul>"
+      },
+      {
+        "day": 4,
+        "title": "Manali Local Sightseeing & Naggar",
+        "description": "<ul>\r\n    <li>Wake up and enjoy the awesome sunrise view of Pir Panjal Range.</li>\r\n    <li>Post breakfast, Drive to Manali for sightseeing.</li>\r\n    <li>Visit the famous Hadimba Temple, Mall Road, Old Manali.</li>\r\n    <li>Drive back to the hotel.</li>\r\n    <li>Visit Naggar Castle and Rorick art gallery.</li>\r\n    <li>Dinner and Overnight stay.</li>\r\n</ul>"
+      },
+      {
+        "day": 5,
+        "title": "Solang Valley & Departure to Kasol",
+        "description": "<ul>\r\n    <li>Take breakfast</li>\r\n    <li>Drive to Solang Valley</li>\r\n    <li>Experience the adventure activities there.</li>\r\n    <li>3 hours Drive to Kasol.</li>\r\n    <li>Check in to the hotel.</li>\r\n    <li>Visit Kasol local market, Chalal river bridge.</li>\r\n    <li>Dinner and Overnight stay.</li>\r\n</ul>"
+      },
+      {
+        "day": 6,
+        "title": "Manikaran Sahib & Return to Delhi",
+        "description": "<ul>\r\n    <li>Take Breakfast</li>\r\n    <li>Visit Gurudwara Manikaran Sahib</li>\r\n    <li>Drive to Kullu, visit the kullu market.</li>\r\n    <li>Overnight journey to Delhi by Volvo bus and reach Delhi next morning.</li>\r\n</ul>"
+      },
+      {
+        "day": 7,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi around 8 am in the morning (Tentative).</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: Volvo Bus and Taxi for local transport.",
+      "Accommodation - Tree House in Jibhi, hotel in Kasol & Cottages in Manali.",
+      "Local assistance.",
+      "Decoration & cake at tree house.",
+      "Bonfire (if weather permits)",
+      "Meals: Lunch (1), Dinner (4), Breakfast (4).",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'honeymoon-special-himachal-pardesh',
-    title: 'Honeymoon Special- Himachal Pardesh',
-    destination: 'Himachal',
-    duration: '9 Days 8 Nights',
-    price: '₹60000',
-    originalPrice: '₹65000',
-    discount: '₹5,000',
-    imageUrl: '/cloned_media/37327320240213125520.png',
-    overview: 'The grand Himachal honeymoon. A 9-day trip covering Shimla, Manali, and Dharamshala/Dalhousie.',
-    itinerary: createItinerary('9 Days 8 Nights'),
-    inclusions: ['Private Car', 'Hotel Stay', 'Breakfast & Dinner', 'Honeymoon Inclusions'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "honeymoon-special-himachal-pardesh",
+    "title": "Honeymoon Special- Himachal Pardesh",
+    "destination": "Himachal",
+    "duration": "9 Days 8 Nights",
+    "price": "₹60000",
+    "originalPrice": "₹65000",
+    "discount": "₹5,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/37327320240213125520.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4911120240213125519.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17823620240213125520.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5135120240213125520.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39406320240213125520.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11413120240213125520.png"
+    ],
+    "overview": "<p>\"Escape to the Enchanting Himalayas: Shimla &amp; Manali Honeymoon Getaway\"</p>\r\n<p>Indulge in the ultimate romantic retreat as you embark on a breathtaking journey through the picturesque landscapes of Shimla and Manali. Your honeymoon adventure begins with the serene beauty of Shimla, followed by the charming allure of Manali.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Chandigarh to Shimla",
+        "description": "<ul>\r\n    <li>Pickup from Chandigarh airport/ railway station.</li>\r\n    <li>Depart for Shimla and take a pit stop for Lunch.</li>\r\n    <li>After arriving in Shimla, Check into the cozy hotel, freshen-up and have some leisure.</li>\r\n    <li>Visit the famous Jakhu Temple (on the top of Jakhu Hill).</li>\r\n    <li>In the evening, visit the Shimla ridge and feel free to take a stroll around The Mall Road and visit the famous Christ Church.</li>\r\n    <li>Savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+      },
+      {
+        "day": 2,
+        "title": "Kufri Hills | Drive to Manali | Sundernagar lake & Pandoh Dam.",
+        "description": "<ul>\r\n\u003cli\u003eWake up to the relaxed morning and post breakfast, drive to Kufri Hills situated at 8923 feet.\u003c/li\u003e\r\n\u003cli\u003eVisit Kufri Fun Campus (you can enjoy various rides &amp; activities at their own cost)\u003c/li\u003e\r\n\u003cli\u003eBegin your drive towards Manali.\u003c/li\u003e\r\n\u003cli\u003eTake a pit stop at Sundernagar lake and Pandoh Dam.\u003c/li\u003e\r\n\u003cli\u003eAfter arriving in Manali, Check into the hotel, freshen-up and have some leisure.\u003c/li\u003e\r\n\u003cli\u003eSavour home-style cooked dinner and overnight stay in hotel.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      },
+      {
+        "day": 3,
+        "title": "Manali Exploration",
+        "description": "<ul>\r\n    \u003cli\u003eWake up to a peaceful mountain morning, post breakfast, head out for Manali Exploration.\u003c/li\u003e\r\n    \u003cli\u003eVisit The Hidimba Devi Temple, Manu Temple, Vashisht, Jogini Falls or go for cafe hopping in Old Manali and try different local cuisines.\u003c/li\u003e\r\n    \u003cli\u003eIn the evening, visit the famous Mall Road of Manali.\u003c/li\u003e\r\n    \u003cli\u003eEnjoy the home-style cooked dinner and overnight stay in a hotel.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      },
+      {
+        "day": 4,
+        "title": "Atal Tunnel & Solang Valley | Sissu Waterfall",
+        "description": "<ul>\r\n\u003cli\u003eWake up to a peaceful mountain morning and post breakfast drive to Lahaul Valley via Atal Tunnel (the longest tunnel in the world above 10,000 ft).\u003c/li\u003e\r\n\u003cli\u003eVisit the Sissu Waterfall and Sissu village in Lahaul Valley.\u003c/li\u003e\r\n\u003cli\u003ePost lunch, gather for an #InstaPerfect group picture, drive to solang valley and do adventure or snow activities (By your own).\u003c/li\u003e\r\n\u003cli\u003eDrive back to Manali town.\u003c/li\u003e\r\n\u003cli\u003eEnjoy the home-style cooked dinner and overnight stay in a hotel.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      },
+      {
+        "day": 5,
+        "title": "Drive to Dharamshala | Visit Gurudwara Manikaran Sahib",
+        "description": "<ul>\r\n    \u003cli\u003eWake up to a peaceful mountain morning, post breakfast, begin your drive to Kasol.\u003c/li\u003e\r\n    \u003cli\u003eVisit the Kasol Nature Park &amp; Gurudwara Manikaran Sahib.\u003c/li\u003e\r\n    \u003cli\u003eDrive futher to Dharamshala.\u003c/li\u003e\r\n    \u003cli\u003ePit stop near Mandi for Lunch.\u003c/li\u003e\r\n    \u003cli\u003eAfter arriving in Dharamshala/Mcleodganj, Check into the hotel, freshen-up and have some leisure.\u003c/li\u003e\r\n    \u003cli\u003eEnjoy the home-style cooked dinner and overnight stay in a hotel.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      },
+      {
+        "day": 6,
+        "title": "Dharamshala Exploration | Drive to Dalhousie",
+        "description": "<ul>\r\n    \u003cli\u003eWake up to the relaxed morning and post breakfast, drive towards Dalhousie.\u003c/li\u003e\r\n    \u003cli\u003eVisit the Tea Gardens of Dharamshala.\u003c/li\u003e\r\n    \u003cli\u003eVisit the famous Dharamshala Cricket Stadium on the way.\u003c/li\u003e\r\n    \u003cli\u003eAfter arriving in Dalhousie, Check into the cozy hotel, freshen-up and have some leisure.\u003c/li\u003e\r\n    \u003cli\u003eSavour home-style cooked dinner and overnight stay in a hotel.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      },
+      {
+        "day": 7,
+        "title": "Dalhousie Exploration | Drive to Amritsar",
+        "description": "<ul>\r\n    \u003cli\u003eWake up to a peaceful mountain morning, post breakfast, visit the Khajjiar which is also known as \"Mini Switzerland of India\"\u003c/li\u003e\r\n    \u003cli\u003eYou can do activities at Khajjiar ground (by your own).\u003c/li\u003e\r\n    \u003cli\u003eBegin your drive towards Amritsar.\u003c/li\u003e\r\n    \u003cli\u003eAfter arriving in Amritsar, Check in to our hotel, freshen-up and have some leisure.\u003c/li\u003e\r\n    \u003cli\u003eSavour home-style cooked dinner and overnight stay in hotel.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      },
+      {
+        "day": 8,
+        "title": "Amritsar Exploration | Wagah Border",
+        "description": "<ul>\r\n    \u003cli\u003eWake up to the relaxed morning and post breakfast, Visit the Golden Temple and Jalliyan Wala Bagh.\u003c/li\u003e\r\n    \u003cli\u003eHave lunch at local market of Amritsar.\u003c/li\u003e\r\n    \u003cli\u003eDrive to Wagah Border, attend the evening prader.\u003c/li\u003e\r\n    \u003cli\u003eReturn back to Amritsar.\u003c/li\r\n    \u003cli\u003eSavour home-style cooked dinner and overnight stay in Hotel.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      },
+      {
+        "day": 9,
+        "title": "Drive to Chandigarh | Trip Ends",
+        "description": "<ul>\r\n    \u003cli\u003eWake up to the relaxed morning and post breakfast, start your drive towards Chandigarh\u003c/li\u003e\r\n    \u003cli\u003eDrop at airport/railway station.\u003c/li\u003e\r\n    \u003cli\u003eTrip ends with lots of amazing memories and unforgettable experiences.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Chandigarh to Chandigarh : Private Cab.",
+      "8 Nights Accommodation in a Hotel on sharing basis",
+      "Meals: Dinner (8), Breakfast (8).",
+      "Bonfire with music 1 night in Manali.",
+      "Room Decoration with cake.",
+      "All kinds of local assistance.",
+      "Driver allowances.",
+      "Toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'shimla-manali-5-days-4-nights',
-    title: 'Shimla Manali 5 Days 4 Nights',
-    destination: 'Himachal',
-    duration: '6 Days 5 Nights', // Mismatch in title and duration, using duration from file
-    price: '₹20300',
-    imageUrl: '/cloned_media/25247020230513174156.png',
-    overview: 'A classic 6-day family tour covering the state capital Shimla and the tourist hub Manali.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Private Car', 'Hotel Stay', 'Breakfast & Dinner', 'Sightseeing'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "shimla-manali-5-days-4-nights",
+    "title": "Shimla Manali 5 Days 4 Nights",
+    "destination": "Himachal",
+    "duration": "6 Days 5 Nights",
+    "price": "₹20300",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25247020230513174156.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20445420230513174156.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35028920230513174156.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28530820230513174156.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36358820230513174156.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21803020230513174156.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5330920230513174156.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14174220230513174156.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27487020230513174156.png"
+    ],
+    "overview": "<h2>About Shimla Manali Tour Package 5 Days 4 Nights</h2><p>Witness the ravishing beauty of Shimla Manali with our 5 Days 4 Nights Tour Package, covering India's essence on Himalayan retreats. Be greeted by Shimla, locked in a carry-on bag, a town nestled on a ridge between two rivers, the summer capital of British India, amidst lush green hills infused with its panoramic views and colonial ambiance. Take a joy ride on the toy train, walk along the Mall Road, and climb up to Jakhoo Temple for darling views of snow-capped peaks.</p>\r\n<p>This journey then takes one to Manali, a beautiful paradise in the Beas River Valley. It is nature at its best, with thick pinewood forests, gurgling rivulets, and majestic mountains. Ancient Hadimba Temple, Vashisht Hot Springs, and an adrenaline rush from adventure sports like river rafting or paragliding come as a package deal in this city.</p>\r\n<p>Refreshed, soak in the local culture, relish the regional cuisines of Himachal, and breathe in a lot of that mountain air. From comfortable accommodations to guided excursions, every part has been explicitly combined to give guests an ideal blend of relaxation and exploration.</p>\r\n<p>This <a href=\"/trip/shimla-manali-tour-packages\" style=\"color:blue;\">Shimla Manali Tour Package</a> offers a taste of the Himalayas' diverse landscapes, rich history, and warm hospitality, promising an unforgettable journey that will rejuvenate your spirit and leave you with lasting memories of mountain magic.</p>\r\n\r\n<h3>Best Places to Visit in Shimla Manali 5 Days Tour</h3>\r\n<ul>\r\n<li><strong>Mall Road:</strong> The real heart of Shimla, Mall Road, is a very lively promenade with colonial-era buildings, shops, and cafes lining it. Take a stroll up this pedestrian-friendly street to get the feel of this lovely town. It is worth shopping for local handicrafts and enjoying views of the mountains. Visiting the historic Gaiety Theatre and Christ Church will also be time well spent.</li>\r\n<li><strong>Jakhoo Temple:</strong> Situated right on top of Jakhoo Hill, this ancient Hanuman temple offers brilliant vistas of Shimla and the range of the Himalayas. The 108-foot-high statue of Hanuman dominates the tall, imposing scene of sight. The steep climb or ropeway ride to the temple itself forms an adventure.</li>\r\n<li><strong>Kufri:</strong> One of the most beautiful hill stations, only 13 km from Shimla, Kufri is known for its picturesque beauty and sports activities in winter. It allows one to take a horse ride through apple orchards, indulge in skiing during winters, or simply visit the Himalayan Nature Park to glimpse native wildlife in their natural habitat.</li>\r\n<li><strong>Solang Valley:</strong> This is a haven for adventure seekers. Solang Valley promises action throughout the year: it is perfect for skiing in winters and paragliding, zorbing, and trekking galore in summers. Visiting this place is a must owing to its scintillating vistas, even for those not fond of adventure.</li>\r\n<li><strong>Rohtang Pass:</strong> This seasonal mountain pass is a gateway to several fine views of glaciers and peaks facing the Lahaul Valley. It is also the site of tons of snow activities, in addition to photography. The journey to Rohtang, with winding roads and dramatic landscapes, is a memorable journey.</li>\r\n<li><strong>Vashisht Hot Springs:</strong> These natural hot springs with medicinal properties are simply a great resting and rejuvenation point. Some ancient stone temples of Lord Rama and Vashisht Rishi, not too far from this place, have cultural significance in this serene spot.</li>\r\n<li><strong>Old Manali:</strong> It is a somber village that offers quite a lot of contrast to the busy New Manali. With its laid-back and bohemian vibe, Old Manali is best walked through in its narrow lanes lined with cafes, boutique shops, and guesthouses. The place is known for its lively backpacker scene, and this view oversees the Beas River.</li>\r\n<li><strong>The Ridge:</strong> This is a vast open space in the heart of Shimla, offering scenic vistas of mountains around and forming a hub of activities, mainly during festivals. The Christ church by Neo-Gothic architecture and the library building by Tudor type on flanks of the Ridge make it a beautiful spot not only for photography but also for leisure walks.</li>\r\n<li><strong>Naggar Castle:</strong> This fairytale-like castle is located in the picturesque village of <a href=\"https://en.wikipedia.org/wiki/Naggar,_Himachal_Pradesh\" style=\"color:blue;\" target=\"_blank\" rel=\"noopener noreferrer\">Naggar,</a> dating back to the 15th century with Himachali and European architectural influences. Today's castle-turned-heritage hotel accommodates a small museum and picture gallery. From the grounds, one will get fantastic views over the Kullu Valley with the Beas River.</li>\r\n<li><strong>Great Himalayan National Park:</strong> Although a bit of a detour from Manali, this UNESCO World Heritage site is worth the trip for nature enthusiasts. Home to diverse flora and fauna, including many endangered species, the park offers trekking routes through pristine forests and alpine meadows.</li>\r\n<li><strong>Hidimba Devi Temple:</strong> Not to be confused with Hadimba Temple, this is an ancient cave temple dedicated to Hidimba, the wife of Bhima from Mahabharata. Surrounded by tall deodars, the unique architecture and tranquil surroundings of this temple have made it a 'must visit' on the spiritual trail.</li>\r\n<li><strong>Manali Sanctuary:</strong> Situated just behind Manali town, this wildlife sanctuary is truly a nature lover's haven. Many Himalayan wildlife inhabits it, such as musk deer and snow leopards, offering scenic hiking trails through dense forests of oak, deodar, and walnut trees.</li>\r\n</ul>\r\n<h3>Things to do in 5 Days Shimla Manali Tour</h3>\r\n<p><strong>1. Experience the ride of the Kalka-Shimla Toy Train:</strong> Experiences on the UNESCO World Heritage narrow-gauge railway are simply captivating. Wind through picture-postcard mountain landscapes, tunnels, and bridges, with breathtaking Himalayan vistas unfolding in this historic journey that presents scenic splendor at each turn.</p>\r\n<p><strong>2. Explore Mall Road in Shimla:</strong> Stroll down the central throbbing heart of Shimla, replete with buildings and shops dating back to the colonial era. Hop into local handicrafts, sample street food varieties, and imbibe the charged atmosphere of this famous promenade.</p>\r\n<p><strong>3. Go skiing or snowboarding in Kufri:</strong> Plasma for winters, take a short trip to Kufri for exciting snow sports. Observe skiing and snowboarding amidst breathtaking Himalayan scenery that is often suitable for both beginner-like as well as experienced enthusiasts.</p>\r\n<p><strong>4. Take a nature walk in Manali:</strong> Go for a walk amidst the green surroundings of Manali. One may often walk among thick forests alongside the crystal clear, flowing streams and spot local flora and fauna in the serene Manali Sanctuary.</p>\r\n<p><strong>5. Try adventure sports in Solang Valley:</strong> Get that adrenaline rush in Solang Valley and enjoy paragliding for aerial views, have a unique thrill of zorbing, or plan fun rafting.</p>\r\n<p><strong>6. Relax in Vashisht Hot Springs:</strong> Relax in the natural hot springs of Vashisht. A mineral-rich bath is an awe-inspiring option for rejuvenation after a day of sightseeing.</p>\r\n<p><strong>7. Visit ancient temples:</strong> Grandma temples are a rich power of the cultural heritage of the area. Visit the old Hadimba Temple in Manali and some historic religious places around Shimla and Manali.</p>\r\n<p><strong>8. Go for trekking:</strong> Wander through some surrounding mountains on short day hikes or take day-long climbs. Witness raw beauty up close with breathtaking views from snow-capped peaks in these Himalayas.</p>\r\n<p><strong>9. Experience local culture:</strong> Experience Himachali culture by being a part of colorful local festivals, savoring traditional food and communicating with locals rightly.</p>\r\n<p><strong>10. Ride on the cable car:</strong> Take the Jakhu Ropeway in Shimla to enjoy a thrilling aerial journey. Get panoramic views of the town and surrounding mountains from a unique vantage point.</p>\r\n<p><strong>11. Shop for woolens:</strong> Buy quality woolen products, one of the specialties of this region. This Downtown area comprises various shops that are famous for fashionably designed shawls warm sweaters, and other woolen garments.</p>\r\n<p><strong>12. Cafe Hopping in Manali:</strong> Experience the coffee culture of Manali, visit some of the trendier spots that play host to many cuisines, from local Himachali to international. Get to a level of coziness with mountain views and smelly coffees with fellow travelers.</p>\r\n<p><strong>13. Shopping in Old Manali:</strong> Wander up the quaint alleys of Old Manali, and you'll find innumerable shops at every turn, whether a boutique or a local shop. Handmade jewelry, Tibetan artifacts, colored garments, hippie-chic styles, find it all here. Look out for bazaar specials and bohemian souvenirs.</p>\r\n<p><strong>14. Visit apple orchards:</strong> Visit some of the famous apple orchards around Shimla. Know a bit about apple growing, relax in the peaceful atmosphere of the orchard, and have fresh, juicy apples.</p>\r\n<p><strong>15. Star gaze in the mountains:</strong> Use clear mountain nights to star-gaze. Away from city lights, see the beauty of innumerable stars or lone constellations that light up the Himalayan sky.</p>\r\n\r\n<h3>How to Reach Shimla Manali</h3>\r\n<p><strong>By Air:</strong> You can fly to Bhuntar Airport for Manali or Shimla Airport. From any of the above places, you can reach the other destination through road transport. You can also fly to Chandigarh and proceed by road to both locations.</p>\r\n<p><strong>By Train:</strong> Take a train to Kalka and then the toy train or cab to Shimla. For Manali, continue by bus or taxi from Shimla. Another option is to take a train to Chandigarh and then take road transport.</p>\r\n<p><strong>By Bus:</strong> Delhi is connected with Shimla and Manali through regular bus services. One can take a bus ride to either Shimla and then to Manali or vice versa. Luxury and regular coupled buses are available from major cities.</p>\r\n<p><strong>By Car:</strong> Drive from Delhi or Chandigarh to Shimla and then on to Manali. The drive is picturesque throughout, so one can overtake as desired. Or take a taxi for the entire journey.</p>\r\n\r\n<h3>Best Time to Visit Shimla Manali</h3>\r\n<p><strong>Summer (May to June):</strong> Peak tourist season with pleasant weather; excellent for all sorts of outdoor activities, trekking, and getting away from the heat on the plains. However, be prepared for crowds and higher prices.</p>\r\n<p><strong>Monsoon (July to September):</strong> Landscapes are emerald green and adorned with flowing waterfalls, beautiful scenery. Fewer tourists, but be prepared for rain and potential landslides. Some outdoor activities may be limited.</p>\r\n<p><strong>Autumn (October to November):</strong> Clear views of surrounding mountains, comfortable temperatures allow for sightseeing and outdoor activities, and fall colors add to the beauty.</p>\r\n<p><strong>Winter (December to February):</strong> Snow lovers, it's perfect. Shimla and Manali turn into winter wonderlands. It's the time for ideal snow sports, but some roads are blocked due to heavy snowfall.</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Shimla | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Shimla and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Shimla Arrival | Shimla Local Explorations",
+        "description": "<ul><li>After arriving in Shimla, check-in to our cozy hotel, freshen up and have some leisure.</li><li>Get ready and head out for Shimla’s local explorations.</li><li>We’ll visit the famous Jakhu Temple (on the top of Jakhu Hill) and Indian Institute of Advanced Studies (The grand architectural beauty).</li><li>In the evening, visit the iconic Shimla Ridge and feel free to take a stroll around Lakkar Bazar, enjoy shopping while enjoying the scenery of the mountains, valleys and colonial buildings; and visit the famous Christ Church.</li><li>Savour delightful dinner and overnight stay in a hotel in Shimla.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Day Excursion to Kufri | Shimla #MeTime",
+        "description": "<ul><li>Wake up to a relaxed mountain morning and post breakfast, drive to Kufri from Shimla.</li><li>After arriving in Kufri, experience fun filled adventure activities in Kufri such as skiing, zip-lining, rock climbing, horse riding and rappelling (on your own). Enjoy the stunning vistas of Himalayan peaks as seen from this quaint hill retreat near Shimla.</li><li>In the evening, drive back to Shimla and enjoy your #MeTime.</li><li>Savour delightful dinner and overnight stay in a hotel in Shimla.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Shimla to Manali | Sundernagar Lake | Manali Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Shimla to Manali.</li><li>Enroute Manali, we’ll take a pit stop at Sundernagar Lake and further in Kullu where you can indulge in adventure activities like paragliding and river rafting (on your own).</li><li>After arriving in Manali, check-in to our comfy hotel, freshen up and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive to Sissu via Atal Tunnel & Solang Valley",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, drive from Manali to Lahaul Valley via the newly opened Atal Tunnel. Witness a sudden transformation in the landscape once you cross from Kullu to Lahaul region. Visit Sissu village and Sissu Lake (if weather permits).</li><li>While returning back to Manali, take a stop at Solang Valley and indulge in various adventure activities over there.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Manali Local Explorations | Depart for Delhi",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, check out from the property and get ready for Manali’s local explorations.</li><li>Head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>In the evening, start-off your overnight journey to Delhi.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+      "4 Nights Accommodation on Sharing Basis: 2 Nights in Hotel (Shimla) & 2 Nights in Hotel (Manali).",
+      "8 Meals: Shimla (2 Breakfasts+2 Dinners) & Manali (2 Breakfasts+2 Dinners), starting from Dinner on Day 1 to Breakfast on Day 5.",
+      "Bonfire (if weather permits) & music only on any 1 Night during the stay (Manali) and local explorations as per itinerary.",
+      "Experienced & All Local Assistance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'shimla-manali-mcleod-dalhousie-amritsar',
-    title: 'Shimla Manali McLeod Dalhousie Amritsar',
-    destination: 'Himachal',
-    duration: '10 Days 9 Nights',
-    price: '₹35500',
-    imageUrl: '/cloned_media/21686720240907085543.png',
-    overview: 'A complete tour of Himachal, starting from Shimla, Manali, McLeod Ganj, Dalhousie, and ending with a visit to the Golden Temple in Amritsar.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Private Car', 'Hotel Stay', 'Breakfast & Dinner', 'Sightseeing'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "shimla-manali-mcleod-dalhousie-amritsar",
+    "title": "Shimla Manali McLeod Dalhousie Amritsar",
+    "destination": "Himachal",
+    "duration": "10 Days 9 Nights",
+    "price": "₹35500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/21686720240907085543.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35748320240211121427.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14020520240211121428.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16183120240211121428.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31392220240211121428.png"
+    ],
+    "overview": "<p>Himachal has always been a paradise for backpackers who are in love with the mountains and nature’s exceptional beauty. From refreshing lakes and waterfalls to snow-capped and lush green meadows, interesting folktales and traditions, Himachal Pradesh has it all to mesmerize the travelers who visit this Himalayan state.</p>\r\n<p>Himachal Pradesh is the epitome of a backpacker's dream. With its beguiling landscape, rich cultural heritage and immense natural beauty, it is a destination that will leave you spellbound. A Trip to Mcleodganj, Bir, Jibhi, Kasol, and Manali is an experience of a lifetime. It is a chance for you to explore the stunning panorama and immerse yourself in the local culture. Pack your bags, grab your backpack and let the journey begin. Happy exploring!</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Shimla | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Shimla and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Shimla Arrival | Shimla Local Explorations",
+        "description": "<ul><li>After arriving in Shimla, check-in to our cozy hotel, freshen up and have some leisure.</li><li>Get ready and head out for Shimla’s local explorations.</li><li>We’ll visit the famous Jakhu Temple (on the top of Jakhu Hill) and Indian Institute of Advanced Studies (The grand architectural beauty).</li><li>In the evening, visit the iconic Shimla Ridge and feel free to take a stroll around Lakkar Bazar, enjoy shopping while enjoying the scenery of the mountains, valleys and colonial buildings; and visit the famous Christ Church.</li><li>Savour delightful dinner and overnight stay in a hotel in Shimla.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Day Excursion to Kufri | Kasol Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Shimla to Kufri.</li><li>After arriving in Kufri, experience fun filled adventure activities in Kufri such as skiing, zip-lining, rock climbing, horse riding and rappelling (on your own). Enjoy the stunning vistas of Himalayan peaks as seen from this quaint hill retreat near Shimla.</li><li>After arriving in Kasol, check-in to our comfy hotel &amp; freshen-up.</li><li>Soak in the hippie vibes of Kasol, go for cafe hopping and treat your stomach with mouth-watering local dishes.</li><li>Savour delightful dinner and overnight stay in a hotel in Kasol.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Manikaran Hot Springs | Manali Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Kasol to Manikaran.</li><li>Visit the famous holy hot water springs at Manikaran Sahib Gurudwara &amp; Shiva Temple.</li><li>After arriving in Manali, head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Check-in to our comfy hotel and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Manali Local Explorations & Cafe Hopping",
+        "description": "<ul><li>Wake early in the morning and post breakfast, get ready for Manali's local explorations.</li><li>Head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive to Sissu via Atal Tunnel & Solang Valley",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, drive from Manali to Lahaul Valley via the newly opened Atal Tunnel. Witness a sudden transformation in the landscape once you cross from Kullu to Lahaul region. Visit Sissu village and Sissu Lake (if weather permits).</li><li>While returning back to Manali, take a stop at Solang Valley and indulge in various adventure activities over there.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Vashisht & Jogini Waterfall | Jibhi Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and say goodbye to our lovely host.</li><li>Drive towards Vashisht village and visit the famous holy hot water springs at Vashisht Temple.</li><li>Follow the trail and hike from Vashisht village to Jogini Waterfall. This small trail passes through rustic village homes and towering deodar forest. Relax in the surreal beauty of Jogini Waterfall and capture some #InstaPerfect shots.</li><li>Post explorations, drive from Manali to Jibhi.</li><li>After arriving in Jibhi/Banjar, check-in to the hotel/homestay, freshen-up and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel/homestay in Jibhi/Banjar.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Jibhi Waterfall & Mini Thailand | Dharamshala Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from the property and get ready head out for Jibhi local explorations.</li><li>We will visit the beautiful Jibhi waterfall and soak in the soothing surroundings of the place. Visit another major attraction called Mini Thailand in Jibhi.</li><li>Post explorations, drive from Jibhi to Dharamshala.</li><li>After arriving in Dharamshala/Mcleodganj, check-in to the hotel, freshen-up and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Dharamshala/Mcleodganj.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Dharamshala Local Explorations | Amritsar Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and head out for Dharamshala's local explorations.</li><li>Visit the sprawling Tea Gardens of Dharamshala, vibrant Buddhist Monasteries and the popular HPCA stadium.</li><li>Post explorations, drive from Dharamshala to Amritsar.</li><li>After arriving in Amritsar, get ready to witness the ceremonial display of patriotism in the retreat ceremony at Attari &amp; Wagah Borders, where soldiers from India and Pakistan perform a daily flag-lowering ritual.</li><li>Check-in to the hotel, freshen-up and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Amritsar.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Amritsar Local Explorations | Depart for Delhi",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and head out for Amristar's local explorations.</li><li>Visit the popular Golden Temple and seek blessings at Shri Harminder Sahib Gurudwara and holy sarovar. Further head out to explore other major attrcations of Amristar like&nbsp;Jallianwala Bagh, taste the local food in the streets like Amritsar Kulcha and enjoy shopping.</li><li>In the evening, start-off your overnight journey to Delhi.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times including Manali to Amritsar.",
+      "8 Nights Accommodation on Sharing Basis: 1 Night in Hotel (Shimla), 1 Night in Hotel/Camps (Kasol), 3 Nights in Hotel (Manali), 1 Night in Hotel/Homestay (Jibhi), 1 Night in Hotel (Mcleodganj/Dharamshala) & 1 Night in Hotel (Amritsar).",
+      "16 Meals: Shimla (Breakfast+Dinner), Kasol (Breakfast+Dinner), Manali (3 Breakfasts+3 Dinners), Jibhi (Breakfast+Dinner), Mcleodganj/Dharamshala (Breakfast+Dinner) & Amritsar (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 8.",
+      "Bonfire (if weather permits) & music only on any 1 Night during the stay (Manali) and local explorations as per itinerary.",
+      "Experienced & All Local Assistance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'shimla-manali-kasol-5-days-4-nights',
-    title: 'Shimla Manali Kasol 5 Days 4 Nights',
-    destination: 'Himachal',
-    duration: '5 Days 4 Nights', // Mismatch in title and duration, using duration from file
-    price: '₹20200',
-    imageUrl: '/cloned_media/2194520240905112914.png',
-    overview: 'A 5-day family trip covering Shimla, Manali, and a day visit to Kasol in the Parvati Valley.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Private Car', 'Hotel Stay', 'Breakfast & Dinner', 'Sightseeing'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "shimla-manali-kasol-5-days-4-nights",
+    "title": "Shimla Manali Kasol 5 Days 4 Nights",
+    "destination": "Himachal",
+    "duration": "5 Days 4 Nights",
+    "price": "₹20200",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/2194520240905112914.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38314820220128084343.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13146720220128084343.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39014220220128084343.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33504220220128084343.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41158320220128084343.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39819220220128084343.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7666420220128084343.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20679820220128084343.png"
+    ],
+    "overview": "<h2>About Shimla Manali Tour Package 5 Days 4 Nights</h2><p>Witness the ravishing beauty of Shimla Manali with our 5 Days 4 Nights Tour Package, covering India's essence on Himalayan retreats. Be greeted by Shimla, locked in a carry-on bag, a town nestled on a ridge between two rivers, the summer capital of British India, amidst lush green hills infused with its panoramic views and colonial ambiance. Take a joy ride on the toy train, walk along the Mall Road, and climb up to Jakhoo Temple for darling views of snow-capped peaks.</p><p>This journey then takes one to Manali, a beautiful paradise in the Beas River Valley. It is nature at its best, with thick pinewood forests, gurgling rivulets, and majestic mountains. Ancient Hadimba Temple, Vashisht Hot Springs, and an adrenaline rush from adventure sports like river rafting or paragliding come as a package deal in this city.</p><p>Refreshed, soak in the local culture, relish the regional cuisines of Himachal, and breathe in a lot of that mountain air. From comfortable accommodations to guided excursions, every part has been explicitly combined to give guests an ideal blend of relaxation and exploration.</p><p>This <a href=\"/trip/shimla-manali-tour-packages\" style=\"color:blue;\">Shimla Manali Tour Package</a> offers a taste of the Himalayas' diverse landscapes, rich history, and warm hospitality, promising an unforgettable journey that will rejuvenate your spirit and leave you with lasting memories of mountain magic.</p>\r\n\r\n<h3>Best Places to Visit in Shimla Manali 5 Days Tour</h3>\r\n<ul>\r\n<li><strong>Mall Road:</strong> The real heart of Shimla, Mall Road, is a very lively promenade with colonial-era buildings, shops, and cafes lining it. Take a stroll up this pedestrian-friendly street to get the feel of this lovely town. It is worth shopping for local handicrafts and enjoying views of the mountains. Visiting the historic Gaiety Theatre and Christ Church will also be time well spent.</li>\r\n<li><strong>Jakhoo Temple:</strong> Situated right on top of Jakhoo Hill, this ancient Hanuman temple offers brilliant vistas of Shimla and the range of the Himalayas. The 108-foot-high statue of Hanuman dominates the tall, imposing scene of sight. The steep climb or ropeway ride to the temple itself forms an adventure.</li>\r\n<li><strong>Kufri:</strong> One of the most beautiful hill stations, only 13 km from Shimla, Kufri is known for its picturesque beauty and sports activities in winter. It allows one to take a horse ride through apple orchards, indulge in skiing during winters, or simply visit the Himalayan Nature Park to glimpse native wildlife in their natural habitat.</li>\r\n<li><strong>Solang Valley:</strong> This is a haven for adventure seekers. Solang Valley promises action throughout the year: it is perfect for skiing in winters and paragliding, zorbing, and trekking galore in summers. Visiting this place is a must owing to its scintillating vistas, even for those not fond of adventure.</li>\r\n<li><strong>Rohtang Pass:</strong> This seasonal mountain pass is a gateway to several fine views of glaciers and peaks facing the Lahaul Valley. It is also the site of tons of snow activities, in addition to photography. The journey to Rohtang, with winding roads and dramatic landscapes, is a memorable journey.</li>\r\n<li><strong>Vashisht Hot Springs:</strong> These natural hot springs with medicinal properties are simply a great resting and rejuvenation point. Some ancient stone temples of Lord Rama and Vashisht Rishi, not too far from this place, have cultural significance in this serene spot.</li>\r\n<li><strong>Old Manali:</strong> It is a somber village that offers quite a lot of contrast to the busy New Manali. With its laid-back and bohemian vibe, Old Manali is best walked through in its narrow lanes lined with cafes, boutique shops, and guesthouses. The place is known for its lively backpacker scene, and this view oversees the Beas River.</li>\r\n<li><strong>The Ridge:</strong> This is a vast open space in the heart of Shimla, offering scenic vistas of mountains around and forming a hub of activities, mainly during festivals. The Christ church by Neo-Gothic architecture and the library building by Tudor type on flanks of the Ridge make it a beautiful spot not only for photography but also for leisure walks.</li>\r\n<li><strong>Naggar Castle:</strong> This fairytale-like castle is located in the picturesque village of <a href=\"https://en.wikipedia.org/wiki/Naggar,_Himachal_Pradesh\" style=\"color:blue;\" target=\"_blank\" rel=\"noopener noreferrer\">Naggar,</a> dating back to the 15th century with Himachali and European architectural influences. Today's castle-turned-heritage hotel accommodates a small museum and picture gallery. From the grounds, one will get fantastic views over the Kullu Valley with the Beas River.</li>\r\n<li><strong>Great Himalayan National Park:</strong> Although a bit of a detour from Manali, this UNESCO World Heritage site is worth the trip for nature enthusiasts. Home to diverse flora and fauna, including many endangered species, the park offers trekking routes through pristine forests and alpine meadows.</li>\r\n<li><strong>Hidimba Devi Temple:</strong> Not to be confused with Hadimba Temple, this is an ancient cave temple dedicated to Hidimba, the wife of Bhima from Mahabharata. Surrounded by tall deodars, the unique architecture and tranquil surroundings of this temple have made it a 'must visit' on the spiritual trail.</li>\r\n<li><strong>Manali Sanctuary:</strong> Situated just behind Manali town, this wildlife sanctuary is truly a nature lover's haven. Many Himalayan wildlife inhabits it, such as musk deer and snow leopards, offering scenic hiking trails through dense forests of oak, deodar, and walnut trees.</li>\r\n</ul>\r\n<h3>Things to do in 5 Days Shimla Manali Tour</h3>\r\n<p><strong>1. Experience the ride of the Kalka-Shimla Toy Train:</strong> Experiences on the UNESCO World Heritage narrow-gauge railway are simply captivating. Wind through picture-postcard mountain landscapes, tunnels, and bridges, with breathtaking Himalayan vistas unfolding in this historic journey that presents scenic splendor at each turn.</p>\r\n<p><strong>2. Explore Mall Road in Shimla:</strong> Stroll down the central throbbing heart of Shimla, replete with buildings and shops dating back to the colonial era. Hop into local handicrafts, sample street food varieties, and imbibe the charged atmosphere of this famous promenade.</p>\r\n<p><strong>3. Go skiing or snowboarding in Kufri:</strong> Plasma for winters, take a short trip to Kufri for exciting snow sports. Observe skiing and snowboarding amidst breathtaking Himalayan scenery that is often suitable for both beginner-like as well as experienced enthusiasts.</p>\r\n<p><strong>4. Take a nature walk in Manali:</strong> Go for a walk amidst the green surroundings of Manali. One may often walk among thick forests alongside the crystal clear, flowing streams and spot local flora and fauna in the serene Manali Sanctuary.</p>\r\n<p><strong>5. Try adventure sports in Solang Valley:</strong> Get that adrenaline rush in Solang Valley and enjoy paragliding for aerial views, have a unique thrill of zorbing, or plan fun rafting.</p>\r\n<p><strong>6. Relax in Vashisht Hot Springs:</strong> Relax in the natural hot springs of Vashisht. A mineral-rich bath is an awe-inspiring option for rejuvenation after a day of sightseeing.</p>\r\n<p><strong>7. Visit ancient temples:</strong> Grandma temples are a rich power of the cultural heritage of the area. Visit the old Hadimba Temple in Manali and some historic religious places around Shimla and Manali.</p>\r\n<p><strong>8. Go for trekking:</strong> Wander through some surrounding mountains on short day hikes or take day-long climbs. Witness raw beauty up close with breathtaking views from snow-capped peaks in these Himalayas.</p>\r\n<p><strong>9. Experience local culture:</strong> Experience Himachali culture by being a part of colorful local festivals, savoring traditional food and communicating with locals rightly.</p>\r\n<p><strong>10. Ride on the cable car:</strong> Take the Jakhu Ropeway in Shimla to enjoy a thrilling aerial journey. Get panoramic views of the town and surrounding mountains from a unique vantage point.</p>\r\n<p><strong>11. Shop for woolens:</strong> Buy quality woolen products, one of the specialties of this region. This Downtown area comprises various shops that are famous for fashionably designed shawls warm sweaters, and other woolen garments.</p>\r\n<p><strong>12. Cafe Hopping in Manali:</strong> Experience the coffee culture of Manali, visit some of the trendier spots that play host to many cuisines, from local Himachali to international. Get to a level of coziness with mountain views and smelly coffees with fellow travelers.</p>\r\n<p><strong>13. Shopping in Old Manali:</strong> Wander up the quaint alleys of Old Manali, and you'll find innumerable shops at every turn, whether a boutique or a local shop. Handmade jewelry, Tibetan artifacts, colored garments, hippie-chic styles, find it all here. Look out for bazaar specials and bohemian souvenirs.</p>\r\n<p><strong>14. Visit apple orchards:</strong> Visit some of the famous apple orchards around Shimla. Know a bit about apple growing, relax in the peaceful atmosphere of the orchard, and have fresh, juicy apples.</p>\r\n<p><strong>15. Star gaze in the mountains:</strong> Use clear mountain nights to star-gaze. Away from city lights, see the beauty of innumerable stars or lone constellations that light up the Himalayan sky.</p>\r\n\r\n<h3>How to Reach Shimla Manali</h3>\r\n<p><strong>By Air:</strong> You can fly to Bhuntar Airport for Manali or Shimla Airport. From any of the above places, you can reach the other destination through road transport. You can also fly to Chandigarh and proceed by road to both locations.</p>\r\n<p><strong>By Train:</strong> Take a train to Kalka and then the toy train or cab to Shimla. For Manali, continue by bus or taxi from Shimla. Another option is to take a train to Chandigarh and then take road transport.</p>\r\n<p><strong>By Bus:</strong> Delhi is connected with Shimla and Manali through regular bus services. One can take a bus ride to either Shimla and then to Manali or vice versa. Luxury and regular coupled buses are available from major cities.</p>\r\n<p><strong>By Car:</strong> Drive from Delhi or Chandigarh to Shimla and then on to Manali. The drive is picturesque throughout, so one can overtake as desired. Or take a taxi for the entire journey.</p>\r\n\r\n<h3>Best Time to Visit Shimla Manali</h3>\r\n<p><strong>Summer (May to June):</strong> Peak tourist season with pleasant weather; excellent for all sorts of outdoor activities, trekking, and getting away from the heat on the plains. However, be prepared for crowds and higher prices.</p>\r\n<p><strong>Monsoon (July to September):</strong> Landscapes are emerald green and adorned with flowing waterfalls, beautiful scenery. Fewer tourists, but be prepared for rain and potential landslides. Some outdoor activities may be limited.</p>\r\n<p><strong>Autumn (October to November):</strong> Clear views of surrounding mountains, comfortable temperatures allow for sightseeing and outdoor activities, and fall colors add to the beauty.</p>\r\n<p><strong>Winter (December to February):</strong> Snow lovers, it's perfect. Shimla and Manali turn into winter wonderlands. It's the time for ideal snow sports, but some roads are blocked due to heavy snowfall.</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Shimla | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Shimla and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Shimla Arrival | Shimla Local Explorations",
+        "description": "<ul><li>After arriving in Shimla, check-in to our cozy hotel, freshen up and have some leisure.</li><li>Get ready and head out for Shimla’s local explorations.</li><li>We’ll visit the famous Jakhu Temple (on the top of Jakhu Hill) and Indian Institute of Advanced Studies (The grand architectural beauty).</li><li>In the evening, visit the iconic Shimla Ridge and feel free to take a stroll around Lakkar Bazar, enjoy shopping while enjoying the scenery of the mountains, valleys and colonial buildings; and visit the famous Christ Church.</li><li>Savour delightful dinner and overnight stay in a hotel in Shimla.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Day Excursion to Kufri | Kasol Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Shimla to Kufri.</li><li>After arriving in Kufri, experience fun filled adventure activities in Kufri such as skiing, zip-lining, rock climbing, horse riding and rappelling (on your own). Enjoy the stunning vistas of Himalayan peaks as seen from this quaint hill retreat near Shimla.</li><li>After arriving in Kasol, check-in to our comfy hotel &amp; freshen-up.</li><li>Soak in the hippie vibes of Kasol, go for cafe hopping and treat your stomach with mouth-watering local dishes.</li><li>Savour delightful dinner and overnight stay in a hotel in Kasol.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Manikaran Hot Springs | Manali Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Kasol to Manikaran.</li><li>Visit the famous holy hot water springs at Manikaran Sahib Gurudwara &amp; Shiva Temple.</li><li>After arriving in Manali, head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Check-in to our comfy hotel and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Sissu via Atal Tunnel & Solang Valley | Depart for Delhi",
+        "description": "<ul><li>Wake up early and post breakfast, check out from the hotel and say goodbye to our lovely host. drive from Manali to Lahaul Valley via the newly opened Atal Tunnel. Witness a sudden transformation in the landscape once you cross from Kullu to Lahaul region. Visit Sissu village and Sissu Lake (if weather permits).</li><li>While returning back to Manali, take a stop at Solang Valley and indulge in various adventure activities over there.</li><li>In the evening, start-off your overnight journey to Delhi.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+      "4 Nights Accommodation on Sharing Basis: 1 Night in Hotel (Shimla), 1 Night in Hotel/Camps (Kasol) & 2 Nights in Hotel (Manali).",
+      "8 Meals: Shimla (2 Breakfasts+2 Dinners), Kasol (Breakfast+Dinner) & Manali (2 Breakfasts+2 Dinners), starting from Dinner on Day 1 to Breakfast on Day 5.",
+      "Bonfire (if weather permits) & music only on any 1 Night during the stay (Manali) and local explorations as per itinerary.",
+      "Experienced & All Local Assistance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'shimla-manali-dharamshala',
-    title: 'Shimla Manali Dharamshala',
-    destination: 'Himachal',
-    duration: '8 Days 7 Nights',
-    price: '₹27200',
-    imageUrl: '/cloned_media/37660920240906114644.png',
-    overview: 'An 8-day family tour covering the three main pillars of Himachal tourism: Shimla, Manali, and Dharamshala.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Private Car', 'Hotel Stay', 'Breakfast & Dinner', 'Sightseeing'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "shimla-manali-dharamshala",
+    "title": "Shimla Manali Dharamshala",
+    "destination": "Himachal",
+    "duration": "8 Days 7 Nights",
+    "price": "₹27200",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/37660920240906114644.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24330220240211125736.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21493920240211125737.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1375320240211125737.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6049720240211125737.png"
+    ],
+    "overview": "<p>Himachal Pradesh is the epitome of a backpacker's dream. With its beguiling landscape, rich cultural heritage and immense natural beauty, it is a destination that will leave you spellbound. A Trip to Shimla, Kasol, Manali and Mcleodganj is an experience of a lifetime. It is a chance for you to explore the stunning panorama and immerse yourself in the local culture. Pack your bags, grab your backpack and let the journey begin. Happy exploring!</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Shimla | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Shimla and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Shimla Arrival | Shimla Local Explorations",
+        "description": "<ul><li>After arriving in Shimla, check-in to our cozy hotel, freshen up and have some leisure.</li><li>Get ready and head out for Shimla’s local explorations.</li><li>We’ll visit the famous Jakhu Temple (on the top of Jakhu Hill) and Indian Institute of Advanced Studies (The grand architectural beauty).</li><li>In the evening, visit the iconic Shimla Ridge and feel free to take a stroll around Lakkar Bazar, enjoy shopping while enjoying the scenery of the mountains, valleys and colonial buildings; and visit the famous Christ Church.</li><li>Savour delightful dinner and overnight stay in a hotel in Shimla.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Day Excursion to Kufri | Kasol Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Shimla to Kufri.</li><li>After arriving in Kufri, experience fun filled adventure activities in Kufri such as skiing, zip-lining, rock climbing, horse riding and rappelling (on your own). Enjoy the stunning vistas of Himalayan peaks as seen from this quaint hill retreat near Shimla.</li><li>After arriving in Kasol, check-in to our comfy hotel &amp; freshen-up.</li><li>Soak in the hippie vibes of Kasol, go for cafe hopping and treat your stomach with mouth-watering local dishes.</li><li>Savour delightful dinner and overnight stay in a hotel in Kasol.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Manikaran Hot Springs | Manali Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Kasol to Manikaran.</li><li>Visit the famous holy hot water springs at Manikaran Sahib Gurudwara &amp; Shiva Temple.</li><li>After arriving in Manali, head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Check-in to our comfy hotel and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Manali Local Explorations & Cafe Hopping",
+        "description": "<ul><li>Wake early in the morning and post breakfast, get ready for Manali's local explorations.</li><li>Head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive to Sissu via Atal Tunnel & Solang Valley",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, drive from Manali to Lahaul Valley via the newly opened Atal Tunnel. Witness a sudden transformation in the landscape once you cross from Kullu to Lahaul region. Visit Sissu village and Sissu Lake (if weather permits).</li><li>While returning back to Manali, take a stop at Solang Valley and indulge in various adventure activities over there.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Vashisht & Jogini Waterfall | Dharamshala Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and say goodbye to our lovely host.</li><li>Drive towards Vashisht village and visit the famous holy hot water springs at Vashisht Temple.</li><li>Follow the trail and hike from Vashisht village to Jogini Waterfall. This small trail passes through rustic village homes and towering deodar forest. Relax in the surreal beauty of Jogini Waterfall and capture some #InstaPerfect shots.</li><li>Post explorations, drive from Manali to Dharamshala.</li><li>After arriving in Dharamshala/Mcleodganj, check-in to the hotel, freshen-up and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Dharamshala/Mcleodganj.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Dharamshala Local Explorations | Depart for Delhi",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and head out for Dharamshala's local explorations.</li><li>Visit the sprawling Tea Gardens of Dharamshala, vibrant Buddhist Monasteries and the popular HPCA stadium.</li><li>In the evening, start-off your overnight journey to Delhi.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+      "6 Nights Accommodation on Sharing Basis: 1 Night in Hotel (Shimla), 1 Night in Hotel/Camps (Kasol), 3 Nights in Hotel (Manali) & 1 Night in Hotel (Mcleodganj/Dharamshala).",
+      "12 Meals: Shimla (Breakfast+Dinner), Kasol (Breakfast+Dinner), Manali (3 Breakfasts+3 Dinners) & Mcleodganj/Dharamshala (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 7.",
+      "Bonfire (if weather permits) & music only on any 1 Night during the stay (Manali) and local explorations as per itinerary.",
+      "Experienced & All Local Assistance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'shimla-manali-dalhousie-8-days-7-nights',
-    title: 'Shimla Manali Dalhousie 8 Days 7 Nights',
-    destination: 'Himachal',
-    duration: '9 Days 8 Nights', // Mismatch in title and duration, using duration from file
-    price: '₹31700',
-    imageUrl: '/cloned_media/28415120240906132008.png',
-    overview: 'A 9-day tour covering Shimla, Manali, and the colonial charm of Dalhousie and Khajjiar.',
-    itinerary: createItinerary('9 Days 8 Nights'),
-    inclusions: ['Private Car', 'Hotel Stay', 'Breakfast & Dinner', 'Sightseeing'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "shimla-manali-dalhousie-8-days-7-nights",
+    "title": "Shimla Manali Dalhousie 8 Days 7 Nights",
+    "destination": "Himachal",
+    "duration": "9 Days 8 Nights",
+    "price": "₹31700",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/28415120240906132008.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2124320240213062807.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33552820240213062807.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24200020240213062807.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3336420240213062808.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21599420240213062808.png"
+    ],
+    "overview": "<p>Himachal Pradesh is the epitome of a backpacker's dream. With its beguiling landscape, rich cultural heritage and immense natural beauty, it is a destination that will leave you spellbound. A Trip to Shimla, Kasol, Manali and Mcleodganj is an experience of a lifetime. It is a chance for you to explore the stunning panorama and immerse yourself in the local culture. Pack your bags, grab your backpack and let the journey begin. Happy exploring!</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Shimla | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Shimla and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Shimla Arrival | Shimla Local Explorations",
+        "description": "<ul><li>After arriving in Shimla, check-in to our cozy hotel, freshen up and have some leisure.</li><li>Get ready and head out for Shimla’s local explorations.</li><li>We’ll visit the famous Jakhu Temple (on the top of Jakhu Hill) and Indian Institute of Advanced Studies (The grand architectural beauty).</li><li>In the evening, visit the iconic Shimla Ridge and feel free to take a stroll around Lakkar Bazar, enjoy shopping while enjoying the scenery of the mountains, valleys and colonial buildings; and visit the famous Christ Church.</li><li>Savour delightful dinner and overnight stay in a hotel in Shimla.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Day Excursion to Kufri | Manali Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from the property and drive from Shimla to Kufri.</li><li>After arriving in Kufri, experience fun filled adventure activities in Kufri such as skiing, zip-lining, rock climbing, horse riding and rappelling (on your own). Enjoy the stunning vistas of Himalayan peaks as seen from this quaint hill retreat near Shimla.</li><li>After arriving in Kasol, check-in to our comfy hotel &amp; freshen-up.</li><li>Soak in the hippie vibes of Kasol, go for cafe hopping and treat your stomach with mouth-watering local dishes.</li><li>Savour delightful dinner and overnight stay in a hotel in Kasol.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Manikaran Hot Springs | Manali Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Kasol to Manikaran.</li><li>Visit the famous holy hot water springs at Manikaran Sahib Gurudwara &amp; Shiva Temple.</li><li>After arriving in Manali, head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Check-in to our comfy hotel and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Manali Local Explorations & Cafe Hopping",
+        "description": "<ul><li>Wake early in the morning and post breakfast, get ready for Manali's local explorations.</li><li>Head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive to Sissu via Atal Tunnel & Solang Valley",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, drive from Manali to Lahaul Valley via the newly opened Atal Tunnel. Witness a sudden transformation in the landscape once you cross from Kullu to Lahaul region. Visit Sissu village and Sissu Lake (if weather permits).</li><li>While returning back to Manali, take a stop at Solang Valley and indulge in various adventure activities over there.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Vashisht & Jogini Waterfall | Jibhi Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and say goodbye to our lovely host.</li><li>Drive towards Vashisht village and visit the famous holy hot water springs at Vashisht Temple.</li><li>Follow the trail and hike from Vashisht village to Jogini Waterfall. This small trail passes through rustic village homes and towering deodar forest. Relax in the surreal beauty of Jogini Waterfall and capture some #InstaPerfect shots.</li><li>Post explorations, drive from Manali to Jibhi.</li><li>After arriving in Jibhi/Banjar, check-in to the hotel/homestay, freshen-up and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel/homestay in Jibhi/Banjar.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Jibhi Waterfall & Mini Thailand | Dharamshala Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from the property and get ready head out for Jibhi local explorations.</li><li>We will visit the beautiful Jibhi waterfall and soak in the soothing surroundings of the place. Visit another major attraction called Mini Thailand in Jibhi.</li><li>Post explorations, drive from Jibhi to Dharamshala.</li><li>After arriving in Dharamshala/Mcleodganj, check-in to the hotel, freshen-up and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Dharamshala/Mcleodganj.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Dharamshala Local Explorations | Dalhousie Arrival",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and head out for Dharamshala's local explorations.</li><li>Visit the sprawling Tea Gardens of Dharamshala, vibrant Buddhist Monasteries and the popular HPCA stadium.</li><li>Post explorations, drive from Dharamshala to Dalhousie.</li><li>After arriving in Dalhousie, check-in to the hotel, freshen-up and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Dalhousie.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Dalhousie Local Explorations | Depart for Delhi",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and head out for Dalhousie's local explorations.</li><li>Visit the gorgeous&nbsp;Khajjiar, decorated with towering deodars, lake, lush meadows and enchanting Himalayan views. Get indulge in various adventure&nbsp;activities in Khajjiar (on your own).</li><li>In the evening, start-off your overnight journey to Delhi.<br></li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+      "7 Nights Accommodation on Sharing Basis: 1 Night in Hotel (Shimla), 3 Nights in Hotel (Manali), 1 Night in Hotel/Homestay (Jibhi), 1 Night in Hotel (Mcleodganj/Dharamshala) & 1 Night in Hotel (Dalhousie).",
+      "14 Meals: Shimla (Breakfast+Dinner), Manali (3 Breakfasts+3 Dinners), Jibhi (Breakfast+Dinner), Mcleodganj/Dharamshala (Breakfast+Dinner) & Dalhousie (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 8.",
+      "Bonfire (if weather permits) & music only on any 1 Night during the stay (Manali) and local explorations as per itinerary.",
+      "Experienced & All Local Assistance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'shimla-manali-4-days-3-nights',
-    title: 'Shimla Manali 4 Days 3 Nights',
-    destination: 'Himachal',
-    duration: '5 Days 4 Nights', // Mismatch in title and duration, using duration from file
-    price: '₹16800',
-    imageUrl: '/cloned_media/28710720240905123344.png',
-    overview: 'A 5-day family tour of Shimla and Manali, perfect for a short vacation.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Private Car', 'Hotel Stay', 'Breakfast & Dinner', 'Sightseeing'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "shimla-manali-4-days-3-nights",
+    "title": "Shimla Manali 4 Days 3 Nights",
+    "destination": "Himachal",
+    "duration": "5 Days 4 Nights",
+    "price": "₹16800",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/28710720240905123344.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21019620240213072919.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12892420240213072919.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30367320240213072919.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26548420240213072919.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33750020240213072919.png"
+    ],
+    "overview": "<h2>Shimla Manali Tour Package 3 Nights 4 Days</h2><p>Embark on a captivating journey through the picturesque Himalayan landscape with our meticulously crafted Shimla-Manali 4D3N tour package. This well-curated itinerary promises to immerse you in the serene beauty and rich cultural heritage of these two beloved hill stations.</p><p>Your adventure begins in the charming town of Shimla, the former summer capital of British India. Wander through the quaint streets lined with colonial-era architecture, and take a delightful ride on the iconic Toy Train, offering unparalleled views of the surrounding hills and valleys.</p><p>Next, you'll venture to the enchanting Manali, nestled amidst the majestic Himalayas. Explore the serene Solang Valley, where you can indulge in thrilling adventure activities like paragliding and zorbing. Immerse yourself in the local culture by savoring the authentic Himachali cuisine and browsing the vibrant handicraft markets.</p><p>Throughout your journey, you'll be surrounded by the breathtaking natural beauty of the region, from snow-capped peaks to lush green meadows. This Shimla-Manali tour package provides the perfect blend of sightseeing, adventure, and cultural immersion, ensuring an unforgettable Himalayan experience.</p><h3>Best Places to Visit in 4 Days Shimla Manali Tour</h3><p><strong>Jakhu Temple:</strong> Perched atop Jakhu Hill, the iconic Jakhu Temple is a must-visit destination in Shimla. Marvel at the temple's ornate architecture and enjoy panoramic views of the surrounding Himalayan landscape.</p><p><strong>Indian Institute of Advanced Studies:</strong> Explore the grand, colonial-era building of the Indian Institute of Advanced Studies, a true architectural gem in Shimla. Learn about the institution's rich history and admire the impressive interiors.</p><p><strong>Shimla Ridge and Mall Road:</strong> Stroll along the bustling Shimla Ridge and Mall Road, soaking in the vibrant atmosphere and charming colonial-era buildings. Don't miss visiting the historic Christ Church during your exploration of Shimla.</p><p><strong>Kufri Fun Campus:</strong> Head to the Kufri Fun Campus, nestled in the Kufri Hills, for a range of adventure activities, from thrilling rides to exciting snow sports. Embrace the adrenaline-fueled fun and scenic mountain vistas.</p><p><strong>Hadimba Devi Temple:</strong> Surrounded by towering deodar trees, the serene Hadimba Devi Temple in Manali is a testament to the region's rich cultural heritage. Immerse yourself in the temple's peaceful ambiance and architectural beauty.</p><p><strong>Manali Mall Road:</strong> Explore the bustling Manali Mall Road, where you can indulge in local street food, shop for souvenirs, and soak in the vibrant energy of this Himalayan town.</p><p><strong>Sissu Village and Lake:</strong> Journey to the charming <a href=\"/trips/manali-sissu\" style=\"color:blue;\">Sissu village</a> and witness the dramatic landscape transformation as you enter the Lahaul Valley. Admire the scenic Sissu Lake, if weather permits, before heading back to Delhi.</p><h3>Top Things to do in Shimla Manali Trip</h3><p><strong>Ride the Iconic Toy Train:</strong> Experience the thrill of a UNESCO-listed narrow-gauge train journey through the scenic Himalayan landscape on the charming Toy Train in Shimla.</p><p><strong>Immerse in Adventure Activities:</strong> Indulge in a range of exciting adventure sports like skiing, snowboarding, and sledding at the Kufri Fun Campus in Kufri.</p><p><strong>Savor Authentic Himachali Cuisine:</strong> Delight your taste buds with the rich, flavorful dishes of Himachali cuisine, including specialties like momos, thukpa, and the famous Kullu shawls.</p><p><strong>Capture Breathtaking Vistas:</strong> Bring your camera and be prepared to capture the stunning snow-capped peaks, lush green valleys, and dramatic landscape transformations throughout your Shimla-Manali journey.</p><p><strong>Explore Colonial Heritage:</strong> Step back in time and discover the well-preserved colonial-era architecture, churches, and cultural sites that reflect Shimla's fascinating history.</p><p><strong>Shop for Local Handicrafts:</strong> Immerse yourself in the vibrant local markets and shop for a variety of handcrafted souvenirs, from the renowned Kullu shawls to intricate wooden crafts.</p><h3>How to Reach Shimla Manali Together</h3><p><strong>By Air:</strong> The nearest airport to both Shimla and Manali is the Jubbarhatti Airport in Shimla, located around 22 km from the city center. From here, you can take a taxi or bus to reach Manali, which is approximately a 3-4 hour drive away.</p><p><strong>By Train:</strong> The nearest major railway station to both destinations is Kalka. From Kalka, you can take the iconic Himalayan Queen Toy Train to reach Shimla, which is around a 4-hour journey.</p><p>To get to Manali from Shimla, you can take a bus or hire a private taxi, which will take approximately 4-5 hours.</p><p><strong>By Road:</strong> Driving from Delhi to both Shimla and Manali is a popular option. The total distance is around 550 km, which can be covered in about 10-12 hours of driving. You can either self-drive or book a private taxi for a comfortable journey.</p><h3>Best Time to Visit Shimla Manali</h3><p><strong>Peak Season (April to June):</strong> This is the most popular time to visit Shimla and Manali, as the weather is pleasant and perfect for outdoor activities. The hills are adorned with blooming flowers, and you can enjoy a range of adventure sports like trekking, hiking, and mountain biking.</p><p><strong>Shoulder Season (March, September to November):</strong> The shoulder seasons offer a more relaxed and less crowded atmosphere in both Shimla and Manali. The weather is still comfortable, and you can find good deals on accommodations and transportation.</p><p><strong>Monsoon Season (July to August):</strong> While the monsoons transform the landscapes with lush greenery, this is the off-season when some hotels and roads may be closed. However, it can be an ideal time for nature lovers, with fewer crowds and lower prices.</p><p><strong>Winter (December to February):</strong> If you're looking to experience the Himalayan winter, Shimla and Manali offer a mesmerizing snow-covered landscape. You can enjoy activities like skiing, snowboarding, and ice skating. But be prepared for the chilly temperatures.</p><p>Other related tour packages: <a href=\"/trips/shimla-manali-5-days-4-nights\" style=\"color:blue;\">Shimla Manali 5 Days Tour</a>, <a href=\"/trips/shimla-manali-kasol-5-days-4-nights\" style=\"color:blue;\">Shimla Manali Kasol 5 Days Tour</a>, <a href=\"/trips/shimla-manali-dharamshala\" style=\"color:blue;\">Shimla Manali Dharamshala Tour</a>, <a href=\"/trips/shimla-manali-mcleod-dalhousie-amritsar\" style=\"color:blue;\">Shimla Manali Mcleod Dalhousie Tour</a>, <a href=\"/trips/ny-shimla-manali\" style=\"color:blue;\">New Year Shimla Manali Tour</a></p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Shimla | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Shimla and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Shimla Arrival | Shimla Local Explorations",
+        "description": "<ul><li>After arriving in Shimla, check-in to our cozy hotel, freshen up and have some leisure.</li><li>Get ready and head out for Shimla’s local explorations.</li><li>We’ll visit the famous Jakhu Temple (on the top of Jakhu Hill) and Indian Institute of Advanced Studies (The grand architectural beauty).</li><li>In the evening, visit the iconic Shimla Ridge and feel free to take a stroll around Lakkar Bazar, enjoy shopping while enjoying the scenery of the mountains, valleys and colonial buildings; and visit the famous Christ Church.</li><li>Savour delightful dinner and overnight stay in a hotel in Shimla.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Day Excursion to Kufri | Shimla #MeTime",
+        "description": "<ul><li>Wake up to a relaxed mountain morning and post breakfast, drive to Kufri from Shimla.</li><li>After arriving in Kufri, experience fun filled adventure activities in Kufri such as skiing, zip-lining, rock climbing, horse riding and rappelling (on your own). Enjoy the stunning vistas of Himalayan peaks as seen from this quaint hill retreat near Shimla.</li><li>In the evening, drive back to Shimla and enjoy your #MeTime.</li><li>Savour delightful dinner and overnight stay in a hotel in Shimla.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Shimla to Manali | Manali Local Explorations",
+        "description": "<ul><li>Wake early in the morning and post breakfast, check out from the property and drive from Shimla to Manali.</li><li>After arriving in Manali, head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Check-in to our comfy hotel, freshen up and have some leisure.</li><li>Savour delightful dinner and overnight stay in a hotel in Manali.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Sissu via Atal Tunnel & Solang Valley | Depart for Delhi",
+        "description": "<ul><li>Wake up early and post breakfast, check out from the hotel and say goodbye to our lovely host. drive from Manali to Lahaul Valley via the newly opened Atal Tunnel. Witness a sudden transformation in the landscape once you cross from Kullu to Lahaul region. Visit Sissu village and Sissu Lake (if weather permits).</li><li>While returning back to Manali, take a stop at Solang Valley and indulge in various adventure activities over there.</li><li>In the evening, start-off your overnight journey to Delhi.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+      "3 Nights Accommodation on Sharing Basis: 2 Nights in Hotel (Shimla) & 1 Night in Hotel (Manali).",
+      "6 Meals: Shimla (2 Breakfasts+2 Dinners) & Manali (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 4.",
+      "Bonfire (if weather permits) & music only on any 1 Night during the stay (Manali) and local explorations as per itinerary.",
+      "Experienced & All Local Assistance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'shimla-3-days-2-nights',
-    title: 'Shimla 3 Days 2 Nights',
-    destination: 'Himachal',
-    duration: '3 Days 2 Nights',
-    price: '₹13500',
-    imageUrl: '/cloned_media/14053820240909055546.png',
-    overview: 'A quick weekend trip to Shimla, the "Queen of Hills," and the nearby attraction of Kufri.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Private Car', 'Hotel Stay', 'Breakfast & Dinner', 'Sightseeing'],
-    exclusions: ['Lunches', 'Activity Fees'],
+    "slug": "shimla-3-days-2-nights",
+    "title": "Shimla 3 Days 2 Nights",
+    "destination": "Himachal",
+    "duration": "3 Days 2 Nights",
+    "price": "₹13500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/14053820240909055546.png",
+    "overview": "<h2>About Shimla 3 Days 2 Nights Tour Package</h2><p>Are you feeling an urge to escape the sultry heat and cacophony of the city? So, plan and treat yourself to our alluring Shimla Tour Package for 3D2N. It gives ample scope to relax amidst the pristine surroundings of the Himalayas and fosters sweet memories that last forever.</p><p>Settled between tall pine-clad hills and snow-capped peaks, the one time summer capital of British India, Shimla invites one to reminisce with its old-world charm, nostalgic architectural remains of the Raj, and calm, crisp mountain air. Picture taking a leisurely stroll along Mall Road, where quaint shops and cafes line up in the streets, or enjoying a leisurely ride aboard the UNESCO World Heritage Site, the Kalka-Shimla Railway as it curves through breathtaking landscapes.</p><p>You could uncover the wealth of cultural heritage and a few wonders of nature during your stay. The Viceregal Lodge is an overwhelming structure, a reflection of British colonial grandeur incarnate, right down to the last brick. On the other hand, one becomes acquainted with local traditions at the very famous colorful Lakkar Bazaar. When it comes to being a nature lover, then experiences that cannot be forgotten in life are trekking to Chadwick Falls or visiting Annandale Army Ground.</p><p>That is not all, however. Our well-planned trip itinerary also takes you to one of the beautiful hill stations, Kufri. This place enchants all with its stunning views, adventure activities, and closeness to the mighty Himalayan ranges. Whether adventure thrills on the ski slopes or simply basking in the quiet serenity of nature, Kufri has something for everybody.</p><p>Let’s not waste this opportunity, rejuvenate your senses with a difference and create long memories. Place your booking for the <a href=\"https://go4explore.com/trip/shimla-manali-tour-packages\" style=\"color:blue;\">Shimla Tour Package</a> with Go4Explore, and let the magic of the Himalayas mesmerize you!</p>\r\n\r\n<h3>Best Places to Visit in Shimla 3 Days Tour Package</h3><ul><li><strong>The Ridge:</strong> This vast area is the centrality of the region and the biggest attraction as it has fine views of several hills. It is among the best places people frequent for strolls as well as to watch personalities from different specialties. It can also be seen that the place organizes the Shimla Ridge Carnival during the period of time when tourists flock in large numbers.</li><li><strong>Mall Road:</strong> Shimla –nested in the hills boasts of a fabulous shopping zone- the Mall, which is a completely pedestrian only road with beautiful structures like the <a href=\"https://en.wikipedia.org/wiki/Gaiety_Theatre,_Shimla\" style=\"color:blue;\">Gaiety Theatre,</a> Scandal Point and Kali Bari Temple to name a few. It has many restaurants offering local dishes, shops selling local products, and a unique vibrant ambiance.</li><li><strong>Viceregal Lodge:</strong> It is a splendid structure built in Baroque style during the British colonial rule and housing inside the Summer Palace of the Viceroy of India, the lush green gardens and a must visit museum depicting the history of the region.</li><li><strong>Jakhu Temple:</strong> This temple is even dedicated to Lord Hanuman; tourists can visit this temple in Shimla located on the summit of Kufri at about 8000 feet and get to enjoy the breathtaking view of the sleepy town of Shimla and the distant Shivalik ranges. The visits to the temple are very famous, and the time required for the trip depends on the chosen path, on average, it will take 2 hours.</li><li><strong>Kufri:</strong> At a distance of 16 kilometers from Shimla, there lies this famous winter sports place and trekking as the several attractions like Horse riding &amp; Yak riding, snow skiing, leap the Mahasu Peak at an altitude of 2720 meters to get the marvelous view of the Himalayas.</li><li><strong>Green Valley:</strong> This lovely stretch of green and open is ideal for having a picnic, to take a stroll in the middle of nature or simply to admire the stunning views of mountains of the Himalayas, moreover one can also hope to come across the rare endearing flowers and animals of the region.</li><li><strong>Annandale Ground:</strong> Though in the past British used this as ground for playing their games the area is now a flat ground that has been developed as cultural area for celebrating the cultures events, it is also used for adventure sport such as rock climbing and the holds the annual Shimla Summer Festival.</li><li><strong>Chadwick Falls:</strong> This is a fascinating waterfall tucked in the middle of green forests and lies around fifty kilometers from Shimla, apart from having some beautiful waterfalls for tourist to enjoy there is an opportunity to trek, to go on a naturist or even have a picnic to increase the beauty of the place.</li><li><strong>Christ Church:</strong> Christ Church is an iconic landmark in Shimla, standing tall on The Ridge. Built in 1857, this neo-Gothic structure is the second oldest church in North India. Its stunning stained-glass windows, clock tower, and fresco-adorned walls make it a must-visit attraction for history and architecture enthusiasts.</li><li><strong>Summer Hill:</strong> Summer Hill, located 5 km from Shimla's center, is a picturesque suburb known for its tranquil environment. Home to Himachal Pradesh University, it offers beautiful walking trails and panoramic views of the surrounding mountains. The area is perfect for those seeking a peaceful retreat from the bustling city center.</li><li><strong>Indian Institute of Advanced Study:</strong> The Indian Institute of Advanced Study, housed in the majestic Viceregal Lodge, is a premier research institution. Built in 1888, this architectural marvel was once the summer residence of the British Viceroy. Today, it hosts scholars and offers guided tours.</li></ul>\r\n\r\n<h3>Top Things to do in Shimla Multi Day Trip</h3>\r\n<p><strong>1. Take a Heritage Walk:</strong> A great way to spend the day is to go shopping and walk around the Mall Road and Ridge which are the landmarks of Shimla from the British era. A visit to Gaiety Theatre and Scandal Point, a tour of the beautiful Christ Church is an added advantage of visiting the town.</p>\r\n<p><strong>2. Ride the Kalka-Shimla Toy Train:</strong> Feel the excitement of the UNESCO tagged Kalka Shimla railway as you trek through steep terrain via tracks, tunnels and bridges nestled within the needle like points of the hills of Himachal Pradesh.</p>\r\n<p><strong>3. Trekking and Hiking:</strong> Trekking and hiking are two other activities enjoyed by those visiting Shimla, Jakhu Temple, Chadwick Falls, and Green Valley are some of the places that can be optioned for trekking. Breathe fresh mountain air and enjoy breathtaking nature that a region can offer.</p>\r\n<p><strong>4. Shopping at Mall Road:</strong> Shopaholics can have a great time on the bustling Mall Road shopping for local crafts, woolen shawls, memorabilia, and even food items including the famous Simla honey.</p>\r\n<p><strong>5. Adventure Activities in Kufri:</strong> Kufri, the pretty hill station which is quite close to Shimla is a perfect place for skiing and other adventure activities such as riding on yaks, horses and attractions like the Kufri treks which offer a magnificent view of the hills.</p>\r\n<p><strong>6. Enjoy Local Cuisine:</strong> Taste the Himachali spices and cuisine by relishing some of the top dishes, such as Sidku, a type of bread stuffed with different fillings, sweet and savory patande or cooked vegetables, and Madhura, a sweet dish.</p>\r\n<p><strong>7. Attend Cultural Events:</strong> If there are festivities such as the Shimla Summer Festival or the Shimla Ridge Carnival during your time to visit, do watch these cultural extravaganzas to witness the local folk dances, songs or other festivities if it is during the festive season.</p>\r\n<p><strong>8. Photography and Sightseeing:</strong> Surrounded by attractive and picturesque landscapes, blessed with friendly weather and rich colonial architectural inheritance, there are numerous places of interest in Shimla to shoot excellent pictures or just to enjoy the picturesque views.</p>\r\n<p><strong>9. Visit Museum:</strong> The Shimla State Museum, housed in a colonial-era building, offers a fascinating glimpse into Himachal Pradesh's rich cultural heritage. Its diverse collection includes Pahari miniature paintings, ancient sculptures, coins, and traditional costumes. The museum provides an educational and engaging experience for history and art enthusiasts.</p>\r\n<p><strong>10. Take a Ride of Ropeway:</strong> The Jakhu Ropeway in Shimla offers a thrilling aerial journey to the famous Jakhu Temple. This 5-minute ride provides breathtaking panoramic views of the Himalayan landscape and Shimla town. It's an exhilarating way to reach the temple while enjoying spectacular vistas of the surrounding mountains and valleys.</p>\r\n\r\n<h3>How to Reach Shimla</h3>\r\n<p><strong>By Air:</strong> The nearest airport to Shimla is the Jubbarhatti Airport, located around 23 km away. However, this airport has limited flight connectivity, and most travelers prefer to fly to the larger airports in Chandigarh (118 km away) or Delhi (343 km away) and then take road transportation to Shimla.</p>\r\n<p><strong>By Rail:</strong> The closest major railway station to Shimla is Kalka, located around 90 km away. From Kalka, you can take the famous Kalka-Shimla Toy Train, a UNESCO World Heritage Site, which offers a scenic journey through the hills and valleys. Alternatively, you can hire a taxi or take a bus from Kalka to reach Shimla.</p>\r\n<p><strong>By Road:</strong> Shimla is well-connected by road to major cities in North India, making it easily accessible by private vehicles or buses.</p>\r\n\r\n<h3>Best Time to Visit Shimla</h3>\r\n<p><strong>Summer (April to June):</strong> Summer offers Mild climate at an average of 15 degrees Celsius and 30 degrees Celsius. This season is a high travel period with the number of tourists and also congestion and higher charges.</p>\r\n<p><strong>Monsoon (July to September):</strong> Sometimes the region may be rainy but the vegetation gives the scene a green touch. It’s pretty obvious; the temperature ranges between 10°C and 25°C with less crowd.</p>\r\n<p><strong>Post-Monsoon (October to November):</strong> This season offers good atmospheric conditions, no cloud cover at all. Temperatures range from 5°c to 20°c, Post-monsoon is less crowded with Beautiful autumn foliage.</p>\r\n<p><strong>Winter (December to March):</strong> Winter offers low temperatures, which can be below freezing often, thus rendering it a cold climate area. This often turns the town of Shimla into a beautiful sight and winter wonderland. Ideal for skiing or other winter sports but expect some road/attraction to be closed temporarily.</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Shimla | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Shimla and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Shimla Arrival | Shimla Local Explorations",
+        "description": "<ul><li>After arriving in Shimla, check-in to our cozy hotel, freshen up and have some leisure.</li><li>Get ready and head out for Shimla’s local explorations.</li><li>We’ll visit&nbsp;the iconic Shimla Ridge and feel free to take a stroll around Lakkar Bazar, enjoy shopping while enjoying the scenery of the mountains, valleys and colonial buildings; and visit the famous Christ Church.</li><li>Savour delightful dinner and overnight stay in a hotel in Shimla.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Day Excursion to Kufri | Shimla #MeTime",
+        "description": "<ul><li>Wake up to a relaxed mountain morning and post breakfast, drive to Kufri from Shimla.</li><li>After arriving in Kufri, experience fun filled adventure activities in Kufri such as skiing, zip-lining, rock climbing, horse riding and rappelling (on your own). Enjoy the stunning vistas of Himalayan peaks as seen from this quaint hill retreat near Shimla.</li><li>In the evening, drive back to Shimla and enjoy your #MeTime.</li><li>Savour delightful dinner and overnight stay in a hotel in Shimla.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Shimla Local Explorations | Depart for Delhi",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, check out from the property and get ready for Shimla’s local explorations.</li><li>We’ll visit the famous Jakhu Temple (on the top of Jakhu Hill) and Indian Institute of Advanced Studies (The grand architectural beauty). Also, visit Shimla State Museum, which houses a collection of historical artefacts, ancient sculptures, paintings, and photographs showcasing the cultural heritage of Himachal. Feel free to spend time in Shimla's local markets by enjoying street food, eat at quaint cafes and shopping souvenirs.</li><li>In the evening, start-off your overnight journey to Delhi.<br></li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul>\r\n    <li>Reach Delhi next morning with lots of amazing memories and unforgettable experiences.\u003cbr\u003e</li>\r\n\u003c/ul\u003e"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+      "2 Nights Accommodation on Sharing Basis: Hotel.",
+      "4 Meals: Dinner (2) and Breakfast (2), starting from Dinner on Day 1 to Breakfast on Day 3.",
+      "All local explorations as per itinerary.",
+      "Experienced & All Local Assistance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'manali-sissu',
-    title: 'Manali Sissu',
-    destination: 'Himachal',
-    duration: '3 Days 2 Nights',
-    price: '₹6000',
-    originalPrice: '₹7000',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/20178120230702181449.png',
-    overview: 'A weekend trip to Manali with a day trip to Sissu through the Atal Tunnel to experience the Lahaul Valley.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Transfers from Delhi', 'Hotel/Camp Stay', 'Sightseeing'],
-    exclusions: ['Meals', 'Activity Fees'],
+    "slug": "manali-sissu",
+    "title": "Manali Sissu",
+    "destination": "Himachal",
+    "duration": "3 Days 2 Nights",
+    "price": "₹6000",
+    "originalPrice": "₹7000",
+    "discount": "₹1,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/20178120230702181449.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12449020230702181449.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38383320230702181449.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20043520230702181449.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15441920230702181449.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21393420230702181449.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35126420230702181449.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16387220230702181449.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9323220230702181449.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34764720230702181449.png"
+    ],
+    "overview": "<h2>About Manali Sissu Trip</h2>\r\n\r\n<p><strong>Get Affordable Manali Sissu Package from Delhi</strong></p>\r\n\r\n<p>A belt of greenery topped with sprinklers of calm winds, terrain nuzzled on the laps of Valley of God, the land of wanderlust,yes u guessed it right it's Manali. Situated in the Kullu district of Himachal Pradesh. Encircled with vibrant energy around them, the quartet, Manali, Sissu, Solang valley and Jogini waterfall are the best package of joy to experience.</p><p>In an era of aesthetic pictures, Manali is the finest place to array one with ambient cafes, small eat-in places, road trips with scenic attractions etc. Manali holds a special place in nature lovers and adventurous people’s bucket list, as it grasps one’s attention towards the activities, beauties and philosophy of nature that was never noticed before. The glory of Manali lies in the art of nature and its models placed firmly on mother earth. From a thrilling <a href=\"https://go4explore.com/trips/manali-sissu\" style=\"color:blue;\">road trip to Sissu from Manali</a> via Atal Tunnel to mesmerising calmness in the nights of Manali, it becomes one of the most overwhelming times of lifetime.</p><p>The Manali &amp; Sissu trip is a constant transition of landscapes and environment imparting one in all kinds of experiences to go back home with.</p><p>The Manali Sissu tour is a full package of unlimited fun and panoramic beauty co-existing with the science behind modern engineering marvel i.e the Atal tunnel to reach environmentally equipped and a village rich in culture, Sissu.</p>\r\n\r\n<h3>Places to visit in Manali Sissu Tour Package</h3><ul><li><strong>Hadimba Devi Temple:</strong> Amidst the snow-capped mountains of Manali, a distinctive shrine of Hidimba Devi (in the epic of Mahabharat, she was present as wife of Bhima and mother of Ghatothkach) is positioned towering deodar trees. It is believed that the rock on which the shrine is built is the picturesque of Hidimba Devi herself apart from this another interesting fact related to the temple is that Goddess Hidimba Devi is also considered as the angel of the valley. The eccentric structure of the shrine also attracts tourists to this place.</li><li><strong>Old Manali:</strong> According to folklore, Manali was named after Sage Manu, also said to have saved various species of flora and fauna in a terrible flood. Modern world also calls Manali as a Global Village due to its accomplished establishment of structures and tourism without sacrificing its richness in culture. Manalsu, a tributary of the Beas river, cuts the town of Manali and divides it into New Manali and Old Manali. Wandering on the roads of Old Manali and exploring different cafes will give you thrills of experiencing the bollywoody Yeh Jawani Hai Deewani.</li><li><strong>Lahaul Valley:</strong> 33 km from Manali on the route to Leh ,takes you to one of the hubs of Buddhist Art and Culture,splendorous mountain villages and stunning views of various terrains. Lahaul valley is also known as the better half of Spiti but less people are aware of the unique features Lahaul valley holds.The drastic change in landscape occurs when one crosses Kullu region to reach Lahaul region.</li><li><strong>Sissu via Atal Tunnel:</strong> Modern engineering has provided Manali with a marvellous structure called Atal tunnel which helps one reach Sissu from Manali. The magical village nestled in the wonders of Manali is simply a paradise for all adventurers to inculcate the euphoric experience of calmness around Sissu lake and waterfall,get the blessings of Sissu village’s deity Lord Gyephang, lying on the grounds of Sissu hills surrounded by tents while stargazing, trekking, cycling and being a part of adventurous river rafting in the chandra river of Sissu village. Sissu village acts as a base camp for all trekkers and is a starting point to several trekking routes.</li><li><strong>Solang Valley:</strong> The Snow Valley of Manali as the name suggests is popular for its snow and enriching experience of adventure sports like paragliding, skiing, camping, zorbing etc. The white sheet covering the snow acts as a catalyst to the accelerating charm of the valley, enhancing and rejoicing tourists of all ages at different levels whether it be honeymoon couple kindling romance or family and children spending time away from their busy lives in peaceful valleys to stimulate better bonds.</li><li><strong>Vashisht Temple:</strong> A place with natural hot springs along with medicinal qualities, with scenic beauties just 3 kms from Manali, may sound unreal but you will be happy to know that heaven like this exists. Amidst the majestic charm, there is a 4000 year old temple devoted to Guru Vashisht, who was one of the infamous Saptrishis and mentioned as the mentor of Lord Rama in the epic Ramayana. <a href=\"https://en.wikipedia.org/wiki/Vashisht,_Himachal_Pradesh\" target=\"_blank\" style=\"color:blue;\" rel=\"noopener noreferrer\">Vashisht temple</a> is said to be constructed on the same place where Sage Vashisht used to meditate. Architecture of the temple is typically called Himalayan Kath Kuni featuring ancient stepwell,figures and many more architectural marvels.</li><li><strong>Jogini Waterfall:</strong> Further on the edge of the Vashisht village, it would take around 3 hours to trek and capture the scenic beauty of the place through eyes and camera. Jogni Waterfall has a pleasant temperature enhancing the adventure.</li></ul>\r\n\r\n<h3>Things to do in Manali Sissu Tour package</h3><ul><li><strong>Trekking:</strong> Hiking on rough terrains at different altitudes certainly provides one with a high adrenaline rush, which most of us crave for, specially the nature lovers and adventure bugs. Trekking is a prime activity to be executed in the Valley of Gods that enriches the ultimate experience of landscapes and charming views. In major parts of the Manali-Sissu tour package, one has to trek to reach different destinations and it surely turns out to be worthwhile.</li><li><strong>Camping:</strong> In the chaos of life most of us often crave for a place to find peace and calmness to the inner core, camping in the Manali Sissu tour contributes majorly to this purpose of travellers. Travellers and tourists often find tranquillity amidst the tents and valley with a campfire, leading them to contemplate their life and at the same time enjoy with loved ones or strangers that turn into family.</li><li><strong>Stargazing:</strong> In many instances of life, we feel the need to just lie down and relax to an extent where the body finds ultimate silence and the mind is free of stress. Stargazing is one such activity that fuels individuals with joy, happiness and serenity. Sissu is a prime location for Stargazing as it gives an individual noteworthy times to cherish later on in their lives.</li><li><strong>Photography:</strong> Many photographers and nature lovers wander in search of ideas and inspiration but what could be better than taking inspiration from mother nature herself. Photographers often find themselves trapped in the essence of the valley’s beauty. Every bit of the trip would add on to the footage of the camera while Solang Valley stands out as it has snow covered areas adding whiteness to the captures too.</li></ul>\r\n\r\n<h3>Best time to visit Manali Sissu</h3><ul><li><strong>Spring:</strong> During the spring season new leaves start to form and grow. Manali is beautiful and with the lust of greenery it turns the scenic view into more majestic.</li><li><strong>Summer:</strong> During summers the temperature increases but does not reach to extreme levels like other places but the crowd is usually more because people escape their worlds and reach Manali &amp; Sissu.</li><li><strong>Autumn:</strong> During the autumn season (from September to October) the leaves starts to fall and the valley turns into a wonderland.</li><li><strong>Winter:</strong> For all those who love and crave for snow, winters in the valley are a paradise to them, especially Solang Valley, where the area sees snowfall and temperature drops down.</li></ul>\r\n\r\n<h3>How to reach Manali Sissu?</h3><ul><li><strong>Airways:</strong> To reach Manali-Sissu you can take a flight to the nearest airport Bhuntar which is around 90 km away from Sissu village, from the airport you can board a bus to Keylong or take a taxi to the village on by travelling on Leh-Manali highway.</li><li><strong>Roadways:</strong> Start your journey from whichever part you belong to Delhi. From Delhi take a bus to reach Manali and from Manali bus station take a bus to Keylong, while taking the Leh-Manali highway, it will drop you at Sissu village. From Manali you can also take a road trip to Sissu via Atal Tunnel.</li><li><strong>Railways:</strong> Chandigarh is the nearest railway station to Manali and from Manali take a bus to Keylong which will drop you by Sissu village.</li></ul>\r\n\r\n<h4>FAQs</h4><p><strong>1. What is the best time to visit Manali Sissu?</strong></p><p>The best time to visit Manali Sissu is from February to June and September to December.</p><p><strong>2. Can we cover Solang Valley and Sissu in one day?</strong></p><p>It is more advisable to stay at each place to engulf its richness but in terms of travelling yes it is possible to cover both the destinations in a day.</p><p><strong>3. What is Sissu famous for?</strong></p><p>The charming village called Sissu is famous for its unique foods, pleasant weather, stargazing and peaceful environment.</p><p><strong>4. How to reach Manali Sissu?</strong></p><p>From your respective city take a flight or train to Delhi, from where you can board a bus or drive to Manali. Now Board a bus from Manali bus station to Keylong or take a taxi from the nearest airport of Bhuntar.</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Manali and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali Arrival | Local Exploration & Cafe Hopping",
+        "description": "<ul><li>After arriving in Manali, check-in to our comfy hotel, freshen up and have some leisure.</li><li>Post leisure, head out to explore the famous Hadimba Devi Temple situated amidst towering deodar trees. Take a walk into the woods at Van Vihar and treat yourself with mouthwatering dishes at various themed cafes in Old Manali. In the evening, visit Manali’s Mall Road and spend time there by enjoying street food and shopping souvenirs.</li><li>Savour delightful dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive to Sissu via Atal Tunnel & Solang Valley",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, drive from Manali to Lahaul Valley via the newly opened Atal Tunnel. Witness a sudden transformation in the landscape once you cross from Kullu to Lahaul region. Visit Sissu village and Sissu Lake (if weather permits).</li><li>While returning back to Manali, take a stop at Solang Valley and indulge in various adventure activities over there.</li><li>Savour delightful dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Kasol Cafe Hopping & Manikaran | Depart for Delhi",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, check out from the hotel and drive towards Kasol from Manali.</li><li>After arriving in&nbsp;Kasol&nbsp;, we will head out to explore the streets of this hippie hamlet of&nbsp;Parvati Valley&nbsp;, visit&nbsp;Chalal bridge&nbsp;and chill along Parvati riverside. Soak in the hippie vibes of Kasol, go for&nbsp;cafe hopping&nbsp;and treat your stomach with mouth-watering local dishes.</li><li>Drive towards&nbsp;Manikaran&nbsp;and visit the famous holy hot water springs at Manikaran Sahib Gurudwara &amp; Shiva Temple.</li><li>In the evening, start-off your overnight journey to Delhi.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+      "2 Nights Accommodation on Sharing Basis: Hotel.",
+      "Experienced and cool Trip Captain.",
+      "Bonfire (if weather permits) & music only on any 1 Night during the stay and local explorations as per itinerary.",
+      "4 Meals: Dinner (2) and Breakfast (2), starting from Dinner on Day 1 to Breakfast on Day 3.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'jibhi-tirthan-valley',
-    title: 'Jibhi & Tirthan Valley',
-    destination: 'Himachal',
-    duration: '3 Days 2 Nights',
-    price: '₹6500',
-    originalPrice: '₹7500',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/30341920250625101558.png',
-    overview: 'A serene weekend getaway to the offbeat Tirthan Valley, staying in the picturesque village of Jibhi.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Transfers from Delhi', 'Hotel/Homestay', 'Sightseeing'],
-    exclusions: ['Meals', 'Activity Fees'],
+    "slug": "jibhi-tirthan-valley",
+    "title": "Jibhi & Tirthan Valley",
+    "destination": "Himachal",
+    "duration": "3 Days 2 Nights",
+    "price": "₹6500",
+    "originalPrice": "₹7500",
+    "discount": "₹1,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/30341920250625101558.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15659620230702180435.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31149420230702180435.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4195120230702180435.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17699820230702180435.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37898720230702180435.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25178020230702180435.png"
+    ],
+    "overview": "<h2>About Jibhi and Tirthan Valley</h2><p>In many instances, people love to go and experience nature for different means, and it's rarely the case when anyone is ignorant towards hill stations, and trekking, there are countless reasons to be fond of nature. The connection of nature with mankind is surreal, it offers peace, relaxation, adventure and all the tiredness of life goes away when you are near a calm environment.</p><p>Jibhi and Tirthan valley is one of the most peaceful and soul relaxing destinations to go and refresh your mind, Jibhi is located at an altitude of almost 6,900 feet around (2,100 meters) above sea level. It is nestled in the Banjar Valley of Himachal Pradesh. Talking about Tirthan Valley situated in the Kullu District of <a target=\"_blank\" href=\"/trip/himachal-pradesh-tour-packages\" style=\"color:blue;\">Himachal Pradesh</a> has fluctuating altitudes depending on the specific areas within the valley, although most parts of Tirthan Valley are at altitudes ranging from 5,000 feet around (1,500 meters) to 9,000 feet around (2,700 meters) above sea level.</p><h3>Places to visit in Jibhi Tirthan Valley Trip</h3><p>If you are planning a trip to <a href=\"/trips/jibhi-tirthan-valley\" style=\"color:blue;\">Jibhi Tirthan Valley</a>, there are numerous beautiful and stunning places you can visit in and around these destinations. Here's a list of some must visit places:</p><ul>    <li><b>Serolsar Lake:</b> Serolsar Lake also identified as Sirolsar Lake is a high altitude trekking destination from Jibhi. This trek takes you through dense forest and provides you stunning views of the surrounding mountains. This lake is known for its serene atmosphere, calm environment and clear waters.</li>    <li><b>Chehni Kothi:</b> This Prehistoric tower-like building is a marvel of architecture which offers extensive views of the valley from uphill.</li>    <li><b>Tirthan River:</b> The pure Tirthan River is ideal for trout fishing and offers opportunities for camping and barbecue along its shore.</li>    <li><b>Jalori Pass:</b> Elevated at altitude of 10,800 feet, <a target=\"_blank\" href=\"https://go4explore.com/stories/Jibhi-&amp;-Jalori-Pass\" style=\"color:blue;\">Jalori Pass</a> offers breathtaking views of the surrounding mountains and valleys, it's a great location for trekking as well</li>    <li><b>Great Himalayan National Park:</b> This UNESCO World Heritage Site is a vital attraction in <a target=\"_blank\" href=\"https://go4explore.com/package/Tirthan-Valley\" style=\"color:blue;\">Tirthan Valley</a>. It's famous for its diverse Flora and Fauna, trekking trails and scenic beauty.</li>    <li><b>Shringa Rishi Temple:</b> This historical temple is dedicated to the local deity Shringa Rishi is a popular pilgrimage site, and offers insight into the local culture and traditions.</li>    <li><b>Jibhi Waterfall:</b> Descending down in the midst of lush greenery, Jibhi Waterfall is a picturesque spot ideal for relaxation and photography.</li>    <li><b>Shoja:</b> A serene hamlet near Jibhi, Shoja offers stunning views of the Himalayas and is perfect for nature walk and birdwatching.</li>    <li><b>Ghiyagi:</b> A wonderful village near Jibhi known for its apple orchards and traditional Himachali Architecture.</li>    <li><b>Jibhi Village:</b> Explore the quaint village of Jibhi, interact with locals and experience the authentic Himachali way of life.</li></ul><h3>Things to do in Jibhi and Tirthan Valley</h3><p>In Jibhi and Tirthan Valley there are plenty of things to enjoy amongst the serene natural surroundings.</p><p><b>Nature Walks Hikes-</b> Explore the lush greenery, alpine forests and pristine surrounding of Jibhi and Tirthan Valley by taking leisurely walks and hikes. There are several trails suitable for all levels of hikers, offering breathtaking views of the Himalayas.</p><p><b>Camping-</b> Trekkers can set up a camp beside the river or amidst the forest for a memorable overnight experience. Several camping sites provide amenities for bonfires, stargazing and outdoor games .</p><p><b>Fishing-</b> Flowing through the valley, Tirthan valley is ideal for activities like river crossing and angling. Trekkers can enjoy the tranquility of the surroundings while trying their hand at fishing or simply dipping their feet in the cool winters.</p><p><b>Visit Waterfalls-</b> Explore the enchanting waterfalls in the region such as The Serolsar Lake Waterfall and The Jibhi Waterfall. This natural wonder provides excellent spots for photography and relaxation.</p><p><b>Trekking Expeditions-</b> Embark on multi-day trekking expeditions to nearby destinations like <a target=\"_blank\" href=\"/trips/road-trip-to-jibhi-jalori-pass\" style=\"color:blue;\">Jalori Pass</a>, Raghupur Fort, Chehni Kothi. These treks offer panoramic views of the pleasant mountains and valleys.</p><p><b>Photography-</b> Nature lovers and photography enthusiasts can capture the scenic beauty of Jibhi and Tirthan Valley through lens. From snow-peaked mountains to colorful pastures. There are plenty of subjects to photograph in this picturesque region.</p><h3>Best time to visit Jibhi Tirthan Valley</h3><p><b>Spring (March to May):</b> Spring is the best season to visit Jibhi and Tirthan Valley, since the weather is pleasant with mild temperature. Days are comparatively warm, while the nights might be cool.</p><p><b>Summer (June to August):</b> Summer sees warmer temperatures during the day, but nights remain cool. It's relatively dry although occasional rainfall might be expected.</p><p><b>Monsoon (September to November):</b> The monsoon season brings heavy rainfall to the region, especially in July and August. September and October witness lesser rainfall and cooler temperatures.</p><p><b>Winter (December to February):</b> Winter brings cold temperatures, especially in December and January, with chances of snowfall. Days are chilly and night can be freezing.</p><p><b>Festivals:</b> Consider visiting during local festivals like Diwali, Holi or the Fagli festival celebrated in February/March to experience the vibrant culture and traditions of the region.</p><h3>FAQs about Jibhi Tirthan Valley Trip</h3><p><b>1. Is it safe for female solo travelers to go to Jibhi and Tirthan Valley Trip?</b></p><p>Yes, it is usually safe for female solo travelers to go to Jibhi Tirthan Valley Trip.</p><p><b>2. Are permits required for Trekking and Camping in Tirthan Valley?</b></p><p>Yes, permits are required for treks and camping activities in Tirthan Valley especially if going into protected zones.</p><p><b>3. What kind of cuisine is famous in Jibhi and Tirthan Valley?</b></p><p>Jibhi and Tirthan offers different international cuisines, local food options includes Himachali delicacies like Siddu, Thenthuk and Momos.</p><p><b>4. Best time to visit Jibhi and Tirthan Valley?</b></p><p>March to June and September to November.</p><p><b>5. What is Jibhi famous for?</b></p><p>Jibhi is famous for its peaceful natural beauty, picturesque landscapes and tranquil ambiance.</p><p><b>6. Distance between Delhi to Jibhi?</b></p><p>The distance between Delhi to Jibhi is approximately 500 kilometers (310 miles). The travel time can vary depending upon the route and mode of transportation.</p><p>Explore our other tour packages: <a href=\"/trips/himachal-backpacking-jibhi-edition\" style=\"color:blue;\">Backpacking Trip to Himachal</a>, <a href=\"/trips/manali-kasol-4d3n\" style=\"color:blue;\">Manali Kasol Trip</a>, <a href=\"/trips/ny-jibhi-tirthan-valley\" style=\"color:blue;\">New year Jibhi Packages from Delhi</a>.</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Jibhi | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Jibhi and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Jibhi Arrival | Jibhi Waterfall & Leisure",
+        "description": "<ul><li>After arriving in Jibhi, we will visit the beautiful Jibhi waterfall and soak in the soothing surroundings of the place. Visit another major attraction called Mini Thailand in Jibhi (if time permits).</li><li>Check-in to our cozy homestay/hotel in Jibhi, freshen-up and have some leisure. Post lunch, we will head out for a forest walk near to our property and rejuvenate in the nature's lap.</li><li>In the evening, enjoy a warm bonfire with good music.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/homestay in Jibhi/Banjar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive to Jalori Pass & Trek to Serolsar Lake",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, drive to Jalori Pass situated at 10,800 feet.</li><li>Hike to 360° Himalayan view point and get mesmerized by the stunning landscape of snow-clad Himalayas (if weather permits).</li><li>Trek further to the beautiful Serolsar Lake surrounded by lush forest cover and pay homage at Budhi Nagin Temple (if weather permits).</li><li>Post lunch, gather for an #InstaPerfect group picture, trek back to Jalori Pass and drive back to our property.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/homestay in Jibhi/Banjar.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Hike to Chhoie Waterfall | Depart for Delhi",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check out from the property and say goodbye to our lovely host.</li><li>Drive towards the gorgeous Gushaini village positioned along the pristine Tirthan river.</li><li>Trek to Chhoie Waterfall and spend some #MeTime amidst virgin natural beauty.</li><li>Post lunch, drive to Aut and start-off your overnight journey to Delhi.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+      "2 Nights Accommodation on Sharing Basis: Hotel/Homestay(Jibhi/Banjar).",
+      "Experienced and cool Trip Captain.",
+      "Bonfire (if weather permits) only on any 1 Night during the stay and local explorations as per itinerary.",
+      "4 Meals: Dinner (2) and Breakfast (2), starting from Dinner on Day 1 to Breakfast on Day 3.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'kasol-kheerganga-trek',
-    title: 'Kasol Kheerganga Trek',
-    destination: 'Himachal',
-    duration: '3 Days 2 Nights',
-    price: '₹6500',
-    originalPrice: '₹7500',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/957820240826103048.png',
-    overview: 'The classic weekend trek from Delhi. Explore Kasol and trek to the mythical Kheerganga hot springs.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Transfers from Delhi', 'Camp Stay', 'Trek Guide', 'Meals on Trek'],
-    exclusions: ['Meals in Kasol', 'Entry Fees'],
+    "slug": "kasol-kheerganga-trek",
+    "title": "Kasol Kheerganga Trek",
+    "destination": "Himachal",
+    "duration": "3 Days 2 Nights",
+    "price": "₹6500",
+    "originalPrice": "₹7500",
+    "discount": "₹1,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/957820240826103048.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35733120201006131730.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13278020201006131730.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29798520201006131730.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29450020201006131730.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39130320201006131730.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26975920201006131730.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34912020201006131730.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15977820201006131730.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34587120201006131730.png"
+    ],
+    "overview": "<h2>About Kasol Kheerganga Trek</h2><p>Looking for an unforgettable mountain adventure filled with scenic beauty, hot springs &amp; thrilling trails? The <strong>Kasol Kheerganga Trek Package</strong> by <strong>Go4Explore</strong> offers everything an adventurer dreams of views of snow-kissed peaks, pine forests, pristine waterfalls, vibrant villages, and a journey that soothes both body &amp; soul.</p><p>Nestled in the heart of Parvati Valley, this trek has become a favorite among travelers seeking a perfect blend of natural charm &amp; local culture. Whether you're planning a solo escape, a <strong>Kasol Kheerganga Weekend Trip</strong>, or a <strong>Kasol Kheerganga Group Trip</strong>, this experience promises serenity, excitement &amp; unforgettable memories.</p><h2><strong>About the Kasol Kheerganga Trek Package</strong></h2><p>Situated in Himachal Pradesh’s breathtaking Parvati Valley, Kasol is often called “Mini Israel of India” because of its unique mix of culture &amp; global travelers. From here begins your adventure to Kheerganga, a Himalayan gem located at 2,960 meters (9,711 ft).</p><p>The Kasol Kheerganga Trek Package covers a total trekking distance of around 24 to 26 km starting from Barshaini village. The trail takes you through dense pine forests, wooden bridges, gushing waterfalls &amp; peaceful meadows before reaching the natural hot springs of Kheerganga.</p><p>At the summit, a small temple dedicated to Lord Shiva &amp; Goddess Parvati adds a spiritual touch to the adventure. The journey is moderate in difficulty, perfect for both beginners &amp; seasoned trekkers.</p><p>Whether you start from Delhi or Himachal, this <strong>Kasol Kheerganga Trip from Delhi</strong> ensures an adventure filled with mountain magic, camping under starlit skies &amp; local Himachali flavors.</p><h2><strong>Quick Facts about Kasol Kheerganga Weekend Trip</strong></h2><ul><li><strong>Altitude:</strong> Kasol – 1,580 m | Kheerganga – 2,960 m</li><li><strong>Trek Distance:</strong> 24 to 26 km round trip</li><li><strong>Duration:</strong> 2 to 3 Days</li><li><strong>Difficulty Level:</strong> Moderate (ideal for beginners)</li><li><strong>Starting Point:</strong> Barshaini</li><li><strong>Best Time:</strong> April to November</li></ul><p>If you’re planning a Kasol Kheerganga Weekend Trip, this is the perfect itinerary to enjoy nature &amp; rejuvenation within just a couple of days.</p><h2><strong>Highlights of the Kasol Kheerganga Group Trip</strong></h2><ul><li><strong>Natural Hot Springs:</strong> Relax in the warm waters at Kheerganga after your trek.</li><li><strong>Riverside Camping:</strong> Enjoy bonfire nights beside the Parvati River.</li><li><strong>Local Café Culture:</strong> Explore Kasol’s famous Israeli cafés &amp; bakeries.</li><li><strong>Breathtaking Views:</strong> Snow peaks, waterfalls &amp; alpine meadows everywhere.</li><li><strong>Perfect for Groups:</strong> The Kasol Kheerganga Group Trip is a fantastic way to bond with friends &amp; fellow travelers.</li></ul><h2><strong>Places Covered in Kasol Kheerganga Trek Package</strong></h2><h3>Kasol Village</h3><p>Start your <strong>Kasol Kheerganga Trek</strong> at this picturesque hamlet surrounded by pine forests &amp; snow-covered peaks. Stroll through vibrant markets, explore cafés like “Evergreen” &amp; “Little Italy,” and experience the peaceful Parvati Valley vibe. So book today your Kasol Kheerganga Trek Package Go4Explore.</p><h3>Manikaran Sahib Gurudwara</h3><p>Located near Kasol, this sacred site is famous for its hot springs &amp; the Gurudwara’s langar meals. A visit here during your Kasol Kheerganga Weekend Trip offers both peace &amp; spirituality.</p><h3>Chalal Village</h3><p>A short trek from Kasol leads to Chalal, known for its forest trails, serene riverside views &amp; calm ambiance. It’s the perfect spot to unwind before starting the Kasol Kheerganga Trip from Delhi.</p><h3>Tosh Village</h3><p>Another gem in Parvati Valley, Tosh is loved for its traditional wooden houses &amp; snow-clad landscapes. Include this stop if you extend your Kasol Kheerganga Group Trip, it’s worth it.</p><h3>Rudra Nag Waterfall</h3><p>One of the most scenic points en route to Kheerganga. Take a short break here, click photos &amp; refresh yourself amidst misty mountain air.</p><h3>Barshaini</h3><p>This is the starting point of your trek. Barshaini’s charm &amp; views of the confluence of Parvati &amp; Tosh rivers make it an ideal beginning for your Kasol Kheerganga Trip from Delhi.</p><h2><strong>Best Time for Kasol Kheerganga Trek</strong></h2><p>Each season brings a different shade of beauty to the <strong>Kasol Kheerganga Trek</strong>.</p><h3>Spring (March to June)</h3><p>The trail is full of blooming flowers &amp; pleasant weather. Days are mild, nights are cool, ideal for trekking &amp; camping.</p><h3>Monsoon (July to August)</h3><p>The valley turns lush green, but trails can be slippery. Great for those who love an extra dose of adventure.</p><h3>Autumn (September to November)</h3><p>Clear skies, crisp air &amp; colorful landscapes make this the best time for the Kasol Kheerganga Weekend Trip.</p><h3>Winter (December to February)</h3><p>Snow covers the valley, making the trail challenging yet magical. Perfect for thrill-seekers looking for a winter adventure in the Himalayas.</p><h2><strong>How to Reach Kasol Kheerganga Trip from Delhi</strong></h2><p><strong>By Bus:</strong><strong><br></strong>Take an overnight Volvo or private bus from Delhi to Bhuntar (12 to 14 hrs). From Bhuntar, local cabs or buses go to Kasol.</p><p><strong>By Car:</strong><strong><br></strong>A road trip from Delhi to Kasol via Chandigarh &amp; Bhuntar offers scenic views all the way.</p><p><strong>By Air:</strong><strong><br></strong>Nearest airport: Kullu-Manali Airport (Bhuntar). From there, Kasol is around 30 km away.</p><h2><strong>Preparation Tips for Kasol Kheerganga Group Trip</strong></h2><ol><li><strong>Stay Fit:</strong> Begin light exercises &amp; walking sessions before your trek.</li><li><strong>Pack Smart:</strong> Carry thermals, a windproof jacket, 4 to 5 pairs of socks, scarf &amp; head cap.</li><li><strong>Footwear:</strong> Use waterproof trekking shoes with good grip.</li><li><strong>Food &amp; Water:</strong> Carry energy bars, nuts &amp; 2L water per person.</li><li><strong>First Aid Kit:</strong> Include basic medicines, antiseptics &amp; blister pads.</li><li><strong>Trekking Gear:</strong> A headlamp, poncho &amp; trekking pole make the journey smoother.</li></ol><p>Go4Explore ensures all essential gear &amp; safety measures for a comfortable Kasol Kheerganga Trip from Delhi.</p><h2><strong>Itinerary Overview – Kasol Kheerganga Trek Package</strong></h2><p><strong>Day 1:</strong> Delhi to Kasol<br>Board your evening bus from Delhi &amp; enjoy an overnight journey through scenic highways.</p><p><strong>Day 2:</strong> Kasol Exploration<br>Arrive at Kasol, check into your camp or hostel. Explore Chalal, café hop &amp; relax by the Parvati River. Perfect start for your Kasol Kheerganga Weekend Trip.</p><p><strong>Day 3:</strong> Barshaini to Kheerganga Trek<br>After breakfast, head to Barshaini, the trek starting point. Cross wooden bridges, waterfalls &amp; lush forests to reach Kheerganga by evening. Take a dip in the natural hot springs &amp; enjoy dinner under the stars.</p><p><strong>Day 4:</strong> Kheerganga to Barshaini to Kasol to Delhi<br>Trek back to Barshaini after breakfast, return to Kasol for some local shopping &amp; board your evening bus back to Delhi.</p><p>This Kasol Kheerganga Group Trip ensures every moment is filled with joy, nature &amp; bonding.</p><h2>Why Choose Go4Explore for Kasol Kheerganga Trip from Delhi?</h2><ul><li><strong>Experienced Team:</strong> Certified trek leaders &amp; local guides.</li><li><strong>Safety First:</strong> Well-planned routes, equipment &amp; first-aid support.</li><li><strong>Affordable Packages:</strong> Get the best Kasol Kheerganga Trek Package at great prices.</li><li><strong>Comfortable Camps:</strong> Hygienic stay with mountain views.</li><li><strong>Community Vibes:</strong> Ideal for solo travelers &amp; groups alike.</li></ul><h3>Ready to Book Your Adventure?</h3><p>Explore the stunning Parvati Valley with Go4Explore, your ultimate travel partner for the best Himalayan adventures. Our Kasol Kheerganga Trek Package offers breathtaking views, serene camping nights, and unforgettable experiences. Perfect for friends, families, and solo explorers, this trek combines natural beauty, spiritual calm, and adventure in one journey. From scenic drives to relaxing hot springs, every moment is crafted for pure bliss. Pack your bags, gather your travel buddies, and plan your Kasol Kheerganga Trip from Delhi now for a refreshing escape into nature!</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Kasol | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Kasol and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Kasol Arrival | Chill Scenes & Hippie Vibes",
+        "description": "<ul><li>After arriving in Kasol, check-in to our comfy hotel/campsite & freshen-up.</li><li>Post refreshment, we will head out to explore the streets of Kasol, visit Chalal bridge and chill along Parvati riverside. Soak in the hippie vibes of Kasol, go for cafe hopping and treat your stomach with mouth-watering local dishes.</li><li>In the evening, get back to your property and indulge in group activities and attend trek briefing for next day.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/camps.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Kheerganga Trek | Overnight Camping",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Kasol to Barshaini Dam and begin your trek to Kheerganga.</li><li>The trail passes through dense forest cover, soul-soothing waterfalls and rustic Himachali villages.</li><li>After arriving in Rudranag, check-in to our campsite and have some leisure, hike to Kheerganga top and back.</li><li>In the evening, chill with your travel clan and indulge in group activities.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Manikaran Hot Springs | Depart For Delhi",
+        "description": "<ul><li>Wake up early in the morning and witness a mesmerising sunrise view on Pir Panjal range from your campsite.</li><li>Post breakfast, begin your trek down to Barshaini Dam.</li><li>Enroute Kasol, take a halt and visit the famous holy hot water springs at Manikaran Sahib Gurudwara & Shiva Temple.</li><li>In the evening, start-off your overnight journey to Delhi from Kasol.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+      "2 Nights Accommodation on Sharing Basis: 1 night in Swiss Camps/Hotel (Kasol), 1 night in Alpine Camps (Rudranag).",
+      "4 Meals: Kasol (Breakfast+Dinner), Rudranag (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 3.",
+      "Local explorations as per itinerary.",
+      "Experienced and cool Trip Captain/Trek Guide.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'mcleodganj-triund-trek',
-    title: 'Mcleodganj & Triund Trek',
-    destination: 'Himachal',
-    duration: '3 Days 2 Nights',
-    price: '₹6500',
-    originalPrice: '₹7500',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/10765320240826121342.png',
-    overview: 'A weekend trip to Mcleodganj combined with the popular day trek to Triund, offering stunning views of the Dhauladhar range.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Transfers from Delhi', 'Hotel/Camp Stay', 'Trek Guide', 'Meals on Trek'],
-    exclusions: ['Meals in Mcleodganj', 'Entry Fees'],
+    "slug": "mcleodganj-triund-trek",
+    "title": "Mcleodganj & Triund Trek",
+    "destination": "Himachal",
+    "duration": "3 Days 2 Nights",
+    "price": "₹6500",
+    "originalPrice": "₹7500",
+    "discount": "₹1,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/10765320240826121342.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39474520201021042641.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16986720201021042641.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4260820201021042641.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16675320201021042641.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30473220201021042641.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41932820201021042641.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3431920201021042641.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27833420201021042641.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35966220201021042641.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3565220201021042641.png"
+    ],
+    "overview": "<p>Experience the ultimate blend of adventure and tranquility with <strong>Mcleodganj Triund Trek Packages,</strong> an unforgettable journey through the serene hills of Himachal Pradesh. Known as the 'Little Lhasa of India', Mcleodganj is a vibrant mix of Tibetan culture, natural beauty, and spiritual calm. Situated above Dharamshala, it offers the perfect escape for adventure lovers, trekkers, and peace seekers alike.</p>\r\n<p>At <strong>Go4Explore</strong>, we bring you carefully curated <strong>Mcleodganj Triund Weekend Trip</strong> options that combine adventure, comfort, and breathtaking views. Whether you’re traveling solo, with friends, or in a group, our tours promise an experience that stays with you forever.</p>\r\n<h2>Why Choose Mcleodganj Triund Trek Packages</h2>\r\n<p>The <strong>Mcleodganj Triund Trek</strong> is one of the most popular short Himalayan treks, known for its accessibility, mesmerizing landscapes, and snow-capped mountain views. From the lively town of Mcleodganj to the serene heights of Triund Hill, this journey is perfect for first-time trekkers as well as seasoned explorers.</p>\r\n<p>The trek offers panoramic views of the <strong>Dhauladhar Range</strong> and <strong>Kangra Valley</strong>, making it a favorite among adventure enthusiasts. With Go4Explore’s well-planned Mcleodganj Triund Trek Packages, you can enjoy hassle-free arrangements including transport, camping, meals, and guided treks.</p>\r\n<h2>What Makes the Mcleodganj Triund Weekend Trip Special</h2>\r\n<p>If you’re short on time but crave mountain magic, our Mcleodganj Triund Weekend Trip is the perfect getaway. Within two to three days, you can experience the charm of Mcleodganj’s Tibetan monasteries, the thrill of trekking through oak and rhododendron forests, and the peace of camping under the stars at Triund Top.</p>\r\n<p>Whether you’re starting from Delhi, Chandigarh, or Dharamshala, Go4Explore offers flexible departure options to make your <strong>Mcleodganj Triund Trip from Delhi</strong> smooth and comfortable.</p>\r\n<h2>Best Places to Visit on Your Mcleodganj Triund Group Trip</h2>\r\n<h3>1. Bhagsunag Waterfall &amp; Temple</h3>\r\n<p>Located at an altitude of 7,000 ft, the Bhagsunag Temple and waterfall are must-visit attractions. The cascading waters surrounded by the Kangra Valley make it a refreshing stop during your <strong>Mcleodganj Triund Group Trip</strong>.</p>\r\n<h3>2. Namgyal Monastery</h3>\r\n<p>Also known as the Dalai Lama Temple, this monastery exudes peace and spiritual energy. It’s one of the largest Tibetan temples outside Tibet and a highlight of most <strong>Mcleodganj Triund Trek</strong>.</p>\r\n<h3>3. Tsuglagkhang Complex</h3>\r\n<p>Home to the Dalai Lama, this spiritual complex includes the Namgyal Monastery, Tibet Museum, and other sacred spots. Visitors love the peaceful ambiance and cultural significance.</p>\r\n<h3>4. Triund Hill</h3>\r\n<p>The star of the Mcleodganj Triund Trip from Delhi, Triund Hill offers panoramic views of Dharamshala, Bhagsu Village, and the Shivalik ranges. The trek to Triund is moderately easy and ideal for beginners.</p>\r\n<h3>5. St. John in the Wilderness Church</h3>\r\n<p>Built in 1852, this gothic-style church near Dharamshala is famous for its Belgian stained-glass windows. It adds a colonial charm to your Mcleodganj Triund Weekend Trip.</p>\r\n<h3>6. Gallu Waterfall</h3>\r\n<p>A hidden gem, Gallu Waterfall is perfect for a short detour during your trek. The trail passes through dense forests and opens up to stunning mountain views.</p>\r\n<h3>7. Tibetan Museum</h3>\r\n<p>A must-visit for those interested in Tibetan culture and history. The museum houses precious manuscripts, artifacts, and photographs reflecting Tibet’s heritage.</p>\r\n<h3>8. Tea Gardens &amp; Dharamkot</h3>\r\n<p>The lush tea gardens of Kangra Valley and the calm vibe of Dharamkot village are great for relaxing after your trek. Many travelers love to include these stops in their Mcleodganj Triund Group Trip itineraries.</p>\r\n<h2>Best Time to Book Mcleodganj Triund Trek Packages</h2>\r\n<p>Mcleodganj and Triund are open throughout the year, but the <strong>best time to visit</strong> is from <strong>March to June</strong> when the weather is pleasant and the trails are clear. If you love snowfall, plan your Mcleodganj Triund Trip from Delhi between <strong>October and February</strong>. The monsoon months (July to September) bring lush greenery but can make trekking slightly challenging.</p>\r\n<h2>Things to Do on Your Mcleodganj Triund Weekend Trip</h2>\r\n<h3>1. Cafe Hopping in Mcleodganj</h3>\r\n<p>After your trek, unwind at popular cafes like Moonpeak Espresso and Woeser Bakery. Enjoy local delicacies, scenic views, and cozy vibes an essential part of every Mcleodganj Triund Trek.</p>\r\n<h3>2. Camping at Triund Top</h3>\r\n<p>Camping at Triund Hill is the highlight of the journey. Witness a breathtaking sunset, enjoy bonfire nights, and wake up to snow-covered peaks - experiences that make your Mcleodganj Triund Group Trip unforgettable.</p>\r\n<h3>3. Shopping in Local Markets</h3>\r\n<p>Explore Kotwali Bazaar and Jogibara Road for Tibetan souvenirs, carpets, woolens, and prayer flags. Shopping here adds a cultural touch to your Mcleodganj Triund Weekend Trip.</p>\r\n<h3>4. Visit Naddi View Point</h3>\r\n<p>Don’t miss the sunset at Naddi village. The golden hues reflecting over the Dhauladhar mountains make it one of the most photogenic spots during your Mcleodganj Triund Trip from Delhi.</p>\r\n<h3>5. Indrahar Pass Trek</h3>\r\n<p>For more adventure, continue from Triund to Indrahar Pass. This trek offers challenging routes and stunning Himalayan panoramas ideal for experienced trekkers booking advanced Mcleodganj Triund Trek Packages.</p>\r\n<h3>6. Explore Norbulingka Institute</h3>\r\n<p>A center for preserving Tibetan art and culture, Norbulingka Institute showcases traditional crafts and paintings. It’s an inspiring addition to your Mcleodganj Triund Group Trip.</p>\r\n<h2>How to Reach Mcleodganj for Your Triund Trek</h2>\r\n<h3>By Air</h3>\r\n<p>The nearest airport is <strong>Kangra (Gaggal) Airport</strong>, about 20 km from Mcleodganj. From there, you can hire a cab directly to the town.</p>\r\n<h3>By Rail</h3>\r\n<p>You can reach Mcleodganj via <strong>Pathankot (90 km)</strong> or <strong>Kangra Mandir Station (25 km)</strong>. Both stations are well-connected to major cities, and taxis are easily available.</p>\r\n<h3>By Road</h3>\r\n<p>The most popular route is by road. Regular HRTC and Volvo buses operate from <strong>Delhi’s Kashmiri Gate ISBT</strong> to Mcleodganj. That’s why most travelers prefer a Mcleodganj Triund Trip from Delhi for convenience and scenic road views.</p>\r\n<h2>Why Choose Go4Explore for Your Mcleodganj Triund Trip from Delhi</h2>\r\n<p>At <strong>Go4Explore</strong>, we specialize in curating seamless travel experiences. From comfortable transport and guided treks to cozy camps and delicious meals, our Mcleodganj Triund Trek Packages are designed to give you the best adventure without any hassle. Whether you’re planning a solo escape, a Mcleodganj Triund Group Trip, or a quick Mcleodganj Triund Weekend Trip, we’ve got you covered with customizable itineraries and reliable support.</p>\r\n<h2>Plan Your Next Adventure with Go4Explore</h2>\r\n<p>So, are you ready to explore the charm of Mcleodganj and the thrill of the Triund Hill trek? Whether you are an adventure seeker, a nature enthusiast, or someone simply looking for peace in the mountains, Go4Explore ensures a journey filled with excitement, comfort, and lasting memories. Our expertly crafted Mcleodganj Triund Group Trip itineraries include guided treks, local experiences, and scenic camping adventures that let you soak in the spirit of the Himalayas. Book your Mcleodganj Triund Trip from Delhi today and discover why this trek is one of the most loved experiences in Himachal Pradesh with Go4Explore!</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Mcleodganj | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Mcleodganj and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Mcleodganj Arrival | Local Explorations & Cafe Hopping",
+        "description": "<ul><li>After arriving in Mcleodganj, check-in to our hotel, freshen-up and have some leisure.</li><li>Post leisure, we will head out to explore the Tibetan Market and visit the famous Dalai Lama Temple and Kalachakra Temple by walk.&nbsp;</li><li>Chill at local cafes in Mcleodganj (recommendations: Tibet Kitchen, Jimmy's Italian Kitchen, Coffee Talk, Moonpeak Espresso, Nick’s Italian Kitchen & Illiterati Cafe). How about trying some street-style momos in the market, doesn't that sound yummilicious?</li><li>In the evening, enjoy a warm bonfire with good music.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Mcleodganj.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Trek to Triund | Overnight Camping",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, begin your trek to Triund. The trail offers great views of Kangra Valley.&nbsp;</li><li>After reaching the Triund hilltop, cherish the majestic Himalayan beauty of Dhauladhar mountains and take some #InstPerfect pictures. Trek down towards your campsite below Triund, check-in to our camps and have some leisure.&nbsp;</li><li>In the evening, feel-free to stroll around and experience the mesmerizing sunset scene from your campsite.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in camps at Triund.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Bhagsunag Waterfall | Depart for Delhi",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, quickly start descending towards Mcleodganj from Triund.&nbsp;</li><li>Enroute, take a much-needed halt at BhagsuNag Waterfall and the very famous Shiva Cafe.</li><li>In the evening, start-off your overnight journey to Delhi.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+      "2 Nights Accommodation on Sharing Basis: 1 Night in a Hotel (Mcleodganj), 1 night in Alpine/Dome Camps (Triund).",
+      "4 Meals: Mcleodganj (Breakfast+Dinner), Triund (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 3.",
+      "Bonfire (if weather permits) & music only on any 1 Night during the stay (Mcleodganj) and local explorations as per itinerary.",
+      "Experienced and cool Trip Captain/Trek Guide.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'mcleodganj-bir',
-    title: 'Mcleodganj & Bir',
-    destination: 'Himachal',
-    duration: '3 Days 2 Nights',
-    price: '₹8000',
-    originalPrice: '₹9000',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/13283020240830082806.png',
-    overview: 'A weekend of culture and adventure. Explore Mcleodganj and then head to Bir for a paragliding experience.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Transfers from Delhi', 'Hotel/Hostel Stay', 'Sightseeing'],
-    exclusions: ['Meals', 'Paragliding Fees'],
+    "slug": "mcleodganj-bir",
+    "title": "Mcleodganj & Bir",
+    "destination": "Himachal",
+    "duration": "3 Days 2 Nights",
+    "price": "₹8000",
+    "originalPrice": "₹9000",
+    "discount": "₹1,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/13283020240830082806.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36769920241202105409.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17260320241202105409.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13398720241202105409.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23590320241202105410.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10329420241202105410.png"
+    ],
+    "overview": "<h2>About Mcleodganj Bir Billing Tour Package</h2><p><span style=\"font-weight: 700;\">Get Affordable Mcleodganj Bir Billing Package from Delhi</span></p><p>Better known as ‘Little Lhasa’ among the adventure bugs, Mcleodganj is a small city situated in the suburb of Dharamshala, Himachal Pradesh, popular for its vibrant culture, alluring beauty of hills and stunning landscapes. This hill retreat in Himachal earned its fame after 1961 when Buddhist spiritual leader, Dalai Lama started residing here and due to the place’s close relations with Tibetians, their rich culture with a blend of past British influence. Mcleodganj is also a perfect place to explore Tibetan markets. A village located in the west of Joginder Nagar Valley, prominently known as&nbsp;<a href=\"https://ncr.go4explore.com/trips/bir-billing\" target=\"_blank\" style=\"color: blue;\">Asia’s Highest Paragliding Spot</a>, Bir is a charming village and home to various Buddhist monasteries and Tibetan refugees.</p><p>Hill stations are perfect for nature lovers, enthusiast adventurers and attracts people from all walks of life.&nbsp;<span style=\"font-weight: 700;\">Mcleodganj Bir Billing Tour Package</span>&nbsp;imparts enriched experience to all kinds of adventure seekers and perfectly blends knowledge with new lessons to be learnt.</p><h3>Places to visit during Mcleodganj Bir Billing Trip</h3><ul><li><span style=\"font-weight: 700;\">Mcleodganj:</span>&nbsp;This hill station has so much to offer to all the tourists who visit, along with the locals being welcoming. Mcleodganj feeds tourists with vibrant culture and heritage of both Indians origin and Tibetans. Apart from Tibetan markets full of energy and life, one can also visit age-old Nagara architectural style Hindu temples like Masoor Rock-Cut Temples. With a touch of lush greenery, ancient monasteries and temples, the city has many local cafes that can be enjoyed and here are some recommendations of good cafes - Tibet Kitchen, Jimmy's Italian Kitchen, Coffee Talk, Moonpeak Espresso, Nick’s Italian Kitchen and Illiterati Cafe.</li><li><span style=\"font-weight: 700;\">Bhagsunag Waterfall:</span>&nbsp;Waterfalls are paradise for scenic landscapes and art, situated 7000 ft above sea level Mcleodganj waterfall also known as&nbsp;<a href=\"https://en.wikipedia.org/wiki/Bhagsu\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: blue;\">Bhagsunag Waterfall</a>&nbsp;offers lush green, freezing water, local cafes etc near Bhagsu Village. Eccentric beauty and positive vibrations from the place stands out from any other waterfall around the world.</li><li><span style=\"font-weight: 700;\">Namgyal Monastery:</span>&nbsp;This Monastery being the Dalai Lama’s Main Temple, has a perfect and energy fueled ambience. It has the capacity to amaze everyone’s eyes and with a touch of spirituality visitors get attracted towards Namgyal Monastery. Namgyal Monastery is also the largest Tibetan Temple situated outside Tibet popular for its ornamental facade. The sheer look of the temple acts as a catalyst to the spirituality this monastery serves.</li><li><span style=\"font-weight: 700;\">Bir:</span>&nbsp;Bir is also home to several Tibetan refugees who settled in the 1960's and have been living here since then.&nbsp;<a href=\"https://ncr.go4explore.com/trips/bir-billing\" style=\"color: blue;\">Bir Billing</a>&nbsp;is a masterpiece of charming and sparkling beauty landscape and apart from its beauty it is also home to a yogi aged about more than 140 years-Ashram of Visudhanand Saraswati Ji.</li><li><span style=\"font-weight: 700;\">Palpung Sherabling Monastery:</span>&nbsp;Bir has many ancient monasteries ,one of them is Palpung Sherabling Monastery which is home to tibetan culture, courses of Buddhist philosophy and regarding meditation, it schools and nurtures people interested in art of living and other forms in their heritage, learn music,dance,art and ayurveda and medicines. One who visits this monastery feels blessed and is filled with positive vibrations.</li><li><span style=\"font-weight: 700;\">Chokling Monastery:</span>&nbsp;Unlike other monasteries in this area,it was constructed in the 1960's when Tibetans migrated to India after Chinese takeover. The full name of this monastery is Pema Ewan Chokgyur Gyurme Ling, it is decorated with colorful flags all over adding on to the color infused environment of the monastery. Walls of Chokling Monastery reverberate sounds of soulful prayers and it also has a meditation area where Lamas and students usually meditate.</li></ul><h3>Things to do in Mcleodganj Bir Billing Tour</h3><ul><li><span style=\"font-weight: 700;\">Cafe Hopping in Mcleodganj:</span>&nbsp;In the evening the best thing we can do in Mcleodganj is Cafe hopping. There are many beautiful cafes in Mcleodganj which give you the stunning view of Mcleodganj &amp; also provide the delicious delicacies of the locals to eat. Some of the cafes are Moonpeak Espresso, Woeser Bakery etc.</li><li><span style=\"font-weight: 700;\">Exploring local markets:</span>&nbsp;Tibetan culture and heritage is rich and vast and would take decades to fully understand this but visiting flourishing markets in this region can help one get a glimpse of this culture and heritage. It adds to the knowledge and not only that but helps to gain new learnings and experience vastly.</li><li><span style=\"font-weight: 700;\">Visit Monasteries:</span>&nbsp;An integral part of Tibetan culture are their monasteries which contribute to major part of their heritage and explain their culture briefly to the world. Monasteries hold great importance in the region and to learn about Yogis, Lamas and Sages in real time can help a person gain experience thoroughly.</li><li><span style=\"font-weight: 700;\">Adventure sports and activities:</span>&nbsp;Bir is known for its adventure sports that can be apprehended from the fact that it is labeled as Asia’s Highest Paragliding Spot. This place inculcates activities and sports like Paragliding, Biling, cycling, mountain biking, etc.</li></ul><h3>Best time to book Mcleodganj Bir Billing Tour Package</h3><p>Hill stations are a perfect destination for trips that are taken to get a break from monotonous lifestyle or for those who are passionate about traveling, nature and adventure. Though Mcleodganj Bir Billing Tour packages won't recommend you to visit the place in monsoon as this region sees heavy amounts of rainfall during this season, especially during the months July to August.</p><ul><li><span style=\"font-weight: 700;\">Summers:</span>&nbsp;Around the month March to June proves out to be one of the best times in summers to opt for the Mcleodganj Bir Billing Tour package. Temperature at this time hovers around 25 degree celsius.</li><li><span style=\"font-weight: 700;\">Winters:</span>&nbsp;In winters during months from October to February ,enriches one’s experience as a tourist in Mcleodganj, the temperature remains somewhere near 9 degree celsius.</li></ul><h3>How to reach Mcleodganj</h3><p>To reach your desired destination once can opt for any one out of the three modes of transportation available to travel to Mcleodganj Bir Billing. Here is your answer to how:</p><ul><li><span style=\"font-weight: 700;\">Airways:</span>&nbsp;Flights from Kullu, Delhi and Chandigarh offer you flights to the nearest airport to Mcleodganj, Gaggal or Kangra Airport which is still 20 kms from Mcleodganj. From there you can take a bus to reach your favorite Mcleodganj.</li><li><span style=\"font-weight: 700;\">Railways:</span>&nbsp;From your city or nearest city take a train to Pathankot Railway station that is again around 90 kms from Mcleodganj. From the railway station you can take a cab or bus to reach your destination i.e. Mcleodganj.</li><li><span style=\"font-weight: 700;\">Roadways:</span>&nbsp;There are many ways to reach Mcleodganj, from your city you can either directly drive to this city or take a bus or cab/taxi to reach the same, it is also more convenient to travel by road from Delhi.</li></ul><h4>FAQs</h4><p><span style=\"font-weight: 700;\">1. Why is Mcleodganj famous?</span></p><p>Mcleodganj is famous because of its scenic landscapes, hills, tibetan influence in culture monasteries and it also found fame because it is home to the Buddhist Spiritual Leader, Dalai Lama.</p><p><span style=\"font-weight: 700;\">2. What to do in Mcleodganj?</span></p><p>You can do camping, trekking, adventure sports, visit monasteries, etc.</p><p><span style=\"font-weight: 700;\">3. What is the distance between Mcleodganj and Bir Billing?</span></p><p>There is a distance of 72 kms from Mcleodganj to Bir Billing by road and it will take approximately 2 hours 30 minutes to reach Bir Billing.</p><p><span style=\"font-weight: 700;\">4. What is the Best time to visit Bir Billing?</span></p><p>Best time to visit Bir Billing is during summers and winters.</p><p><span style=\"font-weight: 700;\">5. How to reach Bir Billing?</span></p><p>You can reach the nearest railways and airways to Mcleodganj then ride to Mcleodganj from where you can take either bus or car to reach Bir Billing.</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Mcleodganj | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla (near Vidhan Sabha Metro Station) and meet your Trip Captain.&nbsp;</li><li>Start an overnight journey to Mcleodganj and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Mcleodganj Arrival | Local Explorations & Cafe Hopping",
+        "description": "<ul><li>After arriving in Mcleodganj, check-in to our hotel, freshen-up and have some leisure.</li><li>Post leisure, we will head out to explore the Tibetan Market and visit the famous Dalai Lama Temple and Kalachakra Temple by walk.&nbsp;</li><li>Chill at local cafes in Mcleodganj (recommendations: Tibet Kitchen, Jimmy's Italian Kitchen, Coffee Talk, Moonpeak Espresso, Nick’s Italian Kitchen & Illiterati Cafe). How about trying some street-style momos in the market, doesn't that sound yummilicious?</li><li>In the evening, enjoy a warm bonfire with good music.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Mcleodganj.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Mcleodganj to Bir | Paragliding in Bir",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, check out from the property and drive towards Bir from Mcleodganj.</li><li>Enroute Bir, we’ll take a halt in Dharamshala to visit the HPCA Stadium.</li><li>After arriving in Bir, check-in to our property and have some leisure.</li><li>Head out for a thrilling paragliding* adventure and drive towards Billing, the take-off site. Fly down from Billing to Bir and enjoy the breathtaking view of Kangra Valley.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/campsite in Bir.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Bir Local Explorations | Depart for Delhi",
+        "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel/campsite in Bir and explore the local market, chill at quaint cafes and visit vibrant Tibetan monasteries by walk.&nbsp;</li><li>In the evening, start your overnight journey from Bir to Delhi.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper Volvo Bus or Tempo Traveler, Tempo Traveler/Cab at all other times.",
+      "2 Nights Accommodation on Sharing Basis: 1 Night in a Hotel (Mcleodganj), 1 night in Hotel/Camps (Bir).",
+      "4 Meals: Mcleodganj (Breakfast+Dinner), Bir (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 3.",
+      "Bonfire (if weather permits) & music only on any 1 Night during the stay (Mcleodganj) and local explorations as per itinerary.",
+      "Experienced and cool Trip Captain/Trek Guide.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities , room heaters or tickets, unless quoted in Inclusions.",
+      "Paragliding in Bir, GoPro video shots taken during the paragliding session and paragliding insurance.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'hampta-pass-trek',
-    title: 'Hampta Pass Trek',
-    destination: 'Himachal',
-    duration: '5 Days 4 Nights',
-    price: '₹7000',
-    imageUrl: '/cloned_media/24319820250425070422.png',
-    overview: 'A classic 5-day trek from Manali that takes you from the lush green Kullu valley to the arid desert of Lahaul.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['All Camp Stays', 'Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Transfers to/from Manali', 'Gear Rental'],
+    "slug": "hampta-pass-trek",
+    "title": "Hampta Pass Trek",
+    "destination": "Himachal",
+    "duration": "5 Days 4 Nights",
+    "price": "₹7000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/24319820250425070422.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5632420250425070350.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24445820250425070350.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16915120250425070350.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15236320250425070350.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11700020250425070350.png"
+    ],
+    "overview": "<h2>About Hampta Pass Trek Package</h2><p>Hampta pass trek falls in Himachal Pradesh. It is at the height of 14,000 ft above sea level. On one side of the trek, you will notice the lush green forests of Kullu, blooming flowers of Kullu &amp; the best view of the grassland but on the other side you will see barren mountains, arid places of Lahaul.</p><p>This trek is 25 km which will take 6 days to cover according to the Hampta pass trek package. We can put Hampta pass as the Himachal’s Valley of Flowers. So as you know Hampta pass is a two sided trek so you will start from Kullu side &amp; end in the Spiti valley.</p><h3>Quick Facts: Hampta Pass Trek with Chandratal Lake</h3><ul>    <li>The difficulty level of this Trek in Himachal Pradesh is moderate, so the people between the age range of 18 to 60 can do it.</li>    <li>The peak of this high-altitude trek near Manali is at the height of 14000 ft above sea level which is not easy to conquer.</li>    <li>This Himalayan trek contains two phases. One is where you will see the lush green forest and on the other side there will be barren mountains, arid places &amp; many more things.</li>    <li>Chandratal is the lake present in the Lahaul &amp; Spiti Valley which is blessed with enormous natural beauty.</li>    <li>Hampta Pass trek is also known as the ‘Valley of Flowers’ of <a target=\"_blank\" style=\"color:blue;\" href=\"https://go4explore.com/trip/himachal-pradesh-tour-packages\">Himachal Pradesh</a>.</li></ul><h3>Places to visit during Hampta Pass Trek</h3><p><b>Manali-</b> This buzzing town serves as the starting point of the trek. You can visit top attractions like Hadimba Temple, Manu Temple and Mall Road. The <a target=\"_blank\" style=\"color:blue;\" href=\"https://go4explore.com/trips/manali-sissu\">Manali trip</a> doesn't end here, it's also filled with adventure activities like Paragliding and Rafting.</p><p><b>Chandratal-</b> Chandratal lake is one such location that transports you to different proportions together. It is situated at an altitude of 13,000 feet and exposes different shades of blue colour. The beauty of the locality cannot be expressed in words; you can only feel it when you are present there at the moment. During the day, <a target=\"_blank\" style=\"color:blue;\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Chandra_Taal\">Chandratal lake</a> reflects the aquamarine blue of the sky, while dusk paints it with a shadow of deep emerald. Whereas upon nightfall, it turns sparkling black. Here you can also get the chance to see local herdsmen graze their herds, in the huge greens dotted with wildflowers that surround Lake Chandratal.</p><p><b>Kasol-</b> Kasol is a small hamlet nestled in the parvati valley. <a target=\"_blank\" style=\"color:blue;\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/Kasol\">Kasol</a> is renowned for its scenic beauty, breathtaking views pf himalayan peak , vibrant culture and calm atmosphere.</p><p><b>Solang Valley-</b> Solang Valley is known as the adventure hub of manali, it offers activities like snowboarding, skiing, paragliding and zorbing. The valley's stunning landscape is a sight to behold.</p><p><b>Rohtang Pass-</b> Although it's often crowded with tourists, Rohtang Pass offers breathtaking views of the surrounding mountains and valleys. It is accessible from Manali and serves as the gateway to Lahaul and Spiti valley.</p><p><b>Atal Tunnel-</b> Atal Tunnel is also known as the Rohtang Pass Tunnel. It is the country's first tunnel to have an escape tunnel with a main tunnel.</p><p><b>Gulaba-</b> Gulaba is a village renowned for its natural beauty, picturesque landscapes and serene atmosphere. It's an ideal place for adventure enthusiasts and nature lovers and photographers.</p><p><b>Vashistha-</b> Located at just a smattering of kilometers from Manali, these natural hot water springs have some medicinal properties. Many trekkers visit here before or after the trek, a must visit place.</p><p><b>Kullu-</b> Kullu is often referred as “The Valley of Gods” due to its mythological significance and breathtaking landscapes. Trekkers can explore quaint villages, ancient temples and traditional architecture.</p><h3>How to prepare for Hampta Pass Trekking?</h3><p>If you are going to do Hampta Pass trekking so you must prepare something before that so lets understand about them:</p><p><b>Physical fitness-</b> If you are going to do any trek, you must have good physical fitness because when you are going to walk from the first day to the last day. Physical Fitness is the most important thing whether you are doing a trek or not. If you have physical fitness then only the endurance can be created which will help you to cover the distance.</p><p><b>Acclimatization-</b> Hampta pass Trek is placed at high altitude, acclimatization is mainly to prevent altitude sickness. Spend a couple of days in nearby places and then start the trek,so that your body can become equal to the high altitude. You can live easily in the environment.</p><p><b>Gear and Equipment-</b> We must have all the equipment &amp; gears which are going to be useful on the trek. These equipment will help the trekker to trek safely. Some of the equipment which are used there are: Trekking Shoes, Trekking Pants, Trekking Jackets, Poncho, Trek Pole, Water Bottle, Woolen Cap, Head Torch.</p><p><b>Pack Light-</b> We must pack less so that we can move easily on the mountain. As we know that we are going to walk on a steep not plain area so we must pack a very light backpack which we can easily carry with us.</p><p><b>Hydration and Nutrition-</b> Hydration &amp; Nutrition is a must while doing any trek because when you are doing a trek you will get your body physically active in it. All the Nutrition of your body will get consumed. Hydration is also important because when you are at altitude so your body may not acclimatize according to the environment &amp; if you are not hydrated then you can have AMS (Acute Mountain Sickness). In this sickness we are not going to die but there are some problems you can have like Headache, Swelling etc.</p><h3>How difficult is the Hampta Pass Trek?</h3><p>It is a trek which is from easy to moderate. This trek is the inclusion of adventure, serenic views &amp; the lush green forest from which we walk through to go to another side of the trek. Hampta Pass trek route is the route which starts as easy &amp; goes to hard trek.</p><h3>Best time to do Hampta Pass Trek</h3><p>Beginning your Hampta Pass Trek during the months of mid-june to september is a lovely experience. This period offers the most favorable weather conditions for trekking with clear skies, mild temperature and minimal drizzle. The snow gradually starts to melt from the month of june uncovering the scenic beauty of the mountains and trails. Trekkers can see the transformation of the landscape as lush green meadows emerge amidst the towering peaks. July and August mark the peak trekking season, with the trail visible and the weather being the most steady.</p><p>Moving on to Autumn, from September to November, the ascent still maintains its allure. The weather remains stable and clear, providing superb visibility of the surrounding peaks. Temperature begins to drop but it's still comfortable for trekking, and the landscape transitions into a stunning canvas of Autumn hues.</p><p>Spring, spanning from March to May, offers another delightful window for Hampta Trek. As the weather warms and snow gradually starts to recede, the landscapes burst into life with vibrant greenery, with fewer crowds compared to summer, trekkers can enjoy a more serene experience, though there still may be lingering snow at the higher peak.</p><h3>FAQs</h3><p><b>1. What is the best time to do the Hampta Pass Trek?</b></p><p>The best time to do the <a href=\"https://go4explore.com/trips/hampta-pass-trek\" style=\"color:blue;\">Hampta Pass Trek</a> is during the months of mid June to September.</p><p><b>2. What to carry for the Hampta Pass Trek?</b></p><p>Important things to carry for the Trek are backpack, trekking shoes, clothing (windproof and waterproof jacket, insulating layers for cold temperature); snacks, water bottles, first aid kit, headlamps, flashlight, navigation tools.</p><p><b>3. What do you do on the Hampta Pass Trek?</b></p><p>River crossings are the most thrilling experience on this trek.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Drive from Manali to Jobra | Trek to Chika (2 km)",
+        "description": "<ul><li>Assemble at the boarding point in Manali - Base Camp in Aleo, freshen-up and meet your Trek Guide. Drive from Manali to Jobra and enjoy the scenic drive offering breathtaking views of Kullu valley.</li><li>Begin with your thrilling trek towards your campsite namely Chika from Jobra. From lush green forests, crossing wooden brdiges to refreshing Rani Nallah stream, the trekking trail to Chika has so much to offer.</li><li>After arriving at Chika, check-in to our scenic campsite and have some leisure. Feel free to take a stroll around your campsite and soak amidst the stunning Himalayan beauty.</li><li>Savour home-style cooked dinner and overnight stay in camps at Chika.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Trek from Chika to Balu Ka Ghera | 9 km",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, we will trek from Chika to Balu Ka Ghera. The trekking trail, accompanied by Hampta River, starts as a short meadow terrain that later turns into boulders and loose rocks. Get mesmerized by the stunning views of the mighty Dhauladhar range.</li><li>After arriving in Balu Ka Ghera, check-in to our camps and have some leisure. Feel free to take a stroll through flowery meadows and verdant Himalayan valley.</li><li>Savour home-style cooked dinner and overnight stay in camps at Balu Ka Ghera.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Trek from Balu Ka Ghera to Siagoru via Hampta Pass | 7 km",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Balu Ka Ghera to the Siagoru via Hampta Pass nestled at 14,100 ft above sea level. Entire trail is made up of boulders hence it becomes a bit trickier.</li><li>Witness the gorgeous view of Deo Tibba while traversing through the mighty Hampta Pass. Experience the stunning natural beauty, vibrant fauna and pristine glacial streams flowing through it.</li><li>Post lunch, trek down from Hampta Pass to Siagoru. The downhill trail consists of slippery soil and loose stones.</li><li>After arriving in Siagoru, check-in to our camps and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in camps at Siagoru.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Siagoru to Chatru (7 km) | Drive to Chandratal & Back",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our downhill trek from Siagoru to Chatru. Stay alert as you descend down over tricky slopes devoid of proper vegetation.</li><li>After arriving in Chatru, check-in to our camps and post lunch drive towards Chandratal - a glacial lake situated in Lahaul Valley and source of Chandra river.</li><li>Soak in the calmness of Chandratal (also known as the Moon Lake) and capture some #InstaPerfect shots. Experience the virgin natural charm of Lahaul Valley.</li><li>Post a short sightseeing tour to Chandratal, drive back to Chatru and have some leisure in our camps.</li><li>Savour home-style cooked dinner and overnight stay in camps at Chatru.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Chatru to Manali | Trek Ends",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check-out from our camps and drive from Chatru to Manali.</li><li>By afternoon, you will be dropped at Manali. If time permits, feel free to stroll around the town or chill at various theme-based cafes in Old Manali.</li><li>Trek ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Tempo Traveler/Sumo/Bolero (from Manali to Jobra & Chatru to Manali along with Chandratal day-visit).",
+      "4 Nights Accommodation on sharing basis in Tents/Dome Camps.",
+      "Meals: Breakfast+Lunch+Dinner (starting from Lunch on Day 1 till Breakfast on Day 5) with complimentary evening tea & snacks. Lunch will be provided either in packed and hot-serve format as per day & campsite location.",
+      "Camping & trekking equipments - tent, sleeping bags & mattresses, gaiters, micro spikes & rope if required).",
+      "Well qualified and experienced trek leader and support staff.",
+      "All necessary entry fees and forest permits.",
+      "First-Aid medical kit for emergencies.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Please Note: For responsible travel, carry your own leak-proof tiffin box for packed lunch.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'bhrigu-lake-trek',
-    title: 'Bhrigu Lake Trek',
-    destination: 'Himachal',
-    duration: '3 Days 2 Nights',
-    price: '₹5000',
-    imageUrl: '/cloned_media/35323020250425054013.png',
-    overview: 'A beautiful 3-day high-altitude lake trek near Manali, known for its stunning meadows.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['All Camp Stays', 'Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Transfers to/from Manali', 'Gear Rental'],
+    "slug": "bhrigu-lake-trek",
+    "title": "Bhrigu Lake Trek",
+    "destination": "Himachal",
+    "duration": "3 Days 2 Nights",
+    "price": "₹5000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/35323020250425054013.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32621320220517115226.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/754920250425060736.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36406720250425060736.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14380220250425060736.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29607820250425060737.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20407820250425060737.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13446620250425060737.png"
+    ],
+    "overview": "<h2>Bhrigu Lake Trek Overview</h2><p>Bhrigu Lake is one of the best locations for beginners to go on trek, this enchanting beauty is situated in Kullu district, Himachal Pradesh, elevated at an altitude of around 4,300 meters (14,100 feet) above sea level, Bhrigu Lake is nestled amidst the magisterial peaks of the Pir Panjal Range.</p>\r\n<p>This Bhrigu Lake trek is not only renowned for its spectacular views but also for its cultural assent. The narrative of this Lake is by far the most enticing that Maharishi Bhrigu used to meditate near the lake, a reverged figure in hindu mythology and thus it has been proclaimed sacred. Our new generation is strongly inclining towards religious beliefs so this trek would be one of the most peaceful experiences for every enthusiast, spiritual trekker.</p>\r\n<h3>Quick Facts: Bhrigu Lake Trek from Manali</h3><p>Bhrigu Lake Trek normally begins from the attractive village of Gulaba, which is easily reachable from the popular hill station of Manali. This trek is considered to be of moderate level difficulty, suitable for both beginner and experienced trekkers. This trek generally takes 3-4 days to complete depending upon the route and pace of the trekking group. Once this trek begins the excitement and anticipation of what you are going to witness is at its peak since Bhrigu Lake Trek is one of the most beautiful treks, which every trekker should go on.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Drive from Manali to Gulaba | Trek to Rola Kholi (6 km)",
+        "description": "<ul><li>Assemble at the boarding point in Manali - Base Camp in Aleo, freshen-up and meet your Trek Guide. Drive from Manali to Gulaba (chaudah mor) and enjoy the scenic drive offering breathtaking views of Kullu & Solang valleys.</li><li>Begin with your thrilling trek towards your campsite namely Rola Kholi from Gulaba. From lush green forests, majestic Himalayan peak views to refreshing glacial streams, the trekking trail to Rola Kholi has so much to offer.</li><li>After arriving at Rola Kholi, check-in to our scenic campsite and have some leisure. Feel free to take a stroll around your campsite and soak amidst the stunning Himalayan beauty. Rola Kholi is situated at the base of the dome peak of Bhrigu Lake.</li><li>Savour home-style cooked dinner and overnight stay in camps at Rola Kholi.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Trek from Rola Kholi to Brighu Lake & Back | 10 km",
+        "description": "<ul><li>Wake up early in the morning and witness an elegant sunrise over the snow capped peaks. Post breakfast, we will begin our trek from Rola Kholi to Bhrigu Lake nestled at 14,100 ft above sea level. Entire trail is made up of alpine meadows and boulders hence it becomes a bit trickier. You'll be trekking over a mountain ridge while trekking to Bhrigu Lake from Rola Kholi. While trekking you'll get to see some amazing views of Kullu & Solang valleys.</li><li>After arriving at Bhrigu Lake summit, witness the holy lake and seek blessings. Get mesmerized by the gorgeous view of Hanuman Tibba, Deo Tibba, Mt. Friendship peak, Shetidar and many more. Later, you'll begin our downhill trek to Rola Kholi.</li><li>At Rola Kholi, have some leisure and feel free to take a stroll around your campsite. Savour home-style cooked dinner and overnight stay in camps at Rola Kholi.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Descend to Gulaba (6 km) | Drive to Manali & Trek Ends",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, we will begin our downhill trek from Rola Kholi to Gulaba (chaudah mor). After reaching Gulaba, drive towards Manali.</li><li>By afternoon, you will be dropped at Manali. If time permits, feel free to stroll around the town or chill at various theme-based cafes in Old Manali.</li><li>Trek ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Tempo Traveler/Sumo/Bolero (from Manali to Gulaba and back).",
+      "2 Nights Accommodation on sharing basis in Tents/Dome Camps.",
+      "Meals: Breakfast+Lunch+Dinner (starting from Lunch on Day 1 till Breakfast on Day 3) with complimentary evening tea & snacks. Lunch will be provided either in packed and hot-serve format as per day & campsite location.",
+      "Camping & trekking equipments - tent, sleeping bags & mattresses, gaiters, micro spikes & rope if required).",
+      "Well qualified and experienced trek leader and support staff.",
+      "All necessary entry fees and forest permits.",
+      "First-Aid medical kit for emergencies.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Please Note: For responsible travel, carry your own leak-proof tiffin box for packed lunch.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'sar-pass-trek',
-    title: 'Sar Pass Trek',
-    destination: 'Himachal',
-    duration: '5 Days 4 Nights',
-    price: '₹6500',
-    imageUrl: '/cloned_media/7436420250425134236.png',
-    overview: 'A popular 5-day trek from Kasol, offering a variety of terrains from forests and meadows to a snow-covered pass.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['All Camp Stays', 'Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Transfers to/from Kasol', 'Gear Rental'],
+    "slug": "sar-pass-trek",
+    "title": "Sar Pass Trek",
+    "destination": "Himachal",
+    "duration": "5 Days 4 Nights",
+    "price": "₹6500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/7436420250425134236.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18156920250425134316.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1907620250425134316.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33621720250425134317.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14751520250425134317.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40362920250425134317.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40784520250425134317.png"
+    ],
+    "overview": "<h2>About Sar Pass Trek</h2><p><strong>Get Affordable Sar Pass Trek Packages from Go4Explore</strong></p><p>Nestled in the majestic Parvati Valley, <b>Sar Pass Trek</b> is one of the most beautiful high-altitude Himalayan treks, nestled in the state of Himachal Pradesh. This high-altitude trek starts from Kasol situated in Parvati Valley. The trek is famous for its scenic vistas, rugged terrain and vast landscapes elevated at an altitude of around 4,220 meters (13,845 feet) above sea level, providing trekkers a challenging yet enriching experience. Usually lasting between 5 to 7 days, the extent may vary depending upon the chosen route and the pace of the trekking group.</p><p>The journey starts from Kasol, a breathtaking hamlet in the Parvati Valley and winds through a series of picturesque spots. Trekkers wander through the quaint villages such as Grahan and Min Thach, gradually climbing towards higher altitudes in the mighty Himalayas. As the expedition progresses, the landscapes overhaul, offering breathtaking views of snow-covered mountains and verdant valleys.</p><p>The highlights of the trek is reaching Sar Pass itself, a mighty vantage point, offering bounty to witness soul-stirring vistas of the surrounding Himalayan range. From Sar Pass, the trek follows a different route to descent traversing through pristine hamlets like Bhandak Thach, Pulga and Nadaru, allowing trekkers to indulge themselves in the local culture and hospitality.</p><p>The best seasons to embark on this adventure are from May to June and September to October, when the weather is favorable and the trails are accessible as the timing is crucial for the Sar Pass trek, it demands a certain level of physical fitness and foregoing trekking experience.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Trek from Kasol to Grahan Village | 7 km",
+        "description": "<ul><li>Assemble at the boarding point in Kasol - Base Camp in Chojh, freshen-up and meet your Trek Guide.&nbsp;</li><li>Begin with your thrilling trek towards Grahan Village from Kasol. Make your way through coniferous forest and wooden bridges.</li><li>Grahan is a tiny Himachali village decorated with rustic wooden houses, welcoming locals and fresh aroma, nestled in the utmost serenity in the lap of the Himalayas.</li><li>After arriving at Grahan, check-in to our homestay and have some leisure. Feel free to take a stroll around your property and soak amidst the stunning Himalayan beauty.</li><li>Savour home-style cooked dinner and overnight stay in a homestay at Grahan Village.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Trek from Grahan Village to Min Thach | 9 km",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, we will trek from Grahan Village to Min Thach. Experience the sounds of nature while traversing through the lush Kanwar wildlife sanctuary.</li><li>After arriving in Min Thach, check-in to our camps and have some leisure. Feel free to stroll around and get a chance to witness the stunning glimpse of Nagaru, Chandrakhani range and Sar Top.</li><li>Savour home-style cooked dinner and overnight stay in camps at Min Thach.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Trek from Min Thach to Nagaru | 6 km",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Min Thach to Nagaru.</li><li>Treat your eyes with gorgeous landscape of Beas river, majestic Parvati Valley, Chanderkhani and Grahan Village.</li><li>After arriving in Nagaru, check-in to our camps and have some leisure. Feel free to stroll around and spend some relaxed moments in the stunning Himalayan beauty.</li><li>Savour home-style cooked dinner and overnight stay in camps at Nagaru.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Trek from Nagaru to Biskeri Thach via Sar Pass | 14 km",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Nagaru to Biskeri Thach via Sar Pass nestled at 13,850 ft above sea level.</li><li>We we will be traversing through the mighty Sar Pass, a frozen high-altitude Himalayan lake that connects Parvati Valley to Sainj Valley.</li><li>After arriving in Biskeri Thach, check-in to our camps and have some leisure. Experience a gorgeous sunset scene on a clear day and get mesmerized by the nature’s beauty.</li><li>Savour home-style cooked dinner and overnight stay in camps at Biskeri Thach.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Descend to Barshaini (10 km) | Drive to Kasol & Trek Ends",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, we will begin our downhill trek from Biskeri Thach to Barshaini. After reaching Barshaini Dam, drive towards Kasol.</li><li>By late afternoon, you will be dropped at Kasol. If time permits, feel free to stroll around the town or chill at various theme-based cafes in Kasol’s local market.</li><li>Trek ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Tempo Traveler/Sumo/Bolero (from Barshaini to Kasol).",
+      "4 Nights Accommodation on sharing basis in Tents/Dome Camps.",
+      "Meals: Breakfast+Lunch+Dinner (starting from Lunch on Day 1 till Breakfast on Day 5) with complimentary evening tea & snacks. Lunch will be provided either in packed and hot-serve format as per day & campsite location.",
+      "Camping & trekking equipments - tent, sleeping bags & mattresses, gaiters, micro spikes & rope if required).",
+      "Well qualified and experienced trek leader and support staff.",
+      "All necessary entry fees and forest permits.",
+      "First-Aid medical kit for emergencies.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Please Note: For responsible travel, carry your own leak-proof tiffin box for packed lunch.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'kareri-lake-trek',
-    title: 'Kareri Lake Trek',
-    destination: 'Himachal',
-    duration: '3 Days 2 Nights',
-    price: '₹6999',
-    imageUrl: '/cloned_media/22637220240516125326.png',
-    overview: 'A 3-day trek near Dharamshala to the pristine Kareri Lake, nestled in the Dhauladhar mountains.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['All Camp Stays', 'Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Transfers to/from Dharamshala', 'Gear Rental'],
+    "slug": "kareri-lake-trek",
+    "title": "Kareri Lake Trek",
+    "destination": "Himachal",
+    "duration": "3 Days 2 Nights",
+    "price": "₹6999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/22637220240516125326.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5363420220324110551.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34276620220324110551.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5033520220324110551.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2854920220324110551.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40678320220324110551.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10515320220324110551.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15439220220324110551.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33967520220324110551.png"
+    ],
+    "overview": "<h2>About the Kareri Lake Trek Packages</h2><p>Do you find the Himalayas attractive too? Are you an adventure seeker looking for beginner to moderate level trek? Resting in the valleys of Himachal, the Kareri Lake Trek package is exactly what you should be looking for because the beginning of any journey requires the right and accurate guidance to excel in the path.</p><p>Kareri Lake is situated near Dharamshala, which is a city fueled with energy, vibrance and spirituality. From enrouting trekking routes offering majestic views of Dhauladhars mountain range to exploring camping sites and scenic views from such majestic places, Kareri Lake Trek package will overwhelm you with everything you have dreamed of. Sleeping in tents after cozy bonfire to waking up to stunning views of mountains and pure and clean lakes will undoubtedly dazzle your eyes.</p><h3>Quick Facts: Kareri Lake Trek</h3><ul><li>Kareri Lake is nuzzled in the Dhaluadhar Himalayan range, located near the region of Himachal’s Dharamshala.</li><li>In Kareri Lake temperature is on average around 8° to 20° Celsius.</li><li>If you are an adventure seeker and trying to find a right gateaway to the trekking world and want to start off with easy trekking, Kareri Lake Trek package would be the perfect package for your find as its difficulty level lies somewhere between easy to moderate.</li><li>Kareri Lake trek package will provide you a short and quick break with 2-3 day trek trips that will help you rejuvenate your life when you come back home after Kareri Lake trek.</li><li>During the trek one will be able to spot various species of birds like pheasants, Himalayan Monal, and sometimes it is also possible to encounter mammals like musk deer, Himalayan Griffon and Himalayan Thar.</li><li>Unlike other trek trails which are very popular and remain crowded almost throughout the seasons, Kareri Lake Trek is less crowded comparatively without compromising with the joyful experience of mountains.</li></ul>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Dharamshala | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - RK Ashram Marg Metro Station/Majnu Ka Tilla/Kashmiri Gate Metro Station and meet your Trip Captain.</li><li>Start an overnight journey to Dharamshala and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Dharamshala Arrival | Reoti Village Trek",
+        "description": "<ul><li>After arriving in Dharamshala, drive to Ghera Village &amp; freshen up at a hotel. Post breakfast, drive ahead towards Nolli village and begin the trek for Kareri Lake.</li><li>The trail initially passes through dense forest along Nyund nullah (a stream originating from Kareri Lake) and then leads to a rocky terrain.</li><li>After arriving at Reoti Village, check-in to our camps and have some leisure. Treat yourself with scrumptious meal and absorb in the virgin natural beauty of Reoti - base camp for Kareri Lake trek.</li><li>In the evening, enjoy some quick snacks &amp; stargazing followed by dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Kareri Lake | Trek & Overnight Camping",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast at the hotel, leave for Kareri Lake from Reoti Village. The trail moves along Nyund nullah and offers great views of untouched Himalayan beauty.</li><li>After arriving at Kareri Lake, check-in to our camps and have some leisure. Treat yourself with scrumptious meal and pay homage at a nearby temple dedicated to Shiva &amp; Shakti. Cherish the majestic beauty of sacred Kareri Lake and take some #InstPerfect pictures.</li><li>In the evening, enjoy some quick snacks &amp; stargazing followed by dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Kareri SunriseGoals | Delhi Departure",
+        "description": "<ul><li>Wake up to a mesmerizing sunrise scene and post breakfast, quickly leave for Dharamshala from Kareri Lake. Enroute, take a small halt at Ghera Village for freshen-up and change.</li><li>In the evening, depart for Delhi from Dharamshala.</li><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Volvo/Force Traveler (from Delhi to Dharamshala & back) and Tempo Traveler/Sumo/Bolero (from Dharamshala to Dharamshala).",
+      "2 Nights Accommodation on sharing basis in Tents/Dome Camps.",
+      "Mountaineering qualified and experienced trek leader and support staff.",
+      "7 Meals: Breakfast+Lunch+Dinner (starting from Day 01 Breakfast till Day 03 Breakfast). Lunch will be provided either in packed and hot-serve format as per day & campsite location.",
+      "First-Aid medical kits for emergencies.",
+      "Camping logistics like tent, sleeping bags & mattresses.",
+      "All necessary entry fees and forest permits.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'kasol-grahan-trek',
-    title: 'Kasol Grahan Trek',
-    destination: 'Himachal',
-    duration: '3 Days 2 Nights',
-    price: '₹6200',
-    imageUrl: '/cloned_media/29944620190923114625.png',
-    overview: 'A 3-day trek from Kasol to the quaint, hidden village of Grahan in the Parvati Valley.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['All Camp/Homestay Stays', 'Meals on Trek', 'Trek Guide'],
-    exclusions: ['Transfers to/from Kasol', 'Gear Rental'],
+    "slug": "kasol-grahan-trek",
+    "title": "Kasol Grahan Trek",
+    "destination": "Himachal",
+    "duration": "3 Days 2 Nights",
+    "price": "₹6200",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/29944620190923114625.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29611220200326134633.png"
+    ],
+    "overview": "<p>Tucked in the charismatic Parvati Valley, Grahan is a hippie’s paradise surrounded by breathtaking views of mountains from all sides.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi to Kasol | Overnight Journey",
+        "description": "<ul><li>Everyone meets at the boarding point.</li><li>Overnight journey to Kasol.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Kasol Arrival | Chill Scenes & Hippie Vibes",
+        "description": "<ul>\r\n    <li>After reaching Kasol, we will check in to your hotel.</li>\r\n    <li>Get freshen-up and take a rest.</li>\r\n    <li>During the day we explore the local market of Kasol, chill along Parvati river, visit Chalal river bridge and Kasol nature park.</li>\r\n    <li>In the evening, enjoy bonfire, music and delicious evening snacks.</li>\r\n    <li>Dinner and overnight stay in Kasol.</li>\r\n</ul>"
+      },
+      {
+        "day": 3,
+        "title": "Kasol to Grahan Village Hike | Overnight Stay",
+        "description": "<ul>\r\n    <li>Wake up early, take breakfast.</li>\r\n    <li>Start the hike to Grahan Village. The trail passes through dense forest cover and beautiful Himachali villages.</li>\r\n    <li>Come back at hotel till evening.</li>\r\n    <li>Enjoy the bonfire party at the evening.</li>\r\n    <li>Dinner and overnight stay.</li>\r\n</ul>"
+      },
+      {
+        "day": 4,
+        "title": "Manikaran Sahib & Return to Delhi",
+        "description": "<ul>\r\n    <li>Wake up and enjoy the awesome sunrise view of Pir Panjal range.</li>\r\n    <li>Post breakfast, visit the Manikaran Sahib Gurudwara which is famous for its hot water spring.</li>\r\n    <li>Shopping in local market.</li>\r\n    <li>In the evening, we will leave for Delhi from Kasol.</li>\r\n</ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation from Delhi to Delhi: AC Semi-Sleeper bus/Tempo Traveler.",
+      "Accommodation on sharing basis.",
+      "Experienced and cool trip leader/trek guide.",
+      "Bonfire (if weather permits), activities.",
+      "4 Meals: Dinner (2), Breakfast (2).",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'prashar-lake-camping',
-    title: 'Prashar Lake Camping',
-    destination: 'Himachal',
-    duration: '2 Days 1 Night',
-    price: '₹2500',
-    imageUrl: '/cloned_media/39414820200819141322.png',
-    overview: 'A short 2-day trek near Mandi to the beautiful Prashar Lake, with its floating island and ancient temple.',
-    itinerary: createItinerary('2 Days 1 Night'),
-    inclusions: ['Camp Stay', 'Meals at Camp', 'Trek Guide'],
-    exclusions: ['Transfers to/from Mandi/Kullu'],
+    "slug": "prashar-lake-camping",
+    "title": "Prashar Lake Camping",
+    "destination": "Himachal",
+    "duration": "2 Days 1 Night",
+    "price": "₹2500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/39414820200819141322.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14026920200819141322.png"
+    ],
+    "overview": "<p>Nestled high in the Himalayas and holding a saintly position, the gorgeous Prashar Lake near Mandi is full of mystic charm. Blessed with an enchanting vista of mighty Dhauladhars, trek to this holy lake with deep blue waters disappoints none.</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Campsite Arrival | Evening Hike & Bonfire",
+        "description": "<ul>    <li>Check in to our scenic campsite, freshen-up, regroup for a hearty lunch and have some leisure.</li>    <li>Post lunch, we will head out for a small hike near our campsite to experience jaw dropping sunset scene.</li>    <li>In the evening, enjoy warm bonfire with good music and mouth-watering snacks.</li>    <li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Prashar Lake Trek | Departure",
+        "description": "<ul>    <li>Wake up early to witness the beautiful sunrise and post breakfast check out from our campsite.</li>    <li>Begin your trek to holy Prashar Lake and pay homage at Prashar Rishi Temple.</li>    <li>Gather for an #InstaPerfect group picture and trek back to our campsite.</li>    <li>Post lunch, start-off your return journey.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in camps (sharing basis).",
+      "Welcome drinks on arrival.",
+      "Experienced and cool trip leader/trek guide.",
+      "Bonfire (if weather permits), activities, and evening snacks.",
+      "Meals: Lunch (1), Dinner (1), Breakfast (1)."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
 
   //==========================================================================
@@ -3459,286 +4731,1651 @@ export const allTrips: Trip[] = [
     ],
   },
   {
-    slug: 'kashmir-family-getaway',
-    title: 'Kashmir Family Getaway',
-    destination: 'Kashmir',
-    duration: '6 Days 5 Nights',
-    price: '₹22300',
-    imageUrl: '/cloned_media/21146020240917132333.png',
-    overview: 'A 6-day getaway designed for families to enjoy the scenic beauty of Kashmir together.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Private Car', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "kashmir-family-getaway",
+    "title": "Kashmir Family Getaway",
+    "destination": "Kashmir",
+    "duration": "6 Days 5 Nights",
+    "price": "₹22300",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/21146020240917132333.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5234120240917132333.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15401220240917132333.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30596720240917132333.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41106720240917132333.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6002620240917132333.png"
+    ],
+    "overview": "Grab the best Kashmir Family Tour Packages with Go4Explore from Srinagar! Your loved ones can experience the splendor of Kashmir through the exotic scenery, Dal Lake, Mughal Gardens.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar | Local Sightseeing",
+        "description": "<ul><li>After arriving in Srinagar, pick-up from the airport and drive towards your accommodation.</li><li>Check-in to your cozy hotel, freshen-up and have some leisure.</li><li>Afternoon leave for a local sightseeing tour of Mughal Gardens visiting - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, check-in to the hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Gulmarg.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Gulmarg to Pahalgam | Pahalgam Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Gulmarg to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expenses) or Betaab Valley, Chandanwari and Aru Valley (by hiring a car on your own expenses).&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Pahalgam to Srinagar | Dal Lake Shikara Ride",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Pahalgam to Srinagar and check-in the houseboat in Dal Lake.&nbsp;</li><li>In the evening, enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Dal Lake in Srinagar.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Srinagar Departure | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Srinagar and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "10 Meals: 5 Breakfasts & 5 Dinners, starting from Dinner on Day 1 till Breakfast on Day 6.",
+      "5 Nights Accommodation as per Double Sharing: Hotel & Houseboat in Srinagar, Hotel in Pahalgam & Hotel in Gulmarg.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'magic-of-srinagar-family-tour-package',
-    title: 'Magic Of Srinagar Family Tour Package',
-    destination: 'Kashmir',
-    duration: '6 Days 5 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/4101220240307113619.png',
-    overview: 'A 6-day family tour focusing on the magic of Srinagar and its nearby attractions like Gulmarg and Sonmarg.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Private Car', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "magic-of-srinagar-family-tour-package",
+    "title": "Magic Of Srinagar Family Tour Package",
+    "destination": "Kashmir",
+    "duration": "6 Days 5 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/4101220240307113619.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18778620240307112225.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25769520240307112226.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41202220240307112226.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36835220240307112226.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11861720240307112226.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20215620240307112226.png"
+    ],
+    "overview": "<h2>About Srinagar Family Tour Package for 6 Days</h2><p>Experience the ethereal charm of Kashmir through our skillfully designed Srinagar family tour package that makes every moment in the valley of Kashmir joyful and unforgettable. This 5 Nights and 6 Days package will take you through some of the most alluring scenes and rich cultures of this picture-perfect state for families who are willing to unwind and cherish their journey. Begin with the somber ride of a shikara on Dal Lake. It takes you through floating gardens and enchanting houseboats.</p><p>Observe the play of light on the water at sunset, which is simply mesmerizing, Mughal Gardens: Shalimar Bagh, Nishat Bagh, and Chashme Shahi. The children get open space to run around amid an exquisitely manicured lawn amidst fragrant flowers. Such enthralling experiences as one of the highest gondola rides in the world will be a part of day trips to Gulmarg, or the 'Meadow of Flowers'.</p><p>Take a swirl through sumptuous and authentic Kashmiri cuisine for pleasure and surrender to the famous Wazwan feast, which represents a culinary journey across flavors of the place. Experience the 'real' India while browsing markets that are overflowing with beautiful handicrafts, see skilled artisans at work and shop for unique souvenirs like pashminas and papier mache. Stay in comfortable family-friendly hotels or enjoy a more unusual houseboat stay on Dal Lake.</p><p>Our <a href=\"https://go4explore.com/trip/kashmir\" style=\"color:blue;\">Kashmir Tour Package</a> includes comfortable transfers, expert local guides, and a dedicated tour manager to make this family vacation a truly smooth and unforgettable journey through paradise on earth.</p><h3>Best Places to Visit in 6 Days Srinagar Family Tour</h3><ul><li><strong>Dal Lake:</strong> Located in the center of Srinagar, it is an enormous, mountain-surrounded urban lake. In this lies its uniqueness to sustain a peculiar lifestyle: floating gardens, markets, and houseboats. Families can enjoy shikara rides and discover myriad waterways while seeing the famous floating vegetable market at dawn. The lake takes on different hues through the seasons, from green summers to misty tranquility in winters.</li><li><strong>Mughal Gardens:</strong> These Persian-inspired gardens showcase the grandeur of Mughal architecture and landscaping.</li><li><strong>Shalimar Bagh:</strong> Constructed for his Queen, Nur Jahan, by Emperor Jahangir, it has four terraces, fountains, and a central canal.</li><li><strong>Nishat Bagh:</strong> Constructed by Asaf Khan with 12 terraces representing the zodiac signs; it views Dal Lake and the Pir Panjal mountains, exquisitely.</li><li><strong>Chashme Shahi:</strong> The smallest, located around a natural spring that is said to have medicinal properties- gives a more intimate experience of the gardens.</li><li><strong>Gulmarg:</strong> A hill station turned premier ski resort, Gulmarg offers activities throughout the year. One of the highest cable cars in the world is the Gulmarg Gondola, which takes one up to Mt. Apharwat Peak. Paradise for skiers when the snow falls during winters and a paradise of lush green meadows, trekkers, golfing, and mountain biking during summers.</li><li><strong>Pahalgam:</strong> This is a picturesque vale, crisscrossed by the Lidder River. It serves as a base camp for pilgrims setting out for Amarnath Cave. Families can enjoy rides on ponies, visit the Lidder River, full of trout fish; wander in the pine forests, and picnic in Betaab Valley, which got its name from a Bollywood movie shot there.</li><li><strong>Shankaracharya Temple:</strong> Situated on top of a hill, this temple of Lord Shiva represents a wonderful blend of spiritualism and historical legend. On their way to the temple, one gets a panoramic view of Srinagar and the surrounding valley.</li><li><strong>Hazratbal Shrine:</strong> This beautiful white marble mosque enshrines a relic that is believed to be the hair of Prophet Muhammad. Its reflection in Dal Lake forms a magnificent sight during evening prayers.</li><li><strong>Pari Mahal:</strong> A Buddhist monastery that was turned into an school of astrology by Dara Shikoh is now a terraced garden with great views. The architecture is a mix of Mughal and traditional Islamic.</li><li><strong>Wular Lake:</strong> Situated amidst mountains and surrounded by mountains, Wular presents a quieter, more pristine experience than Dal Lake. It's an important habitat for birds and offers excellent opportunities for birdwatching and boating.</li><li><strong>Sonmarg:</strong> Literally, \"Meadow of Gold,\" this hill station nestled in the district of Ganderbal has so much to offer its tourists. With breathtaking landscapes and wildflower meadows, it is simply the place to be for nature lovers. Adventure activities also include trekking to the Thajiwas Glacier, rafting, and horseback riding across beautiful valleys.</li><li><strong>Awantipura Ruins:</strong> 29 km from Srinagar is the site of Avantipur, which boasts the ruins of two splendid temples constructed by King Avantivarman during the 9th century. The ruins at these sites reflect the architectural might of Kashmir. It is a serene walk amidst beautiful surroundings, ideal for history buffs and photographers alike.</li><li><strong>The Temple of Lord Vishnu:</strong> The <a href=\"https://en.wikipedia.org/wiki/Avantiswami_Temple\" style=\"color:blue;\" target=\"_blank\" rel=\"noopener noreferrer\">Avantiswami Temple</a> is the larger and better-preserved of the two temples within the Awantipura site, sharing the same dedication to Lord Vishnu. Its intricate stone carvings and other architectural details are at their highest point, which the ancient Kashmir temple architecture expressed. The style of the temple, a fusion of Greek and Indian styles, speaks for the contemporary cultural interchange.</li></ul><h3>Top Things to do in 6 Days Srinagar Family Tour</h3><p><strong>1. Shikara Ride on Dal Lake-</strong> Experience the serenity associated with a leisurely boat ride on the famous Dal Lake. Glide through the floating gardens, houseboats, and vendors of crafts as well as snacks that line the banks of this lake. Unwind on sunset rides and feast your eyes on the mountains around you.</p><p><strong>2. Houseboat Stays-</strong> Experience some hospitality in the Kashmir way by spending a night or two on a gondola-like houseboat. This boat hotel will have all the comforts, traditional food, and a different experience to imbibe the culture of Kashmir.</p><p><strong>3. Local Markets-</strong> Visit the local bustling markets and experience their cacophony like Lal Chowk; Polo View Market. Shop for traditionally made Kashmir handicrafts, which include pashmina shawls, papier-mâché items, and intricate woodwork. This will really help in experiencing the culture and getting nice souvenirs back home.</p><p><strong>4. Taste Kashmiri Cuisine-</strong> Sample local specialities such as Rogan Josh, Dum Aloo and Kahwa (Kashmiri tea). You may want to take a family cooking class on how to prepare them together.</p><p><strong>5. Dachigam National Park-</strong> Take a guided tour of this wildlife sanctuary, which is home to the endangered Hangul, the Kashmir stag. It's also an excellent opportunity for nature walks and teaching children all about conservation.</p><p><strong>6. Visit the Tulip Garden-</strong> If you happen to visit in spring, then do not miss the Indira Gandhi Memorial Tulip Garden. It's a riot of colors and a great place for family photos.</p><p><strong>7. Attend the Sufi Musical Programme-</strong> Winner of the sublime Sufi music tradition in Kashmir. Almost all hotels and cultural centers have an evening show, an excellent cultural activity for all families.</p><p><strong>8. Visit The Jamia Masjid-</strong> Walk through this old mosque that has some brilliant examples of Indo-Saracenic architecture. This will be an opportunity where you can bring home a different dimension of culture and architecture to your children.</p><p><strong>9. Heritage Walk-</strong> Follow a local guide through the old town of Srinagar for a visit to ancient wooden mosques, bustling bazaars, and historical buildings. This is an informative, participatory tour that brings the city alive.</p><p><strong>10. Sports on the Water in Dal Lake-</strong> Those with more adventurous families can enjoy water-skiing, kayaking, or paddle-boating on the famous Dal Lake. In particular, teenagers and older children are going to love it.</p><p><strong>11. Pay a Visit to the Saffron Farm-</strong> In the case of an autumn visit, one can take a journey to the saffron farm in Pampore. Processing and harvesting of this expensive spice might be amazing to adults and children alike.</p><h2>How to Reach Srinagar</h2><p><strong>By Air:</strong> Srinagar International Airport (SXR) connects with major Indian cities like Delhi, Mumbai, and Bangalore. Daily flights operate from various locations. The airport is 14 km from the city center, with taxis and prepaid cabs available for transfers.</p><p><strong>By Road:</strong> From Jammu, travel 300 km via NH44, taking 8-9 hours. From Delhi, it's an 870 km journey via NH44 and NH1, lasting 20-22 hours. Regular bus services and private taxis are available for both routes.</p><p><strong>By Train:</strong> No direct rail connectivity exists to Srinagar. The nearest major railway station is Jammu Tawi, 305 km away. From Jammu, take a taxi or bus to complete your journey to Srinagar.</p><h3>Best Time to Visit Srinagar</h3><p><strong>Spring (March to early May):</strong> Srinagar bursts into bloom with almond blossoms and tulips. The weather is pleasant, ideal for outdoor activities. The famous Tulip Garden opens, offering spectacular </p><p><strong>Summer (May to August):</strong> Peak tourist season with warm days and cool nights. Ideal for lake activities, garden visits, and trips to nearby hill stations. Temperatures range from 15°C to 30°C. Book accommodations in advance due to high demand.</p><p><strong>Autumn (September to November):</strong> A beautiful season with golden and crimson hues. The weather is crisp and comfortable. Perfect for photography, trekking, and enjoying fall foliage. Saffron fields bloom, offering a unique sight.</p><p><strong>Winter (December to February):</strong> Cold with occasional snowfall, transforming Srinagar into a winter wonderland. Dal Lake may freeze partially. Ideal for snow lovers and winter sports enthusiasts. Gulmarg becomes a popular ski resort during this time.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Jammu to Srinagar",
+        "description": "<ul>    <li>After towards to Srinagar 240 km'' journey to personnel cab 6 hour's</li>    <li>Overnight stay at Srinagar hotel</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Gulmarg",
+        "description": "<ul>    <li>Today after breakfast enjoy a picturesque drive to Gulmarg</li>    <li>The Meadow of Flowers, 2730 mts above sea level Gulmarg offers spectacular views of snow capped mountain peaks, conifer forests and green meadows</li>    <li>It is home to the highest 18 hole golf course of the world.</li>    <li>Arrive Gulmarg and transfer to hotel.</li>    <li>Enjoy a Gondola ride (Gondola ride is subject to weather conditions) to Khilanmarg (1st Phase) for a breathtaking view of Nanga Parbat.</li>    <li>One can opt for gondola cable car ride for 2nd level too on direct payment basis subject to availability and weather conditions.</li>    <li>Thereafter time is free for activities on your own.</li>    <li>You may enjoy an optional sledge ride on the snow covered slopes (on direct payment basis)</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Srinagar Sightseeing",
+        "description": "<ul>    <li>Today after breakfast enjoy a Srinagar sightseeing.</li>    <li><strong>Nishat Garden-</strong> Located on the bank of the Dal Lake, with the Zabarwan Mountains as its backdrop, Nishat Bagh is a garden of bliss.</li>    <li><strong>Shalimar Garden-</strong> The Shalimar Bagh is the celebrated royal garden of Kashmir.</li>    <li><strong>Cheshma Shahi-</strong> Cheshma Shahi ( the royal spring), also called Cheshma Shahi.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Srinagar to Sonmarg",
+        "description": "<ul>    <li>Today after an early breakfast leave for Pahalgam,the Valley of Shepherds via Srinagar.</li>    <li>Drive through saffron fields; Visit Awantipura ruins of an 1100 yr old temple of Lord Vishnu.</li>    <li>Drive through the pine forest and along the Lidder River.</li>    <li>Arrive Pahalgam and transfer to your hotel.</li>    <li>Rest of the day is at leisure.</li>    <li>Overnight stay at hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Srinagar to Pahalgam",
+        "description": "<ul>    <li>Today after an early breakfast leave for Pahalgam.</li>    <li>The Valley of Shepherds via Srinagar.</li>    <li>Drive through saffron fields; visit Awantipura ruins of an 1100 yr old temple of Lord Vishnu.</li>    <li>Drive through the pine forest and along the Lidder River.</li>    <li>Arrive Pahalgam and transfer to your hotel.</li>    <li>Rest of the day is at leisure.</li>    <li>Overnight stay at hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Departure From Pahalgam- Jammu",
+        "description": "<ul>    <li>After breakfast towards to Katra / Jammu 240 km'' journey to 6 hours.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation From Srinagar to Srinagar",
+      "Accommodation (1 Night in Houseboat, 3 Nights in Srinagar Hotel, 1 Nights in Pahalgam)",
+      "Meals- Breakfast and Dinner at the time of stay",
+      "Gypsy from Tangmarg to Gulmarg",
+      "Transport for Aru Valley"
+    ],
+    "exclusions": [
+      "Travel Insurance",
+      "Alcohol and Wine",
+      "Horse ride in Pahalgam",
+      "Taxi for Sightseeing in Pahalgam",
+      "Atv, Snowmobile, Snowcycle, Porter",
+      "Any extra meals or snacks that you purchase",
+      "Anything not mentioned in Inclusions"
+    ]
   },
   {
-    slug: 'kashmir-backpacking-summer-edition',
-    title: 'Kashmir Backpacking Summer Edition',
-    destination: 'Kashmir',
-    duration: '6 Days 5 Nights',
-    price: '₹25999',
-    imageUrl: '/cloned_media/15639520230720175534.png',
-    overview: 'Experience the lush green meadows and pleasant weather of Kashmir with this 6-day summer backpacking trip.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hostel/Guesthouse Stay', 'Houseboat Stay', 'Transfers', 'Sightseeing'],
-    exclusions: ['Flights', 'Meals', 'Gondola/Pony Rides'],
+    "slug": "kashmir-backpacking-summer-edition",
+    "title": "Kashmir Backpacking Summer Edition",
+    "destination": "Kashmir",
+    "duration": "6 Days 5 Nights",
+    "price": "₹25999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/15639520230720175534.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34349620230316074133.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11334920230720175534.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15685820230720175534.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31232420230720175534.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10180820230720175534.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9920420230720175534.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3670820230720175534.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5697820230720175534.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5734720230720175534.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31944520230720175534.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40143820230720175534.png"
+    ],
+    "overview": "<h2>About Kashmir Backpacking Summer Edition</h2><p>Find your slice of heaven this summer! Leave the usual behind and dive into a week full of stunning views and deep culture in Kashmir. Our Kashmir Backpacking Summer Edition Tour Package is your gateway to an epic mix of fun, peace, and culture in just one week.</p><p>This special 7 Days trip will guide you through Kashmir's most beautiful sights. From the calm waters of Dal Lake to the white tops of Gulmarg, each day is a new wonder. Think of waking up on a cool houseboat, walking through green fields, and floating down clear rivers. Feel the warmth of Kashmiri welcome, enjoy tasty local food, and make memories to keep forever.</p><p>Whether you love exciting adventures or quiet nature spots, this trip is for you. It mixes famous places and secret spots, giving you the real feel of Kashmir. Don't miss your chance to see one of India's most stunning areas in its summer glory. Book this specially crafted <a href=\"/trip/kashmir\" style=\"color:blue;\">Kashmir Tour Package</a> with Go4Explore now for an unforgettable journey in Kashmir!</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar Arrival | The Dal Lake Diaries",
+        "description": "<ul><li>After arriving in Srinagar, pick-up from the airport on a sharing basis (before 12pm only).</li><li>Drive towards Dal Lake, check-in to your cozy houseboat and freshen-up.</li><li>Quickly head out for local exploration in Srinagar - the famous Mughal Gardens including the Nishat Bagh (the garden of pleasure) and the Shalimar Bagh (abode of love), situated on the banks of serene Dal Lake.</li><li>In the evening, treat yourself with jaw dropping sunset scenes over the Dal Lake and feel the <em>Kashmiriyat</em> during the beautiful Shikara ride in Dal.</li><li>Return to your houseboat in Dal Lake. Savour home-style cooked dinner and overnight stay in a houseboat.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Srinagar To Gulmarg | Gondola Ride",
+        "description": "<ul>    <li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li>    <li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg and get mesmerized by the stunning landscapes from Gulmarg to Kongdoori and Marry Shoulder.</li>    <li>In the evening, check in to your hotel and have leisure.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive From Gulmarg To Pahalgam | Leisure Day",
+        "description": "<ul>\r\n\u003cli\u003eWake up to a peaceful mountain morning and post a delightful breakfast, begin your drive from Gulmarg towards Pahalgam.\u003c/li\u003e\r\n\u003cli\u003eAfter arriving in Pahalgam, check-in to our comfy hotel and have some leisure.\u003c/li\u003e\r\n\u003cli\u003eSavour home-style cooked dinner and overnight stay in a hotel.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      },
+      {
+        "day": 4,
+        "title": "Pahalgam Exploration | Drive to Srinagar",
+        "description": "<ul>\r\n    \u003cli\u003eWake up to a peaceful mountain morning and post breakfast, check out from our hotel and head out for exploration.\u003c/li\u003e\r\n    \u003cli\u003eExplore the gorgeous Betab Valley, Chandanwari and Aru Valley nestled in Pahalgam. Get awestruck by the beautiful views of mighty snow-clad mountain peaks and indulge in various adventure activities (on your own).\u003c/li\u003e\r\n    \u003cli\u003eIn the evening, drive to Srinagar.\u003c/li\u003e\r\n    \u003cli\u003eAfter arriving in Srinagar, check in to our comfy hotel and have some leisure.\u003c/li\u003e\r\n    \u003cli\u003eSavour home-style cooked dinner and overnight stay in a hotel.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      },
+      {
+        "day": 5,
+        "title": "Sonamarg Exploration | Srinagar Stay",
+        "description": "<ul>\r\n\u003cli\u003eWake up to a peaceful mountain morning and post a delightful breakfast, begin your drive from Srinagar to full day excursion of Sonamarg.\u003c/li\u003e\r\n\u003cli\u003eSonamarg is a destination with full of mesmerising views, located at the height of 8960 Ft.\u003c/li\u003e\r\n\u003cli\u003eYou may take a pony ride (at your own cost) to Thajiwas Glacier where snow remains round the year.\u003c/li\u003e\r\n\u003cli\u003eIn the evening, return to your hotel in Srinagar.\u003c/li\u003e\r\n\u003cli\u003eSavour home-style cooked dinner and overnight stay in a hotel.\u003c/li\u003e\r\n\u003c/ul\u003e"
+      },
+      {
+        "day": 6,
+        "title": "Goodbye Kashmir | Trip Ends",
+        "description": "<ul>    <li>In the morning, say goodbye to your hosts in Srinagar and leave for the airport. You’ll be dropped at Srinagar airport.</li>    <li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Srinagar to Srinagar all local travel in Force Traveler/SUVs/Sedan or similar.",
+      "5 Nights Accommodation on Triple/Dual sharing basis: Srinagar (1 night in houseboat & 2 nights in hotel), Gulmarg (1 night in hotel) and Pahalgam (1 night in hotel).",
+      "10 Meals: Srinagar (3 Dinners + 3 Breakfasts), Gulmarg (1 Dinner + 1 Breakfast) and Pahalgam (1 Dinners + 1 Breakfasts).",
+      "Gondola ride - Phase 1 in Gulmarg",
+      "Shikara ride in Srinagar.",
+      "Experienced and cool Trip Captain/Local Assistance.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes.",
+      "Medical kit to handle emergency conditions."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Airport pickup and drop facility.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Cost of snow-chained or 4*4 vehicle if needed.",
+      "Early check-in at the hotel.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'kashmir-gurez-backpacking',
-    title: 'Kashmir & Gurez Backpacking',
-    destination: 'Kashmir',
-    duration: '7 Days 6 Nights',
-    price: '₹29999',
-    imageUrl: '/cloned_media/20612420220720035621.png',
-    overview: 'A backpacking trip for the adventurous, combining mainstream Kashmir with the remote, stunning Gurez Valley.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hostel/Guesthouse Stay', 'Transfers (4x4 for Gurez)', 'Sightseeing', 'Permits'],
-    exclusions: ['Flights', 'Meals', 'Gondola/Pony Rides'],
+    "slug": "kashmir-gurez-backpacking",
+    "title": "Kashmir & Gurez Backpacking",
+    "destination": "Kashmir",
+    "duration": "7 Days 6 Nights",
+    "price": "₹29999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/20612420220720035621.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15012020220720035621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24062220220720035621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1184220220720035621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28615520220720035621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12691120220720035621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28567620220720035621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17375620220720035621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41043620220720035621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25882920220720035621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31620220720035621.png"
+    ],
+    "overview": "<h2>About Kashmir &amp; Gurez Backpacking Trip Package</h2><p>Get ready for an epic journey across the breathtaking sceneries of mountains with our specially curated Kashmir &amp; Gurez Backpacking Trip Package.This isn't just a trip but an odyssey into the Himalayas at large, where nature's grandness and ancient traditions blend together to form something beyond imagination.</p><p>Your trail of adventure kick-starts from the very essence of Kashmir, Srinagar. Day two takes you across calm waters of Dal Lake in traditional shikaras, surrounded by floating gardens and the majestic backdrop of the Pir Panjal range. Drown in the fragrance of spice markets and intricate Mughal gardens, after which we press deeper into the wild.</p><p>As we continue on to Gurez, witness the changing landscape. Towering pine forests make way for alpine meadows bursting with wildflowers. Deep in this valley flanking the Line of Control, you'll find a world preserved in amber, as the Dard-Shin people invite you into their homes to share stories and customs passed down generations in their unique culture and language.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar Arrival | Local Exploration & Shikara | Houseboat",
+        "description": "<ul>    <li>After arriving in Srinagar, drive towards Dal Lake, check-in to your cozy houseboat and freshen-up. Feel the Kashmiriyat while sipping a cup of soothing kahwa tea.</li>    <li>Quickly head out for local exploration in Srinagar - Hazratbal Dargah, Mughal Garden like Chashma Shahi, Nishad Garden. Experience the Kashmiri Wazwan and other authentic flavours of Kashmir at Khayam street or go for cafe hopping (by own).</li>    <li>In the evening, return to your houseboat in Dal Lake. Savour home-style cooked dinner and overnight stay in a houseboat.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Srinagar to Gurez via Razdan Pass I Gurez Valley Arrival",
+        "description": "<ul>    <li>Get ready to experience an untouched part of Kashmir i.e. Gurez Valley. Wake up early and post breakfast, begin your drive from Srinagar to the majestic Gurez Valley.</li>    <li>Enroute, witness the beautiful Wular Lake and visit Wular vantage park to see a 180 degree view of the lake. Drive over the mighty Razdan Pass (11,672ft) and enjoy the panoramic vista of Himalayas.</li>    <li>After arriving in Dawar (the main town of Gurez Valley), check-in to your comfy hotel/homestay and freshen up. In the evening, feel free to stroll around or you can sit along the Kishanganga river.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel/homestay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Gurez Valley Exploration | Tulail Valley",
+        "description": "<ul>    <li>Wake up to a peaceful mountain morning and post breakfast, drive towards Tulail Valley and explore the offbeat side of Kashmir you never thought of.</li>    <li>Enroute, take a halt at Husangham or Sheikhpura for a hearty lunch.</li>    <li>Go for a village walk in Tulail valley/Chakwali and drive back to Dawar.</li>    <li>After arriving in Dawar, have some leisure and chill with your travel clan.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel/homestay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Gurez to Gulmarg | Gulmarg Meadows",
+        "description": "<ul>    <li>Wake up early and post breakfast, it’s time to sign off from the pristine Gurez Valley &amp; begin your drive towards Gulmarg (World’s highest green golf course).</li>    <li>Enroute Gulmarg, we will take a halt at Tangmarg for a quick refill/lunch.</li>    <li>After arriving in Gulmarg, check-in to the hotel and freshen up. Go for a walk in the beautiful Gulmarg Meadows. Additionally, you can indulge in various adventure activities like ATV rides (on your own).</li>    <li>Enjoy the warm Kashmiri hospitality, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Gondola Cable Car Ride | Pahalgam Arrival",
+        "description": "<ul>    <li>Post breakfast, head out to experience Asia’s highest Gondola ride in Gulmarg. Get mesmerized by the stunning landscapes of Kashmir Valley. Treat yourself with a delightful lunch in the bowl-shaped Kongdori Valley at Phase 1 of Gulmarg Gondola ride.</li>    <li>Pack your bags, hop on to your vehicle and begin your drive from Gulmarg to Pahalgam.</li>    <li>After arriving in Pahalgam, check-in to the hotel and freshen up. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Betab Valley and Aru Valley",
+        "description": "<ul>    <li>Wake up to a blissful mountain morning and post breakfast, head out to explore the gorgeous Betab Valley, Chandanwari and Aru Valley nestled in Pahalgam.</li>    <li>Post exploration, drive from Pahalgam to Srinagar and check-in to the Hotel.</li>    <li>Since this is your last night in Srinagar (Kashmir), therefore make the most out of it by chilling with your travel clan at various street food options, quaint cafes and take authentic souvenirs for your loved ones back home (on your own).</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Goodbye Kashmir | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Srinagar and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Srinagar to Srinagar all local travel in Force Traveler/SUVs or similar.",
+      "6 Nights Accommodation on Sharing Basis: Houseboat (Srinagar), Hotel (Dawar, Gulmarg & Pahalgam).",
+      "12 Meals: Srinagar (2 Dinners+2 Breakfasts), Dawar (2 Dinners+2 Breakfasts) Gulmarg (1 Dinner+1 Breakfast), Pahalgam (1 Dinner+1 Breakfast).",
+      "Shikara Ride",
+      "Gondola cable car ticket",
+      "Local taxi for Betaab Valley and Aru Valley",
+      "All inner line permit if anything applicable",
+      "All local assistance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any environmental permits, entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'best-of-kashmir-3n4d',
-    title: 'Best of Kashmir 3N4D',
-    destination: 'Kashmir',
-    duration: '4 Days 3 Nights',
-    price: '₹13500',
-    imageUrl: '/cloned_media/15843420240719124212.png',
-    overview: 'A short 4-day trip to get a taste of the "Best of Kashmir," focusing on Srinagar and a day trip to Gulmarg.',
-    itinerary: createItinerary('4 Days 3 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Private Car', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "best-of-kashmir-3n4d",
+    "title": "Best of Kashmir 3N4D",
+    "destination": "Kashmir",
+    "duration": "4 Days 3 Nights",
+    "price": "₹13500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/15843420240719124212.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13049720240719124212.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34395620240719124212.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10717820240719124212.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13925720240719124212.png"
+    ],
+    "overview": "Plan Your Perfect Kashmir Getaway! Explore Srinagar in 3 nights & 4 days with Go4Explore and take in breathtaking valley views. Don't miss Dal Lake and Gulmarg for an unforgettable holiday!",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Srinagar | Local Sightseeing",
+        "description": "<ul>    <li>After arriving in Srinagar, pick-up from the airport and drive towards your accommodation.</li>    <li>Check-in to your cozy hotel, freshen-up and have some leisure.</li>    <li>Afternoon leave for a local sightseeing tour of Mughal Gardens visiting - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Sonamarg | Explore Sonmarg",
+        "description": "<ul>    <li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li>    <li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li>    <li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li>    <li>In the evening, return back to Srinagar.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Srinagar to Gulmarg |Explore Gulmarg",
+        "description": "<ul>    <li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li>    <li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li>    <li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li>    <li>In the evening, return back to Srinagar.</li>    <li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Srinagar Departure | Trip Ends",
+        "description": "<ul>    <li>In the morning and post breakfast, say goodbye to your hosts in Srinagar and leave for the airport.</li>    <li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "6 Meals: 3 Breakfasts & 3 Dinners, starting from Dinner on Day 1 till Breakfast on Day 4.",
+      "3 Nights Accommodation as per Double Sharing: Hotel/Houseboat in Srinagar.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'blissful-kashmir-holiday',
-    title: 'Blissful Kashmir Holiday',
-    destination: 'Kashmir',
-    duration: '10 Days 9 Nights',
-    price: '₹40500',
-    imageUrl: '/cloned_media/1995920240917081639.png',
-    overview: 'A 10-day blissful holiday to explore Kashmir at a relaxed pace, covering all major attractions and offbeat spots.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Private Car', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "blissful-kashmir-holiday",
+    "title": "Blissful Kashmir Holiday",
+    "destination": "Kashmir",
+    "duration": "10 Days 9 Nights",
+    "price": "₹40500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/1995920240917081639.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34391020240917081638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7940220240917081638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21562620240917081638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34610220240917081638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/101720240917081638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19348320240917081639.png"
+    ],
+    "overview": "A 10-day blissful holiday to explore Kashmir at a relaxed pace, covering all major attractions and offbeat spots. Experience the beautiful holiday in Kashmir brought to you by our 9 Nights 10 Days Package! For the best price you can visit Srinagar, Gulmarg, Pahalgam &amp; more with Go4Explore.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar | Local Sightseeing",
+        "description": "<ul><li>After arriving in Srinagar, pick-up from the airport and drive towards your accommodation.</li><li>Check-in to your cozy hotel, freshen-up and have some leisure.</li><li>Afternoon leave for a local sightseeing tour of Srinagar such as Dal Lake, Hazratbal, Jama Masjid etc.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Srinagar to Doodhpathri | Explore Doodhpathri",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Doodhpathri, known as the Valley of Milk, surrounded by the gorgeous Pir Panjal Range.</li><li>Explore this alpine valley decorated with stunning meadows, towering tress and snow clad mountains in the backdrop. You can indulge in various activities and local sightseeing of Doodhpathri through pony (on your own) or roam around the valley and interact with the locals.</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, check-in to the hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Gulmarg.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Gulmarg to Gurez Valley | Dawar Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Gulmarg towards Gurez Valley.</li><li>Get ready to experience an untouched part of Kashmir. Enroute, witness the beautiful Wular Lake &amp; Manasbal Lake, and drive over the mighty Razdan Pass (11,672ft) and enjoy the panoramic vista of Himalayas.</li><li>After arriving in Dawar (the main town of Gurez Valley), check-in to your comfy hotel/homestay and freshen up.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/homestay in Dawar (Gurez Valley).</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Gurez Valley Local Sightseeing",
+        "description": "<ul><li>Wake up early and post breakfast, head out to explore the beauty of Kashmir’s offbeat Gurez Valley.&nbsp;</li><li>Visit the prominent places of Gurez Valley such as Habba Khatoon Peak, Khandyal Top, Kishanganga Dam and River and Chowran Border Village.</li><li>In the evening, return back to Dawar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/homestay in Dawar (Gurez Valley).</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Gurez Valley to Srinagar | Dal Lake Shikara Ride",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Gurez Valley towards Srinagar via Manglam, Sonawari and the Mahasbal which remains famous as the bread basket of Kashmir.</li><li>After arriving in Srinagar, check-in to your cozy houseboat and head out for a local sightseeing tour of Mughal Gardens visiting - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>In the evening, enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Drive from Srinagar to Pahalgam | Explore Pahalgam",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Srinagar to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Pahalgam Local Sightseeing",
+        "description": "<ul><li>Wake up early and post breakfast, head out for local exploration of Pahalgam.</li><li>We’ll visit the scenic and rocky valleys of Chandanwadi, the astounding Snow Point which is situated around 14 kms from Pahalgam and enjoy a pony ride (on your own).</li><li>Drive back to Pahalgam and post some leisure, take a walk through the dense pine forest alongside the pristine Lidder River and extend your Pahalgam experience further, soaking in the stunning natural beauty of Kashmir.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Drive from Pahalgam to Srinagar | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Pahalgam and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "18 Meals: 9 Breakfasts & 9 Dinners, starting from Dinner on Day 1 till Breakfast on Day 10.",
+      "9 Nights Accommodation as per Double Sharing: Hotel & Houseboat in Srinagar, Hotel in Gulmarg, Hotel/Homestay in Dawar (Gurez) and Hotel in Pahalgam.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'picturesque-kashmir-vacation',
-    title: 'Picturesque Kashmir Vacation',
-    destination: 'Kashmir',
-    duration: '5 Days 4 Nights',
-    price: '₹18800',
-    imageUrl: '/cloned_media/38438020240917113910.png',
-    overview: 'A 5-day vacation designed to capture the most picturesque sights of Kashmir.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Private Car', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "picturesque-kashmir-vacation",
+    "title": "Picturesque Kashmir Vacation",
+    "destination": "Kashmir",
+    "duration": "5 Days 4 Nights",
+    "price": "₹18800",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/38438020240917113910.png",
+    "gallery": null,
+    "overview": "A 5-day vacation designed to capture the most picturesque sights of Kashmir. Book the picturesque Kashmir vacation itinerary with Go4Explore. Enjoy a 4 Nights 5 Days trip from Srinagar, exploring serene lakes, lush valleys, and breathtaking landscapes experience.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Srinagar | Local Sightseeing",
+        "description": "<ul><li>After arriving in Srinagar, pick-up from the airport and drive towards your accommodation.</li><li>Check-in to your cozy hotel, freshen-up and have some leisure.</li><li>Afternoon leave for a local sightseeing tour of Mughal Gardens visiting - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg.</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, check-in to the hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Gulmarg.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Gulmarg to Pahalgam | Pahalgam Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Gulmarg to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expenses) or Betaab Valley, Chandanwari and Aru Valley (by hiring a car on your own expenses).&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Pahalgam to Srinagar | Dal Lake Shikara Ride",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Pahalgam to Srinagar and check-in the houseboat in Dal Lake.&nbsp;</li><li>In the evening, enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Dal Lake in Srinagar.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Srinagar Departure | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Srinagar and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "8 Meals: 4 Breakfasts & 4 Dinners, starting from Dinner on Day 1 till Breakfast on Day 8.",
+      "4 Nights Accommodation as per Double Sharing: Hotel & Houseboat in Srinagar, Hotel in Pahalgam & Hotel in Gulmarg.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'unforgettable-kashmir-paradise-tour',
-    title: 'Unforgettable Kashmir Paradise Tour',
-    destination: 'Kashmir',
-    duration: '6 Days 5 Nights',
-    price: '₹24500',
-    imageUrl: '/cloned_media/23171220240918075456.png',
-    overview: 'A 6-day tour to create unforgettable memories in the paradise of Kashmir.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Private Car', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "unforgettable-kashmir-paradise-tour",
+    "title": "Unforgettable Kashmir Paradise Tour",
+    "destination": "Kashmir",
+    "duration": "6 Days 5 Nights",
+    "price": "₹24500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/23171220240918075456.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2081920240918075455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40103820240918075455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13879320240918075455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34356220240918075455.png"
+    ],
+    "overview": "Book the Unforgettable Kashmir Paradise Tour with Go4Explore! Embark on a 6-day journey starting from Jammu, exploring peaceful towns, majestic snow-clad peaks, and breathtaking natural beauty. A 6-day tour to create unforgettable memories in the paradise of Kashmir.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Drive from Jammu to Srinagar | Srinagar Arrival",
+        "description": "<ul><li>Pick up from Jammu Airport/Railway Station and drive towards Srinagar, enjoying a scenic drive of lush mountains.</li><li>Reach Srinagar, check-in to your cozy hotel and freshen-up.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Srinagar Local Sightseeing",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, head out for local sightseeing tour in Srinagar.</li><li>Visit Hazratbal, Jama Masjid, the Mughal Gardens - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>In the evening, check-in to your cozy houseboat and enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Srinagar to Pahalgam | Explore Pahalgam",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Srinagar to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.&nbsp;</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expense) or Betaab Valley, Chandanwari and Aru Valley (by hiring a car on your own expense).&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Pahalgam to Jammu | Trip Ends",
+        "description": "<ul><li>In the morning and post breakfast, say goodbye to your hosts in Pahalgam and drive towards Jammu.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "10 Meals: 5 Breakfasts & 5 Dinners, starting from Dinner on Day 1 till Breakfast on Day 6.",
+      "5 Nights Accommodation as per Double Sharing: Hotel & Houseboat in Srinagar and Hotel in Pahalgam.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'captivating-kashmir-tour',
-    title: 'Captivating Kashmir Tour',
-    destination: 'Kashmir',
-    duration: '7 Days 6 Nights',
-    price: '₹27000',
-    imageUrl: '/cloned_media/37202720240918104911.png',
-    overview: 'A 7-day tour to captivate your senses with the beauty of Srinagar, Sonmarg, Gulmarg, and Pahalgam.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Private Car', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "captivating-kashmir-tour",
+    "title": "Captivating Kashmir Tour",
+    "destination": "Kashmir",
+    "duration": "7 Days 6 Nights",
+    "price": "₹27000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/37202720240918104911.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30893620240918104911.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20758720240918104911.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18669820240918104911.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40281620240918104911.png"
+    ],
+    "overview": "Book the Srinagar tour of Kashmir for 6 days and 7 nights with Go4Explore and enjoy the magnificence of magical tours to Gulmarg, Pahalgam, Sonmarg and other. Enquire Now. A 7-day tour to captivate your senses with the beauty of Srinagar, Sonmarg, Gulmarg, and Pahalgam.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar | Local Sightseeing",
+        "description": "<ul><li>After arriving in Srinagar, pick-up from the airport and drive towards your accommodation.</li><li>Check-in to your cozy hotel, freshen-up and have some leisure.</li><li>Afternoon leave for a local sightseeing tour of Mughal Gardens visiting - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Srinagar to Doodhpathri | Explore Doodhpathri",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Doodhpathri, known as the Valley of Milk, surrounded by the gorgeous Pir Panjal Range.</li><li>Explore this alpine valley decorated with stunning meadows, towering tress and snow clad mountains in the backdrop. You can indulge in various activities and local sightseeing of Doodhpathri through pony (on your own) or roam around the valley and interact with the locals.</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Srinagar to Pahalgam | Explore Pahalgam",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Gulmarg to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expenses) or Betaab Valley, Chandanwari and Aru Valley (by hiring a car on your own expenses).&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Pahalgam to Srinagar | Dal Lake Shikara Ride",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Pahalgam to Srinagar and check-in the houseboat in Dal Lake.&nbsp;</li><li>In the evening, enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Dal Lake in Srinagar.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Srinagar Departure | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Srinagar and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "12 Meals: 6 Breakfasts & 6 Dinners, starting from Dinner on Day 1 till Breakfast on Day 7.",
+      "6 Nights Accommodation as per Double Sharing: Hotel & Houseboat in Srinagar and Hotel in Pahalgam.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'majestic-kashmir-holiday',
-    title: 'Majestic Kashmir Holiday',
-    destination: 'Kashmir',
-    duration: '7 Days 6 Nights',
-    price: '₹25500',
-    imageUrl: '/cloned_media/35972520240918133537.png',
-    overview: 'A 7-day holiday to experience the majestic landscapes and culture of Kashmir.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Private Car', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "majestic-kashmir-holiday",
+    "title": "Majestic Kashmir Holiday",
+    "destination": "Kashmir",
+    "duration": "7 Days 6 Nights",
+    "price": "₹25500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/35972520240918133537.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39862020240918133536.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9803120240918133536.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30172720240918133536.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36549920240918133536.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29189620240918133536.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1149620240918133537.png"
+    ],
+    "overview": "Go on a perfect group holiday with Go4Explore’s Majestic Kashmir package! Experience paradise with scenic valleys, serene lakes, and snow-capped peaks for an unforgettable adventure. A 7-day holiday to experience the majestic landscapes and culture of Kashmir.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar | Local Sightseeing",
+        "description": "<ul><li>After arriving in Srinagar, pick-up from the airport and drive towards your accommodation.</li><li>Check-in to your cozy hotel, freshen-up and have some leisure.</li><li>Afternoon leave for a local sightseeing tour of Mughal Gardens visiting - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Srinagar to Pahalgam | Explore Pahalgam",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Srinagar to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expenses) or Betaab Valley, and Aru Valley (by hiring a car on your own expenses).&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Pahalgam Local Sightseeing",
+        "description": "<ul><li>Wake up early and post breakfast, head out for local exploration of Pahalgam.</li><li>We’ll visit the scenic and rocky valleys of Chandanwadi, the astounding Snow Point which is situated around 14 kms from Pahalgam and enjoy a pony ride (on your own).</li><li>Drive back to Pahalgam and post some leisure, take a walk through the dense pine forest alongside the pristine Lidder River and extend your Pahalgam experience further, soaking in the stunning natural beauty of Kashmir.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Pahalgam to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Pahalgam towards Gulmarg (World’s highest green golf course). The drive to Gulmarg will keep you enthralled with the astounding views of the Nanga Parbat; you can also catch the panoramic views of Gulmarg from Tangmarg.&nbsp;</li><li>After arriving in Gulmarg, embark on a short yet fun-filled hike to Khilanmarg. This hike will treat you with the pristine and enchanting beauty of the meadow of flowers. Experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, check-in to the hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Gulmarg.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Gulmarg to Srinagar | Explore Srinagar",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Gulmarg towards Srinagar.</li><li>After arriving in Srinagar, check-in to your cozy hotel and head out for a local sightseeing tour of Pari Mahal or the ‘Palace of the Fairies’ and Shankaracharya Temple. The exploratory tour will end with your visit to the scenic Tulip Garden and the Handicraft Emporium, where you will get to witness and explore the various arts and cultures of Jammu and Kashmir.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Srinagar Departure | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Srinagar and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "12 Meals: 6 Breakfasts & 6 Dinners, starting from Dinner on Day 1 till Breakfast on Day 7.",
+      "6 Nights Accommodation as per Double Sharing: Hotel in Srinagar, Hotel in Gulmarg and Hotel in Pahalgam.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'charismatic-kashmir-tour',
-    title: 'Charismatic Kashmir Tour',
-    destination: 'Kashmir',
-    duration: '7 Days 6 Nights',
-    price: '₹28000',
-    imageUrl: '/cloned_media/36667020240919121751.png',
-    overview: 'A 7-day tour exploring the charismatic beauty of Kashmir, from its gardens to its valleys.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Private Car', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "charismatic-kashmir-tour",
+    "title": "Charismatic Kashmir Tour",
+    "destination": "Kashmir",
+    "duration": "7 Days 6 Nights",
+    "price": "₹28000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/36667020240919121751.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21647720240919121751.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37340320240919121751.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33374120240919121751.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40493320240919121751.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36788420240919121751.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6010020240919121751.png"
+    ],
+    "overview": "A 7-day tour exploring the charismatic beauty of Kashmir, from its gardens to its valleys. Planning your stay in Kashmir Tur with Go4Explore. Avail of a Shikara ride with the awe-inspiring Dal Lake and discover the spellbinding beauty of your Kashmir Holiday Package.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar | Local Sightseeing",
+        "description": "<ul><li>After arriving in Srinagar, pick-up from the airport and drive towards your accommodation.</li><li>Check-in to your cozy hotel, freshen-up and have some leisure.</li><li>Afternoon leave for a local sightseeing tour of Mughal Gardens visiting - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Pahalgam | Explore Pahalgam",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Srinagar to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expenses) or Betaab Valley, and Aru Valley (by hiring a car on your own expenses).&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Pahalgam Local Sightseeing",
+        "description": "<ul><li>Wake up early and post breakfast, head out for local exploration of Pahalgam.</li><li>We’ll visit the scenic and rocky valleys of Chandanwadi, the astounding Snow Point which is situated around 14 kms from Pahalgam and enjoy a pony ride (on your own).</li><li>Drive back to Pahalgam and post some leisure, take a walk through the dense pine forest alongside the pristine Lidder River and extend your Pahalgam experience further, soaking in the stunning natural beauty of Kashmir.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Pahalgam to Srinagar | Dal Lake Shikara Ride",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Pahalgam to Srinagar and check-in the houseboat in Dal Lake.&nbsp;</li><li>In the evening, enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Dal Lake in Srinagar.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Srinagar Departure | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Srinagar and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "12 Meals: 6 Breakfasts & 6 Dinners, starting from Dinner on Day 1 till Breakfast on Day 7.",
+      "6 Nights Accommodation as per Double Sharing: Hotel & Houseboat in Srinagar and Hotel in Pahalgam.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'delightful-kashmir-getaway',
-    title: 'Delightful Kashmir Getaway',
-    destination: 'Kashmir',
-    duration: '8 Days 7 Nights',
-    price: '₹29000',
-    imageUrl: '/cloned_media/3588420240920071738.png',
-    overview: 'An 8-day delightful getaway to explore Kashmir thoroughly, including all major tourist spots.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Private Car', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "delightful-kashmir-getaway",
+    "title": "Delightful Kashmir Getaway",
+    "destination": "Kashmir",
+    "duration": "8 Days 7 Nights",
+    "price": "₹29000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/3588420240920071738.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5279920240920071737.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23148820240920071738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18516820240920071738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29555920240920071738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12614120240920071738.png"
+    ],
+    "overview": "An 8-day delightful getaway to explore Kashmir thoroughly, including all major tourist spots. Experience the beauty of the Delightful Kashmir Getaway Trip from Srinagar! Join an exciting group tour to explore Gulmarg, Pahalgam, Sonmarg, and Dal Lake with Go4Explore.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar | Local Sightseeing",
+        "description": "<ul><li>After arriving in Srinagar, pick-up from the airport and drive towards your accommodation.</li><li>Check-in to your cozy hotel, freshen-up and have some leisure.</li><li>Afternoon leave for a local sightseeing tour of Mughal Gardens visiting - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, check-in to the hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Gulmarg.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Gulmarg Local Sightseeing",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, begin your local sightseeing tour of Gulmarg.</li><li>When in Gulmarg, indulge in adventure and fun-filled activities like skiing, ice biking etc.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Gulmarg.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Gulmarg to Pahalgam | Pahalgam Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Srinagar to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Pahalgam Local Sightseeing",
+        "description": "<ul><li>Wake up early and post breakfast, head out for local exploration of Pahalgam.</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expenses) or Betaab Valley, and Aru Valley (by hiring a car on your own expenses).</li><li>We’ll visit the scenic and rocky valleys of Chandanwadi, the astounding Snow Point which is situated around 14 kms from Pahalgam and enjoy a pony ride (on your own).</li><li>Drive back to Pahalgam and post some leisure, take a walk through the dense pine forest alongside the pristine Lidder River and extend your Pahalgam experience further, soaking in the stunning natural beauty of Kashmir.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pahalgam to Srinagar | Dal Lake Shikara Ride",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Pahalgam to Srinagar and check-in the houseboat in Dal Lake.&nbsp;</li><li>In the evening, enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Dal Lake in Srinagar.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Srinagar Departure | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Srinagar and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "14 Meals: 7 Breakfasts & 7 Dinners, starting from Dinner on Day 1 till Breakfast on Day 8.",
+      "7 Nights Accommodation as per Double Sharing: Hotel & Houseboat in Srinagar, Hotel in Gulmarg and Hotel in Pahalgam.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'kashmir-with-vaishno-devi-temple-tour',
-    title: 'Kashmir with Vaishno Devi Temple Tour',
-    destination: 'Kashmir',
-    duration: '8 Days 7 Nights',
-    price: '₹30000',
-    imageUrl: '/cloned_media/26533720240917110529.png',
-    overview: 'A tour combining the spiritual journey to Vaishno Devi with the scenic beauty of the Kashmir Valley.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Transfers', 'Helicopter Tickets (optional)'],
-    exclusions: ['Flights', 'Meals', 'Gondola/Pony Rides'],
+    "slug": "kashmir-with-vaishno-devi-temple-tour",
+    "title": "Kashmir with Vaishno Devi Temple Tour",
+    "destination": "Kashmir",
+    "duration": "8 Days 7 Nights",
+    "price": "₹30000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/26533720240917110529.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25990220240917110528.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37168320240917110528.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34140420240917110528.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/308820240917110528.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21448120240917110529.png"
+    ],
+    "overview": "A tour combining the spiritual journey to Vaishno Devi with the scenic beauty of the Kashmir Valley. Book a unique Kashmir trip with Go4Explore, including a Vaishno Devi tour! Experience divine blessings, serene lakes & snow-capped mountains.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Jammu | Drive from Jammu to Katra",
+        "description": "<ul><li>Pick up from Jammu Airport/Railway Station and drive towards Katra, enjoying a scenic drive of lush mountains.</li><li>After arriving in Katra, check-in to our hotel and spend the rest of the day at leisure.</li><li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Yatra to Mata Vaishno Devi Bhawan | Back to Katra",
+        "description": "<ul><li>Wake up early and post breakfast, proceed for yatra towards Mata Vaishno Devi Bhawan from Katra.</li><li>This holy yatra involves a trek of nearly 12 kms from the base camp at Katra known as Ban Ganga. One can also reach Mata Vaishno Devi Bhawan by hiring Ponies/Palkis/ Helicopter (at your own cost). After reaching the holy shrine of Mata Vaishno Devi, seek blessings at the Bhawan.</li><li>If time permits, visit Bhairav Temple &amp; return back to Katra in the evening.</li><li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Katra to Srinagar | Srinagar Arrival",
+        "description": "<ul><li>Wake up early and post brekfast, start your journey towards Srinagar.</li><li>Reach Srinagar, check-in to your cozy hotel and freshen-up.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Srinagar to Pahalgam | Explore Pahalgam",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Srinagar to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.&nbsp;</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expense) or Betaab Valley, Chandanwari and Aru Valley (by hiring a car on your own expense).&nbsp;</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Srinagar Local Sightseeing",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, head out for local sightseeing tour in Srinagar.</li><li>Visit Hazratbal, Jama Masjid, the Mughal Gardens - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>In the evening, check-in to your cozy houseboat and enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Srinagar Departure | Trip Ends",
+        "description": "<ul><li>In the morning and post breakfast, say goodbye to your hosts in Srinagar and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "14 Meals: 7 Breakfasts & 7 Dinners, starting from Dinner on Day 1 till Breakfast on Day 8.",
+      "7 Nights Accommodation as per Double Sharing: Hotel in Katra and Hotel & Houseboat in Srinagar.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Cable Car/Pony Ride/Pitthu/Mule services on the yatra track at Shri Mata Vaishno Devi Shrine.",
+      "Transfer from Banganga to Vaishno Devi Temple.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'vaishno-devi-shiv-khori-spiritual-tour-3n4d',
-    title: 'Vaishno Devi & Shiv Khori Spiritual Tour 3N4D',
-    destination: 'Kashmir',
-    duration: '4 Days 3 Nights',
-    price: '₹16000',
-    imageUrl: '/cloned_media/26604720240720075657.png',
-    overview: 'A 4-day spiritual tour focused on the holy shrines of Vaishno Devi and Shiv Khori.',
-    itinerary: createItinerary('4 Days 3 Nights'),
-    inclusions: ['Hotel Stay', 'Transfers from Jammu', 'Helicopter Tickets (optional)'],
-    exclusions: ['Flights', 'Meals'],
+    "slug": "vaishno-devi-shiv-khori-spiritual-tour-3n4d",
+    "title": "Vaishno Devi & Shiv Khori Spiritual Tour 3N4D",
+    "destination": "Kashmir",
+    "duration": "4 Days 3 Nights",
+    "price": "₹16000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/26604720240720075657.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7513220240720075657.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33165520240720075657.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9179520240720075657.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25546320240720075657.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5822120240720075657.png"
+    ],
+    "overview": "A 4-day spiritual tour focused on the holy shrines of **Vaishno Devi** and **Shiv Khori**. Embark on the Vaishno Devi & Shiv Khori spiritual trek with Go4Explore! Join us for a 4-day journey from Jammu, seeking divine blessings, exploring ancient caves, and peaceful spirituality.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Jammu | Drive from Jammu to Katra",
+        "description": "<ul>    <li>Pick up from Jammu Airport/Railway Station and drive towards Katra, enjoying a scenic drive of lush mountains.</li>    <li>After arriving in Katra, check-in to our hotel and spend the rest of the day at leisure.</li>    <li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Yatra to Mata Vaishno Devi | Bhawan | Back to Katra",
+        "description": "<ul>    <li>Wake up early and post breakfast, proceed for yatra towards Mata Vaishno Devi Bhawan from Katra.</li>    <li>This holy yatra involves a trek of nearly 12 kms from the base camp at Katra known as Ban Ganga. One can also reach Mata Vaishno Devi Bhawan by hiring Ponies/Palkis/ Helicopter (at your own cost). After reaching the holy shrine of Mata Vaishno Devi, seek blessings at the Bhawan.</li>    <li>If time permits, visit Bhairav Temple &amp; return back to Katra in the evening.</li>    <li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Katra to Shiv Khori | Back to Katra",
+        "description": "<ul>    <li>Wake up and post breakfast, proceed for a day visit to Shiv Khori situated at around 70 kms from Katra.</li>    <li>After arriving at Shiv Khori, go inside the natural cave that measures nearly half a kilometer in length and seek blessings from Lord Shiv in the form of a 4 feet high naturally formed Shiva-lingam at the heart of the Sanctum Sanctorum.</li>    <li>Have darshan of the holy Shiv-lingum and drive back to Katra by the evening. If time permits, enroute, visit Siar Baba waterfalls, Baba Dhansal &amp; Nau Devis.</li>    <li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Katra to Jammu | Trip Ends",
+        "description": "<ul>    <li>Wake up and post breakfast, check-out from the hotel and proceed towards Jammu Airport/Railway Station from Katra.</li>    <li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "6 Meals: 3 Breakfasts & 3 Dinners, starting from Dinner on Day 1 till Breakfast on Day 4.",
+      "2 Nights Accommodation as per Double Sharing: Hotel in Katra.",
+      "Pick-up and Drop facility as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Cable Car/Pony Ride/Pitthu/Mule services on the yatra track at Shri Mata Vaishno Devi Shrine.",
+      "Transfer from Banganga to Vaishno Devi Temple.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'kashmir-holiday-with-vaishnodevi-darshan',
-    title: 'Kashmir Holiday with Vaishnodevi Darshan',
-    destination: 'Kashmir',
-    duration: '9 Days 8 Nights',
-    price: '₹36000',
-    imageUrl: '/cloned_media/2458920240920103415.png',
-    overview: 'A 9-day holiday package that includes the Vaishno Devi Darshan followed by a relaxing tour of Kashmir.',
-    itinerary: createItinerary('9 Days 8 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Transfers', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "kashmir-holiday-with-vaishnodevi-darshan",
+    "title": "Kashmir Holiday with Vaishnodevi Darshan",
+    "destination": "Kashmir",
+    "duration": "9 Days 8 Nights",
+    "price": "₹36000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/2458920240920103415.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3162220240920103414.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29101920240920103414.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12563520240920103414.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2052620240920103415.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38509420240920103415.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40150420240920103415.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8745920240920103415.png"
+    ],
+    "overview": "A 9-day holiday package that includes the **Vaishno Devi Darshan** followed by a relaxing tour of Kashmir. Experience Kashmir’s breathtaking landscapes, the spiritual essence of Vaishno Devi, and the beautiful Kashmir Valley.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Jammu | Drive from Jammu to Katra",
+        "description": "<ul><li>Pick up from Jammu Airport/Railway Station and drive towards Katra, enjoying a scenic drive of lush mountains.</li><li>After arriving in Katra, check-in to our hotel and spend the rest of the day at leisure.</li><li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Yatra to Mata Vaishno Devi Bhawan | Back to Katra",
+        "description": "<ul><li>Wake up early and post breakfast, proceed for yatra towards Mata Vaishno Devi Bhawan from Katra.</li><li>This holy yatra involves a trek of nearly 12 kms from the base camp at Katra known as Ban Ganga. One can also reach Mata Vaishno Devi Bhawan by hiring Ponies/Palkis/ Helicopter (at your own cost). After reaching the holy shrine of Mata Vaishno Devi, seek blessings at the Bhawan.</li><li>If time permits, visit Bhairav Temple &amp; return back to Katra in the evening.</li><li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Katra to Srinagar | Srinagar Arrival",
+        "description": "<ul><li>Wake up early and post brekfast, start your journey towards Srinagar.</li><li>Reach Srinagar, check-in to your cozy hotel and freshen-up.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Srinagar Local Sightseeing",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, head out for local sightseeing tour in Srinagar.</li><li>Visit Hazratbal, Jama Masjid, the Mughal Gardens - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>In the evening, check-in to your cozy houseboat and enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Srinagar to Pahalgam | Explore Pahalgam",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Srinagar to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expenses) or Betaab Valley, and Aru Valley (by hiring a car on your own expenses).&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Pahalgam Local Sightseeing",
+        "description": "<ul><li>Wake up early and post breakfast, head out for local exploration of Pahalgam.</li><li>We’ll visit the scenic and rocky valleys of Chandanwadi, the astounding Snow Point which is situated around 14 kms from Pahalgam and enjoy a pony ride (on your own).</li><li>Drive back to Pahalgam and post some leisure, take a walk through the dense pine forest alongside the pristine Lidder River and extend your Pahalgam experience further, soaking in the stunning natural beauty of Kashmir.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Drive from Pahalgam to Jammu | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Jammu and leave for the airport/Railway.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "16 Meals: 8 Breakfasts & 8 Dinners, starting from Dinner on Day 1 till Breakfast on Day 9.",
+      "8 Nights Accommodation as per Double Sharing: Hotel in Katra, Hotel & Houseboat in Srinagar and Hotel in Pahalgam.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Cable Car/Pony Ride/Pitthu/Mule services on the yatra track at Shri Mata Vaishno Devi Shrine.",
+      "Transfer from Banganga to Vaishno Devi Temple.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'vaishnodevi-with-delightful-kashmir-tour',
-    title: 'Vaishnodevi with Delightful Kashmir Tour',
-    destination: 'Kashmir',
-    duration: '10 Days 9 Nights',
-    price: '₹41500',
-    imageUrl: '/cloned_media/32312720240920122225.png',
-    overview: 'A 10-day tour combining the Vaishno Devi pilgrimage with a delightful and comprehensive tour of Kashmir.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Transfers', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "vaishnodevi-with-delightful-kashmir-tour",
+    "title": "Vaishnodevi with Delightful Kashmir Tour",
+    "destination": "Kashmir",
+    "duration": "10 Days 9 Nights",
+    "price": "₹41500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/32312720240920122225.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23074520240920122225.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15652220240920122225.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24997320240920122225.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37238020240920122225.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5130320240920122225.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6524820240920122225.png"
+    ],
+    "overview": "A 10-day tour combining the Vaishno Devi pilgrimage with a delightful and comprehensive tour of Kashmir. Book the Vaishno Devi with Delightful Kashmir Tour with Go4Explore. Discover Srinagar and Jammu, say your prayers, and mesmerize yourself in the beauty of Kashmir.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar | Local Sightseeing",
+        "description": "<ul><li>After arriving in Srinagar, pick-up from the airport and drive towards your accommodation.</li><li>Check-in to your cozy hotel, freshen-up and have some leisure.</li><li>Afternoon leave for a local sightseeing tour of Mughal Gardens visiting - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Srinagar to Doodhpathri | Explore Doodhpathri",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Doodhpathri, known as the Valley of Milk, surrounded by the gorgeous Pir Panjal Range.</li><li>Explore this alpine valley decorated with stunning meadows, towering tress and snow clad mountains in the backdrop. You can indulge in various activities and local sightseeing of Doodhpathri through pony (on your own) or roam around the valley and interact with the locals.</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Srinagar Local Sightseeing",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, head out for local sightseeing tour in Srinagar.</li><li>Visit Hazratbal, Jama Masjid, the Mughal Gardens - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>In the evening, check-in to your cozy houseboat and enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, check-in to the hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Gulmarg.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Gulmarg to Pahalgam | Pahalgam Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Gulmarg to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expenses) or Betaab Valley, and Aru Valley (by hiring a car on your own expenses).&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Pahalgam Local Sightseeing",
+        "description": "<ul><li>Wake up early and post breakfast, head out for local exploration of Pahalgam.</li><li>We’ll visit the scenic and rocky valleys of Chandanwadi, the astounding Snow Point which is situated around 14 kms from Pahalgam and enjoy a pony ride (on your own).</li><li>Drive back to Pahalgam and post some leisure, take a walk through the dense pine forest alongside the pristine Lidder River and extend your Pahalgam experience further, soaking in the stunning natural beauty of Kashmir.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Drive from Pahalgam to Katra | Katra Arrival",
+        "description": "<ul><li>In the morning and post breakfast, say goodbye to your hosts in Pahalgam and drive towards Katra.</li><li>After arriving in Katra, check-in to our hotel and spend the rest of the day at leisure.</li><li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Yatra to Mata Vaishno Devi Bhawan | Back to Katra",
+        "description": "<ul><li>Wake up early and post breakfast, proceed for yatra towards Mata Vaishno Devi Bhawan from Katra.</li><li>This holy yatra involves a trek of nearly 12 kms from the base camp at Katra known as Ban Ganga. One can also reach Mata Vaishno Devi Bhawan by hiring Ponies/Palkis/ Helicopter (at your own cost). After reaching the holy shrine of Mata Vaishno Devi, seek blessings at the Bhawan.</li><li>If time permits, visit Bhairav Temple &amp; return back to Katra in the evening.</li><li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Drive from Katra to Jammu | Trip Ends",
+        "description": "<ul><li>Wake up and post breakfast, check-out from the hotel and proceed towards Jammu Airport/Railway Station from Katra.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "18 Meals: 9 Breakfasts & 9 Dinners, starting from Dinner on Day 1 till Breakfast on Day 10.",
+      "9 Nights Accommodation as per Double Sharing: Hotel in Katra, Hotel & Houseboat in Srinagar, Hotel in Gulmarg and Hotel in Pahalgam.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Cable Car/Pony Ride/Pitthu/Mule services on the yatra track at Shri Mata Vaishno Devi Shrine.",
+      "Transfer from Banganga to Vaishno Devi Temple.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'kashmir-with-vaishno-devi-and-shiv-khori-tour',
-    title: 'Kashmir with Vaishno Devi and Shiv Khori Tour',
-    destination: 'Kashmir',
-    duration: '9 Days 8 Nights',
-    price: '₹35500',
-    imageUrl: '/cloned_media/729320240920083235.png',
-    overview: 'A 9-day tour covering the spiritual circuit of Vaishno Devi and Shiv Khori, followed by a scenic Kashmir tour.',
-    itinerary: createItinerary('9 Days 8 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Transfers', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "kashmir-with-vaishno-devi-and-shiv-khori-tour",
+    "title": "Kashmir with Vaishno Devi and Shiv Khori Tour",
+    "destination": "Kashmir",
+    "duration": "9 Days 8 Nights",
+    "price": "₹35500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/729320240920083235.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8534020240920083235.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21687120240920083235.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26246420240920083235.png"
+    ],
+    "overview": "A 9-day tour covering the spiritual circuit of **Vaishno Devi** and **Shiv Khori**, followed by a scenic Kashmir tour. Book a Kashmir package with Vaishno Devi and Shiv Khori tour with Go4Explore. Seek divine blessings, explore scenic valleys, and enjoy a peaceful getaway amidst the breathtaking Himalayas.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Drive from Jammu to Srinagar | Srinagar Arrival",
+        "description": "<ul><li>Pick up from Jammu Airport/Railway Station and drive towards Srinagar, enjoying a scenic drive of lush mountains.</li><li>Reach Srinagar, check-in to your cozy hotel and freshen-up.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Srinagar Local Sightseeing",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, head out for local sightseeing tour in Srinagar.</li><li>Visit Hazratbal, Jama Masjid, the Mughal Gardens - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>In the evening, check-in to your cozy houseboat and enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Srinagar to Pahalgam | Explore Pahalgam",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Srinagar to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.&nbsp;</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expense) or Betaab Valley, Chandanwari and Aru Valley (by hiring a car on your own expense).&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Pahalgam to Katra | Katra Arrival",
+        "description": "<ul><li>In the morning and post breakfast, say goodbye to your hosts in Pahalgam and drive towards Katra.</li><li>After arriving in Katra, check-in to our hotel and spend the rest of the day at leisure.</li><li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Yatra to Mata Vaishno Devi Bhawan | Back to Katra",
+        "description": "<ul><li>Wake up early and post breakfast, proceed for yatra towards Mata Vaishno Devi Bhawan from Katra.</li><li>This holy yatra involves a trek of nearly 12 kms from the base camp at Katra known as Ban Ganga. One can also reach Mata Vaishno Devi Bhawan by hiring Ponies/Palkis/ Helicopter (at your own cost). After reaching the holy shrine of Mata Vaishno Devi, seek blessings at the Bhawan.</li><li>If time permits, visit Bhairav Temple &amp; return back to Katra in the evening.</li><li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Drive from Katra to Shiv Khori | Back to Katra",
+        "description": "<ul><li>Wake up and post breakfast, proceed for a day visit to Shiv Khori situated at around 70 kms from Katra.&nbsp;</li><li>After arriving at Shiv Khori, go inside the natural cave that measures nearly half a kilometer in length and seek blessings from Lord Shiv in the form of a 4 feet high naturally formed Shiva-lingam at the heart of the Sanctum Sanctorum.</li><li>Have darshan of the holy Shiv-lingum and drive back to Katra by the evening. If time permits, enroute, visit Siar Baba waterfalls, Baba Dhansal &amp; Nau Devis.</li><li>Dinner and overnight stay in a hotel at Katra.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Drive from Katra to Jammu | Trip Ends",
+        "description": "<ul><li>Wake up and post breakfast, check-out from the hotel and proceed towards Jammu Airport/Railway Station from Katra.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "16 Meals: 8 Breakfasts & 8 Dinners, starting from Dinner on Day 1 till Breakfast on Day 9.",
+      "8 Nights Accommodation as per Double Sharing: Hotel in Katra, Hotel & Houseboat in Srinagar and Hotel in Pahalgam.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Cable Car/Pony Ride/Pitthu/Mule services on the yatra track at Shri Mata Vaishno Devi Shrine.",
+      "Transfer from Banganga to Vaishno Devi Temple.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'magical-escape-to-kashmir',
-    title: 'Magical Escape To Kashmir',
-    destination: 'Kashmir',
-    duration: '7 Days 6 Nights',
-    price: '₹27500',
-    imageUrl: '/cloned_media/19266120240919103004.png',
-    overview: 'A 7-day magical escape to explore the stunning valleys, lakes, and meadows of Kashmir.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel Stay', 'Houseboat Stay', 'Private Car', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Gondola/Pony Rides'],
+    "slug": "magical-escape-to-kashmir",
+    "title": "Magical Escape To Kashmir",
+    "destination": "Kashmir",
+    "duration": "7 Days 6 Nights",
+    "price": "₹27500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/19266120240919103004.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31303820240919103004.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32718520240919103004.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6859120240919103004.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30391520240919103004.png"
+    ],
+    "overview": "A 7-day magical escape to explore the stunning valleys, lakes, and meadows of Kashmir. Discover the magic of Srinagar, Kashmir with Go4Explore! Experience unforgettable moments surrounded by tranquil lakes, snow-capped mountains, lush valleys, and breathtaking landscapes.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Srinagar | Local Sightseeing",
+        "description": "<ul><li>After arriving in Srinagar, pick-up from the airport and drive towards your accommodation.</li><li>Check-in to your cozy hotel, freshen-up and have some leisure.</li><li>Afternoon leave for a local sightseeing tour of Mughal Gardens visiting - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
+        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, return back to Srinagar.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Srinagar to Pahalgam | Explore Pahalgam",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Srinagar to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Pahalgam Local Sightseeing",
+        "description": "<ul><li>Wake up early and post breakfast, head out for local exploration of Pahalgam.</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expenses) or Betaab Valley, and Aru Valley (by hiring a car on your own expenses).</li><li>We’ll visit the scenic and rocky valleys of Chandanwadi, the astounding Snow Point which is situated around 14 kms from Pahalgam and enjoy a pony ride (on your own).</li><li>Drive back to Pahalgam and post some leisure, take a walk through the dense pine forest alongside the pristine Lidder River and extend your Pahalgam experience further, soaking in the stunning natural beauty of Kashmir.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Pahalgam to Srinagar | Dal Lake Shikara Ride",
+        "description": "<ul><li>Wake up early and post breakfast, drive from Pahalgam to Srinagar and check-in the houseboat in Dal Lake.&nbsp;</li><li>In the evening, enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Dal Lake in Srinagar.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Srinagar Departure | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Srinagar and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "All Transportation on Private Basis as per itinerary.",
+      "12 Meals: 6 Breakfasts & 6 Dinners, starting from Dinner on Day 1 till Breakfast on Day 7.",
+      "6 Nights Accommodation as per Double Sharing: Hotel & Houseboat in Srinagar and Hotel in Pahalgam.",
+      "Complimentary Shikara Ride over Dal Lake.",
+      "Pick-up and Drop facility from as per the itinerary.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Chained vehicle from Tangmarg to Gulmarg.",
+      "Visit to Ganderbal and Thajiwas Glacier.",
+      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'kashmir-great-lakes-trek',
-    title: 'Kashmir Great Lakes Trek',
-    destination: 'Kashmir',
-    duration: '8 Days 7 Nights',
-    price: '₹15000',
-    originalPrice: '₹16000',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/37367320220517062227.png',
-    overview: 'One of India\'s most beautiful treks. An 8-day journey across stunning high-altitude alpine lakes.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Transfers to/from Srinagar', 'Gear Rental'],
+    "slug": "kashmir-great-lakes-trek",
+    "title": "Kashmir Great Lakes Trek",
+    "destination": "Kashmir",
+    "duration": "8 Days 7 Nights",
+    "price": "₹15000",
+    "originalPrice": "₹16000",
+    "discount": "₹1,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/37367320220517062227.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20558520220517062227.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39642620220517062227.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1999520220517062227.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19062820220517062227.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14209820220517062227.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30238020220517062227.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27369220220517062227.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34464820220517062227.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19538820220517062227.png"
+    ],
+    "overview": "<h2>About Kashmir Great Lakes</h2><p>Kashmir, As they righteously call it, is the “Heaven on Earth” that truly mesmerizes one with their jaw dropping landscapes. It is the perfect blend of beauty &amp; adventure which further elevates trekking in Jammu and Kashmir.</p><p><strong>Kashmir Great Lakes trek</strong> is a moderate trek ranging between 70 to 75 km approx. In this trek, we cover six alpine lakes &amp; a range of meadows in the western Himalayas of Kashmir. In this **Great Lakes Kashmir Trek,** we are also going to cross Sonmarg which means “Meadow of Gold”. This trek covers 6 most famous alpine lakes at one time: Gadasar, Satsar, Nundkol, Gangabal, Vishansar etc.</p><p><strong>Kashmir Great Lakes trek in India</strong>, also known as KGL Trek in short form, covers the stunning natural lakes of Kashmir at one time which have the best scenic view.</p>",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Srinagar Arrival & Drive To Naranag | Acclimatization Session",
+        "description": "<ul>    <li>Pickup from the boarding point in Srinagar (location will be shared) and drive towards Naranag Base Camp. After arriving in Naranag, check-in to our camps and have some leisure.</li>    <li>Head out for local exploration of ancient temples dedicated to Lord Shiva and an acclimatization walk of 3 kms up to Dhumail Valley, which has abundant beauty to offer, twin streams flowing from opposite directions that form the Wangat river, deep pine forests and plenty of bird species.</li>    <li>In the evening, regroup to savour home-style cooked dinner and overnight stay in Naranag.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Naranag (2500 mtrs) To Trunkhol Meadow (3400 mtrs)",
+        "description": "<ul>    <li>Wake up to a peaceful mountain morning and post breakfast, we will begin our trek through the pine forests of Buthshree and then traverse through midone top to enter the famous meadow called Trunkhol, where we are going to stay for the night.</li>    <li>At Trunkhol, from the campsite we get a beautiful and best view of Mount Harmukh. In the evening, regroup to savour home-style cooked dinner and overnight stay in Trunkhol Meadow.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Trunkhol Meadow (3400 mtrs) To Gangabal Valley (3600 mtrs)",
+        "description": "<ul><li>Wake up and post breakfast, we will begin our trek on a mild gradient to reach the first alpine lake of Kashmir Great Lakes trek i.e. Nandansar Lake, which lies on the foot of Mount Harmukh. The source of glacial water comes from Gangabal Lake and Northern glaciers of Mount Harmukh which form Nandansar Lake.</li><li>After arriving in Gangabal Valley, we will establish our campsite for the night near to the pristine Gangabal Lake, one of Kashmir's largest alpine lakes which is also the main source to Wangat stream and a tributary to Side river. In the evening, regroup to savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Gangbal Valley (3600 mtrs) To Satsar Valley (3700 mtrs)",
+        "description": "<ul><li>Wake up and post breakfast, we will begin ascending to Zajibbal Pass. This high altitude mountain pass bisects Gangbal Valley and Satsar valley, then a mild descent of two hours will take us to Satsar Valley.</li><li>The Satsar Valley has seven small alpine lakes thus lending it the name Satsar. Check-in to our camps and in the evening savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Satsar Valley (3700 mtrs) To Gadsar Valley (3600 mtrs)",
+        "description": "<ul><li>Wake up to a stunning vista of mighty Himalayan range and post breakfast, we will proceed on a fascinating trek though lush green meadows beautified by alpine flowers. This location is famous for long undulating meadows and a large alpine lake namely Gadsar Lake.</li><li>We will establish our campsite for the night beside the gorgeous Gadsar Lake. In the evening, regroup to savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Gadsar Valley (3600 mtrs) To Kishensar Valley (3500 mtrs)",
+        "description": "<ul><li>Wake up to a mesmerizing view of Gadsar Lake and post breakfast, we will proceed for Kishensar Valley. Today trekkers will get an opportunity to cross the mighty Gadsar Pass which is the highest altitude pass in Kashmir Great Lakes trek, with an breathtaking aerial view for both the valleys namely Gadsar Valley and Kishensar Valley.</li><li>The valley is famous for its twin large alpine lakes (Kishensar and Vishensar Lakes). Camping at Kishensar Valley gives every trekking enthusiast or nature lover a unique feeling as it is the main source of Kishanganga river which flows through Gurez Valley. Check-in to our camps and in the evening savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Kishensar Valley (3500 mtrs) To Nichnai/Table Top (3200 mtrs)",
+        "description": "<ul><li>Wake up and post breakfast, we will begin our trek for Nichnai. Today’s trek is of mild gradient till Kishensar Pass and then descends through a pristine valley of wild alpine flowers of where we will establish our campsite for the night.</li><li>After arriving in Nichnai, check-in to our camps and have some leisure. In the evening, regroup to savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Nichnai (3200 mtrs) To Sonmarg (2700 mtrs) | Drive To Srinagar",
+        "description": "<ul><li>Wake up and post breakfast, we will start to descend through the pine and burj forests of Table Top and trekking enthusiasts will get an opportunity to have an mesmerizing aerial view of Thajiwas Mountain range and Bear Valley.</li><li>The trek down to reach the beautiful gem of Kashmir i.e. Sonmarg and drive towards Srinagar. Trek ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation on sharing basis in Dome Camps.",
+      "Mountaineering qualified and experienced trek leader and support staff.",
+      "Meals: Breakfast+Lunch+Dinner (starting from Day 01 Dinner till Day 08 Breakfast) and complimentary evening tea & snacks.",
+      "First-Aid medical kits for emergencies.",
+      "Trekking equipment: sleeping bag, mattress, tent, kitchen & dining tent, toilet tent, utensils and crampon (if required). Also, gaiters, micro spikes and rope (if required).",
+      "All necessary entry fees and permits.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Transportation from Srinagar TRC – Sitkari / Naranag – Srinagar TRC",
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions.",
+      "Note: - The pick up from Srinagar TRC will be at 2:30 pm. We will arrange the transportation from Srinagar TRC to Sitkari and Return from Naranag to Srinagar TRC at an additional cost of approx. Rs. 3500 per vehicle one way. The amount would be paid directly to the driver and participants are expected to share the cost of the vehicle (One cab can accommodate 6-7 trekkers)."
+    ]
   },
   {
-    slug: 'tarsar-marsar-trek',
-    title: 'Tarsar Marsar Trek',
-    destination: 'Kashmir',
-    duration: '7 Days 6 Nights',
-    price: '₹13750',
-    originalPrice: '₹14250',
-    discount: '₹500',
-    imageUrl: '/cloned_media/21008820230706083615.png',
-    overview: 'A 7-day trek to the twin lakes of Tarsar and Marsar, known for their breathtaking beauty and pristine blue waters.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Transfers to/from Srinagar', 'Gear Rental'],
+    "slug": "tarsar-marsar-trek",
+    "title": "Tarsar Marsar Trek",
+    "destination": "Kashmir",
+    "duration": "7 Days 6 Nights",
+    "price": "₹13750",
+    "originalPrice": "₹14250",
+    "discount": "₹500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/21008820230706083615.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39488820230706083615.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16063820230706083615.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15892620230706083615.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30738120230706083615.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8026520230706083615.png"
+    ],
+    "overview": "<h2>About Tarsar Marsar Trek Package</h2><p>Widely known as “A Paradise on Earth”, Kashmir is also a home to the most spectacular trek in the Himalayas namely Tarsar Marsar Trek. This Himalayan trek is literally located in the clouds due to its peak which is at the height of 13021 feet. The trail of the Tarsar Marsar trek is so beautiful because it goes through the green forests, charming meadows, snow-clad mountains &amp; rivers of paradise. This trek will promise you the best scenic &amp; spellbinding views. The highlight of the trek is that it goes through Tarsar, Marsar &amp; Sundarsar &amp; also gives a view of three alpine lakes of Kashmir.</p><p>The difficulty level of the trek is moderate. The total distance we cover on this trek is 47 km. When you go through this trek you are going to have the breathtaking views of the three gorgeous alpine lakes of Kashmir &amp; many other things like forests, lush green meadows &amp; many more things are present there on the trail. After watching them your eyes will stop at that point.</p>",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Drive from Srinagar to Aru Base Camp | 100km, 4hrs",
+        "description": "<ul>\n\t<li>Assemble at the meeting point in Srinagar drive towards Pahalgam in a local cab with good mountain views.</li>\n\t<li>After reaching Pahalgam, we will take a short drive of 3-4 hrs to Aru Valley via Bijbehara where you will experience the charismatic beauty of Kashmir. Experience lush apple, walnut and apricot orchards enroute. After crossing the Lidder River, we will reach the majestic Aru Valley.</li>\n\t<li>Check-in to our homestay, freshen-up and have some leisure. Feel free to take a stroll around, exploring the village.</li>\n\t<li>Dinner and overnight stay at Aru Valley.</li>\n</ul>"
+      },
+      {
+        "day": 2,
+        "title": "Trek from Aru to Lidderwat | 10 km, 6hrs",
+        "description": "<ul>\n\t<li>Wake up early in the morning and post breakfast, start your trek towards Lidderwat along the pristine Lidder River.</li>\n\t<li>Moving forward and post climbing, you will experience a lot of huts surrounded by fir trees at Dalla. After waking for a few minutes you will reach Nandkei. From here you will witness a beautiful view of Aru Valley.</li>\n\t<li>Upon arrival at the campsite at Lidderwat, check-in to our camps and have some leisure.</li>\n\t<li>Dinner and overnight stay at Lidderwat campsite.</li>\n</ul>"
+      },
+      {
+        "day": 3,
+        "title": "Trek from Lidderwat to Shekwas | 6km, 5hrs",
+        "description": "<ul>\n\t<li>Wake up early in the morning in the lap of nature and post breakfast, start your trek towards Shekwas passing, the trail passing through the dense pine forest. After walking for a short while through the forest, you will see grassland merged with huge mountains.</li>\n\t<li>Move forward and cross Bakharwal lying on the right side of the river. From Homwas, you will see various shepard (Gujjar) community huts in the middle of lush grassland. Move forward on the trail crossing a few Gujjar huts to reach Shekwas campsite.</li>\n\t<li>Upon arrival at the campsite at Shekwas, check-in to our camps and have some leisure.</li>\n\t<li>Dinner and overnight stay at Shekwas campsite.</li>\n</ul>"
+      },
+      {
+        "day": 4,
+        "title": "Trek from Shekwas to Tarsar | 5km, 5hrs",
+        "description": "<ul>\n\t<li>Wake up early in the morning in the lap of nature and post breakfast, start your trek from Shekwas to Tarsar Lake. The trekking trail to Tarsar Lake leads through various ridges.</li>\n\t<li>After crossing the ridge you will witness the gorgeous view of Tarsar Lake. After crossing some beautiful views from a different ridge, you will reach a conical hill-top from where you can get a glimpse of the beautiful almond-shaped lake : Tarsar Lake. After crossing the river you will reach the grassland of Tarsar.</li>\n\t<li>Upon arrival at the campsite at Tarsar, check-in to our camps and have some leisure. Feel free to take a stroll around, sit beside the river and witness the breathtaking sunset. The Tarsar Lake changes its shade in turquoise blue during the night.</li>\n\t<li>Dinner and overnight stay at Tarsar campsite.</li>\n</ul>"
+      },
+      {
+        "day": 5,
+        "title": "Trek from Tarsar to Sundarsar | 6km, 5hrs",
+        "description": "<ul>\n\t<li>Wake up early in the morning in the lap of nature and post breakfast, start your trek from Shekwas to Tarsar Lake. The trekking trail to Tarsar Lake leads through various ridges.</li>\n\t<li>After crossing the ridge you will witness the gorgeous view of Tarsar Lake. After crossing some beautiful views from a different ridge, you will reach a conical hill-top from where you can get a glimpse of the beautiful almond-shaped lake : Tarsar Lake. After crossing the river you will reach the grassland of Tarsar.</li>\n\t<li>Upon arrival at the campsite at Tarsar, check-in to our camps and have some leisure. Feel free to take a stroll around, sit beside the river and witness the breathtaking sunset. The Tarsar Lake changes its shade in turquoise blue during the night.</li>\n\t<li>Dinner and overnight stay at Tarsar campsite.</li>\n</ul>"
+      },
+      {
+        "day": 6,
+        "title": "Trek from Sundersar to Homwas via Marsar | 11km, 7hrs",
+        "description": "<ul>\n\t<li>Wake up early in the morning in the lap of nature and post breakfast, start your trek towards Homwas via Marsar Lake.</li>\n\t<li>Witness the stunning view of Marsar Lake before reaching Homwas finally.</li>\n\t<li>Upon arrival at the campsite at Homwas, check-in to our camps and have some leisure. Feel free to take a stroll around your campsite.</li>\n\t<li>Dinner and overnight stay at Homwas campsite.</li>\n</ul>"
+      },
+      {
+        "day": 7,
+        "title": "Homwas to Aru & Drive to Srinagar | 13km, 7hrs",
+        "description": "<ul>\n\t<li>Take the same trail as you took on the first day of the trek, trek down from Homwas towards Aru and reach Lidderwat.</li>\n\t<li>From Lidderwat, get down further to Aru, from where you would be going by road to Srinagar in a local cab.</li>\n\t<li>After reaching Srinagar, trek ends with lots of amazing memories and unforgettable experiences.</li>\n</ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: From Srinagar to Srinagar.",
+      "Accommodation on sharing basis in Camps/Tents & Homestay.",
+      "Mountaineering qualified and experienced trek leader and support staff.",
+      "Meals: All veg meals from starting from Day 01 Dinner till Day 07 Breakfast) and complimentary evening tea & snacks.",
+      "First-Aid medical kits & oxygen cylinder for emergencies.",
+      "All necessary fees and permits.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions.",
+      "Note: - The pick up from Srinagar TRC will be at 2:30 pm. We will arrange the transportation from Srinagar TRC to Sitkari and Return from Naranag to Srinagar TRC at an additional cost of approx. Rs. 3500 per vehicle one way. The amount would be paid directly to the driver and participants are expected to share the cost of the vehicle (One cab can accommodate 6-7 trekkers)."
+    ]
   },
   {
-    slug: 'alpather-lake-trek',
-    title: 'Alpather Lake Trek',
-    destination: 'Kashmir',
-    duration: '5 Days 4 Nights',
-    price: '₹12999',
-    imageUrl: '/cloned_media/27524020220120050859.png',
-    overview: 'A 5-day trek from Gulmarg to the high-altitude Alpather Lake, which remains frozen for most of the year.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Transfers to/from Srinagar', 'Gear Rental'],
+    "slug": "alpather-lake-trek",
+    "title": "Alpather Lake Trek",
+    "destination": "Kashmir",
+    "duration": "5 Days 4 Nights",
+    "price": "₹12999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/27524020220120050859.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14530620220120050859.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37897020220120050859.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24353320220120050859.png"
+    ],
+    "overview": "A 5-day trek from Gulmarg to the high-altitude Alpather Lake, which remains frozen for most of the year. The Alpather Lake trek in Kashmir is an average to difficult trek and covers a distance up to a distance of approximately 13,000 feet from the sea level to the picturesque lake of Alpather Lake nestled in the Pir Panjal mountain range of the Kashmir Himalayas. The trek is usually done from Gulmarg, a well-known ski resort town in Kashmir valley.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar to Gulmarg & Strawberry Valley",
+        "description": "<ul><li>Pickup from the Srinagar airport/bus stand, drive towards Gulmarg which is situated at 2650 metres. After reaching Gulmarg, spend some time at the main ground of Gulmarg and move towards the strawberry valley with your trek guide. Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Trek to Base Camp (Khilanmarg/Kangandori)",
+        "description": "<ul><li>Wake up early to witness the mesmerising view of Mount Apharwat and take breakfast. Start our trek to “BILALABONCE LAKE” which is an unexplored lake and after four hour of the trekking, we will reach our base camp - Khilanmarg or Kangandori which is 10500 ft above the sea level. Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Trek to Alpather Lake & Back to Base Camp",
+        "description": "<ul><li>Wake up to the peaceful mountain morning and take breakfast. Begin your trek to Alpather lake which is 09 km from kangandori. Experience the untouched beauty and offbeat trails. Reach at the Alpather lake and spend some quality time there. After an hour or 2, begin your trek back to basecamp. Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Trek Down to Gulmarg & Explore",
+        "description": "<ul><li>Post breakfast, we will start our trek down to Gulmarg ground level. It's only 2-3 hours of trekking. After reaching Gulmarg, we can explore some of the back part of Gulmarg, like Drung waterfall and more. Savour home-style cooked dinner and overnight stay in camps/homestay/hotel.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Gulmarg to Srinagar | Trip Ends",
+        "description": "<ul><li>Wake up to the relax mountain morning.</li><li>Post breakfast, start your return journey to Srinagar from Gulmarg.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Srinagar to Srinagar",
+      "Accommodation on Sharing Basis: Camps.",
+      "Experienced and cool trek guide.",
+      "Explorations and activities.",
+      "Daily Meals: Breakfast, Lunch and Dinner",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'kausar-nag-lake-trek',
-    title: 'Kausar Nag Lake Trek',
-    destination: 'Kashmir',
-    duration: '4 Days 3 Nights',
-    price: '₹9999',
-    imageUrl: '/cloned_media/40475620220120050538.png',
-    overview: 'A 4-day trek to the serene Kausar Nag Lake, located in the Pir Panjal range.',
-    itinerary: createItinerary('4 Days 3 Nights'),
-    inclusions: ['Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Transfers to/from Srinagar', 'Gear Rental'],
+    "slug": "kausar-nag-lake-trek",
+    "title": "Kausar Nag Lake Trek",
+    "destination": "Kashmir",
+    "duration": "4 Days 3 Nights",
+    "price": "₹9999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/40475620220120050538.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32433920220120050538.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41747520220120050538.png"
+    ],
+    "overview": "A 4-day trek to the serene **Kausar Nag Lake**, located in the Pir Panjal range. This picturesque trail takes you across lush green meadows, narrow pine forests and beautiful alpine pastures. The water has formed a teal color due to the melting glaciers, and it cannot even be described.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar – Aharbal – Kungwattan",
+        "description": "<ul><li>Pickup from Srinagar airport/bus stand. Begin your drive towards Aharbal and gaze at the most voluminous waterfall of Kashmir. The trek starts from here and in three hours we will reach Kungwattan which is a shepherd’s paradise, a large meadow that shimmers in green grass, houses log huts and forests. The camp is established here for the night. Dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Kungwattan – Kounsarnag Lake",
+        "description": "<ul><li>Wake up early and post breakfast, begin your trek towards Kounsarnag Lake and in 5 to 6 hours, we will be in front of the most beautiful triangular alpine lake of Pir Panjal. Staying one night here will make you recall the sublime bliss of childhood sleep in the lap of nature. It is a photographer’s canvas all around the lake. Dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Kounsarnag Lake – Kungwattan",
+        "description": "<ul><li>Post breakfast, begin to descend with ease towards the base camp - Kungwattan. Will stay here for one more night with shepherd’s following the law of nature and Vaishau river roaring on its way to Aharbal makes us feel sublime. Dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Kungwattan – Srinagar | Trip Ends",
+        "description": "<ul><li>Wake up to the peaceful mountain morning and begin our return trek to Aharbal. It will take around 2 to 3 hours to reach. We will spend quality time in front of the waterfall along with lunch. Start-off your return journey to Srinagar.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Srinagar to Srinagar",
+      "Accommodation on Sharing Basis: Camps.",
+      "Experienced and cool trek guide.",
+      "Explorations and activities.",
+      "Daily Meals: Breakfast, Lunch and Dinner",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'sheshnag-lake-trek',
-    title: 'Sheshnag Lake Trek',
-    destination: 'Kashmir',
-    duration: '3 Days 2 Nights',
-    price: '₹7999',
-    imageUrl: '/cloned_media/9886420220120050240.png',
-    overview: 'A short 3-day trek from Pahalgam to the holy Sheshnag Lake, a key point on the Amarnath Yatra route.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Transfers to/from Srinagar', 'Gear Rental'],
+    "slug": "sheshnag-lake-trek",
+    "title": "Sheshnag Lake Trek",
+    "destination": "Kashmir",
+    "duration": "3 Days 2 Nights",
+    "price": "₹7999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/9886420220120050240.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33142820220120050240.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25831220220120050240.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34102920220120050240.png"
+    ],
+    "overview": "A short 3-day trek from Pahalgam to the holy **Sheshnag Lake**, a key point on the Amarnath Yatra route. Sheshnag Trek is considered one of the most exotic summer treks and ideal for both experienced as well as novice trekkers. This pristine lake is steeped in Mythology and Legend.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar to Pahalgam",
+        "description": "<ul><li>The transport will be arranged from Srinagar and the drive will be to Pahalgam which lays 100 kms away from Srinagar. You can reach Pahalgam through two routes, Bijbehra is the famous tourist route, and the drive is a beautiful one through rural area of Kashmir</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Pahalgam to Chandanwari and trek to Sheshnag Lake",
+        "description": "<ul><li>Post breakfast head towards Chandanwari, the trail makes its way through the dense maple and fine forests along Ladder River. After a long hike, enter the exotic Chandanwari valley. Have lunch in the middle of the way. Afterwards ascend initially to Pissu top which offers jaw dropping sight. Now, the trail to Sheshnag Lake is steep. Reach the 1 km long Sheshnag Lake, its deep blue waters looks gorgeous. Setup your camp nearby and settle for the day.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Sheshnag Lake to Chandanwari and Pahalgam. Drive to Srinagar",
+        "description": "<ul><li>After spending a good night at the bank of Sheshnag Lake, descend to Pahalgam by retracing your steps. Reach Chandanwari, halt for a while and again start trekking through the dense maple forest.</li><li>Follow the same trail and reach Pahalgam. Rest there, then leave for Srinagar.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Srinagar to Srinagar",
+      "Accommodation on Sharing Basis: Camps.",
+      "Experienced and cool trek guide.",
+      "Explorations and activities.",
+      "Daily Meals: Breakfast, Lunch and Dinner",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
-
   //==========================================================================
   // DESTINATION: Spiti (from Spiti.tsx)
   //==========================================================================

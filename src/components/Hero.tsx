@@ -5,6 +5,14 @@ import { useState, useEffect, useRef } from "react";
 import { allTrips } from "@/data/trips";
 import { useNavigate } from "react-router-dom";
 
+const images = [
+  "https://d2qa7a8q0vuocm.cloudfront.net/images/1420620250217154705.png",
+  "https://d2qa7a8q0vuocm.cloudfront.net/images/18009020230321103012.png",
+  "https://d2qa7a8q0vuocm.cloudfront.net/images/37597320200416073327.png",
+  "/cloned_media/15154220240717101812.png",
+  "/cloned_media/6737420220907032145.png"
+];
+
 declare global {
   interface Window {
     SpeechRecognition: any; // eslint-disable-line @typescript-eslint/no-explicit-any
@@ -19,6 +27,7 @@ const Hero = () => {
   const [nextTextIndex, setNextTextIndex] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
   const [isListening, setIsListening] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const recognitionRef = useRef<any>(null); // eslint-disable-line @typescript-eslint/no-explicit-any
   const currentTabRef = useRef<string>("tripPackages"); // To store activeTab at voice start
 
@@ -41,6 +50,14 @@ const Hero = () => {
 
     return () => clearInterval(interval);
   }, [texts.length]);
+
+  useEffect(() => {
+    const imageInterval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 5000); // Change image every 5 seconds
+
+    return () => clearInterval(imageInterval);
+  }, []);
 
   useEffect(() => {
     if (typeof window !== 'undefined' && (window.SpeechRecognition || window.webkitSpeechRecognition)) {
@@ -134,19 +151,19 @@ const Hero = () => {
 
   return (
     <section className="relative text-white min-h-[575px] flex items-center overflow-hidden">
-      {/* Background video */}
+      {/* Background slideshow */}
       <div className="absolute inset-0">
-        <video 
-          className="absolute inset-0 w-full h-full object-cover" 
-          autoPlay 
-          muted 
-          loop 
-          playsInline
-          preload="metadata"
-        >
-          <source src="https://d2qa7a8q0vuocm.cloudfront.net/homepage/home-page-winter-video.mp4" type="video/mp4" />
-        </video>
-        
+        {images.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`Hero background ${index + 1}`}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+              index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+            }`}
+          />
+        ))}
+
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-black/50" />
       </div>

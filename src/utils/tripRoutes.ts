@@ -1,9 +1,19 @@
+// Utility function to slugify text
+export const slugify = (text: string): string => {
+  return text
+    .toLowerCase()
+    .replace(/ /g, '-')
+    .replace(/[^a-z0-9-]/g, '')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+};
+
 // Utility function to map trip titles to their respective routes
 export const getTripRoute = (tripTitle: string): string => {
   const titleToRoute: { [key: string]: string } = {
     'Jibhi & Tirthan Valley': '/jibhi-tirthan-valley',
     'Kasol Kheerganga Trek': '/kasol-kheerganga-trek',
-    'Chopta-Tungnath-Deoriatal': '/chopta-tungnath',
+    'Chopta-Tungnath-Deoriatal': '/chopta-tungnath-deoriatal',
     'Yulla Kanda Trek': '/yulla-kanda-trek',
     'Kanatal & Tehri Lake': '/kanatal-tehri-lake',
     'Winter Spiti': '/spiti',
@@ -38,7 +48,6 @@ export const getTripRoute = (tripTitle: string): string => {
     'NY Meghalaya Backpacking': '/meghalaya-backpacking',
     'NY Kasol Kheerganga Manali': '/kasol-kheerganga-trek',
     'NY Uttarakhand Backpacking': '/uttarakhand',
-    'Uttarakhand Backpacking- Rishikesh': '/uttarakhand',
     'Manali Sissu Kasol': '/manali-sissu-kasol',
     'Srinagar Leh Manali With Umlingla': '/srinagar-leh-manali',
     'Manali Leh Srinagar With Umlingla': '/manali-leh-srinagar',
@@ -49,5 +58,9 @@ export const getTripRoute = (tripTitle: string): string => {
     'Spiti Valley 6 Nights': '/spiti',
   };
 
-  return titleToRoute[tripTitle] || '#';
+  const route = titleToRoute[tripTitle];
+  if (route) {
+    return "/trip" + route;
+  }
+  return "/trip/" + slugify(tripTitle);
 };
