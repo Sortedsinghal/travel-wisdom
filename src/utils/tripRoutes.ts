@@ -56,6 +56,7 @@ export const getTripRoute = (tripTitle: string): string => {
     'Leh Ladakh With Umlingla & Hanle': '/leh-ladakh',
     'Leh 6 Nights Trip': '/leh-ladakh',
     'Spiti Valley 6 Nights': '/spiti',
+    'Goa Beach Holiday': '/goa-beach-holiday',
   };
 
   const route = titleToRoute[tripTitle];
