@@ -45,7 +45,10 @@ const AboutUs = () => {
                 Who We Are?
               </p>
               <p className="font-normal text-sm mx-auto font-poppins text-white text-center mt-0 mb-4 max-w-4xl">
-                Travel Wisdom is a community of avid travellers badly bitten by the travel bug thus providing you an unmatched travel experience as per your interest and comfort. Using our & experience.We curate personalized and fun-filled trips to unexplored Himalayan destinations. Choose the destination which you want to explore and you're done. Our enthusiastic community of wanderers create journeys that will exceed your expectations. From being an experience promoter to provider, who knows travel better than us? We design well-planned trip itineraries, trekking & camping activities without exceeding your budget.
+                Travel Wisdom is a community of passionate travellers who believe that every journey has a story to tell. We create memorable travel experiences that blend comfort, adventure, and connection — just the way you like it.
+                Whether it’s a group trip, a girls-only escape, a corporate getaway, a romantic honeymoon, or an offbeat trekking expedition — we curate trips that match your interests, vibe, and comfort.
+                Our team of travel enthusiasts ensures every itinerary is well-planned, budget-friendly, and full of unforgettable moments. From serene mountains to lively beaches, from spiritual retreats to adventure trails — Travel Wisdom turns every trip into a soulful experience.
+                Because for us, travel isn’t just about destinations — it’s about discovering yourself along the way.
               </p>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-8 mb-4 justify-center items-end">
                 <div className="flex flex-col items-center h-full">
