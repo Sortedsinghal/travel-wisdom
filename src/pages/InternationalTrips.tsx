@@ -4,167 +4,41 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { QueryForm } from '@/components/QueryForm';
-import { getTripRoute } from '@/utils/tripRoutes';
+import { allTrips, Trip } from '@/data/trips'; // <-- Import your new allTrips array
 import { Bed, Airplay, Mountain, Users, ThumbsUp, CreditCard, UserCheck } from 'lucide-react';
 
-const trips = [
-  {
-    id: 1,
-    title: 'Ultimate Japan Tour - Ends Tokyo',
-    duration: '15 Days 14 Nights',
-    price: 295092,
-    imageUrl: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400&h=300&fit=crop',
-  },
-  {
-    id: 2,
-    title: 'Wonders Of Japan - Ends Osaka',
-    duration: '11 Day 10 Nights',
-    price: 295092,
-    imageUrl: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=400&h=300&fit=crop',
-  },
-  {
-    id: 3,
-    title: 'Central Japan - Best Of Tokyo & Kyoto',
-    duration: '8 Days 7 Nights',
-    price: 148024,
-    imageUrl: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=400&h=300&fit=crop',
-  },
-  {
-    id: 4,
-    title: 'Amazing Central Japan Tour - Ends Tokyo',
-    duration: '6 Days 5 Nights',
-    price: 148024,
-    imageUrl: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=400&h=300&fit=crop',
-  },
-  {
-    id: 5,
-    title: 'Unforgettable Japan Holiday - Ends Tokyo',
-    duration: '9 Days 8 Nights',
-    price: 176078,
-    imageUrl: 'https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=400&h=300&fit=crop',
-  },
-  {
-    id: 6,
-    title: 'Discover Best Of Japan',
-    duration: '9 Days 8 Nights',
-    price: 176078,
-    imageUrl: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=400&h=300&fit=crop',
-  },
-  {
-    id: 7,
-    title: 'Ultimate Japan Holiday Tour',
-    duration: '7 Days 6 Nights',
-    price: 176078,
-    imageUrl: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=400&h=300&fit=crop',
-  },
-  {
-    id: 8,
-    title: 'Unforgettable Singapore & Malaysia Tour',
-    duration: '10 Days 9 Nights',
-    price: 89900,
-    imageUrl: 'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=400&h=300&fit=crop',
-  },
-  {
-    id: 9,
-    title: 'Ultimate Singapore & Malaysia Experience',
-    duration: '9 Days 8 Nights',
-    price: 86000,
-    imageUrl: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop',
-  },
-  {
-    id: 10,
-    title: 'Wonders Of Singapore Malaysia Tour',
-    duration: '8 Days 7 Nights',
-    price: 77000,
-    imageUrl: 'https://images.unsplash.com/photo-1555217851-6141535bd771?w=400&h=300&fit=crop',
-  },
-  {
-    id: 11,
-    title: 'Joyful Treasures Of Singapore & Malaysia',
-    duration: '7 Days 6 Nights',
-    price: 71000,
-    imageUrl: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop',
-  },
-  {
-    id: 12,
-    title: 'Discover Best Of Singapore & Malaysia',
-    duration: '6 Days 5 Nights',
-    price: 65400,
-    imageUrl: 'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=400&h=300&fit=crop',
-  },
-  {
-    id: 13,
-    title: 'Timeless Georgia - Tbilisi Getaway',
-    duration: '6 Days 5 Nights',
-    customization: 'Customization Available',
-    imageUrl: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop',
-  },
-  {
-    id: 14,
-    title: 'Explore Wonders Of Georgia',
-    duration: '7 Days 6 Nights',
-    customization: 'Customization Available',
-    imageUrl: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop',
-  },
-  {
-    id: 15,
-    title: 'Discover Best Of Georgia',
-    duration: '8 Days 7 Nights',
-    customization: 'Customization Available',
-    imageUrl: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop',
-  },
-  {
-    id: 16,
-    title: 'Romantic Bali Vacation - Couple Special',
-    duration: '5 Days 4 Nights',
-    customization: 'Customization Available',
-    imageUrl: 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=400&h=300&fit=crop',
-  },
-  {
-    id: 17,
-    title: 'Joyful Treasures Of Bali',
-    duration: '6 Days 5 Nights',
-    customization: 'Customization Available',
-    imageUrl: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=400&h=300&fit=crop',
-  },
-  {
-    id: 18,
-    title: 'Romantic Escape To Bali - Couple Special',
-    duration: '7 Days 6 Nights',
-    customization: 'Customization Available',
-    imageUrl: 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=400&h=300&fit=crop',
-  },
-  {
-    id: 19,
-    title: 'Discover Best Of Bali',
-    duration: '8 Days 7 Nights',
-    customization: 'Customization Available',
-    imageUrl: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=400&h=300&fit=crop',
-  },
-  {
-    id: 20,
-    title: 'Gems Of Bali - Relaxing Escape',
-    duration: '10 Days 9 Nights',
-    customization: 'Customization Available',
-    imageUrl: 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=400&h=300&fit=crop',
-  },
+// Define which destinations are "international"
+const internationalDestinations: Trip['destination'][] = [
+  'Dubai', 
+  'Bali', 
+  'Kazakhstan', 
+  'Bhutan', 
+  'Thailand', 
+  'Vietnam'
 ];
+
+// Filter the master list to get only international trips
+const internationalTrips = allTrips.filter(trip => 
+  internationalDestinations.includes(trip.destination)
+);
 
 const InternationalTrips = () => {
   const [showQueryForm, setShowQueryForm] = useState(false);
-  const [visibleCount, setVisibleCount] = useState(16);
+  const [visibleCount, setVisibleCount] = useState(16); // Show 16 trips initially
   const [showFullText, setShowFullText] = useState(false);
   const navigate = useNavigate();
 
   const handleViewMore = () => {
-    setVisibleCount((prev) => prev + 8);
+    // Show 8 more, or all of them if it's the last page
+    setVisibleCount((prev) => Math.min(prev + 8, internationalTrips.length));
   };
 
   const handleViewLess = () => {
     setVisibleCount(16);
   };
 
-  const visibleTrips = trips.slice(0, visibleCount);
+  // Get the currently visible trips from the filtered list
+  const visibleTrips = internationalTrips.slice(0, visibleCount);
 
   return (
     <div className="min-h-screen bg-background">
@@ -180,7 +54,7 @@ const InternationalTrips = () => {
           {/* Trip cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {visibleTrips.map((trip) => (
-              <Card key={trip.id} className="hover:shadow-lg transition-shadow flex flex-col h-full">
+              <Card key={trip.slug} className="hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="relative">
                   <img src={trip.imageUrl} alt={trip.title} className="w-full h-48 object-cover rounded-t-md" />
                   <div className="absolute bottom-2 left-2 bg-yellow-300 text-black text-xs px-2 py-1 rounded">
@@ -192,18 +66,24 @@ const InternationalTrips = () => {
                 </CardHeader>
                 <CardContent className="pt-2 flex-1 flex flex-col">
                   <div className="mb-3 flex-1">
-                    {trip.price ? (
+                    {/* NEW Price Logic: Handles string values */}
+                    {trip.price.startsWith('₹') ? (
                       <>
-                        <span className="font-bold text-lg text-gray-900">₹{trip.price.toLocaleString()}</span>
+                        <span className="font-bold text-lg text-gray-900">{trip.price}</span>
+                        {trip.originalPrice && (
+                          <span className="text-sm text-gray-500 line-through ml-2">{trip.originalPrice}</span>
+                        )}
                         <span className="text-sm text-gray-600 block">per person</span>
                       </>
                     ) : (
-                      <span className="text-sm text-blue-600 font-medium">{trip.customization}</span>
+                      <span className="text-sm text-blue-600 font-medium">{trip.price}</span>
                     )}
                   </div>
                   <div className="flex gap-2 mt-auto">
                     <button 
-                      onClick={() => navigate(getTripRoute(trip.title))}
+                      // --- FIXED NAVIGATION ---
+                      // This now navigates to the detail page using the slug
+                      onClick={() => navigate(`/trip/${trip.slug}`)}
                       className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-3 py-1 text-sm hover:bg-[#0B3A55] hover:text-white transition-colors"
                     >
                       Trip Details
@@ -218,7 +98,8 @@ const InternationalTrips = () => {
           </div>
 
           <div className="text-center mt-8 flex justify-center gap-4">
-            {visibleCount < trips.length && (
+            {/* "View More" button logic updated to use the filtered list length */}
+            {visibleCount < internationalTrips.length && (
               <button
                 onClick={handleViewMore}
                 className="bg-[#0B3A55] text-white px-6 py-2 rounded hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors"
@@ -243,22 +124,19 @@ const InternationalTrips = () => {
             {showFullText ? (
               <>
                 <p className="mb-4">
-                  Kickstart your ultimate global adventure with Travel Wisdom, your gateway for seamless international travel from Delhi. Our specially curated collection of tour packages will take you to the wonders of the world, each one catering to your taste and budget.
+                  Kickstart your ultimate global adventure with Go4Explore, your gateway for seamless international travel from Delhi. Our specially curated collection of tour packages will take you to the wonders of the world, each one catering to your taste and budget.
                 </p>
                 <p className="mb-4">
-                  At Travel Wisdom, we understand that every traveler is different. That's why our customizable packages cater to diverse interests - from cultural immersions to adrenaline-pumping escapades. Whether you're dreaming of Europe's charming cobblestone streets or Asia's vibrant markets, we've got you covered.
+                  At Go4Explore, we understand that every traveler is different. That's why our customizable packages cater to diverse interests - from cultural immersions to adrenaline-pumping escapades. Whether you're dreaming of Europe's charming cobblestone streets or Asia's vibrant markets, we've got you covered.
                 </p>
                 <p className="mb-4">
-                  Booking with Travel Wisdom means more than just a vacation; it's an experience crafted with care. Enjoy exclusive perks like special discounts, enticing deals, and our unwavering 24/7 support. Our user-friendly platform makes planning your dream getaway a breeze, allowing you to focus on the excitement of your upcoming journey.
+                  Booking with Go4Explore means more than just a vacation; it's an experience crafted with care. Enjoy exclusive perks like special discounts, enticing deals, and our unwavering 24/7 support. Our user-friendly platform makes planning your dream getaway a breeze, allowing you to focus on the excitement of your upcoming journey.
                 </p>
                 <p className="mb-4">
                   From sun-soaked beaches to snow-capped mountains, our expertly curated packages showcase the best the world has to offer. Let us transform your travel aspirations into reality, creating memories that will last a lifetime.
                 </p>
-                <p className="mb-4">
-                  Our user-friendly booking platform and dedicated support team make planning your getaway a breeze. With competitive pricing and exclusive deals, Travel Wisdom ensures you get the most value from your international adventure.
-                </p>
                 <p>
-                  Don't let your wanderlust wait any longer. Dive into the Travel Wisdom experience and unlock a world of possibilities. Your perfect international tour package from Delhi is just a click away. Start your global adventure today with Travel Wisdom - where every journey begins with a dream and ends with unforgettable stories.
+                  Don't let your wanderlust wait any longer. Dive into the Go4Explore experience and unlock a world of possibilities. Your perfect international tour package from Delhi is just a click away. Start your global adventure today with Go4Explore - where every journey begins with a dream and ends with unforgettable stories.
                 </p>
                 <button
                   onClick={() => setShowFullText(false)}
@@ -270,10 +148,10 @@ const InternationalTrips = () => {
             ) : (
               <>
                 <p className="mb-4">
-                  Kickstart your ultimate global adventure with Travel Wisdom, your gateway for seamless international travel from Delhi. Our specially curated collection of tour packages will take you to the wonders of the world, each one catering to your taste and budget.
+                  Kickstart your ultimate global adventure with Go4Explore, your gateway for seamless international travel from Delhi. Our specially curated collection of tour packages will take you to the wonders of the world, each one catering to your taste and budget.
                 </p>
                 <p className="mb-4">
-                  At Travel Wisdom, we understand that every traveler is different. That's why our customizable packages cater to diverse interests - from cultural immersions to adrenaline-pumping escapades. Whether you're dreaming of Europe's charming cobblestone streets or Asia's vibrant markets, we've got you covered....
+                  At Go4Explore, we understand that every traveler is different. That's why our customizable packages cater to diverse interests - from cultural immersions to adrenaline-pumping escapades. Whether you're dreaming of Europe's charming cobblestone streets or Asia's vibrant markets, we've got you covered....
                 </p>
                 <button
                   onClick={() => setShowFullText(true)}
