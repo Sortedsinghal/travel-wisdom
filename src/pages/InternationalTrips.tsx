@@ -124,19 +124,19 @@ const InternationalTrips = () => {
             {showFullText ? (
               <>
                 <p className="mb-4">
-                  Kickstart your ultimate global adventure with Go4Explore, your gateway for seamless international travel from Delhi. Our specially curated collection of tour packages will take you to the wonders of the world, each one catering to your taste and budget.
+                  Kickstart your ultimate global adventure with Travel Wisdom, your gateway for seamless international travel from Delhi. Our specially curated collection of tour packages will take you to the wonders of the world, each one catering to your taste and budget.
                 </p>
                 <p className="mb-4">
-                  At Go4Explore, we understand that every traveler is different. That's why our customizable packages cater to diverse interests - from cultural immersions to adrenaline-pumping escapades. Whether you're dreaming of Europe's charming cobblestone streets or Asia's vibrant markets, we've got you covered.
+                  At Travel Wisdom, we understand that every traveler is different. That's why our customizable packages cater to diverse interests - from cultural immersions to adrenaline-pumping escapades. Whether you're dreaming of Europe's charming cobblestone streets or Asia's vibrant markets, we've got you covered.
                 </p>
                 <p className="mb-4">
-                  Booking with Go4Explore means more than just a vacation; it's an experience crafted with care. Enjoy exclusive perks like special discounts, enticing deals, and our unwavering 24/7 support. Our user-friendly platform makes planning your dream getaway a breeze, allowing you to focus on the excitement of your upcoming journey.
+                  Booking with Travel Wisdom means more than just a vacation; it's an experience crafted with care. Enjoy exclusive perks like special discounts, enticing deals, and our unwavering 24/7 support. Our user-friendly platform makes planning your dream getaway a breeze, allowing you to focus on the excitement of your upcoming journey.
                 </p>
                 <p className="mb-4">
                   From sun-soaked beaches to snow-capped mountains, our expertly curated packages showcase the best the world has to offer. Let us transform your travel aspirations into reality, creating memories that will last a lifetime.
                 </p>
                 <p>
-                  Don't let your wanderlust wait any longer. Dive into the Go4Explore experience and unlock a world of possibilities. Your perfect international tour package from Delhi is just a click away. Start your global adventure today with Go4Explore - where every journey begins with a dream and ends with unforgettable stories.
+                  Don't let your wanderlust wait any longer. Dive into the Travel Wisdom experience and unlock a world of possibilities. Your perfect international tour package from Delhi is just a click away. Start your global adventure today with Travel Wisdom - where every journey begins with a dream and ends with unforgettable stories.
                 </p>
                 <button
                   onClick={() => setShowFullText(false)}
@@ -148,10 +148,10 @@ const InternationalTrips = () => {
             ) : (
               <>
                 <p className="mb-4">
-                  Kickstart your ultimate global adventure with Go4Explore, your gateway for seamless international travel from Delhi. Our specially curated collection of tour packages will take you to the wonders of the world, each one catering to your taste and budget.
+                  Kickstart your ultimate global adventure with Travel Wisdom, your gateway for seamless international travel from Delhi. Our specially curated collection of tour packages will take you to the wonders of the world, each one catering to your taste and budget.
                 </p>
                 <p className="mb-4">
-                  At Go4Explore, we understand that every traveler is different. That's why our customizable packages cater to diverse interests - from cultural immersions to adrenaline-pumping escapades. Whether you're dreaming of Europe's charming cobblestone streets or Asia's vibrant markets, we've got you covered....
+                  At Travel Wisdom, we understand that every traveler is different. That's why our customizable packages cater to diverse interests - from cultural immersions to adrenaline-pumping escapades. Whether you're dreaming of Europe's charming cobblestone streets or Asia's vibrant markets, we've got you covered....
                 </p>
                 <button
                   onClick={() => setShowFullText(true)}
