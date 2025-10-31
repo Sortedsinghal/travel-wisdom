@@ -5,12 +5,16 @@ import { useState, useEffect, useRef } from "react";
 import { allTrips } from "@/data/trips";
 import { useNavigate } from "react-router-dom";
 
-const images = [
-  "https://d2qa7a8q0vuocm.cloudfront.net/images/1420620250217154705.png",
-  "https://d2qa7a8q0vuocm.cloudfront.net/images/18009020230321103012.png",
-  "https://d2qa7a8q0vuocm.cloudfront.net/images/37597320200416073327.png",
-  "/cloned_media/15154220240717101812.png",
-  "/cloned_media/6737420220907032145.png"
+const videos = [
+  "/hero_videos/Black and Green Modern Paris Travel Video.mp4",
+  "/hero_videos/Blue Minimalist Scenery Travel Vlog Thumbnail Youtube Intro.mp4",
+  "/hero_videos/Blue Mountains Welcome To My Channel Youtube Intro.mp4",
+  "/hero_videos/Blue Snowy Forest  Hello Winter Video.mp4",
+  "/hero_videos/Green Simple Nature YouTube Video Ad.mp4",
+  "/hero_videos/Orange Minimalist Aerial Landscape Fields Forest Travel Vlog Thumbnail Youtube Intro.mp4",
+  "/hero_videos/Untitled design.mp4",
+  "/hero_videos/White Minimalist Travel Vlog Youtube Intro.mp4",
+  "/hero_videos/Yellow and Black Travel Collection Video.mp4"
 ];
 
 declare global {
@@ -27,9 +31,10 @@ const Hero = () => {
   const [nextTextIndex, setNextTextIndex] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
   const [isListening, setIsListening] = useState(false);
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const recognitionRef = useRef<any>(null); // eslint-disable-line @typescript-eslint/no-explicit-any
   const currentTabRef = useRef<string>("tripPackages"); // To store activeTab at voice start
+  const videoRefs = useRef<HTMLVideoElement[]>([]);
 
   const texts = [
     "Unforgettable Journeys",
@@ -52,12 +57,22 @@ const Hero = () => {
   }, [texts.length]);
 
   useEffect(() => {
-    const imageInterval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
+    const changeVideo = () => {
+      setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videos.length);
+    };
 
-    return () => clearInterval(imageInterval);
+    const videoInterval = setInterval(changeVideo, 3000); // Change video every 3 seconds
+
+    return () => clearInterval(videoInterval);
   }, []);
+
+  useEffect(() => {
+    const currentVideo = videoRefs.current[currentVideoIndex];
+    if (currentVideo) {
+      currentVideo.currentTime = 0;
+      currentVideo.play();
+    }
+  }, [currentVideoIndex]);
 
   useEffect(() => {
     if (typeof window !== 'undefined' && (window.SpeechRecognition || window.webkitSpeechRecognition)) {
@@ -153,13 +168,16 @@ const Hero = () => {
     <section className="relative text-white min-h-[575px] flex items-center overflow-hidden">
       {/* Background slideshow */}
       <div className="absolute inset-0">
-        {images.map((image, index) => (
-          <img
+        {videos.map((video, index) => (
+          <video
             key={index}
-            src={image}
-            alt={`Hero background ${index + 1}`}
+            ref={(el) => {
+              if (el) videoRefs.current[index] = el;
+            }}
+            src={video}
+            muted
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
-              index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+              index === currentVideoIndex ? 'opacity-100' : 'opacity-0'
             }`}
           />
         ))}

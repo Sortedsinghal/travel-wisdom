@@ -7631,218 +7631,1134 @@ export const allTrips: Trip[] = [
     "GST (5%) is applicable extra."
   ]
 },
-  {
-    slug: 'auli-joshimath',
-    title: 'Auli & Joshimath',
-    destination: 'Uttarakhand',
-    duration: '3 Days 2 Nights',
-    price: '₹6500',
-    originalPrice: '₹7500',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/30858820240830093243.png',
-    overview: 'A weekend trip to the ski destination of Auli, with a stay in the gateway town of Joshimath.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Transfers from Rishikesh/Delhi', 'Hotel Stay', 'Sightseeing', 'Cable Car (optional)'],
-    exclusions: ['Meals', 'Skiing Fees', 'Entry Fees'],
-  },
-  {
-    slug: 'kedarnath-dham',
-    title: 'Kedarnath Dham',
-    destination: 'Uttarakhand',
-    duration: '4 Days 3 Nights',
-    price: '₹11000',
-    imageUrl: '/cloned_media/40053320250328133241.png',
-    overview: 'A 4-day spiritual journey to the holy Kedarnath Dham, one of the 12 Jyotirlingas.',
-    itinerary: createItinerary('4 Days 3 Nights'),
-    inclusions: ['Transfers from Haridwar/Rishikesh', 'Hotel/Guesthouse Stay', 'Meals (Breakfast & Dinner)'],
-    exclusions: ['Helicopter/Pony/Palki charges', 'Lunches'],
-  },
-  {
-    slug: 'tungnath-kedarnath-5d4n',
-    title: 'Tungnath Kedarnath 5D4N',
-    destination: 'Uttarakhand',
-    duration: '5 Days 4 Nights',
-    price: '₹14000',
-    imageUrl: '/cloned_media/30933820250401114006.png',
-    overview: 'A 5-day spiritual trek combining two of Lord Shiva\'s most important temples: Tungnath (highest) and Kedarnath.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Transfers', 'Hotel/Guesthouse/Camp Stay', 'Trek Guide', 'Meals'],
-    exclusions: ['Helicopter/Pony/Palki charges', 'Entry Fees'],
-  },
-  {
-    slug: 'uttarakhand-backpacking-7d6n',
-    title: 'Uttarakhand Backpacking 7D6N',
-    destination: 'Uttarakhand',
-    duration: '7 Days 6 Nights',
-    price: '₹29999',
-    imageUrl: '/cloned_media/6779420220907061852.png',
-    overview: 'A 7-day comprehensive backpacking trip covering Rishikesh, Auli, Chopta, and more.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hostel/Camp Stay', 'All Transfers', 'Sightseeing', 'Trekking'],
-    exclusions: ['Meals', 'Activity Fees', 'Entry Fees'],
-  },
-  {
-    slug: 'uttarakhand-backpacking-10d9n',
-    title: 'Uttarakhand Backpacking 10D9N',
-    destination: 'Uttarakhand',
-    duration: '10 Days 9 Nights',
-    price: '₹38000',
-    imageUrl: '/cloned_media/6737420220907032145.png',
-    overview: 'The ultimate 10-day Uttarakhand backpacking adventure, exploring both Garhwal and Kumaon regions.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Hostel/Homestay Stay', 'All Transfers', 'Sightseeing', 'Trekking'],
-    exclusions: ['Meals', 'Activity Fees', 'Entry Fees'],
-  },
-  {
-    slug: 'uttarakhand-backpacking-chopta-edition',
-    title: 'Uttarakhand Backpacking - Chopta Edition',
-    destination: 'Uttarakhand',
-    duration: '5 Days 4 Nights',
-    price: '₹11999',
-    imageUrl: '/cloned_media/7348020200327104220.png',
-    overview: 'A 5-day backpacking trip focused on the Chopta region, including treks to Tungnath, Deoriatal, and more.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hostel/Camp Stay', 'Transfers', 'Trek Guide', 'Meals on Trek'],
-    exclusions: ['Meals during transfer', 'Entry Fees'],
-  },
-  {
-    slug: 'ny-uttarakhand-backpacking',
-    title: 'NY Uttarakhand Backpacking',
-    destination: 'Uttarakhand',
-    duration: '5 Days 4 Nights',
-    price: '₹17500',
-    originalPrice: '₹20000',
-    discount: '₹2,500',
-    imageUrl: '/cloned_media/1584220241021095902.png',
-    overview: 'Ring in the New Year in the Himalayas! A special 5-day backpacking trip to Auli/Chopta for NYE.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hostel/Camp Stay', 'Transfers', 'NYE Celebration', 'Meals'],
-    exclusions: ['Activity Fees', 'Entry Fees'],
-  },
-  {
-    slug: 'valley-of-flowers-trek',
-    title: 'Valley of Flowers Trek',
-    destination: 'Uttarakhand',
-    duration: '6 Days 5 Nights',
-    price: '₹9000',
-    imageUrl: '/cloned_media/3791220250428070430.png',
-    overview: 'A 6-day trek to the stunning Valley of Flowers, a UNESCO World Heritage Site, and the holy shrine of Hemkund Sahib.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Transfers from Haridwar', 'Guesthouse Stay', 'Trek Guide', 'Meals'],
-    exclusions: ['Entry Fees', 'Pony/Palki charges'],
-  },
-  {
-    slug: 'kedarkantha-trek',
-    title: 'Kedarkantha Trek',
-    destination: 'Uttarakhand',
-    duration: '5 Days 4 Nights',
-    price: '₹6000',
-    originalPrice: '₹7000',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/7041420250916132944.png',
-    overview: 'One of India\'s most popular winter treks. A 5-day trek to the Kedarkantha summit, offering 360-degree Himalayan views.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Transfers from Dehradun', 'Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Gear Rental'],
-  },
-  {
-    slug: 'brahmatal-trek',
-    title: 'Brahmatal Trek',
-    destination: 'Uttarakhand',
-    duration: '5 Days 4 Nights',
-    price: '₹7500',
-    originalPrice: '₹8500',
-    discount: '₹1,000',
-    imageUrl: '/cloned_media/21998220211024062700.png',
-    overview: 'A 5-day winter trek known for its stunning views of Mt. Trishul and Nanda Ghunti, and the frozen Brahmatal Lake.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Transfers from Kathgodam/Rishikesh', 'Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Gear Rental'],
-  },
-  {
-    slug: 'har-ki-doon-trek',
-    title: 'Har Ki Doon Trek',
-    destination: 'Uttarakhand',
-    duration: '7 Days 6 Nights',
-    price: '₹11500',
-    imageUrl: '/cloned_media/23271820200308124911.png',
-    overview: 'A 7-day trek to the "Valley of Gods." This cradle-shaped valley is a paradise for trekkers, with rich flora and fauna.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Transfers from Dehradun', 'Guesthouse/Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Gear Rental'],
-  },
-  {
-    slug: 'ali-bedni-bughyal',
-    title: 'Ali Bedni Bughyal',
-    destination: 'Uttarakhand',
-    duration: '6 Days 5 Nights',
-    price: '₹10000',
-    imageUrl: '/cloned_media/9093220230330080238.png',
-    overview: 'A 6-day trek to the vast, lush meadows of Ali and Bedni Bugyal, offering stunning views of the Garhwal Himalayas.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Transfers from Kathgodam/Rishikesh', 'Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Gear Rental'],
-  },
-  {
-    slug: 'dayara-bugyal-trek',
-    title: 'Dayara Bugyal Trek',
-    destination: 'Uttarakhand',
-    duration: '4 Days 3 Nights',
-    price: '₹9000',
-    imageUrl: '/cloned_media/24783120200329182312.png',
-    overview: 'A 4-day trek to one of the most beautiful high-altitude meadows in India, Dayara Bugyal.',
-    itinerary: createItinerary('4 Days 3 Nights'),
-    inclusions: ['Transfers from Dehradun', 'Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Gear Rental'],
-  },
-  {
-    slug: 'nag-tibba-trek',
-    title: 'Nag Tibba Trek',
-    destination: 'Uttarakhand',
-    duration: '2 Days 1 Night',
-    price: '₹6000',
-    imageUrl: '/cloned_media/38976020191128160341.png',
-    overview: 'The perfect weekend trek from Delhi. A 2-day trek to the highest peak in the lesser Himalayan region of Garhwal.',
-    itinerary: createItinerary('2 Days 1 Night'),
-    inclusions: ['Transfers from Dehradun/Delhi', 'Camp Stay', 'All Meals on Trek', 'Trek Guide'],
-    exclusions: ['Gear Rental'],
-  },
-  {
-    slug: 'madmaheshwar-trek',
-    title: 'Madmaheshwar Trek',
-    destination: 'Uttarakhand',
-    duration: '3 Days 2 Nights',
-    price: '₹8499',
-    imageUrl: '/cloned_media/8354620210223115034.png',
-    overview: 'A 3-day trek to Madmaheshwar, one of the Panch Kedars, a temple dedicated to Lord Shiva, set in a beautiful meadow.',
-    itinerary: createItinerary('3 Days 2 Nights'),
-    inclusions: ['Transfers from Ukhimath', 'Guesthouse/Camp Stay', 'All Meals on Trek', 'Trek Guide'],
-    exclusions: ['Transfers to Ukhimath', 'Gear Rental'],
-  },
-  {
-    slug: 'roopkund-trek',
-    title: 'Roopkund Trek',
-    destination: 'Uttarakhand',
-    duration: '8 Days 7 Nights',
-    price: '₹15000',
-    imageUrl: '/cloned_media/35515420240916115136.png',
-    overview: 'An 8-day trek to the mysterious "Skeleton Lake." A challenging, high-altitude trek with breathtaking scenery. (Note: Trek is currently restricted).',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Transfers from Kathgodam', 'Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Gear Rental', 'Permit Fees'],
-  },
-  {
-    slug: 'kedartal-trek',
-    title: 'Kedartal Trek',
-    destination: 'Uttarakhand',
-    duration: '6 Days 5 Nights',
-    price: '₹14000',
-    imageUrl: '/cloned_media/1008520200329152159.png',
-    overview: 'A 6-day high-altitude trek to the glacial Kedartal Lake, near Gangotri, with stunning views of Mt. Thalaysagar.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Transfers from Dehradun', 'Camp Stay', 'All Meals on Trek', 'Trek Guide', 'Porters'],
-    exclusions: ['Gear Rental', 'Permit Fees'],
-  },
+{
+  "slug": "auli-joshimath",
+  "title": "Auli & Joshimath",
+  "destination": "Uttarakhand",
+  "duration": "3 Days 2 Nights",
+  "price": "₹6500",
+  "originalPrice": "₹7500",
+  "discount": "₹1,000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/30858820240830093243.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/18079220201110124553.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/1827120201110124553.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/6310420201110124553.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/19888920201110124553.png"
+  ],
+  "overview": "A weekend trip to the ski destination of Auli, with a stay in the gateway town of Joshimath. Explore Auli and Joshimath with our exclusive Auli Joshimath tour packages! Enjoy exciting offers, exceptional hospitality, and unforgettable experiences.",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Auli | Overnight Journey",
+      "description": "<ul><li>Assemble at boarding point in Delhi - Akshardham Metro Station* and meet your Trip Captain.</li><li>Start an overnight journey to Auli and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Holy Sangams of Uttarakhand | Joshimath Arrival",
+      "description": "<ul><li>Enroute Joshimath, we will take a pit stop at Devprayag in early morning to witness the beautiful confluence of Bhagirathi & Alaknanda rivers ultimately becoming Ganga river.</li><li>Further, we will witness other holy sangams of Uttarakhand namely Rudraprayag, Karnprayag and Nandprayag.</li><li>After arriving in Joshimath, check in to our hotel, freshen-up and have some leisure. Feel free to take a stroll around this gorgeous Himalayan town and visit nearby attractions like Narsingh Temple (on your own).</li><li>Dinner and overnight stay in Joshimath.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Auli Sightseeing | Ropeway & Adventure Activities",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, head out to visit Auli.</li><li>Take a Ropeway from Joshimath to Auli (Asia's highest & longest ropeway) and enjoy the breathtaking views of majestic Himalayan peaks like Nanda Devi as seen from Auli.</li><li>Here you can try your hands at Skiing (on your own only during snow season) and indulge in various other adventures activities. Also, you can take a Chair Car Ride or go for a short hike to Auli’s artificial lake.</li><li>Post exploration, return to Joshimath and have some leisure.</li><li>Dinner and overnight stay in Joshimath.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Rishikesh Exploration | Depart for Delhi",
+      "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check out from the property and drive to Rishikesh.</li><li>After arriving in Rishikesh, head out to explore the locals of Rishikesh like Ram Jhula, Janaki Setu and other famous temples.</li><li>In the evening, witness the sacred Ganga Aarti and later indulge in Cafe Hopping and Shopping.</li><li>In the night, start your overnight journey from Rishikesh to Delhi.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Delhi Arrival | Trip Ends",
+      "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Tempo Traveler/Cab.",
+    "2 Nights Accommodation on Sharing Basis: Hotel in Joshimath.",
+    "4 Veg Meals: Dinner (2) and Breakfast (2), starting from Dinner on Day 1 to Breakfast on Day 3.",
+    "Bonfire (if weather permits) & music only on any 1 Night during the stay (Joshimath) and local explorations as per itinerary.",
+    "Experienced and cool Trip Captain.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Surface/Ropeway Transfers from Joshimath to Auli & back.",
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "Anything which is not mentioned in the above inclusions.",
+    "GST (5%) is applicable extra."
+  ]
+},
+{
+  "slug": "kedarnath-dham",
+  "title": "Kedarnath Dham",
+  "destination": "Uttarakhand",
+  "duration": "4 Days 3 Nights",
+  "price": "₹11000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/40053320250328133241.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/6772220210220091315.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/31682520210220091315.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/482420210220091315.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/38514320210220091315.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/27224320210220091315.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/2797820210220091315.png"
+  ],
+  "overview": "A 4-day spiritual journey to the holy Kedarnath Dham, one of the 12 Jyotirlingas. Plan your Kedarnath Dham Yatra 2025 with our best Kedarnath Tour Package. Experience Kedarnath Darshan, trek the Himalayas, and visit sacred sites like Guptkashi, Rudraprayag &amp; Kedarnath Temple.",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Guptkashi | Overnight Journey",
+      "description": "<ul><li>Assemble at boarding point in Delhi as per given time & location.</li><li>Start overnight journey from Delhi to Guptkashi and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Devprayag Sangam & Dhari Devi | Guptkashi Arrival",
+      "description": "<ul><li>Enroute Guptkashi, we will take a halt at Devprayag and witness the beautiful confluence of Bhagirathi & Alaknanda rivers ultimately becoming Ganga river. Seek blessings at Dhari Devi Temple (if time permits).</li><li>Further we will take a pit stop to grab a satisfying breakfast and continue our journey towards Guptkashi.</li><li>After arriving in Guptkashi, check-in to our comfortable property, freshen up and have some leisure.</li><li>In the evening, gather in the common area and attend the Kedarnath Yatra briefing for a seamless experience.</li><li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Drive from Guptkashi to Gaurikund | Kedarnath Trek",
+      "description": "<ul><li>Wake early (around 3:00 am) and post freshen-up, begin your drive from Guptkashi to Sonprayag, to avoid long queues/traffic.</li><li>Head towards Sonprayag and then Gaurikund (the place from where we will start our trek to Kedarnath Dham). From Sonprayag, you have to board local transportation for Gaurikund (cost not included).</li><li>Begin your 22 kms trek to Kedarnath Dham, immersing in the holy vibes and witnessing stunning Himalayan vistas enroute.</li><li>After arriving at Kedarnath Temple by late evening, seek blessings, attend the evening aarti and feel the divine aura.</li><li>Check-in to our guesthouse/homestay and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Kedarnath to Gaurikund | Guptkashi Arrival",
+      "description": "<ul><li>Wake up early morning to visit the Kedarnath Temple. Seek blessings at one of the most prominent shrines dedicated to Lord Shiva and amongst 12 Jyotirlinga of Lord Shiva.</li><li>Witness the mesmerizing view as the sun rays falls on the snow-clad Himalayan range located behind Kedarnath Temple.</li><li>Post temple visit (get done with your darshans between 7:00 - 8:00 am) and breakfast, begin your trek down to Gaurikund.</li><li>Drive back to Sonprayag from Guptkashi (you’ll have to wait at Sonprayag for all the trip members to gather, as we’ll proceed towards Guptkashi together at same time).</li><li>After arriving in Guptkashi, check-in to our comfortable property and have some leisure. Feel free to stroll around and spend your rest day at leisure.</li><li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Drive from Guptkashi to Delhi via Rishikesh",
+      "description": "<ul><li>Wake up to a beautiful mountain morning and post breakfast, drive from Guptkashi to Delhi via Rishikesh.</li><li>After arriving in Rishikesh (if time permits), self-explore the local market, go for the cafe-hopping, and visit temples and serene Ganga ghats by walking.</li><li>By late night, start your overnight journey from Rishikesh to Delhi.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Delhi Arrival | Trip Ends",
+      "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Tempo Traveler/Cab (as per group size).",
+    "Accommodation on sharing basis: 2 Nights in Guptkashi, 1 Night in Kedarnath. Please Note: there will be basic bunk bed stay facility at Kedarnath on Quad & Penta sharing occupancy, hot water is provided on additional cost.",
+    "5 Veg Meals: Dinner (3) & Breakfast (2), starting from Dinner on Day 1 till Breakfast on Day 4. Please Note: there will be basic meals at Kedarnath.",
+    "Experienced and cool Trip Captain.",
+    "Medical kit to handle extreme health problems.",
+    "Driver allowances, toll taxes, parking, state taxes and permits."
+  ],
+  "exclusions": [
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Local jeep fees from Sonprayag/Sitapur to Gaurikund & back.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "Anything which is not mentioned in the above inclusions.",
+    "GST (5%) is applicable extra."
+  ]
+},
+{
+  "slug": "tungnath-kedarnath-5d4n",
+  "title": "Tungnath Kedarnath 5D4N",
+  "destination": "Uttarakhand",
+  "duration": "5 Days 4 Nights",
+  "price": "₹14000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/30933820250401114006.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/15453220200918083345.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/35242220200918083345.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/29463220200918083345.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/29230820200918083345.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/5787720200918083345.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/15248920210222080946.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/33295920210222080946.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/25146620210222080946.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/9305720210222080946.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/16022920210222080946.png"
+  ],
+  "overview": "A 5-day spiritual trek combining two of Lord Shiva's most important temples: **Tungnath** (highest) and **Kedarnath**. Chopta is a sleepy little hamlet perfect for unwinding. Kedarnath is one of the most sacred pilgrimages of Lord Shiva and one of the twelve Jyotirlingas.",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Guptkashi | Overnight Journey",
+      "description": "<ul><li>Assemble at boarding point in Delhi as per given time & location.</li><li>Start overnight journey from Delhi to Guptkashi and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Devprayag Sangam | Guptkashi Arrival",
+      "description": "<ul><li>Enroute Guptkashi, we will take a pit stop at Devprayag in early morning to witness the beautiful confluence of Bhagirathi & Alaknanda rivers ultimately becoming Ganga river.</li><li>Further we will take a halt to grab a satisfying breakfast and continue our journey towards Guptkashi. Also, witness Rudraprayag Sangam and visit Ardh Nareshwar Temple.</li><li>After arriving in Guptkashi, check in to our comfortable rooms/camps, freshen up, enjoy delightful lunch and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Drive from Guptkashi to Gaurikund | Kedarnath Trek",
+      "description": "<ul><li>Wake early in the morning and get refreshed. Check-out the hotel by max 2:00-3:00 AM (this is to avoid the long queue and traffic during the morning hours).</li><li>Head towards Sonprayag/Sitapur and then Gaurikund (the place from where we will start our trek to Kedarnath Dham). From Sonprayag/Sitapur, you have to board local transportation for Gaurikund.</li><li>Begin your 22 kms trek to Kedarnath Dham - It will be a trek of approx. 8 to 10 hrs. to reach Kedarnath Dham.</li><li>After arriving in Kedarnath Temple by late evening, attend the mesmerizing aarti and feel the divine aura.</li><li>Post evening aarti, check-in to our guest house/sarai, freshen up and have some leisure.</li><li>Overnight stay at Kedarnath Dham.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Kedarnath to Gaurikund | Chopta Arrival",
+      "description": "<ul><li>Wake up early morning to visit the Kedarnath Temple. Seek blessings at one of the most prominent shrines dedicated to Lord Shiva and amongst 12 Jyotirlinga of India.</li><li>Witness the mesmerizing view as the sun rays falls on the snow-clad Himalayan range located behind Kedarnath Temple.</li><li>Post darshan, check out from our accommodation, and begin your trek down to Gaurikund.</li><li>Drive to Chopta Valley.</li><li>Check in to our comfortable rooms/camps and freshen up.</li><li>Savour home-style cooked dinner and overnight stay in a camps/homestay.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Trek to Chandrashila via Tungnath Mahadev Temple",
+      "description": "<ul><li>Wake up early to witness the beautiful sunrise and post breakfast, drive to the starting point of our trek.</li><li>Begin your trek to Tungnath - one of the Panch Kedar and World’s highest temple dedicated to Lord Shiva.</li><li>Trek further to magnificent Chandrashila Peak situated at 13,000 ft (if weather & conditions permits) and gather for an #InstaPerfect group picture.</li><li>Trek back to Chopta village and drive back to our property and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a camps/homestay.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Trek to Deoriatal | Depart for Delhi via Rishikesh",
+      "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check out from the property and drive to Sari Village.</li><li>Begin your trek to mesmerising Deoriatal Lake. Trek down to Sari village and post lunch start-off your return journey to Delhi.</li><li>Take a halt at Rishikesh in the night to explore the local market, go for cafe hopping, visit temples and serene Ganga ghats (if time permits).</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Delhi Arrival | Trip Ends",
+      "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Tempo Traveler/Cab.",
+    "Accommodation on sharing basis: 1 Night in Guptkashi, 1 Night in Kedarnath, 2 Nights in Chopta.",
+    "Experienced and cool Trip Captain.",
+    "8 Veg Meals: Dinner (4) & Breakfast (3) Lunch (1), starting from Lunch on Day 1 to Breakfast on Day 5.",
+    "Bonfire in Chopta (if weather permits) during the stay and local explorations as per itinerary.",
+    "Medical kit to handle extreme health problems.",
+    "Driver allowances, toll taxes, parking, state taxes and permits."
+  ],
+  "exclusions": [
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "Anything which is not mentioned in the above inclusions.",
+    "GST (5%) is applicable extra."
+  ]
+},
+{
+  "slug": "uttarakhand-backpacking-7d6n",
+  "title": "Uttarakhand Backpacking 7D6N",
+  "destination": "Uttarakhand",
+  "duration": "7 Days 6 Nights",
+  "price": "₹29999",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/6779420220907061852.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/16181120220907061852.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/41558020220907061852.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/17667520220907061852.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/15837820220907061852.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/3756320220907061852.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/14677620220907061852.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/38676920220907061852.png"
+  ],
+  "overview": "A 7-day comprehensive backpacking trip covering Rishikesh, Auli, Chopta, and more. Uttarakhand, a state in northern India crossed by the Himalayas, is known for its Hindu pilgrimage sites.",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Delhi to Chopta",
+      "description": "<ul><li>Assemble at the boarding point in Delhi - Akshardham Metro Station.</li><li>Start your overnight journey to Chopta and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Chopta Arrival | Forest Walk",
+      "description": "<ul>\r\n    <li>Enroute Chopta, we will take a pit stop at Rudraprayag to witness the beautiful confluence of Bhagirathi &amp; Alaknanda rivers at Devprayag.</li>\r\n    <li>After arriving in Chopta valley, check in to our scenic campsite, freshen-up, regroup for a hearty lunch and have some leisure.</li>\r\n    <li>The ones with high energy levels, feel free to take a stroll around the campsite post lunch. In the evening, enjoy warm bonfire and mouth-watering snacks under a million stars.</li>\r\n    <li>Dinner followed by an overnight stay in Chopta.</li>\r\n</ul>"
+    },
+    {
+      "day": 3,
+      "title": "Tungnath Mahadev & Chandrashila Trek",
+      "description": "<ul>\r\n    <li>Wake up early and post breakfast, drive to the starting point of Tungnath and Chandrashila trek.</li>\r\n    <li>Begin your trek to Tungnath - one of the Panch Kedar and World’s highest temple dedicated to Lord Shiva.</li>\r\n    <li>Trek further to magnificent Chandrashila Peak situated at 13,000 ft (if weather permits) and gather for an #InstaPerfect group picture.</li>\r\n    <li>Trek down to the base and drive back to our campsite and have some leisure.</li>\r\n    <li>Dinner followed by an overnight stay in Chopta.</li>\r\n</ul>"
+    },
+    {
+      "day": 4,
+      "title": "Chopta to Joshimath | Joshimath Arrival",
+      "description": "<ul>\r\n    <li>Wake up early and post breakfast, drive from Chopta to Joshimath, enjoying the scenic view of Garhwal Himalayas.</li>\r\n    <li>After arriving in Joshimath, check-in to our hotel and the ones with high energy levels, feel free to take a stroll around and visit nearby attractions.</li>\r\n    <li>Dinner followed by an overnight stay in Joshimath.</li>\r\n</ul>"
+    },
+    {
+      "day": 5,
+      "title": "Joshimath to Auli | Auli Cable Car Ropeway",
+      "description": "<ul>\r\n    <li>Wake up early and post breakfast, we will head towards Auli which is a Himalayan Ski Resort overlooked by the Nanda Devi and Nar Parvat mountains. We will take a ropeway to Auli (second highest and longest ropeway in India after Gulmarg).</li>\r\n    <li>Short hike to Auli lake (World's highest manmade lake).</li>\r\n    <li>Dinner followed by an overnight stay in Joshimath.</li>\r\n</ul>"
+    },
+    {
+      "day": 6,
+      "title": "Joshimath to Binsar | Binsar Arrival",
+      "description": "<ul>\r\n    <li>Wake up early and post breakfast, drive from Munsiyari to Binsar.</li>\r\n    <li>After arriving in Binsar, check-in to our hotel and have some leisure. Head out to explore Binsar Wildlife Sanctuary (abode to more than 200 species of animals) and Binsar Zero Point (offers a stunning 360º view of the surrounding Himalayan peaks).</li>\r\n    <li>Dinner followed by an overnight stay in Binsar.</li>\r\n</ul>"
+    },
+    {
+      "day": 7,
+      "title": "Binsar to Jim Corbett | Jim Corbett Arrival",
+      "description": "<ul>\r\n    <li>Wake up early and post breakfast, drive from Binsar to Jim Corbett, known as home to more than 500 species of flora and fauna namely the Bengal Tiger, Indian Elephants, Ghariyal and more.</li>\r\n    <li>After arriving in Jim Corbett, check-in to our hotel and have some leisure.</li>\r\n    <li>Dinner followed by an overnight stay in Jim Corbett.</li>\r\n</ul>"
+    },
+    {
+      "day": 8,
+      "title": "Corbett Jungle Safari | Jim Corbett to Delhi | Trip Ends",
+      "description": "<ul>\r\n    <li>Wake up early and post breakfast, we will head out for the famous Jungle Safari in Jim Corbett National Park.</li>\r\n    <li>Check-out from our hotel in Jim Corbett and begin the return journey towards Delhi.</li>\r\n    <li>Reach Delhi by evening with beautiful memories from the Himalayas.</li>\r\n</ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation: Force Traveler/Cab",
+    "6 Nights Accommodation on Sharing Basis: Swiss Camps (Chopta), Hotel (Joshimath, Binsar & Jim Corbett).",
+    "12 Meals: Chopta (2 Dinners+2 Breakfasts+1 Eve Snacks), Joshimath (2 Dinners+2 Breakfasts), Binsar (1 Dinner+1 Breakfast), Jim Corbett (1 Dinner+1 Breakfast).",
+    "Jeep Safari (Jim Corbett).",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any environmental permits, entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "Anything which is not mentioned in the above inclusions.",
+    "GST (5%) is applicable extra."
+  ]
+},
+{
+  "slug": "uttarakhand-backpacking-10d9n",
+  "title": "Uttarakhand Backpacking 10D9N",
+  "destination": "Uttarakhand",
+  "duration": "10 Days 9 Nights",
+  "price": "₹38000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/6737420220907032145.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/38682920220907032145.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/28989220220907032145.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/6313520220907032145.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/36023320220907032145.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/35649420220907032145.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/23240920220907032145.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/4091720220907032145.png"
+  ],
+  "overview": "The ultimate 10-day Uttarakhand backpacking adventure, exploring both Garhwal and Kumaon regions. Head out for an unforgettable journey amidst the soul-stirring landscapes of “Land of the Gods”.",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Delhi to Rishikesh | Rishikesh Arrival",
+      "description": "<ul>    <li>Assemble at the boarding point in Delhi - Akshardham Metro Station.</li>    <li>Start your journey to Rishikesh and socialize with your co-travellers.</li>    <li>After arriving in Rishikesh, check-in to our campsite/hotel, freshen-up and have some leisure.</li>    <li>Head out for a thrilling river rafting experience in the Ganga and if time permits go for cafe hopping, explore the local market and visit temples.</li>    <li>Dinner followed by an overnight stay in Rishikesh.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Rishikesh to Chopta | Chopta Arrival",
+      "description": "<ul>    <li>Wake up early and post breakfast, check-out from your campsite in Rishikesh and drive towards Chopta. Enroute Chopta, we will take a pit stop at Rudraprayag to witness the beautiful confluence of Bhagirathi &amp; Alaknanda rivers at Devprayag.</li>    <li>After arriving in Chopta valley, check in to our scenic campsite, freshen-up, regroup for a hearty lunch and have some leisure.</li>    <li>The ones with high energy levels, feel free to take a stroll around the campsite post lunch. In the evening, enjoy warm bonfire and mouth-watering snacks under a million stars.</li>    <li>Dinner followed by an overnight stay in Chopta.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Tungnath Mahadev & Chandrashila Trek",
+      "description": "<ul>    <li>Wake up early and post breakfast, drive to the starting point of Tungnath and Chandrashila trek.</li>    <li>Begin your trek to Tungnath - one of the Panch Kedar and World’s highest temple dedicated to Lord Shiva.</li>    <li>Trek further to magnificent Chandrashila Peak situated at 13,000 ft (if weather permits) and gather for an #InstaPerfect group picture.</li>    <li>Trek down to the base and drive back to our campsite and have some leisure.</li>    <li>Dinner followed by an overnight stay in Chopta.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Chopta to Joshimath | Joshimath Arrival",
+      "description": "<ul>    <li>Wake up early and post breakfast, drive from Chopta to Joshimath, enjoying the scenic view of Garhwal Himalayas.</li>    <li>After arriving in Joshimath, check-in to our hotel and the ones with high energy levels, feel free to take a stroll around and visit nearby attractions.</li>    <li>Dinner followed by an overnight stay in Joshimath.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Joshimath to Auli | Auli Cable Car Ropeway",
+      "description": "<ul>    <li>Wake up early and post breakfast, we will head towards Auli which is a Himalayan Ski Resort overlooked by the Nanda Devi and Nar Parvat mountains. We will take a ropeway to Auli (second highest and longest ropeway in India after Gulmarg).</li>    <li>Short hike to Auli lake (World's highest manmade lake).</li>    <li>Dinner followed by an overnight stay in Joshimath.</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Joshimath to Kausani | Kausani Arrival",
+      "description": "<ul>    <li>Wake up early and post breakfast, drive from Joshimath to Kausani, a small picturesque hamlet offering mindblowing views of Garhwal Himalayas like Trishul, Nanda Devi, and Panchachuli.</li>    <li>After arriving in Kausani, check-in to our hotel and the ones with high energy levels, feel free to take a stroll around and spend some #metime amidst nature.</li>    <li>Dinner followed by an overnight stay in Kausani.</li></ul>"
+    },
+    {
+      "day": 7,
+      "title": "Kausani to Munsiyari | Munsiyari Arrival",
+      "description": "<ul>    <li>Wake up early and post breakfast, drive from Kausani to Munsiyari, known for its beautiful meadows and exceptional Himalayan charm. mindblowing views of Garhwal Himalayas like Trishul, Nanda Devi, and Panchachuli.</li>    <li>After arriving in Munsiyari, check-in to our hotel and have some leisure. Treat yourself with some great views of Himalayan peaks like Nanda Devi and Nanda Kot. Go out for a walk and spend some #metime amidst nature.</li>    <li>Dinner followed by an overnight stay in Munsiyari.</li></ul>"
+    },
+    {
+      "day": 8,
+      "title": "Munsiyari to Binsar | Binsar Arrival",
+      "description": "<ul>    <li>Wake up early and post breakfast, drive from Munsiyari to Binsar.</li>    <li>After arriving in Binsar, check-in to our hotel and have some leisure. Head out to explore Binsar Wildlife Sanctuary (abode to more than 200 species of animals) and Binsar Zero Point (offers a stunning 360º view of the surrounding Himalayan peaks).</li>    <li>Dinner followed by an overnight stay in Binsar.</li></ul>"
+    },
+    {
+      "day": 9,
+      "title": "Binsar to Jim Corbett | Jim Corbett Arrival",
+      "description": "<ul>    <li>Wake up early and post breakfast, drive from Binsar to Jim Corbett, known as home to more than 500 species of flora and fauna namely the Bengal Tiger, Indian Elephants, Ghariyal and more.</li>    <li>After arriving in Jim Corbett, check-in to our hotel and have some leisure.</li>    <li>Dinner followed by an overnight stay in Jim Corbett.</li></ul>"
+    },
+    {
+      "day": 10,
+      "title": "Corbett Jungle Safari | Jim Corbett to Delhi | Trip Ends",
+      "description": "<ul>    <li>Wake up early and post breakfast, we will head out for the famous Jungle Safari in Jim Corbett National Park.</li>    <li>Check-out from our hotel in Jim Corbett and begin the return journey towards Delhi.</li>    <li>Reach Delhi by evening with beautiful memories from the Himalayas.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation: Force Traveler/Cab",
+    "9 Nights Accommodation on Sharing Basis: swiss camps (Rishikesh & Chopta), Hotel (Joshimath, Kausani, Munsiyari, Binsar & Jim Corbett).",
+    "18 Meals: Rishikesh (1 Dinner+1 Breakfast), Chopta (2 Dinners+2 Breakfasts+1 Eve Snacks), Joshimath (2 Dinners+2 Breakfasts), Kausani (1 Dinner+1 Breakfast), Munsiyari (1 Dinner+1 Breakfast), Binsar (1 Dinner+1 Breakfast), Jim Corbett (1 Dinner+1 Breakfast).",
+    "River Rafting (Rishikesh) and Jeep Safari (Jim Corbett).",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any environmental permits, entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "Anything which is not mentioned in the above inclusions.",
+    "GST (5%) is applicable extra."
+  ]
+},
+{
+  "slug": "uttarakhand-backpacking-chopta-edition",
+  "title": "Uttarakhand Backpacking - Chopta Edition",
+  "destination": "Uttarakhand",
+  "duration": "5 Days 4 Nights",
+  "price": "₹11999",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/7348020200327104220.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/4741920200327104220.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/11128220200327104220.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/15193920200327104220.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/38732120200327104220.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/41576820200327104220.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/9943520200327104220.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/25535320200327104220.png"
+  ],
+  "overview": "A 5-day backpacking trip focused on the **Chopta** region, including treks to **Tungnath, Deoriatal**, and more. Experience Uttarakhand like never before. Start the journey by visiting the Yoga and Adventure capital of India - Rishikesh. Adorned with the beauty of snowy mountains and lush meadows, Chopta is a gateway to Tungnath (World’s highest Lord Shiva temple) and majestic Chandrashila peak trek.",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Delhi to Rishikesh",
+      "description": "<ul><li>Assemble at boarding point in Delhi - RK Ashram Metro Station or Akshardham Metro Station.</li><li>Start an overnight journey to Rishikesh and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Explore Rishikesh & River Rafting",
+      "description": "<ul>\r\n    <li>After reaching Rishikesh, visit the Ram Jhula, Lakshman Jhula and famous Temples of Rishikesh.</li>\r\n    <li>Check in to our campsite, get freshen up and start our day by visiting Neer garh waterfall and spend some time there.</li>\r\n    <li>After visiting the Neer garh waterfall, take lunch at our campsite.</li>\r\n    <li>After lunch, drive to the river-rafting point.</li>\r\n    <li>It will take 3 to 4 hours to reach Rishikesh by rafting.</li>\r\n    <li>In the evening, enjoy warm bonfire and mouth-watering snacks and music.</li>\r\n    <li>Dinner and overnight stay at swiss/alpine camps near Rishikesh.</li>\r\n</ul>"
+    },
+    {
+      "day": 3,
+      "title": "Rishikesh to Chopta via Devprayag",
+      "description": "<ul>\r\n    <li>Wake up early and enjoy the beautiful sunrise view of Rishikesh and post breakfast check out from our campsite and drive to Chopta.</li>\r\n    <li>Enroute Chopta, we will take a pit stop at Devprayag and witness the beautiful confluence of Bhagirathi &amp; Alaknanda rivers at Devprayag.</li>\r\n    <li>After arriving in Chopta, check in to our scenic cottages in Tala village near Chopta, freshen-up, regroup for a hearty lunch and have some leisure.</li>\r\n    <li>The ones with high energy levels, feel free to take a stroll around the village post lunch.</li>\r\n    <li>In the evening, enjoy warm bonfire and mouth-watering snacks under a million stars.</li>\r\n    <li>Savour home-style cooked dinner and overnight stay in cottages.</li>\r\n</ul>"
+    },
+    {
+      "day": 4,
+      "title": "Trek to Chandrashila via Tungnath Mahadev Temple",
+      "description": "<ul>\r\n    <li>Wake up early to witness the beautiful sunrise and post breakfast, 20 minutes drive to Chopta.</li>\r\n    <li>Begin your trek to Tungnath - one of the Panch Kedar and World’s highest temple dedicated to Lord Shiva.</li>\r\n    <li>Trek further to magnificent Chandrashila peak situated at 13,000 ft (if weather permits) and gather for an #InstaPerfect group picture.</li>\r\n    <li>Trek back to Chopta village and drive to our cottages and have some leisure.</li>\r\n    <li>Savour home-style cooked dinner and overnight stay in a hotel.</li>\r\n</ul>"
+    },
+    {
+      "day": 5,
+      "title": "Trek to Deoriatal & Drive to Kanatal",
+      "description": "<ul>\r\n    <li>Wake up to a peaceful mountain morning and post breakfast, 15 minutes drive to Sari village.</li>\r\n    <li>Begin your trek to mesmerizing lake - Deoriatal.</li>\r\n    <li>Trek back to Sari village and drive back to our hotel.</li>\r\n    <li>Post lunch, start-off your return journey to Kanatal.</li>\r\n    <li>Check in to our campsite in Kanatal.</li>\r\n    <li>Enjoy warm bonfire and mouth-watering snacks and music.</li>\r\n    <li>Dinner and overnight stay at swiss camps.</li>\r\n</ul>"
+    },
+    {
+      "day": 6,
+      "title": "Tehri Dam & Back to Delhi",
+      "description": "<ul>\r\n    <li>Wake up early to enjoy the scenic sunrise view of Kanatal.</li>\r\n    <li>Post breakfast, we will start our day by doing adventure activities - Zipline &amp; Sky bridge.</li>\r\n    <li>Drive to the famous Tehri Dam - the highest dam of India.</li>\r\n    <li>Do water activities at Tehri Lake and spend some time there.</li>\r\n    <li>In the evening, start-off your return journey to Delhi.</li>\r\n</ul>"
+    },
+    {
+      "day": 7,
+      "title": "Arrival in Delhi",
+      "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Tempo Traveler/Cab.",
+    "Accommodation on sharing basis: Camps (Rishikesh & Kanatal), Cottages (Chopta).",
+    "Activities Included - River Rafting, Zipline & Sky-Bridge.",
+    "Experienced and cool trek guide.",
+    "Bonfire (if weather permits) and evening snacks.",
+    "Meals: Lunch (2), Dinner (4), Breakfast (4).",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
+{
+  "slug": "ny-uttarakhand-backpacking",
+  "title": "NY Uttarakhand Backpacking",
+  "destination": "Uttarakhand",
+  "duration": "5 Days 4 Nights",
+  "price": "₹17500",
+  "originalPrice": "₹20000",
+  "discount": "₹2,500",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/1584220241021095902.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/824520241115115038.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/2256020241115115038.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/18226020241115115039.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/27525320241115115039.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/11393520241115115039.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/28541220241115115039.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/23229720241115115039.png"
+  ],
+  "overview": "Ring in the **New Year** in the Himalayas! A special 5-day backpacking trip to **Auli/Chopta** for NYE. This adventure covers the spiritual energy of Rishikesh, the challenging Tungnath trek, the serene Deoriatal, and the snow-capped peaks of Auli.",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Delhi to Rishikesh | Overnight Journey",
+      "description": "<ul><li>Assemble at boarding point in Delhi - Akshardham/Mayur Vihar Metro Station and meet your Trip Captain.</li><li>Start an overnight journey to Rishikesh and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Rishikesh Arrival | River Rafting, Cafe Hopping & More",
+      "description": "<ul><li>After arriving in Rishikesh, check-in to our property, freshen-up and have some leisure.</li><li>Experience the thrilling rapids of Ganga river in an exciting white water river rafting activity in Rishikesh.</li><li>Post lunch, head out to explore the locals of Rishikesh like Ram Jhula, Janaki Setu and other famous temples.</li><li>In the evening, witness the sacred Ganga Aarti and later indulge in Cafe Hopping and Shopping.</li><li>Dinner and overnight stay in camps/hotel in Rishikesh.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Holy Sangams of Uttarakhand | Joshimath Arrival",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from the property and drive from Rishikesh to Joshimath.</li><li>Enroute Joshimath, we will take a pit stop at Devprayag in early morning to witness the beautiful confluence of Bhagirathi & Alaknanda rivers ultimately becoming Ganga river.</li><li>Further, we will witness other holy sangams of Uttarakhand namely Rudraprayag, Karnprayag and Nandprayag.</li><li>After arriving in Joshimath, check in to our hotel, freshen-up and have some leisure. Feel free to take a stroll around this gorgeous Himalayan town and visit nearby attractions like Narsingh Temple (on your own).</li><li>Dinner and overnight stay in Joshimath.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Auli Sightseeing | Chopta Arrival",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from the property and head out to visit Auli.</li><li>Take a Ropeway from Joshimath to Auli (Asia's highest & longest ropeway) and enjoy the breathtaking views of majestic Himalayan peaks like Nanda Devi as seen from Auli.</li><li>Here you can try your hands at Skiing (on your own only during snow season) and indulge in various other adventures activities. Also, you can take a Chair Car Ride or go for a short hike to Auli’s artificial lake.</li><li>Post exploration, return to Joshimath and drive towards Chopta.</li><li>After arriving in Chopta Valley, check-in to our property, freshen-up and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in camps/homestay in Chopta.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Trek to Chandrashila via Tungnath Mahadev Temple",
+      "description": "<ul><li>Wake up early to witness the beautiful sunrise and post breakfast, drive to the starting point of our trek.</li><li>Begin your trek to Tungnath - one of the Panch Kedar and World’s highest temple dedicated to Lord Shiva.</li><li>Trek further to magnificent Chandrashila Peak situated at 13,000 ft (if weather & conditions permits) and gather for an #InstaPerfect group picture.</li><li>Trek back to Chopta village and drive back to our property and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in camps/homestay in Chopta.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Trek to Deoriatal | Depart for Delhi",
+      "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check out from the property and drive to Sari Village.</li><li>Begin your trek to mesmerising Deoriatal Lake. Trek down to Sari village and post lunch start-off your return journey to Delhi.</li><li>Take a halt at Rishikesh in the night to explore the local market, go for cafe hopping, visit temples and serene Ganga ghats (if time permits).</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Delhi Arrival | Trip Ends",
+      "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.<br></li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Tempo Traveler/Cab.",
+    "4 Nights Accommodation on sharing basis: 2 Nights in Camps/Homestay (Chopta/Sari), 1 Night in Camps/Hotel (Rishikesh) & 1 Night in Hotel (Joshimath).",
+    "10 Veg Meals: Chopta (2 Breakfasts+2 Dinners+2 Evening Snacks), Joshimath (Breakfast+Dinner) & Rishikesh (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 5.",
+    "Bonfire (if weather permits) & music only on any 1 Night during the stay (Chopta) and local explorations as per itinerary.",
+    "River Rafting Adventure Activity in Rishikesh.",
+    "Experienced and cool Trip Captain/Trek Guide.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "Anything which is not mentioned in the above inclusions.",
+    "GST (5%) is applicable extra."
+  ]
+},
+{
+  "slug": "valley-of-flowers-trek",
+  "title": "Valley of Flowers Trek",
+  "destination": "Uttarakhand",
+  "duration": "6 Days 5 Nights",
+  "price": "₹9000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/3791220250428070430.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/31519020250428070537.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/3052320250428070537.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/316320250428070537.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/24783320250428070537.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/36097820250428070537.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/12989220250428070537.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/25162620250428070537.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/41142520250428070537.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/6626420250428070537.png"
+  ],
+  "overview": "A 6-day trek to the stunning **Valley of Flowers**, a UNESCO World Heritage Site, and the holy shrine of **Hemkund Sahib**. A spellbinding journey through nature’s most captivating wonder, this trek is generally considered a **moderate** challenge.",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Drive from Rishikesh to Joshimath | 260 km",
+      "description": "<ul><li>Assemble at the boarding point in **Rishikesh** - ISBT Bus Stand and drive to **Joshimath**, enjoying the scenic drive offering breathtaking views of lush mountains.</li><li>Enroute Joshimath, we will witness the four holy sangams (confluences of rivers) namely Devprayag, Rudraprayag, Karnprayag and Nandprayag.</li><li>After arriving at Joshimath, check-in to our hotel/guesthouse, freshen-up and have some leisure. Feel free to take a stroll around this gorgeous Himalayan town and pack for your next day's trek.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/guesthouse at **Joshimath**.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Drive from Joshimath to Pulna | Trek to Ghangaria (9 km)",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will drive from Joshimath to Pulna Village via Govindghat. From **Pulna** we will start our trek towards **Ghangaria** - the base for Valley of Flowers and Hemkund Sahib, along the pristine Pushpavati river.</li><li>Enroute Ghangaria, witness the natural charm of Bhyundar Valley, and serene views of waterfalls & lush mountains.</li><li>After arriving in Ghangaria, check-in to our guesthouse and have some leisure. Feel free to take a stroll around and attend trek briefing for your next day's adventure.</li><li>Savour home-style cooked dinner and overnight stay in a guesthouse at **Ghangaria**.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Trek from Ghangaria to Valley of Flowers & Back | 8 km",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Ghangaria to the **Valley of Flowers** National Park. Valley of Flowers is a World Heritage Site for its wild untamed blooms surrounded by white peaks.</li><li>Enroute cross the gushing Pushpavati river, Laxman Waterfall and witness lush green surroundings. Experience the refreshing landscape decorated with various vibrant flowers like Blue Poppy, Himalayan Rose and widely popular Brahmakamal to name a few (subject to their natural lifecycle). If the weather is clear one can see the mighty Himalayan peaks such as Nilgiri Parvat, Rattaban, Gauri Parvat etc. in the backdrop.</li><li>Post lunch, trek down from Valley of Flowers to Ghangaria and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a guesthouse at **Ghangaria**.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Trek from Ghangaria to Hemkund Sahib & Back | 12 km",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Ghangaria to the holy **Hemkund Sahib**. Hemkund is one of the most revered pilgrim site and World’s Highest Gurudwara nestled at an altitude of 14,100 ft.</li><li>After arriving at Hemkund Sahib, pay homage at the Gurudwara and witness the sacred glacial lake called Hemkund Sarovar. During clear skies, one can witness the flawless reflections of the adjoining Saptrishi peaks in this sacred lake. Also, seek blessings at the Laxman Temple build beside the gurudwara.</li><li>Post lunch, trek down from Hemkund Sahib to Ghangaria and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a guesthouse at **Ghangaria**.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Ghangaria to Pulna (9 km) | Drive to Joshimath",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will trek down from Ghangaria to **Pulna Village** and further drive from Pulna to **Joshimath** via Govindghat.</li><li>After arriving back in Joshimath, check-in to our hotel/guesthouse, have some leisure and regroup for a hearty lunch.</li><li>Feel free to take a stroll around, explore local market and visit nearby attractions like Narsingh Temple.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/guesthouse at **Joshimath**.</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Drive from Joshimath to Rishikesh | Trek Ends",
+      "description": "<ul><li>Wake up early in the morning and post morning tea, check-out from our property and drive from Joshimath to **Rishikesh**.</li><li>By evening, you will be dropped at Rishikesh. If time permits, feel free to stroll around the town or chill at various theme-based cafes in Rishikesh.</li><li>Trek ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation: Tempo Traveler/cabs like Bolero/Sumo (from Rishikesh to Joshimath & back).",
+    "5 Nights Accommodation on sharing basis: 2 Nights in Hotel/Guesthouse (Joshimath) and 3 Nights in Guesthouse (Ghangaria).",
+    "Meals: Breakfast+Lunch+Dinner (starting from Dinner on Day 1 till Morning Tea on Day 6) with complimentary evening tea & snacks. Lunch will be provided either in packed and hot-serve format as per day & location.",
+    "Well qualified and experienced trek leader and support staff.",
+    "All necessary entry fees and forest permits.",
+    "First-Aid medical kit for emergencies.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
+{
+  "slug": "kedarkantha-trek",
+  "title": "Kedarkantha Trek",
+  "destination": "Uttarakhand",
+  "duration": "5 Days 4 Nights",
+  "price": "₹6000",
+  "originalPrice": "₹7000",
+  "discount": "₹1,000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/7041420250916132944.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/14767920191204061100.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/24868720241116083840.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/22542420241116083840.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/31704020241116083840.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/35515520241116083840.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/23773220241116083840.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/7066220241116083840.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/40155320241116083840.png"
+  ],
+  "overview": "One of India's most popular winter treks. A 5-day trek to the **Kedarkantha summit**, offering 360-degree Himalayan views. It is among the most sought-after winter treks in the region, suitable for experienced as well as beginner trekkers.",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Drive from Dehradun to Sankri (6,400 ft) | 240 km",
+      "description": "<ul><li>Assemble at the boarding point in **Dehradun** - Prince Chowk near Railway Station or ISBT Bus Stand and drive to **Sankri**.</li><li>We’ll be driving through Mussoorie, Barkot, Purola, Mori and Netwar to reach Sankri, nestled in Govind Wildlife Sanctuary region (Uttarkashi district).</li><li>After arriving in Sankri, check-in to our cozy homestay/guesthouse, freshen-up and have some leisure. Feel free to take a stroll around this peaceful village and pack for your next day's trek. Savour home-style cooked dinner and overnight stay in a homestay/guesthouse.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Trek from Sankri to Juda ka Talab (8,900 ft) | 5 km",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Sankri village to **Juda Ka Talab**. The initial trail passes through the dense pine forest which gets covered with snow during the winter season. Get mesmerized by the stunning view of Swargarohini mountain massif enroute Juda Ka Talab. Feel free to take a stroll around and soak in the charm of the frozen lake.</li><li>After arriving in Juda Ka Talab, check-in to our camps, treat yourself with a much-needed lunch and have some leisure. Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Trek to Kedarkantha Base Camp & Leisure (11,250 ft) | 4 km",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Hargaon to **Kedarkantha Base Camp**. The trekking trail to the basecamp is a bit steeper than the previous day’s trail.</li><li>After arriving in Kedarkantha Base Camp, check in to our camps, treat yourself with a much-needed lunch and have some leisure. Feel free to take a stroll around, indulge in snow fights or take part in group activities. Treat your eyes with jaw dropping vistas of snow-peaked Himalayas. Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Kedarkantha Summit (12,500 ft) to Hargaon | 9 km",
+      "description": "<ul><li>Today is the most visually mesmerizing day. Wake up around midnight (2:00 or 3:00 AM) and start our trek from Kedarkantha Base Camp to **Kedarkantha Peak**.</li><li>At Kedarkantha Peak Summit, witness the famous sunrise and get mesmerized by the jawdropping view of Himalayan peaks of Garhwal region and Kinnaur region such as Gangotri, Swargarohini, Banderpooch, etc.</li><li>Start your descent from the summit to Kedarkantha Base Camp and treat yourself with a much-needed breakfast. Start your descent from Kedarkantha Base Camp to **Hargaon**. After arriving in Hargaon, check-in to our camps and have lunch. Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Hargaon to Sankri (3 km) | Drive to Dehradun (240 km)",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our descent from Hargaon to **Sankri**.</li><li>After arriving back in Sankri, collect luggage, board your vehicle and drive towards **Dehradun**.</li><li>By late evening, you will be dropped at Dehradun. Trek ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation: Tempo Traveler/Bolero or similar (from Dehradun to Dehradun).",
+    "Accommodation on sharing basis: 1 night in basic homestay/guesthouse (Sankri), 1 night in camps (Juda Ka Talab), 1 night in camps (Kedarkantha Base Camp) and 1 night in camps (Hargaon). Camps are Dome/Alpine.",
+    "Meals: Breakfast+Lunch+Dinner with complimentary Evening Tea & Snacks (starting from Evening Snacks on Day 1 till Breakfast on Day 5). All provided meals are vegetarian except egg in Sankri only.",
+    "Well qualified and experienced trek leader and support staff.",
+    "All necessary entry fees and forest permits.",
+    "First-Aid medical kits for emergencies.",
+    "Camping & trekking equipment - sleeping bags, snow gaiters, microspikes & rope (if required).",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
+{
+  "slug": "brahmatal-trek",
+  "title": "Brahmatal Trek",
+  "destination": "Uttarakhand",
+  "duration": "5 Days 4 Nights",
+  "price": "₹7500",
+  "originalPrice": "₹8500",
+  "discount": "₹1,000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/21998220211024062700.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/32344720211024062700.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/19998320211024062700.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/2126520211024062700.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/5132420211024062700.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/15228320211024062700.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/5558320211024062700.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/33664820211024062700.png"
+  ],
+  "overview": "A 5-day winter trek known for its stunning views of Mt. Trishul and Nanda Ghunti, and the frozen **Brahmatal Lake**. This trek offers an awesome, thrilling, and tremendous trekking experience in winters and acts as a perfect adventure option even if this is your first Himalayan trek.",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Rishikesh Arrival & Drive to Lohajung (7,600 ft) | 280 km",
+      "description": "<ul><li>Assemble at the boarding point in **Rishikesh** - ISBT Bus Stand/Railway Station and drive to **Lohajung**. Lohajung serves as the beginning point and the base camp for the Brahmatal trek.</li><li>After arriving in Lohajung, check in to our cozy homestay/guesthouse, freshen-up and have some leisure. Feel free to take a stroll around this gorgeous village and pack for your next day's trek. Savour home-style cooked dinner and overnight stay in Lohajung.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Trek from Lohajung to Bekaltal (9,689 ft) | 6 km",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Lohajung to **Bekaltal**. Along the way, you would encounter some mind blowing views of Nanda Ghunti Peak. The trekking trail to Bekaltal passes through a dense forest region consisting of conifer, cedar, oak and fir trees. Spot the Kali Valley as you climb higher, marked by the union of Kali and Pindari rivers.</li><li>After arriving in Bekaltal, check in to our camps and have some leisure. Feel free to take a stroll around and soak in the charm of Bekaltal Lake. Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Trek from Bekaltal to Brahmatal Base Camp | 5 km",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Bekaltal to **Brahmatal Base Camp**. The trekking trail to Brahmatal starts steeply into the oak and rhododendron forest which leads to the meadow of Telandi top. In winters, this meadow turns into a vast snowfield. From here, it is a very gradual descent to Brahmatal.</li><li>After arriving in Brahmatal, check in to our camps and have some leisure. Feel free to take a stroll around and witness the gorgeous Brahmatal Lake. Treat your eyes with jaw dropping vistas of snow-peaked Himalayas. Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Brahmatal Summit (12,200 ft) to Lohajung | 11 km",
+      "description": "<ul><li>Today is the most visually mesmerizing day. Wake up early in the morning and post breakfast, we will start our trek from Brahmatal to **Brahmatal Summit**. We would pass through some treacherous trails at Chota Jhandidar and Bada Jhandidar. The trekking trail passes through a mountain ridge with valleys on both sides and provides majestic views of Mt.Trishul and Nanda Ghunti peaks.</li><li>At Brahmatal Summit, get mesmerized by a 180° view of exclusive snow covered Himalayan peaks such as Chaukhambha, Mandi, Mana, Nilgiri, Neelkanth and Trishul.</li><li>Start your descent from Brahmatal to Lohajung. After arriving in Lohajung, check in to our cozy homestay/guesthouse. Savour home-style cooked dinner and overnight stay in **Lohajung**.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Drive from Lohajung to Rishikesh (280 km) | Trek Ends",
+      "description": "<ul><li>Wake up early in the morning, check-out from our guesthouse/homestay and drive from Lohajung to **Rishikesh**.</li><li>By evening, you will be dropped at Rishikesh - ISBT/Railway Station. Trek ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation: Tempo Traveler/Bolero or similar (from Rishikesh to Rishikesh).",
+    "Accommodation on sharing basis: 2 nights in basic homestay/guesthouse (Lohajung), 1 night in camps (Bekaltal) and 1 night in camps (Brahmatal Base Camp).",
+    "Meals: Breakfast+Lunch+Dinner (starting from Dinner on Day 1 till morning tea on Day 5) and complimentary evening tea & snacks. All provided meals are vegetarian only.",
+    "Well qualified and experienced trek leader and support staff.",
+    "All necessary entry fees and forest permits.",
+    "First-Aid medical kit for emergencies.",
+    "Camping & trekking equipment - sleeping bags, snow gaiters, microspikes & rope (if required).",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
+{
+  "slug": "har-ki-doon-trek",
+  "title": "Har Ki Doon Trek",
+  "destination": "Uttarakhand",
+  "duration": "7 Days 6 Nights",
+  "price": "₹11500",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/23271820200308124911.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/7957320200308124911.png"
+  ],
+  "overview": "A 7-day trek to the **\"Valley of Gods.\"** This cradle-shaped valley is a paradise for trekkers, with rich flora and fauna. Har Ki Doon is an endearing trekking destination located in the picturesque beauty of the Garhwal Himalayas. The trek is of **moderate difficulty level** and takes around 6-7 days to complete.",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Drive from Dehradun to Sankri Village | 198 Kms",
+      "description": "<ul><li>Assemble at the boarding point in **Dehradun** (location will be shared) and drive to **Sankri** village which acts as the base camp for the Har Ki Dun Trek.</li><li>After arriving in Sankri village, check-in to our comfy homestay and have some leisure.</li><li>In the evening, savour home-style cooked dinner and overnight stay in **Sankri Village**.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Drive from Sankri to Taluka (12 Kms) | Trek to Pauni Garaat (10 Kms)",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will begin our drive from Sankri Village to **Taluka** which acts as a starting point for the trek.</li><li>After reaching Taluka, we will begin our hike to **Pauni Garaat**. The trail to Pauni Garrat passes through dense forests of willows, chinars, chestnuts and walnuts. Enroute, enjoy beautiful views of some exquisite waterfalls.</li><li>After reaching Pauni Garaat, check-in to our campsite and enjoy the stunning sunset scene.</li><li>In the evening, savour home-style cooked dinner and overnight stay in **Pauni Garaat**.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Trek from Puani Garaat to Kalkatiyadhaar | 8 Kms",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek towards Har ki Dun Valley.</li><li>We'll be travelling through the village of Osla. The hiking trail arrives at a ridge called **Kalkatiyadhar** after crossing the pristine Supin River. From here you will get the first glimpse of majestic Har Ki Dun Valley. The trail continues through more verdant meadows until arriving at our campsite.</li><li>After arriving in Kalkatiyadhar, check-in to our campsite and have some leisure.</li><li>In the evening, savour home-style cooked dinner and overnight stay in **Kalkatiyadhar**.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Trek from Kalkatiyadhar to Har-Ki-Dun & back | 14 Kms",
+      "description": "<ul><li>Wake up early in the morning witnessing gorgeous views of Swargarohini peaks and post breakfast, we will begin our trek towards **Har Ki Dun Valley**.</li><li>The trekking trails starts from lush green meadows and soon you will witness the soul-soothing waterfalls before reaching the Har ki Dun Valley. Get lost in the natural charm of this charming valley.</li><li>Arrive back to Kalkatiyadhar and have some leisure.</li><li>In the evening, savour home-style cooked dinner and overnight stay in **Kalkatiyadhar**.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Trek from Kalkatiyadhaar to Puani Garaat via Seema | 8 Kms",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will begin our walk downhill from Kalkatiyadhar to **Puani Garaat**.</li><li>After arriving in Puani Garaat, check-in to our campsite and have some leisure.</li><li>In the evening, savour home-style cooked dinner and overnight stay in **Puani Garaat**.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Trek from Puani Garaat to Taluka (10 Kms) | Drive to Sankri (12 Kms)",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will begin our walk downhill from Kalkatiyadhar to **Puani Garaat**.</li><li>After arriving in Puani Garaat, check-in to our campsite and have some leisure.</li><li>In the evening, savour home-style cooked dinner and overnight stay in **Puani Garaat**.</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Drive from Sankri to Dehradun (198 Kms) | Trek Ends",
+      "description": "<ul><li>Wake up early in the morning and post morning tea, check-out from our homestay in **Sankri** and drive towards **Dehradun**.</li><li>By late evening, you will be dropped at Dehradun. Trek ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation: Tempo Traveler/Bolero or similar (from Dehradun to Dehradun).",
+    "Accommodation on sharing basis: 2 nights in basic homestay/guesthouse (Sankri) and 4 nights in camps (Pauni Garaat & Kalkatiyadhar).",
+    "Meals: Breakfast+Lunch+Dinner (starting from Dinner on Day 1 till morning tea on Day 7) and complimentary evening tea & snacks. All provided meals are vegetarian only.",
+    "Well qualified and experienced trek leader and support staff.",
+    "All necessary entry fees and forest permits.",
+    "First-Aid medical kits for emergencies.",
+    "Camping & trekking equipment - sleeping bags & mattresses, snow gaiters, microspikes & rope (if required).",
+    "Driver allowances, toll taxes, parking, road & state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Porters/mules to carry personal luggage.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
+{
+  "slug": "ali-bedni-bughyal",
+  "title": "Ali Bedni Bughyal",
+  "destination": "Uttarakhand",
+  "duration": "6 Days 5 Nights",
+  "price": "₹10000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/9093220230330080238.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/31835220230330080238.png"
+  ],
+  "overview": "A 6-day trek to the vast, lush meadows of **Ali** and **Bedni Bugyal**, offering stunning views of the Garhwal Himalayas. Ali and Bedni are two adjoined mountainous meadows, locally known as ‘Bugyal’, offering spectacular views of the surrounding vistas. The trek is considered an **easy to moderate** difficulty level.",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Drive from Rishikesh to Lohajung (7650 ft) | 280 kms",
+      "description": "<ul><li>Assemble at the boarding point in **Rishikesh** - ISBT/Railway Station and drive to **Lohajung**. Lohajung serves as the beginning point and the base camp for the Ali Bedni Bugyal trek.</li><li>After arriving in Lohajung, check-in to our cozy homestay/guesthouse, freshen-up and have some leisure. Feel free to take a stroll around this gorgeous village and pack for your next day's trek. Get mesmerized by the stunning views of Nanda Ghunti peak as seen from Lohajung.</li><li>Savour home-style cooked dinner and overnight stay in **Lohajung**.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Trek from Lohajung to Didna Village (8045 ft) | 5 kms",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Lohajung to **Didna village**. The trail passes through dense alpine forests and charming villages, following the Neel Ganga river. You’ll gain altitude gradually as you ascend towards Didna village after crossing the river flowing under the metal bridge.</li><li>After arriving at Didna village, check-in to our homestay and have some leisure.</li><li>Post a much-needed lunch, feel free to take a stroll around and soak in the charm of this quaint village.</li><li>Savour home-style cooked dinner and overnight stay in **Didna village**.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Trek from Didna Village to Ali Bugyal (11,122 ft) | 9 kms",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Didna village to **Ali Bugyal**.</li><li>Enroute, we will be taking a pit stop for a much-needed lunch around Tolpani followed by a brief climb till the ridge of Ali Bugyal. After passing through oak forests, you will witness a dramatic change in the landscape, offering majestic views of Nanda Ghunti &amp; Trishul peaks.</li><li>After arriving at Ali Bugyal, check-in to our camps and have some leisure. Feel free to take a stroll around, relax on the lush meadows of Ali Bugyal and soak in the serenity that nature has to offer.</li><li>Savour home-style cooked dinner and overnight stay in **Ali Bugyal**.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Trek from Ali Bugyal to Bedni Bugyal & Back (12,500 ft) | 12 kms",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Ali Bugyal to **Bedni Bugyal**.</li><li>The charming meadow of Bedni is adorned with thousands of colorful flowers in full bloom and provides a stunning view of Garhwal Himalayan peaks like Trishul and Nanda Ghunti. Soak in the surreal beauty at Bedni Kund, a pristine lake in the midst of this lush meadow. After spending some time in the lap of nature, head back to your campsite at Ali Bugyal and treat yourself with a hearty lunch.</li><li>Savour home-style cooked dinner and overnight stay in **Ali Bugyal**.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Trek from Ali Bugyal to Wan (13 kms) | Drive to Lohajung (13 kms)",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek down from Ali Bugyal to **Wan village**.</li><li>Enroute, we will be taking a pit stop at Gharoli Patal for a much-needed lunch. Slowly oak and rhododendron trees will come into view and as you keep descending down towards Wan village.</li><li>Drive back to **Lohajung**, check-in to our cozy homestay/guesthouse, freshen-up and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in **Lohajung**.</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Drive from Lohajung to Rishikesh | 280 kms",
+      "description": "<ul><li>Wake up early in the morning, check-out from our guesthouse/homestay or camps and drive from Lohajung to **Rishikesh**.</li><li>By evening, you will be dropped at Rishikesh - ISBT/Railway Station. Trek ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation: Tempo Traveler/Sumo/Bolero/Sedan Cab (from Rishikesh to Rishikesh) depending on the number of travelers.",
+    "Accommodation on sharing basis: Homestay/Guesthouse and Camps. Opted accommodation sharing will not be applicable for stay in Didna Village since it's an offbeat location, thus stays are limited and are available on per bed basis only.",
+    "Mountaineering qualified and experienced trek leader and support staff.",
+    "Meals: Breakfast+Lunch+Dinner (starting from Day 1 Dinner till Day 6 Morning Tea) and complimentary evening tea & snacks.",
+    "First-Aid medical kits for emergencies.",
+    "Trekking equipment: sleeping bag, mattress, tent, kitchen & dining tent, toilet tent, utensils and crampon (if required).",
+    "All necessary entry fees and permits.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc. Cost for backpack offloading for the whole trek.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
+{
+  "slug": "dayara-bugyal-trek",
+  "title": "Dayara Bugyal Trek",
+  "destination": "Uttarakhand",
+  "duration": "4 Days 3 Nights",
+  "price": "₹9000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/24783120200329182312.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/12922120200329182312.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/24297820200329182312.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/7428420200329182312.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/26953020200329182312.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/41771420200329182312.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/26074620200329182312.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/26212520200329182312.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/8437620200329182312.png"
+  ],
+  "overview": "A 4-day trek to one of the most beautiful high-altitude meadows in India, **Dayara Bugyal**. Known for its stunning lush green meadows, panoramic views of snow-capped peaks, and the opportunity to witness vibrant local culture.",
+  "itinerary": [
+    {
+      "day": 0,
+      "title": "Dehradun to Barsu (8530 ft) (220 km Drive)",
+      "description": "<ul><li>Assemble at the boarding point. We will start our adventurous trip from **Dehradun**, early in the morning. Meet your trip leader and co-travellers and socialise with them. You'll cover your journey from Dehradun to **Barsu** by a tempo traveler or cab(180km). Drive through scenic towns of Mussoorie, Chamba, Dharasu, Bhatwari and then reach Barsu. On arriving, check-in to camp/hotel. Freshen up and enjoy the bonfire with mouth watering snacks. Savour home style cooked dinner and overnight stay at Barsu.</li></ul>"
+    },
+    {
+      "day": 1,
+      "title": "Barsu to Dayara Bugyal via Barnala (9980 ft) (9 km, 6-7 hours trek)",
+      "description": "<ul><li>Wake up early to the tranquil mountain morning. Post breakfast, check out and get ready for the trek towards the meadows of Dayara via **Barnala Tal**. Make your way through the Rhododendrons, Silver Oak and Deodar forests to reach Barnala that is 4km away. Barnala is at an elevation of 8,530 ft above the sea level. Take a halt here and witness the scenic meadows having Himalayan peaks in the backdrop. Trek further to Dayara Bugyal.It will be an uphill trek of about 5 kms to the high alpine meadows of **Dayara Bugyal**.It is at an elevation of 9,980 ft above the sea level. Reach Dayara bugyal and adore the mesmerizing Gangotri range. From the campsite, you can easily see the panoramic view of peaks like Srikanth, Rudregaira, Gangotri I, II & III, Jaonli, Draupadi ka Danda I & II, Black peak, Bandarpunch and others. Savour home style cooked dinner with star gazing and overnight stay at Dayara bugyal.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Dayara Bugyal to Bakaria Top (12000 ft) (3 km, 2.5–3 hours trek) (Back to Barnala Tal)",
+      "description": "<ul><li>Wake up early in the morning and witness an elegant sunrise over the snow capped peaks. Have breakfast in our campsite at Dayara bugyal then leave for **Bakaria Top**. It is at an elevation of 12000 ft above the sea level and it offers breathtaking views of snow-crested mountains and beautiful valleys. The trail becomes steep ahead and moves along oak and fir trees on its fringes. Bakaria Top is the highest point of Dayara Bugyal which also offers a magnificent view of sunset. After exploration start descending back to **Barnatal Tal** through the same route via Dayara bugyal. Reach the campsite, freshen up and enjoy the bonfire with mouth watering snacks. Savour home style cooked dinner and overnight stay at Barnatal campsite.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Trek from Barnala Tal to Barsu and drive to Dehradun",
+      "description": "<ul><li>Wake up early to a beautiful sunrise in the lap of nature. Post breakfast, It's time to say adios to this beautiful stretch of green grasslands. Start descending towards **Bursu village**. After reaching the village, post lunch drive back to **Dehradun**. Here, the trip ends with amazing memories and friends.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Accommodation: Stay is included from day 1 to Day 4 – you will be staying at guest house and camps on all days of trekking.",
+    "Transportation: Dehradun to Dehradun",
+    "Meals: All Meals from day 1 dinner to day 4 breakfast are included. We provide simple nutritious vegetarian food on all days of the trek.",
+    "Camping Charges: All trekking permits and forest camping charges are included.",
+    "Support Staff: Trek Leader and Local Guide.",
+    "Trekking Equipment: you will be staying in high quality tents and sleeping bags in all the camps. We provide high altitude sleeping bags which can stand temperatures as low as - 10 deg c. We also provide ropes, micro spikes, gaiters etc. As required.",
+    "Safety Equipment: First aid, medical kit, oxygen cylinders, Stretchers etc. will be available at all campsites to deal with emergencies."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
+{
+  "slug": "nag-tibba-trek",
+  "title": "Nag Tibba Trek",
+  "destination": "Uttarakhand",
+  "duration": "2 Days 1 Night",
+  "price": "₹6000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/38976020191128160341.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/18440220191128160341.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/12524920230801182521.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/7227820230801182521.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/16223620230801182521.png"
+  ],
+  "overview": "The perfect weekend trek from Delhi. A 2-day trek to the **highest peak in the lesser Himalayan region of Garhwal**, situated at an elevation of 3,022 meters (9,915 ft) above sea level. This trek is uncomplicated and beginner-friendly.",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Delhi To Pantwari Village via Mussoorie",
+      "description": "<ul><li>Assemble at boarding point in Delhi - Akshardham Metro Station.</li><li>Start an overnight journey to **Pantwari** and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Pantwari Village To Base Camp",
+      "description": "<ul>\r\n    <li>Head towards village Pantwari which is located at an altitude of 4,642 ft.</li>\r\n    <li>The road to Pantwari passes through Mussoorie-the queen of hills, Kempty Falls, and with the Yamuna river trailing on our side,</li>\r\n    <li>Will reach Pantwari at around 10 Am.</li>\r\n    <li>At Pantwari, we will take breakfast and after some rest, start the trek towards camp.</li>\r\n    <li>The initial Nag Tibba trek passes through a goat village and then continues on the spur of the mountain. The rest of the trek goes through a dense forest of rhododendron and small bugyal or meadow. The complete Nag Tibba trek is on an even surface except for some stretches.</li>\r\n    <li>We will reach camp after 5-6hours trek.</li>\r\n    <li>After arriving at the campsite, relax. Have dinner with bonfire. Night stay in the camps.</li>\r\n</ul>"
+    },
+    {
+      "day": 3,
+      "title": "Campsite To Nag Tibba Top And Return to Pantwari Village And Drive To Dehradun",
+      "description": "<ul>\r\n    <li>After having breakfast at the campsite.</li>\r\n    <li>Will start the trek to the **Nag Tibba Summit** early morning.</li>\r\n    <li>After a little hike, we will reach Nag Tibba Base, which is a large clearing with a temple dedicated to the Serpent God.</li>\r\n    <li>The trek continues from here into the forest on a steep incline, likely to be submerged in the snow in the winter.</li>\r\n    <li>Close to the top, the trail will turn through a ridge and finally take you to the flag marking Nag Tabba jhandi, or summit.</li>\r\n    <li>The View from the summit brings us face to face with the Garhwal Himalayas. The canvas of the sky lights up with ice-capped ranges of Bandarpoonch, Gangotri, Kedarnath, Kala Nag, and more.</li>\r\n    <li>After spending some time on the top, we will descend on the same trail to return to camp. After Lunch will again descend to **Pantwari** and will be reached by sundown.</li>\r\n    <li>Start your journey to **Delhi** and reach by next morning around 6 Am (tentative).</li>\r\n</ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: AC bus/Tempo Traveler.",
+    "Accommodation in camps (sharing basis).",
+    "Experienced and cool trip leader/trek guide.",
+    "Bonfire (if weather permits), activities.",
+    "Meals: Lunch (2), Dinner (1), Breakfast (1).",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
+{
+  "slug": "madmaheshwar-trek",
+  "title": "Madmaheshwar Trek",
+  "destination": "Uttarakhand",
+  "duration": "3 Days 2 Nights",
+  "price": "₹8499",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/8354620210223115034.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/34357220210223115034.png"
+  ],
+  "overview": "A 3-day trek to Madmaheshwar, one of the Panch Kedars, a temple dedicated to Lord Shiva, set in a beautiful meadow. This trek is revered among pilgrims and adventure seekers for trekking through pristine valleys, dense forest, rugged terrain and uneven paths that lead the way to Madhmaheshwar.",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Delhi to Ransi",
+      "description": "<ul><li>Assemble at boarding point in Delhi - Akshardham Metro Station.</li><li>Start an overnight journey to Ransi and socialize with your co-travellers.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Pit Stop at Devprayag & Rudraprayag, Reach Ransi",
+      "description": "<ul>\r\n    <li>Enroute Chopta, we will take a pit stop at Devprayag to grab a satisfying breakfast, witness the beautiful confluence of Bhagirathi &amp; Alaknanda rivers at Devprayag.</li>\r\n    <li>After arriving in village Ransi in Madmaheshwar Valley, get freshen up and take lunch.</li>\r\n    <li>Start hiking to Goundar village.</li>\r\n    <li>Check in to our scenic property, freshen-up and have some leisure.</li>\r\n    <li>In the evening, enjoy warm bonfire and mouth-watering snacks under a million stars.</li>\r\n    <li>Savour home-style cooked dinner and overnight stay in cottages/camps.</li>\r\n</ul>"
+    },
+    {
+      "day": 3,
+      "title": "Trek to Madmaheshwar Temple.",
+      "description": "<ul>\r\n    <li>Post breakfast, begin your trek to Madmaheshwar Temple - one of the Panch Kedar.</li>\r\n    <li>Trek further to magnificent Bhudha Madmaheshwar Temple situated at 13,500 ft (if weather and time permits) and gather for an #InstaPerfect group picture.</li>\r\n    <li>Pitch our tents and have some leisure.</li>\r\n    <li>Dinner and overnight stay.</li>\r\n</ul>"
+    },
+    {
+      "day": 4,
+      "title": "Trek back to Ransi, Drive to Delhi.",
+      "description": "<ul>\r\n    <li>Wake up early to witness the beautiful sunrise.</li>\r\n    <li>Post breakfast, visit the Madmaheshwar Temple.</li>\r\n    <li>Start our trek down to Ransi village via Goundar.</li>\r\n    <li>Reach Ransi and have lunch, Drive back to Delhi and reach Delhi the next morning.</li>\r\n</ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation from Delhi to Delhi: Tempo Traveler/Cab.",
+    "Accommodation on sharing basis: Camps.",
+    "Experienced and cool trip leader/trek guide.",
+    "Bonfire (if weather permits)",
+    "4 Meals: Dinner (2), Breakfast (2)",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
+{
+  "slug": "roopkund-trek",
+  "title": "Roopkund Trek",
+  "destination": "Uttarakhand",
+  "duration": "7 Days",
+  "price": "₹15000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/35515420240916115136.png",
+  "gallery": [],
+  "overview": "One of the most stunning high-altitude glacial and a mysterious lake nestled in Devbhoomi Uttarakhand, **Roopkund Trek** is truly a treat for adventure buffs and nature lovers. Nestled in Uttarkhand’s Garhwal Himalayas, the trek to the majestic Roopkund Lake (locally known as **Skeleton Lake**) is renowned for its mystery, high alpine meadows & serene lakes, and the opportunity for a mind-blowing trekking experience. The trek is considered **moderate to difficult** due to its high altitude and challenging terrain.",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Trek from Lohajung to Didna Village (8045 ft) | 5 kms",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Lohajung to Didna village. The trail passes through dense alpine forests and charming villages, following the Neel Ganga river. You’ll gain altitude gradually as you ascend towards Didna village after crossing the river flowing under the metal bridge. </li><li>After arriving at Didna village, check-in to our homestay and have some leisure.</li><li>Post a much-needed lunch, feel free to take a stroll around and soak in the charm of this quaint village.</li><li>Savour home-style cooked dinner and overnight stay in Didna village.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Trek from Didna Village to Ali Bugyal (11,122 ft) | 9 kms",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Didna village to Ali Bugyal.</li><li>Enroute, we will be taking a pit stop for a much-needed lunch around Tolpani followed by a brief climb till the ridge of Ali Bugyal. After passing through oak forests, you will witness a dramatic change in the landscape, offering majestic views of Nanda Ghunti &amp; Trishul peaks.</li><li>After arriving at Ali Bugyal, check-in to our camps and have some leisure. Feel free to take a stroll around, relax on the lush meadows of Ali Bugyal and soak in the serenity that nature has to offer.</li><li>Savour home-style cooked dinner and overnight stay in Ali Bugyal.</li></ul>"
+    },
+    {
+      "day": 3,
+      "title": "Ali Bugyal to Bedni Bugyal to Pathar Nachuni (12,500 ft) | 6 kms",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Ali Bugyal to Bedni Bugyal and Pathar Nachuni.</li><li>Take the trekking trail from Ali Bugyal towards Ghora Lautani and further towards Pathar Nachuni and Bedni Bugyal.</li><li>The charming meadow of Bedni is adorned with thousands of colorful flowers in full bloom and provides a stunning view of Garhwal Himalayan peaks like Trishul and Nanda Ghunti. Soak in the surreal beauty at Bedni Kund, a pristine lake in the midst of this lush meadow.</li><li>After arriving at Pathar Nachuni, check-in to our camps, have some leisure and enjoy a starry night (on a clear day).</li><li>Savour home-style cooked dinner and overnight stay in Pathar Nachuni.</li></ul>"
+    },
+    {
+      "day": 4,
+      "title": "Trek from Pathar Nachuni to Bhagwabasa (14,400 ft) | 5 kms",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Pathar Nachuni to Bhagwabasa via Kalu Vinayak.</li><li>Enjoy the majestic Himalayan views as you gradually trek upwards and gain the altitude to reach the Kalu Vinayak Temple. Trek further to finally arrive at Bhagwabasa. At Bhagwabasa (Bagua/Bagh: Tiger, Basa: Home), witness a small cave here and according to folklore, this place is considered as the resting place or shelter of the tiger that Goddess Nanda Devi rides.</li><li>After arriving at Bhagwabasa, check-in to our camps and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in Bhagwabasa.</li></ul>"
+    },
+    {
+      "day": 5,
+      "title": "Bhagwabasa to Roopkund to Pathar Nachuni (15,750 ft) | 5 kms",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek from Bhagwabasa to Roopkund summit.</li><li>From Bhagwabasa campsite, trek ahead towards Chhiria Nag and climb the steep trail until you arrive at the point from where you’ll descend down to finally reach and witness the mighty Roopkund Lake. This shallow high altitude Himalayan lake has remains of skeletons which are almost 1200 years old. Spend some time at Roopkund, capture some #InstaPerfect snaps and seek blessings at a small temple dedicated to Goddess Nanda Devi.</li><li>Return back to your campsite at Pathar Nachuni via Bhagwabasa &amp; Kalu Vinayak and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in Pathar Nachuni.</li></ul>"
+    },
+    {
+      "day": 6,
+      "title": "Pathar Nachuni to Wan (15 kms) | Drive to Lohajung (15 kms)",
+      "description": "<ul><li>Wake up early in the morning and post breakfast, we will start our trek down from Pathar Nachuni to Wan village.</li><li>Enroute, we will be taking a pit stop at Gharoli Patal for a much-needed lunch. Slowly oak and rhododendron trees will come into view and as you keep descending down towards Wan village.</li><li>&nbsp;Drive back to Lohajung, check-in to our cozy homestay/guesthouse, freshen-up and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in Lohajung.</li></ul>"
+    },
+    {
+      "day": 7,
+      "title": "Drive from Lohajung to Rishikesh | 280 kms",
+      "description": "<ul><li>Wake up early in the morning, check-out from our guesthouse/homestay or camps and drive from Lohajung to Rishikesh.</li><li>By evening, you will be dropped at Rishikesh - ISBT/Railway Station. Trek ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Transportation: Tempo Traveler/Sumo/Bolero/Sedan Cab (from Rishikesh to Rishikesh) depending on the number of travelers.",
+    "Accommodation on sharing basis: Homestay/Guesthouse and Camps. (Note: Accommodation sharing will not be applicable for stay in Didna Village since it's an offbeat location, thus stays are limited and are available on per bed basis only.)",
+    "Mountaineering qualified and experienced trek leader and support staff.",
+    "Meals: Breakfast+Lunch+Dinner (starting from Day 1 Dinner till Day 8 Morning Tea) and complimentary evening tea & snacks.",
+    "First-Aid medical kits for emergencies.",
+    "Trekking equipment: sleeping bag, mattress, tent, kitchen & dining tent, toilet tent, utensils and crampon (if required).",
+    "All necessary entry fees and permits.",
+    "Driver allowances, toll taxes, parking, state taxes."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of a personal nature like porterage, tips, laundry etc. Cost for backpack offloading for the whole trek.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
+{
+  "slug": "kedartal-trek",
+  "title": "Kedartal Trek",
+  "destination": "Uttarakhand",
+  "duration": "6 Days 5 Nights",
+  "price": "₹14000",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/1008520200329152159.png",
+  "gallery": [
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/26810520200329152159.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/37121920200329152159.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/17457120200329152159.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/23937920200329152159.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/12777320200329152159.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/8745620200329152159.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/10010420200329152159.png",
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/41348920200329152159.png"
+  ],
+  "overview": "The Kedartal Trek is a challenging, high-altitude adventure to a spectacular glacial lake in the Garhwal Himalayas. The trek takes you to an altitude of around **4,750 meters (15,584 feet)**, offering breathtaking views and reflections of towering peaks like **Thalay Sagar**, Bhrigupanth, and Manda Parvat. It is an ideal trek for **experienced trekkers** due to the rugged terrain and steep trails.",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Trek from Dehradun to Gangotri",
+      "description": "<ul><li>Early in the morning reach DDN, gather at the boarding point in Dehradun and meet our Co-travelers. A trip briefing will be given and after that you begin your trip. On day 1, we take a drive to **Gangotri** and the distance of the drive is about 240 km and you take around 8-9 hours to reach Gangotri.</li><li>On the way to Gangotri, you will take adequate rest to have breakfast and lunch. You will reach Gangotri by evening after crossing Bhaironghati (famous for its gorges) and Harshil village (also known as Apple village).</li><li>After reaching Gangotri, attend **Ganga Aarti** in evening at Gangotri temple. Check-in to our guesthouse/ homestay freshen up and take a rest. Dinner and an overnight stay in our guesthouse/ homestay.</li></ul>"
+    },
+    {
+      "day": 2,
+      "title": "Trek from Gangotri (10,055 feet) to BK",
+      "description": "<ul>\r\n    <li>Wake up early in the morning and post breakfast checkout to **BK (Bhoj Kharak)**. The gradient of the trek is easy. The distance of the trek is **9 km** and it takes you around 5-6 hours in duration to reach BK.</li>\r\n    <li>The trail passes through a dense forest which includes the Birch or Bhuj trees. The bank of the Birch (Bhuj) trees were used for writing the sacred text in ancient times.</li>\r\n    <li>Arrive BK and pitch your tents after crossing a **spider wall** made up of boulders and rocks. Setup your tents and prepare for your snacks like soup, tea or coffee and dinner for the night. Take a walk around your camps. Have dinner, gaze stars and take rest.</li>\r\n</ul>"
+    },
+    {
+      "day": 3,
+      "title": "Trek from BK to Kedarkharak",
+      "description": "<ul>\r\n    <li>Wake up early in the morning and have breakfast. Un-pitch your tents and start trekking towards **Kedarkharak**. The distance of the trek is **4.2 km** and takes you around 3-4 hours. The gradient of the trek is easy to moderate because it's an easy trek for 1km only.</li>\r\n    <li>The trek is mixed with steep portions and rugged trails. Kedarkharak is our second base camp situated on the meadows, and the views are amazing from the campsite. It offers the sight of Garhwal Himalayan Peaks like Thalaysagar and Bhrigupanth.</li>\r\n    <li>After arriving at Kedarkharak, pitch your tents and prepare the food. Have dinner and take a rest. Overnight stay in camps.</li>\r\n</ul>"
+    },
+    {
+      "day": 4,
+      "title": "Trek from Kedarkharak to Kedartal (14, 238 ft)",
+      "description": "<ul>\r\n    <li>Wake up early in the morning and have a healthy breakfast. Un-pitch your tents and start trekking towards **Kedartal**. The trek distance is around **5 km** and you take around 4-5 hours to reach Kedartal.</li>\r\n    <li>The trek passes through difficult terrains of boulders, stones and spider walls. The trail is steep, though it is suitable for beginners Kedartal is located at an altitude of **15,458 feet** (Note: The day heading says 14,238 ft but the description says 15,458 feet).</li>\r\n    <li>After reaching Kedartal, set up your tents and admire the pristine surroundings of the most glacial lake with **Thalaysagar mountain** in the backdrop. Mt Thalaysagar is situated at an elevation of 22,650 feet. Have dinner and an overnight stay in dome tents/camps.</li>\r\n</ul>"
+    },
+    {
+      "day": 5,
+      "title": "Descend back from Kedarkharak to Gangotri",
+      "description": "<ul>\r\n    <li>Wake up early in the morning and capture the mesmerising view of sunrise and have breakfast. Start descending back to **Gangotri**.</li>\r\n    <li>Carry your packed lunches on the way to Gangotri via BK and Kedarkharak with the same route.</li>\r\n    <li>You will reach Gangotri by late evening. Check in to our guesthouse, freshen up and take a rest. Dinner and an overnight stay in a dome guesthouse/ homestay.</li>\r\n</ul>"
+    },
+    {
+      "day": 6,
+      "title": "Drive from Gangotri to Dehradun",
+      "description": "<ul><li>Wake up in the morning and have a mouth-watering breakfast. Start your drive to **Dehradun** with the same route you came on day 1. The distance of your drive is **290 km**. You will reach Dehradun by evening. Your trip ends here.</li></ul>"
+    }
+  ],
+  "inclusions": [
+    "Accommodation: Stay is included from day 1 to Day 6 – you will be staying at guest house and camps on all days of trekking.",
+    "Meals: All Meals from day 1 dinner to day 6 breakfast are included. We provide simple nutritious vegetarian food on all days of the trek.",
+    "Camping Charges: All trekking permits and forest camping charges are included.",
+    "Support Staff: Trek Leader and Local Guide.",
+    "Trekking Equipment: you will be staying in high quality tents and sleeping bags in all the camps. We provide high altitude sleeping bags which can stand temperatures as low as - 10 deg c. We also provide ropes, micro spikes, gaiters etc. As required.",
+    "Safety Equipment: First aid, medical kit, oxygen cylinders, Stretchers etc. will be available at all campsites to deal with emergencies."
+  ],
+  "exclusions": [
+    "Any extra meals apart from the ones mentioned under inclusions.",
+    "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+    "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+    "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+    "GST (5%) is applicable extra.",
+    "Anything which is not mentioned in the above inclusions."
+  ]
+},
 
   //==========================================================================
   // DESTINATION: Thailand (from Thailand.tsx)
