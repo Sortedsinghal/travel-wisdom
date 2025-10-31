@@ -36,15 +36,6 @@ const trips = [
     imageUrl: '/trip/kerala.png',
   },
   {
-    id: 4,
-    title: 'Adi Kailash & Om Parvat Yatra',
-    duration: '7 Days 6 Nights',
-    price: 29000,
-    originalPrice: 29000,
-    discount: 0,
-    imageUrl: '/trip/adikailash.png',
-  },
-  {
     id: 5,
     title: 'Leh 6 Nights Trip',
     duration: '6 Days 5 Nights',

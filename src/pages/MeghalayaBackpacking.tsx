@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 // Assuming Header and Footer components exist in your project structure
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { QueryForm } from '@/components/QueryForm';
-import { Clock, MapPin, Star, ChevronDown, ChevronUp, Phone, MessageSquare, Send, Youtube, Linkedin, Instagram } from 'lucide-react'; // Added missing icons
+import { Clock, MapPin, Star, ChevronDown, ChevronUp } from 'lucide-react'; // Removed unused icons
 
 // --- Static Data extracted from the Meghalaya trip source ---
 const tripData = {
@@ -46,7 +46,7 @@ const tripData = {
     { name: 'Meals', icon: '/cloned_media/17264920241021125723.png' },
     { name: 'Explorations', icon: '/cloned_media/13075920241021125921.png' },
   ],
-  overview: `<h2>About Meghalaya Backpacking Trip</h2><p>A wonderland also known as the ‘Abode of Clouds’ located in the northeastern part of India, Meghalaya is home to some of the world’s most diverse ecosystems. Meghalaya offers you sights of heart thumping cliffs, extravagant rivers and much more. It provides you a chance to experience the colonial influence in Shillong (capital of Meghalaya), visit Asia’s cleanest village Mawlynnong or explore the Living Double-Decker Root Bridge. Teeming valleys and lush green sheets of land to lakes and refreshing waterfalls, this amazing state has so much for every kind of wanderlust soul. This gem of Northeast India is also known for its richest biodiversity areas in the world. A perfect vacay in nature’s lap, Meghalaya lies comfortably between Bangladesh in the South and Brahmaputra valley in the North.</p><p>To visit this ‘Scotland of India’ the first rule is to leave all your worries at home and travel with a free soul to free your mind off the stress. It's an experience that you can gain both solo or with your <b>Meghalaya Backpacking Package</b> at best rates.</p><h3>Places to visit in Meghalaya Backpacking Tour</h3><p>Travelling is a bug and whether you are a hiking, trekking enthusiast or novice paddler, Meghalaya has a lot to offer to people and tourists from all around.</p><ul><li><strong>Shillong:</strong> The capital city...</li><li><strong>Laitlum Canyons:</strong> To enjoy the viewpoint...</li><li><strong>Cherrapunji:</strong> Labeled as one of the wettest places...</li><li><strong>Wei Swadong:</strong> Meghalaya has earned fame...</li><li><strong>Living Root Bridge:</strong> Everyone deserves to watch...</li><li><strong>Umshiang Double-Decker Bridge:</strong> This magnificent bridge...</li><li><strong>Nohkalikai Falls:</strong> This waterfall holds a rich history...</li><li><strong>Mawsmai Caves:</strong> The term Mawsmai...</li><li><strong>Mawlynnong Village:</strong> Your drive towards Dawki...</li><li><strong>Dawki Village:</strong> Settled on the laps of Meghalaya...</li><li><strong>Krang Shuri Waterfall:</strong> Waterfalls are the pride...</li></ul><h3>Things to do in Meghalaya Backpacking Trip</h3><p>Scotland of India is a combination of Wild mountains...</p><ul><li><strong>Exploring Caves:</strong> Meghalaya has long uniquely structured caves...</li><li><strong>Rock Climbing:</strong> This state offers you opportunities...</li><li><strong>Hiking:</strong> Halong and other such places...</li><li><strong>Refreshing Waterfalls:</strong> Visiting Meghalaya is incomplete...</li><li><strong>Exploring streets & taste the essence of Meghalayan food:</strong> There is no harsh...</li><li><strong>Understand Unique Culture:</strong> Any place with an enlarged picture...</li><li><strong>Adventure Sports:</strong> Many hill stations provide opportunities...</li></ul><h3>Best time to visit Meghalaya</h3><p>It is recommended to visit Meghalaya Backpacking Package during either Autumn or winter season...</p><h3>How to reach Meghalaya</h3><ul><li><strong>Airways:</strong> To reach Meghalaya, take a flight to the nearest airport in Guwahati...</li><li><strong>Roadways:</strong> Transportation to Meghalaya is well connected...</li><li><strong>Railways:</strong> The closest railway station to Meghalaya is Guwahati...</li></ul><h3>FAQ’s</h3><p><strong>1. What is the best time for Meghalaya Backpacking Package?</strong></p><p>Winters mainly October to December...</p><p><strong>2. What is the best food to try on a Meghalaya Backpacking Trip?</strong></p><p>Some of the must eat foods...</p><p><strong>3. What are the famous places to visit in Meghalaya?</strong></p><p>Cherrapunji, Shillong, Living Root Bridge...</p><p><strong>4. What are the Best places for shopping in Meghalaya?</strong></p><p>Polo Bazaar, Bara Bazaar...</p><p><strong>5. What are Best things to buy in Meghalaya?</strong></p><p>You must buy Shawls, Manipuri Lungis...</p><p>Explore our Meghalaya tour packages: <a href="https://Travel Wisdom.com/trips/meghalaya-5-days-4-nights" style="color:blue;">Meghalaya Trip for 5D/4N</a>, <a href="https://Travel Wisdom.com/trips/meghalaya-8-days-7-nights" style="color:blue;">Meghalaya Tour for 8D/7N</a>, <a href="https://Travel Wisdom.com/trips/meghalaya-with-kaziranga" style="color:blue;">Meghalaya Kaziranga Tour</a></p>`, // Truncated for brevity, kept structure
+  overview: `<h2>About Meghalaya Backpacking Trip</h2><p>A wonderland also known as the ‘Abode of Clouds’ located in the northeastern part of India, Meghalaya is home to some of the world’s most diverse ecosystems. Meghalaya offers you sights of heart thumping cliffs, extravagant rivers and much more. It provides you a chance to experience the colonial influence in Shillong (capital of Meghalaya), visit Asia’s cleanest village Mawlynnong or explore the Living Double-Decker Root Bridge. Teeming valleys and lush green sheets of land to lakes and refreshing waterfalls, this amazing state has so much for every kind of wanderlust soul. This gem of Northeast India is also known for its richest biodiversity areas in the world. A perfect vacay in nature’s lap, Meghalaya lies comfortably between Bangladesh in the South and Brahmaputra valley in the North.</p><p>To visit this ‘Scotland of India’ the first rule is to leave all your worries at home and travel with a free soul to free your mind off the stress. It's an experience that you can gain both solo or with your <b>Meghalaya Backpacking Package</b> at best rates.</p><h3>Places to visit in Meghalaya Backpacking Tour</h3><p>Travelling is a bug and whether you are a hiking, trekking enthusiast or novice paddler, Meghalaya has a lot to offer to people and tourists from all around.</p><ul><li><strong>Shillong:</strong> The capital city...</li><li><strong>Laitlum Canyons:</strong> To enjoy the viewpoint...</li><li><strong>Cherrapunji:</strong> Labeled as one of the wettest places...</li><li><strong>Wei Swadong:</strong> Meghalaya has earned fame...</li><li><strong>Living Root Bridge:</strong> Everyone deserves to watch...</li><li><strong>Umshiang Double-Decker Bridge:</strong> This magnificent bridge...</li><li><strong>Nohkalikai Falls:</strong> This waterfall holds a rich history...</li><li><strong>Mawsmai Caves:</strong> The term Mawsmai...</li><li><strong>Mawlynnong Village:</strong> Your drive towards Dawki...</li><li><strong>Dawki Village:</strong> Settled on the laps of Meghalaya...</li><li><strong>Krang Shuri Waterfall:</strong> Waterfalls are the pride...</li></ul><h3>Things to do in Meghalaya Backpacking Trip</h3><p>Scotland of India is a combination of Wild mountains...</p><ul><li><strong>Exploring Caves:</strong> Meghalaya has long uniquely structured caves...</li><li><strong>Rock Climbing:</strong> This state offers you opportunities...</li><li><strong>Hiking:</strong> Halong and other such places...</li><li><strong>Refreshing Waterfalls:</strong> Visiting Meghalaya is incomplete...</li><li><strong>Exploring streets & taste the essence of Meghalayan food:</strong> There is no harsh...</li><li><strong>Understand Unique Culture:</strong> Any place with an enlarged picture...</li><li><strong>Adventure Sports:</strong> Many hill stations provide opportunities...</li></ul><h3>Best time to visit Meghalaya</h3><p>It is recommended to visit Meghalaya Backpacking Package during either Autumn or winter season...</p><h3>How to reach Meghalaya</h3><ul><li><strong>Airways:</strong> To reach Meghalaya, take a flight to the nearest airport in Guwahati...</li><li><strong>Roadways:</strong> Transportation to Meghalaya is well connected...</li><li><strong>Railways:</strong> The closest railway station to Meghalaya is Guwahati...</li></ul><h3>FAQ’s</h3><p><strong>1. What is the best time for Meghalaya Backpacking Package?</strong></p><p>Winters mainly October to December...</p><p><strong>2. What is the best food to try on a Meghalaya Backpacking Trip?</strong></p><p>Some of the must eat foods...</p><p><strong>3. What are the famous places to visit in Meghalaya?</strong></p><p>Cherrapunji, Shillong, Living Root Bridge...</p><p><strong>4. What are the Best places for shopping in Meghalaya?</strong></p><p>Polo Bazaar, Bara Bazaar...</p><p><strong>5. What are Best things to buy in Meghalaya?</strong></p><p>You must buy Shawls, Manipuri Lungis...</p><p>Explore our Meghalaya tour packages: <a href="https://Travel Wisdom.com/trips/meghalaya-5-days-4-nights" style="color:blue;">Meghalaya Trip for 5D/4N</a>, <a href="https://Travel Wisdom.com/trips/meghalaya-8-days-7-nights" style="color:blue;">Meghalaya Tour for 8D/7N</a>, <a href="https://Travel Wisdom.com/trips/meghalaya-with-kaziranga" style="color:blue;">Meghalaya Kaziranga Tour</a></p>`, 
   itinerary: [
     { day: "Day 1", title: "Guwahati Arrival | Shillong Chill Scenes", content: "<ul><li>Assemble at the boarding point in Guwahati and start a chilled-out journey to Shillong.</li><li>Socialize with your co-travellers while enjoying mesmerizing landscapes of lush green hills.</li><li>Enroute Shillong, we’ll take a halt at the popular Umiam Lake which is one of the biggest artificial lakes in Meghalaya.</li><li>After arriving in Shillong, check-in to our comfy hotel, freshen-up and have some leisure.</li><li>Make the most out of it by exploring Shillong’s Police Bazar with your travel clan, soak in the colonial charm of Meghalaya’s capital and feel free to stroll around the streets.</li><li>Overnight stay at a hotel in Shillong.</li></ul>" },
     { day: "Day 2", title: "Drive from Shillong to Cherrapunji | Waterfalls & More", content: "<ul><li>Wake up and post breakfast, check-out from the hotel and we'll proceed towards Cherrapunji - popular for its living root bridges and for the abundance of rainfall it receives every year.</li><li>Enroute, we’ll take a halt at the popular Laitlum Canyons (Mawkdok Dympep Viewpoint), from where you can witness a panoramic view of the lush valleys of Meghalaya. </li><li>Explore the amazing Nohkalikai Waterfall - known as the tallest plunge waterfall in Meghalaya, Arwah Caves - known for their natural limestone formations and fossils, and Seven Sisters’ Fall (if time permits).</li><li>Check-in to our hotel and have some leisure.</li><li>Overnight stay at a hotel in Cherrapunji.</li></ul>" },
@@ -94,6 +94,7 @@ const ItineraryItem = ({ item, isOpen, onClick }) => (
         </button>
         {isOpen && (
             <div className="p-4 border-t border-gray-200">
+                {/* Applied prose formatting as seen in the source HTML's content structure */}
                 <div className="prose prose-sm max-w-none text-gray-600" dangerouslySetInnerHTML={{ __html: item.content }} />
             </div>
         )}
@@ -108,7 +109,8 @@ const FaqItem = ({ item, isOpen, onClick }) => (
         </button>
         {isOpen && (
             <div className="p-4 border-t border-gray-200">
-                <p className="text-sm text-gray-600">{item.answer}</p> {/* Use <p> for simple text */}
+                {/* Wrapped answer in a paragraph with class to match source text formatting */}
+                <p className="text-sm text-gray-600 font_poppins fw-normal fs_xsm">{item.answer}</p> 
             </div>
         )}
     </div>
@@ -116,18 +118,19 @@ const FaqItem = ({ item, isOpen, onClick }) => (
 
 
 const BookingBox = ({ occupancy, setOccupancy, occupancyDetails, mobile = false, setShowQueryForm }) => (
+    // Note: The structure here is simplified compared to the source HTML's complex divs, but retains functionality and button styles/grouping.
     <div className={`border bg-white p-4 sm:p-6 rounded-2xl shadow-lg ${mobile ? 'lg:hidden' : 'hidden lg:block'}`}>
         {!mobile && (
             <>
                 <div className="flex justify-between items-start">
                     <p className="text-xl font-bold">Starting Price</p>
-                    {tripData.pricing.discount && ( // Only show discount if available
+                    {tripData.pricing.discount && ( 
                       <span className="bg-yellow-300 text-yellow-800 font-bold text-sm px-3 py-1 rounded-md">₹{tripData.pricing.discount} Off</span>
                     )}
                 </div>
                 <div className="mt-2">
-                    <span className="text-4xl font-bold text-gray-900">₹{occupancyDetails[occupancy]?.price || tripData.pricing.startPrice}</span> {/* Fallback to startPrice */}
-                    {occupancyDetails[occupancy]?.original && ( // Only show original if available for selected occupancy
+                    <span className="text-4xl font-bold text-gray-900">₹{occupancyDetails[occupancy]?.price || tripData.pricing.startPrice}</span>
+                    {occupancyDetails[occupancy]?.original && ( 
                       <span className="text-lg text-gray-500 line-through ml-2">₹{occupancyDetails[occupancy].original}</span>
                     )}
                 </div>
@@ -141,7 +144,7 @@ const BookingBox = ({ occupancy, setOccupancy, occupancyDetails, mobile = false,
                 <p className="font-medium text-gray-700">Occupancy</p>
                 <div className="flex gap-2">
                     {Object.keys(occupancyDetails).map(key => (
-                         occupancyDetails[key]?.price && ( // Only render button if price exists for this occupancy
+                         occupancyDetails[key]?.price && ( 
                             <button key={key} onClick={() => setOccupancy(key)} className={`px-3 py-1 border rounded-md text-xs font-semibold capitalize ${occupancy === key ? 'bg-[#0B3A55] text-white border-[#0B3A55]' : 'bg-gray-100 hover:bg-gray-200 text-gray-700'}`}> {/* Theme color */}
                                 {key}
                             </button>
@@ -149,7 +152,7 @@ const BookingBox = ({ occupancy, setOccupancy, occupancyDetails, mobile = false,
                     ))}
                 </div>
             </div>
-            {occupancyDetails[occupancy]?.price && ( // Show price details only if available
+            {occupancyDetails[occupancy]?.price && ( 
                 <div className="border bg-gray-50 flex items-center justify-between mt-2 p-2 rounded-lg">
                     <p className="font-medium text-sm text-gray-800 capitalize">{occupancy} Occupancy</p>
                     <div className="text-right">
@@ -163,11 +166,11 @@ const BookingBox = ({ occupancy, setOccupancy, occupancyDetails, mobile = false,
         <button onClick={() => setShowQueryForm(true)} className="block w-full text-center bg-[#0B3A55] text-white font-bold py-3 mt-4 rounded-lg hover:bg-opacity-90 transition-colors">Book Now</button>
         <div className="flex gap-3 mt-3">
              <a href="https://api.whatsapp.com/send?phone=919971545446" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 text-sm w-full bg-green-500 text-white font-bold py-2.5 rounded-lg hover:bg-green-600 transition-colors">
-                {/* SVG for WhatsApp icon */}
+                {/* SVG for WhatsApp icon - Kept the provided SVG path logic in the original component */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
                 Whatsapp
             </a>
-            <button className="flex-1 flex items-center justify-center text-sm w-full bg-gray-200 text-gray-800 font-bold py-2.5 rounded-lg hover:bg-gray-300 transition-colors">Get PDF Itinerary</button>
+            {/* Removed Get PDF Itinerary Button */}
         </div>
     </div>
 );
@@ -176,27 +179,29 @@ const BookingBox = ({ occupancy, setOccupancy, occupancyDetails, mobile = false,
 // --- Main Page Component ---
 const MeghalayaBackpacking = () => {
   const [showQueryForm, setShowQueryForm] = useState(false);
-  const [openItinerary, setOpenItinerary] = useState(0); // First itinerary item open
-  const [openFaq, setOpenFaq] = useState(null); // No FAQ item open initially
-  const [occupancy, setOccupancy] = useState('double'); // Default to double
+  const [openItinerary, setOpenItinerary] = useState(0); 
+  const [openFaq, setOpenFaq] = useState(null); 
 
-  // Define occupancy details, check if prices exist in tripData
-  const occupancyDetails = {
+  // FIX: Centralized logic for determining occupancy details and default value.
+  const occupancyDetails = useMemo(() => ({
     triple: { price: tripData.pricing.triple, original: tripData.pricing.originalPriceTriple },
     double: { price: tripData.pricing.double, original: tripData.pricing.originalPriceDouble },
-  };
-   // Filter out occupancy options that don't have a price
-   const availableOccupancies = Object.keys(occupancyDetails).filter(key => occupancyDetails[key]?.price);
-   // Set default occupancy to the first available one, or keep 'double' if it exists
-   const defaultOccupancy = availableOccupancies.includes('double') ? 'double' : availableOccupancies[0] || 'triple';
-   useState(() => setOccupancy(defaultOccupancy)); // Set initial state correctly
+  }), []);
+
+  const defaultOccupancy = useMemo(() => {
+    const available = Object.keys(occupancyDetails).filter(key => occupancyDetails[key]?.price);
+    // Determine the default occupancy on initial render
+    return available.includes('double') ? 'double' : available[0] || 'triple'; 
+  }, [occupancyDetails]);
+  
+  // FIX: Initialize occupancy state correctly with the computed default value.
+  const [occupancy, setOccupancy] = useState(defaultOccupancy); 
 
 
-  const navLinks = ['Overview', 'Itinerary', 'Inclusions', 'Exclusions', 'ThingsToPack', 'KnowBeforeYouGo', 'FAQs']; // Added KnowBeforeYouGo & FAQs
+  const navLinks = ['Overview', 'Itinerary', 'Inclusions', 'Exclusions', 'ThingsToPack', 'KnowBeforeYouGo', 'FAQs']; 
 
   return (
     <div className="bg-gray-100 font-sans" style={{fontFamily: "'Poppins', sans-serif"}}>
-      {/* Assuming Header component works */}
       <Header />
 
       <main className="max-w-screen-xl mx-auto px-4 pt-4 sm:pt-8 pb-20 lg:pb-8">
@@ -232,12 +237,12 @@ const MeghalayaBackpacking = () => {
                 <h1 className="text-xl sm:text-2xl font-bold text-gray-900">{tripData.title}</h1>
                 <div className="grid grid-cols-2 gap-4 mt-4 py-4 border-t border-b border-gray-100">
                     <div className="flex flex-col items-center text-center bg-gray-50 p-2 rounded-lg">
-                        <Clock className="w-6 h-6 text-[#0B3A55] mb-1"/> {/* Theme color */}
+                        <Clock className="w-6 h-6 text-[#0B3A55] mb-1"/> 
                         <p className="text-xs text-gray-600">Trip Duration</p>
                         <p className="font-semibold text-sm">{tripData.duration}</p>
                     </div>
                      <div className="flex flex-col items-center text-center bg-gray-50 p-2 rounded-lg">
-                        <MapPin className="w-6 h-6 text-[#0B3A55] mb-1"/> {/* Theme color */}
+                        <MapPin className="w-6 h-6 text-[#0B3A55] mb-1"/> 
                         <p className="text-xs text-gray-600">Pickup & Drop</p>
                         <p className="font-semibold text-sm">{tripData.pickupDrop}</p>
                     </div>
@@ -258,21 +263,21 @@ const MeghalayaBackpacking = () => {
                 <h1 className="text-3xl font-bold text-gray-900">{tripData.title}</h1>
                  <div className="grid grid-cols-3 gap-6 pt-4 mt-4 border-t border-gray-100">
                     <div className="flex items-center gap-3 bg-gray-50 p-3 rounded-lg">
-                        <Clock className="w-8 h-8 text-[#0B3A55] flex-shrink-0"/> {/* Theme color */}
+                        <Clock className="w-8 h-8 text-[#0B3A55] flex-shrink-0"/> 
                         <div>
                             <p className="text-sm text-gray-600">Trip Duration</p>
                             <p className="font-semibold">{tripData.duration}</p>
                         </div>
                     </div>
                      <div className="flex items-center gap-3 bg-gray-50 p-3 rounded-lg">
-                        <MapPin className="w-8 h-8 text-[#0B3A55] flex-shrink-0"/> {/* Theme color */}
+                        <MapPin className="w-8 h-8 text-[#0B3A55] flex-shrink-0"/> 
                         <div>
                             <p className="text-sm text-gray-600">Pickup & Drop</p>
                             <p className="font-semibold">{tripData.pickupDrop}</p>
                         </div>
                     </div>
                      <div className="flex items-center gap-3 bg-gray-50 p-3 rounded-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-[#0B3A55] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg> {/* Theme color */}
+                        <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-[#0B3A55] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg> 
                         <div>
                             <p className="text-sm text-gray-600">Trip Category</p>
                             <p className="font-semibold">{tripData.category}</p>
@@ -294,7 +299,7 @@ const MeghalayaBackpacking = () => {
             <div className="hidden lg:block sticky top-20 z-30 bg-white/90 backdrop-blur-sm rounded-xl shadow-md mb-6 p-2">
                 <div className="flex justify-around">
                     {navLinks.map(link => (
-                        <a key={link} href={`#${link.toLowerCase().replace(/ /g, '-')}`} className="font-semibold text-gray-700 hover:text-[#0B3A55] transition-colors px-3 py-2 rounded-lg text-sm whitespace-nowrap"> {/* Added whitespace-nowrap */}
+                        <a key={link} href={`#${link.toLowerCase().replace(/ /g, '-')}`} className="font-semibold text-gray-700 hover:text-[#0B3A55] transition-colors px-3 py-2 rounded-lg text-sm whitespace-nowrap"> 
                             {link}
                         </a>
                     ))}
@@ -304,9 +309,8 @@ const MeghalayaBackpacking = () => {
             <div className="space-y-6">
               <div id="overview" className="border bg-white p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
                 <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-100 pb-3 mb-4">Overview 🏞️</h2>
-                {/* Using dangerouslySetInnerHTML requires trusting the source HTML */}
-                <div className="prose prose-sm max-w-none text-gray-600" dangerouslySetInnerHTML={{ __html: tripData.overview }} />
-                {/* Consider adding a 'View More/Less' button if the overview is very long */}
+                {/* Applied prose formatting as seen in the source HTML */}
+                <div className="prose prose-sm max-w-none text-gray-600 font_poppins fw-normal fs_xsm" dangerouslySetInnerHTML={{ __html: tripData.overview }} />
               </div>
 
               <div id="itinerary" className="border bg-white p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
@@ -320,12 +324,14 @@ const MeghalayaBackpacking = () => {
 
               <div id="inclusions" className="border bg-green-50 p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
                   <h2 className="text-xl font-bold text-green-800 border-b-2 border-green-200 pb-3 mb-4">Inclusions ✅</h2>
-                  <div className="prose prose-sm max-w-none text-gray-700" dangerouslySetInnerHTML={{ __html: tripData.inclusions }} />
+                   {/* Applied prose formatting as seen in the source HTML */}
+                  <div className="prose prose-sm max-w-none text-gray-700 font_poppins fw-normal fs_xsm" dangerouslySetInnerHTML={{ __html: tripData.inclusions }} />
               </div>
 
               <div id="exclusions" className="border bg-red-50 p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
                    <h2 className="text-xl font-bold text-red-800 border-b-2 border-red-200 pb-3 mb-4">Exclusions ❌</h2>
-                   <div className="prose prose-sm max-w-none text-gray-600" dangerouslySetInnerHTML={{ __html: tripData.exclusions }} />
+                   {/* Applied prose formatting as seen in the source HTML */}
+                   <div className="prose prose-sm max-w-none text-gray-600 font_poppins fw-normal fs_xsm" dangerouslySetInnerHTML={{ __html: tripData.exclusions }} />
               </div>
 
               <div id="thingstopack" className="border bg-white p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
@@ -334,7 +340,8 @@ const MeghalayaBackpacking = () => {
                       {tripData.thingsToPack.map((item, index) => (
                           <div key={index} className="flex items-start gap-4">
                               <img src={item.icon} alt="packing icon" className="w-8 h-8 flex-shrink-0 mt-1"/>
-                              <p className="text-gray-600 text-sm">{item.text}</p>
+                              {/* Applied prose formatting as seen in the source HTML */}
+                              <p className="text-gray-600 text-sm font_poppins fw-normal fs_xsm">{item.text}</p>
                           </div>
                       ))}
                   </div>
@@ -342,8 +349,8 @@ const MeghalayaBackpacking = () => {
 
               <div id="know-before-you-go" className="border bg-yellow-50 p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
                   <h2 className="text-xl font-bold text-yellow-800 border-b-2 border-yellow-200 pb-3 mb-4">Know Before You Go ⚠️</h2>
-                  <div className="prose prose-sm max-w-none text-gray-700" dangerouslySetInnerHTML={{ __html: tripData.knowBeforeYouGo }} />
-                   {/* Consider adding a 'View More/Less' button if the text is long */}
+                   {/* Applied prose formatting as seen in the source HTML */}
+                  <div className="prose prose-sm max-w-none text-gray-700 font_poppins fw-normal fs_xsm" dangerouslySetInnerHTML={{ __html: tripData.knowBeforeYouGo }} />
               </div>
 
               <div id="faqs" className="border bg-white p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
@@ -353,7 +360,6 @@ const MeghalayaBackpacking = () => {
                       <FaqItem key={faq.id} item={faq} isOpen={openFaq === faq.id} onClick={() => setOpenFaq(openFaq === faq.id ? null : faq.id)} />
                     ))}
                   </div>
-                    {/* Consider adding a 'View More' button if there are many FAQs */}
               </div>
 
               {/* Mobile Booking Box */}
@@ -378,7 +384,7 @@ const MeghalayaBackpacking = () => {
                         <img src={trip.image} alt={trip.title} className="w-full h-32 sm:h-40 object-cover"/>
                         <div className="p-3 sm:p-4">
                            <h3 className="font-semibold text-sm sm:text-base text-gray-800">{trip.title}</h3>
-                           <p className="text-xs sm:text-sm text-gray-600 mt-1">Starting Price <span className="font-bold text-[#0B3A55]">{trip.price}</span></p> {/* Theme color */}
+                           <p className="text-xs sm:text-sm text-gray-600 mt-1">Starting Price <span className="font-bold text-[#0B3A55]">{trip.price}</span></p> 
                         </div>
                     </div>
                 ))}
@@ -407,7 +413,6 @@ const MeghalayaBackpacking = () => {
           </div>
       </div>
 
-       {/* Assuming Footer component works */}
        <Footer />
        <QueryForm 
          isOpen={showQueryForm} 

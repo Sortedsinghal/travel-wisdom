@@ -17,7 +17,7 @@ const AboutUs = () => {
           autoPlay 
           playsInline
         >
-          <source src="https://d2qa7a8q0vuocm.cloudfront.net/static/assets/about/about_us_thumbnail.mp4" type="video/mp4" />
+          <source src="/hero_videos/Yellow and Black Travel Collection Video.mp4" type="video/mp4" />
         </video>
         <div 
           style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }} 
@@ -83,151 +83,27 @@ const AboutUs = () => {
 
       <TripCategories />
 
-      {/* Our Journey So Far Timeline */}
-      <div className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-center mb-12 w-full">
-            <h2 className="font-poppins text-3xl font-semibold capitalize text-black text-center">
-              Our Journey So Far
-            </h2>
-          </div>
-          <div className="relative max-w-4xl mx-auto">
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-600"></div>
-            
-            {/* Timeline Items */}
-            <div className="space-y-12">
-              <div className="flex items-center">
-                <div className="w-1/2 pr-8 text-right">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">2017</div>
-                </div>
-                <div className="w-8 h-8 bg-blue-600 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
-                <div className="w-1/2 pl-8">
-                  <div className="text-gray-700">On 19th May, We started our journey to explore</div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <div className="w-1/2 pr-8 text-right">
-                  <div className="text-gray-700">Collaborated With Nepal Tourism Board for Himalayan Travel Mart</div>
-                </div>
-                <div className="w-8 h-8 bg-blue-600 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
-                <div className="w-1/2 pl-8">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">2018</div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <div className="w-1/2 pr-8 text-right">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">2019</div>
-                </div>
-                <div className="w-8 h-8 bg-blue-600 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
-                <div className="w-1/2 pl-8">
-                  <div className="text-gray-700">Successfully summited mt. Friendship Peak near Manali</div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <div className="w-1/2 pr-8 text-right">
-                  <div className="text-gray-700">Invited by Honorable tourism minister of India to discuss post-covid scenario</div>
-                </div>
-                <div className="w-8 h-8 bg-blue-600 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
-                <div className="w-1/2 pl-8">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">2020</div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <div className="w-1/2 pr-8 text-right">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">2021</div>
-                </div>
-                <div className="w-8 h-8 bg-blue-600 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
-                <div className="w-1/2 pl-8">
-                  <div className="text-gray-700">Hosted travellers on our first ever International trip</div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <div className="w-1/2 pr-8 text-right">
-                  <div className="text-gray-700">Managed travel ops of india Ice Hockey team (under 20) at Asia & Oceania Championship</div>
-                </div>
-                <div className="w-8 h-8 bg-blue-600 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
-                <div className="w-1/2 pl-8">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">2022</div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <div className="w-1/2 pr-8 text-right">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">2023</div>
-                </div>
-                <div className="w-8 h-8 bg-blue-600 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
-                <div className="w-1/2 pl-8">
-                  <div className="text-gray-700">Expended our travel oprations in 11+ countries</div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <div className="w-1/2 pr-8 text-right">
-                  <div className="text-gray-700">Invited by Meta for Asia-Pacific Travel Summit in Singapore Headquarters</div>
-                </div>
-                <div className="w-8 h-8 bg-blue-600 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
-                <div className="w-1/2 pl-8">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">2024</div>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <div className="w-1/2 pr-8 text-right">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">2025</div>
-                </div>
-                <div className="w-8 h-8 bg-blue-600 rounded-full absolute left-1/2 transform -translate-x-1/2"></div>
-                <div className="w-1/2 pl-8">
-                  <div className="text-gray-700">Here we are spreading happiness through travel</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Meet the Founder Section */}
       <section className="overflow-hidden py-16">
-        <div className="relative bg-gray-50">
+        <div className="relative bg-gray-50 py-16">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-              <div className="md:col-span-2">
-                <div className="max-w-4xl">
-                  <h3 className="font-poppins text-3xl font-semibold capitalize text-black relative mb-8">
-                    Meet the Founder
-                  </h3>
-                  <article className="flex items-end mb-6">
-                    <p className="font-bold text-lg inline-block p-2 rounded-lg font-poppins text-white bg-black mb-0 mr-4">
-                      Jony Jindal
-                    </p>
-                    <p className="mb-0 font-semibold text-sm text-black font-poppins">
-                      CEO, Founder
-                    </p>
-                  </article>
-                  <p className="font-normal text-sm font-poppins text-black leading-relaxed">
-                    In 2017, Mr Jony Jindal started his journey and went on his solo trip from Kashmir to Kanyakumari & further Amritsar to Manipur at the age of 19. He has successfully done some amazing high altitude treks like Mount Everest base camp, Gokyo Lake trek, Alpather Lake trek, climbed Mount Friendship Peak and many more. 
-                    <br /><br />
-                    He combined his passion for traveling and skills of digital marketing to create a platform helping out people who want to travel in a budget-friendly manner with like-minded people. and solving the problem of traveling in Himalayan regions by organizing group trips to offbeat and untouched places. 
-                    <br /><br />
-                    He worked with various tourism boards and hospitality brands like Incredible India, Nepal Tourism, Manipur Tourism, Madhya Pradesh Tourism, Delhi Tourism and Sterling Holidays to name a few. Recently He got invited by the Ministry of Tourism to discuss the "future of travel industry" with the Tourism Minister of India. Mr Jony Jindal also managed the Indian Ice Hockey team in the Asian Championship at Bangkok.
-                  </p>
-                </div>
-              </div>
-              <div className="md:col-span-1">
-                <div className="flex justify-center">
-                  <img 
-                    alt="founder_img" 
-                    width="350" 
-                    height="500" 
-                    className="rounded-lg shadow-lg" 
-                    src="/cloned_media/founder-jony.png" 
-                  />
-                </div>
-              </div>
+            <div className="max-w-6xl mx-auto">
+              <h3 className="font-poppins text-3xl font-semibold capitalize text-black relative mb-4 text-center">
+                Meet the Founder
+              </h3>
+              <article className="flex items-end justify-center mb-6">
+                <p className="font-bold text-lg inline-block p-1 rounded-lg font-poppins text-white bg-[#0B3A55] mb-4 mr-4">
+                  Pari Sharma
+                </p>
+                <p className="mb-4 font-semibold text-sm text-black font-poppins">
+                  CEO, Founder
+                </p>
+              </article>
+              <p className="font-normal text-sm font-poppins text-black leading-relaxed text-center">
+                In 2017, Pari Sharma started his journey and went on his solo trip from Kashmir to Kanyakumari & further Amritsar to Manipur at the age of 19. He has successfully done some amazing high altitude treks like Mount Everest base camp, Gokyo Lake trek, Alpather Lake trek, climbed Mount Friendship Peak and many more.
+                He combined his passion for traveling and skills of digital marketing to create a platform helping out people who want to travel in a budget-friendly manner with like-minded people. and solving the problem of traveling in Himalayan regions by organizing group trips to offbeat and untouched places.
+                He worked with various tourism boards and hospitality brands like Incredible India, Nepal Tourism, Manipur Tourism, Madhya Pradesh Tourism, Delhi Tourism and Sterling Holidays to name a few. Recently He got invited by the Ministry of Tourism to discuss the "future of travel industry" with the Tourism Minister of India. Mr Jony Jindal also managed the Indian Ice Hockey team in the Asian Championship at Bangkok.
+              </p>
             </div>
           </div>
         </div>

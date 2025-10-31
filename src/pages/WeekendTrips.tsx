@@ -44,18 +44,7 @@ const trips = [
     imageUrl: '/trip/chopta.png',
     description: 'Discover the royal heritage and mountain landscapes.',
   },
-  {
-    id: 4,
-    month: 'October 2025',
-    category: 'Short Duration Trips',
-    title: 'Yulla Kanda Trek',
-    duration: '3 Days 2 Nights',
-    price: 8000,
-    originalPrice: 8000,
-    discount: 0,
-    imageUrl: '/trip/yulla.png',
-    description: 'A beautiful trek in the Himalayas.',
-  },
+
   {
     id: 5,
     month: 'October 2025',
@@ -80,18 +69,7 @@ const trips = [
     imageUrl: '/trip/winterspiti.png',
     description: 'High-altitude adventures in the trans-Himalayan region.',
   },
-  {
-    id: 7,
-    month: 'October 2025',
-    category: 'Long Duration Trips',
-    title: 'Chakrata',
-    duration: '2 Days 1 Night',
-    price: 5500,
-    originalPrice: 5500,
-    discount: 0,
-    imageUrl: '/trip/chakrata.png',
-    description: 'Peaceful hill station getaway.',
-  },
+
   {
     id: 8,
     month: 'October 2025',
