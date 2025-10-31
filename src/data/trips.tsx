@@ -1392,148 +1392,1075 @@ export const allTrips: Trip[] = [
   // DESTINATION: Leh Ladakh (from LehLadakh.tsx)
   //==========================================================================
   {
-    slug: 'manali-leh-backpacking-bike-trip',
-    title: 'Manali Leh Backpacking Bike Trip',
-    destination: 'Leh Ladakh',
-    duration: '8 Days 7 Nights',
-    price: '₹30000',
-    imageUrl: '/cloned_media/22840620250217141818.png',
-    overview: 'The ultimate road trip! A backpacking bike adventure from Manali to Leh, crossing some of the world\'s highest motorable passes.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Bike Rental', 'Fuel', 'Accommodation', 'Mechanic Support'],
-    exclusions: ['Flights', 'Personal Riding Gear', 'Entry Fees'],
+    "slug": "manali-leh-backpacking-bike-trip",
+    "title": "Manali Leh Backpacking Bike Trip",
+    "destination": "Leh Ladakh",
+    "duration": "8 Days 7 Nights",
+    "price": "₹30000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/22840620250217141818.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15623720230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9738220230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/337920230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17170420230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38617820230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41959720230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2530820230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39218220230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9777920230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37899520230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5621020230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33470920230330171626.png"
+    ],
+    "overview": "The Manali Leh Backpacking Bike Trip is the ultimate road trip adventure for young and free souls, transitioning through beautiful valleys and streams to the high roads of Leh. It is a journey to create unforgettable memories, covering high-altitude motorable passes like Khardung La and Chang La. This 8-day trip is a hub for adventure bugs, encompassing cultural experiences and stunning views of the Himalayas.",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla/Kashmere Gate Bus Stand and meet your Trip Captain. </li><li>Start an overnight journey to Manali and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali to Jispa | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Manali, freshen-up and drive to **Jispa** in Lahaul valley.</li><li>Cross the famous **Atal Tunnel** and visit **Sissu** village on the way.</li><li>After reaching Jispa, check in to our campsite and have some leisure.</li><li>In the evening, regroup for a warm bonfire and chill with your gang.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Jispa to Leh | Baralacha La, Gata Loops, Moore Plains | Leh Arrival",
+        "description": "<ul><li>Post breakfast check out from our campsite in Jispa. Start a long yet most scenic road journey to **Leh** from Jispa. </li><li>Get mesmerized by the exceptional beauty of **Suraj Tal** at **Baralacha La** top.</li><li>En route, we will be greeted with **Gata Loops** (22 hairpin bends) situated at 13,750 feet before taking a pit stop at Pang to grab a satisfying lunch.</li><li>Continue your journey over high altitude passes like **Nakee La**, **Lachung La**, **Tanglang La** and **Moore Plains**.</li><li>After arriving in Leh, check in to our cozy hotel and have some much-needed leisure. </li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "The Leh Town | Leh Sightseeing Day | Cafe Hopping, Bazaars & More",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the confluence of **Indus-Zanskar** rivers by covering **Hall of Fame**, **Magnetic Hills** and **Pathar Sahib Gurudwara** enroute.</li><li>Visit mesmerizing **Shanti Stupa** and **Leh Palace** in the evening.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**. </li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel** - a unique mammal found here in India's cold desert. Optionally, you can also go for ATV Quad biking in sand dunes by your own.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards **Shyok Valley** and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's one of the most scenic high altitude salt water lakes situated at 14,270 feet. </li><li>Enroute Pangong Tso, we will take a pit stop at Durbuk or Tangtse village to grab a satisfying lunch.</li><li>After arriving at Pangong Tso, check in to our scenic campsite and quickly head out for a walk around the lake for an #InstaPerfect shot.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Wake up early in the morning and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, ride back towards Leh town via another high altitude motorable road - **Chang La** situated at 17,586 feet. Enroute Leh, we will stop by at the gorgeous **Thiksey Monastery** and **Rancho School**.</li><li>After arriving in Leh, check in to our cozy hotel and have some much-needed leisure.</li><li>Since this is your last day in the beautiful Leh town, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. </li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Leh to Manali | Overnight Journey",
+        "description": "<ul><li>Wake up to the relaxed morning and post breakfast.</li><li>Have Leisure time in Leh & do some last moment shopping. </li><li>In the evening, begin your drive from Leh to Manali.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Manali Self Explore & Cafe Hopping | Depart for Delhi",
+        "description": "<ul><li>After arriving in Manali early morning and head out for self exploration in Manali.</li><li>Feel free to take a stroll around - visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping in Old Manali and try different local cuisines (on your own).</li><li>In the evening, start-off your overnight journey from Manali to Delhi.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Delhi to Manali & back), Force Traveler/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support & mechanic will be included. Bikes will be provided from Leh to Leh. Riding gears like knee guard, elbow guard and helmet will be provided. Bikes will be provided from Day 4 to Day 6.",
+      "6 Nights Accommodation on Sharing Basis: Hotel (Manali & Leh Town), Swiss Tents (Jispa, Nubra Valley & Pangong).",
+      "12 Meals: Jispa (Breakfast+Dinner), Leh (3 Dinners+3 Breakfasts), Nubra Valley (Breakfast + Dinner), Pangong Lake (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "Driver allowances, toll taxes, parking and state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Cost for backpack offloading (for non-bikers).",
+      "Any inner line permits/environmental permits, entry fees.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'leh-ladakh-backpacking-bike-trip',
-    title: 'Leh Ladakh Backpacking Bike Trip',
-    destination: 'Leh Ladakh',
-    duration: '6 Days 5 Nights',
-    price: '₹21000',
-    imageUrl: '/cloned_media/36526420250217143451.png',
-    overview: 'A classic Leh-based bike trip. Fly into Leh and explore Pangong Tso, Nubra Valley, and Khardung La on two wheels.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Bike Rental', 'Fuel', 'Accommodation', 'Inner Line Permits'],
-    exclusions: ['Flights', 'Personal Riding Gear', 'Entry Fees'],
+    "slug": "leh-ladakh-backpacking-bike-trip",
+    "title": "Leh Ladakh Backpacking Bike Trip",
+    "destination": "Leh Ladakh",
+    "duration": "6 Days 5 Nights",
+    "price": "₹21000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/36526420250217143451.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1144220230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36490220230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19190720230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18004520230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24175320230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13952620230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11145620230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11714120230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23265020230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16849620230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15647020230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34465220230330171951.png"
+    ],
+    "overview": "The Leh Ladakh Backpacking Bike Trip is the ultimate road trip adventure for young and free souls, transitioning through beautiful valleys and streams to the high roads of Leh. It is a journey to create unforgettable memories, covering high-altitude motorable passes like Khardung La and Chang La. This 6-day trip is a hub for adventure bugs, encompassing cultural experiences and stunning views of the Himalayas.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Leh Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Leh via flight, check in to our hotel, freshen-up and have some leisure.</li><li>This will be your acclimatization day as you will be starting a thrilling road trip to a high altitude region in the Himalayas the next day.</li><li>Post refreshment, feel free to take a stroll around the beautiful Leh Town and socialize with your co-travellers.</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "The Leh Town | Leh Sightseeing Day | Cafe Hopping, Bazaars & More",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the confluence of **Indus-Zanskar** rivers by covering Hall of Fame, Magnetic Hills and Pathar Sahib Gurudwara enroute.</li><li>Visit mesmerizing Shanti Stupa and Leh Palace in the evening.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at Diskit Monastery. </li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel** - a unique mammal found here in India's cold desert. Optionally, you can also go for ATV Quad biking in sand dunes by your own.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards **Shyok Valley** and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's one of the most scenic high altitude salt water lakes situated at 14,270 feet. </li><li>Enroute Pangong Tso, we will take a pit stop at Durbuk or Tangtse village to grab a satisfying lunch.</li><li>After arriving at Pangong Tso, check in to our scenic campsite and quickly head out for a walk around the lake for an #InstaPerfect shot.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Wake up early in the morning and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, ride back towards Leh town via another high altitude motorable road - **Chang La** situated at 17,586 feet. Enroute Leh, we will stop by at the gorgeous Thiksey Monastery and Rancho School. After arriving in Leh, check in to our cozy hotel and have some much-needed leisure.</li><li>Since this is your last day in the beautiful Leh town, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. </li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Back to Home | Trip Ends",
+        "description": "<ul><li>In the morning, post breakfast say goodbye to your hosts in Leh and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: All local travel in Force Traveler/Cab.",
+      "5 Nights Accommodation on Sharing Basis: Hotel (Leh Town), Swiss Tents (Nubra Valley & Pangong).",
+      "10 Meals: Leh (3 Dinners+3 Breakfasts), Nubra Valley (Breakfast+Dinner), Pangong Lake (Breakfast+Dinner)",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "Driver allowances, toll taxes, parking and state taxes.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Leh to Leh. Riding gears like knee guard, elbow guard and helmet will be provided. Bikes will be provided from Day 3 to Day 5."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any inner line permits/environmental permits, entry fees.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'leh-ladakh-with-turtuk',
-    title: 'Leh Ladakh with Turtuk',
-    destination: 'Leh Ladakh',
-    duration: '7 Days 6 Nights',
-    price: '₹23000',
-    imageUrl: '/cloned_media/34294120250217145015.png',
-    overview: 'Explore the remote and beautiful village of Turtuk, India\'s northernmost village, along with Nubra and Pangong.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Accommodation', 'All Transfers (Innova/Tempo)', 'Inner Line Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "leh-ladakh-with-turtuk",
+    "title": "Leh Ladakh with Turtuk",
+    "destination": "Leh Ladakh",
+    "duration": "7 Days 6 Nights",
+    "price": "₹21000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/34294120250217145015.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16698520230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7156220230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18226320230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26831220230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13514020230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38992520230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32229620230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15061920230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27793920230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14320620230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36567620230330170705.png"
+    ],
+    "overview": "The Leh Ladakh with Turtuk Tour offers a memorable experience to the **“land of high passes”** and the remote **Turtuk Village**, the northernmost village of India, home to the Balti people. This package, starting from Leh, includes exploration of major spots like Nubra Valley and Pangong Tso, offering adventurous activities and stunning Himalayan views.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Leh Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Leh via flight, check in to our hotel, freshen-up and have some leisure.</li><li>This will be your **acclimatization day** as you will be starting a thrilling road trip to a high altitude region in the Himalayas the next day.</li><li>Post refreshment, feel free to take a stroll around the beautiful Leh Town and socialize with your co-travellers.</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "The Leh Town | Leh Sightseeing Day | Cafe Hopping, Bazaars & More",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the confluence of **Indus-Zanskar** rivers by covering Hall of Fame, Magnetic Hills and Pathar Sahib Gurudwara enroute.</li><li>Visit mesmerizing **Shanti Stupa** in the evening.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at Diskit Monastery. </li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes by your own.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up to a peaceful mountain morning in Nubra Valley and post breakfast drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River to reach the Last Village.</li><li>Flanked by Nubra on one side and Baltistan on the other, the landscape, culture, language, clothing, and even the physical features of people change quite drastically crossing over into Turtuk. Witness the jawdropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's one of the most scenic high altitude salt water lakes situated at 14,270 feet. </li><li>Enroute Pangong Tso, we will take a pit stop at Durbuk or Tangtse village to grab a satisfying lunch.</li><li>After arriving at Pangong Tso, check in to our scenic campsite and quickly head out for a walk around the lake for an #InstaPerfect shot.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Wake up early in the morning and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, ride back towards Leh town via another high altitude motorable road - **Chang La** situated at 17,586 feet. Enroute Leh, we will stop by at the gorgeous Thiksey Monastery (if time permits).</li><li>After arriving in Leh, check in to our cozy hotel and have some much-needed leisure.</li><li>Since this is your last day in the beautiful Leh town, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. </li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Back to Home | Trip Ends",
+        "description": "<ul><li>In the morning, post breakfast say goodbye to your hosts in Leh and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: All local travel in Force Traveler/Cab.",
+      "6 Nights Accommodation on Sharing Basis: Hotel (Leh Town), Swiss Tents (Nubra Valley & Pangong).",
+      "12 Meals: Leh (3 Dinners+3 Breakfasts), Nubra Valley (2 Breakfasts+2 Dinners), Pangong Lake (Breakfast+Dinner)",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "Driver allowances, toll taxes, parking and state taxes.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Leh to Leh. Riding gears like biking jacket, knee guard and helmet will be provided. Bikes will be provided from Day 2 to Day 6."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any inner line permits/environmental permits, entry fees.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'manali-leh-srinagar',
-    title: 'Manali Leh Srinagar',
-    destination: 'Leh Ladakh',
-    duration: '10 Days 9 Nights',
-    price: '₹32000',
-    imageUrl: '/cloned_media/24468820250217151702.png',
-    overview: 'The grand Himalayan road trip! Start in Manali, traverse Ladakh, and conclude your journey in the beautiful valley of Srinagar.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Accommodation', 'All Transfers (Innova/Tempo)', 'Inner Line Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "manali-leh-srinagar",
+    "title": "Manali Leh Srinagar",
+    "destination": "Leh Ladakh",
+    "duration": "10 Days 9 Nights",
+    "price": "₹32000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/24468820250217151702.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8875420230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24833920230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18303120230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31429220230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8583320230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17035520230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27138320230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21647620230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27678320230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23328420230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22325020230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24212320230330171007.png"
+    ],
+    "overview": "The **Manali Leh Srinagar Trip** is the grand Himalayan road trip. It takes you through a trail of emotions, serene landscapes and majestic views that will give you memories of a lifetime, blending the adventure of Ladakh with the peace of Srinagar. The journey includes crossing high-altitude motorable passes, exploring the cultural heart of Leh, and visiting picturesque locations like Pangong Lake and the stunning Dal Lake in Srinagar.",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla/Kashmere Gate Bus Stand and meet your Trip Captain. </li><li>Start an **overnight journey to Manali** and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Manali, check in to our hotel, freshen up and have some leisure.</li><li>This will be your **acclimatization day**.</li><li>Feel free to take a stroll around - visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping in Old Manali and try different local cuisines (on your own).</li><li>In the evening, attend the acclimatization session followed by dinner and an overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Manali to Sarchu | Atal Tunnel | Sarchu Arrival",
+        "description": "<ul><li>Wake up early and drive to **Sarchu** via **Atal Tunnel**. Make your way through alluring landscapes. </li><li>Feel the thrill while driving over **Zingzing Bar** (14,010 feet) and **Baralacha La** (16,500 feet). Get mesmerized by the exceptional beauty of **Suraj Tal**.</li><li>After reaching Sarchu in Lahaul valley, check in to our campsite and have some leisure. Dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Sarchu to Leh | Gata Loops, Pang & Moore Plains | Leh Arrival",
+        "description": "<ul><li>Wake up early and drive to **Leh** from Sarchu.</li><li>Enroute we will be greeted with **Gata Loops** (21 hairpin bends) before taking a pit stop at Pang to grab lunch. Continue your journey over high altitude passes like **Nakee La**, **Lachung La**, **Tanglang La** and **Moore Plains**.</li><li>After arriving in Leh, we’ll visit the **Leh Market** where you can go for cafe hopping.</li><li>Check in to our comfy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and drive towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**. </li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up to a peaceful mountain morning in Nubra Valley and drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River to reach the Last Village.</li><li>Witness the jaw-dropping vistas of snow-clad **Karakoram mountains**.</li><li>After arriving back in Hunder, dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and drive towards Shyok Valley and further to **Pangong Tso**.</li><li>Pangong Tso is Asia's one of the most scenic high altitude salt water lakes situated at 14,270 feet. </li><li>Enroute Pangong Tso, we will take a pit stop at Durbuk or Tangtse village for lunch.</li><li>After arriving at Pangong Tso, check in to our scenic campsite and quickly head out for a walk around the lake for an #InstaPerfect shot.</li><li>Dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Drive back towards Leh town via another high altitude motorable road - **Chang La** situated at 17,586 feet. Enroute Leh, we will stop by at the gorgeous **Shey & Thiksey Monastery** and **Rancho School**.</li><li>After arriving in Leh, check in to our cozy hotel. Use this last evening in Leh to relax and take authentic souvenirs for your loved ones back home. </li><li>Dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Leh to Kargil | Pathar Sahib Gurudwara, Lamayuru & More | Kargil Arrival",
+        "description": "<ul><li>Wake up early and drive towards **Kargil** from Leh. Enroute we will visit the **Hall of Fame**, **Pathar Sahib Gurudwara** and **Magnetic Hill**. Witness the confluence of Indus-Zanskar rivers.</li><li>We’ll visit the **Lamayuru Monastery** (known as ‘Moonland’). Further we’ll cross **Fotula Pass** (13,479 feet) and **Namika La** (12,198 feet).</li><li>After arriving in Kargil, check in to our hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Kargil to Srinagar | Drass, Zojila & Sonmarg | Srinagar Arrival",
+        "description": "<ul><li>Wake up early and drive from Kargil to **Srinagar**. Before saying goodbye to Kargil, we will visit the famous **Kargil War Memorial** and Mulbekh Monastery. </li><li>We will be travelling through **Drass** (World’s second coldest inhabited place), feel the thrill while driving over **Zoji La** (11,575 feet) and cross the beautiful **Sonmarg**.</li><li>After arriving in Srinagar, check in to our comfy hotel/houseboat for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Departure from Srinagar | Trip Ends",
+        "description": "<ul><li>In the morning, post breakfast say goodbye to your hosts in Srinagar and your family-like travel clan.</li><li>Reach your home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Delhi to Manali), SUV/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Manali to Srinagar. Riding gears like biker jacket, knee guard, and helmet will be provided. Powerful Royal Enfield Himalayan bikes for an unbeatable riding experience. Support vehicle to carry luggage and spare parts for whole trip.",
+      "9 Nights Accommodation on Sharing Basis: Hotel (Manali, Leh, Kargil & Srinagar), Swiss Tents (Sarchu, Nubra Valley & Pangong).",
+      "18 Meals: Manali (Breakfast+Dinner), Sarchu (Breakfast+Dinner), Leh (2 Dinners+2 Breakfasts), Nubra Valley (2 Dinners+2 Breakfasts), Pangong Lake (Breakfast+Dinner), Kargil (Breakfast+Dinner) & Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "First aid kits, oxygen cylinders and oximeter.",
+      "Inner line permits, driver allowances, toll taxes, parking & state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'all-girls-manali-leh-trip',
-    title: 'All Girls Manali Leh Trip',
-    destination: 'Leh Ladakh',
-    duration: '9 Days 8 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/722620230331052335.png',
-    overview: 'A safe and exciting all-girls trip from Manali to Leh, exploring the best of the Himalayas with like-minded travelers.',
-    itinerary: createItinerary('9 Days 8 Nights'),
-    inclusions: ['Accommodation', 'All Transfers', 'Female Trip Lead', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "all-girls-manali-leh-trip",
+    "title": "All Girls Manali Leh Trip",
+    "destination": "Leh Ladakh",
+    "duration": "9 Days 8 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/722620230331052335.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28940520230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/909920230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34292320230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18150020230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20575620230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29780220230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41428620230331052335.png"
+    ],
+    "overview": "A safe and exciting **all-girls trip** from Manali to Leh, exploring the best of the Himalayas with like-minded travelers. Experience a blend of serene valleys, thrilling mountain passes, and the unique culture of Leh Ladakh. This backpacking adventure includes major highlights like Pangong Tso, Nubra Valley, and the high-altitude passes along the Manali-Leh highway.",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at pickup point in Delhi - RK Ashram Metro Station/Majnu ka Tila.</li><li>Start an overnight journey to Manali and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali Arrival | Drive to Jispa",
+        "description": "<ul><li>After arriving in Manali, freshen-up and have some leisure.</li><li>Drive to **Jispa** in Lahaul valley.</li><li>After reaching Jispa, check in to our hotel/campsite and have some leisure.</li><li>In the evening, regroup for a warm bonfire along with tea/coffee.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/camps.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Jispa to Leh",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast check out from our hotel/campsite in Jispa.</li><li>Start a long yet most scenic road journey to **Leh** from Jispa, crossing **Baralacha La** (16,500 feet), **Suraj Tal**, and navigating **Gata Loops** (22 hairpin bends).</li><li>Continue your journey over high altitude passes like **Nakee La**, **Lachulung La**, and **Tanglang La**.</li><li>After arriving in Leh, check in to our hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "The Leh Exploration",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the **Thiksey Monastery**, **Shanti Stupa** and **Leh Palace**. Then move to the confluence of **Indus-Zanskar** rivers by covering Hall of Fame, Magnetic Hills and Pathar Sahib Gurudwara enroute.</li><li>In the evening, feel free to take a stroll around Leh town.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Khardung La & Nubra Valley",
+        "description": "<ul><li>Wake up early and drive towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in Hunder Sand Dunes, check in to our hotel/campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Savour home-style cooked dinner and overnight stay in a hotel/camps.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River to reach the Last Village.</li><li>Witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving in Hunder/Turtuk, check in to our scenic campsite/homestay, savour home-style cooked dinner and overnight stay in swiss tents/homestay.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Mesmerizing Pangong",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast move towards Shyo Valley and drive further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet, changing its color 4-5 times a day.</li><li>Enroute Pangong Tso, we will take a pit stop at Durbuk or Tangtse village for lunch.</li><li>After arriving at Pangong Tso, check in to our campsite and quickly head out for a walk around the lake for an #InstaPerfect shot. Enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Chang La & Leh",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive towards Leh via another high altitude motorable road - **Chang La** situated at 17,586 feet.</li><li>Enroute Leh we will visit **Hemis Monastery** and **Rancho School** (popular after Bollywood movie 3 Idiots).</li><li>After arriving back in Leh, check in to our hotel. In the evening, feel free to visit Leh market to purchase souvenirs or go for cafe hopping and treat your stomach with mouth-watering Tibetan dishes.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Leh to Sarchu",
+        "description": "<ul><li>Wake up early in the morning, post breakfast, and say goodbye to your lovely host in Leh.</li><li>Start a long yet most scenic road journey to **Sarchu** from Leh.</li><li>After reaching Sarchu, check in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Manali to Delhi",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, drive to **Manali** from Sarchu.</li><li>Upon our arrival in Manali, we’ll freshen up.</li><li>In the evening, we’ll take an **overnight bus** from Manali for our final way back to **Delhi**.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: In Tempo Traveler from Manali to Manali.",
+      "AC Volvo Bus from Delhi to Manali and return.",
+      "8 nights accommodation on sharing basis: swiss camps & hotel.",
+      "Experienced and cool trip leader.",
+      "Bonfire at select overnight stays (if weather permits).",
+      "Meals: Dinner (8), Breakfast (8).",
+      "Oxygen can/cylinder and first-aid kit.",
+      "All inner line permits.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Activities like bactrian camel and ATV rides in Nubra Valley and Zanskar river rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'manali-leh-srinagar-backpacking-bike-trip',
-    title: 'Manali Leh Srinagar Backpacking Bike Trip',
-    destination: 'Leh Ladakh',
-    duration: '10 Days 9 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/33122620250219135706.png',
-    overview: 'The ultimate biker\'s dream. A 10-day backpacking bike trip covering the entire circuit from Manali to Leh to Srinagar.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Bike Rental', 'Fuel', 'Accommodation', 'Mechanic Support', 'Backup Vehicle'],
-    exclusions: ['Flights', 'Personal Riding Gear', 'Entry Fees'],
+    "slug": "manali-leh-srinagar-backpacking-bike-trip",
+    "title": "Manali Leh Srinagar Backpacking Bike Trip",
+    "destination": "Leh Ladakh",
+    "duration": "10 Days 9 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/33122620250219135706.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29139320240226082737.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39957120240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18581920240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38807320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1105220240226082739.png"
+    ],
+    "overview": "The ultimate biker's dream. A 10-day backpacking bike trip covering the entire circuit from **Manali to Leh to Srinagar**. Experience an adventure-filled road trip through the World's highest motorable roads, stunning valleys, and pristine lakes, culminating in the beautiful valley of Srinagar.",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at pickup point in Delhi - Majnu ka Tila Bus Stop. Nearest Metro - Vidhan Sabha Metro Station (Yellow Line)</li><li>Start an **overnight journey to Manali** in Volvo bus and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali to Jispa | Acclimatization Day",
+        "description": "<ul><li>After arriving in Manali, freshen-up and drive to **Jispa** in Lahaul valley.</li><li>Cross the famous **Atal Tunnel** and visit Sissu village on the way.</li><li>After reaching Jispa, check in to our campsite and have some leisure.</li><li>In the evening, regroup for a warm bonfire and chill with your gang.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Jispa to Leh | Baralacha La, Gata Loops, Moore Plains | Leh Arrival",
+        "description": "<ul><li>Post breakfast check out from our campsite in Jispa. Start a long yet most scenic road journey to **Leh** from Jispa.</li><li>Drive over **Zingzing Bar** (14,010 feet) and **Baralacha La** (16,500 feet) and witness **Suraj Tal**.</li><li>Navigate **Gata Loops** and continue over high altitude passes like **Nakee La**, **Lachung La**, **Tanglang La** and **Moore Plains**.</li><li>After arriving in Leh, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "The Leh Town | Leh Sightseeing Day | Cafe Hopping, Bazaars & More",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the confluence of **Indus-Zanskar** rivers, **Hall of Fame**, **Magnetic Hills** and **Pathar Sahib Gurudwara**.</li><li>Visit mesmerizing **Shanti Stupa** and **Leh Palace** in the evening.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** (17,582 feet).</li><li>Visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in **Hunder**, go for a ride on a **double hump Bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up and drive towards **Turtuk village** to explore the northernmost part of India.</li><li>Witness the jaw-dropping vistas of snow-clad **Karakoram mountains**.</li><li>After arriving back in Hunder, dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Hunder to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, enjoy a walk around the lake for an #InstaPerfect shot and enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Experience the soothing sunrise at Pangong Tso.</li><li>Ride back towards Leh town via another high altitude motorable road - **Chang La** (17,586 feet). Enroute, visit **Thiksey Monastery** and **Rancho School**.</li><li>After arriving back in Leh, enjoy your last evening by chilling at quaint cafes or purchasing souvenirs.</li><li>Dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Drive from Leh to Kargil",
+        "description": "<ul><li>Post breakfast drive towards **Kargil** from Leh.</li><li>We’ll visit the **Lamayuru Monastery** (known as ‘Moonland’). Further we’ll cross **Fotula Pass** (13,479 feet) and **Namika La** (12,198 feet).</li><li>After arriving in Kargil, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Kargil to Srinagar | Drass, Zojila & Sonamarg",
+        "description": "<ul><li>Drive from Kargil to **Srinagar**. Visit the **Kargil War Memorial**.</li><li>Travel through **Drass** (World’s second coldest inhabited place), drive over **Zoji La** (11,575 feet) and cross the beautiful **Sonmarg**.</li><li>After arriving in Srinagar, check in to our comfy **houseboat** for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Departure from Srinagar | Trip Ends",
+        "description": "<ul><li>In the morning, post breakfast say goodbye to your hosts in Srinagar and your family-like travel clan.</li><li>Reach your home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Volvo (Delhi to Manali), SUV/Cab at all other times.",
+      "9 Nights Accommodation on Sharing Basis: Hotel (Kargil & Leh Town), Swiss Tents (Jispa, Nubra Valley & Pangong) Houseboat (Srinagar).",
+      "18 Meals: Jispa (Breakfast+Dinner), Leh (3 Dinners+3 Breakfasts), Nubra Valley (2 Breakfasts + 2 Dinners), Pangong Lake (Breakfast+Dinner), Kargil (Breakfast+Dinner), Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain",
+      "Driver allowances, toll taxes, parking and state taxes.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included.",
+      "Bikes will be provided from Leh to Leh on Day 3 till Day 7.",
+      "Riding gears like knee guard, elbow guard and helmet will be provided."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'srinagar-leh-manali',
-    title: 'Srinagar Leh Manali',
-    destination: 'Leh Ladakh',
-    duration: '10 Days 9 Nights',
-    price: '₹32000',
-    imageUrl: '/cloned_media/8691320250217153005.png',
-    overview: 'The classic Himalayan road trip in reverse. Start from the lush valleys of Srinagar, cross into the high-altitude desert of Ladakh, and descend to Manali.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Accommodation', 'All Transfers (Innova/Tempo)', 'Inner Line Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "srinagar-leh-manali",
+    "title": "Srinagar Leh Manali",
+    "destination": "Leh Ladakh",
+    "duration": "10 Days 9 Nights",
+    "price": "₹32000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/8691320250217153005.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34613420230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/344520230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7055120230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/42411820230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30726520230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21970320230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5819520230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17913620230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31349820230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6394520230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7056120230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19453320230330171318.png"
+    ],
+    "overview": "The classic Himalayan road trip in reverse. Start from the lush valleys of **Srinagar**, cross into the high-altitude desert of **Leh Ladakh**, and descend to **Manali**. This journey covers picturesque stops like Dal Lake, Kargil War Memorial, Pangong Lake, and multiple high mountain passes.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Srinagar, check-in to your cozy hotel and freshen-up.</li><li>As per your time, head out to explore the streets near Dal Lake, go for Shikara ride or just chill in your houseboat (on your own).</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel/houseboat.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Srinagar to Kargil | Sonmarg, Zojila & Drass | Kargil Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast drive from Srinagar to **Kargil**. Feel the thrill while riding over **Zoji La** (11,575 feet).</li><li>Travel through **Drass** (World’s second coldest inhabited place) where you can take a stopover for lunch.</li><li>Visit the famous **Kargil War Memorial** and Mulbekh Monastery.</li><li>After arriving in Kargil, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Kargil to Leh | Lamayuru, Pathar Sahib Gurudwara & More | Leh Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast check out from our hotel in Kargil. Start yet another long road journey to **Leh** from Kargil.</li><li>Enroute we’ll cross **Fotula Pass** (13,479 feet) and **Namika La** (12,198 feet). Ahead, visit the **Lamayuru Monastery** ('Moonland').</li><li>We’ll visit the **Hall of Fame**, **Pathar Sahib Gurudwara** and **Magnetic Hill**. Witness the confluence of Indus-Zanskar rivers as we move ahead towards Leh town.</li><li>After arriving in Leh, check in to our comfy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up to a peaceful mountain morning in Nubra Valley and post breakfast drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River to reach the Last Village.</li><li>Flanked by Nubra on one side and Baltistan on the other, witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, check in to our campsite and quickly head out for a walk around the lake for an #InstaPerfect shot. Enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Wake up early in the morning and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, ride back towards Leh town via another high altitude motorable road - **Chang La** situated at 17,586 feet. Enroute Leh, we will stop by at the gorgeous Shey & **Thiksey Monastery** and **Rancho School**.</li><li>After arriving in Leh, check in to our cozy hotel. In the evening, feel free to visit Leh market to purchase souvenirs or go for cafe hopping.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Drive from Leh to Sarchu | Moore Plains, Pang & Gata Loops | Sarchu Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast drive towards **Sarchu** from Leh.</li><li>Enroute we’ll cross over **Moore Plains** (15,400 feet) and high altitude passes like **Tanglang La**, **Lachung La** and **Nakee La**.</li><li>We will be greeted with **Gata Loops** (21 hairpin bends) after taking a pit stop at Pang to grab a satisfying lunch.</li><li>After reaching Sarchu in Lahaul valley, check in to our campsite for dinner and overnight stay in swiss camps.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Drive from Sarchu to Manali | Atal Tunnel | Manali Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast drive to **Manali** via **Atal Tunnel**.</li><li>Get mesmerized by the exceptional beauty of **Suraj Tal** at **Baralacha La** top. Feel the thrill while driving over **Zingzing Bar** (14,010 feet) and **Baralacha La** (16,500 feet).</li><li>After arriving in Manali, check in to our hotel, freshen-up and have some leisure. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Manali Self Explore & Cafe Hopping | Depart for Delhi",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check-out from our hotel and head out for self exploration in **Manali**.</li><li>Feel free to take a stroll around - visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping in **Old Manali**.</li><li>In the evening, start-off your **overnight bus journey from Manali to Delhi**.</li></ul>"
+      },
+      {
+        "day": 11,
+        "title": "Reach Delhi | Trip Ends",
+        "description": "<ul><li>Reach **Delhi** early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Manali to Delhi), SUV/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Manali to Srinagar. Riding gears like biker jacket, knee guard, and helmet will be provided. Powerful Royal Enfield Himalayan bikes for an unbeatable riding experience. Support vehicle to carry luggage and spare parts for whole trip.",
+      "9 Nights Accommodation on Sharing Basis: Hotel (Manali, Leh, Kargil & Srinagar), Swiss Tents (Sarchu, Nubra Valley & Pangong).",
+      "18 Meals: Manali (Breakfast+Dinner), Sarchu (Breakfast+Dinner), Leh (2 Dinners+2 Breakfasts), Nubra Valley (2 Dinners+2 Breakfasts), Pangong Lake (Breakfast+Dinner), Kargil (Breakfast+Dinner) & Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "First aid kits, oxygen cylinders and oximeter.",
+      "Inner line permits, driver allowances, toll taxes, parking & state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'leh-ladakh-with-umlingla-hanle',
-    title: 'Leh Ladakh With Umlingla & Hanle',
-    destination: 'Leh Ladakh',
-    duration: '8 Days 7 Nights',
-    price: '₹31500',
-    imageUrl: '/cloned_media/20011020250217145838.png',
-    overview: 'An adventurer\'s trip to the remote wonders of Ladakh. Visit the dark sky sanctuary of Hanle and conquer the mighty Umling La, one of the world\'s highest passes.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Accommodation', 'All Transfers (4x4)', 'Special Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "srinagar-leh-manali-with-umlingla-hanle",
+    "title": "Srinagar Leh Manali With Umlingla & Hanle",
+    "destination": "Leh Ladakh",
+    "duration": "12 Days 11 Nights",
+    "price": "₹38000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25238920250308075453.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9568420250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27509220250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39766020250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23844820250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27861520250308075452.png"
+    ],
+    "overview": "An adventurer's trip to the remote wonders of Ladakh. This epic journey spans Srinagar, Leh, and Manali, including exploration of the Changthang Valley, the dark sky sanctuary of **Hanle**, and conquering the mighty **Umling La Pass**, one of the world's highest motorable roads.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Srinagar, check-in to your cozy hotel and freshen-up.</li><li>As per your time, head out to explore the streets near Dal Lake, go for Shikara ride or just chill in your houseboat (on your own).</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel/houseboat.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Srinagar to Kargil | Sonmarg, Zojila & Drass | Kargil Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive from Srinagar to **Kargil**. Feel the thrill while riding over **Zoji La** (11,575 feet). We will be travelling through **Drass** (World’s second coldest inhabited place).</li><li>Visit the famous **Kargil War Memorial** and Mulbekh Monastery.</li><li>After arriving in Kargil, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Kargil to Leh | Lamayuru, Pathar Sahib Gurudwara & More | Leh Arrival",
+        "description": "<ul><li>Wake up early and post breakfast check out from our hotel in Kargil. Start yet another long road journey to **Leh** from Kargil.</li><li>Enroute we’ll cross **Fotula Pass** (13,479 feet) and **Namika La** (12,198 feet). Visit the **Lamayuru Monastery** ('Moonland').</li><li>We’ll visit the **Hall of Fame**, **Pathar Sahib Gurudwara** and **Magnetic Hill**. Witness the confluence of Indus-Zanskar rivers.</li><li>After arriving in Leh, check in to our comfy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up to a peaceful mountain morning in Nubra Valley and post breakfast drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River.</li><li>Witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, check in to our campsite and quickly head out for a walk around the lake for an #InstaPerfect shot. Enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Hanle | Changthang Valley | Hanle Arrival",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive towards **Hanle** via **Changthang Valley**. Enroute Hanle, we will cross tiny settlements like Chushul, Tsaga Village and Loma.</li><li>Hanle is one of Ladakh’s highest villages and home to India’s first and Biggest Astronomical Observatory.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Umling La Day Excursion | Hanle Stargazing",
+        "description": "<ul><li>Wake up and post breakfast, ride towards the mighty **Umling La** - **World’s Highest Motorable Pass** nestled at an altitude of **19,024 ft**, via Photila Pass & Demchuk Village.</li><li>After reaching Umling La pass spend some time at this breathtaking high altitude mountain pass. Post explorations, travel back to our property in Hanle.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Drive from Hanle to Leh | Chumathang Valley | Leh Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, ride towards Leh town via **Chumathang Valley**. Experience the naturally occurring Hot Springs in this picturesque valley.</li><li>After arriving in Leh, check in to our cozy hotel and have some much-needed leisure.</li><li>In the evening, feel free to visit Leh market to purchase souvenirs or go for cafe hopping.</li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Drive from Leh to Sarchu | Moore Plains, Pang & Gata Loops | Sarchu Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive towards **Sarchu** from Leh.</li><li>Enroute we’ll cross over **Moore Plains** (15,400 feet) and high altitude passes like **Tanglang La**, **Lachung La** and **Nakee La**.</li><li>We will be greeted with **Gata Loops** (21 hairpin bends) after taking a pit stop at Pang for lunch.</li><li>After reaching Sarchu in Lahaul valley, check in to our campsite for dinner and overnight stay in swiss camps.</li></ul>"
+      },
+      {
+        "day": 11,
+        "title": "Drive from Sarchu to Manali | Atal Tunnel | Manali Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive to **Manali** via **Atal Tunnel**.</li><li>Get mesmerized by the exceptional beauty of **Suraj Tal** at **Baralacha La** top. Feel the thrill while driving over Zingzing Bar (14,010 feet) and **Baralacha La** (16,500 feet).</li><li>After arriving in Manali, check in to our hotel, freshen-up and have some leisure. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 12,
+        "title": "Manali Self Explore & Cafe Hopping | Depart for Delhi",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check-out from our hotel and head out for self exploration in **Old Manali**.</li><li>Visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping.</li><li>In the evening, start-off your **overnight journey from Manali to Delhi**.</li></ul>"
+      },
+      {
+        "day": 13,
+        "title": "Reach Delhi | Trip Ends",
+        "description": "<ul><li>Reach **Delhi** early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Manali to Delhi), SUV/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Manali to Srinagar. Riding gears like biker jacket, knee guard, and helmet will be provided. Powerful Royal Enfield Himalayan bikes for an unbeatable riding experience. Support vehicle to carry luggage and spare parts for whole trip.",
+      "11 Nights Accommodation on Sharing Basis: Hotel (Manali, Leh, Kargil & Srinagar), Swiss Tents (Sarchu, Nubra Valley & Pangong), Homestay (Hanle).",
+      "22 Meals: Manali (Breakfast+Dinner), Sarchu (Breakfast+Dinner), Leh (2 Dinners+2 Breakfasts), Nubra Valley (2 Dinners+2 Breakfasts), Pangong Lake (Breakfast+Dinner), Hanle (2 Dinners+2 Breakfasts), Kargil (Breakfast+Dinner) & Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "First aid kits, oxygen cylinders and oximeter.",
+      "Inner line permits, driver allowances, toll taxes, parking & state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'leh-ladakh-with-tso-moriri-turtuk',
-    title: 'Leh Ladakh with Tso Moriri & Turtuk',
-    destination: 'Leh Ladakh',
-    duration: '8 Days 7 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/41654520230330173328.png',
-    overview: 'An extensive 8-day trip covering Leh, Nubra, Turtuk, Pangong, and the high-altitude lake Tso Moriri.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Accommodation', 'All Transfers', 'Inner Line Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "leh-ladakh-with-tso-moriri-turtuk",
+    "title": "Leh Ladakh with Tso Moriri & Turtuk",
+    "destination": "Leh Ladakh",
+    "duration": "8 Days 7 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/41654520230330173328.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11788420230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17486020230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40654320230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17160920230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17117720230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26835720230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16255220230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/271820230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25698920230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20460220230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18833020230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29038620230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25759020230330170455.png"
+    ],
+    "overview": "An extensive 8-day trip covering **Leh**, **Nubra**, the remote village of **Turtuk**, **Pangong Lake**, and the high-altitude lake **Tso Moriri**. This adventure is perfect for experiencing the sharp vistas, ancient culture, and thrilling mountain roads of Ladakh.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Leh Arrival | Acclimatization & Day At Leisure",
+        "description": "<ul><li>After arriving in Leh via flight, check in to our hotel, freshen-up and have some leisure.</li><li>This will be your **acclimatization day** as you will be starting a thrilling road trip to a high altitude region in the Himalayas the next day.</li><li>Post refreshment, feel free to take a stroll around the beautiful Leh Town and socialize with your co-travellers.</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "The Leh Town | Leh Sightseeing Day | Cafe Hopping, Bazaars & More",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the mesmerizing **Shanti Stupa** and **Leh Palace**. Then move to the confluence of **Indus-Zanskar** rivers by covering Hall of Fame, Magnetic Hills and Pathar Sahib Gurudwara enroute.</li><li>In the evening, feel free to take a stroll around Leh town on your own enjoying quaint cafes and old bazaars.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive From Leh To Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>We will take a pit stop at North Pullu or Khardung village to grab a satisfying lunch.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in Hunder Sand Dunes, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Turtuk - India’s Last Village | Back To Nubra Valley",
+        "description": "<ul><li>Wake up to a peaceful mountain morning in Nubra Valley and post breakfast drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River.</li><li>Flanked by Nubra on one side and Baltistan on the other, witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive From Hunder To Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet. This gorgeous lake changes its color 4-5 times a day.</li><li>After arriving at Pangong Tso, check in to our campsite and quickly head out for a walk around the lake. Enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive From Pangong To Tso Moriri | Chang La | Leh Arrival",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive towards **Tso-Moriri** via another high altitude motorable road - **Chang La** situated at 17,586 feet.</li><li>After arriving at Tso-Moriri, check in to our scenic campsite for a walk around the gorgeous high altitude lake situated at 14,836 ft.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive From Tso Moriri To Leh | Thiksey & Shey Palace | Leh Arrival",
+        "description": "<ul><li>Wake up early post breakfast, ride back towards **Leh** town. Enroute Leh, we will stop by at the gorgeous **Thiksey Monastery** and **Shey Palace**.</li><li>After arriving in Leh, check in to our cozy hotel and have some much-needed leisure.</li><li>Since this is your last day in the beautiful Leh town, utilize the evening by chilling at quaint cafes and buying souvenirs.</li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Leh #MeTime | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Leh and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: All local travel in Force Traveler/Cab.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Leh to Leh on Day 2 till Day 6. Riding gears like knee guard, elbow guard and helmet will be provided.",
+      "Accommodation on Sharing Basis: Hotel (Leh Town), Swiss Tents (Nubra Valley, Pangong & Tso Moriri).",
+      "Meals: Leh (3 Dinners+3 Breakfasts), Nubra Valley (2 Breakfasts+2 Dinners), Pangong (Breakfast+Dinner), Tso Moriri (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 8.",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "Driver allowances, toll taxes, parking and state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any inner line permits/environmental permits, entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'all-girls-ladakh-trip-with-turtuk',
-    title: 'All Girls Ladakh Trip with Turtuk',
-    destination: 'Leh Ladakh',
-    duration: '7 Days 6 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/37953920230331053627.png',
-    overview: 'A 7-day all-girls adventure to Leh, Nubra, Pangong, and the unique village of Turtuk, led by a female trip captain.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Accommodation', 'All Transfers', 'Female Trip Lead', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "all-girls-ladakh-trip-with-turtuk",
+    "title": "All Girls Ladakh Trip with Turtuk",
+    "destination": "Leh Ladakh",
+    "duration": "7 Days 6 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/37953920230331053627.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28252320230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17864520230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39496320230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17398420230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21972220230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1607420230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20524020230331053627.png"
+    ],
+    "overview": "A 7-day all-girls adventure to Leh, Nubra, Pangong, and the unique village of **Turtuk**, India's last village, led by a female trip captain. This trip explores Ladakh's breathtaking scenery, ancient monasteries, high mountain passes like **Khardung La**, and the serene waters of **Pangong Tso**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Leh Arrival | Acclimatization day",
+        "description": "<ul><li>The group will assemble at the airport. From here, a designated vehicle will drop you at your hotel.</li><li>After arriving in **Leh**, check in to our hotel and have some much-needed leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "The Leh Exploration",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the **Thiksey Monastery**, **Shanti Stupa** and **Leh Palace**. Then move to the confluence of Indus-Zanskar rivers by covering Hall of Fame, Magnetic Hills and Pathar Sahib Gurudwara enroute.</li><li>In the evening, feel free to take a stroll around Leh town by your own.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Khardung La & Nubra Valley",
+        "description": "<ul><li>Wake up early and drive towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>We will take a pit stop at North Pullu or Khardung village for lunch.</li><li>Enroute Hunder Sand Dunes, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in Hunder, check in to our scenic campsite and quickly head out to take a ride on a **double hump Bactrian camel** (optional ATV Quad biking).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Turtuk - India’s Last Village",
+        "description": "<ul><li>Wake up and drive towards **Turtuk village** to explore the northernmost part of India.</li><li>Witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving in Hunder/Turtuk, check in to our scenic campsite/homestay, savour home-style cooked dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Mesmerizing Pangong",
+        "description": "<ul><li>Wake up and post breakfast, move towards Shyok Valley and drive further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, check in to our campsite and quickly head out for a walk around the lake for an #InstaPerfect shot. Enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Chang La & Leh",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive back towards **Leh** town via another high altitude motorable road - **Chang La** situated at 17,586 feet.</li><li>Enroute Leh we will visit **Hemis Monastery** and **Rancho School** (became popular after Bollywood movie 3 Idiots).</li><li>After arriving back in Leh, check in to our cozy hotel. Use the evening to visit Leh market or cafe hop.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Back to Home",
+        "description": "<ul><li>Wake up early in the morning and post breakfast and say goodbye to your lovely host in Leh.</li><li>**Drop at airport.**</li><li>Reach home with lots of unforgettable memories.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: In Tempo Traveler/SUV from Leh to Leh.",
+      "6 nights accommodation on sharing basis: swiss camps & hotel.",
+      "Experienced and cool trip leader.",
+      "Meals: Dinner (6), Breakfast (6).",
+      "Oxygen can/cylinder and first-aid kit.",
+      "All inner line permits.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Activities like bactrian camel and ATV rides in Nubra Valley and Zanskar river rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'manali-leh-srinagar-with-umlingla-hanle',
-    title: 'Manali Leh Srinagar With Umlingla & Hanle',
-    destination: 'Leh Ladakh',
-    duration: '12 Days 11 Nights',
-    price: '₹38000',
-    imageUrl: '/cloned_media/38552720250308073455.png',
-    overview: 'The most comprehensive Ladakh road trip. 12 days covering Manali-Leh, Hanle, Umling La, and exiting via Srinagar.',
-    itinerary: createItinerary('12 Days 11 Nights'),
-    inclusions: ['Accommodation', 'All Transfers', 'Special Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "manali-leh-srinagar-with-umlingla-hanle",
+    "title": "Manali Leh Srinagar With Umlingla & Hanle",
+    "destination": "Leh Ladakh",
+    "duration": "12 Days 11 Nights",
+    "price": "₹38000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/38552720250308073455.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1322520250308073454.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37124520250308073455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30891120250308073455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20250220250308073455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12487920250308073455.png"
+    ],
+    "overview": "The most comprehensive Ladakh road trip. 12 days covering **Manali-Leh**, the remote Changthang Valley, the dark sky sanctuary of **Hanle**, conquering the mighty **Umling La** (World's Highest Motorable Pass), and exiting via **Srinagar**.",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla/Kashmere Gate Bus Stand and meet your Trip Captain. </li><li>Start an overnight journey to Manali and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Manali, check in to our hotel, freshen up and have some leisure.</li><li>This will be your acclimatization day as you will be starting a thrilling road trip to a high-altitude region in the Himalayas the next day.</li><li>Post refreshment, feel free to take a stroll around - visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping in Old Manali and try different local cuisines (on your own).</li><li>In the evening, don’t miss out on the much-needed acclimatization session by your trip captain followed by a home-style cooked dinner and an overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Manali to Sarchu | Atal Tunnel | Sarchu Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive to **Sarchu** via **Atal Tunnel**. Make your way through alluring landscapes. </li><li>Feel the thrill while driving over Zingzing Bar (14,010 feet) and **Baralacha La** (16,500 feet). Get mesmerized by the exceptional beauty of **Suraj Tal**.</li><li>After reaching Sarchu in Lahaul valley, check in to our campsite for dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Sarchu to Leh | Gata Loops, Pang & Moore Plains | Leh Arrival",
+        "description": "<ul><li>Wake up early and drive to **Leh** from Sarchu.</li><li>Enroute we will be greeted with **Gata Loops** (21 hairpin bends) before taking a pit stop at Pang to grab a satisfying lunch. Continue your journey over high altitude passes like **Nakee La**, **Lachung La**, **Tanglang La** and **Moore Plains**.</li><li>After arriving in Leh, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in **Hunder**, go for a ride on a **double hump bactrian camel** (optional ATV Quad biking).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up and post breakfast drive towards **Turtuk village** to explore the northernmost part of India.</li><li>Witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, check in to our campsite and enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Hanle | Changthang Valley | Hanle Arrival",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive towards **Hanle** via **Changthang Valley**. Enroute Hanle, we will cross tiny settlements like Chushul, Tsaga Village and Loma.</li><li>Hanle is one of Ladakh’s highest villages and home to India’s first and Biggest Astronomical Observatory.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Umling La Day Excursion | Hanle Stargazing",
+        "description": "<ul><li>Wake up and post breakfast, ride towards the mighty **Umling La** - **World’s Highest Motorable Pass** nestled at an altitude of **19,024 ft**.</li><li>After reaching Umling La pass, travel back to our property in Hanle.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Drive from Hanle to Leh | Chumathang Valley | Leh Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, ride towards **Leh** town via **Chumathang Valley**. Experience the naturally occurring Hot Springs.</li><li>After arriving in Leh, check in to our cozy hotel. In the evening, visit Leh market to purchase souvenirs or go for cafe hopping.</li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Leh to Kargil | Pathar Sahib Gurudwara, Lamayuru & More | Kargil Arrival",
+        "description": "<ul><li>Wake up early and drive towards **Kargil** from Leh. Enroute we will visit the **Hall of Fame**, **Pathar Sahib Gurudwara** and **Magnetic Hill**. Witness the confluence of Indus-Zanskar rivers.</li><li>We’ll visit the **Lamayuru Monastery** ('Moonland'). Further we’ll cross Fotula Pass and Namika La.</li><li>After arriving in Kargil, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 11,
+        "title": "Kargil to Srinagar | Drass, Zojila & Sonamarg | Srinagar Arrival",
+        "description": "<ul><li>Drive from Kargil to **Srinagar**. Visit the **Kargil War Memorial**.</li><li>Travel through **Drass** (World’s second coldest inhabited place), drive over **Zoji La** (11,575 feet) and cross the beautiful **Sonmarg**.</li><li>After arriving in Srinagar, check in to our comfy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 12,
+        "title": "Departure from Srinagar | Trip Ends",
+        "description": "<ul><li>In the morning, post breakfast say goodbye to your hosts in Srinagar and your family-like travel clan.</li><li>Reach your home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Delhi to Manali), SUV/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Manali to Srinagar. Riding gears like biker jacket, knee guard, and helmet will be provided. Powerful Royal Enfield Himalayan bikes for an unbeatable riding experience. Support vehicle to carry luggage and spare parts for whole trip.",
+      "11 Nights Accommodation on Sharing Basis: Hotel (Manali, Leh, Kargil & Srinagar), Swiss Tents (Sarchu, Nubra Valley & Pangong), Homestay (Hanle).",
+      "22 Meals: Manali (Breakfast+Dinner), Sarchu (Breakfast+Dinner), Leh (2 Dinners+2 Breakfasts), Nubra Valley (2 Dinners+2 Breakfasts), Pangong Lake (Breakfast+Dinner), Hanle (2 Dinners+2 Breakfasts), Kargil (Breakfast+Dinner) & Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "First aid kits, oxygen cylinders and oximeter.",
+      "Inner line permits, driver allowances, toll taxes, parking & state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'srinagar-leh-manali-with-umlingla-hanle',
-    title: 'Srinagar Leh Manali With Umlingla & Hanle',
-    destination: 'Leh Ladakh',
-    duration: '12 Days 11 Nights',
-    price: '₹38000',
-    imageUrl: '/cloned_media/25238920250308075453.png',
-    overview: 'The ultimate Ladakh circuit in reverse. Start in Srinagar, explore Leh, Hanle, Umling La, and finish in Manali.',
-    itinerary: createItinerary('12 Days 11 Nights'),
-    inclusions: ['Accommodation', 'All Transfers', 'Special Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "srinagar-leh-manali-with-umlingla-hanle",
+    "title": "Srinagar Leh Manali With Umlingla & Hanle",
+    "destination": "Leh Ladakh",
+    "duration": "12 Days 11 Nights",
+    "price": "₹38000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25238920250308075453.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9568420250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27509220250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39766020250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23844820250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27861520250308075452.png"
+    ],
+    "overview": "The most comprehensive Ladakh circuit in reverse. Start in **Srinagar**, explore Leh, the dark sky sanctuary of **Hanle**, conquering the mighty **Umling La** (World's Highest Motorable Pass), and finishing in **Manali**. This adventure fuses culture, high-altitude passes, and remote valleys into a single epic road trip.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Srinagar, check-in to your cozy hotel and freshen-up.</li><li>As per your time, head out to explore the streets near Dal Lake, go for Shikara ride or just chill in your houseboat (on your own).</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel/houseboat.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Srinagar to Kargil | Sonmarg, Zojila & Drass | Kargil Arrival",
+        "description": "<ul><li>Wake up early and drive from Srinagar to **Kargil**. Feel the thrill while riding over **Zoji La** (11,575 feet). We will be travelling through **Drass** (World’s second coldest inhabited place).</li><li>Visit the famous **Kargil War Memorial** and Mulbekh Monastery.</li><li>After arriving in Kargil, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Kargil to Leh | Lamayuru, Pathar Sahib Gurudwara & More | Leh Arrival",
+        "description": "<ul><li>Wake up early and drive to **Leh** from Kargil.</li><li>Enroute we’ll cross **Fotula Pass** (13,479 feet) and **Namika La** (12,198 feet). Visit the **Lamayuru Monastery** ('Moonland').</li><li>We’ll visit the **Hall of Fame**, **Pathar Sahib Gurudwara** and **Magnetic Hill**. Witness the confluence of Indus-Zanskar rivers.</li><li>After arriving in Leh, check in to our comfy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in **Hunder**, go for a ride on a **double hump bactrian camel** (optional ATV Quad biking).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up and post breakfast drive towards **Turtuk village** to explore the northernmost part of India.</li><li>Witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, check in to our campsite and enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Hanle | Changthang Valley | Hanle Arrival",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive towards **Hanle** via **Changthang Valley**. Hanle is home to India’s first and Biggest Astronomical Observatory.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Umling La Day Excursion | Hanle Stargazing",
+        "description": "<ul><li>Wake up and post breakfast, ride towards the mighty **Umling La** - **World’s Highest Motorable Pass** nestled at an altitude of **19,024 ft**.</li><li>After reaching Umling La pass, travel back to our property in Hanle.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Drive from Hanle to Leh | Chumathang Valley | Leh Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, ride towards **Leh** town via **Chumathang Valley**. Experience the naturally occurring Hot Springs.</li><li>After arriving in Leh, check in to our cozy hotel. In the evening, visit Leh market to purchase souvenirs or go for cafe hopping.</li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Drive from Leh to Sarchu | Moore Plains, Pang & Gata Loops | Sarchu Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive towards **Sarchu** from Leh.</li><li>Enroute we’ll cross over **Moore Plains** and high altitude passes like **Tanglang La**, **Lachung La** and **Nakee La**.</li><li>We will be greeted with **Gata Loops** (21 hairpin bends) after taking a pit stop at Pang for lunch.</li><li>After reaching Sarchu in Lahaul valley, check in to our campsite for dinner and overnight stay in swiss camps.</li></ul>"
+      },
+      {
+        "day": 11,
+        "title": "Drive from Sarchu to Manali | Atal Tunnel | Manali Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive to **Manali** via **Atal Tunnel**.</li><li>Get mesmerized by the exceptional beauty of **Suraj Tal** at **Baralacha La** top.</li><li>After arriving in Manali, check in to our hotel, freshen-up and have some leisure. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 12,
+        "title": "Manali Self Explore & Cafe Hopping | Depart for Delhi",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check-out from our hotel and head out for self exploration in **Old Manali**.</li><li>Visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping.</li><li>In the evening, start-off your **overnight journey from Manali to Delhi**.</li></ul>"
+      },
+      {
+        "day": 13,
+        "title": "Reach Delhi | Trip Ends",
+        "description": "<ul><li>Reach **Delhi** early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Manali to Delhi), SUV/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Manali to Srinagar. Riding gears like biker jacket, knee guard, and helmet will be provided. Powerful Royal Enfield Himalayan bikes for an unbeatable riding experience. Support vehicle to carry luggage and spare parts for whole trip.",
+      "11 Nights Accommodation on Sharing Basis: Hotel (Manali, Leh, Kargil & Srinagar), Swiss Tents (Sarchu, Nubra Valley & Pangong), Homestay (Hanle).",
+      "22 Meals: Manali (Breakfast+Dinner), Sarchu (Breakfast+Dinner), Leh (2 Dinners+2 Breakfasts), Nubra Valley (2 Dinners+2 Breakfasts), Pangong Lake (Breakfast+Dinner), Hanle (2 Dinners+2 Breakfasts), Kargil (Breakfast+Dinner) & Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "First aid kits, oxygen cylinders and oximeter.",
+      "Inner line permits, driver allowances, toll taxes, parking & state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
 
   //==========================================================================
