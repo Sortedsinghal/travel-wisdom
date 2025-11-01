@@ -1,13 +1,14 @@
 import React from 'react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import ContactForm from '@/components/ContactForm';
-import TripSlider from '@/components/TripSlider';
-import ExpandableText from '@/components/ExpandableText';
+// --- FIX: Changed alias imports to relative paths ---
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import ContactForm from '../components/ContactForm';
+import TripSlider from '../components/TripSlider';
+import ExpandableText from '../components/ExpandableText';
 import { Bed, Airplay, Mountain, Users, ThumbsUp, CreditCard, UserCheck, Zap, Award } from 'lucide-react';
 
-// --- IMPORT CENTRALIZED DATA ---
-import { allTrips } from '@/data/trips';
+// --- IMPORT CENTRALIZED DATA (FIX: Changed to relative path) ---
+import { allTrips } from '../data/trips';
 
 // --- FILTER DATA FOR RAJASTHAN ---
 const handpickedTripsRajasthan = allTrips.filter(trip =>
@@ -78,86 +79,94 @@ const Rajasthan = () => {
   return (
     <div className="bg-white">
       <Header />
-      <main>
-        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* --- WIDE LAYOUT CONTAINER (from Bali/Dubai) --- */}
+      <main className="max-w-[1600px] mx-auto px-6 lg:px-12 py-8">
 
-          <section className="relative">
-            {/* Updated Hero Image Path */}
-            <img src="/cloned_media/14997820240912094546.png" className="w-full h-[500px] object-cover rounded-2xl" alt="Scenic view of Rajasthan"/>
-            <div className="absolute inset-0 bg-black/30 rounded-2xl"></div>
-            <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-6xl font-bold z-10 p-4 text-center">
-              Rajasthan Tour Packages
-            </h1>
-          </section>
+        {/* --- REMOVED THE OLD max-w-screen-xl WRAPPER --- */}
 
-          <section className="bg-gray-100 p-8 rounded-lg my-8">
-            <h2 className="text-3xl font-semibold border-b-2 border-gray-200 pb-3 mb-6">
-              About Rajasthan Tour Packages
-            </h2>
-            <ExpandableText>
-              {/* ... (Keep the existing ExpandableText content) ... */}
-              <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                 <p>Discover the enchanting land of Rajasthan, where the grandeur of royal palaces, majestic forts and vibrant culture awaits you! Step into the world of opulence and tradition as you explore the pink-hued streets of Jaipur, romantic lakes of Udaipur, and golden sands of Jaisalmer. Experience the regal hospitality, indulge in mouth watering delicacies and witness the colorful festivals that bring this desert state to vibrant life. Book your Rajasthan Tour with Travel Wisdom today and journey through India’s most captivating and mesmerizing state, where every corner tells a story of its glorious past. Don’t miss the chance to explore the heart of royal India - reserve your adventure now!</p>
-                {/* ... (rest of the text content) ... */}
-              </div>
-            </ExpandableText>
-          </section>
+        <section className="relative">
+          {/* Updated Hero Image Path */}
+          <img src="/cloned_media/14997820240912094546.png" className="w-full h-[500px] object-cover rounded-2xl" alt="Scenic view of Rajasthan"/>
+          <div className="absolute inset-0 bg-black/30 rounded-2xl"></div>
+          <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-6xl font-bold z-10 p-4 text-center">
+            Rajasthan Tour Packages
+          </h1>
+        </section>
 
-          <section className="mt-16">
-            <h2 className="text-4xl font-bold mb-6"><span className="text-blue-700">Handpicked</span> By Our Experts ✨</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-              <div className="lg:col-span-8">
-                {/* --- USE FILTERED DATA --- */}
-                <TripSlider trips={handpickedTripsRajasthan} slidesToShow={3} />
-              </div>
-              <aside className="lg:col-span-4">
-                <div className="border bg-white p-6 rounded-2xl shadow-lg">
-                  <h3 className="text-xl font-semibold text-center mb-1">Let's plan your next trip</h3>
-                  <p className="text-center text-sm text-gray-600 mb-6">Make your move, fill out your details now!</p>
-                  <ContactForm />
-                </div>
-              </aside>
+        <section className="bg-gray-100 p-10 rounded-2xl my-10 shadow-sm">
+          <h2 className="text-3xl font-semibold border-b-2 border-gray-200 pb-3 mb-6">
+            About Rajasthan Tour Packages
+          </h2>
+          <ExpandableText>
+            <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
+               <p>Discover the enchanting land of Rajasthan, where the grandeur of royal palaces, majestic forts and vibrant culture awaits you! Step into the world of opulence and tradition as you explore the pink-hued streets of Jaipur, romantic lakes of Udaipur, and golden sands of Jaisalmer. Experience the regal hospitality, indulge in mouth watering delicacies and witness the colorful festivals that bring this desert state to vibrant life. Book your Rajasthan Tour with Travel Wisdom today and journey through India’s most captivating and mesmerizing state, where every corner tells a story of its glorious past. Don’t miss the chance to explore the heart of royal India - reserve your adventure now!</p>
+              {/* ... (rest of the text content) ... */}
             </div>
-          </section>
+          </ExpandableText>
+        </section>
 
-          <div className="space-y-20 mt-20">
-            <section>
-              <h2 className="text-4xl font-bold mb-6">Rajasthan Weekend Trips</h2>
-               {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={weekendTripsRajasthan} slidesToShow={4} />
-            </section>
-            <section>
-              <h2 className="text-4xl font-bold mb-6">Udaipur Tour Packages</h2>
-               {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={udaipurToursRajasthan} slidesToShow={3} />
-            </section>
-            <section>
-              <h2 className="text-4xl font-bold mb-6">Rajasthan Family Tour Packages</h2>
-               {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={familyToursRajasthan} slidesToShow={4} />
-            </section>
-            <section>
-              <h2 className="text-4xl font-bold mb-6">Rajasthan Backpacking Trips</h2>
-               {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={backpackingTripsRajasthan} slidesToShow={4} />
-            </section>
+        <section className="mt-16">
+          {/* Added px-6 to align heading with slider padding */}
+          <h2 className="text-4xl font-bold mb-6 px-6"><span className="text-blue-700">Handpicked</span> By Our Experts ✨</h2>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            <div className="lg:col-span-8">
+              {/* --- USE FILTERED DATA --- */}
+              <TripSlider trips={handpickedTripsRajasthan} slidesToShow={3} />
+            </div>
+            <aside className="lg:col-span-4">
+              <div className="border bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-semibold text-center mb-1">Let's plan your next trip</h3>
+                <p className="text-center text-sm text-gray-600 mb-6">Make your move, fill out your details now!</p>
+                <ContactForm />
+              </div>
+            </aside>
           </div>
+        </section>
 
-          <section className="py-24">
-            <div className="text-center">
-              <h2 className="text-4xl font-bold mb-12">Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span></h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-                {reasons.map((reason, index) => (
-                  <div key={index} className="bg-gray-50 rounded-lg p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
-                    <div className="mb-4 inline-block bg-blue-100 p-4 rounded-full">{reason.icon}</div>
-                    <h3 className="text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
-                    <p className="text-gray-600">{reason.description}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+        <div className="space-y-20 mt-20">
+          <section>
+            {/* Added px-6 to align heading with slider padding */}
+            <h2 className="text-4xl font-bold mb-6 px-6">Rajasthan Weekend Trips</h2>
+             {/* --- USE FILTERED DATA --- */}
+            <TripSlider trips={weekendTripsRajasthan} slidesToShow={4} />
+          </section>
+          <section>
+            {/* Added px-6 to align heading with slider padding */}
+            <h2 className="text-4xl font-bold mb-6 px-6">Udaipur Tour Packages</h2>
+             {/* --- USE FILTERED DATA --- */}
+            <TripSlider trips={udaipurToursRajasthan} slidesToShow={3} />
+          </section>
+          <section>
+            {/* Added px-6 to align heading with slider padding */}
+            <h2 className="text-4xl font-bold mb-6 px-6">Rajasthan Family Tour Packages</h2>
+             {/* --- USE FILTERED DATA --- */}
+            <TripSlider trips={familyToursRajasthan} slidesToShow={4} />
+          </section>
+          <section>
+            {/* Added px-6 to align heading with slider padding */}
+            <h2 className="text-4xl font-bold mb-6 px-6">Rajasthan Backpacking Trips</h2>
+             {/* --- USE FILTERED DATA --- */}
+            <TripSlider trips={backpackingTripsRajasthan} slidesToShow={4} />
           </section>
         </div>
+
+        <section className="py-24">
+          <div className="text-center">
+            <h2 className="text-4xl font-bold mb-12">Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span></h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+              {reasons.map((reason, index) => (
+                <div key={index} className="bg-gray-50 rounded-lg p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
+                  <div className="mb-4 inline-block bg-blue-100 p-4 rounded-full">{reason.icon}</div>
+                  <h3 className="text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
+                  {/* --- FIX: Changed {Rk} to {reason.description} --- */}
+                  <p className="text-gray-600">{reason.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* --- REMOVED THE OLD CLOSING </div> --- */}
       </main>
       <Footer />
     </div>
@@ -165,3 +174,4 @@ const Rajasthan = () => {
 };
 
 export default Rajasthan;
+
