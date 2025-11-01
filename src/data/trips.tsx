@@ -11465,218 +11465,1232 @@ export const allTrips: Trip[] = [
   // DESTINATION: Thailand (from Thailand.tsx)
   //==========================================================================
   {
-    slug: 'thailand-full-moon-party',
-    title: 'Thailand Full Moon Party',
-    destination: 'Thailand',
-    duration: '7 Days 6 Nights',
-    price: '₹44999',
-    imageUrl: '/cloned_media/11104120240831072441.png',
-    overview: 'Experience the world-famous Full Moon Party on Koh Phangan, combined with a trip to Krabi and Phi Phi Islands.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hostel/Hotel Stay', 'Ferry Tickets', 'Full Moon Party Entry', 'Transfers'],
-    exclusions: ['Flights', 'Meals', 'Visa Fees'],
+    "slug": "thailand-full-moon-party",
+    "title": "Thailand Full Moon Party",
+    "destination": "Thailand",
+    "duration": "7 Days 6 Nights",
+    "price": "₹44999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/11104120240831072441.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31847820240210053219.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9833920240210053220.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33857620240210053220.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12910320240210053220.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33593420240210053220.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9138120240210053220.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17568620240210053220.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23550520240210053220.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30480620240210053220.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12176620240210053220.png"
+    ],
+    "overview": "Experience the world-famous **Full Moon Party** on **Koh Phangan**, combined with a trip to **Phuket**, **Koh Samui**, **Krabi**, and **Phi Phi Islands**. This **7-day** tour is packed with beach scenes, island hopping, snorkeling, and nightlife.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival at Phuket | Bangla Street & Chill Scenes",
+        "description": "<ul><li>Arrive at **Phuket Airport**. Transfer to your hotel in Phuket (2 Nights stay).</li><li>Spend the evening time in **Bangla Walking Street** in Patong Beach and experience the crazy nightlife of Phuket.</li><li>Overnight stay in Phuket.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Phi Phi Island Day Tour by Speedboat",
+        "description": "<ul><li>Wake up and post a delightful breakfast, get picked up and hop on to a speedboat for the **Phi Phi Islands** tour (SIC).</li><li>Visit the stunning Phi Leh Lagoon, **Maya Bay**, and experience **snorkeling**.</li><li>Have lunch at Phi Phi island. Transfer back to Phuket.</li><li>Overnight stay in Phuket.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Koh Samui Explorations | Full Moon Party at Koh Phangan",
+        "description": "<ul><li>Wake up and post a delightful breakfast, transfer to **Koh Samui** (2 Nights stay) on SIC basis (bus + ferry).</li><li>Check-in and relax at the beach.</li><li>Later, transfer to the party island of **Koh Phangan** by Speedboat for the epic **Full Moon Party**!</li><li>Overnight stay at a hotel in Koh Samui.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Leisure Day in Koh Samui",
+        "description": "<ul><li>Wake up to a leisure-filled morning. Relax and rejuvenate after the previous night's party.</li><li>Explore nearby beaches, serene surroundings, or rent a bike/scooty.</li><li>In the evening, experience the enthralling fire shows at Arkbar Beach Club & Fishermen Village.</li><li>Overnight stay at a hotel in Koh Samui.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Transfer to Krabi | Beach Vibes & Nightlife",
+        "description": "<ul><li>Wake up and post check-out from your hotel in Koh Samui, transfer to **Krabi** (2 Nights stay).</li><li>After arriving in Krabi, check-in to your hotel and have some leisure.</li><li>In the evening, head out on the streets of Krabi & experience the nightlife.</li><li>Overnight stay at a hotel in Krabi.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Full Day Four Island Tour by Speedboat",
+        "description": "<ul><li>Wake up and post a delightful breakfast, get picked up for the **Full Day Four Islands Tour** of Krabi by speedboat (SIC).</li><li>Visit the islands of Koh Poda, Chicken Island, Tup Island and **Phra Nang Cave Beach**. Swim and snorkel in beautiful spots. Lunch is included.</li><li>Transfer back to the hotel. Overnight stay in Krabi.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Goodbye Thailand | Trip Ends",
+        "description": "<ul><li>It’s time to say goodbye to a lovely Thailand trip. Drive towards **Phuket Airport** to catch your flight back to India with a heart full of numerous memories.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Surface Transfers: **All airport pick up and drop** (Common Time), All transportation as per the itinerary.",
+      "Tours & Sightseeing: **4 Island Sunset Tour by speedboat on SIC**, **Phi Phi island tour by speedboat on SIC**.",
+      "Transfers: **Full Moon Party transfers** (bus + ferry transfers).",
+      "Accommodation: **6 Nights in Hotels** (2 Nights in Phuket, 2 Nights in Koh Samui, 2 Nights in Krabi) on Dual Sharing Basis.",
+      "Meals: **8 meals** for the entire trip including **6 Breakfasts**, 1 Lunch in Phi Phi Island and 1 Lunch during four Islands Tour.",
+      "Activities: **Snorkeling Adventure Activity in Phi Phi Island**.",
+      "VISA Assistance: Visa is **free for Indians**.",
+      "Other Inclusions: All Local Assistance, Real time suggestions for events, Pub, Cafe & Shopping."
+    ],
+    "exclusions": [
+      "Water Sports or any other activity other than mentioned in the itinerary.",
+      "National Park Fees **400 THB PP**.",
+      "Full moon party entry ticket **200 THB PP**.",
+      "Any kind of food or beverage that is not included in the package.",
+      "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc.",
+      "Any cost arising due to natural calamities like landslides, roadblocks etc.",
+      "Anything not mentioned in the inclusions.",
+      "GST (5%) is applicable extra.",
+      "5% TCS as per govt. rules will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax. This amount will be refunded to your ITR."
+    ]
   },
   {
-    slug: 'thailand-phuket-krabi-phi-phi-5n6d',
-    title: 'Thailand (Phuket Krabi Phi Phi) 5N6D',
-    destination: 'Thailand',
-    duration: '6 Days 5 Nights',
-    price: '₹45000',
-    originalPrice: '₹55000',
-    discount: '₹10,000',
-    imageUrl: '/cloned_media/6093520220627222939.png',
-    overview: 'The classic 6-day Thailand island hopping trip. Explore the best of Phuket, Krabi, and the stunning Phi Phi Islands.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Ferry Tickets', '4-Island Tour'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches & Dinners'],
+    "slug": "thailand-phuket-krabi-phi-phi-5n6d",
+    "title": "Thailand (Phuket Krabi Phi Phi) 5N6D",
+    "destination": "Thailand",
+    "duration": "6 Days 5 Nights",
+    "price": "₹45000",
+    "originalPrice": "₹55000",
+    "discount": "₹10,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/6093520220627222939.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23494120220627222939.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13782320220627222939.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32090620220627222939.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38629120220627222939.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21108620220627222939.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29804720220627222939.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2077920220627222939.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31514320220627222939.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40269720220627222939.png"
+    ],
+    "overview": "The classic **6-day Thailand island hopping trip**. Explore the best of **Phuket**, **Krabi**, and the stunning **Phi Phi Islands**. This adventure package includes hotel stays with pools, snorkeling, kayaking, and plenty of time to enjoy the vibrant nightlife and beaches.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Phuket Arrival & Chill Scenes",
+        "description": "<ul><li>After arriving early in the morning at **Phuket Airport**, transfer and check-in to your hotel in **Patong**.</li><li>Quickly head out for café hopping, grab a beer, and sink in the chilled-out vibes of **Phuket**, known for its kickass nightlife across the world.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Krabi Island | Cafe Hopping & Beaches",
+        "description": "<ul><li>Wake up early and post breakfast, head towards the majestic **Krabi Islands** via road.</li><li>Upon arrival, explore local restaurants, relax on the beach, and enjoy the picturesque surroundings.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Krabi Island | Kickass Nightlife & More",
+        "description": "<ul><li>Wake up with good vibes and post breakfast, hop on to your scooter (optional, at your own cost) and explore the stunning beaches of Krabi.</li><li>Gear up for an amazing nightlife. Put on your party shoes, head out for café hopping and chill with your beer!</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Back To Phuket | Explore Old Town",
+        "description": "<ul><li>Post breakfast, start your journey from Krabi to **Phuket by sea** (ferry included).</li><li>After arriving in Phuket, check-in to your hotel in Patong and chill at the rooftop pool or feel free to explore the **Old Phuket Town**.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Phi Phi Islands | Beaches & Unwind",
+        "description": "<ul><li>Wake up to a blissful morning and get ready to witness the stunning views of **Phi Phi Islands**.</li><li>Take a **ferry ride** from Phuket to reach the legendary Phi Phi Islands.</li><li>Spend your day exploring the white sand beaches or feel the thrill by indulging in adventure activities like traditional Thai long tail boat snorkeling.</li><li>In the evening, experience the tasty local street food Phuket.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Goodbye Thailand",
+        "description": "<ul><li>It’s time to say goodbye to the beach paradise. Post breakfast, go out to spend some more time around the market or malls of Phuket.</li><li>Drive towards Phuket Airport and board your flight back to India.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Stay: **All stays in quality Hotels with in-house pools** (2 nights Phuket, 2 nights Krabi, 1 night Phi Phi - implicit split based on itinerary).",
+      "Meals: **All day breakfast** Included.",
+      "Transfers: **All Airport Transfers**, **All Transfers to ferry Ports**, **All Ferry (Sea Transfers)**.",
+      "Tours: **All good vibe day tours** with English speaking guide, **Snorkeling**, **Kayaking**.",
+      "Visa Assistance: **All Visa Assistance** (Visa is free for Indians).",
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions (Lunches & Dinners).",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "On Arrival visa fee will be approx. **2000 Baht** Or Visa from India – **Rs4500/-** (Visa Fee+VFS administrative charges etc.+Tour facilitation charges).",
+      "TCS* 5% will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax."
+    ]
   },
   {
-    slug: 'thailand-phuket-krabi-phi-phi-6n7d',
-    title: 'Thailand (Phuket Krabi Phi Phi) 6N7D',
-    destination: 'Thailand',
-    duration: '7 Days 6 Nights',
-    price: '₹47999',
-    imageUrl: '/cloned_media/25623320220627223345.png',
-    overview: 'An extended 7-day version of the classic island hopping trip, giving you more time to relax and explore Phuket, Krabi, and Phi Phi.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Ferry Tickets', '4-Island Tour', 'Phi Phi Tour'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches & Dinners'],
+    "slug": "thailand-phuket-krabi-phi-phi-6n7d",
+    "title": "Thailand (Phuket Krabi Phi Phi) 6N7D",
+    "destination": "Thailand",
+    "duration": "7 Days 6 Nights",
+    "price": "₹47999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25623320220627223345.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19657120220627223345.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31177020220627223345.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10832820220627223345.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32228820220627223345.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32078920220627223345.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23253620220627223345.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39647520220627223345.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3142820220627223345.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25441820220627223345.png"
+    ],
+    "overview": "An extended **7-day version** of the classic Thailand island hopping trip, giving you more time to relax and explore **Phuket**, **Krabi**, and **Phi Phi Islands**. This adventure package includes plenty of time for nightlife, island exploration, snorkeling, and sightseeing.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins",
+        "description": "<ul><li>With excitement and happiness on your face, jump into your flight for Thailand and say goodbye to India.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Phuket Arrival | Nightlife & Chill",
+        "description": "<ul><li>After landing early in the morning in Phuket, transfer to your comfy hotel in **Patong**.</li><li>Quickly head out for café hopping, grab a beer and sink in the chilled-out vibes of Phuket known for its kickass nightlife across the world.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Explore Phuket | Go Local | Live Music",
+        "description": "<ul><li>Wake up to a lazy morning today. Post freshen-up, head out for a city tour to explore the major sights.</li><li>Experience the street food and head to **Karon beach**. Relax on the beach with your beer and soak in the good vibes #SunsetGoals.</li><li>Later, visit the happening street bars in Phuket to enjoy live music.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Krabi Island | Beaches & Much More",
+        "description": "<ul><li>Wake up early in the morning and head towards the majestic **Krabi Islands** (transfer included).</li><li>Upon arrival, hop on to your scooter (optional, at your own cost) and explore the stunning beaches of Krabi.</li><li>Explore the local restaurants and enjoy the good vibes. Gear up for an amazing nightlife.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Phi Phi Islands | Island Hopping & Unwind",
+        "description": "<ul><li>Wake up to a blissful morning and get ready to witness the stunning views of **Phi Phi Islands**.</li><li>Take a **ferry ride** from Krabi to reach the legendary Phi Phi Islands.</li><li>Spend your day exploring the white sand beaches or feel the thrill by indulging in adventure activities like traditional Thai long tail boat **snorkeling**.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Phi Phi Islands #SunriseGoals | Phuket Party",
+        "description": "<ul><li>Make the most out of your last morning in **Phi Phi Island**. Nature lovers can go for a small hike up to the Phi Phi top and witness a mesmerizing sunrise or relax by the beach soaking in the views of **Maya Bay**.</li><li>Get on board your ferry and ride back to **Phuket**. Since this will be your last night in Thailand, head out for café hopping and explore bars in Phuket.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Goodbye Thailand",
+        "description": "<ul><li>It’s time to say goodbye to the beach paradise and post breakfast, go out to spend some more time around the market or many fancy malls of Phuket.</li><li>Drive towards the airport and board your flight back to India.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation: All stays in **quality Hotels with in-house pools** (split across Phuket, Krabi, and Phi Phi).",
+      "Meals: **All day breakfast** Included.",
+      "Transfers: **All Airport Transfers**, **All Transfers to ferry Ports**, **All Ferry (Sea Transfers)**.",
+      "Tours & Activities: All good vibe day tours with english speaking guide, **Snorkeling**, **Kayaking**.",
+      "Other Inclusions: **SIM card with 4G Data and India Calling**, **Forex Card**, **All Visa Assistance & Thai Pass Approval**."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions (Lunches & Dinners).",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "On Arrival visa fee will be approx. **2000 Baht** Or Visa from India – **Rs4500/-**.",
+      "TCS* 5% will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax. This amount will be refunded in your ITR."
+    ]
   },
   {
-    slug: 'thailand-phuket-phi-phi-island-4n5d',
-    title: 'Thailand (Phuket, Phi Phi Island) 4N5D',
-    destination: 'Thailand',
-    duration: '5 Days 4 Nights',
-    price: '₹39999',
-    imageUrl: '/cloned_media/25431020220425093432.png',
-    overview: 'A quick 5-day getaway focused on Phuket and a memorable day trip (or overnight) to the Phi Phi Islands.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Ferry Tickets', 'Phi Phi Island Tour'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches & Dinners'],
+    "slug": "thailand-phuket-phi-phi-island-4n5d",
+    "title": "Thailand (Phuket, Phi Phi Island) 4N5D",
+    "destination": "Thailand",
+    "duration": "5 Days 4 Nights",
+    "price": "₹39999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25431020220425093432.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19621520220425093432.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13351320220425093432.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30977120220425093432.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31405620220425093432.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28177620220425093432.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24535220220425093432.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35929620220425093432.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/239320220425093432.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40490520220425093432.png"
+    ],
+    "overview": "A quick **5-day getaway** focused on **Phuket** and the stunning **Phi Phi Islands**. This adventure covers the vibrant nightlife of Patong, a full day for the Phi Phi Islands tour (including snorkeling), and time for local sightseeing and beach relaxation.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Phuket | Nightlife & Chill",
+        "description": "<ul><li>Arrive in **Phuket** and drive towards Patong. Check-in to your comfy hotel and have some leisure.</li><li>Quickly head out for café hopping, grab a beer and sink in the chilled-out vibes of Phuket.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Phi Phi Islands | Beaches & Unwind",
+        "description": "<ul><li>Wake up to a blissful morning and get ready to witness the stunning views of **Phi Phi Islands**.</li><li>Take a **ferry ride** from Phuket to reach the legendary Phi Phi Islands.</li><li>Spend your day exploring the white sand beaches or feel the thrill by indulging in adventure activities like traditional Thai long tail boat **snorkeling**.</li><li>In the evening, experience the tasty local street food Phuket.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Explore Phuket | Local Sightseeing",
+        "description": "<ul><li>Wake up to a lazy morning. Post freshen-up, head out for a **city tour** to explore the major sights.</li><li>Treat yourself with a good meal, experience the street food and head to **Karon beach**.</li><li>Later, visit the happening street bars in Phuket to enjoy live music.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "#MeTime | Krabi Island & Much More",
+        "description": "<ul><li>This will be your chilled-out day, go out to spend some leisure time in Phuket. Explorers can head out to **Krabi Island** via ferry (optional, at your own cost) and foodies can enjoy different delicacies at exotic food markets.</li><li>Put on your party shoes, head out for cafe hopping and chill with your beer!</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Goodbye Thailand",
+        "description": "<ul><li>It’s time to say goodbye to the beach paradise. Post breakfast, go out to spend some more time around the market or beaches.</li><li>Drive towards the airport and board your flight back to India.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation As Per Sharing Configuration Selected: **4 Nights stay in 3 Star Hotels** (Pj Patong Resortel/ Be My Guest Boutique Hotel/ Hallo Patong/The Frutta Boutique Hotel or Equivalent).",
+      "Activities: **Phi Phi Island Tour**, **Half Day city tour of Phuket**, **Free Access to Worlds Best Party Clubs**.",
+      "Meals: **Daily Breakfast** (Total 4 Meals).",
+      "Road Transfers: **All Airport Transfers**, **Transfer from Hotel to Ferry Port**, **Travel during City Tour**.",
+      "Sea Transfers: **Ferry from Phuket to Phi Phi Island**, **Ferry from Phi Phi to Phuket**.",
+      "Other Inclusions: **Free Thailand Sim Card with 4G Data**.",
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions.",
+      "Any expenses of personal nature such as tips to drivers, guides, representative laundry expenses, wines, mineral water, food and drinks not in the regular menus provided by us.",
+      "On Arrival visa fee will be approx **2000 Baht** Or Visa from India – **Rs4000/-**.",
+      "TCS* 5% will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax."
+    ]
   },
   {
-    slug: 'majestic-thailand-flights-inclusive',
-    title: 'Majestic Thailand - Flights Inclusive',
-    destination: 'Thailand',
-    duration: '6 Days 5 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/7931820250527104428.png',
-    overview: 'A 6-day premium package to experience majestic Thailand, with flights included from major Indian cities.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Flights', 'Hotel Stay', 'Airport Transfers', 'Sightseeing', 'Breakfast'],
-    exclusions: ['Visa Fees', 'Lunches & Dinners'],
+    "slug": "majestic-thailand-flights-inclusive",
+    "title": "Majestic Thailand - Flights Inclusive",
+    "destination": "Thailand",
+    "duration": "6 Days 5 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/7931820250527104428.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34209120250527104428.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8291420250527104428.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37861620250527104428.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1240220250527104428.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12647020250527104428.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5036420250527104428.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27501720250527104428.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36627420250527104428.png"
+    ],
+    "overview": "A **6-day premium package** to experience majestic **Thailand**, with **flights included** from major Indian cities (Delhi). The tour splits time between the vibrant city of **Phuket** and the scenic islands of **Krabi**, with plenty of leisure time for exploration and local nightlife.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Phuket | Transfer to Krabi | Leisure Day",
+        "description": "<ul><li>Board your flight to **Phuket**. Upon arrival, clear immigration (visa on-arrival assistance included).</li><li>Get driven to your hotel in **Krabi** for check-in and relaxation (2 nights stay).</li><li>Spend the rest of the day at leisure to explore Krabi on your own, potentially visiting **Wat Tham Sua Temple** or Krabi Elephant Sanctuary.</li><li>Overnight stay in Krabi.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Leisure Day in Krabi",
+        "description": "<ul><li>Wake up in the morning, and set out to explore **Krabi** on your own.</li><li>Optional: Choose to take the Krabi **4-Island tour** (Tup Island, Poda Island, Phra Nang Beach, and Kai Island - at additional cost).</li><li>Return to your hotel for an overnight stay in Krabi.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Transfer to Phuket | Leisure Day",
+        "description": "<ul><li>Wake up in the morning, check-out from your hotel and get transferred to **Phuket** (3 nights stay).</li><li>Upon arrival, check-in to your property and have some leisure.</li><li>You can set out to explore Phuket on your own, visiting **Patong Beach**, **Bangla Road** or watching the vibrant Simon Cabaret show (at additional cost).</li><li>Later, return to your property for an overnight stay in Phuket.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Leisure Day in Phuket",
+        "description": "<ul><li>Wake up in the morning and head out to explore iconic attractions like **Karon View Point**, **Wat Chalong temple**, or **Big Buddha** on your own.</li><li>Later, you can also discover the magic of Phuket Fanta Sea, a cultural theme park where you can watch theatrical performances (at additional cost).</li><li>Return back to your property for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Leisure Day in Phuket",
+        "description": "<ul><li>Wake up in the morning and prepare to explore the beautiful city of **Phuket** on your own.</li><li>You can plan a day trip to the famous **Phi Phi Island** where you can visit the **Maya Bay**, **Loh Samah Bay**, **Viking Cave**, and **Monkey Beach** (at additional cost).</li><li>Return back to your property for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Goodbye Thailand | Trip Ends",
+        "description": "<ul><li>It is time to say goodbye to a lovely Thailand trip. Post a delightful and refreshing breakfast, pack your bags and complete check-in formalities.</li><li>Board your flight back to Delhi (India) with a bag full of heartfelt memories and amazing experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "External Flights: **Flights included from Delhi to Thailand & from Thailand to Delhi**.",
+      "Surface Transfers: **All airport pick ups & drops** and sightseeing transfers as per the itinerary.",
+      "Meals: **5 meals** for the entire trip including **3 Breakfasts in Phuket & 2 Breakfasts in Krabi**.",
+      "Accommodations: **3 nights stay at Phuket & 2 nights stay at Krabi**.",
+      "VISA Assistance: Professional visa assistance is provided by experts (Visa is free for Indians, assistance provided).",
+      "Tours & Sightseeing: **Entry Tickets** to Bedugul Temple, Handara Gate, Tanah Lot Temple, and Uluwatu Temple (Note: The activities mentioned in the itinerary text may not align directly with these ticket inclusions and may be optional at extra cost)."
+    ],
+    "exclusions": [
+      "Any International Flights (from cities other than Delhi).",
+      "Meals that are not mentioned in the program (Lunches & Dinners).",
+      "Early check-in and late check-out. Hotel or Room upgrade.",
+      "Guide & Entrance fees during sightseeing or any other item not specified in inclusions.",
+      "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc.",
+      "Travel Insurance and any cost arising due to natural calamities, roadblock, etc.",
+      "Tourism Fee/Security Deposit will be payable at the hotel.",
+      "Anything not mentioned in the inclusions.",
+      "GST (5%) is applicable extra.",
+      "5% TCS as per govt. rules will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax. This amount will be claimable while filing ITR."
+    ]
   },
   {
-    slug: 'thailand-6d5n',
-    title: 'Thailand - 6D5N',
-    destination: 'Thailand',
-    duration: '6 Days 5 Nights',
-    price: '₹42500',
-    imageUrl: '/cloned_media/12371020230715105158.png',
-    overview: 'A standard 6-day, 5-night Thailand package, likely covering the popular Phuket & Krabi circuit.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Ferry Tickets', 'Sightseeing'],
-    exclusions: ['Flights', 'Visa Fees', 'Meals'],
+    "slug": "thailand-6d5n",
+    "title": "Thailand - 6D5N",
+    "destination": "Thailand",
+    "duration": "6 Days 5 Nights",
+    "price": "₹42500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/12371020230715105158.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29498720230715105158.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9533520230715105158.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27463220230715105158.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10366420230715105158.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41396620230715105158.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28715420230715105158.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17733020230715105158.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7746320230715105158.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17530320230715105158.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31552320230715105158.png"
+    ],
+    "overview": "A standard **6-day, 5-night Thailand package** exploring **Phuket**, **Krabi**, and the **Phi Phi Islands**. Highlights include a **7-Island Sunset Tour** with BBQ and Bioluminescent Plankton viewing, and a **Coral Island Sunset Tour**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Phuket Arrival & Krabi Transfer",
+        "description": "<ul><li>Arrive in Thailand and clear immigration. Drive towards **Krabi** (2 nights stay). Check-in to your hotel and have some leisure.</li><li>Explore the kickass nightlife & vibrant street of Krabi.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "7 Island Tour + Plankton Tour",
+        "description": "<ul><li>Wake up early and post breakfast, drive towards **Ao Nang**.</li><li>Enjoy a **7-Island Sunset Tour** including snorkeling at Yawasam & Tan Ming Island.</li><li>Walk along the sandbar at Tup Islets and enjoy the mesmerizing sea view at Mohr Islets.</li><li>Enjoy a sunset BBQ at Poda Island.</li><li>Experience the highlight: **night snorkel with Bioluminescent Plankton** at Koh Raeng.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Krabi to Phi Phi Transfer",
+        "description": "<ul><li>Wake up and post breakfast drive towards Krabi Pier.</li><li>Take a **ferry from Krabi to Phi Phi Islands** (1 night stay - implicit based on Day 4 itinerary). Walk to your hotel as no vehicles are allowed.</li><li>Witness the fire show on the beach and enjoy the night life of **Phi Phi Islands** while sipping a beer.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Phi Phi to Phuket Transfer | Coral Island Sunset Tour",
+        "description": "<ul><li>Wake up and post breakfast, hike to the Phi Phi view point (optional) or visit the beach.</li><li>Check-out and take a **ferry from Phi Phi Islands to Phuket** (2 nights stay).</li><li>In the afternoon, head to Chalong Pier for the **Coral Island Sunset Tour** (Koh Hey). Enjoy snorkeling nearby and later, witness the soothing sunset view and enjoy fishing on the Catamaran.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Leisure Day in Phuket",
+        "description": "<ul><li>Wake up in the morning and post breakfast, feel free to take a stroll around in the city to finish any last minute shopping.</li><li>This is a leisure day to explore Phuket at your own pace.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Goodbye Thailand | Trip Ends",
+        "description": "<ul><li>It’s time to say goodbye to a lovely Thailand trip. Drive towards the airport and board your flight back to India.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Surface Transfers & Travel (International): **All airport pick-up and drop**, **All transfers mentioned in the itinerary**, **All internal ferry**.",
+      "Tours & Activities: **7 Island Sunset Tour** with **BBQ dinner** & **Bioluminescent Plankton night swimming**, **Coral Island Sunset Tour** in Phuket.",
+      "Accommodation: **All nights stay in Hotels & Apartment on Twin Sharing** (2 nights Krabi, 1 night Phi Phi, 2 nights Phuket - implied split based on itinerary).",
+      "Meals: **6 meals** for the entire trip including breakfasts and special meals.",
+      "VISA Assistance: Professional visa assistance is provided by experts & guaranteed visa approval letters."
+    ],
+    "exclusions": [
+      "Any kind of personal expenses.",
+      "Anything (Meals, Transport & Services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Admission to **National Park entrance fee on Islands**.",
+      "Entry fees for monuments.",
+      "Travel Insurance.",
+      "GST (5%) is applicable extra.",
+      "TCS will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax."
+    ]
   },
   {
-    slug: 'honeymoon-special-phuket-krabi',
-    title: 'Honeymoon Special Phuket Krabi',
-    destination: 'Thailand',
-    duration: '6 Nights 7 Days',
-    price: '₹45000',
-    originalPrice: '₹55000',
-    discount: '₹10,000',
-    imageUrl: '/cloned_media/17720240209120346.png',
-    overview: 'A 7-day romantic honeymoon special, focusing on the beautiful beaches and islands of Phuket and Krabi.',
-    itinerary: createItinerary('6 Nights 7 Days'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Ferry Tickets', 'Romantic Dinner', 'Couples Massage'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches'],
+    "slug": "honeymoon-special-phuket-krabi",
+    "title": "Honeymoon Special - Phuket Krabi",
+    "destination": "Thailand",
+    "duration": "5 Days 4 Nights",
+    "price": "₹48000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/3048220231104223616.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27241620231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40314920231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6804020231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3301420231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31218120231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38160120231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9503820231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15665120231104223616.png"
+    ],
+    "overview": "Experience romance in **Phuket** and **Krabi** with this exclusive **5 Days 4 Nights honeymoon package**. Enjoy beautiful beaches, private transfers, and excursions to Phi Phi Island, the Tiger Kingdom, and a Dolphin Show.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Welcome to Thailand | Phuket Arrival | Transfer to Krabi Hotel | Overnight Stay",
+        "description": "<ul><li>Upon your arrival in Thailand/Phuket, clear immigration and drive towards your hotel in **Krabi** (2 nights stay). Check-in and relax.</li><li>Overnight stay in Krabi.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "4 Island Tour with Lunch by Long Tail / Speed Boat",
+        "description": "<ul><li>Post breakfast, head towards the pier for the **4 Island Tour** (Tup Island, Chicken Island, Poda Island, Phra Nang Beach) by Long Tail Boat/Speed Boat (SIC).</li><li>Enjoy snorkeling and admiring the coral reefs. **Lunch is included**.</li><li>Drive back to your Krabi hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Transfer to Phuket Hotel | Tiger Kingdom and Dolphin Show Enroute",
+        "description": "<ul><li>Post breakfast, transfer from Krabi Hotel to **Phuket Hotel** (2 nights stay) by road (Private Transfer).</li><li>En route, visit **Tiger Kingdom** (PVT) to sit next to the tigers and click pictures.</li><li>Also enjoy a **Dolphin Show** (PVT).</li><li>Check-in to your Phuket hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Phi Phi Island tour with lunch by Big Boat/ Speed Boat",
+        "description": "<ul><li>Post early breakfast, head towards Phi Phi pier and board the ferry/boat for the **Phi Phi Island Tour** (SIC, Lunch included).</li><li>Discover the main attractions of Phi Phi Islands.</li><li>*Bonus:* Speedboat includes Maya Bay + Bamboo Island + Khai Island, and complimentary snorkeling/kayaking.</li><li>Return to your Phuket hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Goodbye Thailand | Depart for Homeland",
+        "description": "<ul><li>Wake up in the morning and post breakfast, check-out from your hotel.</li><li>Drive towards Phuket Airport (Private Transfer) and fly back to your respective destinations.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in 3/4 star Hotels for **4 Nights** (split between Krabi and Phuket).",
+      "Meals: **Daily buffet Breakfast** at Hotel & **2 Complimentary Dinners**.",
+      "Transfers: **Phuket Airport to Krabi Hotel** Transfers (Private), **Krabi Hotel to Phuket Hotel** Transfers (Private), **Phuket Hotel to Phuket Airport** Transfers (Private), Sightseeing Transfers.",
+      "Tours & Activities: **4 Island Tour with Lunch** (SIC), **Phi Phi Island Tour with Lunch** (SIC), **Tiger Kingdom Phuket** (PVT), **Dolphin Show** (PVT).",
+    ],
+    "exclusions": [
+      "Any kind of personal expenses.",
+      "Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Museum/Monument entry fee/city tax.",
+      "Travel Insurance.",
+      "5% GST & 5% TCS (TCS can be claimed in full in your ITR).",
+    ]
   },
   {
-    slug: 'honeymoon-special-phuket-krabi-5d4n',
-    title: 'Honeymoon Special - Phuket Krabi',
-    destination: 'Thailand',
-    duration: '5 Days 4 Nights',
-    price: '₹48000',
-    imageUrl: '/cloned_media/3048220231104223616.png',
-    overview: 'A shorter 5-day honeymoon trip to Phuket and Krabi, perfect for a quick romantic getaway.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Ferry Tickets', 'Romantic Dinner'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches'],
+    "slug": "honeymoon-special-phuket-krabi",
+    "title": "Honeymoon Special - Phuket Krabi",
+    "destination": "Thailand",
+    "duration": "5 Days 4 Nights",
+    "price": "₹48000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/3048220231104223616.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27241620231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40314920231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6804020231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3301420231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31218120231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38160120231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9503820231104223616.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15665120231104223616.png"
+    ],
+    "overview": "Experience romance in **Phuket** and **Krabi** with this exclusive **5 Days 4 Nights honeymoon package**. Enjoy beautiful beaches, private transfers, and included excursions to the **Phi Phi Islands** and local wildlife shows.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Welcome to Thailand | Phuket Arrival | Transfer to Krabi Hotel | Overnight Stay",
+        "description": "<ul><li>Upon your arrival in Thailand/Phuket, clear immigration (visa assistance provided) and drive towards your hotel in **Krabi** (2 nights stay). Check-in and enjoy a much-needed overnight stay.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "4 Island Tour with Lunch by Long Tail / Speed Boat",
+        "description": "<ul><li>Post breakfast, head towards the pier for the **4 Island Tour** (Tup Island, Chicken Island, Poda Island, and Phra Nang Beach) by Long Tail Boat/Speed Boat (SIC).</li><li>Enjoy snorkeling and admire the serene coral reefs. **Lunch is included**.</li><li>Drive back to your Krabi hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Transfer to Phuket Hotel | Tiger Kingdom and Dolphin Show Enroute",
+        "description": "<ul><li>Post Breakfast, transfer from Krabi Hotel to **Phuket Hotel** (2 nights stay) by road (**Private Transfer**).</li><li>En route, visit **Tiger Kingdom** (PVT) for photos with the tigers.</li><li>Also enjoy a **Dolphin Show** (PVT).</li><li>Check-in to your Phuket hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Phi Phi Island tour with lunch by Big Boat/ Speed Boat",
+        "description": "<ul><li>Post your early breakfast, head towards Phi Phi pier and board the ferry/boat for the **Phi Phi Island Tour** (SIC, **Lunch included**).</li><li>Discover the beautiful Phi Phi Islands and their natural beauty.</li><li>*Bonus:* Speedboat includes **Maya Bay** + **Bamboo Island** + **Khai Island**, and complimentary snorkeling/kayaking.</li><li>Return to your Phuket hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Goodbye Thailand | Depart for Homeland",
+        "description": "<ul><li>Wake up in the morning and post breakfast, check-out from your hotel.</li><li>Drive towards Phuket Airport (**Private Transfer**) and fly back to your respective destinations.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in **3/4 star Hotels for 4 Nights** (split between Krabi and Phuket).",
+      "Meals: **Daily buffet Breakfast** at Hotel & **2 Complimentary Dinners**.",
+      "Transfers: **Phuket Airport to Krabi Hotel** Transfers (Private), **Krabi Hotel to Phuket Hotel** Transfers (Private), **Phuket Hotel to Phuket Airport** Transfers (Private), Sightseeing Transfers.",
+      "Tours & Activities: **4 Island Tour with Lunch** (SIC), **Phi Phi Island Tour with Lunch** (SIC), **Tiger Kingdom Phuket** (PVT), **Dolphin Show** (PVT).",
+    ],
+    "exclusions": [
+      "Any kind of personal expenses.",
+      "Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Museum/Monument entry fee/city tax.",
+      "Travel Insurance.",
+      "**5% GST & 5% TCS** (TCS can be claimed in full in your ITR).",
+    ]
   },
   {
-    slug: 'phuket-krabi-5n6d',
-    title: 'Phuket Krabi 5N6D',
-    destination: 'Thailand',
-    duration: '6 days 5 nights',
-    price: '₹40000',
-    originalPrice: '₹50000',
-    discount: '₹10,000',
-    imageUrl: '/cloned_media/2479920240209115545.png',
-    overview: 'A 6-day tour of Phuket and Krabi, balancing guided tours with leisure time to explore on your own.',
-    itinerary: createItinerary('6 days 5 nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Ferry Tickets', '4-Island Tour'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches & Dinners'],
+    "slug": "phuket-krabi-5n6d",
+    "title": "Phuket Krabi 5N6D",
+    "destination": "Thailand",
+    "duration": "6 days 5 nights",
+    "price": "₹40000",
+    "originalPrice": "₹50000",
+    "discount": "₹10,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/2479920240209115545.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41235720240209115544.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25493020240209115544.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22508220240209115544.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25822120240209115545.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20090920240209115545.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18096820240209115545.png"
+    ],
+    "overview": "A **6-day tour** of **Phuket** and **Krabi**, balancing guided island tours with leisure time for independent exploration. Highlights include the **Krabi 4-Island Tour** and a trip to the stunning **Phi Phi Islands**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Krabi – Four Island Tour - Krabi",
+        "description": "<ul><li>After breakfast (implied Day 2 from the journey, but this is Day 1 of the tour activities), have a fun-filled day on the **Four Island Tour** visiting **Koh Gai**, **Koh Tup**, **Koh Mawr**, and **Poda**. Also visit the **Pranang cave**.</li><li>Evening is at leisure. Overnight in Krabi (2 nights stay).</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Krabi – Phuket Transfer",
+        "description": "<ul><li>After breakfast, check out from **Krabi** hotel and proceed to **Phuket**.</li><li>Arrive at your hotel in Phuket (3 nights stay) and relax. Overnight at Phuket.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Phuket – Phi Phi Island – Phuket",
+        "description": "<ul><li>Today proceed for **Phi Phi Island Tour** including local lunch by big boat. Cruise to visit one of Asia’s most beautiful islands.</li><li>Upon arrival to Phi Phi Don, time is at leisure for swimming and snorkeling among the colorful corals.</li><li>Rest of the day is at leisure. Overnight in Phuket.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Half-Day Phuket City Tour",
+        "description": "<ul><li>After breakfast, proceed for the **Phuket city tour**.</li><li>Explore the wonderful and largest of Thailand's islands, Phuket, visiting must-see landmarks and exploring the culture.</li><li>Overnight in Phuket.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Leisure Day",
+        "description": "<ul><li>After breakfast, this day is at **leisure** for you to explore Phuket's markets, beaches, or any other optional activities (e.g., Krabi Island via ferry, exotic food markets, nightlife).</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Goodbye Thailand",
+        "description": "<ul><li>It’s time to say goodbye to the beach paradise. Post breakfast, proceed to **Phuket Airport** to board your flight home.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation: **3 Nights Accommodation in Phuket** at suggested or similar category hotels & **02 Nights Accommodation in Krabi** at suggested or similar category hotels (3 or 4 Star).",
+      "Meals: **Breakfast** (Total 5 Meals).",
+      "Transfers: **Return airport transfers** (Private basis), **Transfer from Krabi Hotel to Phuket Hotel** (Private Basis).",
+      "Tours & Activities: **Phi Phi (Big boat) with local lunch** (Shared Coach basis), **Half Day Phuket City Tour** (Shared Coach basis), **Krabi 4 Island Tour by Speed Boat with Picnic Lunch** (Shared Coach basis).",
+    ],
+    "exclusions": [
+      "5% GST on total package price, and applicable **TCS**.",
+      "**Airfare & airport taxes**.",
+      "Entrance tickets to attractions other than mentioned above or optional tours or wherever specified.",
+      "Any other meals other than those mentioned above (Lunches & Dinners, except those specified).",
+      "Visa and Insurances charges.",
+      "Any item of personal nature like tips, laundry, telephone calls etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control."
+    ]
   },
   {
-    slug: 'phuket-krabi-honeymoon-trip',
-    title: 'Phuket Krabi Honeymoon Trip',
-    destination: 'Thailand',
-    duration: '6 Days 5 Nights',
-    price: '₹58000',
-    imageUrl: '/cloned_media/25895220231104224046.png',
-    overview: 'A premium 6-day honeymoon package to Phuket and Krabi with upgraded accommodations and inclusions.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['4-Star Hotel/Villa', 'Airport Transfers', 'Ferry Tickets', 'Private Tours', 'Romantic Dinner'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches'],
+    "slug": "phuket-krabi-honeymoon-trip",
+    "title": "Phuket Krabi Honeymoon Trip",
+    "destination": "Thailand",
+    "duration": "6 Days 5 Nights",
+    "price": "₹58000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25895220231104224046.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30903320231104224046.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35801420231104224046.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27671620231104224046.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23039520231104224046.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33189820231104224046.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32106920231104224046.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35541920231104224046.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4450020231104224046.png"
+    ],
+    "overview": "A premium **6-day honeymoon package** to **Phuket** and **Krabi** with upgraded accommodations and inclusions. This romantic trip features island tours, transfers, private transfers between hotels, and included entry to popular shows and attractions like the **Tiger Kingdom** and **Dolphin Show**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Welcome to Thailand | Phuket Arrival | Transfer to Krabi Hotel | Overnight Stay",
+        "description": "<ul><li>Upon your arrival in Thailand/Phuket, head straight to immigration to fetch your free visas. Drive towards your hotel in **Krabi** (2 nights stay). Check-in and enjoy a much-needed overnight stay.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "4 Island Tour with Lunch by Long Tail / Speed Boat",
+        "description": "<ul><li>Post breakfast, head towards the pier to board your ferry/boat for the **4 Island Tour** (SIC) covering **Tup Island**, **Chicken Island**, **Poda Island** and **Phra Nang Beach**.</li><li>Discover serene coral reefs and stunning views of the hills amidst the ocean. **Lunch is included**.</li><li>Drive back to your Krabi hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Transfer to Phuket Hotel | Tiger Kingdom and Dolphin Show Enroute",
+        "description": "<ul><li>Post Breakfast, head towards your **Phuket hotel** (3 nights stay) from Krabi by road (**Private Transfer**). Estimated travel time is 1.5-2 hours.</li><li>*Bonus:* En route, witness and click pictures with the tigers at **Tiger Kingdom Phuket** (PVT).</li><li>Enjoy the **Dolphin Show** (PVT).</li><li>You’ll be dropped off at your hotel followed by a much-needed overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Phi Phi Island tour with lunch by Big Boat/ Speed Boat",
+        "description": "<ul><li>Post your early breakfast, head towards Phi Phi pier to board the ferry/boat for the **Phi Phi Island Tour** (SIC). **Lunch is included**.</li><li>Witness the beautiful **Phi Phi Islands**. Optional: water sports activities (at own cost).</li><li>*Bonus:* Speedboat includes **Maya Bay** + **Bamboo Island** + **Khai Island** and complimentary snorkeling/kayaking.</li><li>Return to your Phuket hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Phuket City tour with Big Buddha",
+        "description": "<ul><li>Post your breakfast, get ready to discover the entire **Phuket city**.</li><li>Cover **Wat Chalong Temple**, chocolate factory, **Old Phuket City Town**, and more.</li><li>Visit **Big Buddha** from where you get to see the entire Phuket and the ocean from the top.</li><li>Overnight stay at your hotel.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Goodbye Thailand | Depart for Homeland",
+        "description": "<ul><li>Wake up in the morning and post breakfast, check-out from your hotel.</li><li>Drive towards the airport (**Private Transfer**) and fly back to your respective destinations.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in **3/4 star Hotels for 5 Nights** (split between Krabi and Phuket).",
+      "Meals: **Daily buffet Breakfast** at Hotel & **2 Complimentary Dinners**.",
+      "Transfers: **Phuket Airport to Krabi Hotel Transfers** (Private), **Krabi Hotel to Phuket Hotel Transfers** (Private), **Phuket Hotel to Phuket Airport Transfers** (Private), Sightseeing Transfers.",
+      "Tours & Activities: **4 Island Tour with Lunch** (SIC), **Phi Phi Island Tour with Lunch** (SIC), **Tiger Kingdom Phuket** (PVT), **Dolphin Show** (PVT), **Phuket City tour with Big Buddha** (PVT).",
+    ],
+    "exclusions": [
+      "Any kind of personal expenses.",
+      "Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Museum/Monument entry fee/city tax.",
+      "Travel Insurance.",
+      "**5% GST & 5% TCS** (TCS can be claimed in full in your ITR).",
+    ]
   },
   {
-    slug: 'bangkok-krabi-phuket-7n8d',
-    title: 'Bangkok Krabi Phuket 7N8D',
-    destination: 'Thailand',
-    duration: '8 Days 7 Nights',
-    price: '₹80000',
-    imageUrl: '/cloned_media/27844520231104222013.png',
-    overview: 'An 8-day trip that combines the bustling city life of Bangkok with the stunning islands of Krabi and Phuket.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Hotel Stay', 'Domestic Flights', 'Airport Transfers', 'Sightseeing', 'Ferry Tickets'],
-    exclusions: ['International Flights', 'Visa Fees', 'Lunches & Dinners'],
+    "slug": "bangkok-krabi-phuket-7n8d",
+    "title": "Bangkok Krabi Phuket 7N8D",
+    "destination": "Thailand",
+    "duration": "8 Days 7 Nights",
+    "price": "₹80000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/27844520231104222013.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28864220231104222013.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10371620231104222013.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15489120231104222013.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30456720231104222013.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14200120231104222013.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5067920231104222013.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37480020231104222013.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1952020231104222013.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35064820231104222013.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12073820231104222013.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29810520231104222013.png"
+    ],
+    "overview": "An **8-day trip** that combines the bustling city life of **Bangkok** with the stunning islands of **Krabi** and **Phuket**. Highlights include a river cruise, **Safari World**, the **4 Island Tour**, **Phi Phi Island Tour**, and a visit to the **Tiger Kingdom** and **Big Buddha**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Welcome to Thailand | Bangkok Arrival | Chao Phraya Princess River Dinner Cruise in evening",
+        "description": "<ul><li>Upon arrival in Thailand/Bangkok, head straight to the immigration for visa on arrival. Transfer and check-in to your hotel (3 nights stay in **Bangkok** - implied split from accommodation details).</li><li>In the evening, enjoy the **Chao Phraya Princess River Dinner Cruise** (SIC) with shows and city lights.</li><li>Overnight stay in Bangkok.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Safari World and Marine Park with Lunch | Jungle Safari | Dolphin Show",
+        "description": "<ul><li>Post a delightful breakfast, head out for **Safari World and Marine Park** (**Lunch included**, SIC).</li><li>Enjoy the **Jungle Safari** and the **Dolphin Show** in the marine park premises.</li><li>Drive back to your hotel for an overnight stay in Bangkok.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Transfer to Bangkok Airport. Fly to Krabi. Overnight stay at the hotel.",
+        "description": "<ul><li>Post breakfast, drive towards Bangkok Airport and **board the flight for Krabi** (Domestic Flight, 1.15 hrs travel).</li><li>Drive back to your hotel for an overnight stay in **Krabi** (2 nights stay).</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "4 Island Tour with Lunch by Long Tail / Speed Boat",
+        "description": "<ul><li>Post breakfast, head towards the pier for the **4 Island Tour** (SIC) covering **Tup Island**, **Chicken Island**, **Poda Island**, and discovering the serene coral reefs and hills amidst the ocean. **Lunch is included**.</li><li>Drive back to your Krabi hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Transfer to Phuket Hotel | Tiger Kingdom and Dolphin Show Enroute",
+        "description": "<ul><li>Post Breakfast, head towards your **Phuket hotel** (2 nights stay) from Krabi by road (**Private Transfer**).</li><li>En route, visit **Tiger Kingdom Phuket** (PVT).</li><li>Also enjoy a **Dolphin Show** (PVT).</li><li>You’ll be dropped off at your hotel followed by a much-needed overnight stay in Phuket.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Phi Phi Island tour with lunch by Big Boat/ Speed Boat",
+        "description": "<ul><li>Post your early breakfast, head towards Phi Phi pier to board the ferry/boat for the **Phi Phi Island Tour** (SIC). **Lunch is included**.</li><li>Witness the beautiful Phi Phi Islands and the serene natural beauty. Speedboat includes Maya Bay + Bamboo Island + Khai Island and complimentary snorkeling/kayaking.</li><li>Return to your Phuket hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Phuket City tour with Big Buddha",
+        "description": "<ul><li>Post your breakfast, get ready to discover the entire **Phuket city** (PVT).</li><li>Cover **Wat Chalong Temple**, chocolate factory, **Old Phuket City Town**, and the **Big Buddha** viewpoint.</li><li>Overnight stay at your hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Goodbye Thailand | Depart for Homeland",
+        "description": "<ul><li>Wake up in the morning and post breakfast, check-out from your hotel.</li><li>Drive towards Phuket Airport (**Private Transfer**) and fly back to your respective destinations.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in **3/4 star Hotels for 7 Nights** (Bangkok, Krabi, and Phuket).",
+      "Meals: **Daily buffet Breakfast** at Hotel & **2 Complimentary Dinners**.",
+      "Transfers: **All Private Transfers** for Airports (Bangkok, Krabi, Phuket), **Krabi Hotel to Phuket Hotel** (Private), Sightseeing Transfers.",
+      "Tours & Activities: **Chao Phraya River Princess Dinner Cruise** (SIC), **Safari World and Marine Park with Lunch** (SIC), **4 Island Tour with Lunch** (SIC), **Phi Phi Island Tour with Lunch** (SIC), **Tiger Kingdom Phuket** (PVT), **Dolphin Show** (PVT), **Phuket City tour with Big Buddha** (PVT).",
+    ],
+    "exclusions": [
+      "Any kind of personal expenses.",
+      "Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Museum/Monument entry fee/city tax.",
+      "Travel Insurance.",
+      "**5% GST & 5% TCS** (TCS can be claimed in full in your ITR)."
+    ]
   },
   {
-    slug: 'thailand-bangkok-pattaya-4n5d',
-    title: 'Thailand (Bangkok & Pattaya) 4N5D',
-    destination: 'Thailand',
-    duration: '5 Days 4 Nights',
-    price: '₹24999',
-    imageUrl: '/cloned_media/15156320220627224541.png',
-    overview: 'A 5-day tour focused on the city and nightlife of Bangkok and the nearby beach city of Pattaya.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Intercity Transfer', 'Coral Island Tour'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches & Dinners'],
+    "slug": "thailand-bangkok-pattaya-4n5d",
+    "title": "Thailand (Bangkok & Pattaya) 4N5D",
+    "destination": "Thailand",
+    "duration": "5 Days 4 Nights",
+    "price": "₹24999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/15156320220627224541.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35296520220627224541.png"
+    ],
+    "overview": "A **5-day tour** focused on the vibrant city life of **Bangkok** and the nearby beach city of **Pattaya**. Highlights include the **Coral Island Tour** with lunch, an optional visit to **Marine Park**, and a **Bangkok City Orientation Tour** (Golden Buddha and Marble Buddha).",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Pattaya Arrival",
+        "description": "<ul><li>Arrive in Bangkok and proceed towards **Pattaya** (2 nights stay at a 4-star hotel). Check-in and have some leisure.</li><li>Socialize with your co-travellers and enjoy an overnight stay in Pattaya.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Pattaya Day Out | Adventure & Chill Scenes",
+        "description": "<ul><li>Wake up and post a hearty breakfast, visit **Coral Island** (SIC, **lunch included**).</li><li>Enjoy a **Glass Bottom Boat** ride and indulge in various optional water sports activities at your own expense.</li><li>In the evening, feel free to stroll around the local markets, cafes and bars.</li><li>Overnight stay in Pattaya.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Pattaya To Bangkok | Bangkok Arrival & City Tour",
+        "description": "<ul><li>Wake up and post a hearty breakfast, transfer from Pattaya to **Bangkok** (2 nights stay at a 4-star hotel).</li><li>Enroute, visit **Gems Gallery** for a light and sound show.</li><li>Upon arrival in Bangkok, go for a **city orientation tour** which includes the beautiful **Golden Buddha** and **Marble Buddha**.</li><li>Check-in and overnight stay in Bangkok.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Bangkok Day Out | Self Explore",
+        "description": "<ul><li>Post breakfast, feel free to head out for **self-exploration** in Bangkok.</li><li>*Optional:* Opt for a full-day tour in **Safari World and Marine Park** (at your own expense) to witness shows like the Dolphin Show and enjoy the Jungle Safari.</li><li>Overnight stay in Bangkok.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Trip Ends | Back To India",
+        "description": "<ul><li>Wake up and post a hearty breakfast, check-out from your hotel.</li><li>Transfers to Bangkok Airport will be provided as per your flight schedule. Drive towards the airport and board your flight back to India.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation: **4 Nights Accommodation** in 4-star Hotels or similar: **Pattaya (2 Nights)** and **Bangkok (2 Nights)**.",
+      "Meals: **4 Breakfasts** included in the cost.",
+      "Transfers: **Airport Transfers** in Thailand (SIC), **Intercity Transfers** (Bangkok to Pattaya and return) (SIC basis).",
+      "Tours & Sightseeing: Visit to **Coral Island** by speedboat with **lunch in Pattaya** (SIC basis), **Bangkok city orientation tour** which includes the Golden Buddha and Marble Buddha (SIC basis).",
+    ],
+    "exclusions": [
+      "**Visa** is not included in the above cost.",
+      "**GST (5%)** is applicable extra, and **TCS (5%)** is applicable.",
+      "Airfare & airport taxes.",
+      "Guide is not included in the above package.",
+      "All personal expenses like tips, laundry, telephone calls/fax, alcoholic beverages, camera/video camera fees at monuments, medical expenses, entrance fees, airport departure tax etc.",
+      "Cost incidental to any change in the itinerary/stay on an account of flight cancellation due to bad weather, ill health, and roadblocks and/or any factors beyond control."
+    ]
   },
   {
-    slug: 'explore-wonders-of-thailand',
-    title: 'Explore Wonders of Thailand',
-    destination: 'Thailand',
-    duration: '8 Days 7 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/14238820250527102215.png',
-    overview: 'An 8-day journey to explore the wonders of Thailand, from the temples of the north to the beaches of the south.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Hotel Stay', 'Domestic Flights', 'Transfers', 'Sightseeing'],
-    exclusions: ['International Flights', 'Visa Fees', 'Meals'],
+    "slug": "explore-wonders-of-thailand",
+    "title": "Explore Wonders of Thailand",
+    "destination": "Thailand",
+    "duration": "8 Days 7 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/14238820250527102215.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14077620250527102214.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34211420250527102215.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14257220250527102215.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14746520250527102215.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12241020250527102215.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9314720250527102215.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15633020250527102215.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36522020250527102215.png"
+    ],
+    "overview": "An **8-day journey** covering the wonders of Thailand, including the vibrant city of **Bangkok** and the stunning islands of **Phuket** and **Krabi**. Highlights include a **Chao Phraya Dinner Cruise**, the **Krabi 4 Islands Tour**, and an excursion to **Phi Phi Island**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Bangkok | Leisure Day",
+        "description": "<ul><li>Board your flight to Bangkok. Upon arrival, proceed to immigration for your visa on-arrival.</li><li>Transfer to your hotel in **Bangkok** (2 nights stay) for check-in and relaxation.</li><li>On this day, you can explore the **Amphawa Floating Market** or the **Chatuchak Weekend Market** on your own.</li><li>Overnight stay in Bangkok.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Bangkok City Tour with Chao Phraya Dinner Cruise",
+        "description": "<ul><li>Wake up and indulge in a refreshing breakfast. Get ready for a **Bangkok City Tour** (Private Basis).</li><li>Visit famous attractions such as **Gems Gallery**, **Golden Buddha Temple**, and **Marble Buddha**.</li><li>Later, get transferred to the pier for a mesmerizing **Chao Phraya Dinner Cruise** (Dinner Cruise Ticket with International Buffet at ICONSIAM Pier, Private Basis).</li><li>Overnight stay in Bangkok.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Arrival in Phuket | Leisure Day",
+        "description": "<ul><li>Post breakfast, check-out from your hotel in Bangkok and get transferred to Bangkok Airport for your flight to **Phuket**.</li><li>Upon arrival, get driven to your hotel in **Phuket** (3 nights stay). Check-in and spend the day at leisure.</li><li>Overnight stay at your hotel in Phuket.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Excursion to Phi Phi Island",
+        "description": "<ul><li>Post breakfast, get transferred to the Phuket pier for your excursion to **Phi Phi Island** (Big Boat/Ferry, Private Basis, **Lunch included**).</li><li>Hop on a speedboat (or Big Boat/Ferry) and begin your tour with the stunning **Maya Bay** & **Loh Samah Bay**.</li><li>Explore the mysterious **Viking Caves** and **Monkey Island**.</li><li>Return back to your hotel in Phuket for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Half Day Phuket City Tour",
+        "description": "<ul><li>Post breakfast, get ready for a **Half-Day Phuket City Tour** (Shared Basis).</li><li>Relish in the shopping experience at the Souvenir Market.</li><li>Visit the **Karon View Point** to enjoy the views of Kata Noi, Kata Yai, and Karon beaches, followed by a visit to **Wat Chalong Temple**.</li><li>Return back to your hotel in Phuket for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Transfer to Krabi | Leisure Day",
+        "description": "<ul><li>Post breakfast, check-out from your hotel and get **transferred to Krabi** (2 nights stay).</li><li>Check-in to your pre-booked hotel in **Krabi** and spend the rest of the day at leisure.</li><li>You can rent a boat from Krabi town or Ao Nang and explore the islands on your own.</li><li>Return back to your hotel for an overnight stay at your hotel in Krabi.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Krabi Four Island Tour",
+        "description": "<ul><li>Post breakfast, head towards **Railay Beach** for your **Krabi 4 Island tour** (Shared Speedboat/Long Tail Boat).</li><li>Visit the **Chicken Islands** and **Phranang Cave Beach** known for its crystal-clear waters and dramatic limestone cliffs.</li><li>After an adventurous and thrilling day, you will get transferred from Krabi Pier to your hotel in Krabi for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Goodbye Thailand | Trip Ends",
+        "description": "<ul><li>It is time to say goodbye to a lovely Thailand trip. Post a delightful and refreshing breakfast, pack your bags and complete check-out formalities.</li><li>Board your flight back to India with a bag full of heartfelt memories and amazing experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Surface Transfers: **All airport pick ups & drops** and sightseeing transfers as per the itinerary.",
+      "Meals: **9 meals** for the entire trip including **7 Breakfasts**, 1 Lunch at Phi Phi Island Tour, 1 Dinner at Chao Phraya River Cruise.",
+      "Accommodations: **2 nights stay in Bangkok**, **2 nights stay in Krabi**, **3 nights stay in Phuket**.",
+      "Sightseeing Tours & Entry Tickets: **Full Day Bangkok City Tour** (Private Basis), **Phuket City Tour** (Shared Basis), **Phi Phi Island Tour from Phuket** (Private Basis, Lunch Included), **Krabi 4 Islands Tour** (Shared Basis, Lunch Included).",
+      "Activities: **Chao Phraya Dinner Cruise in Bangkok** (Private Basis - Ticket with International Buffet).",
+      "VISA Assistance: Professional visa assistance is provided by experts.",
+    ],
+    "exclusions": [
+      "Any **International Flights**.",
+      "Meals that are not mentioned in the program (Lunches & Dinners, except those specified).",
+      "Early check-in and late check-out. Hotel or Room upgrade.",
+      "Guide & Entrance fees during sightseeing or any other item not specified in inclusions.",
+      "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc.",
+      "Travel Insurance and any cost arising due to natural calamities, roadblock, etc.",
+      "Tourism Fee/Security Deposit will be payable at the hotel.",
+      "GST (5%) is applicable extra.",
+      "5% TCS as per govt. rules will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax. This amount will be claimable while filing ITR."
+    ]
   },
   {
-    slug: 'unforgettable-thailand-romantic-getaway',
-    title: 'Unforgettable Thailand Romantic Getaway',
-    destination: 'Thailand',
-    duration: '9 Days 8 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/5466120250527100054.png',
-    overview: 'A 9-day unforgettable romantic getaway, likely covering Bangkok, Chiang Mai, and a southern island like Phuket or Samui.',
-    itinerary: createItinerary('9 Days 8 Nights'),
-    inclusions: ['Hotel Stay', 'Domestic Flights', 'Transfers', 'Romantic Inclusions'],
-    exclusions: ['International Flights', 'Visa Fees', 'Meals'],
+    "slug": "unforgettable-thailand-romantic-getaway",
+    "title": "Unforgettable Thailand Romantic Getaway",
+    "destination": "Thailand",
+    "duration": "9 Days 8 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/5466120250527100054.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38444420250527100053.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1615320250527100054.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8780420250527100054.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23491420250527100054.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22232720250527100054.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26606120250527100054.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2166420250527100054.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39248720250527100054.png"
+    ],
+    "overview": "A **9-day romantic getaway** covering **Pattaya**, **Bangkok**, **Krabi**, and **Phuket**. This itinerary is packed with sightseeing tours, including **Coral Island**, **Safari World**, **Chao Phraya Dinner Cruise**, and multiple island tours across Krabi and Phuket.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Bangkok | Transfer to Pattaya | Leisure Day",
+        "description": "<ul><li>Board your flight to Bangkok. Upon arrival, clear immigration (visa on-arrival assistance included).</li><li>Transfer to your hotel in **Pattaya** (2 nights stay) for check-in and relaxation.</li><li>Spend the day at leisure to explore Pattaya on your own, or enjoy optional activities like the Alangkarn Show or Night Bazaar.</li><li>Overnight stay in Pattaya.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Day Trip to Coral Island",
+        "description": "<ul><li>Post breakfast, transfer to Bali Hai Pier and board a speedboat to **Coral Island** (SIC, **Lunch included**).</li><li>Enjoy optional thrilling water sports and relax at Tawaen Beach.</li><li>Return back to your hotel for a restful overnight stay in Pattaya.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Transfer to Bangkok | Chao Phraya River Cruise Experience",
+        "description": "<ul><li>Post breakfast, check-out from your Pattaya hotel and **transfer to Bangkok** (2 nights stay).</li><li>Check-in at your Bangkok hotel.</li><li>Later in the evening, enjoy a mesmerizing **Chao Phraya River Cruise** (Dinner Cruise Ticket with International Buffet, Private Basis).</li><li>Overnight stay in Bangkok.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Day Trip to Safari World",
+        "description": "<ul><li>Post breakfast, head out for an exciting day at **Safari World** (Single Day Pass for Safari Park + Marine Park, SIC).</li><li>Explore Safari Park, spotting wild animals, and visit **Marine Park** for entertaining shows with sea lions and dolphins.</li><li>Return to your hotel for a relaxing overnight stay in Bangkok.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Transfer to Krabi | Leisure Day",
+        "description": "<ul><li>Post breakfast, check-out from your hotel in Bangkok and **transfer to the airport for your flight to Krabi** (Domestic Flight, at your own cost).</li><li>Upon arrival, transfer and check-in to your hotel in **Krabi** (2 nights stay). Spend the rest of the day at leisure.</li><li>Overnight stay at your hotel in Krabi.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Krabi Four Island Tour",
+        "description": "<ul><li>Post breakfast, head towards Krabi Pier and board a speedboat for the **Krabi Four-Island Tour** (Shared Speedboat/Long Tail Boat, **Lunch included**).</li><li>Visit **Koh Poda**, **Chicken Island**, **Tup Island** and **Phra Nang Beach**.</li><li>Return back to your hotel for an overnight stay in Krabi.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Transfer to Phuket | Phuket Sightseeing Tour",
+        "description": "<ul><li>Post breakfast, check-out from your Krabi hotel and **transfer to Phuket** (3 nights stay).</li><li>Upon arrival, check-in at your hotel and unwind.</li><li>Explore Phuket on a sightseeing tour (**Phuket City Tour** - Shared Basis) visiting **Wat Chalong**, **Old Town Phuket**, and **Karon Viewpoint**.</li><li>Return back to your hotel for an overnight stay in Phuket.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Day Trip to Phi Phi Island & Maya Bay",
+        "description": "<ul><li>Post breakfast, transfer to Phuket Marina and board a speedboat for the **Phi Phi Islands tour** (Speed Boat, **Lunch included**).</li><li>Visit **Maya Bay**, **Loh Samah Bay**, **Viking Caves**, and **Monkey Beach**.</li><li>Return back to your hotel for an overnight stay in Phuket.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Goodbye Thailand | Trip Ends",
+        "description": "<ul><li>It is time to say goodbye to a lovely Thailand trip. Post a delightful and refreshing breakfast, pack your bags and complete check-out formalities.</li><li>Board your flight back to India with a bag full of heartfelt memories and amazing experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Surface Transfers: **All airport pick ups & drops** and sightseeing transfers as per the itinerary.",
+      "Meals: **11 meals** for the entire trip including **8 Breakfasts**, 1 Lunch at Four Island Tour, 1 Lunch at Phi Phi Island Tour, 1 Dinner at Chao Phraya River Cruise.",
+      "Accommodations: **2 nights stay in Pattaya**, **2 nights stay in Bangkok**, **2 nights stay in Krabi**, **2 nights stay in Phuket**.",
+      "Sightseeing Tours & Entry Tickets: **Safari World Bangkok Tickets** (Single Day Pass), **Coral Island Tour from Pattaya** (with Lunch), **Four Island Tour from Krabi** (with Lunch), **Phi Phi Island Tour from Phuket** (with Lunch), **Chao Phraya Dinner Cruise in Bangkok** (Dinner Cruise Ticket), **Phuket City Tour**.",
+      "VISA Assistance: Professional visa assistance is provided by experts.",
+    ],
+    "exclusions": [
+      "Any **International Flights**.",
+      "Meals that are not mentioned in the program.",
+      "Early check-in and late check-out. Hotel or Room upgrade.",
+      "Guide & Entrance fees during sightseeing or any other item not specified in inclusions.",
+      "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc.",
+      "Travel Insurance and any cost arising due to natural calamities, roadblock, etc.",
+      "Tourism Fee/Security Deposit will be payable at the hotel.",
+      "GST (5%) is applicable extra.",
+      "5% TCS as per govt. rules will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax. This amount will be claimable while filing ITR."
+    ]
   },
   {
-    slug: 'thailand-explorer-bangkok-pattaya-krabi-phuket',
-    title: 'Thailand Explorer - Bangkok Pattaya Krabi Phuket',
-    destination: 'Thailand',
-    duration: '10 Days 9 Nights',
-    price: '₹85000',
-    originalPrice: '₹98000',
-    discount: '₹13,000',
-    imageUrl: '/cloned_media/41637120231104223052.png',
-    overview: 'The complete 10-day Thailand explorer package, covering all four major tourist hubs: Bangkok, Pattaya, Krabi, and Phuket.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Hotel Stay', 'Domestic Flights', 'All Transfers', 'Sightseeing', 'Ferry Tickets'],
-    exclusions: ['International Flights', 'Visa Fees', 'Lunches & Dinners'],
+    "slug": "thailand-explorer-bangkok-pattaya-krabi-phuket",
+    "title": "Thailand Explorer - Bangkok Pattaya Krabi Phuket",
+    "destination": "Thailand",
+    "duration": "10 Days 9 Nights",
+    "price": "₹85000",
+    "originalPrice": "₹98000",
+    "discount": "₹13,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/41637120231104223052.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8597620231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4152120231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8068920231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31002420231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1581420231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23077520231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7637720231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37721920231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31569520231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40386320231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36575220231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22043220231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7736220231104223052.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7069220231104223052.png"
+    ],
+    "overview": "The complete **10-day Thailand explorer package**, covering all four major tourist hubs: **Bangkok**, **Pattaya**, **Krabi**, and **Phuket**. This trip is packed with city tours, animal encounters (**Safari World**, **Tiger Kingdom**), island hopping (**Coral Island**, **4 Island Tour**, **Phi Phi**), and nightlife/cultural cruises.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Bangkok | Transfer to Pattaya | Alcazar Show in evening",
+        "description": "<ul><li>Upon your arrival in Thailand, clear immigration (visa on-arrival assistance included). Drive towards your hotel in **Pattaya** (2 nights stay).</li><li>In the evening, attend the **Alcazar Show**.</li><li>Overnight stay in Pattaya.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Coral Island tour with Lunch by Speedboat",
+        "description": "<ul><li>Post breakfast, transfer to Bali Hai Pier and board a speedboat for a half-day **Coral Island tour** (SIC, **Lunch included**).</li><li>Enjoy water sports (at own cost) and the beaches.</li><li>In the evening, explore **Chonburi Lane** and **Walking Street** for dinner and nightlife.</li><li>Overnight stay in Pattaya.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Transfer to Bangkok Hotel | City and Temple Tour | Chao Phraya Princess River Dinner Cruise",
+        "description": "<ul><li>Post breakfast, transfer from Pattaya to **Bangkok** (2 nights stay) (**Private Transfer**).</li><li>En route, visit **Gems Gallery**.</li><li>Go for a **Bangkok City and Temple tour** (PVT) covering the **Golden Buddha** and **Marble Buddha**.</li><li>In the evening, enjoy the **Chao Phraya Princess Dinner Cruise** (SIC, **Dinner included**).</li><li>Overnight stay in Bangkok.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Safari World and Marine Park with Lunch | Jungle Safari | Dolphin Show",
+        "description": "<ul><li>Post breakfast, head out for **Safari World and Marine Park** (**Lunch included**, SIC).</li><li>Enjoy the **Jungle Safari** and the **Dolphin Show**.</li><li>Drive back to your hotel for an overnight stay in Bangkok.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Transfer to Bangkok Airport. Fly to Krabi. Overnight stay at the hotel.",
+        "description": "<ul><li>Post breakfast, transfer to Bangkok Airport and take a **domestic flight to Krabi** (Domestic Flight, at your own cost).</li><li>Drive back to your hotel in **Krabi** (2 nights stay) for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "4 Island Tour with Lunch by Long Tail / Speed Boat",
+        "description": "<ul><li>Post breakfast, head towards the pier for the **4 Island Tour** (SIC) covering **Tup Island**, **Chicken Island**, and **Poda Island**. **Lunch is included**.</li><li>Enjoy snorkeling and the beautiful views.</li><li>Overnight stay in Krabi.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Transfer to Phuket Hotel | Tiger Kingdom and Dolphin Show Enroute",
+        "description": "<ul><li>Post breakfast, transfer from Krabi Hotel to **Phuket Hotel** (3 nights stay) by road (**Private Transfer**).</li><li>En route, visit **Tiger Kingdom Phuket** (PVT) and enjoy a **Dolphin Show** (PVT).</li><li>You’ll be dropped off at your hotel for an overnight stay in Phuket.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Phi Phi Island tour with lunch by Big Boat/ Speed Boat",
+        "description": "<ul><li>Post early breakfast, head towards the pier for the **Phi Phi Island Tour** (SIC, **Lunch included**).</li><li>Discover the main attraction of Thailand in style. Speedboat option includes **Maya Bay** + **Bamboo Island** + **Khai Island** and complimentary snorkeling/kayaking.</li><li>Return to your Phuket hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Phuket City tour with Big Buddha",
+        "description": "<ul><li>Post breakfast, get ready to discover the entire **Phuket city** (PVT).</li><li>Cover **Wat Chalong temple**, **Chocolate Factory**, **Old Phuket city town**, and the **Big Buddha** viewpoint.</li><li>Overnight stay at your hotel.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Goodbye Thailand | Depart for Homeland",
+        "description": "<ul><li>Post breakfast, check out from your hotel. Drive towards the airport (**Private Transfer**) and fly back to your respective destinations.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in **premium Hotels for 7 Nights** (2 nights Pattaya, 2 nights Bangkok, 2 nights Krabi, 2 nights Phuket).",
+      "Meals: **11 meals** including **8 Breakfasts**, 2 Lunches at Tours, and 1 Dinner at Chao Phraya River Cruise.",
+      "Transfers: **All Airport Pick ups & drops** and **Intercity Transfers** (Bangkok-Pattaya-Bangkok, Krabi-Phuket) on Private Basis. (Note: Domestic Flights are excluded).",
+      "Tours & Activities: **Alcazar Show** (Day 1), **Coral Island Tour with Lunch** (SIC), **Bangkok City and Temple tour** (PVT), **Chao Phraya River Cruise** (SIC), **Safari World and Marine Park with Lunch** (SIC), **4 Island Tour with Lunch** (SIC), **Phi Phi Island Tour with Lunch** (SIC), **Tiger Kingdom Phuket** (PVT), **Dolphin Show** (PVT), **Phuket City tour with Big Buddha** (PVT).",
+      "VISA Assistance: Professional visa assistance is provided by experts.",
+    ],
+    "exclusions": [
+      "Any **International Flights**.",
+      "Meals that are not mentioned in the program (Lunches & Dinners, except those specified).",
+      "Early check-in and late check-out. Hotel or Room upgrade.",
+      "Guide & Entrance fees during sightseeing or any other item not specified in inclusions.",
+      "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc.",
+      "Travel Insurance and any cost arising due to natural calamities, roadblock, etc.",
+      "Tourism Fee/Security Deposit will be payable at the hotel.",
+      "GST (5%) is applicable extra.",
+      "5% TCS as per govt. rules will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax. This amount will be claimable while filing ITR."
+    ]
   },
   {
-    slug: 'thailand-9d8n',
-    title: 'Thailand 9D8N',
-    destination: 'Thailand',
-    duration: '9 Days 8 Nights',
-    price: '₹55000',
-    originalPrice: '₹65000',
-    discount: '₹10,000',
-    imageUrl: '/cloned_media/20721320240209123146.png',
-    overview: 'A 9-day tour of Thailand, likely covering a mix of city and island destinations.',
-    itinerary: createItinerary('9 Days 8 Nights'),
-    inclusions: ['Hotel Stay', 'Domestic Flights', 'Transfers', 'Sightseeing'],
-    exclusions: ['International Flights', 'Visa Fees', 'Meals'],
+    "slug": "thailand-9d8n",
+    "title": "Thailand 9D8N",
+    "destination": "Thailand",
+    "duration": "9 Days 8 Nights",
+    "price": "₹55000",
+    "originalPrice": "₹65000",
+    "discount": "₹10,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/20721320240209123146.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10565420240209123145.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4072420240209123146.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38614020240209123146.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/115120240209123146.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4394820240209123146.png"
+    ],
+    "overview": "A comprehensive **9-day tour** exploring **Bangkok, Pattaya, Krabi, and Phuket**. This adventure includes major city and temple tours, island hopping, snorkeling, and evening entertainment, packing the best of Thailand's cultural and beach scenes into one long journey.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Bangkok - Pattaya - Floating Market",
+        "description": "<ul><li>Welcome to Thailand. Arrive at Bangkok airport, fetch your visa on-arrival, and drive to **Pattaya** (2 nights stay).</li><li>Later in the evening, visit the **Floating Market**.</li><li>Overnight at Pattaya.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Pattaya – Coral Island - Pattaya",
+        "description": "<ul><li>After breakfast, enjoy a half-day **Coral Island Tour** (SIC) with Speed Boat Transfer.</li><li>Enjoy swimming and snorkeling among the colorful corals. Optional water sports are available at an additional price.</li><li>Rest of the day is at leisure. Overnight at Pattaya.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Pattaya –- Bangkok - Half Day Temple tour of Bangkok",
+        "description": "<ul><li>After breakfast, proceed to **Bangkok** (2 nights stay). En route, enjoy a **Half Day Temple tour of Bangkok** (SIC) covering **Golden Buddha**, **Marble Temple**, and a visit to a local Gems Factory.</li><li>Rest of the day is at leisure for shopping/self-exploration. Overnight at Bangkok.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Bangkok – Day at Leisure",
+        "description": "<ul><li>After breakfast, the day is at leisure. You can spend the day shopping in popular places like Indra Square, MBK Center, or opt for the optional **Safari World Tour** (additional cost) which includes Jungle Safari and shows.</li><li>Overnight at Bangkok.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Bangkok to Krabi",
+        "description": "<ul><li>Today after breakfast, check-out from your hotel and drive to Bangkok Airport. **Domestic flight** to **Krabi** (flight not included).</li><li>Arrive at Krabi Airport and proceed to your hotel in Krabi (2 nights stay). Evening is free for relaxation.</li><li>Overnight in Krabi.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Krabi – Four Island Tour - Krabi",
+        "description": "<ul><li>After breakfast, have a fun-filled day on the **Krabi Four Island Tour** (SIC, **Picnic Lunch included**) visiting **Koh Gai, Koh Tup, Koh Mawr, Poda**, and the **Pranang cave**.</li><li>Evening is at leisure. Overnight in Krabi.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Krabi – Phuket",
+        "description": "<ul><li>After breakfast, check out from Krabi hotel and proceed to **Phuket** (2 nights stay).</li><li>Arrive at your hotel in Phuket and relax. Overnight at Phuket.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Phuket – Phi Phi Island – Phuket",
+        "description": "<ul><li>Today proceed for **Phi Phi Island Tour** (SIC, **Lunch included**) by big boat.</li><li>Enjoy swimming and snorkeling among the colorful corals at Phi Phi Don.</li><li>Rest of the day is at leisure. Overnight in Phuket.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Phuket – Hometown",
+        "description": "<ul><li>After breakfast, proceed to Airport to board a flight from Phuket.</li><li>Holiday Concludes. See you soon!</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in 3/4 star Hotels for **8 Nights** (2 Nights Pattaya, 2 Nights Bangkok, 2 Nights Krabi, 2 Nights Phuket).",
+      "Meals – **Daily Breakfast**, as mentioned in the itinerary.",
+      "Phi Phi (Big boat) with local lunch on shared coach basis.",
+      "Half Day **Phuket City Tour** on shared coach basis.",
+      "**Krabi 4 Island Tour by Speed Boat** with Picnic Lunch (National Fees Not Included) on shared coach basis.",
+      "Half day **Coral island tour with lunch** on shared coach basis.",
+      "Half Day **Temple tour of Bangkok** on shared coach basis.",
+      "**Return airport transfers** on shared coach basis as mentioned in the itinerary.",
+      "**Transfer from Krabi Hotel to Phuket Hotel** on Private Basis.",
+      "Note: All Sightseeing operate at fixed timings. Kindly be on time at the designated pick up points. No refunds will be provided for missed sightseeing."
+    ],
+    "exclusions": [
+      "**5% GST** on total package price.",
+      "**TCS** (5% or 10%) upto 7 lacs and TCS @20% on amounts above 7 lacs is applicable on GST inclusive price wef 1st October 2023.",
+      "**Airfare & airport taxes** (Internal Airfare wherever applicable).",
+      "Entrance tickets to attractions other than mentioned above or optional tours or wherever specified.",
+      "Any other meals other than those mentioned above.",
+      "Any other sightseeing other than mentioned above.",
+      "Any Entrance fees or Fees for video or camera permit.",
+      "Any item of personal nature like tips, laundry, telephone calls etc, Compulsory room supplement per person is applicable during Christmas and New Year, Fairs, Festivals and Events.",
+      "Visa and Insurances charges."
+    ]
   },
   {
-    slug: 'phuket-explorer-6n7d',
-    title: 'Phuket explorer 6N7D',
-    destination: 'Thailand',
-    duration: '6 Nights 7 Days',
-    price: '₹49999',
-    imageUrl: '/cloned_media/4871320240209130304.png',
-    overview: 'A 7-day deep dive into Phuket, exploring all its beaches, islands, and cultural attractions.',
-    itinerary: createItinerary('6 Nights 7 Days'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Multiple Island Tours', 'Sightseeing'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches & Dinners'],
+    "slug": "phuket-explorer-6n7d",
+    "title": "Phuket explorer 6N7D",
+    "destination": "Thailand",
+    "duration": "7 Days 6 Nights",
+    "price": "₹49999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/4871320240209130304.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15569620240209130303.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21463720240209130304.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23743220240209130304.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23700220240209130304.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34755120240209130304.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31791420240209130304.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23724820240209130304.png"
+    ],
+    "overview": "A **7-day** tour designed to explore the best of **Krabi, Koh Samui, and Phuket**. This comprehensive package includes guided island hopping to the **Krabi Four Islands** and **Phi Phi Islands**, along with private transfers to ensure a seamless tropical adventure.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival at Phuket - Transfer to Krabi",
+        "description": "<ul><li>Upon arrival at Phuket Airport, meet your local tour coordinator and transfer to your **Krabi hotel** (2 nights stay) (**Private Transfer**).</li><li>Rest of the day is at leisure; you can explore the nearby areas and enjoy local seaside restaurants.</li><li>Overnight stay in Krabi.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Krabi Four Island Tour",
+        "description": "<ul><li>After breakfast, proceed for the **Krabi Four Island Day Trip** (SIC, **Lunch included**) by Long Tail Boat.</li><li>Explore **Koh Tup**, **Koh Gai** (Chicken Island), **Koh Poda**, and **Phra Nang Cave Beach**.</li><li>Dive into the exquisite, azure water for a swim or snorkeling.</li><li>Overnight in Krabi.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Krabi - Koh Samui",
+        "description": "<ul><li>Morning check-out from your hotel and get ready for your journey to **Koh Samui** (2 nights stay) via **Ferry and land** (SIC).</li><li>You will be picked up from the hotel and transferred to the pier to catch your ferry to Koh Samui.</li><li>Arrive at Koh Samui by evening and then be transferred to your hotel for check-in. Overnight stay in Koh Samui.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Full Day Angthong National Marine Park",
+        "description": "<ul><li>After breakfast, proceed for the **Full Day Angthong National Marine Park** tour (SIC).</li><li>Spend about 45 minutes snorkeling at the site, getting a glimpse of the Park's marine life.</li><li>The Marine Park is famous for its natural beauty untouched by development.</li><li>Overnight stay in Koh Samui.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Transfer from Koh Samui to Phuket by Ferry",
+        "description": "<ul><li>Morning check-out from your hotel and get ready for a long 9-hour journey by **ferry and land to Phuket**.</li><li>You will be transferred from Koh Samui Hotel to Nathon Pier (**Private Transfer**), catch your ferry to Phuket (SIC Transfer from Nathon Pier), and then transferred to your **Phuket hotel** (2 nights stay) for check-in.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Full Day Phi Phi Island Tour",
+        "description": "<ul><li>Begin your day early with hotel pickup for the **Phi Phi Islands tour** (Shared Speedboat, **Lunch included**).</li><li>Visit **Maya Bay**, **Monkey Beach**, **Pileh Cove**, **Viking Cave**, and **Loh Samah Bay**.</li><li>Snorkel at a secluded spot and visit Khai Island for swimming or sunbathing.</li><li>Return to the Phuket marina in the late afternoon.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Departure from Phuket",
+        "description": "<ul><li>After breakfast, check out from your hotel. You will be picked up and transferred to the airport (**Private transfer**) to catch your flight back home. Your trip ends with sweet memories.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation: **6 Nights Stay** (2 nights Krabi, 2 nights Koh Samui, 2 nights Phuket).",
+      "Meals: **Daily Breakfast**.",
+      "Transfers: **Phuket Airport to Krabi** (Private Transfers), **Krabi Hotel to Krabi Pier** (Private), **Koh Samui Hotel to Nathon Pier** (Private), **Phuket Hotel to Phuket Airport** (Private Transfer).",
+      "Inter-island Transfers: **Krabi to Koh Samui by Ferry** (SIC Transfer from Nathon Pier - Ferry Ticket - SIC Transfer to Phuket Hotel).",
+      "Tours & Activities: **Full Day Krabi Four Island Tour** (SIC, **Lunch**), **Full Day Angthong National Marine Park** (SIC), **Phi Phi Island Tour With Lunch** (Shared Speedboat, SIC Transfers).",
+    ],
+    "exclusions": [
+      "Passport fees, immunization costs, city taxes at the hotel and local departure taxes (wherever applicable).",
+      "Optional enhancements like room or flight upgrades, or local camera or video fees.",
+      "Additional sightseeing, activities and experiences outside of the itinerary.",
+      "Early check-in or late check-out from hotels (unless otherwise specified).",
+      "Breakfast, lunches, dinners and drinks (alcoholic and non-alcoholic), **unless specified in the itinerary**.",
+      "Any international and/or domestic flights, **unless explicitly mentioned as an inclusion**.",
+      "Excess baggage charges, and where applicable, baggage not included in your fare.",
+      "Tips for services and experiences.",
+      "Any Visa required, unless mentioned as an inclusion.",
+    ]
   },
 
   //==========================================================================
