@@ -1,4 +1,5 @@
 import React from 'react';
+// --- FIX: Reverting to original alias paths ---
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
@@ -6,7 +7,7 @@ import TripSlider from '@/components/TripSlider';
 import ExpandableText from '@/components/ExpandableText';
 import { Bed, Airplay, Mountain, Users, ThumbsUp, CreditCard, UserCheck, Zap, Award } from 'lucide-react';
 
-// --- IMPORT CENTRALIZED DATA ---
+// --- IMPORT CENTRALIZED DATA (FIX: Reverting to original alias path) ---
 import { allTrips } from '@/data/trips';
 
 // --- FILTER DATA FOR UTTARAKHAND ---
@@ -85,86 +86,93 @@ const Uttarakhand = () => {
   return (
     <div className="bg-white">
       <Header />
-      <main>
-        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* --- WIDE LAYOUT CONTAINER (from Bali/Dubai) --- */}
+      <main className="max-w-[1600px] mx-auto px-6 lg:px-12 py-8">
 
-          <section className="relative">
-            {/* Updated Hero Image Path */}
-            <img src="/cloned_media/24975420240912123304.png" className="w-full h-[500px] object-cover rounded-2xl" alt="Scenic view of Uttarakhand"/>
-            <div className="absolute inset-0 bg-black/30 rounded-2xl"></div>
-            <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-6xl font-bold z-10 p-4 text-center">
-              Uttarakhand Tour Packages
-            </h1>
-          </section>
+        {/* --- REMOVED THE OLD max-w-screen-xl WRAPPER --- */}
 
-          <section className="bg-gray-100 p-8 rounded-lg my-8">
-            <h2 className="text-3xl font-semibold border-b-2 border-gray-200 pb-3 mb-6">
-              About Uttarakhand Tour Packages
-            </h2>
-            <ExpandableText>
-              {/* ... (Keep the existing ExpandableText content) ... */}
-              <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                <p>Listen to the whispers of the Himalayas calling out to thee. A land where ancient myths dance with modern-day adventures, you get a chance to witness stunning views and breathe the pious air with our Uttarakhand tour packages. Picture yourself on top of a mountain peak, in front of you lies an entire living tapestry of emerald forests and silver rivers. Our Uttarakhand Tour Packages are not holidays, but rather gateways to transform your living experience.</p>
-                {/* ... (rest of the text content) ... */}
-              </div>
-            </ExpandableText>
-          </section>
+        <section className="relative">
+          {/* Updated Hero Image Path */}
+          <img src="/cloned_media/24975420240912123304.png" className="w-full h-[500px] object-cover rounded-2xl" alt="Scenic view of Uttarakhand"/>
+          <div className="absolute inset-0 bg-black/30 rounded-2xl"></div>
+          <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-6xl font-bold z-10 p-4 text-center">
+            Uttarakhand Tour Packages
+          </h1>
+        </section>
 
-          <section className="mt-16">
-            <h2 className="text-4xl font-bold mb-6"><span className="text-blue-700">Handpicked</span> By Our Experts ✨</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-              <div className="lg:col-span-8">
-                {/* --- USE FILTERED DATA --- */}
-                <TripSlider trips={handpickedTripsUttarakhand} slidesToShow={3} />
-              </div>
-              <aside className="lg:col-span-4">
-                <div className="border bg-white p-6 rounded-2xl shadow-lg">
-                  <h3 className="text-xl font-semibold text-center mb-1">Let's plan your next trip</h3>
-                  <p className="text-center text-sm text-gray-600 mb-6">Make your move, fill out your details now!</p>
-                  <ContactForm />
-                </div>
-              </aside>
+        <section className="bg-gray-100 p-10 rounded-2xl my-10 shadow-sm">
+          <h2 className="text-3xl font-semibold border-b-2 border-gray-200 pb-3 mb-6">
+            About Uttarakhand Tour Packages
+          </h2>
+          <ExpandableText>
+            <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
+              <p>Listen to the whispers of the Himalayas calling out to thee. A land where ancient myths dance with modern-day adventures, you get a chance to witness stunning views and breathe the pious air with our uttarakhand tour packages. Picture yourself on top of a mountain peak, in front of you lies an entire living tapestry of emerald forests and silver rivers. Our Uttarakhand Tour Packages are not holidays, but rather gateways to transform your living experience.</p>
+              {/* ... (rest of the text content) ... */}
             </div>
-          </section>
+          </ExpandableText>
+        </section>
 
-          <div className="space-y-20 mt-20">
-            <section>
-              <h2 className="text-4xl font-bold mb-6">Uttarakhand Family Tours</h2>
+        <section className="mt-16">
+          {/* Added px-6 to align heading with slider padding */}
+          <h2 className="text-4xl font-bold mb-6 px-6"><span className="text-blue-700">Handpicked</span> By Our Experts ✨</h2>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            <div className="lg:col-span-8">
               {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={familyToursUttarakhand} slidesToShow={4} />
-            </section>
-            <section>
-              <h2 className="text-4xl font-bold mb-6">Uttarakhand Weekend Trips</h2>
-              {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={weekendTripsUttarakhand} slidesToShow={4} />
-            </section>
-            <section>
-              <h2 className="text-4xl font-bold mb-6">Uttarakhand Backpacking Trips</h2>
-              {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={backpackingTripsUttarakhand} slidesToShow={4} />
-            </section>
-            <section>
-              <h2 className="text-4xl font-bold mb-6">Best Treks in Uttarakhand</h2>
-              {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={bestTreksUttarakhand} slidesToShow={4} />
-            </section>
+              <TripSlider trips={handpickedTripsUttarakhand} slidesToShow={3} />
+            </div>
+            <aside className="lg:col-span-4">
+              <div className="border bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-semibold text-center mb-1">Let's plan your next trip</h3>
+                <p className="text-center text-sm text-gray-600 mb-6">Make your move, fill out your details now!</p>
+                <ContactForm />
+              </div>
+            </aside>
           </div>
+        </section>
 
-          <section className="py-24">
-            <div className="text-center">
-              <h2 className="text-4xl font-bold mb-12">Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span></h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-                {reasons.map((reason, index) => (
-                  <div key={index} className="bg-gray-50 rounded-lg p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
-                    <div className="mb-4 inline-block bg-blue-100 p-4 rounded-full">{reason.icon}</div>
-                    <h3 className="text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
-                    <p className="text-gray-600">{reason.description}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+        <div className="space-y-20 mt-20">
+          <section>
+            {/* Added px-6 to align heading with slider padding */}
+            <h2 className="text-4xl font-bold mb-6 px-6">Uttarakhand Family Tours</h2>
+            {/* --- USE FILTERED DATA --- */}
+            <TripSlider trips={familyToursUttarakhand} slidesToShow={4} />
+          </section>
+          <section>
+            {/* Added px-6 to align heading with slider padding */}
+            <h2 className="text-4xl font-bold mb-6 px-6">Uttarakhand Weekend Trips</h2>
+            {/* --- USE FILTERED DATA --- */}
+            <TripSlider trips={weekendTripsUttarakhand} slidesToShow={4} />
+          </section>
+          <section>
+            {/* Added px-6 to align heading with slider padding */}
+            <h2 className="text-4xl font-bold mb-6 px-6">Uttarakhand Backpacking Trips</h2>
+            {/* --- USE FILTERED DATA --- */}
+            <TripSlider trips={backpackingTripsUttarakhand} slidesToShow={4} />
+          </section>
+          <section>
+            {/* Added px-6 to align heading with slider padding */}
+            <h2 className="text-4xl font-bold mb-6 px-6">Best Treks in Uttarakhand</h2>
+            {/* --- USE FILTERED DATA --- */}
+            <TripSlider trips={bestTreksUttarakhand} slidesToShow={4} />
           </section>
         </div>
+
+        <section className="py-24">
+          <div className="text-center">
+            <h2 className="text-4xl font-bold mb-12">Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span></h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+              {reasons.map((reason, index) => (
+                <div key={index} className="bg-gray-50 rounded-lg p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
+                  <div className="mb-4 inline-block bg-blue-100 p-4 rounded-full">{reason.icon}</div>
+                  <h3 className="text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
+                  <p className="text-gray-600">{reason.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* --- REMOVED THE OLD CLOSING </div> --- */}
       </main>
       <Footer />
     </div>
@@ -172,3 +180,4 @@ const Uttarakhand = () => {
 };
 
 export default Uttarakhand;
+
