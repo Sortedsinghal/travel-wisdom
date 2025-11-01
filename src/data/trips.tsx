@@ -198,56 +198,289 @@ export const allTrips: Trip[] = [
     ],
   },
   {
-    slug: 'dubai-6d5n',
-    title: 'Dubai - 6D5N',
-    destination: 'Dubai',
-    duration: '6 Days 5 Nights',
-    price: '₹64999',
-    originalPrice: '₹69999',
-    discount: '₹5,000',
-    imageUrl: '/cloned_media/24856720230328075635.png',
-    overview: 'Discover the highlights of Dubai in this comprehensive 6-day tour, from the Burj Khalifa to traditional souks.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Burj Khalifa Ticket', 'Dhow Cruise'],
-    exclusions: ['Flights', 'Visa Fees', 'Personal Expenses'],
+    "slug": "dubai-6d5n",
+    "title": "Dubai - 6D5N",
+    "destination": "Dubai",
+    "duration": "6 Days 5 Nights",
+    "price": "₹64999",
+    "originalPrice": "₹69999",
+    "discount": "₹5,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/24856720230328075635.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6499020230328075635.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37070420230328075635.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17286020230328075635.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38154220230328075635.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17138320230328075635.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12548120230328075635.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11120520230328075635.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39390220230328075635.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32533720230328075635.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28601620230328075635.png"
+    ],
+    "overview": "Discover the highlights of **Dubai** in this comprehensive **6-day tour**, from the majestic **Burj Khalifa** to the traditional souks. Experience the best of modern architecture, thrilling **Desert Safari**, and a romantic **Dhow Cruise** in this global city.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Dubai Arrival & Marina Cruise",
+        "description": "<ul><li>Arrival in **Dubai** and transfer to your hotel. Check-in and relax.</li><li>In the evening (around 7:00 pm), enjoy a **Dhow Marina Cruise** with welcome drinks, sweets, and a delicious buffet dinner (veg & non-veg) along with live music and dance shows.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Dubai City Tour | Desert Safari with BBQ Dinner",
+        "description": "<ul><li>Wake up and post breakfast, hop on to your vehicle for an exciting half-day **Dubai city tour**.</li><li>Visit **Jumeirah Mosque**, **Jumeirah Beach Road**, **Burj Al Arab**, Souq Madinat, Mall of the Emirates.</li><li>In the evening (around 3:00 pm), enjoy a thrilling **Desert Safari** in the Arabian desert, including belly dance, tantra, and fire shows.</li><li>Relish a scrumptious BBQ dinner and return to your hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Burj Khalifa 124th Floor with Dubai Aquarium & Underwater Zoo",
+        "description": "<ul><li>Post a delightful breakfast, visit **Burj Khalifa** and ride up to the **124th floor observation deck**. Watch the Dubai Fountain show from above.</li><li>Stroll through the **Dubai Aquarium** to see interesting marine life and the **Underwater Zoo**.</li><li>Drive back to our hotel followed by a much-needed overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Abu Dhabi City Tour - Grand Mosque + Ferrari World",
+        "description": "<ul><li>Wake up and post breakfast, head out for the **Abu Dhabi city tour**.</li><li>Visit **Sheikh Zayed Grand Mosque**, recognized as one of the world’s largest mosques.</li><li>Post city tour, move towards **Ferrari World** for thrilling rides and experiences, including the world's fastest roller coaster, Formula Rossa.</li><li>Drive back to our hotel followed by a much-needed overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Day at Leisure | Markets, Clubs & #MeTime",
+        "description": "<ul><li>Wake up and post breakfast, you are free to explore Dubai or get indulged in any adventure activity (on your own).</li><li>You can visit Meena Bazar, **Gold Souk market**, shopping malls, supermarkets, and clubs.</li><li>Post a great exploratory day, return to your hotel followed by an overnight stay.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Goodbye Dubai | Depart for homeland",
+        "description": "<ul><li>Wake up and post breakfast, check-out from our hotel and depart for the Dubai Future Museum tour.</li><li>Drive towards the airport and flyback to your respective destinations with the mesmerizing views and memories to cherish forever.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in a premium property for 5 Nights.",
+      "Daily buffet Breakfast at the Hotel & 2 Dinners.",
+      "Dubai airport to Hotel transfers on a Pvt basis and vice versa.",
+      "Half-day Dubai guided city tour on an SIC basis.",
+      "Dubai cruise with Dinner and transfers on an SIC basis",
+      "Desert safari with BBQ Dinner & live shows.",
+      "Burj Khalifa 124th floor non-prime time with transfers on an SIC basis.",
+      "Abu Dhabi city tour + Ferrari World visit.",
+      "Dubai Aquarium + Underwater Zoo on SIC basis.",
+      "Single Entry Visa for UAE and Covid Insurance included."
+    ],
+    "exclusions": [
+      "Any kind of personal expense.",
+      "Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Museum/Monument entry fee/city tax.",
+      "International airfare to and from the destination.",
+      "5% GST & 5% TCS (TCS can be claimed in full in your ITR)."
+    ]
   },
   {
-    slug: 'dubai-7d6n',
-    title: 'Dubai 7D6N',
-    destination: 'Dubai',
-    duration: '7 Days 6 Nights',
-    price: '₹90000',
-    imageUrl: '/cloned_media/26941320231018151503.png',
-    overview: 'An extended 7-day journey to explore Dubai and its surroundings, including a day trip to Abu Dhabi.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Abu Dhabi Day Trip', 'Desert Safari'],
-    exclusions: ['Flights', 'Visa Fees', 'Personal Expenses'],
+    "slug": "dubai-7d6n",
+    "title": "Dubai 7D6N",
+    "destination": "Dubai",
+    "duration": "7 Days 6 Nights",
+    "price": "₹90000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/26941320231018151503.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32231720231018151503.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34862520231018151503.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14536520231018151503.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32999320231018151503.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37734320231018151503.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25418620231018151503.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39353920231018151503.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29180920231018151503.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20667620231018151503.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13018720231018151503.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17211720231018151503.png"
+    ],
+    "overview": "An extended **7-day journey** to explore **Dubai** and its surroundings, including a full day trip to **Abu Dhabi**. This comprehensive itinerary covers major attractions like the **Burj Khalifa**, **Desert Safari**, **Aquaventure Water Park**, and modern architectural marvels like the **Museum of the Future** and **Dubai Frame**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Dubai Arrival & Marina Cruise",
+        "description": "<ul><li>With excitement and happiness on your face, jump into your flight for **Dubai** and say goodbye to India.</li><li>After landing and clearing immigration, drive towards your hotel. Check-in and have some leisure.</li><li>In the evening (around 7:00 pm), enjoy a **Dhow Marina Cruise** with dinner, live music, and dance shows.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Dubai City Tour | Desert Safari with BBQ Dinner",
+        "description": "<ul><li>Wake up early and post breakfast, hop on to your vehicle for an exciting half-day **Dubai city tour**.</li><li>Visit **Jumeirah Mosque**, **Burj Al Arab**, Souq Madinat, Mall of the Emirates, and travel down the Sheikh Zayed Road.</li><li>In the evening (around 3:00 pm), we’ll pick you up for Dubai’s famous **Desert Safari** including BBQ Dinner & live shows.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Burj Khalifa 124th Floor with Dubai Aquarium & Underwater Zoo",
+        "description": "<ul><li>Post a delightful breakfast, visit **Burj Khalifa** and ride up to the **124th floor observation deck**. Watch the Dubai Fountain show.</li><li>Stroll through the **Dubai Aquarium** to see interesting marine life and the **Underwater Zoo**.</li><li>Drive back to our hotel followed by a much-needed overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Abu Dhabi City Tour - Grand Mosque + Ferrari World",
+        "description": "<ul><li>Wake up and post a delightful breakfast, head out for the **Abu Dhabi city tour**.</li><li>Visit **Sheikh Zayed Grand Mosque**, recognized as one of the world’s largest mosques.</li><li>Post city tour, move towards **Ferrari World** for thrilling rides and experiences.</li><li>Drive back to our hotel followed by a much-needed overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Atlantis Aquaventure Water Park & Lost Chamber",
+        "description": "<ul><li>Wake up and post a delightful breakfast, head out for **Atlantis Aquaventure Water Park & Lost Chamber**.</li><li>Indulge in various exciting water activities and explore the mythical city in the **Lost Chambers Aquarium**.</li><li>Post a great exploratory day, return to your hotel followed by an overnight stay.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Museum of The Future & Dubai Frame",
+        "description": "<ul><li>Wake up and post a delightful breakfast, head out for **Museum of the Future** and **Dubai Frame** to witness the stunning vistas of the City of Gold.</li><li>Inside the Museum, learn about how the city evolved throughout the decades.</li><li>Post a great exploratory day, return to your hotel followed by an overnight stay.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Goodbye Dubai | Depart for Homeland",
+        "description": "<ul><li>Wake up in the morning and post breakfast, check-out from our hotel.</li><li>Drive towards the airport and flyback to your respective destinations with the mesmerizing views and memories to cherish forever.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in a 3 star Hotel for 6 Nights.",
+      "Daily buffet Breakfast at Hotel & 2 Dinners.",
+      "Dubai airport to Hotel transfers on a Pvt basis and vice versa.",
+      "Half-day Dubai guided city tour on SIC basis.",
+      "Dubai cruise with Dinner and transfers on SIC basis",
+      "Desert safari with BBQ Dinner & live shows.",
+      "Burj Khalifa 124th floor non prime time with transfers on SIC basis.",
+      "Abu Dhabi city tour + Ferrari World visit.",
+      "Dubai Aquarium + Underwater Zoo on SIC basis.",
+      "Atlantis Aquaventure Water Park & Lost Chambers",
+      "Museum of the Future and Dubai Frame",
+      "Visa assistance."
+    ],
+    "exclusions": [
+      "Any kind of personal expense.",
+      "Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Museum/Monument entry fee/city tax.",
+      "Travel Insurance.",
+      "5% GST & 5% TCS (TCS can be claimed in full in your ITR)."
+    ]
   },
   {
-    slug: 'dubai-5d4n',
-    title: 'Dubai 5D4N',
-    destination: 'Dubai',
-    duration: '5 Days 4 Nights',
-    price: '₹55000',
-    imageUrl: '/cloned_media/35782520231018150638.png',
-    overview: 'A classic 5-day Dubai experience, perfect for first-time visitors looking to see the city\'s main attractions.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'City Tour', 'Dhow Cruise'],
-    exclusions: ['Flights', 'Visa Fees', 'Personal Expenses'],
+    "slug": "dubai-5d4n",
+    "title": "Dubai 5D4N",
+    "destination": "Dubai",
+    "duration": "5 Days 4 Nights",
+    "price": "₹55000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/35782520231018150638.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8699120231018150638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31524420231018150638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16205820231018150638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26571620231018150638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29120820231018150638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3971520231018150638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12240320231018150638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36416120231018150638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35934420231018150638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30027520231018150638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/643320231018150638.png"
+    ],
+    "overview": "A classic **5-day Dubai experience**, perfect for first-time visitors looking to see the city's main attractions. This tour includes the **Burj Khalifa**, a thrilling **Desert Safari**, a **Dhow Cruise**, and a city tour of Dubai's highlights.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Dubai Arrival & Marina Cruise",
+        "description": "<ul><li>Arrival in **Dubai** and transfer to your hotel. Check-in and have some leisure.</li><li>In the evening (around 7:00 pm), enjoy a **Dhow Marina Cruise** with welcome drinks, sweets, and a delicious buffet dinner (veg & non-veg) along with live music and dance shows.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Dubai City Tour | Desert Safari with BBQ Dinner",
+        "description": "<ul><li>Wake up early and post breakfast, hop on to your vehicle for an exciting half-day **Dubai city tour**.</li><li>Visit **Jumeirah Mosque**, **Burj Al Arab**, Souq Madinat, Mall of the Emirates, and travel down the Sheikh Zayed Road.</li><li>In the evening (around 3:00 pm), we’ll pick you up for Dubai’s famous **Desert Safari** including BBQ Dinner & live shows.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Burj Khalifa 124th Floor with Dubai Aquarium & Underwater Zoo",
+        "description": "<ul><li>Post a delightful breakfast, visit **Burj Khalifa** and ride up to the **124th floor observation deck**. Watch the Dubai Fountain show.</li><li>Stroll through the **Dubai Aquarium** to see interesting marine life and the **Underwater Zoo**.</li><li>Drive back to our hotel followed by a much-needed overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Day at Leisure | Markets, Clubs & #MeTime",
+        "description": "<ul><li>Wake up and post a delightful breakfast, you are free to explore Dubai or get indulged in any adventure activity (on your own).</li><li>You can visit Meena Bazar, **Gold Souk market**, shopping malls, supermarkets, and clubs.</li><li>Post a great exploratory day, return to your hotel followed by an overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Goodbye Dubai | Depart for Homeland",
+        "description": "<ul><li>Wake up in the morning and post breakfast, check-out from our hotel and depart for the Dubai Future Museum tour.</li><li>Drive towards the airport and flyback to your respective destinations with the mesmerizing views and memories to cherish forever.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in a 3 star Hotel for 4 Nights.",
+      "Daily buffet Breakfast at Hotel & 2 Dinners.",
+      "Dubai airport to Hotel transfers on Pvt basis and vice versa.",
+      "Half-day Dubai guided city tour on SIC basis.",
+      "Dubai cruise with Dinner and transfers on SIC basis",
+      "Desert safari with BBQ Dinner & live shows.",
+      "Burj Khalifa 124th floor non-prime time with transfers on SIC basis.",
+      "Dubai Aquarium + Underwater Zoo on SIC basis.",
+      "Visa assistance."
+    ],
+    "exclusions": [
+      "Any kind of personal expense.",
+      "Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Museum/Monument entry fee/city tax.",
+      "Travel Insurance.",
+      "5% GST & 5% TCS (TCS can be claimed in full in your ITR)."
+    ]
   },
   {
-    slug: 'dubai-4d3n',
-    title: 'Dubai-4D3N',
-    destination: 'Dubai',
-    duration: '4 Days 3 Nights',
-    price: '₹42000',
-    originalPrice: '₹50000',
-    discount: '₹8,000',
-    imageUrl: '/cloned_media/25294820231018145803.png',
-    overview: 'A quick 4-day getaway to experience the best of Dubai, ideal for a long weekend.',
-    itinerary: createItinerary('4 Days 3 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'City Tour'],
-    exclusions: ['Flights', 'Visa Fees', 'Personal Expenses'],
+    "slug": "dubai-4d3n",
+    "title": "Dubai-4D3N",
+    "destination": "Dubai",
+    "duration": "4 Days 3 Nights",
+    "price": "₹42000",
+    "originalPrice": "₹50000",
+    "discount": "₹8,000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25294820231018145803.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40888220231018145803.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37433220231018145803.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38439720231018145803.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30545620231018145803.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27250620231018145803.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14026320231018145803.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22844120231018145803.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23077120231018145803.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30509120231018145803.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22857420231018145803.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32759520231018145803.png"
+    ],
+    "overview": "A quick **4-day getaway** to experience the best of **Dubai**, ideal for a long weekend. This trip is packed with the city's main attractions, including a thrilling **Desert Safari**, a **Dhow Cruise**, a visit to the **Burj Khalifa**, and a comprehensive city tour.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Dubai Arrival & Marina Cruise",
+        "description": "<ul><li>Arrival in **Dubai** and transfer to your hotel. Check-in and have some leisure.</li><li>In the evening (around 7:00 pm), enjoy a **Dhow Marina Cruise** with welcome drinks, sweets, and a delicious buffet dinner (veg & non-veg) along with live music and dance shows.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Dubai City Tour | Burj Khalifa 124th Floor",
+        "description": "<ul><li>Wake up and post breakfast, hop on to your vehicle for an exciting half-day **Dubai city tour**.</li><li>Visit **Jumeirah Mosque**, **Burj Al Arab**, Souq Madinat, and other major attractions.</li><li>In the noon, you will be dropped at Dubai Mall.</li><li>Drive towards **Burj Khalifa** and ride up to the **124th floor observation deck**. With the help of telescopes watch Dubai's major attraction fountain show.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Desert Safari with BBQ Dinner",
+        "description": "<ul><li>Wake up to the relaxed morning and have breakfast.</li><li>Leisure time till 3 PM.</li><li>In the evening (around 3:00 pm), we’ll pick you up for Dubai’s famous **Desert Safari**. Head out for a thrilling desert safari in the Arabian desert and watch a super amazing belly dance show with tantra and fire show.</li><li>Relish upon a scrumptious buffet dinner and drive back to our hotel. Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Goodbye Dubai | Depart for Homeland",
+        "description": "<ul><li>Wake up in the morning and post breakfast, check-out from our hotel.</li><li>Drive towards the airport and flyback to your respective destinations with the mesmerizing views and memories to cherish forever.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in a premium Hotel for 3 Nights.",
+      "3 buffet Breakfast at Hotel & 2 Dinners.",
+      "Dubai airport to Hotel transfers on Pvt basis and vice versa.",
+      "Half-day Dubai guided city tour on SIC basis.",
+      "Dubai cruise with Dinner and transfers on SIC basis",
+      "Desert safari with BBQ Dinner & live shows.",
+      "Burj Khalifa 124th floor non-prime time with transfers on SIC basis.",
+      "Visa + Travel Insurance."
+    ],
+    "exclusions": [
+      "Any kind of personal expense.",
+      "Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.",
+      "TD (Tourism Dirham) Fee paid by guests only at the hotel reception. 15 AED Per Night",
+      "Flight Tickets",
+      "Museum/Monument entry fee/city tax.",
+      "5% GST & 5% TCS (TCS can be claimed in full in your ITR)."
+    ]
   },
 
   //==========================================================================
@@ -1316,464 +1549,2932 @@ export const allTrips: Trip[] = [
   // DESTINATION: Bhutan (from Bhutan.tsx)
   //==========================================================================
   {
-    slug: 'bhutan-backpacking-7d6n',
-    title: 'Bhutan Backpacking 7D6N',
-    destination: 'Bhutan',
-    duration: '7 Days 6 Nights',
-    price: '₹35000',
-    imageUrl: '/cloned_media/36969020250619061302.png',
-    overview: 'A 7-day backpacking trip to the Land of the Thunder Dragon. Explore Paro, Thimphu, and Punakha on a budget.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Accommodation', 'Transfers', 'Permits (SDF)', 'Guided Tours'],
-    exclusions: ['Flights', 'Meals', 'Entry Fees'],
+    "slug": "bhutan-backpacking-7d6n",
+    "title": "Bhutan Backpacking 7D6N",
+    "destination": "Bhutan",
+    "duration": "7 Days 6 Nights",
+    "price": "₹35000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/36969020250619061302.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/91320230829125554.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35455020230829125554.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29527020230829125554.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32490220230829125554.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5981620230829125554.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24343120230829125554.png"
+    ],
+    "overview": "A **7-day backpacking trip** to the Land of the Thunder Dragon. Explore the stunning landscapes, rich Buddhist culture, and focus on Gross National Happiness across **Paro**, **Thimphu**, and **Punakha** on a budget, starting and ending at Bagdogra.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bagdogra/New Jalpaiguri to Phuentsholing",
+        "description": "<ul><li>Arrive at **Bagdogra Airport/New Jalpaiguri Railway Station**, meet your trip representative and start the journey towards Bhutan.</li><li>Drive towards **Jaigaon** (West Bengal), the last border town and post clearing immigration move towards **Phuentsholing**.</li><li>After arriving in Phuentsholing by evening, check-in into our comfy hotel and have some leisure.</li><li>Dinner and overnight stay in a hotel in Phuentsholing.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Phuentsholing to Thimpu | Local Walks & Leisure",
+        "description": "<ul><li>Wake up early and post breakfast, proceed towards the immigration office to complete the visa/permit formalities.</li><li>Head out to explore Phuentsholing city (if time permits) and later drive towards **Thimpu**.</li><li>Enroute Thimpu, visit Kharbandi Monastery, Gedu Town, Dam View Point and the refreshing waterfall near Chuzom.</li><li>After arriving in Thimpu by evening, check-in to our comfy hotel.</li><li>Dinner and overnight stay in a hotel in Thimpu.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Full-Day Dochula Pass & Punakha Local Exploration",
+        "description": "<ul><li>Wake up early and post breakfast, head out to explore **Dochula** and **Punakha**.</li><li>Enroute Punakha, visit Simtokha Dzong and cross the famous **Dochula Pass** – a scenic mountain pass adorned with 108 miniature stupas and offering gorgeous Himalayan views.</li><li>After arriving in Punakha, explore the Suspension Bridge, Punakha Nunnery, **Punakha Dzong**, Khamsm Yulley Namgyal Chhorten, Wangdi Dzong and Wangdi Market.</li><li>Post explorations, return back to Thimpu for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Thimphu Local Exploration | Drive to Paro",
+        "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel and head out to explore all major attractions in **Thimphu**.</li><li>Explore the famous **Buddha Point** (Buddha Dordenma), Memorial Chorten, Sangaygang View Point, Handicraft Emporium, Mini Zoo, Paper Factory, Simply Bhutan Museum, Folk Heritage Museum, and National Library. Later, visit **Tashichho Dzong**.</li><li>In the evening, drive from Thimpu to **Paro**, check-in into our comfy hotel and have some leisure.</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Full-Day Paro Local Exploration",
+        "description": "<ul><li>Wake up early and post breakfast, head out to trek the magnificent **Taktsang Tiger Nest Monastery**.</li><li>Begin your hike towards Tiger Nest through the lush greens and breathtaking views of mountains. After reaching the beautiful Taktsang Monastery, enjoy the rich heritage and jawdropping view it offers.</li><li>In the afternoon (if time permits), visit **Ta Dzong** (Museum) and explore **Rimpung Dzong**.</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Paro to Phuentsholing | Siliguri Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel and head out to visit **Paro Airport Viewpoint**.</li><li>Drive from Paro to **Siliguri** enjoying the stunning mountain landscapes and cross **Phuentsholing** into India. Proceed towards the immigration office to complete the exit formalities.</li><li>After arriving in Siliguri, check-in to your hotel and have some leisure.</li><li>Dinner and overnight stay in a hotel in Siliguri.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Siliguri to Bagdogra/New Jalpaiguri | Trip Ends",
+        "description": "<ul><li>Post a scrumptious breakfast, check-out from our hotel and we’ll proceed towards **Bagdogra Airport/New Jalpaiguri Railway Station** (transfers at fixed time only).</li><li>Trip ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Bagdogra to Bagdogra in Force Traveler/SUVs/Sedan or similar (as per group size) including pickup & drop facility from/to Bagdogra Airport/New Jalpaiguri Railway Station (transfers at fixed time only).",
+      "6 Nights Accommodation on sharing basis: 1 Night in Phuentsholing, 2 Nights in Thimphu, 2 Nights in Paro & 1 Night in Siliguri.",
+      "12 Meals: 6 Dinners & 6 Breakfasts, starting from Dinner on Day 1 till Breakfast on Day 7.",
+      "Assistance for obtaining Bhutan immigration visa/permits, **Sustainable Development Fee (SDF) as per Bhutan Govt. - INR 1200 per person per day**.",
+      "Experienced & Bhutanese license holder English/Hindi speaking guide.",
+      "Complimentary Bhutan SIM card will be provided per group.",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Items of a personal nature like room heater, room/hotel upgrade, early/late check-in/checkout, porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, Bhutanese cultural program, traditional dance or campfire, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'bhutan-backpacking-8d7n',
-    title: 'Bhutan Backpacking - 8D7N',
-    destination: 'Bhutan',
-    duration: '8 Days 7 Nights',
-    price: '₹45000',
-    imageUrl: '/cloned_media/12684520250619062221.png',
-    overview: 'An extended 8-day backpacking journey to discover more of Bhutan\'s hidden gems, including the Phobjikha Valley.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Accommodation', 'Transfers', 'Permits (SDF)', 'Guided Tours'],
-    exclusions: ['Flights', 'Meals', 'Entry Fees'],
+    "slug": "bhutan-backpacking-8d7n",
+    "title": "Bhutan Backpacking - 8D7N",
+    "destination": "Bhutan",
+    "duration": "8 Days 7 Nights",
+    "price": "₹45000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/12684520250619062221.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15199920230609120751.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8329820230609120751.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21840220230609120751.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36202320230609120751.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3964720230609120751.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17482620230609120751.png"
+    ],
+    "overview": "An extended **8-day backpacking journey** to discover more of Bhutan's hidden gems. This affordable trip explores the cultural hubs of **Paro**, **Thimphu**, and **Punakha**, and includes a visit to the tranquil **Phobjikha Valley**, starting and ending in Siliguri/Bagdogra.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Siliguri to Phuentsholing | Phuentsholing Arrival",
+        "description": "<ul><li>Arrive at **Bagdogra Airport** in Siliguri (before 12:00 pm), meet your co-travellers and your trip representative. Start the journey towards the Land of Thunder Dragon – **Bhutan**.</li><li>After arriving in **Phuentsholing** by evening, check-in into our comfy hotel and have some leisure.</li><li>Dinner and overnight stay in a hotel in Phuentsholing.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Phuentsholing to Thimpu | Local Walks & Leisure",
+        "description": "<ul><li>Wake up early and post breakfast, proceed towards the immigration office to complete the documentation and formalities.</li><li>Head out to explore some of the amazing cafes in Phuentsholing (if time permits).</li><li>After arriving in **Thimpu** by evening, check-in into our comfy hotel and have some leisure.</li><li>The ones with high energy levels, feel free to take a stroll around and explore the market.</li><li>Dinner and overnight stay in a hotel in Thimpu.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Thimphu Exploration | Local Sightseeing & Cafe Hopping",
+        "description": "<ul><li>Post a scrumptious breakfast, head out to explore all major attractions in **Thimphu**.</li><li>We’ll visit the famous **Golden Buddha Statue**, **Simply Bhutan Museum** and the vibrant **Gangtey Monastery**.</li><li>In the evening, hit the local market of Thimpu and go for cafe hopping.</li><li>Dinner and overnight stay in a hotel in Thimpu.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Thimpu to Punakha | Dochula, Chimilhakhang & More",
+        "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel and proceed towards **Punakha** amidst the breathtaking landscape.</li><li>Cross the famous **Dochula Pass** and proceed towards Punakha and visit the **Punakha Dzong**. We’ll visit the very famous Fertility Temple **Chimilhakhang** and also the longest and oldest suspension bridge of Bhutan.</li><li>Dinner and overnight stay in a hotel in Punakha.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Punakha to Paro | Paro Exploration",
+        "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel and proceed towards the beautiful city of **Paro**.</li><li>The journey from Punakha to Paro is decorated with enchanting landscape and would leave you awestruck as we proceed to explore Paro and the various landmarks it’s famous for.</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Paro to Tiger’s Nest | Taktsang Monastery",
+        "description": "<ul><li>Post a scrumptious breakfast, strap on your trekking shoes and get ready for an adventurous day in Paro.</li><li>We’ll start our drive towards the base for the magnificent **Tiger's Nest trek**. Begin your hike towards **Taktsang Monastery** through the lush greens and breathtaking views of mountains.</li><li>After reaching the monastery, enjoy the rich heritage of this Buddhist spiritual site. Start the descent to reach the base in time to have enough time to explore Paro City.</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Paro to Siliguri",
+        "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel and proceed towards **Siliguri** to cover the longest journey of the trip.</li><li>Head back towards Phuentsholing and further to Siliguri, completing the exit formalities.</li><li>Dinner and overnight stay at the hotel upon arrival in Siliguri.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Departure | Trip Ends",
+        "description": "<ul><li>Breakfast at the hotel.</li><li>Check-out and Departure to **Bagdogra Airport/New Jalpaiguri Railway Station**.</li><li>Trip ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Siliguri to Siliguri in Force Traveler/SUVs/Sedan or similar.",
+      "Accommodation on sharing basis: Phuentsholing, Thimphu, Punakha, Paro and Siliguri.",
+      "Meals: 7 Dinners & 7 Breakfasts, starting from Dinner on Day 1",
+      "Experienced and cool Trip Captain (incase of group trips only).",
+      "Reliable and experienced local drivers to drive in difficult terrains.",
+      "Driver allowances, toll taxes, parking, road taxes.",
+      "Bhutan permit charges, **Sustainable Development Fee (SDF) charges**.",
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'wonders-of-bhutan',
-    title: 'Wonders of Bhutan',
-    destination: 'Bhutan',
-    duration: '9 Days 8 Nights',
-    price: '₹49350',
-    imageUrl: '/cloned_media/42181520250527062231.png',
-    overview: 'A 9-day tour to experience all the wonders of Bhutan, from the Tiger\'s Nest to the serene valleys.',
-    itinerary: createItinerary('9 Days 8 Nights'),
-    inclusions: ['Hotel Stay', 'All Transfers', 'Permits (SDF)', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "wonders-of-bhutan",
+    "title": "Wonders of Bhutan",
+    "destination": "Bhutan",
+    "duration": "9 Days 8 Nights",
+    "price": "₹49350",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/42181520250527062231.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21888420250527062230.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25791220250527062230.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17354120250527062231.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5677720250527062231.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17140920250527062231.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13049020250527062231.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34405520250527062231.png"
+    ],
+    "overview": "A **9-day tour** to experience all the wonders of **Bhutan**, from the magnificent **Tiger's Nest** Monastery to the serene valleys of **Punakha** and the mountain vistas of **Dochula Pass**. This comprehensive journey covers the cultural heart of the Land of the Thunder Dragon.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bagdogra/New Jalpaiguri to Jaigaon/Phuentsholing",
+        "description": "<ul><li>Arrive at **Bagdogra Airport/New Jalpaiguri Railway Station**, meet your trip representative and start the journey towards Bhutan.</li><li>Drive towards **Jaigaon** (West Bengal), the last border town and post clearing immigration move towards **Phuentsholing**.</li><li>After arriving in Phuentsholing by evening, check-in into our comfy hotel.</li><li>Dinner and overnight stay in a hotel in Jaigaon/Phuentsholing.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Phuentsholing/Jaigaon to Thimpu | Local Walks & Leisure",
+        "description": "<ul><li>Wake up early and post breakfast, proceed towards the immigration office to complete the visa/permit formalities.</li><li>Drive towards **Thimpu**, the capital city.</li><li>Enroute Thimpu, visit Kharbandi Monastery, Gedu Town, Dam View Point and the refreshing waterfall near Chuzom.</li><li>After arriving in Thimpu by evening, check-in into our comfy hotel.</li><li>Dinner and overnight stay in a hotel in Thimpu.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Thimphu Local Exploration",
+        "description": "<ul><li>Wake up early and post breakfast, head out to explore all major attractions in **Thimphu**.</li><li>Explore the famous **Buddha Point** (Buddha Dordenma), Memorial Chorten, Sangaygang View Point, Handicraft Emporium, Mini Zoo, Simply Bhutan Museum, Folk Heritage Museum, and National Library.</li><li>In the evening, visit **Tashichho Dzong** – a fortress constructed in 1641.</li><li>Dinner and overnight stay in a hotel in Thimpu.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Thimphu to Punakha/Wangdue via Dochula Pass",
+        "description": "<ul><li>Wake up and post breakfast, proceed towards **Punakha/Wangdue**.</li><li>Enroute, visit Simtokha Dzong and cross the famous **Dochula Pass** – a scenic mountain pass adorned with 108 miniature stupas.</li><li>After arriving in Punakha/Wangdue, visit the **Punakha Dzong** and **Khamsum Yulley Namgyal Chorten**. You can also try Punakha river rafting (on your own).</li><li>Dinner and overnight stay in a hotel in Punakha/Wangdue.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Full-Day Punakha – Phobjikha Excursion",
+        "description": "<ul><li>Wake up and post breakfast, head out to explore the stunning **Phobjikha-Gangtey Valley**.</li><li>Explore **Phobjikha Valley** which is famous for black necked cranes. Visit **Gangtey Gompa**, Kumbhu Lhakhang and Wangmo Hand-Woven Carpet Factory.</li><li>Later, on the way back to Punakha visit **Wangdi** – an ancient town and explore **Wangdiphodrang Dzong**.</li><li>Dinner and overnight stay in a hotel in Punakha/Wangdue.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Punakha to Paro | Taktsang Tiger Nest Monastery",
+        "description": "<ul><li>Wake up and post breakfast, check-out and proceed towards the beautiful city of **Paro**.</li><li>We’ll start our drive towards the base for the magnificent **Tiger's Nest trek**. Begin your hike towards **Taktsang Monastery** and enjoy the rich heritage and jawdropping view it offers.</li><li>After arriving in Paro, check-in into our comfy hotel.</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Full-Day Chele La Pass/Haa Valley Excursion",
+        "description": "<ul><li>Wake up and post breakfast, head out to explore **Chele La Pass/Haa Valley**.</li><li>After driving through blue pine and rhododendron forest, reach **Chele La Pass** and enjoy a superb view of Mount Chomolhari Jichu Drakey.</li><li>Post lunch, drive towards **Haa Valley** and visit Lhakhang Karpo (white temple) and Lhakhang Nagpo (black temple).</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Paro Local Exploration | Paro to Jaigaon/Phuentsholing",
+        "description": "<ul><li>Wake up and post breakfast, check-out from our hotel and head out to explore major attractions in **Paro**.</li><li>Visit **Ta Dzong** (Museum), explore **Rinpung Dzong** and **Kichu Lhakhang**.</li><li>Later, drive from Paro to **Jaigaon/Phuentsholing**, proceed towards the immigration office to complete the exit formalities. Check-in to your hotel and have some leisure.</li><li>Dinner and overnight stay in a hotel in Jaigaon/Phuentsholing.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Jaigaon/Phuentsholing to Bagdogra/New Jalpaiguri",
+        "description": "<ul><li>Post a scrumptious breakfast, check-out from our hotel and we’ll proceed towards **Bagdogra Airport/New Jalpaiguri Railway Station**.</li><li>Trip ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Siliguri to Siliguri in Force Traveler/SUVs/Sedan or similar (as per group size) including pickup & drop facility from/to Bagdogra Airport/New Jalpaiguri Railway Station.",
+      "8 Nights Accommodation on sharing basis: Jaigaon/Phuentsholing, Thimphu, Punakha/Wangdue and Paro.",
+      "16 Meals: 8 Dinners & 8 Breakfasts, starting from Dinner on Day 1 till Breakfast on Day 9.",
+      "Bhutan immigration visa/permit charges, **SDF charges (Bhutan Govt.)**.",
+      "Experienced Trip Guide (Bhutanese license holder).",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Travel Insurance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Items of a personal nature like room heater, room/hotel upgrade, early/late check-in/checkout, porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, Bhutanese cultural program, traditional dance or campfire, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'discover-best-of-bhutan',
-    title: 'Discover Best of Bhutan',
-    destination: 'Bhutan',
-    duration: '8 Days 7 Nights',
-    price: '₹42735',
-    imageUrl: '/cloned_media/30294720250527073739.png',
-    overview: 'Discover the very best of Bhutan in this 8-day comprehensive tour, balancing culture, nature, and comfort.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Hotel Stay', 'All Transfers', 'Permits (SDF)', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "discover-best-of-bhutan",
+    "title": "Discover Best of Bhutan",
+    "destination": "Bhutan",
+    "duration": "8 Days 7 Nights",
+    "price": "₹42735",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/30294720250527073739.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22306920250527073738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1748520250527073738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16828520250527073738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1825020250527073739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10910820250527073739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12154120250527073739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39221420250527073739.png"
+    ],
+    "overview": "Discover the very best of **Bhutan** in this **8-day comprehensive tour**, balancing culture, nature, and comfort. The itinerary includes major destinations like **Thimphu**, **Punakha**, and **Paro**, featuring the iconic **Tiger's Nest** trek and scenic mountain passes like **Dochula** and **Chele La**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bagdogra/New Jalpaiguri to Jaigaon/Phuentsholing",
+        "description": "<ul><li>Arrive at **Bagdogra Airport/New Jalpaiguri Railway Station**, meet your trip representative and start the journey towards Bhutan.</li><li>Drive towards **Jaigaon** (West Bengal) and post clearing immigration move towards **Phuentsholing**.</li><li>After arriving, check-in to your hotel and have some leisure.</li><li>Dinner and overnight stay in a hotel in Jaigaon/Phuentsholing.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Phuentsholing/Jaigaon to Thimpu | Local Walks & Leisure",
+        "description": "<ul><li>Wake up and post breakfast, proceed towards the immigration office to complete the visa/permit formalities.</li><li>Drive towards **Thimpu**. Enroute, visit Kharbandi Monastery, Gedu Town, Dam View Point and the refreshing waterfall near Chuzom.</li><li>After arriving, check-in to your comfy hotel. Feel free to explore the market and food options.</li><li>Dinner and overnight stay in a hotel in Thimpu.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Thimphu Local Exploration",
+        "description": "<ul><li>Wake up and post breakfast, head out to explore all major attractions in **Thimphu**.</li><li>Explore the famous **Buddha Point** (Buddha Dordenma), Memorial Chorten, Sangaygang View Point, Handicraft Emporium, Mini Zoo, Simply Bhutan Museum, Folk Heritage Museum, and National Library.</li><li>In the evening, visit **Tashichho Dzong**.</li><li>Dinner and overnight stay in a hotel in Thimpu.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Thimphu to Punakha/Wangdue via Dochula Pass",
+        "description": "<ul><li>Wake up and post breakfast, check-out and proceed towards **Punakha/Wangdue**.</li><li>Enroute Punakha, visit Simtokha Dzong and cross the famous **Dochula Pass** – adorned with 108 miniature stupas.</li><li>After arriving, visit the **Punakha Dzong** and **Khamsum Yulley Namgyal Chorten**. You can also indulge in Punakha river rafting (on your own).</li><li>Dinner and overnight stay in a hotel in Punakha/Wangdue.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Punakha/Wangdue to Paro",
+        "description": "<ul><li>Wake up and post breakfast, check-out and proceed towards the beautiful city of **Paro**.</li><li>Enroute Paro, explore the Suspension Bridge, Punakha Nunnery, Talo Monastery, Wangdi market and Wangdi Dzong.</li><li>After arriving in Paro, check-in into our comfy hotel.</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Full-Day Chele La Pass/Haa Valley Excursion",
+        "description": "<ul><li>Wake up and post breakfast, head out to explore **Chele La Pass/Haa Valley**.</li><li>Drive through blue pine and rhododendron forest to reach **Chele La Pass** and enjoy a superb view of Mount Chomolhari Jichu Drakey.</li><li>Post lunch, drive towards **Haa Valley** and visit Lhakhang Karpo (white temple) and Lhakhang Nagpo (black temple).</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Paro Local Exploration | Paro to Jaigaon/Phuentsholing",
+        "description": "<ul><li>**Option 1:** Wake up early and explore major attractions in Paro (Ta Dzong, Rinpung Dzong and Kichu Lhakhang).</li><li>**Option 2 (Full Day):** Trek to the magnificent **Taktsang Tiger Nest Monastery**.</li><li>Later, drive from Paro to **Jaigaon/Phuentsholing**, proceed towards the immigration office to complete the exit formalities. Check-in to your hotel.</li><li>Dinner and overnight stay in a hotel in Jaigaon/Phuentsholing.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Jaigaon/Phuentsholing to Bagdogra/New Jalpaiguri",
+        "description": "<ul><li>Post a scrumptious breakfast, check-out from our hotel and proceed towards **Bagdogra Airport/New Jalpaiguri Railway Station**.</li><li>Trip ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Siliguri to Siliguri in Force Traveler/SUVs/Sedan or similar (as per group size) including pickup & drop facility from/to Bagdogra Airport/New Jalpaiguri Railway Station.",
+      "7 Nights Accommodation on sharing basis: Jaigaon/Phuentsholing, Thimphu, Punakha/Wangdue and Paro.",
+      "14 Meals: 7 Dinners & 7 Breakfasts, starting from Dinner on Day 1 till Breakfast on Day 8.",
+      "Bhutan immigration visa/permit charges, **SDF charges (Bhutan Govt.)**.",
+      "Experienced Trip Guide (Bhutanese license holder).",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Travel Insurance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Items of a personal nature like room heater, room/hotel upgrade, early/late check-in/checkout, porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, Bhutanese cultural program, traditional dance or campfire, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'joyful-escape-to-bhutan',
-    title: 'Joyful Escape to Bhutan',
-    destination: 'Bhutan',
-    duration: '7 Days 6 Nights',
-    price: '₹35490',
-    imageUrl: '/cloned_media/18237020250527074633.png',
-    overview: 'A joyful 7-day escape to Bhutan, focusing on the cultural highlights of Paro, Thimphu, and Punakha.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel Stay', 'All Transfers', 'Permits (SDF)', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "joyful-escape-to-bhutan",
+    "title": "Joyful Escape to Bhutan",
+    "destination": "Bhutan",
+    "duration": "7 Days 6 Nights",
+    "price": "₹35490",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/18237020250527074633.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26412320250527074632.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13996820250527074632.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16272320250527074633.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26192520250527074633.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41977320250527074633.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17838620250527074633.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33371020250527074633.png"
+    ],
+    "overview": "A joyful **7-day escape to Bhutan**, focusing on the cultural highlights of **Paro**, **Thimphu**, and **Punakha**. The trip includes the iconic Tiger's Nest trek (optional), visits to significant Dzongs, and mountain passes like Dochula, providing a balance of nature, culture, and relaxation.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bagdogra/New Jalpaiguri to Jaigaon/Phuentsholing",
+        "description": "<ul><li>Arrive at **Bagdogra Airport/New Jalpaiguri Railway Station**, meet your trip representative and start the journey towards Bhutan.</li><li>Drive towards **Jaigaon** and clear immigration formalities to move towards **Phuentsholing**.</li><li>After arriving, check-in to your hotel. If time permits, feel free to stroll around in the local market and Zangto Pelri.</li><li>Dinner and overnight stay in a hotel in Jaigaon/Phuentsholing.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Phuentsholing/Jaigaon to Thimpu | Local Walks & Leisure",
+        "description": "<ul><li>Wake up and post breakfast, check-out from our hotel and proceed towards the immigration office to complete the visa/permit formalities.</li><li>Drive towards **Thimpu**. Enroute, visit Kharbandi Monastery, Gedu Town, Dam View Point and the refreshing waterfall near Chuzom.</li><li>After arriving, check-in into our comfy hotel. Feel free to take a stroll around and explore market & must-try food options.</li><li>Dinner and overnight stay in a hotel in Thimpu.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Full-Day Dochula & Punakha/Wangdue Exploration",
+        "description": "<ul><li>Wake up early and post breakfast, head out to explore Dochula and **Punakha/Wangdue**.</li><li>Enroute Punakha, visit Simtokha Dzong and cross the famous **Dochula Pass** – adorned with 108 miniature stupas.</li><li>After arriving in Punakha, explore the Suspension Bridge, Punakha Nunnery, **Punakha Dzong**, Khamsm Yulley Namgyal Chhorten, Wangdi Dzong and Wangdi Market.</li><li>Post explorations, return back to Thimpu.</li><li>Dinner and overnight stay in a hotel in Thimpu.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Thimphu Local Exploration | Thimpu to Paro",
+        "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel and head out to explore all major attractions in **Thimphu**.</li><li>Explore the famous **Buddha Point** (Buddha Dordenma), Memorial Chorten, Sangaygang View Point, Handicraft Emporium, Simply Bhutan Museum, Folk Heritage Museum, and National Library. Later, visit **Tashichho Dzong**.</li><li>In the evening, drive from Thimpu to **Paro**.</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Paro Local Exploration",
+        "description": "<ul><li>**Option 1 (Leisure/Sightseeing):** Wake up early and explore all major attractions in Paro, including **Ta Dzong**, **Rinpung Dzong**, Kichu Lhakhang and Drukgyel Dzong.</li><li>**Option 2 (Adventure/Trek):** Wake up early and trek to **Taktsang Tiger Nest Monastery**. After the trek, visit Ta Dzong and Rinpung Dzong.</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Paro to Jaigaon/Phuentsholing via Chele La Pass",
+        "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel and head out to explore **Chele La Pass**.</li><li>Drive through blue pine and rhododendron forest, reach **Chele La Pass** and enjoy a superb view of Mount Chomolhari Jichu Drakey.</li><li>Post lunch, drive from Paro to **Jaigaon/Phuentsholing**, proceed towards the immigration office to complete the exit formalities. Check-in to your hotel.</li><li>Dinner and overnight stay in a hotel in Jaigaon/Phuentsholing.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Jaigaon/Phuentsholing to Bagdogra/New Jalpaiguri",
+        "description": "<ul><li>Post a scrumptious breakfast, check-out from our hotel and proceed towards **Bagdogra Airport/New Jalpaiguri Railway Station**.</li><li>Trip ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Siliguri to Siliguri in Force Traveler/SUVs/Sedan or similar (as per group size) including pickup & drop facility from/to Bagdogra Airport/New Jalpaiguri Railway Station.",
+      "6 Nights Accommodation on sharing basis: Jaigaon/Phuentsholing, Thimphu, Punakha/Wangdue and Paro.",
+      "12 Meals: 6 Dinners & 6 Breakfasts, starting from Dinner on Day 1 till Breakfast on Day 7.",
+      "Bhutan immigration visa/permit charges, **SDF charges (Bhutan Govt.)**.",
+      "Experienced Trip Guide (Bhutanese license holder).",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Travel Insurance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Items of a personal nature like room heater, room/hotel upgrade, early/late check-in/checkout, porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, Bhutanese cultural program, traditional dance or campfire, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'unforgettable-bhutan-getaway',
-    title: 'Unforgettable Bhutan Getaway',
-    destination: 'Bhutan',
-    duration: '6 Days 5 Nights',
-    price: '₹35490',
-    imageUrl: '/cloned_media/12164220250527075548.png',
-    overview: 'A 6-day getaway to create unforgettable memories in the magical kingdom of Bhutan.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel Stay', 'All Transfers', 'Permits (SDF)', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "unforgettable-bhutan-getaway",
+    "title": "Unforgettable Bhutan Getaway",
+    "destination": "Bhutan",
+    "duration": "6 Days 5 Nights",
+    "price": "₹35490",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/12164220250527075548.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20869920250527075548.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/174520250527075548.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8040420250527075548.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23751920250527075548.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11769020250527075548.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11973720250527075548.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23982120250527075548.png"
+    ],
+    "overview": "A joyful **6-day escape to Bhutan** designed to create unforgettable memories in the magical kingdom. The trip focuses on the cultural highlights of **Paro**, **Thimphu**, and includes scenic drives through **Dochula Pass** and **Chele La Pass**, beginning and ending at Bagdogra/Siliguri.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bagdogra/New Jalpaiguri to Jaigaon/Phuentsholing",
+        "description": "<ul><li>Arrive at **Bagdogra Airport/New Jalpaiguri Railway Station**, meet your trip representative and start the journey towards Bhutan.</li><li>Drive towards **Jaigaon** and clear immigration formalities to move towards **Phuentsholing**.</li><li>After arriving, check-in to your comfy hotel. Feel free to stroll around in the local market.</li><li>Dinner and overnight stay in a hotel in Jaigaon/Phuentsholing.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Phuentsholing/Jaigaon to Thimpu | Local Walks & Leisure",
+        "description": "<ul><li>Wake up and post breakfast, proceed towards the immigration office to complete the visa/permit formalities.</li><li>Drive towards **Thimpu**. Enroute, visit Kharbandi Monastery, Gedu Town, Dam View Point and the refreshing waterfall near Chuzom.</li><li>After arriving, check-in into our comfy hotel. Feel free to take a stroll around and explore market.</li><li>Dinner and overnight stay in a hotel in Thimpu.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Full-Day Dochula & Punakha/Wangdue Exploration",
+        "description": "<ul><li>Wake up early and post breakfast, head out to explore Dochula and **Punakha/Wangdue**.</li><li>Enroute Punakha, visit Simtokha Dzong and cross the famous **Dochula Pass** – adorned with 108 miniature stupas.</li><li>After arriving in Punakha, explore the Suspension Bridge, Punakha Nunnery, **Punakha Dzong**, Khamsm Yulley Namgyal Chhorten, Wangdi Dzong and Wangdi Market.</li><li>Post explorations, return back to Thimpu.</li><li>Dinner and overnight stay in a hotel in Thimpu.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Thimphu Local Exploration | Thimpu to Paro",
+        "description": "<ul><li>Wake up early and post breakfast, check-out from our hotel and head out to explore all major attractions in **Thimphu**.</li><li>Explore the famous **Buddha Point** (Buddha Dordenma), Memorial Chorten, Tashichho Dzong, and various museums and sights.</li><li>In the evening, drive from Thimpu to **Paro**.</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Paro Local Exploration",
+        "description": "<ul><li>**Option 1 (Leisure/Sightseeing):** Explore major attractions in Paro, including **Ta Dzong**, **Rinpung Dzong**, Kichu Lhakhang and Drukgyel Dzong.</li><li>**Option 2 (Adventure/Trek):** Trek to **Taktsang Tiger Nest Monastery**. After the trek, visit Ta Dzong and Rinpung Dzong.</li><li>Dinner and overnight stay in a hotel in Paro.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Paro to Jaigaon/Phuentsholing to Bagdogra/New Jalpaiguri",
+        "description": "<ul><li>Wake up and post breakfast, check-out from our hotel and head out to explore **Chele La Pass**.</li><li>Drive from Paro to **Jaigaon/Phuentsholing**, proceed towards the immigration office to complete the exit formalities.</li><li>Post a scrumptious breakfast, check-out from our hotel and proceed towards **Bagdogra Airport/New Jalpaiguri Railway Station**.</li><li>Trip ends with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: Siliguri to Siliguri in Force Traveler/SUVs/Sedan or similar (as per group size) including pickup & drop facility from/to Bagdogra Airport/New Jalpaiguri Railway Station.",
+      "5 Nights Accommodation on sharing basis: Jaigaon/Phuentsholing, Thimphu and Paro.",
+      "10 Meals: 5 Dinners & 5 Breakfasts, starting from Dinner on Day 1 till Breakfast on Day 6.",
+      "Bhutan immigration visa/permit charges, **SDF charges (Bhutan Govt.)**.",
+      "Experienced Trip Guide (Bhutanese license holder).",
+      "Reliable and experienced local drivers to drive in the difficult terrains.",
+      "Travel Insurance.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Items of a personal nature like room heater, room/hotel upgrade, early/late check-in/checkout, porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, Bhutanese cultural program, traditional dance or campfire, unless quoted in Inclusions.",
+      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
 
   //==========================================================================
   // DESTINATION: Leh Ladakh (from LehLadakh.tsx)
   //==========================================================================
   {
-    slug: 'manali-leh-backpacking-bike-trip',
-    title: 'Manali Leh Backpacking Bike Trip',
-    destination: 'Leh Ladakh',
-    duration: '8 Days 7 Nights',
-    price: '₹30000',
-    imageUrl: '/cloned_media/22840620250217141818.png',
-    overview: 'The ultimate road trip! A backpacking bike adventure from Manali to Leh, crossing some of the world\'s highest motorable passes.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Bike Rental', 'Fuel', 'Accommodation', 'Mechanic Support'],
-    exclusions: ['Flights', 'Personal Riding Gear', 'Entry Fees'],
+    "slug": "manali-leh-backpacking-bike-trip",
+    "title": "Manali Leh Backpacking Bike Trip",
+    "destination": "Leh Ladakh",
+    "duration": "8 Days 7 Nights",
+    "price": "₹30000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/22840620250217141818.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15623720230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9738220230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/337920230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17170420230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38617820230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41959720230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2530820230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39218220230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9777920230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37899520230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5621020230330171626.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33470920230330171626.png"
+    ],
+    "overview": "The Manali Leh Backpacking Bike Trip is the ultimate road trip adventure for young and free souls, transitioning through beautiful valleys and streams to the high roads of Leh. It is a journey to create unforgettable memories, covering high-altitude motorable passes like Khardung La and Chang La. This 8-day trip is a hub for adventure bugs, encompassing cultural experiences and stunning views of the Himalayas.",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla/Kashmere Gate Bus Stand and meet your Trip Captain. </li><li>Start an overnight journey to Manali and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali to Jispa | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Manali, freshen-up and drive to **Jispa** in Lahaul valley.</li><li>Cross the famous **Atal Tunnel** and visit **Sissu** village on the way.</li><li>After reaching Jispa, check in to our campsite and have some leisure.</li><li>In the evening, regroup for a warm bonfire and chill with your gang.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Jispa to Leh | Baralacha La, Gata Loops, Moore Plains | Leh Arrival",
+        "description": "<ul><li>Post breakfast check out from our campsite in Jispa. Start a long yet most scenic road journey to **Leh** from Jispa. </li><li>Get mesmerized by the exceptional beauty of **Suraj Tal** at **Baralacha La** top.</li><li>En route, we will be greeted with **Gata Loops** (22 hairpin bends) situated at 13,750 feet before taking a pit stop at Pang to grab a satisfying lunch.</li><li>Continue your journey over high altitude passes like **Nakee La**, **Lachung La**, **Tanglang La** and **Moore Plains**.</li><li>After arriving in Leh, check in to our cozy hotel and have some much-needed leisure. </li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "The Leh Town | Leh Sightseeing Day | Cafe Hopping, Bazaars & More",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the confluence of **Indus-Zanskar** rivers by covering **Hall of Fame**, **Magnetic Hills** and **Pathar Sahib Gurudwara** enroute.</li><li>Visit mesmerizing **Shanti Stupa** and **Leh Palace** in the evening.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**. </li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel** - a unique mammal found here in India's cold desert. Optionally, you can also go for ATV Quad biking in sand dunes by your own.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards **Shyok Valley** and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's one of the most scenic high altitude salt water lakes situated at 14,270 feet. </li><li>Enroute Pangong Tso, we will take a pit stop at Durbuk or Tangtse village to grab a satisfying lunch.</li><li>After arriving at Pangong Tso, check in to our scenic campsite and quickly head out for a walk around the lake for an #InstaPerfect shot.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Wake up early in the morning and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, ride back towards Leh town via another high altitude motorable road - **Chang La** situated at 17,586 feet. Enroute Leh, we will stop by at the gorgeous **Thiksey Monastery** and **Rancho School**.</li><li>After arriving in Leh, check in to our cozy hotel and have some much-needed leisure.</li><li>Since this is your last day in the beautiful Leh town, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. </li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Leh to Manali | Overnight Journey",
+        "description": "<ul><li>Wake up to the relaxed morning and post breakfast.</li><li>Have Leisure time in Leh & do some last moment shopping. </li><li>In the evening, begin your drive from Leh to Manali.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Manali Self Explore & Cafe Hopping | Depart for Delhi",
+        "description": "<ul><li>After arriving in Manali early morning and head out for self exploration in Manali.</li><li>Feel free to take a stroll around - visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping in Old Manali and try different local cuisines (on your own).</li><li>In the evening, start-off your overnight journey from Manali to Delhi.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Delhi Arrival | Trip Ends",
+        "description": "<ul><li>Reach Delhi early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Delhi to Manali & back), Force Traveler/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support & mechanic will be included. Bikes will be provided from Leh to Leh. Riding gears like knee guard, elbow guard and helmet will be provided. Bikes will be provided from Day 4 to Day 6.",
+      "6 Nights Accommodation on Sharing Basis: Hotel (Manali & Leh Town), Swiss Tents (Jispa, Nubra Valley & Pangong).",
+      "12 Meals: Jispa (Breakfast+Dinner), Leh (3 Dinners+3 Breakfasts), Nubra Valley (Breakfast + Dinner), Pangong Lake (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "Driver allowances, toll taxes, parking and state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Cost for backpack offloading (for non-bikers).",
+      "Any inner line permits/environmental permits, entry fees.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'leh-ladakh-backpacking-bike-trip',
-    title: 'Leh Ladakh Backpacking Bike Trip',
-    destination: 'Leh Ladakh',
-    duration: '6 Days 5 Nights',
-    price: '₹21000',
-    imageUrl: '/cloned_media/36526420250217143451.png',
-    overview: 'A classic Leh-based bike trip. Fly into Leh and explore Pangong Tso, Nubra Valley, and Khardung La on two wheels.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Bike Rental', 'Fuel', 'Accommodation', 'Inner Line Permits'],
-    exclusions: ['Flights', 'Personal Riding Gear', 'Entry Fees'],
+    "slug": "leh-ladakh-backpacking-bike-trip",
+    "title": "Leh Ladakh Backpacking Bike Trip",
+    "destination": "Leh Ladakh",
+    "duration": "6 Days 5 Nights",
+    "price": "₹21000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/36526420250217143451.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1144220230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36490220230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19190720230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18004520230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24175320230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13952620230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11145620230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11714120230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23265020230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16849620230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15647020230330171951.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34465220230330171951.png"
+    ],
+    "overview": "The Leh Ladakh Backpacking Bike Trip is the ultimate road trip adventure for young and free souls, transitioning through beautiful valleys and streams to the high roads of Leh. It is a journey to create unforgettable memories, covering high-altitude motorable passes like Khardung La and Chang La. This 6-day trip is a hub for adventure bugs, encompassing cultural experiences and stunning views of the Himalayas.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Leh Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Leh via flight, check in to our hotel, freshen-up and have some leisure.</li><li>This will be your acclimatization day as you will be starting a thrilling road trip to a high altitude region in the Himalayas the next day.</li><li>Post refreshment, feel free to take a stroll around the beautiful Leh Town and socialize with your co-travellers.</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "The Leh Town | Leh Sightseeing Day | Cafe Hopping, Bazaars & More",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the confluence of **Indus-Zanskar** rivers by covering Hall of Fame, Magnetic Hills and Pathar Sahib Gurudwara enroute.</li><li>Visit mesmerizing Shanti Stupa and Leh Palace in the evening.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at Diskit Monastery. </li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel** - a unique mammal found here in India's cold desert. Optionally, you can also go for ATV Quad biking in sand dunes by your own.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards **Shyok Valley** and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's one of the most scenic high altitude salt water lakes situated at 14,270 feet. </li><li>Enroute Pangong Tso, we will take a pit stop at Durbuk or Tangtse village to grab a satisfying lunch.</li><li>After arriving at Pangong Tso, check in to our scenic campsite and quickly head out for a walk around the lake for an #InstaPerfect shot.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Wake up early in the morning and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, ride back towards Leh town via another high altitude motorable road - **Chang La** situated at 17,586 feet. Enroute Leh, we will stop by at the gorgeous Thiksey Monastery and Rancho School. After arriving in Leh, check in to our cozy hotel and have some much-needed leisure.</li><li>Since this is your last day in the beautiful Leh town, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. </li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Back to Home | Trip Ends",
+        "description": "<ul><li>In the morning, post breakfast say goodbye to your hosts in Leh and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: All local travel in Force Traveler/Cab.",
+      "5 Nights Accommodation on Sharing Basis: Hotel (Leh Town), Swiss Tents (Nubra Valley & Pangong).",
+      "10 Meals: Leh (3 Dinners+3 Breakfasts), Nubra Valley (Breakfast+Dinner), Pangong Lake (Breakfast+Dinner)",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "Driver allowances, toll taxes, parking and state taxes.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Leh to Leh. Riding gears like knee guard, elbow guard and helmet will be provided. Bikes will be provided from Day 3 to Day 5."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any inner line permits/environmental permits, entry fees.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'leh-ladakh-with-turtuk',
-    title: 'Leh Ladakh with Turtuk',
-    destination: 'Leh Ladakh',
-    duration: '7 Days 6 Nights',
-    price: '₹23000',
-    imageUrl: '/cloned_media/34294120250217145015.png',
-    overview: 'Explore the remote and beautiful village of Turtuk, India\'s northernmost village, along with Nubra and Pangong.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Accommodation', 'All Transfers (Innova/Tempo)', 'Inner Line Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "leh-ladakh-with-turtuk",
+    "title": "Leh Ladakh with Turtuk",
+    "destination": "Leh Ladakh",
+    "duration": "7 Days 6 Nights",
+    "price": "₹21000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/34294120250217145015.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16698520230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7156220230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18226320230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26831220230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13514020230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38992520230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/32229620230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15061920230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27793920230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14320620230330170705.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36567620230330170705.png"
+    ],
+    "overview": "The Leh Ladakh with Turtuk Tour offers a memorable experience to the **“land of high passes”** and the remote **Turtuk Village**, the northernmost village of India, home to the Balti people. This package, starting from Leh, includes exploration of major spots like Nubra Valley and Pangong Tso, offering adventurous activities and stunning Himalayan views.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Leh Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Leh via flight, check in to our hotel, freshen-up and have some leisure.</li><li>This will be your **acclimatization day** as you will be starting a thrilling road trip to a high altitude region in the Himalayas the next day.</li><li>Post refreshment, feel free to take a stroll around the beautiful Leh Town and socialize with your co-travellers.</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "The Leh Town | Leh Sightseeing Day | Cafe Hopping, Bazaars & More",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the confluence of **Indus-Zanskar** rivers by covering Hall of Fame, Magnetic Hills and Pathar Sahib Gurudwara enroute.</li><li>Visit mesmerizing **Shanti Stupa** in the evening.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at Diskit Monastery. </li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes by your own.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up to a peaceful mountain morning in Nubra Valley and post breakfast drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River to reach the Last Village.</li><li>Flanked by Nubra on one side and Baltistan on the other, the landscape, culture, language, clothing, and even the physical features of people change quite drastically crossing over into Turtuk. Witness the jawdropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's one of the most scenic high altitude salt water lakes situated at 14,270 feet. </li><li>Enroute Pangong Tso, we will take a pit stop at Durbuk or Tangtse village to grab a satisfying lunch.</li><li>After arriving at Pangong Tso, check in to our scenic campsite and quickly head out for a walk around the lake for an #InstaPerfect shot.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Wake up early in the morning and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, ride back towards Leh town via another high altitude motorable road - **Chang La** situated at 17,586 feet. Enroute Leh, we will stop by at the gorgeous Thiksey Monastery (if time permits).</li><li>After arriving in Leh, check in to our cozy hotel and have some much-needed leisure.</li><li>Since this is your last day in the beautiful Leh town, therefore make the most out of it by chilling with your travel clan at various quaint cafes and take authentic souvenirs for your loved ones back home. </li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Back to Home | Trip Ends",
+        "description": "<ul><li>In the morning, post breakfast say goodbye to your hosts in Leh and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: All local travel in Force Traveler/Cab.",
+      "6 Nights Accommodation on Sharing Basis: Hotel (Leh Town), Swiss Tents (Nubra Valley & Pangong).",
+      "12 Meals: Leh (3 Dinners+3 Breakfasts), Nubra Valley (2 Breakfasts+2 Dinners), Pangong Lake (Breakfast+Dinner)",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "Driver allowances, toll taxes, parking and state taxes.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Leh to Leh. Riding gears like biking jacket, knee guard and helmet will be provided. Bikes will be provided from Day 2 to Day 6."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any inner line permits/environmental permits, entry fees.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'manali-leh-srinagar',
-    title: 'Manali Leh Srinagar',
-    destination: 'Leh Ladakh',
-    duration: '10 Days 9 Nights',
-    price: '₹32000',
-    imageUrl: '/cloned_media/24468820250217151702.png',
-    overview: 'The grand Himalayan road trip! Start in Manali, traverse Ladakh, and conclude your journey in the beautiful valley of Srinagar.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Accommodation', 'All Transfers (Innova/Tempo)', 'Inner Line Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "manali-leh-srinagar",
+    "title": "Manali Leh Srinagar",
+    "destination": "Leh Ladakh",
+    "duration": "10 Days 9 Nights",
+    "price": "₹32000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/24468820250217151702.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8875420230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24833920230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18303120230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31429220230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8583320230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17035520230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27138320230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21647620230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27678320230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23328420230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22325020230330171007.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24212320230330171007.png"
+    ],
+    "overview": "The **Manali Leh Srinagar Trip** is the grand Himalayan road trip. It takes you through a trail of emotions, serene landscapes and majestic views that will give you memories of a lifetime, blending the adventure of Ladakh with the peace of Srinagar. The journey includes crossing high-altitude motorable passes, exploring the cultural heart of Leh, and visiting picturesque locations like Pangong Lake and the stunning Dal Lake in Srinagar.",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla/Kashmere Gate Bus Stand and meet your Trip Captain. </li><li>Start an **overnight journey to Manali** and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Manali, check in to our hotel, freshen up and have some leisure.</li><li>This will be your **acclimatization day**.</li><li>Feel free to take a stroll around - visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping in Old Manali and try different local cuisines (on your own).</li><li>In the evening, attend the acclimatization session followed by dinner and an overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Manali to Sarchu | Atal Tunnel | Sarchu Arrival",
+        "description": "<ul><li>Wake up early and drive to **Sarchu** via **Atal Tunnel**. Make your way through alluring landscapes. </li><li>Feel the thrill while driving over **Zingzing Bar** (14,010 feet) and **Baralacha La** (16,500 feet). Get mesmerized by the exceptional beauty of **Suraj Tal**.</li><li>After reaching Sarchu in Lahaul valley, check in to our campsite and have some leisure. Dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Sarchu to Leh | Gata Loops, Pang & Moore Plains | Leh Arrival",
+        "description": "<ul><li>Wake up early and drive to **Leh** from Sarchu.</li><li>Enroute we will be greeted with **Gata Loops** (21 hairpin bends) before taking a pit stop at Pang to grab lunch. Continue your journey over high altitude passes like **Nakee La**, **Lachung La**, **Tanglang La** and **Moore Plains**.</li><li>After arriving in Leh, we’ll visit the **Leh Market** where you can go for cafe hopping.</li><li>Check in to our comfy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and drive towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**. </li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up to a peaceful mountain morning in Nubra Valley and drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River to reach the Last Village.</li><li>Witness the jaw-dropping vistas of snow-clad **Karakoram mountains**.</li><li>After arriving back in Hunder, dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and drive towards Shyok Valley and further to **Pangong Tso**.</li><li>Pangong Tso is Asia's one of the most scenic high altitude salt water lakes situated at 14,270 feet. </li><li>Enroute Pangong Tso, we will take a pit stop at Durbuk or Tangtse village for lunch.</li><li>After arriving at Pangong Tso, check in to our scenic campsite and quickly head out for a walk around the lake for an #InstaPerfect shot.</li><li>Dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Drive back towards Leh town via another high altitude motorable road - **Chang La** situated at 17,586 feet. Enroute Leh, we will stop by at the gorgeous **Shey & Thiksey Monastery** and **Rancho School**.</li><li>After arriving in Leh, check in to our cozy hotel. Use this last evening in Leh to relax and take authentic souvenirs for your loved ones back home. </li><li>Dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Leh to Kargil | Pathar Sahib Gurudwara, Lamayuru & More | Kargil Arrival",
+        "description": "<ul><li>Wake up early and drive towards **Kargil** from Leh. Enroute we will visit the **Hall of Fame**, **Pathar Sahib Gurudwara** and **Magnetic Hill**. Witness the confluence of Indus-Zanskar rivers.</li><li>We’ll visit the **Lamayuru Monastery** (known as ‘Moonland’). Further we’ll cross **Fotula Pass** (13,479 feet) and **Namika La** (12,198 feet).</li><li>After arriving in Kargil, check in to our hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Kargil to Srinagar | Drass, Zojila & Sonmarg | Srinagar Arrival",
+        "description": "<ul><li>Wake up early and drive from Kargil to **Srinagar**. Before saying goodbye to Kargil, we will visit the famous **Kargil War Memorial** and Mulbekh Monastery. </li><li>We will be travelling through **Drass** (World’s second coldest inhabited place), feel the thrill while driving over **Zoji La** (11,575 feet) and cross the beautiful **Sonmarg**.</li><li>After arriving in Srinagar, check in to our comfy hotel/houseboat for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Departure from Srinagar | Trip Ends",
+        "description": "<ul><li>In the morning, post breakfast say goodbye to your hosts in Srinagar and your family-like travel clan.</li><li>Reach your home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Delhi to Manali), SUV/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Manali to Srinagar. Riding gears like biker jacket, knee guard, and helmet will be provided. Powerful Royal Enfield Himalayan bikes for an unbeatable riding experience. Support vehicle to carry luggage and spare parts for whole trip.",
+      "9 Nights Accommodation on Sharing Basis: Hotel (Manali, Leh, Kargil & Srinagar), Swiss Tents (Sarchu, Nubra Valley & Pangong).",
+      "18 Meals: Manali (Breakfast+Dinner), Sarchu (Breakfast+Dinner), Leh (2 Dinners+2 Breakfasts), Nubra Valley (2 Dinners+2 Breakfasts), Pangong Lake (Breakfast+Dinner), Kargil (Breakfast+Dinner) & Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "First aid kits, oxygen cylinders and oximeter.",
+      "Inner line permits, driver allowances, toll taxes, parking & state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'all-girls-manali-leh-trip',
-    title: 'All Girls Manali Leh Trip',
-    destination: 'Leh Ladakh',
-    duration: '9 Days 8 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/722620230331052335.png',
-    overview: 'A safe and exciting all-girls trip from Manali to Leh, exploring the best of the Himalayas with like-minded travelers.',
-    itinerary: createItinerary('9 Days 8 Nights'),
-    inclusions: ['Accommodation', 'All Transfers', 'Female Trip Lead', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "all-girls-manali-leh-trip",
+    "title": "All Girls Manali Leh Trip",
+    "destination": "Leh Ladakh",
+    "duration": "9 Days 8 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/722620230331052335.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28940520230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/909920230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34292320230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18150020230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20575620230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29780220230331052335.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41428620230331052335.png"
+    ],
+    "overview": "A safe and exciting **all-girls trip** from Manali to Leh, exploring the best of the Himalayas with like-minded travelers. Experience a blend of serene valleys, thrilling mountain passes, and the unique culture of Leh Ladakh. This backpacking adventure includes major highlights like Pangong Tso, Nubra Valley, and the high-altitude passes along the Manali-Leh highway.",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at pickup point in Delhi - RK Ashram Metro Station/Majnu ka Tila.</li><li>Start an overnight journey to Manali and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali Arrival | Drive to Jispa",
+        "description": "<ul><li>After arriving in Manali, freshen-up and have some leisure.</li><li>Drive to **Jispa** in Lahaul valley.</li><li>After reaching Jispa, check in to our hotel/campsite and have some leisure.</li><li>In the evening, regroup for a warm bonfire along with tea/coffee.</li><li>Savour home-style cooked dinner and overnight stay in a hotel/camps.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Jispa to Leh",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast check out from our hotel/campsite in Jispa.</li><li>Start a long yet most scenic road journey to **Leh** from Jispa, crossing **Baralacha La** (16,500 feet), **Suraj Tal**, and navigating **Gata Loops** (22 hairpin bends).</li><li>Continue your journey over high altitude passes like **Nakee La**, **Lachulung La**, and **Tanglang La**.</li><li>After arriving in Leh, check in to our hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "The Leh Exploration",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the **Thiksey Monastery**, **Shanti Stupa** and **Leh Palace**. Then move to the confluence of **Indus-Zanskar** rivers by covering Hall of Fame, Magnetic Hills and Pathar Sahib Gurudwara enroute.</li><li>In the evening, feel free to take a stroll around Leh town.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Khardung La & Nubra Valley",
+        "description": "<ul><li>Wake up early and drive towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in Hunder Sand Dunes, check in to our hotel/campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Savour home-style cooked dinner and overnight stay in a hotel/camps.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River to reach the Last Village.</li><li>Witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving in Hunder/Turtuk, check in to our scenic campsite/homestay, savour home-style cooked dinner and overnight stay in swiss tents/homestay.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Mesmerizing Pangong",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast move towards Shyo Valley and drive further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet, changing its color 4-5 times a day.</li><li>Enroute Pangong Tso, we will take a pit stop at Durbuk or Tangtse village for lunch.</li><li>After arriving at Pangong Tso, check in to our campsite and quickly head out for a walk around the lake for an #InstaPerfect shot. Enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Chang La & Leh",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive towards Leh via another high altitude motorable road - **Chang La** situated at 17,586 feet.</li><li>Enroute Leh we will visit **Hemis Monastery** and **Rancho School** (popular after Bollywood movie 3 Idiots).</li><li>After arriving back in Leh, check in to our hotel. In the evening, feel free to visit Leh market to purchase souvenirs or go for cafe hopping and treat your stomach with mouth-watering Tibetan dishes.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Leh to Sarchu",
+        "description": "<ul><li>Wake up early in the morning, post breakfast, and say goodbye to your lovely host in Leh.</li><li>Start a long yet most scenic road journey to **Sarchu** from Leh.</li><li>After reaching Sarchu, check in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Manali to Delhi",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, drive to **Manali** from Sarchu.</li><li>Upon our arrival in Manali, we’ll freshen up.</li><li>In the evening, we’ll take an **overnight bus** from Manali for our final way back to **Delhi**.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: In Tempo Traveler from Manali to Manali.",
+      "AC Volvo Bus from Delhi to Manali and return.",
+      "8 nights accommodation on sharing basis: swiss camps & hotel.",
+      "Experienced and cool trip leader.",
+      "Bonfire at select overnight stays (if weather permits).",
+      "Meals: Dinner (8), Breakfast (8).",
+      "Oxygen can/cylinder and first-aid kit.",
+      "All inner line permits.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Activities like bactrian camel and ATV rides in Nubra Valley and Zanskar river rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'manali-leh-srinagar-backpacking-bike-trip',
-    title: 'Manali Leh Srinagar Backpacking Bike Trip',
-    destination: 'Leh Ladakh',
-    duration: '10 Days 9 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/33122620250219135706.png',
-    overview: 'The ultimate biker\'s dream. A 10-day backpacking bike trip covering the entire circuit from Manali to Leh to Srinagar.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Bike Rental', 'Fuel', 'Accommodation', 'Mechanic Support', 'Backup Vehicle'],
-    exclusions: ['Flights', 'Personal Riding Gear', 'Entry Fees'],
+    "slug": "manali-leh-srinagar-backpacking-bike-trip",
+    "title": "Manali Leh Srinagar Backpacking Bike Trip",
+    "destination": "Leh Ladakh",
+    "duration": "10 Days 9 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/33122620250219135706.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29139320240226082737.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39957120240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18581920240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38807320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1105220240226082739.png"
+    ],
+    "overview": "The ultimate biker's dream. A 10-day backpacking bike trip covering the entire circuit from **Manali to Leh to Srinagar**. Experience an adventure-filled road trip through the World's highest motorable roads, stunning valleys, and pristine lakes, culminating in the beautiful valley of Srinagar.",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at pickup point in Delhi - Majnu ka Tila Bus Stop. Nearest Metro - Vidhan Sabha Metro Station (Yellow Line)</li><li>Start an **overnight journey to Manali** in Volvo bus and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali to Jispa | Acclimatization Day",
+        "description": "<ul><li>After arriving in Manali, freshen-up and drive to **Jispa** in Lahaul valley.</li><li>Cross the famous **Atal Tunnel** and visit Sissu village on the way.</li><li>After reaching Jispa, check in to our campsite and have some leisure.</li><li>In the evening, regroup for a warm bonfire and chill with your gang.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Jispa to Leh | Baralacha La, Gata Loops, Moore Plains | Leh Arrival",
+        "description": "<ul><li>Post breakfast check out from our campsite in Jispa. Start a long yet most scenic road journey to **Leh** from Jispa.</li><li>Drive over **Zingzing Bar** (14,010 feet) and **Baralacha La** (16,500 feet) and witness **Suraj Tal**.</li><li>Navigate **Gata Loops** and continue over high altitude passes like **Nakee La**, **Lachung La**, **Tanglang La** and **Moore Plains**.</li><li>After arriving in Leh, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "The Leh Town | Leh Sightseeing Day | Cafe Hopping, Bazaars & More",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the confluence of **Indus-Zanskar** rivers, **Hall of Fame**, **Magnetic Hills** and **Pathar Sahib Gurudwara**.</li><li>Visit mesmerizing **Shanti Stupa** and **Leh Palace** in the evening.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** (17,582 feet).</li><li>Visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in **Hunder**, go for a ride on a **double hump Bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up and drive towards **Turtuk village** to explore the northernmost part of India.</li><li>Witness the jaw-dropping vistas of snow-clad **Karakoram mountains**.</li><li>After arriving back in Hunder, dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Hunder to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, enjoy a walk around the lake for an #InstaPerfect shot and enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Experience the soothing sunrise at Pangong Tso.</li><li>Ride back towards Leh town via another high altitude motorable road - **Chang La** (17,586 feet). Enroute, visit **Thiksey Monastery** and **Rancho School**.</li><li>After arriving back in Leh, enjoy your last evening by chilling at quaint cafes or purchasing souvenirs.</li><li>Dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Drive from Leh to Kargil",
+        "description": "<ul><li>Post breakfast drive towards **Kargil** from Leh.</li><li>We’ll visit the **Lamayuru Monastery** (known as ‘Moonland’). Further we’ll cross **Fotula Pass** (13,479 feet) and **Namika La** (12,198 feet).</li><li>After arriving in Kargil, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Kargil to Srinagar | Drass, Zojila & Sonamarg",
+        "description": "<ul><li>Drive from Kargil to **Srinagar**. Visit the **Kargil War Memorial**.</li><li>Travel through **Drass** (World’s second coldest inhabited place), drive over **Zoji La** (11,575 feet) and cross the beautiful **Sonmarg**.</li><li>After arriving in Srinagar, check in to our comfy **houseboat** for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Departure from Srinagar | Trip Ends",
+        "description": "<ul><li>In the morning, post breakfast say goodbye to your hosts in Srinagar and your family-like travel clan.</li><li>Reach your home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Volvo (Delhi to Manali), SUV/Cab at all other times.",
+      "9 Nights Accommodation on Sharing Basis: Hotel (Kargil & Leh Town), Swiss Tents (Jispa, Nubra Valley & Pangong) Houseboat (Srinagar).",
+      "18 Meals: Jispa (Breakfast+Dinner), Leh (3 Dinners+3 Breakfasts), Nubra Valley (2 Breakfasts + 2 Dinners), Pangong Lake (Breakfast+Dinner), Kargil (Breakfast+Dinner), Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain",
+      "Driver allowances, toll taxes, parking and state taxes.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included.",
+      "Bikes will be provided from Leh to Leh on Day 3 till Day 7.",
+      "Riding gears like knee guard, elbow guard and helmet will be provided."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'srinagar-leh-manali',
-    title: 'Srinagar Leh Manali',
-    destination: 'Leh Ladakh',
-    duration: '10 Days 9 Nights',
-    price: '₹32000',
-    imageUrl: '/cloned_media/8691320250217153005.png',
-    overview: 'The classic Himalayan road trip in reverse. Start from the lush valleys of Srinagar, cross into the high-altitude desert of Ladakh, and descend to Manali.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Accommodation', 'All Transfers (Innova/Tempo)', 'Inner Line Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "srinagar-leh-manali",
+    "title": "Srinagar Leh Manali",
+    "destination": "Leh Ladakh",
+    "duration": "10 Days 9 Nights",
+    "price": "₹32000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/8691320250217153005.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34613420230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/344520230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7055120230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/42411820230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30726520230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21970320230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5819520230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17913620230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31349820230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6394520230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7056120230330171318.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19453320230330171318.png"
+    ],
+    "overview": "The classic Himalayan road trip in reverse. Start from the lush valleys of **Srinagar**, cross into the high-altitude desert of **Leh Ladakh**, and descend to **Manali**. This journey covers picturesque stops like Dal Lake, Kargil War Memorial, Pangong Lake, and multiple high mountain passes.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Srinagar, check-in to your cozy hotel and freshen-up.</li><li>As per your time, head out to explore the streets near Dal Lake, go for Shikara ride or just chill in your houseboat (on your own).</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel/houseboat.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Srinagar to Kargil | Sonmarg, Zojila & Drass | Kargil Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast drive from Srinagar to **Kargil**. Feel the thrill while riding over **Zoji La** (11,575 feet).</li><li>Travel through **Drass** (World’s second coldest inhabited place) where you can take a stopover for lunch.</li><li>Visit the famous **Kargil War Memorial** and Mulbekh Monastery.</li><li>After arriving in Kargil, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Kargil to Leh | Lamayuru, Pathar Sahib Gurudwara & More | Leh Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast check out from our hotel in Kargil. Start yet another long road journey to **Leh** from Kargil.</li><li>Enroute we’ll cross **Fotula Pass** (13,479 feet) and **Namika La** (12,198 feet). Ahead, visit the **Lamayuru Monastery** ('Moonland').</li><li>We’ll visit the **Hall of Fame**, **Pathar Sahib Gurudwara** and **Magnetic Hill**. Witness the confluence of Indus-Zanskar rivers as we move ahead towards Leh town.</li><li>After arriving in Leh, check in to our comfy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up to a peaceful mountain morning in Nubra Valley and post breakfast drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River to reach the Last Village.</li><li>Flanked by Nubra on one side and Baltistan on the other, witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, check in to our campsite and quickly head out for a walk around the lake for an #InstaPerfect shot. Enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Leh | Chang La, Thiksey & More | Leh Arrival",
+        "description": "<ul><li>Wake up early in the morning and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, ride back towards Leh town via another high altitude motorable road - **Chang La** situated at 17,586 feet. Enroute Leh, we will stop by at the gorgeous Shey & **Thiksey Monastery** and **Rancho School**.</li><li>After arriving in Leh, check in to our cozy hotel. In the evening, feel free to visit Leh market to purchase souvenirs or go for cafe hopping.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Drive from Leh to Sarchu | Moore Plains, Pang & Gata Loops | Sarchu Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast drive towards **Sarchu** from Leh.</li><li>Enroute we’ll cross over **Moore Plains** (15,400 feet) and high altitude passes like **Tanglang La**, **Lachung La** and **Nakee La**.</li><li>We will be greeted with **Gata Loops** (21 hairpin bends) after taking a pit stop at Pang to grab a satisfying lunch.</li><li>After reaching Sarchu in Lahaul valley, check in to our campsite for dinner and overnight stay in swiss camps.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Drive from Sarchu to Manali | Atal Tunnel | Manali Arrival",
+        "description": "<ul><li>Wake up early in the morning and post breakfast drive to **Manali** via **Atal Tunnel**.</li><li>Get mesmerized by the exceptional beauty of **Suraj Tal** at **Baralacha La** top. Feel the thrill while driving over **Zingzing Bar** (14,010 feet) and **Baralacha La** (16,500 feet).</li><li>After arriving in Manali, check in to our hotel, freshen-up and have some leisure. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Manali Self Explore & Cafe Hopping | Depart for Delhi",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check-out from our hotel and head out for self exploration in **Manali**.</li><li>Feel free to take a stroll around - visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping in **Old Manali**.</li><li>In the evening, start-off your **overnight bus journey from Manali to Delhi**.</li></ul>"
+      },
+      {
+        "day": 11,
+        "title": "Reach Delhi | Trip Ends",
+        "description": "<ul><li>Reach **Delhi** early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Manali to Delhi), SUV/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Manali to Srinagar. Riding gears like biker jacket, knee guard, and helmet will be provided. Powerful Royal Enfield Himalayan bikes for an unbeatable riding experience. Support vehicle to carry luggage and spare parts for whole trip.",
+      "9 Nights Accommodation on Sharing Basis: Hotel (Manali, Leh, Kargil & Srinagar), Swiss Tents (Sarchu, Nubra Valley & Pangong).",
+      "18 Meals: Manali (Breakfast+Dinner), Sarchu (Breakfast+Dinner), Leh (2 Dinners+2 Breakfasts), Nubra Valley (2 Dinners+2 Breakfasts), Pangong Lake (Breakfast+Dinner), Kargil (Breakfast+Dinner) & Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "First aid kits, oxygen cylinders and oximeter.",
+      "Inner line permits, driver allowances, toll taxes, parking & state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'leh-ladakh-with-umlingla-hanle',
-    title: 'Leh Ladakh With Umlingla & Hanle',
-    destination: 'Leh Ladakh',
-    duration: '8 Days 7 Nights',
-    price: '₹31500',
-    imageUrl: '/cloned_media/20011020250217145838.png',
-    overview: 'An adventurer\'s trip to the remote wonders of Ladakh. Visit the dark sky sanctuary of Hanle and conquer the mighty Umling La, one of the world\'s highest passes.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Accommodation', 'All Transfers (4x4)', 'Special Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "srinagar-leh-manali-with-umlingla-hanle",
+    "title": "Srinagar Leh Manali With Umlingla & Hanle",
+    "destination": "Leh Ladakh",
+    "duration": "12 Days 11 Nights",
+    "price": "₹38000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25238920250308075453.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9568420250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27509220250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39766020250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23844820250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27861520250308075452.png"
+    ],
+    "overview": "An adventurer's trip to the remote wonders of Ladakh. This epic journey spans Srinagar, Leh, and Manali, including exploration of the Changthang Valley, the dark sky sanctuary of **Hanle**, and conquering the mighty **Umling La Pass**, one of the world's highest motorable roads.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Srinagar, check-in to your cozy hotel and freshen-up.</li><li>As per your time, head out to explore the streets near Dal Lake, go for Shikara ride or just chill in your houseboat (on your own).</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel/houseboat.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Srinagar to Kargil | Sonmarg, Zojila & Drass | Kargil Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive from Srinagar to **Kargil**. Feel the thrill while riding over **Zoji La** (11,575 feet). We will be travelling through **Drass** (World’s second coldest inhabited place).</li><li>Visit the famous **Kargil War Memorial** and Mulbekh Monastery.</li><li>After arriving in Kargil, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Kargil to Leh | Lamayuru, Pathar Sahib Gurudwara & More | Leh Arrival",
+        "description": "<ul><li>Wake up early and post breakfast check out from our hotel in Kargil. Start yet another long road journey to **Leh** from Kargil.</li><li>Enroute we’ll cross **Fotula Pass** (13,479 feet) and **Namika La** (12,198 feet). Visit the **Lamayuru Monastery** ('Moonland').</li><li>We’ll visit the **Hall of Fame**, **Pathar Sahib Gurudwara** and **Magnetic Hill**. Witness the confluence of Indus-Zanskar rivers.</li><li>After arriving in Leh, check in to our comfy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Enroute Hunder Sand Dunes, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in **Hunder**, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up to a peaceful mountain morning in Nubra Valley and post breakfast drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River.</li><li>Witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, check in to our campsite and quickly head out for a walk around the lake for an #InstaPerfect shot. Enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents/cottages.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Hanle | Changthang Valley | Hanle Arrival",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive towards **Hanle** via **Changthang Valley**. Enroute Hanle, we will cross tiny settlements like Chushul, Tsaga Village and Loma.</li><li>Hanle is one of Ladakh’s highest villages and home to India’s first and Biggest Astronomical Observatory.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Umling La Day Excursion | Hanle Stargazing",
+        "description": "<ul><li>Wake up and post breakfast, ride towards the mighty **Umling La** - **World’s Highest Motorable Pass** nestled at an altitude of **19,024 ft**, via Photila Pass & Demchuk Village.</li><li>After reaching Umling La pass spend some time at this breathtaking high altitude mountain pass. Post explorations, travel back to our property in Hanle.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Drive from Hanle to Leh | Chumathang Valley | Leh Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, ride towards Leh town via **Chumathang Valley**. Experience the naturally occurring Hot Springs in this picturesque valley.</li><li>After arriving in Leh, check in to our cozy hotel and have some much-needed leisure.</li><li>In the evening, feel free to visit Leh market to purchase souvenirs or go for cafe hopping.</li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Drive from Leh to Sarchu | Moore Plains, Pang & Gata Loops | Sarchu Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive towards **Sarchu** from Leh.</li><li>Enroute we’ll cross over **Moore Plains** (15,400 feet) and high altitude passes like **Tanglang La**, **Lachung La** and **Nakee La**.</li><li>We will be greeted with **Gata Loops** (21 hairpin bends) after taking a pit stop at Pang for lunch.</li><li>After reaching Sarchu in Lahaul valley, check in to our campsite for dinner and overnight stay in swiss camps.</li></ul>"
+      },
+      {
+        "day": 11,
+        "title": "Drive from Sarchu to Manali | Atal Tunnel | Manali Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive to **Manali** via **Atal Tunnel**.</li><li>Get mesmerized by the exceptional beauty of **Suraj Tal** at **Baralacha La** top. Feel the thrill while driving over Zingzing Bar (14,010 feet) and **Baralacha La** (16,500 feet).</li><li>After arriving in Manali, check in to our hotel, freshen-up and have some leisure. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 12,
+        "title": "Manali Self Explore & Cafe Hopping | Depart for Delhi",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check-out from our hotel and head out for self exploration in **Old Manali**.</li><li>Visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping.</li><li>In the evening, start-off your **overnight journey from Manali to Delhi**.</li></ul>"
+      },
+      {
+        "day": 13,
+        "title": "Reach Delhi | Trip Ends",
+        "description": "<ul><li>Reach **Delhi** early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Manali to Delhi), SUV/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Manali to Srinagar. Riding gears like biker jacket, knee guard, and helmet will be provided. Powerful Royal Enfield Himalayan bikes for an unbeatable riding experience. Support vehicle to carry luggage and spare parts for whole trip.",
+      "11 Nights Accommodation on Sharing Basis: Hotel (Manali, Leh, Kargil & Srinagar), Swiss Tents (Sarchu, Nubra Valley & Pangong), Homestay (Hanle).",
+      "22 Meals: Manali (Breakfast+Dinner), Sarchu (Breakfast+Dinner), Leh (2 Dinners+2 Breakfasts), Nubra Valley (2 Dinners+2 Breakfasts), Pangong Lake (Breakfast+Dinner), Hanle (2 Dinners+2 Breakfasts), Kargil (Breakfast+Dinner) & Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "First aid kits, oxygen cylinders and oximeter.",
+      "Inner line permits, driver allowances, toll taxes, parking & state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'leh-ladakh-with-tso-moriri-turtuk',
-    title: 'Leh Ladakh with Tso Moriri & Turtuk',
-    destination: 'Leh Ladakh',
-    duration: '8 Days 7 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/41654520230330173328.png',
-    overview: 'An extensive 8-day trip covering Leh, Nubra, Turtuk, Pangong, and the high-altitude lake Tso Moriri.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Accommodation', 'All Transfers', 'Inner Line Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "leh-ladakh-with-tso-moriri-turtuk",
+    "title": "Leh Ladakh with Tso Moriri & Turtuk",
+    "destination": "Leh Ladakh",
+    "duration": "8 Days 7 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/41654520230330173328.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/11788420230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17486020230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40654320230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17160920230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17117720230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26835720230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16255220230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/271820230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25698920230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20460220230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18833020230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29038620230330170455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25759020230330170455.png"
+    ],
+    "overview": "An extensive 8-day trip covering **Leh**, **Nubra**, the remote village of **Turtuk**, **Pangong Lake**, and the high-altitude lake **Tso Moriri**. This adventure is perfect for experiencing the sharp vistas, ancient culture, and thrilling mountain roads of Ladakh.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Leh Arrival | Acclimatization & Day At Leisure",
+        "description": "<ul><li>After arriving in Leh via flight, check in to our hotel, freshen-up and have some leisure.</li><li>This will be your **acclimatization day** as you will be starting a thrilling road trip to a high altitude region in the Himalayas the next day.</li><li>Post refreshment, feel free to take a stroll around the beautiful Leh Town and socialize with your co-travellers.</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "The Leh Town | Leh Sightseeing Day | Cafe Hopping, Bazaars & More",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the mesmerizing **Shanti Stupa** and **Leh Palace**. Then move to the confluence of **Indus-Zanskar** rivers by covering Hall of Fame, Magnetic Hills and Pathar Sahib Gurudwara enroute.</li><li>In the evening, feel free to take a stroll around Leh town on your own enjoying quaint cafes and old bazaars.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive From Leh To Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>We will take a pit stop at North Pullu or Khardung village to grab a satisfying lunch.</li><li>Enroute Hunder Sand Dunes in Nubra Valley, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in Hunder Sand Dunes, check in to our scenic campsite and quickly head out to take a ride on a **double hump bactrian camel**. Optionally, you can also go for ATV Quad biking in sand dunes (on your own).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Turtuk - India’s Last Village | Back To Nubra Valley",
+        "description": "<ul><li>Wake up to a peaceful mountain morning in Nubra Valley and post breakfast drive towards **Turtuk village** to explore the northernmost part of India as we go parallel to Shyok River.</li><li>Flanked by Nubra on one side and Baltistan on the other, witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Drive From Hunder To Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet. This gorgeous lake changes its color 4-5 times a day.</li><li>After arriving at Pangong Tso, check in to our campsite and quickly head out for a walk around the lake. Enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive From Pangong To Tso Moriri | Chang La | Leh Arrival",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive towards **Tso-Moriri** via another high altitude motorable road - **Chang La** situated at 17,586 feet.</li><li>After arriving at Tso-Moriri, check in to our scenic campsite for a walk around the gorgeous high altitude lake situated at 14,836 ft.</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive From Tso Moriri To Leh | Thiksey & Shey Palace | Leh Arrival",
+        "description": "<ul><li>Wake up early post breakfast, ride back towards **Leh** town. Enroute Leh, we will stop by at the gorgeous **Thiksey Monastery** and **Shey Palace**.</li><li>After arriving in Leh, check in to our cozy hotel and have some much-needed leisure.</li><li>Since this is your last day in the beautiful Leh town, utilize the evening by chilling at quaint cafes and buying souvenirs.</li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Leh #MeTime | Trip Ends",
+        "description": "<ul><li>In the morning, say goodbye to your hosts in Leh and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: All local travel in Force Traveler/Cab.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Leh to Leh on Day 2 till Day 6. Riding gears like knee guard, elbow guard and helmet will be provided.",
+      "Accommodation on Sharing Basis: Hotel (Leh Town), Swiss Tents (Nubra Valley, Pangong & Tso Moriri).",
+      "Meals: Leh (3 Dinners+3 Breakfasts), Nubra Valley (2 Breakfasts+2 Dinners), Pangong (Breakfast+Dinner), Tso Moriri (Breakfast+Dinner), starting from Dinner on Day 1 to Breakfast on Day 8.",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "Driver allowances, toll taxes, parking and state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals and stay arrangements apart from the ones mentioned under inclusions as per the itinerary.",
+      "Activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any inner line permits/environmental permits, entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'all-girls-ladakh-trip-with-turtuk',
-    title: 'All Girls Ladakh Trip with Turtuk',
-    destination: 'Leh Ladakh',
-    duration: '7 Days 6 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/37953920230331053627.png',
-    overview: 'A 7-day all-girls adventure to Leh, Nubra, Pangong, and the unique village of Turtuk, led by a female trip captain.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Accommodation', 'All Transfers', 'Female Trip Lead', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "all-girls-ladakh-trip-with-turtuk",
+    "title": "All Girls Ladakh Trip with Turtuk",
+    "destination": "Leh Ladakh",
+    "duration": "7 Days 6 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/37953920230331053627.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28252320230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17864520230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39496320230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17398420230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21972220230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1607420230331053627.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20524020230331053627.png"
+    ],
+    "overview": "A 7-day all-girls adventure to Leh, Nubra, Pangong, and the unique village of **Turtuk**, India's last village, led by a female trip captain. This trip explores Ladakh's breathtaking scenery, ancient monasteries, high mountain passes like **Khardung La**, and the serene waters of **Pangong Tso**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Leh Arrival | Acclimatization day",
+        "description": "<ul><li>The group will assemble at the airport. From here, a designated vehicle will drop you at your hotel.</li><li>After arriving in **Leh**, check in to our hotel and have some much-needed leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "The Leh Exploration",
+        "description": "<ul><li>Wake up to a relaxed morning and post breakfast head out to explore the beautiful Leh town and few nearby attractions.</li><li>Visit the **Thiksey Monastery**, **Shanti Stupa** and **Leh Palace**. Then move to the confluence of Indus-Zanskar rivers by covering Hall of Fame, Magnetic Hills and Pathar Sahib Gurudwara enroute.</li><li>In the evening, feel free to take a stroll around Leh town by your own.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Khardung La & Nubra Valley",
+        "description": "<ul><li>Wake up early and drive towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>We will take a pit stop at North Pullu or Khardung village for lunch.</li><li>Enroute Hunder Sand Dunes, we will visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in Hunder, check in to our scenic campsite and quickly head out to take a ride on a **double hump Bactrian camel** (optional ATV Quad biking).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Turtuk - India’s Last Village",
+        "description": "<ul><li>Wake up and drive towards **Turtuk village** to explore the northernmost part of India.</li><li>Witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving in Hunder/Turtuk, check in to our scenic campsite/homestay, savour home-style cooked dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Mesmerizing Pangong",
+        "description": "<ul><li>Wake up and post breakfast, move towards Shyok Valley and drive further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, check in to our campsite and quickly head out for a walk around the lake for an #InstaPerfect shot. Enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Chang La & Leh",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive back towards **Leh** town via another high altitude motorable road - **Chang La** situated at 17,586 feet.</li><li>Enroute Leh we will visit **Hemis Monastery** and **Rancho School** (became popular after Bollywood movie 3 Idiots).</li><li>After arriving back in Leh, check in to our cozy hotel. Use the evening to visit Leh market or cafe hop.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Back to Home",
+        "description": "<ul><li>Wake up early in the morning and post breakfast and say goodbye to your lovely host in Leh.</li><li>**Drop at airport.**</li><li>Reach home with lots of unforgettable memories.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: In Tempo Traveler/SUV from Leh to Leh.",
+      "6 nights accommodation on sharing basis: swiss camps & hotel.",
+      "Experienced and cool trip leader.",
+      "Meals: Dinner (6), Breakfast (6).",
+      "Oxygen can/cylinder and first-aid kit.",
+      "All inner line permits.",
+      "Driver allowances, toll taxes, parking, state taxes."
+    ],
+    "exclusions": [
+      "Any extra meals apart from the ones mentioned under inclusions.",
+      "Activities like bactrian camel and ATV rides in Nubra Valley and Zanskar river rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "GST (5%) is applicable extra.",
+      "Anything which is not mentioned in the above inclusions."
+    ]
   },
   {
-    slug: 'manali-leh-srinagar-with-umlingla-hanle',
-    title: 'Manali Leh Srinagar With Umlingla & Hanle',
-    destination: 'Leh Ladakh',
-    duration: '12 Days 11 Nights',
-    price: '₹38000',
-    imageUrl: '/cloned_media/38552720250308073455.png',
-    overview: 'The most comprehensive Ladakh road trip. 12 days covering Manali-Leh, Hanle, Umling La, and exiting via Srinagar.',
-    itinerary: createItinerary('12 Days 11 Nights'),
-    inclusions: ['Accommodation', 'All Transfers', 'Special Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "manali-leh-srinagar-with-umlingla-hanle",
+    "title": "Manali Leh Srinagar With Umlingla & Hanle",
+    "destination": "Leh Ladakh",
+    "duration": "12 Days 11 Nights",
+    "price": "₹38000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/38552720250308073455.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1322520250308073454.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37124520250308073455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30891120250308073455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20250220250308073455.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12487920250308073455.png"
+    ],
+    "overview": "The most comprehensive Ladakh road trip. 12 days covering **Manali-Leh**, the remote Changthang Valley, the dark sky sanctuary of **Hanle**, conquering the mighty **Umling La** (World's Highest Motorable Pass), and exiting via **Srinagar**.",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "Delhi to Manali | Overnight Journey",
+        "description": "<ul><li>Assemble at boarding point in Delhi - Majnu Ka Tilla/Kashmere Gate Bus Stand and meet your Trip Captain. </li><li>Start an overnight journey to Manali and socialize with your co-travellers.</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "Manali Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Manali, check in to our hotel, freshen up and have some leisure.</li><li>This will be your acclimatization day as you will be starting a thrilling road trip to a high-altitude region in the Himalayas the next day.</li><li>Post refreshment, feel free to take a stroll around - visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping in Old Manali and try different local cuisines (on your own).</li><li>In the evening, don’t miss out on the much-needed acclimatization session by your trip captain followed by a home-style cooked dinner and an overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Drive from Manali to Sarchu | Atal Tunnel | Sarchu Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive to **Sarchu** via **Atal Tunnel**. Make your way through alluring landscapes. </li><li>Feel the thrill while driving over Zingzing Bar (14,010 feet) and **Baralacha La** (16,500 feet). Get mesmerized by the exceptional beauty of **Suraj Tal**.</li><li>After reaching Sarchu in Lahaul valley, check in to our campsite for dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Drive from Sarchu to Leh | Gata Loops, Pang & Moore Plains | Leh Arrival",
+        "description": "<ul><li>Wake up early and drive to **Leh** from Sarchu.</li><li>Enroute we will be greeted with **Gata Loops** (21 hairpin bends) before taking a pit stop at Pang to grab a satisfying lunch. Continue your journey over high altitude passes like **Nakee La**, **Lachung La**, **Tanglang La** and **Moore Plains**.</li><li>After arriving in Leh, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in **Hunder**, go for a ride on a **double hump bactrian camel** (optional ATV Quad biking).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up and post breakfast drive towards **Turtuk village** to explore the northernmost part of India.</li><li>Witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, check in to our campsite and enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Hanle | Changthang Valley | Hanle Arrival",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive towards **Hanle** via **Changthang Valley**. Enroute Hanle, we will cross tiny settlements like Chushul, Tsaga Village and Loma.</li><li>Hanle is one of Ladakh’s highest villages and home to India’s first and Biggest Astronomical Observatory.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Umling La Day Excursion | Hanle Stargazing",
+        "description": "<ul><li>Wake up and post breakfast, ride towards the mighty **Umling La** - **World’s Highest Motorable Pass** nestled at an altitude of **19,024 ft**.</li><li>After reaching Umling La pass, travel back to our property in Hanle.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Drive from Hanle to Leh | Chumathang Valley | Leh Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, ride towards **Leh** town via **Chumathang Valley**. Experience the naturally occurring Hot Springs.</li><li>After arriving in Leh, check in to our cozy hotel. In the evening, visit Leh market to purchase souvenirs or go for cafe hopping.</li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Leh to Kargil | Pathar Sahib Gurudwara, Lamayuru & More | Kargil Arrival",
+        "description": "<ul><li>Wake up early and drive towards **Kargil** from Leh. Enroute we will visit the **Hall of Fame**, **Pathar Sahib Gurudwara** and **Magnetic Hill**. Witness the confluence of Indus-Zanskar rivers.</li><li>We’ll visit the **Lamayuru Monastery** ('Moonland'). Further we’ll cross Fotula Pass and Namika La.</li><li>After arriving in Kargil, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 11,
+        "title": "Kargil to Srinagar | Drass, Zojila & Sonamarg | Srinagar Arrival",
+        "description": "<ul><li>Drive from Kargil to **Srinagar**. Visit the **Kargil War Memorial**.</li><li>Travel through **Drass** (World’s second coldest inhabited place), drive over **Zoji La** (11,575 feet) and cross the beautiful **Sonmarg**.</li><li>After arriving in Srinagar, check in to our comfy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 12,
+        "title": "Departure from Srinagar | Trip Ends",
+        "description": "<ul><li>In the morning, post breakfast say goodbye to your hosts in Srinagar and your family-like travel clan.</li><li>Reach your home with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Delhi to Manali), SUV/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Manali to Srinagar. Riding gears like biker jacket, knee guard, and helmet will be provided. Powerful Royal Enfield Himalayan bikes for an unbeatable riding experience. Support vehicle to carry luggage and spare parts for whole trip.",
+      "11 Nights Accommodation on Sharing Basis: Hotel (Manali, Leh, Kargil & Srinagar), Swiss Tents (Sarchu, Nubra Valley & Pangong), Homestay (Hanle).",
+      "22 Meals: Manali (Breakfast+Dinner), Sarchu (Breakfast+Dinner), Leh (2 Dinners+2 Breakfasts), Nubra Valley (2 Dinners+2 Breakfasts), Pangong Lake (Breakfast+Dinner), Hanle (2 Dinners+2 Breakfasts), Kargil (Breakfast+Dinner) & Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "First aid kits, oxygen cylinders and oximeter.",
+      "Inner line permits, driver allowances, toll taxes, parking & state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
   {
-    slug: 'srinagar-leh-manali-with-umlingla-hanle',
-    title: 'Srinagar Leh Manali With Umlingla & Hanle',
-    destination: 'Leh Ladakh',
-    duration: '12 Days 11 Nights',
-    price: '₹38000',
-    imageUrl: '/cloned_media/25238920250308075453.png',
-    overview: 'The ultimate Ladakh circuit in reverse. Start in Srinagar, explore Leh, Hanle, Umling La, and finish in Manali.',
-    itinerary: createItinerary('12 Days 11 Nights'),
-    inclusions: ['Accommodation', 'All Transfers', 'Special Permits', 'Breakfast & Dinner'],
-    exclusions: ['Flights', 'Lunches', 'Entry Fees'],
+    "slug": "srinagar-leh-manali-with-umlingla-hanle",
+    "title": "Srinagar Leh Manali With Umlingla & Hanle",
+    "destination": "Leh Ladakh",
+    "duration": "12 Days 11 Nights",
+    "price": "₹38000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25238920250308075453.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9568420250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27509220250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39766020250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23844820250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27861520250308075452.png"
+    ],
+    "overview": "The most comprehensive Ladakh circuit in reverse. Start in **Srinagar**, explore Leh, the dark sky sanctuary of **Hanle**, conquering the mighty **Umling La** (World's Highest Motorable Pass), and finishing in **Manali**. This adventure fuses culture, high-altitude passes, and remote valleys into a single epic road trip.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar Arrival | Acclimatization & Day at Leisure",
+        "description": "<ul><li>After arriving in Srinagar, check-in to your cozy hotel and freshen-up.</li><li>As per your time, head out to explore the streets near Dal Lake, go for Shikara ride or just chill in your houseboat (on your own).</li><li>In the evening, don’t miss out the much-needed acclimatization session by your trip captain followed by home-style cooked dinner and overnight stay in a hotel/houseboat.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Srinagar to Kargil | Sonmarg, Zojila & Drass | Kargil Arrival",
+        "description": "<ul><li>Wake up early and drive from Srinagar to **Kargil**. Feel the thrill while riding over **Zoji La** (11,575 feet). We will be travelling through **Drass** (World’s second coldest inhabited place).</li><li>Visit the famous **Kargil War Memorial** and Mulbekh Monastery.</li><li>After arriving in Kargil, check in to our cozy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Kargil to Leh | Lamayuru, Pathar Sahib Gurudwara & More | Leh Arrival",
+        "description": "<ul><li>Wake up early and drive to **Leh** from Kargil.</li><li>Enroute we’ll cross **Fotula Pass** (13,479 feet) and **Namika La** (12,198 feet). Visit the **Lamayuru Monastery** ('Moonland').</li><li>We’ll visit the **Hall of Fame**, **Pathar Sahib Gurudwara** and **Magnetic Hill**. Witness the confluence of Indus-Zanskar rivers.</li><li>After arriving in Leh, check in to our comfy hotel for dinner and overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Drive from Leh to Nubra Valley | Khardung La | Hunder Arrival",
+        "description": "<ul><li>Wake up early and ride towards **Nubra Valley** via one of the World’s highest motorable roads - **Khardung La** situated at 17,582 feet.</li><li>Visit the stunning statue of Maitreya Buddha at **Diskit Monastery**.</li><li>After arriving in **Hunder**, go for a ride on a **double hump bactrian camel** (optional ATV Quad biking).</li><li>Savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Turtuk - India’s Last Village | Back to Hunder in Nubra Valley",
+        "description": "<ul><li>Wake up and post breakfast drive towards **Turtuk village** to explore the northernmost part of India.</li><li>Witness the jaw-dropping vistas of snow-clad Karakoram mountains.</li><li>After arriving back in Hunder, savour home-style cooked dinner and overnight stay in swiss tents.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Drive from Nubra to Pangong Tso | Shyok Valley | Pangong Arrival",
+        "description": "<ul><li>Wake up and post breakfast, move towards Shyok Valley and ride further to **Pangong Tso**.</li><li>Pangong Tso is Asia's most scenic high altitude salt water lake situated at 14,270 feet.</li><li>After arriving at Pangong Tso, check in to our campsite and enjoy the mesmerizing sunset scene.</li><li>Savour home-style cooked dinner and overnight stay in camps.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Drive from Pangong to Hanle | Changthang Valley | Hanle Arrival",
+        "description": "<ul><li>Wake up early and experience the soothing sunrise at Pangong Tso.</li><li>Post breakfast, drive towards **Hanle** via **Changthang Valley**. Hanle is home to India’s first and Biggest Astronomical Observatory.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "Umling La Day Excursion | Hanle Stargazing",
+        "description": "<ul><li>Wake up and post breakfast, ride towards the mighty **Umling La** - **World’s Highest Motorable Pass** nestled at an altitude of **19,024 ft**.</li><li>After reaching Umling La pass, travel back to our property in Hanle.</li><li>Savour home-style cooked dinner and overnight stay in a homestay/swiss-camps.</li></ul>"
+      },
+      {
+        "day": 9,
+        "title": "Drive from Hanle to Leh | Chumathang Valley | Leh Arrival",
+        "description": "<ul><li>Wake up early and post breakfast, ride towards **Leh** town via **Chumathang Valley**. Experience the naturally occurring Hot Springs.</li><li>After arriving in Leh, check in to our cozy hotel. In the evening, visit Leh market to purchase souvenirs or go for cafe hopping.</li><li>Post exploration, savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 10,
+        "title": "Drive from Leh to Sarchu | Moore Plains, Pang & Gata Loops | Sarchu Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive towards **Sarchu** from Leh.</li><li>Enroute we’ll cross over **Moore Plains** and high altitude passes like **Tanglang La**, **Lachung La** and **Nakee La**.</li><li>We will be greeted with **Gata Loops** (21 hairpin bends) after taking a pit stop at Pang for lunch.</li><li>After reaching Sarchu in Lahaul valley, check in to our campsite for dinner and overnight stay in swiss camps.</li></ul>"
+      },
+      {
+        "day": 11,
+        "title": "Drive from Sarchu to Manali | Atal Tunnel | Manali Arrival",
+        "description": "<ul><li>Wake up early and post breakfast drive to **Manali** via **Atal Tunnel**.</li><li>Get mesmerized by the exceptional beauty of **Suraj Tal** at **Baralacha La** top.</li><li>After arriving in Manali, check in to our hotel, freshen-up and have some leisure. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>"
+      },
+      {
+        "day": 12,
+        "title": "Manali Self Explore & Cafe Hopping | Depart for Delhi",
+        "description": "<ul><li>Wake up to a peaceful mountain morning and post breakfast, check-out from our hotel and head out for self exploration in **Old Manali**.</li><li>Visit Hidimba Devi Temple, Jogini Falls or go for cafe hopping.</li><li>In the evening, start-off your **overnight journey from Manali to Delhi**.</li></ul>"
+      },
+      {
+        "day": 13,
+        "title": "Reach Delhi | Trip Ends",
+        "description": "<ul><li>Reach **Delhi** early morning with lots of amazing memories and unforgettable experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transportation: AC Semi-Sleeper Bus (Manali to Delhi), SUV/Cab at all other times.",
+      "For Bikers: Fuel as per itinerary, backup support, experienced support staff & mechanic will be included. Bikes will be provided from Manali to Srinagar. Riding gears like biker jacket, knee guard, and helmet will be provided. Powerful Royal Enfield Himalayan bikes for an unbeatable riding experience. Support vehicle to carry luggage and spare parts for whole trip.",
+      "11 Nights Accommodation on Sharing Basis: Hotel (Manali, Leh, Kargil & Srinagar), Swiss Tents (Sarchu, Nubra Valley & Pangong), Homestay (Hanle).",
+      "22 Meals: Manali (Breakfast+Dinner), Sarchu (Breakfast+Dinner), Leh (2 Dinners+2 Breakfasts), Nubra Valley (2 Dinners+2 Breakfasts), Pangong Lake (Breakfast+Dinner), Hanle (2 Dinners+2 Breakfasts), Kargil (Breakfast+Dinner) & Srinagar (Breakfast+Dinner).",
+      "Experienced and cool Trip Captain/Bike Captain.",
+      "First aid kits, oxygen cylinders and oximeter.",
+      "Inner line permits, driver allowances, toll taxes, parking & state taxes."
+    ],
+    "exclusions": [
+      "Optional activities like Paragliding, Bactrian Camel Safari and ATV rides and Zanskar River Rafting.",
+      "Travel Insurance, items of a personal nature like porterage, tips, laundry etc.",
+      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
+      "Anything which is not mentioned in the above inclusions.",
+      "GST (5%) is applicable extra."
+    ]
   },
 
   //==========================================================================
   // DESTINATION: Bali (from Bali.tsx)
   //==========================================================================
   {
-    slug: 'bali-backpacking',
-    title: 'Bali Backpacking',
-    destination: 'Bali',
-    duration: '6 Days 5 Nights',
-    price: '₹34999',
-    imageUrl: '/cloned_media/12586020220805080100.png',
-    overview: 'A fun and affordable backpacking trip to Bali. Explore Kuta, Ubud, and the surrounding islands with a group of fellow travelers.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hostel/Guesthouse Stay', 'Airport Transfers', 'Tours', 'Breakfast'],
-    exclusions: ['Flights', 'Visa (if applicable)', 'Lunches & Dinners'],
+    "slug": "bali-backpacking",
+    "title": "Bali Backpacking",
+    "destination": "Bali",
+    "duration": "6 Days 5 Nights",
+    "price": "₹34999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/12586020220805080100.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3119720220805080100.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10409120220805080100.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4634320220805080100.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33147320220805080100.png"
+    ],
+    "overview": "A fun and affordable backpacking trip to **Bali**. This 6-day journey explores the vibrant town of **Kuta**, the cultural heart of **Ubud**, stunning temples like **Tanah Lot** and **Uluwatu**, and includes a full-day excursion to **Nusa Penida**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Bali Arrival & Kuta Leisure",
+        "description": "<ul><li>Arrival in **Bali** and transfer to your hotel in **Kuta**. Check-in and have some leisure.</li><li>In the evening, head out for cafe hopping and soak in the chilled-out vibes.</li><li>Overnight stay in Kuta.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Tanah Lot Temple, Tanjung Benoa Beach & Uluwatu Temple",
+        "description": "<ul><li>Wake up and post breakfast, set out to visit **Tanah Lot Temple**.</li><li>Explore **Tanjung Benoa Beach**. Indulge in various water sports activities like a banana boat ride and snorkeling (included). Visit **Turtle Island** via a glass-bottom boat (included).</li><li>Visit **Uluwatu Temple** to witness a jaw-dropping sunset scene.</li><li>Overnight stay in Kuta.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Nusa Penida Boat Ride | Beaches & Cafe Hopping",
+        "description": "<ul><li>Post a delightful breakfast, catch an early morning fast boat to **Nusa Penida Island**.</li><li>Visit **Angel Billabong** and **Broken Beach**.</li><li>Explore **Kelingking Beach Secret Point** and **Crystal Bay**.</li><li>Return and overnight stay in Kuta.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Ubud Arrival | Kintamani Volcano, Rice Terraces & Waterfall",
+        "description": "<ul><li>Wake up and post a hearty breakfast, checkout from your hotel in Kuta and transfer to **Ubud**.</li><li>Visit the magnificent **Kintamani Volcano**. Head towards Batubulan village for special kinds of paintings.</li><li>Take a stop at **Tegalalang Village** for the iconic rice terraces and **Tegenungan Waterfall**.</li><li>Overnight stay in Ubud.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Ubud Royal Palace, Handicraft Market & Bali Swing",
+        "description": "<ul><li>Optional early morning sunrise hike to Mount Batur (at additional cost).</li><li>Post a delightful breakfast, visit the **Royal Palace** in Ubud and stroll in the local **Ubud market**.</li><li>Experience the thrill of the famous **Bali Swing** on the way.</li><li>Overnight stay in Ubud.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Goodbye Bali | Trip Ends",
+        "description": "<ul><li>It’s time to say goodbye to a lovely Bali trip. Drive towards the airport and board your flight back to India with a heart full of numerous memories.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation: 3 nights at Kuta & 2 nights at Ubud (Hostel/Guesthouse Stay).",
+      "Meals: 5 Breakfasts are included at the time of stay.",
+      "Transfers from Airport – Kuta – Ubud – Airport.",
+      "All local assistance.",
+      "Activities: Visit to **Tanah Lot Temple**, Water-sports activities at **Tanjung Benoa** (1 Banana Boat & Snorkeling) + Glass Bottom Boat ride to Turtle island, Visit to **Uluwatu Temple** for sunset view, Full day excursion to **Nusa Penida**, Full day tour of **Kintamani** for Volcano view, Coffee Plantation, **Tegalalang Rice Terrace**, **Tegenungan Waterfall**, Half day tour of **Bali Swing** (3 swings), **Ubud Royal Palace** & **Handicraft Village**."
+    ],
+    "exclusions": [
+      "GST (5%) is applicable extra.",
+      "TCS (5%) extra applicable.",
+      "Water Sports or any other activity other than mentioned in the itinerary.",
+      "Any kind of food or beverage that is not included in the package like alcoholic drinks, mineral water, meals/refreshments/lunches on the highway.",
+      "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc",
+      "Any cost arising due to natural calamities like landslides, roadblocks etc. (to be borne directly by the customer on the spot)",
+      "Anything not mentioned in the inclusions.",
+      "Cost arises due to change or delay in flight timings.",
+      "Any Airfare, Visa & Medical Insurance.",
+      "Visa is available on arrival at an approx. cost of US$ 35 per person.",
+      "Travel Insurance."
+    ]
   },
   {
-    slug: 'bali-singapore',
-    title: 'Bali & Singapore',
-    destination: 'Bali',
-    duration: '7 Days 6 Nights',
-    price: '₹60000',
-    imageUrl: '/cloned_media/13569520240211131131.png',
-    overview: 'A tale of two destinations. Combine the tropical paradise of Bali with the futuristic metropolis of Singapore.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotels', 'Inter-country Flight', 'Airport Transfers', 'Sightseeing'],
-    exclusions: ['Main Flights', 'Visa Fees', 'Meals'],
+    "slug": "bali-singapore",
+    "title": "Bali & Singapore",
+    "destination": "Bali",
+    "duration": "7 Days 6 Nights",
+    "price": "₹60000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/13569520240211131131.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24841220240211131129.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29802020240211131130.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7215920240211131130.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22644120240211131130.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34546120240211131130.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4820320240211131130.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26063320240211131130.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12078420240211131130.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19002520240211131130.png"
+    ],
+    "overview": "A tale of two destinations. Combine the tropical paradise of **Bali** with the futuristic metropolis of **Singapore** on this **7-day, 6-night** tour. Experience beach relaxation, rich Balinese culture, thrilling water sports, and the highlights of modern Singapore including **Universal Studios** and the **Night Safari**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival at Bali - Candle Light Dinner",
+        "description": "<ul><li>Arrival at **Ngurah Rai Airport, Denpasar, Bali**. Our representative will meet and welcome you, and transfer you to the hotel.</li><li>Enjoy a **Candle Light Dinner by the Beach** with Private Transfers.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Water Sports Half Day - Half Day Tanah Lot",
+        "description": "<ul><li>Proceed to **Tanjung Benoa Beach** for Water Sports (Banana Boat Ride, Flying Fish, & Jet Ski included).</li><li>Visit the spectacular **Tanah Lot Temple** which stands proudly on a rock inside the ocean.</li><li>Shopping time is available for Balinese handicraft products.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Full-Day North Bali Tour",
+        "description": "<ul><li>Proceed for a full-day tour of North Bali starting with **Bedugul** fruit and vegetable market.</li><li>Visit **Ulun Danu Temple** – a peaceful Hindu temple on the banks of Lake Beratan.</li><li>See the **Gitgit Waterfalls** and stop at **Banjar village hot spring**.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Transfer from Bali to Singapore - Check-in",
+        "description": "<ul><li>In the morning check out from your hotel and transfer to the Airport to catch your **flight to Singapore**.</li><li>Upon arrival at **Changi Airport**, you will be met by our representative and transferred to the hotel.</li><li>The rest of the day is free for you to explore on your own.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Full-Day Universal Studios Tour",
+        "description": "<ul><li>Spend a full day at **Universal Studios Singapore** on **Sentosa Island**.</li><li>Explore themed areas based on your favorite films, enjoy thrilling rides, and see how moviemakers create visual effects.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Half Day City Tour - Night Safari",
+        "description": "<ul><li>After breakfast proceed for the **Singapore Half-Day City Tour**.</li><li>Drive across the Civic District, **Orchard Road**, **Little India**, and **Chinatown**. Get clicked with the **Merlion Park** and enjoy the view of Marina Bay.</li><li>In the evening, experience the **Night Safari**, the world's first nocturnal wildlife park.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Departure from Singapore",
+        "description": "<ul><li>After breakfast at the hotel, check out and keep your bags at the concierge.</li><li>The rest of the day is free at your leisure to explore Singapore or do shopping.</li><li>Later, return to the hotel, collect your bags and take a transfer to the Airport.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Bali: 3 nights at Best Western Kuta Beach/Similar; Bed and Breakfast; Private Transfers (Airport to Kuta, Kuta to Airport); Candle Light Dinner by the Beach with Private Transfers; Half Day **Tanah Lot Tour** (Private); Water Sports - **Banana Boat Ride + Flying Fish + Jet Ski** (Seat in Coach Transfers); North Bali with Waterfall and Hotsprings (Bedugul, Ulun Danu, Gitgit Waterfalls and Banjar Hot Springs) (Private).",
+      "Singapore: 3 nights at Hotel Boss/Similar; Breakfast; Singapore - **Tourist Visa - 30 days**; One-way Transfer Between Airport And Hotel; **Universal Studio Tour** with Transfers (Seat in Coach); **Half-Day City Tour** (Seat in Coach); **Night Safari** (Seat in Coach); One-way Airport Transfer between Hotel and Changi Airport (Private)."
+    ],
+    "exclusions": [
+      "Immunization costs, city taxes at the hotel, and local departure taxes (wherever applicable)",
+      "Optional enhancements like room or flight upgrades, or local camera or video fees",
+      "Additional sightseeing, activities, and experiences outside of the itinerary",
+      "Early check-in or late check-out from hotels (unless otherwise specified)",
+      "Lunches, dinners, and drinks (alcoholic and non-alcoholic), unless specified in the itinerary",
+      "Any international and/or domestic flights, unless explicitly mentioned as an inclusion",
+      "Excess baggage charges, and where applicable, baggage not included in your fare",
+      "Tips for services and experiences",
+      "Any Visa is required, unless mentioned as an inclusion",
+      "Flights cost"
+    ]
   },
   {
-    slug: 'bali-ultimate-7-days',
-    title: 'Bali - Ultimate 7 Days',
-    destination: 'Bali',
-    duration: '7 Days 6 Nights',
-    price: '₹49999',
-    imageUrl: '/cloned_media/37586820240127171448.png',
-    overview: 'The ultimate 7-day Bali itinerary, covering the beaches, temples, rice terraces, and island life of Nusa Penida.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel/Villa Stay', 'Airport Transfers', 'Nusa Penida Day Trip', 'Breakfast'],
-    exclusions: ['Flights', 'Lunches & Dinners', 'Activity Fees'],
+    "slug": "bali-ultimate-7-days",
+    "title": "Bali - Ultimate 7 Days",
+    "destination": "Bali",
+    "duration": "7 Days 6 Nights",
+    "price": "₹49999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/37586820240127171448.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/973720240127171447.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30345520240127171448.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29718920240127171448.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3577120240127171448.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24206520240127171448.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40329020240127171448.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12785120240127171448.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/13677720240127171448.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10181320240127171448.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23205720240127171448.png"
+    ],
+    "overview": "The ultimate **7-day Bali itinerary**, combining the best of the island: the beaches of Legian, the culture of Ubud, the stunning **Tegalalang Rice Terraces**, the offshore beauty of **Nusa Penida**, and sacred temples like **Besakih** and **Lempuyang (Gates of Heaven)**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival at Bali & Kuta/Legian Check-in",
+        "description": "<ul><li>Arrival at **Ngurah Rai Airport, Denpasar, Bali**. Our representative will meet and welcome you. Afterward, proceed to your hotel (Mercure Bali Legian/Similar) for refreshment.</li><li>Accommodation: 4 nights at Mercure Bali Legian/Similar.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Full Day Ubud Village, Rice Terraces & Waterfalls",
+        "description": "<ul><li>Proceed for a full day tour of **Ubud**. Visit Celuk (center of gold and silver works), Mas (center of woodcarvings), and Ubud (center of Balinese paintings).</li><li>Visit the iconic **Tegalalang Rice Terraces** and experience the exhilarating **Aloha Swing**.</li><li>Visit **Tukad Cepung Waterfall** and **Tegenungan Waterfalls**.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Water Sports Half Day - Half Day Tanah Lot",
+        "description": "<ul><li>Proceed to **Tanjung Benoa Beach** for Water Sports (**Banana Boat Ride, Flying Fish, & Jet Ski** included).</li><li>Visit the spectacular **Tanah Lot Temple** which stands proudly on a rock inside the ocean.</li><li>Shopping time is available for Balinese handicraft products.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Nusa Penida Island Day Trip & Hotel Change",
+        "description": "<ul><li>Today early morning you will be picked up and we will proceed to Sanur Harbour to catch your Fast boat to **Nusa Penida** Island.</li><li>Visit **Angel Billabong**, **Broken Beach (Pantai Pasih Uug)**, and **Kelingking Secret Point**.</li><li>Depart to Toya Pakeh Harbour to catch your return boat back to Bali.</li><li>Transfer from your Kuta hotel to your second hotel in Ubud (**Alam Puisi Villa/Similar**). Accommodation: 2 nights at Alam Puisi Villa.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Mother Temple of Bali (Besakih), Tirta Gangga and Lempuyang's Gates of Heaven",
+        "description": "<ul><li>Head to the majestic **Lempuyang Temple** (Gates of Heaven). Be awed by the magical views of Mount Agung behind the temple.</li><li>Visit **Tirta Gangga**, a beautiful former royal water palace in Eastern Bali.</li><li>Visit the biggest temple in Bali, **Pura Besakih** (Mother Temple of Bali).</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Full-Day North Bali Tour (Bedugul, Ulun Danu, Waterfalls & Hotsprings)",
+        "description": "<ul><li>Proceed for a full day tour of North Bali starting with **Bedugul** fruit and vegetable market.</li><li>Visit **Ulun Danu Temple** – a peaceful Hindu temple on the banks of Lake Beratan.</li><li>See **Gitgit Waterfalls** and stop at **Banjar village hot spring**.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Departure from Bali",
+        "description": "<ul><li>After a hearty **breakfast**, you are transferred in time to the airport to board your flight.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Stay for 4 nights at Mercure Bali Legian & Stay for 2 nights at Alam Puisi Villa.",
+      "6 Breakfasts as per the stay.",
+      "Private Transfers (Airport to Hotel, Hotel change, Hotel to Airport).",
+      "Full Day Ubud Village + **Tegalalang Rice Terraces** + **Teggunangan Waterfalls** + **Bali Swing (Aloha)** - Private.",
+      "Water Sports - **Banana Boat Ride + Flying Fish + Jet Ski** (Seat in Coach Transfers).",
+      "Half Day **Tanah Lot Tour** - Private.",
+      "Full Day **Nusa Penida Island Trip** with Local Lunch (Shared Fastboat).",
+      "Full Day **Besakih Temple, Tirta Gangga and Gates of Heaven (Lempuyang)** - Private Basis.",
+      "North Bali with Waterfall and Hotsprings (Bedugul, Ulun Danu, Gitgit Waterfalls and Banjar Hot Springs) - Private."
+    ],
+    "exclusions": [
+      "GST (5%) & TCS (5%) is applicable extra.",
+      "Water Sports or any other activity other than mentioned in the itinerary.",
+      "Any kind of food or beverage that is not included in the package.",
+      "Any personal expenses (tips, laundry, phone bills, etc).",
+      "Any cost arising due to natural calamities (landslides, roadblocks, etc).",
+      "Any Airfare, Visa & Medical Insurance. Visa is available on arrival at an approx. cost of US$ 35 per person.",
+      "Anything (Meals, Transport & Services) that are not mentioned in the above ‘Inclusions’ section."
+    ]
   },
   {
-    slug: 'bali-malaysia',
-    title: 'Bali & Malaysia',
-    destination: 'Bali',
-    duration: '7 Days 6 Nights',
-    price: '₹85000',
-    imageUrl: '/cloned_media/30531120240211130306.png',
-    overview: 'Combine the serene beauty of Bali with the vibrant culture and city life of Kuala Lumpur, Malaysia.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotels', 'Inter-country Flight', 'Airport Transfers', 'Sightseeing'],
-    exclusions: ['Main Flights', 'Visa Fees', 'Meals'],
+    "slug": "bali-malaysia",
+    "title": "Bali & Malaysia",
+    "destination": "Bali",
+    "duration": "7 Days 6 Nights",
+    "price": "₹85000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/30531120240211130306.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5482920240211130305.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18386820240211130305.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9045020240211130305.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8547220240211130305.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2552620240211130305.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38253420240211130305.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20321820240211130306.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29283020240211130306.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3328320240211130306.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19535220240211130306.png"
+    ],
+    "overview": "Combine the serene beauty of **Bali** with the vibrant culture and city life of **Kuala Lumpur, Malaysia**. This **7-day** tour features romantic dinners, Balinese temples, thrilling water sports, the **Kintamani Volcano**, and the iconic **Batu Caves** and **Genting Highlands** in Malaysia.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival at Bali - Candle Light Dinner",
+        "description": "<ul><li>Arrival at **Ngurah Rai Airport, Denpasar, Bali**. Our representative will meet and welcome you, and transfer you to the hotel.</li><li>Enjoy a **Candle Light Dinner by the Beach** with Private Transfers.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Water Sports Half Day - Half Day Tanah Lot",
+        "description": "<ul><li>Proceed to **Tanjung Benoa Beach** for Water Sports (Banana Boat Ride, Flying Fish, & Jet Ski included).</li><li>Visit a spectacular **Tanah Lot Temple**, which stands proudly on a rock inside the ocean.</li><li>Shopping time is available for Balinese handicraft products.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Full-Day North Bali Tour",
+        "description": "<ul><li>Proceed for a full-day tour of North Bali starting with **Bedugul** fruit and vegetable market.</li><li>Visit **Ulun Danu Temple** – a peaceful Hindu temple on the banks of Lake Beratan.</li><li>Head north to cross the ridge of Bali’s central mountain range, seeing **Gitgit waterfalls** and stopping at **Banjar village hot spring**.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Full Day Ubud and Kintamani",
+        "description": "<ul><li>Experience the breathtaking landscapes of Bali's central highlands with a private vehicle for the entire day.</li><li>Visit the mesmerizing **Kintamani** area for volcano views and enjoy the chance to customize your experience by selecting up to four additional inclusions (e.g., Aloha Swing, Goa Gajah, Coffee Plantation, Celuk & Mas Village).</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Transfer from Bali to Kuala Lumpur",
+        "description": "<ul><li>Check out from your hotel and transfer to the Airport to catch your **flight to Kuala Lumpur**.</li><li>Upon arrival at **Kuala Lumpur Airport**, you will be met by our representative and transferred to the hotel.</li><li>The rest of the day is free for you to explore on your own.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Batu Caves - Full Day Genting Highlands (Cable Car)",
+        "description": "<ul><li>After breakfast, depart for **Genting Highlands**. En route, make a short stop at **Batu Caves** - the Hindu shrine dedicated to Lord Murugah.</li><li>Continue the drive to Genting Skyway Lower Station to board a **cable car** to the peak.</li><li>Enjoy the theme parks and entertainment of Genting Highlands. Return to Kuala Lumpur in the evening.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Departure from Kuala Lumpur",
+        "description": "<ul><li>After breakfast check out from the hotel. You can keep your bags in the cloakroom and spend some time shopping in Kuala Lumpur.</li><li>Later you will be transferred to the airport to catch your flight back home.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Bali: 4 nights in Bali at Best Western Kuta Beach /Similar; Bed And Breakfast; Private Transfer from Airport to Hotel; Candle Light Dinner by the Beach (Private); Half Day Tanah Lot Tour (Private); Water Sports - **Banana Boat Ride + Flying Fish + Jet Ski** (Seat in Coach Transfers); North Bali Tour (Private); Ubud and Kintamani Tour (Private & Customisable); Goa Gajah, Aloha Swing (5 Swings + 4 Photo Spots Combo), Celuk and Mas Village Visit, Coffee Plantation Visit (Inclusions depend on customization choice).",
+      "Kuala Lumpur: 2 nights at Cosmo Hotel Kuala Lumpur /Similar; Breakfast; **Malaysia - E-Visa**; Private Transfers (Airport to Hotel, Hotel to Airport); Full-day **Genting Highlands Tour** including two-way **Cable-Car** + Enroute **Batu Caves** (30 minutes)."
+    ],
+    "exclusions": [
+      "Immunization costs, city taxes at the hotel and local departure taxes (wherever applicable)",
+      "Optional enhancements like room or flight upgrades, or local camera or video fees",
+      "Additional sightseeing, activities and experiences outside of the itinerary",
+      "Early check-in or late check-out from hotels (unless otherwise specified)",
+      "Lunches, dinners and drinks (alcoholic and non-alcoholic), unless specified in the itinerary",
+      "Any international and/or domestic flights, unless explicitly mentioned as an inclusion",
+      "Excess baggage charges, and where applicable, baggage not included in your fare",
+      "Tips for services and experiences",
+      "Flights cost"
+    ]
   },
   {
-    slug: 'romantic-escape-to-bali-couple-special',
-    title: 'Romantic Escape to Bali - Couple Special',
-    destination: 'Bali',
-    duration: '7 Days 6 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/35865920250528074655.png',
-    overview: 'A 7-day romantic escape designed for couples, featuring private villas, candlelit dinners, and serene beach experiences.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Private Villa Stay', 'Airport Transfers', 'Couples Massage', 'Breakfast'],
-    exclusions: ['Flights', 'Lunches & Dinners'],
+    "slug": "romantic-escape-to-bali-couple-special",
+    "title": "Romantic Escape to Bali - Couple Special",
+    "destination": "Bali",
+    "duration": "7 Days 6 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/35865920250528074655.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25776720250528074654.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2343020250528074654.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4168820250528074654.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35089920250528074654.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38088320250528074655.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17734620250528074655.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33959820250528074655.png"
+    ],
+    "overview": "A **7-day romantic escape** designed for couples, featuring private stays in **Ubud** and **Kuta**. The itinerary includes sightseeing in Central Bali, serene sunset views at **Tanah Lot**, thrill rides on the **Bali Swing**, a trip to **Nusa Penida**, a rejuvenating spa day, and a special focus on cultural sites and experiences.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Ubud | Leisure Day",
+        "description": "<ul><li>Arrive in **Bali** and transfer to your hotel in **Ubud**. Check-in and spend the day at leisure.</li><li>You can visit local attractions like Goa Gajah (Elephant Cave) or Waterbom Waterpark (on your own).</li><li>Head back to your hotel for a relaxing overnight stay.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Exploring Central Bali",
+        "description": "<ul><li>Post breakfast, embark on a sightseeing tour of Central Bali. Discover the **Kintamani Highlands** for breathtaking views of Mount Batur.</li><li>Explore the **Tegallalang Rice Terraces** and capture shots of **Tegenungan Waterfall**.</li><li>Take a thrilling ride on the **Bali Swing**.</li><li>Head back to your hotel for an overnight stay in Ubud.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Excursion to Bedugul with Tanah Lot Temple",
+        "description": "<ul><li>Post a hearty breakfast, begin your journey with a visit to **Handara Gate** and head out to explore **Ulun Danu Beratan Temple**.</li><li>Later, witness the breathtaking sunset at **Tanah Lot Temple**.</li><li>Return to your hotel for a relaxing overnight stay in Ubud.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Day Trip to Bali Safari & Marine Park | Transfer to Kuta",
+        "description": "<ul><li>Wake up and after breakfast, head over to **Bali Safari and Marine Park** (tickets included).</li><li>Enjoy a tram safari, explore the freshwater aquarium, and watch the mesmerizing Bali Agung Show.</li><li>Afterward, check out from your hotel in Ubud and transfer to your hotel in **Kuta**. Check-in and overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Arrival in Kuta | Excursion to Nusa Penida Island",
+        "description": "<ul><li>Wake up and have a refreshing breakfast. Head towards Sanur Harbor for a shared speedboat ride to **Nusa Penida Island**.</li><li>Here you will visit **Kelingking Beach**, **Angel’s Billabong**, Bubu Beach, and **Broken Bay**.</li><li>Return to your hotel in Kuta after a day of island exploration for a restful overnight stay.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Balinese Spa Experience | Leisure Day",
+        "description": "<ul><li>Post breakfast, indulge in a rejuvenating **Balinese spa experience**.</li><li>After the relaxing Spa, you are free to explore **Kuta** at your own pace, visiting spots like Kuta Theater and Kuta Square. You can opt for a sunset dinner cruise (optional, at an extra cost).</li><li>Return to your hotel independently for a restful overnight stay.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Goodbye Bali | Trip Ends",
+        "description": "<ul><li>Post a delightful and refreshing breakfast, pack your bags and complete check-out formalities.</li><li>Board your flight back to India with a bag full of heartfelt memories and amazing experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Surface Transfers: All airport pick ups & drops and sightseeing transfers in a private vehicle as per the itinerary.",
+      "Meals: 7 meals for the entire trip including Breakfast from Day 2 to Day 7 and Local Lunch - Private Basis.",
+      "Accommodation: 4 nights stay in Ubud & 2 nights stay in Kuta on a double sharing basis as per your requirement.",
+      "Tours & Sightseeing: Kintamani With Bali Jungle Swing Combo Tour, Coffee Plantation, Tegenungan Waterfall, Tegalalang Rice Terrace, Bali Jungle Swing, Full Day Handara Gate & Ulun Danu with Tanah Lot Sunset Tour - Private Basis, Bali Safari and Marine Park Tickets - Private Basis, **Balinese Massage in Kuta** - Private Basis, **Nusa Penida West Tour With 4 Beaches** - Private Basis.",
+      "VISA Assistance: Professional visa assistance is provided by experts."
+    ],
+    "exclusions": [
+      "Any International Flights.",
+      "Meals that are not mentioned in the program. Any kind of food or beverage that is not included in the package.",
+      "Early check-in and late check-out. Hotel or Room upgrade.",
+      "Guide & Entrance fees during sightseeing or any other item not specified in inclusions.",
+      "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc.",
+      "Travel Insurance and any cost arising due to natural calamities, roadblock, etc.",
+      "Tourism Fee/Security Deposit will be payable at the hotel.",
+      "Anything not mentioned in the inclusions.",
+      "GST (5%) is applicable extra.",
+      "5% TCS as per govt. rules will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax. This amount will be claimable while filing ITR."
+    ]
   },
   {
-    slug: 'romantic-bali-vacation-couple-special',
-    title: 'Romantic Bali Vacation - Couple Special',
-    destination: 'Bali',
-    duration: '5 Days 4 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/8336920250528080622.png',
-    overview: 'A shorter 5-day romantic vacation for couples, focusing on relaxation and quality time in Bali\'s most beautiful settings.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hotel/Villa Stay', 'Airport Transfers', 'Couples Massage', 'Breakfast'],
-    exclusions: ['Flights', 'Lunches & Dinners'],
+    "slug": "romantic-bali-vacation-couple-special",
+    "title": "Romantic Bali Vacation - Couple Special",
+    "destination": "Bali",
+    "duration": "5 Days 4 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/8336920250528080622.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19052320250528080621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20847320250528080621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/28363920250528080621.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40886920250528080622.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19263920250528080622.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33896520250528080622.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36162420250528080622.png"
+    ],
+    "overview": "A shorter **5-day romantic vacation** for couples, focusing on relaxation and quality time in **Bali's** most beautiful settings. Enjoy luxurious stays in **Ubud** and **Kuta**, a refreshing **Balinese Massage**, a trip to **Nusa Penida**, and sightseeing at cultural landmarks like **Tirta Empul Temple**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Ubud | Leisure Day",
+        "description": "<ul><li>Arrive in **Bali** and transfer to your hotel in **Ubud** (2 nights stay). Check-in and spend the day at leisure.</li><li>You can explore local attractions like Ubud Monkey Forest, Goa Gajah, or Ubud Water Palace on your own.</li><li>Later, return to your hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Discovering Central Bali",
+        "description": "<ul><li>Wake up and indulge in a refreshing breakfast.</li><li>Board your transfer to explore Central Bali and head out to explore **Tegenungan Waterfall** and the **Ubud Royal Palace**.</li><li>Next, experience the sacred **Tirta Empul Temple** and feel the adrenaline at **Bali Swing**.</li><li>Return back to your hotel for an overnight stay in Ubud.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Transfer to Kuta | Water Sports & Balinese Spa Experience",
+        "description": "<ul><li>Wake up and indulge in a refreshing breakfast. Check out from your Ubud hotel and transfer to **Kuta** (2 nights stay) for check-in and relaxation.</li><li>Head out to visit **Tanjung Benoa Beach** and enjoy water sports activities (Combo 3: Half Day Water Sports Tour included).</li><li>Afterward, unwind with a rejuvenating **Balinese spa experience** (included).</li><li>Return back to your hotel in Kuta for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Excursion to Nusa Penida Island",
+        "description": "<ul><li>Wake up and indulge in a refreshing breakfast.</li><li>Transfer to Sanur Harbor and board a speedboat to **Nusa Penida**, where you will explore **Kelingking Beach**.</li><li>Visit Bali’s natural infinity pool - **Angel’s Billabong**.</li><li>Discover **Broken Bay** and enjoy snorkeling at Bubu Beach.</li><li>Return back to your hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Goodbye Bali | Trip Ends",
+        "description": "<ul><li>It is time to say goodbye to a lovely Bali trip. Post a delightful and refreshing breakfast, pack your bags and complete check-out formalities.</li><li>Board your flight back to India with a bag full of heartfelt memories and amazing experiences.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Surface Transfers: All airport pick ups & drops and sightseeing transfers in a private vehicle as per the itinerary.",
+      "Meals: 4 meals for the entire trip including Breakfast from Day 2 to Day 5.",
+      "Accommodation: 2 nights stay in Ubud & 2 nights stay in Kuta on a double sharing basis as per your requirement.",
+      "Tours & Sightseeing: Central Bali Sightseeing Tour with **Tirta Empul Temple** - Private Basis, **Nusa Penida West Tour with 4 Beaches** - Private Basis.",
+      "Activities: **Water Sports** at Tanjung Benoa Beach (Combo 3 included), **Balinese Massage** in Kuta (Private Basis).",
+      "VISA Assistance: Professional visa assistance is provided by experts."
+    ],
+    "exclusions": [
+      "Any International Flights.",
+      "Meals that are not mentioned in the program (Lunches & Dinners).",
+      "Early check-in and late check-out. Hotel or Room upgrade.",
+      "Guide & Entrance fees during sightseeing or any other item not specified in inclusions.",
+      "Any personal expenses like tips, laundry, camera fees, etc.",
+      "Travel Insurance and any cost arising due to natural calamities, roadblock, etc.",
+      "Tourism Fee/Security Deposit will be payable at the hotel.",
+      "GST (5%) is applicable extra.",
+      "5% TCS as per govt. rules will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax."
+    ]
   },
   {
-    slug: 'bali-with-nusa-penida-honeymoon-special',
-    title: 'Bali with Nusa Penida- Honeymoon Special',
-    destination: 'Bali',
-    duration: '6 Days 5 Nights',
-    price: '₹45000',
-    imageUrl: '/cloned_media/2244920231028132025.png',
-    overview: 'A honeymoon special that combines the best of mainland Bali with the stunning landscapes of Nusa Penida island.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel/Villa Stay', 'Nusa Penida Tour', 'Fast Boat Tickets', 'Breakfast'],
-    exclusions: ['Flights', 'Lunches & Dinners'],
+    "slug": "bali-with-nusa-penida-honeymoon-special",
+    "title": "Bali with Nusa Penida- Honeymoon Special",
+    "destination": "Bali",
+    "duration": "6 Days 5 Nights",
+    "price": "₹45000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/2244920231028132025.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26299820231028132025.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41337120231028132025.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14970020231028132025.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17295720231028132025.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33408720231028132025.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35401020231028132025.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30818020231028132025.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39175220231028132025.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4527420231028132025.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/9499220231028132025.png"
+    ],
+    "overview": "A honeymoon special that combines the best of mainland Bali's culture and waterfalls with the stunning clifftop landscapes and beaches of **Nusa Penida** island. This **6-day** escape includes a romantic **Balinese Massage** and thrilling **Water Sports**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Bali Arrival & Ubud Check-in",
+        "description": "<ul><li>Arrive in **Bali** and transfer to your hotel. Check-in to your hotel and have some leisure.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Explore Central Bali | Swing over the lush green paddy fields",
+        "description": "<ul><li>Wake up and after breakfast, board your vehicle & visit **Kintamani Village** (Mount Batur viewing point).</li><li>Visit coffee plantations (Luwak coffee).</li><li>Hike through the forest to get a glimpse of **Tegenungan Waterfalls**.</li><li>Drive to see the serene landscapes of Bali - the **Tegalalang Rice Terraces**, and enjoy the iconic **Bali Swing**.</li><li>Return back to the hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Transfer to Kuta | A day filled with thrilling Water sports | Uluwatu Sunset Tour",
+        "description": "<ul><li>Wake up and check out from the hotel, then transfer to **South Bali/Kuta**. Proceed with check-in formalities.</li><li>Indulge in **thrilling water sports** at **Tanjung Benoa beach** (parasailing, jet skiing, and banana boat ride).</li><li>In the afternoon, relax at **Padang Padang Beach**.</li><li>Later, visit the **Uluwatu Temple**, perched on a 70-meter cliff, for a beautiful sunset view.</li><li>Overnight stay in Kuta.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Excursion to Nusa Penida by Shared Speedboat | A day filled with adventure and breathtaking views",
+        "description": "<ul><li>Wake up, have breakfast, and transfer to Sanur Harbor for a **shared speedboat** to **Nusa Penida** island.</li><li>Start your Nusa Penida tour by visiting the famous **Kelingking Beach**, **Angel’s Billabong** (natural infinity pool), and **Broken Bay** (natural rock archway).</li><li>Conclude your day by snorkelling in the crystal clear blue waters.</li><li>Board your boat back to Bali. Overnight stay in Kuta.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Balinese Spa Session | Spend the day at leisure",
+        "description": "<ul><li>Wake up and have your breakfast. Get ready to pamper yourselves with a traditional **Balinese Massage** (therapy included).</li><li>Spend the rest of the day at **leisure**. Explore nearby cafes and markets or opt for a sunset cruise (optional, at an extra cost).</li><li>Overnight stay in Kuta.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Goodbye Bali | Trip Ends",
+        "description": "<ul><li>It’s time to say goodbye to a lovely Bali trip. Drive towards the airport and board your flight back to India with a heart full of numerous memories.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Stay: Stay in a 3 Star hotel on a double sharing basis (2 nights Ubud, 3 nights Kuta).",
+      "Meals: Breakfast from Day 2 to Day 6 & Lunch on Day 4.",
+      "Transfers: Airport pick up and drop as per the flight timings on a private basis; Transfers for sightseeing as per the itinerary on a private basis; Excursion to **Nusa Penida** by **shared speedboat transfers**.",
+      "Sightseeing: Entry Fees to all sightseeing places mentioned in the itinerary.",
+      "Driver: Highly professional driver to help you navigate around."
+    ],
+    "exclusions": [
+      "GST (5%) & TCS (5%) are applicable extra.",
+      "Water Sports or any other activity other than mentioned in the itinerary.",
+      "Any kind of food or beverage that is not included in the package (alcoholic drinks, mineral water, meals/refreshments/lunches on the highway).",
+      "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc",
+      "Any cost arising due to natural calamities like landslides, roadblocks etc. (to be borne directly by the customer on the spot)",
+      "Anything not mentioned in the inclusions.",
+      "Cost arises due to change or delay in flight timings.",
+      "Any Airfare, Visa & Medical Insurance. Visa is available on arrival at an approx. cost of US$ 35 per person.",
+      "Travel Insurance."
+    ]
   },
   {
-    slug: 'bali-water-villa-stay',
-    title: 'Bali - Water Villa Stay',
-    destination: 'Bali',
-    duration: '7 Days 6 Nights',
-    price: '₹80000',
-    imageUrl: '/cloned_media/3283720230323071307.png',
-    overview: 'Experience ultimate luxury with a stay in an over-water villa in Bali. A 7-day trip for maximum relaxation.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Water Villa Accommodation', 'Airport Transfers', 'Full Board Meals'],
-    exclusions: ['Flights', 'Activities'],
+    "slug": "bali-water-villa-stay",
+    "title": "Bali - Water Villa Stay",
+    "destination": "Bali",
+    "duration": "7 Days 6 Nights",
+    "price": "₹80000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/3283720230323071307.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19241420230323071307.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12676420230323071307.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6838620230323071307.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30824320230323071307.png"
+    ],
+    "overview": "Experience ultimate luxury with a unique stay in an **over-water villa** in Bali (Dedary Resort Ubud). This **7-day trip** is designed for maximum relaxation, covering the cultural highlights of **Ubud**, the beaches of **Kuta**, a day trip to **Nusa Penida**, and sacred temples like **Tanah Lot**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Bali Arrival & Kuta Check-in",
+        "description": "<ul><li>Arrival in **Bali** and transfer to your hotel in **Kuta** (Rama Beach Resort/Deluxe) for check-in.</li><li>In the evening, feel free to head out for cafe hopping and soaking in the chilled-out vibes.</li><li>Overnight stay in Kuta (4 nights).</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Water Sports & Uluwatu Sunset Tour",
+        "description": "<ul><li>Post breakfast, set out for a **full-day tour of watersports** (banana boat, jet ski, parasailing - included) at **Nusa Dua Peninsula Island**.</li><li>In the evening, visit **Uluwatu Temple** for a beautiful sunset view.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Excursion to Nusa Penida Island",
+        "description": "<ul><li>Post breakfast, head out for a **Nusa Penida West Tour** (Kelingking Beach, Paluang Cliff, Broken Beach, Angel Billabong, and Crystal Bay Snorkeling) including lunch.</li><li>Excursion to Nusa Penida is via shared speedboat transfers.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Full Day Tanah Lot & Cultural Tour",
+        "description": "<ul><li>Post breakfast, head out for a full day Tour visiting **Tanah Lot Temple**, **Alas Kedaton Monkey Forest**, and **Taman Ayun Temple**.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Bedugul Tour & Water Villa Check-in in Ubud",
+        "description": "<ul><li>Post breakfast, head out for a **Bedugul Tour** visiting **Wanagiri View Point**, **Handara Gate**, **Beratan Temple**, and **Jatiluwih Rice Terraces**.</li><li>**Drive to Ubud from Kuta**. Check-in to your **Water Villa** in Ubud (Dedary Resort Ubud/One Bedroom Villa with Private Pool - 2 nights stay).</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Kintamani Volcano & Ubud Art Tour",
+        "description": "<ul><li>Post breakfast, head out for a **Kintamani Tour**. Visit **Mount Batur View**, **Tegalalang Rice Terraces**, **Bali Swing**, and **Ubud Art Market** (Private tour).</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Goodbye Bali | Trip Ends",
+        "description": "<ul><li>It’s time to say goodbye to a lovely Bali trip. Drive towards the airport and board your flight back to India with a heart full of numerous memories.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation: **4 nights at Kuta** (Rama Beach Resort/Deluxe) & **2 nights at Ubud** (Dedary Resort Ubud - One Bedroom Villa with Private Pool).",
+      "Meals: **6 Breakfasts** are included.",
+      "Transfers: Airport – Kuta – Ubud – Airport.",
+      "Activities: Full Day tour of **Watersports (banana boat, jet ski, parasailing)**, Nusa Dua Peninsula Island, and **Uluwatu Temple** (Private); **Nusa Penida West Tour** with lunch (SIC); Full Day Tour with **Tanah Lot Temple**, **Alas Kedaton Monkey Forest**, **Taman Ayun Temple** (Private); **Bedugul Tour** (Wanagiri View Point, Handara Gate, Beratan Temple, Jatiluwih Rice Terraces) (Private); **Kintamani Tour** (Mount Batur View, Tegalalang Rice Terraces, Bali Swing and Ubud Art Market) (Private)."
+    ],
+    "exclusions": [
+      "GST (5%) is applicable extra.",
+      "TCS (5%) extra applicable.",
+      "Water Sports or any other activity other than mentioned in the itinerary.",
+      "Any kind of food or beverage that is not included in the package.",
+      "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc",
+      "Any cost arising due to natural calamities like landslides, roadblocks etc. (to be borne directly by the customer on the spot)",
+      "Anything not mentioned in the inclusions.",
+      "Cost arises due to change or delay in flight timings.",
+      "Any Airfare, Visa & Medical Insurance. Visa is available on arrival at an approx. cost of US$ 35 per person.",
+      "Travel Insurance."
+    ]
   },
   {
-    slug: '6-days-tour-bali-with-balinese-spa',
-    title: '6 Days tour Bali with Balinese Spa',
-    destination: 'Bali',
-    duration: '6 Days 5 Nights',
-    price: '₹36500',
-    imageUrl: '/cloned_media/6308820231028130935.png',
-    overview: 'A relaxing 6-day Bali tour, highlighted by an authentic Balinese spa and wellness experience.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Balinese Spa Treatment', 'Breakfast'],
-    exclusions: ['Flights', 'Lunches & Dinners'],
+    "slug": "6-days-tour-bali-with-balinese-spa",
+    "title": "6 Days tour Bali with Balinese Spa",
+    "destination": "Bali",
+    "duration": "6 Days 5 Nights",
+    "price": "₹36500",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/6308820231028130935.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38933120231028130935.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25052820231028130935.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19123120231028130935.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37940220231028130935.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14118720231028130935.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20270620231028130935.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3825620231028130935.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31140320231028130935.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26039820231028130935.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26019520231028130935.png"
+    ],
+    "overview": "A relaxing **6-day Bali tour**, highlighted by an authentic **Balinese spa** and wellness experience. The itinerary focuses on the cultural and natural beauty of the island, including **Mount Batur**, **Tegalalang Rice Terraces**, thrilling **Water Sports**, and a visit to the iconic **Uluwatu Temple**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Bali Arrival & Hotel Check-in",
+        "description": "<ul><li>Arrive in **Bali** and clear immigration. Drive towards your hotel and check-in.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Explore Central Bali | Swing over the lush green paddy fields",
+        "description": "<ul><li>Wake up and have a delicious breakfast.</li><li>Board your vehicle & visit **Kintamani Village** for **Mount Batur** viewing point.</li><li>Drive to coffee plantations to understand the process of the Luwak coffee.</li><li>Hike to **Tegenungan Waterfalls** and refresh yourself.</li><li>Drive to see the **Tegalalang Rice Terraces**, and embark on the iconic **Bali Swing**.</li><li>Return back to the hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Explore the gems of Bali | Visit one of the sea temples of Bali",
+        "description": "<ul><li>Wake up and have a delicious breakfast.</li><li>Start off your day by visiting one of the most Instagrammable places in Bali - The **Handara Gate**.</li><li>Visit one of the most picturesque temples of Bali - **Ulun Danu Temple** which is situated on the shores of Lake Bratan.</li><li>In the evening, head to one of the most iconic offshore temples of Bali - the **Tanah Lot Temple**, and spend a lovely evening watching a beautiful sunset over the Arabian Sea.</li><li>Return back to the hotel/ villa/ resort for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Denpasar City Tour | Get an insight to the Balinese culture, history and art",
+        "description": "<ul><li>Wake up and have a delicious breakfast before starting your **Denpasar City Tour**.</li><li>Visit **Bajra Sandhi Monument**, which is a bell-shaped museum built to preserve Balinese culture.</li><li>Your next stop is at **Puputan Square**, a historic landmark.</li><li>Your last stop is **Kumbasari Art Market**, one of the largest traditional Balinese markets for handicrafts and souvenirs.</li><li>Return back to the hotel/ resort/ villa for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Indulge in thrilling watersports | Watch a beautiful sunset over the cliff of Uluwatu temple",
+        "description": "<ul><li>Wake up and have a hearty breakfast before starting your day.</li><li>Get ready and head to the **Tanjung Benoa beach** for thrilling **water sports** (jet ski, parasailing, and banana boat ride).</li><li>After having your lunch, begin your drive South to one of the best beaches and a surfing hotspot - **Padang Padang Beach**.</li><li>Later, visit the **Uluwatu Temple** for a beautiful sunset view over the cliff.</li><li>Return back to the hotel for an overnight stay.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Goodbye Bali | Trip Ends",
+        "description": "<ul><li>It’s time to say goodbye to a lovely Bali trip. Drive towards the airport and board your flight back to India with a heart full of numerous memories.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Transfers: Sightseeing and airport pick up and drop in **private transfers**.",
+      "Stay: Stay in a 3 star hotel on a **double/ triple sharing basis**.",
+      "Meals: **Breakfast** from Day 2 to Day 5, and **Lunch on Day 5**.",
+      "Sightseeing: Entry Fees to all sightseeing places mentioned in the itinerary.",
+      "Driver: Professional English speaking guide to help you explore the cities.",
+      "Activities: **Water Sports** (jet ski, parasailing, banana boat ride), **Bali Swing**."
+    ],
+    "exclusions": [
+      "GST (5%) & TCS (5%) are applicable extra.",
+      "Water Sports or any other activity other than mentioned in the itinerary.",
+      "Any kind of food or beverage that is not included in the package.",
+      "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc.",
+      "Any cost arising due to natural calamities like landslides, roadblocks etc. (to be borne directly by the customer on the spot)",
+      "Anything not mentioned in the inclusions.",
+      "Cost arises due to change or delay in flight timings.",
+      "Any Airfare, Visa & Medical Insurance. Visa is available on arrival at an approx. cost of US$ 35 per person.",
+      "Travel Insurance."
+    ]
   },
   {
-    slug: 'discover-best-of-bali',
-    title: 'Discover Best of Bali',
-    destination: 'Bali',
-    duration: '8 Days 7 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/16982620250528074223.png',
-    overview: 'An 8-day journey to discover the very best of Bali, from its northern volcanoes to its southern beaches.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Hotel Stay', 'All Transfers', 'Comprehensive Sightseeing', 'Breakfast'],
-    exclusions: ['Flights', 'Lunches & Dinners', 'Entry Fees'],
+    "slug": "discover-best-of-bali",
+    "title": "Discover Best of Bali",
+    "destination": "Bali",
+    "duration": "7 Days 6 Nights",
+    "price": "Customization Available",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/17819120241022065418.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16271220241022065418.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35043720241022065418.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35542120241022065418.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5705520241022065418.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41241820241022065418.png"
+    ],
+    "overview": "A curated **7-day trip** that combines the 'Best of Bali,' from the cultural heart of **Ubud** to the beaches of **Kuta/Seminyak**. The itinerary features thrilling activities like the **ATV Ride** and **Water Sports**, along with iconic cultural landmarks such as **Tanah Lot Temple** and the **Kecak Dance**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Bali | Leisure Day in Ubud",
+        "description": "<ul><li>Upon arrival in Bali, meet our representative and transfer to your hotel in **Ubud** (3 nights stay). Check-in and spend the rest of the day at leisure to relax and explore Ubud on your own.</li><li>Overnight stay in Ubud.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Ubud Local Sightseeing Tour",
+        "description": "<ul><li>Wake up and post a delightful breakfast, begin your local sightseeing tour of **Ubud**.</li><li>Visit the iconic rice paddies terraces in **Tegalalang Village** and enjoy stunning views.</li><li>Experience a unique tour in Ubud with a visit to the **Monkey Forest** and nearby sacred temples.</li><li>In the evening, witness the **Traditional Dance Performance** (included).</li><li>Overnight stay in Ubud.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "ATV Ride + Tirta Empul Temple in Ubud",
+        "description": "<ul><li>Wake up and post a delightful breakfast, head out to experience a thrilling **ATV ride** in Ubud.</li><li>Further, visit the **Tirta Empul Temple**, famous for its holy spring water for purification rituals and admire the Balinese architecture.</li><li>Get back to your hotel and overnight stay in Ubud.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Transfer to Kuta | Kuta Beach Sunset",
+        "description": "<ul><li>Wake up early and post a delightful breakfast, check out from your Ubud hotel and transfer to **Kuta** (3 nights stay).</li><li>In the evening, head out on **Kuta Beach** and witness the mesmerizing sunset.</li><li>Get back to your hotel and overnight stay in Kuta.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Tanah Lot Temple + Bali Treetop Adventure Park in Kuta",
+        "description": "<ul><li>Wake up and post a delightful breakfast, set out to pay a visit to **Tanah Lot Temple**.</li><li>Later, proceed to the **Bali Treetop Adventure Park** (Entry included) and indulge in fun-filled outdoor adventure activities.</li><li>Get back to your hotel and overnight stay in Kuta.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Kintamani Volcano Tour & Water Sports",
+        "description": "<ul><li>Wake up and post a delightful breakfast, get set for some crazy **water sports activities** at **Tanjung Benoa Beach** (jet skiing, parasailing, banana boat ride).</li><li>Further, head towards **Kintamani Coffee Plantation** and capture the panoramic views of **Mount Batur** from Kintamani Village.</li><li>Later, proceed ahead for a half-day tour of **Uluwatu Temple** and witness the **Kecak Fire Dance**.</li><li>Get back to your hotel and overnight stay in Kuta.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Goodbye Bali | Trip Ends",
+        "description": "<ul><li>It’s time to say goodbye to a lovely Bali trip. Drive towards the airport and board your flight back to India with a heart full of numerous memories.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Surface Transfers & Travel as per the itinerary: All airport pickups and drops.",
+      "Entry Tickets: Entry to **Tirta Empul Temple**, **Tanah Lot Temple**, **Bali Treetop Adventure Park**, **Uluwatu Temple**.",
+      "Activities: **ATV Ride** in Ubud, **Kecak Fire Dance Performance** at Uluwatu Temple, **Kintamani Coffee Plantation** visit and tasting, **Traditional Balinese Dance Performance**, Visit to **Tegalalang Rice Terrace**.",
+      "Accommodation: **3 Nights in Hotel (3 or 4 Star) in Ubud + 3 Nights in Hotel (3 or 4 Star) in Kuta**.",
+      "Meals: **6 Breakfasts** for the entire trip.",
+      "VISA Assistance: Professional visa assistance is provided by experts.",
+      "Other Inclusions: Virtual real-time guide & assistance from start to end of the trip."
+    ],
+    "exclusions": [
+      "International Flights (From India to Bali & Back)",
+      "Any kind of personal expenses.",
+      "Water Sports or any other activity other than mentioned in the Inclusions.",
+      "Anything (Meals, Transport & Services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Visa fee for Bali needs to be paid directly at visa website $35.",
+      "Travel Insurance.",
+      "GST (5%) is applicable extra.",
+      "5% TCS as per govt. rules will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax. This amount will be refunded in your ITR."
+    ]
   },
-  {
-    slug: 'joyful-treasures-of-bali',
-    title: 'Joyful Treasures of Bali',
-    destination: 'Bali',
-    duration: '6 Days 5 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/34321720250528075636.png',
-    overview: 'Uncover the joyful treasures of Bali in this 6-day tour, focusing on unique cultural experiences and hidden gems.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Cultural Workshops', 'Breakfast'],
-    exclusions: ['Flights', 'Lunches & Dinners'],
-  },
-  {
-    slug: 'bali-backpacking-10d9n',
-    title: 'Bali Backpacking 10D9N',
-    destination: 'Bali',
-    duration: '10 Days 9 Nights',
-    price: '₹54999',
-    imageUrl: '/cloned_media/37178320220812091449.png',
-    overview: 'The ultimate Bali backpacking experience. A 10-day trip covering Bali, Nusa Penida, and the Gili Islands.',
-    itinerary: createItinerary('10 Days 9 Nights'),
-    inclusions: ['Hostel Stay', 'All Transfers & Fast Boats', 'Tours', 'Breakfast'],
-    exclusions: ['Flights', 'Lunches & Dinners'],
-  },
-  {
-    slug: 'bali-new-year-special',
-    title: 'Bali New Year Special',
-    destination: 'Bali',
-    duration: '7 Days 6 Nights',
-    price: '₹99999',
-    originalPrice: '₹109999',
-    discount: '₹10,000',
-    imageUrl: '/cloned_media/40482320231026081450.png',
-    overview: 'Ring in the New Year in paradise! A special 7-day trip to Bali with NYE celebrations included.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'NYE Party Entry', 'Breakfast'],
-    exclusions: ['Flights', 'Lunches & Dinners'],
-  },
-  {
-    slug: 'adventure-bali-trip-package',
-    title: 'Adventure Bali Trip Package',
-    destination: 'Bali',
-    duration: '7 Days 6 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/25064020241022070910.png',
-    overview: 'A 7-day trip packed with adventure: white water rafting, volcano hiking, surfing, and more.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel Stay', 'All Activities', 'Transfers', 'Breakfast'],
-    exclusions: ['Flights', 'Lunches & Dinners'],
-  },
-  {
-    slug: 'best-of-bali',
-    title: 'Best of Bali',
-    destination: 'Bali',
-    duration: '7 Days 6 Nights',
-    price: 'Customization Available',
-    imageUrl: '/cloned_media/17819120241022065418.png',
-    overview: 'A curated 7-day trip that combines the "Best of Bali," from cultural Ubud to the beaches of Seminyak.',
-    itinerary: createItinerary('7 Days 6 Nights'),
-    inclusions: ['Hotel Stay', 'Transfers', 'Sightseeing', 'Breakfast'],
-    exclusions: ['Flights', 'Lunches & Dinners'],
-  },
+    {
+      "slug": "joyful-treasures-of-bali",
+      "title": "Joyful Treasures of Bali",
+      "destination": "Bali",
+      "duration": "6 Days 5 Nights",
+      "price": "Customization Available",
+      "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/34321720250528075636.png",
+      "gallery": [
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/10007420250528075635.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/32200720250528075635.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/16874820250528075635.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/25238620250528075636.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/22444020250528075636.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/15713820250528075636.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/13735220250528075636.png"
+      ],
+      "overview": "Uncover the joyful treasures of **Bali** in this **6-day tour**, focusing on unique cultural experiences and hidden gems. The itinerary covers the cultural essence of **Ubud**, temples like **Tanah Lot**, the artistic heart of **Denpasar**, thrilling **Water Sports**, and an excursion to **Nusa Penida**.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Ubud | Leisure Day",
+          "description": "<ul><li>Arrive in **Bali** and transfer to your hotel in **Ubud** (2 nights stay). Relax and unwind or explore on your own.</li><li>You can start by exploring **Ubud Monkey Forest** or **Goa Gajah Temple**.</li><li>Head back to your hotel for an overnight stay.</li></ul>"
+        },
+        {
+          "day": 2,
+          "title": "Unveiling Central Bali",
+          "description": "<ul><li>Wake up and enjoy a hearty breakfast. Begin your adventure with a transfer to Central Bali.</li><li>Head out to explore **Tegenungan Waterfall**, and the **Tegallalang Rice Terraces**.</li><li>Witness the breathtaking views of **Mount Batur** and experience the rich flavors of Luwak coffee (optional, at an extra cost).</li><li>Take a thrilling ride on the **Bali Swing**, soaring high above the tropical jungles.</li><li>Head back to your hotel for an overnight stay in Ubud.</li></ul>"
+        },
+        {
+          "day": 3,
+          "title": "Transfer to Kuta | Bali Temple Tour with Monkey Forest",
+          "description": "<ul><li>Post a delightful breakfast, check-out and begin your scenic journey to **Alas Kedaton Monkey Forest**.</li><li>Visit the iconic **Tanah Lot Temple**, and discover **Taman Ayun Temple**.</li><li>Transfer to your hotel in **Kuta** (3 nights stay) for check-in and an overnight stay.</li></ul>"
+        },
+        {
+          "day": 4,
+          "title": "Breathtaking Escape to South Bali",
+          "description": "<ul><li>Post breakfast, head to **Tanjung Benoa Beach** for an exhilarating day of **water sports** like jet skiing, parasailing, and banana boat rides.</li><li>Later, visit the majestic **Uluwatu Temple** and admire its intricate architecture.</li><li>After an exciting day, head back to your hotel for an overnight stay in Kuta.</li></ul>"
+        },
+        {
+          "day": 5,
+          "title": "Exploring Nusa Penida West",
+          "description": "<ul><li>Post breakfast, transfer to Sanur Harbor and board a **speedboat to Nusa Penida** (shared boat).</li><li>Visit **Kelingking Beach**, **Angel’s Billabong** (natural infinity pool), and **Broken Bay**. Enjoy snorkeling at Bubu Beach.</li><li>Return back to your hotel in Kuta for an overnight stay.</li></ul>"
+        },
+        {
+          "day": 6,
+          "title": "Goodbye Bali | Trip Ends",
+          "description": "<ul><li>It is time to say goodbye to a lovely Bali trip. Post a delightful and refreshing breakfast, pack your bags and complete check-out formalities.</li><li>Board your flight back to India with a bag full of heartfelt memories and amazing experiences.</li></ul>"
+        }
+      ],
+      "inclusions": [
+        "Surface Transfers: All airport pick ups & drops and sightseeing transfers in a **private vehicle** as per the itinerary.",
+        "Meals: **6 meals** for the entire trip including Breakfast from Day 2 to Day 6 and Local Lunch - Private Basis.",
+        "Accommodation: **2 nights stay in Ubud** & **3 nights stay in Kuta** on a double/triple sharing basis as per your requirement.",
+        "Tours & Sightseeing: Kintamani With **Bali Jungle Swing Combo Tour**, Coffee Plantation, **Nusa Penida West Tour** with 4 Beaches, Tegenungan Waterfall, Tegalalang Rice Terrace, Bali - **Taman Ayun**, **Kedaton Monkey Forest** with **Tanah Lot Sunset Tour** - Private Basis.",
+        "Activities: **Bali Jungle Swing**, **Water Sports with Uluwatu Temple** - Private Basis.",
+        "VISA Assistance: Professional visa assistance is provided by experts."
+      ],
+      "exclusions": [
+        "Any International Flights.",
+        "Meals that are not mentioned in the program (Lunches & Dinners).",
+        "GST (5%) & TCS (5%) are applicable extra.",
+        "Early check-in and late check-out. Hotel or Room upgrade.",
+        "Guide & Entrance fees during sightseeing or any other item not specified in inclusions.",
+        "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc.",
+        "Travel Insurance and any cost arising due to natural calamities, roadblock, etc.",
+        "Tourism Fee/Security Deposit will be payable at the hotel."
+      ]
+    },
+    {
+      "slug": "bali-backpacking-10d9n",
+      "title": "Bali Backpacking 10D9N",
+      "destination": "Bali",
+      "duration": "10 Days 9 Nights",
+      "price": "₹54999",
+      "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/37178320220812091449.png",
+      "gallery": [
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/29782620220812091112.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/31090620220812091112.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/38653120220812091112.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/23043420220812091112.png"
+      ],
+      "overview": "The ultimate **Bali backpacking experience**. A **10-day** trip covering the best of the island, including cultural exploration in **Ubud**, temples like **Tanah Lot**, thrilling **Water Sports**, and exciting **Ayung River Rafting**.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Journey Begins | Bali Arrival & Kuta Check-in",
+          "description": "<ul><li>Arrive in **Bali** and transfer to your hostel in **Kuta**. Check-in and have some leisure.</li><li>In the evening, feel free to head out for cafe hopping and soak in the chilled-out vibes.</li><li>Overnight stay in Kuta (5 nights).</li></ul>"
+        },
+        {
+          "day": 2,
+          "title": "Kuta: Temples Tour & Sightseeing",
+          "description": "<ul><li>Post breakfast, set out to explore a set of amazing temples positioned in Kuta. Pay a visit to **Tanah Lot Temple**, **Taman Ayun Temple**, **Bedugul with Lake Bratan**, and **Ulun Danu Temple**.</li><li>Get back to your hotel and overnight stay in Kuta.</li></ul>"
+        },
+        {
+          "day": 3,
+          "title": "Nusa Penida Boat Ride | Beaches & Cafe Hopping",
+          "description": "<ul><li>Post a delightful breakfast, catch an early morning fast boat to **Nusa Penida Island**.</li><li>Visit **Angel Billabong** and **Broken Beach**.</li><li>Explore **Kelingking Beach Secret Point** and **Crystal Bay**. Head out for cafe hopping and try Indonesian cuisine.</li><li>Get back to your hotel and overnight stay in Kuta.</li></ul>"
+        },
+        {
+          "day": 4,
+          "title": "Tanjung Benoa Beach | Uluwatu Temple | Kecak Dance",
+          "description": "<ul><li>Post a delightful breakfast, head out to explore the majestic **Tanjung Benoa Beach**. Indulge in various water sports activities like banana boat ride and snorkeling. Visit **Turtle Island** from the glass-bottom boat.</li><li>Visit **Uluwatu Temple** to witness a jaw-dropping sunset scene.</li><li>After the sunset, get to witness the **Kecak and Fire Dance ritual**.</li><li>Get back to your hotel and overnight stay in Kuta.</li></ul>"
+        },
+        {
+          "day": 5,
+          "title": "Kuta | A Day At Leisure",
+          "description": "<ul><li>Post breakfast, feel free to stroll around in **Kuta**. Head out to explore local markets, do some shopping and try delicious Balinese cuisines.</li><li>Get back to your hotel and overnight stay.</li></ul>"
+        },
+        {
+          "day": 6,
+          "title": "Ubud Arrival | Kintamani Volcano, Rice Terraces & Waterfall",
+          "description": "<ul><li>Wake up and post a hearty breakfast, check out from your hotel in Kuta and transfer to **Ubud** (4 nights stay).</li><li>Visit the magnificent **Kintamani Volcano**. Head towards Batubulan village for carvings.</li><li>Post a delightful lunch, take a stop at **Tegalalang Village** for the iconic rice terraces and **Tegenungan Waterfall**.</li><li>Get back to your hotel and overnight stay in Ubud.</li></ul>"
+        },
+        {
+          "day": 7,
+          "title": "Ubud Royal Palace, Handicraft Market & Bali Swing",
+          "description": "<ul><li>Optional early morning sunrise hike to Mount Batur (at an additional cost).</li><li>Post a delightful breakfast, visit the **Royal Palace** in Ubud, stroll in the local Ubud market, and ride the famous **Bali Swing** on the way.</li><li>Get back to your hotel and overnight stay in Ubud.</li></ul>"
+        },
+        {
+          "day": 8,
+          "title": "Ubud: Ayung River Rafting",
+          "description": "<ul><li>Wake up early and post a hearty breakfast, set out for **Ayung River Rafting**. Feel the thrill while rafting in the gushing rapids of Ayung river.</li><li>After an adventurous day, get back to your hotel and overnight stay in Ubud.</li></ul>"
+        },
+        {
+          "day": 9,
+          "title": "Ubud | A Day At Leisure",
+          "description": "<ul><li>Post breakfast, feel free to stroll around in **Ubud**. This day we will not follow a set itinerary. Head out to explore local markets, do some shopping and try delicious Balinese cuisines. Since this will be your last night in Bali, make the most out of it.</li><li>Get back to your hotel and overnight stay.</li></ul>"
+        },
+        {
+          "day": 10,
+          "title": "Goodbye Bali | Trip Ends",
+          "description": "<ul><li>It’s time to say goodbye to a lovely Bali trip. Drive towards the airport and board your flight back to India with a heart full of numerous memories.</li></ul>"
+        }
+      ],
+      "inclusions": [
+        "Accommodation: **5 nights at Kuta** & **4 nights at Ubud**.",
+        "Meals: **Daily breakfasts** are included at the time of stay.",
+        "Transfers from Airport – Kuta – Ubud – Airport.",
+        "Inter-hotel transfers on a private basis.",
+        "Return airport transfers on a private basis.",
+        "Entrance fees, monument fees, etc. have been included as per our itinerary.",
+        "Tours and Sightseeing: Local tours and experiences.",
+        "All local assistance."
+      ],
+      "exclusions": [
+        "GST (5%) is applicable extra.",
+        "TCS (5%) extra applicable.",
+        "Water Sports or any other activity other than mentioned in the itinerary.",
+        "Any kind of food or beverage that is not included in the package.",
+        "Any personal expenses like a tip to the drivers, camera/video camera charges, laundry, telephone bills, tips, etc",
+        "Any cost arising due to natural calamities like landslides, roadblocks etc. (to be borne directly by the customer on the spot)",
+        "Anything not mentioned in the inclusions.",
+        "Cost arises due to change or delay in flight timings.",
+        "Any Airfare, Visa & Medical Insurance.",
+        "Visa is available on arrival at an approx. cost of US$ 35 per person.",
+        "Travel Insurance."
+      ]
+    },
+    {
+      "slug": "bali-new-year-special",
+      "title": "Bali New Year Special",
+      "destination": "Bali",
+      "duration": "7 Days 6 Nights",
+      "price": "₹99999",
+      "originalPrice": "₹109999",
+      "discount": "₹10,000",
+      "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/40482320231026081450.png",
+      "gallery": [
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/16943920231026081450.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/40567420231026081450.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/27192820231026081450.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/13730820231026081450.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/37202420231026081450.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/41824620231026081450.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/10715620231026081450.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/30219520231026081450.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/34684620231026081450.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/1214520231026081450.png"
+      ],
+      "overview": "Ring in the **New Year in paradise**! A special **7-day** trip to **Bali** with **NYE celebrations** included. The trip covers the best of the island, featuring **Nusa Penida**, **Kintamani Volcano**, thrilling **Water Sports**, and relaxing private pool villa stays.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Departure from Delhi",
+          "description": "<ul><li>Arrive at **Delhi Airport** by 9 PM.</li><li>Clear formalities and take off from Delhi at 23:50 PM.</li></ul>"
+        },
+        {
+          "day": 2,
+          "title": "Bali Arrival | Cafe Hopping & Nightlife",
+          "description": "<ul><li>Arrival in **Bali Airport (DPS)**. Complete arrival formalities.</li><li>Private chauffeur transfer to your hotel in **Kuta** (3 Nights stay). Unwind and relax.</li><li>In the evening, hop across the markets & the beach of Kuta and enjoy the local vibe.</li><li>Overnight rest at the Hotel.</li></ul>"
+        },
+        {
+          "day": 3,
+          "title": "Nusa Penida Island Day Tour",
+          "description": "<ul><li>Breakfast at hotel.</li><li>Take a ferry (shared speedboat) to **Nusa Penida Island**.</li><li>Visit **Kelingking Beach**, **Broken Beach**, and **Angel Billabong**.</li><li>Take a lunch break. Snorkel at **Crystal Bay**. Relax and watch the sunset before taking a ferry back to Kuta.</li><li>Overnight rest at the hotel.</li></ul>"
+        },
+        {
+          "day": 4,
+          "title": "Watersports day + Tropical Temptation Beach Club",
+          "description": "<ul><li>Breakfast at hotel.</li><li>Start your adventure at **Tanjung Benoa Beach** with **Half-day water sports** (Banana boat, Jet ski, Parasailing).</li><li>Head to the **Tropical Temptation Beach Club** (Entry included).</li><li>Tonight you can head out to party & dine at one of the most happening nightlife spots in Asia.</li><li>Overnight rest at the hotel.</li></ul>"
+        },
+        {
+          "day": 5,
+          "title": "Transfer to Ubud",
+          "description": "<ul><li>Breakfast at Hotel.</li><li>Private transfer from Kuta to **Ubud** (2 Nights stay in a Private Pool Villa).</li><li>Arrive at Ubud, check-in, and relax.</li><li>Explore the local food and nightlife of Ubud.</li><li>Overnight rest at Hotel.</li></ul>"
+        },
+        {
+          "day": 6,
+          "title": "Kintamani Day Tour",
+          "description": "<ul><li>Breakfast at hotel.</li><li>Visit the famous **Tegalalang Rice Terraces**.</li><li>Next up is the jaw-dropping view of **Mt. Batur (Active Volcano)** from **Kintamani Village**.</li><li>The final stop is **Alas Harum** and **Ubud Art Market**.</li><li>Enjoy an evening snack at local cafes. Overnight rest at the hotel.</li></ul>"
+        },
+        {
+          "day": 7,
+          "title": "Fly back to Home",
+          "description": "<ul><li>All good things come to an end. Catch your flight back home with a heart full of memories, new friendships & unforgettable experiences.</li></ul>"
+        }
+      ],
+      "inclusions": [
+        "International flight tickets: DEL-DPS | 28 DEC | VJ972/VJ997 | 23:50 - 16:25 | Layover- Ha Noi; DPS-DEL | 03 JAN | VJ895/VJ895 | 14:00 - 22:50 | Layover- Ho Chi Minh. Baggage: 7 + 20 kgs.",
+        "All Stay for 5 Nights in Bali: Kuta: Stark Boutique Hotel & Spa (3 Nights) ⭐⭐⭐; Ubud: Bhanuswari Resort And Spa (Bedroom with Private Pool) (2 Nights) ⭐⭐⭐⭐.",
+        "**5 x Full Course Breakfast**.",
+        "**All Airport Transfers** and **All the internal transfers** as mentioned in the Itinerary.",
+        "**Free Beach Club Entry** (Tropical Temptation).",
+        "**Half-day water sports** (Banana boat, Jet ski, Parasailing).",
+        "**Nusa Penida Tour** (Kelingking Beach + Paluang Cliff + Broken Beach + Angel Billabong + Crystal Bay) with Lunch.",
+        "**Kintamani Tour** (Mount Batur View, Tegalalang Rice Terraces, Alas Harum and Ubud Art Market).",
+        "**Additional Offers:** Complimentary Inclusions for Honeymooners; Fun Social Trips as per itinerary; All toll taxes, parking fees, and other charges."
+      ],
+      "exclusions": [
+        "GST (5%) & TCS (5%) are applicable extra.",
+        "Water Sports or any other activity other than mentioned in the itinerary.",
+        "Anything not mentioned in the inclusions.",
+        "Visa is available on arrival at approx. cost of US$ 35 per person.",
+        "Anything (Meals, Transport & Services) that are not mentioned in the above ‘Inclusions’ section.",
+        "Travel Insurance."
+      ]
+    },
+    {
+      "slug": "adventure-bali-trip-package",
+      "title": "Adventure Bali Trip Package",
+      "destination": "Bali",
+      "duration": "7 Days 6 Nights",
+      "price": "Customization Available",
+      "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25064020241022070910.png",
+      "gallery": [
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/7603020241022070909.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/2465620241022070909.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/18722620241022070909.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/29931420241022070909.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/22031820241022070909.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/13991020241022070909.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/30602620241022070910.png"
+      ],
+      "overview": "A **7-day trip** packed with **adventure**: explore stunning beaches, majestic waterfalls, and iconic temples. The package focuses on thrilling activities like **water sports**, cultural experiences such as the **Kecak Fire Dance**, and visits to **Nusa Penida** and the **Kintamani Volcano**.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Bali | Leisure Day in Kuta",
+          "description": "<ul><li>Upon arrival in Bali, meet our representative and transfer to your hotel in **Kuta** (3 nights stay).</li><li>Check-in and spend the rest of the day at leisure to relax and explore Kuta on your own.</li><li>Overnight stay in Kuta.</li></ul>"
+        },
+        {
+          "day": 2,
+          "title": "Kuta Local Sightseeing Tour & Water Sports",
+          "description": "<ul><li>Wake up and post a delightful breakfast, head to **Tanjung Benoa Beach** for **water sports activities** (jet skiing, parasailing, banana boat ride).</li><li>Further, proceed for a half-day tour of **Uluwatu Temple**. In the evening, witness the **Kecak Fire Dance Performance** (performance is subject to inclusion/entrance fees).</li><li>Get back to your hotel and overnight stay in Kuta.</li></ul>"
+        },
+        {
+          "day": 3,
+          "title": "Full-Day Nusa Penida Tour",
+          "description": "<ul><li>Wake up and post a delightful breakfast, transfer to Sanur Harbor and board a shared speedboat to **Nusa Penida Island**.</li><li>Visit **Angel Billabong**, **Broken Bay**, **Kelingking Beach Secret Point**, and **Crystal Bay**.</li><li>Conclude your full-day excursion to Nusa Penida and board your boat back to Bali.</li><li>Overnight stay in Kuta.</li></ul>"
+        },
+        {
+          "day": 4,
+          "title": "Transfer from Kuta to Ubud | Experience Bali Swing",
+          "description": "<ul><li>Wake up and post a delightful breakfast, check out from your hotel in Kuta and transfer to **Ubud** (3 nights stay).</li><li>Enroute, take a stopover at the famous **Bali Swing** to take insta-worthy pictures.</li><li>After arriving in Ubud, check-in to your comfy hotel. Overnight stay in Ubud.</li></ul>"
+        },
+        {
+          "day": 5,
+          "title": "Full-Day Ubud Local Sightseeing Tour",
+          "description": "<ul><li>Wake up and post a delightful breakfast.</li><li>Head towards **Kintamani Coffee Plantation** (coffee tasting optional) and capture the panoramic views of **Mount Batur** from **Kintamani Village**.</li><li>Explore **Tegenungan Waterfall** and visit the iconic rice paddies terraces in **Tegalalang Village**.</li><li>Get back to your hotel and overnight stay in Ubud.</li></ul>"
+        },
+        {
+          "day": 6,
+          "title": "Full-Day Temple Explorations in Ubud",
+          "description": "<ul><li>Wake up and post a delightful breakfast, set out to pay a visit to **Tanah Lot Temple** (one of the 7 ocean temples in Bali).</li><li>Later, proceed to a tour around popular destinations such as **Bedugul Temple** and Bali’s iconic **Handara Gate**.</li><li>Get back to your hotel and overnight stay in Ubud.</li></ul>"
+        },
+        {
+          "day": 7,
+          "title": "Goodbye Bali | Trip Ends",
+          "description": "<ul><li>It’s time to say goodbye to a lovely Bali trip. Drive towards the airport and board your flight back to India with a heart full of numerous memories.</li></ul>"
+        }
+      ],
+      "inclusions": [
+        "Surface Transfers & Travel as per the itinerary: All airport pickups and drops, Speed boat transfers for **Nusa Penida Island**.",
+        "Entry Tickets: Entry to **Bedugul Temple**, Entry to **Handara Gate**, Entry to **Tanah Lot Temple**, Entry to **Uluwatu Temple**.",
+        "Activities: **Water sports activities in Tanjung Benoa** (jet skiing, parasailing, banana boat ride), **Kecak Fire Dance Performance** at Uluwatu Temple, **Full-Day Tour to Nusa Penida Island**, Half-Day Tour to **Bali Swing**, Full-Day Tour to **Kintamani Village** (coffee plantation visit & tasting, Mt. Batur Volcano view point), Visit to **Tegalalang Rice Terrace** & **Tegenungan Waterfall**, Visit to **Angel Billabong, Broken Bay, Kelingking Beach Secret Point & Crystal Bay**.",
+        "Accommodation: **3 Nights in Hotel (3 or 4 Star) in Ubud + 3 Nights in Hotel (3 or 4 Star) in Kuta**.",
+        "Meals: **6 Breakfast meals** for the entire trip.",
+        "VISA Assistance: Professional visa assistance is provided by experts.",
+        "Other Inclusions: Virtual real-time guide & assistance from start to end of the trip. Personalized real time information on free walking tours in all cities you are visiting."
+      ],
+      "exclusions": [
+        "International Flights (From India to Bali & Back)",
+        "Any kind of personal expenses.",
+        "Water Sports or any other activity other than mentioned in the Inclusions.",
+        "Anything (Meals, Transport & Services) that are not mentioned in the above ‘Inclusions’ section.",
+        "Visa fee for Bali needs to be paid directly at visa website $35.",
+        "Travel Insurance.",
+        "GST (5%) is applicable extra.",
+        "5% TCS as per govt. rules will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax. This amount will be refunded in your ITR."
+      ]
+    },
+    {
+      "slug": "best-of-bali",
+      "title": "Best of Bali",
+      "destination": "Bali",
+      "duration": "7 Days 6 Nights",
+      "price": "Customization Available",
+      "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/17819120241022065418.png",
+      "gallery": [
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/16271220241022065418.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/35043720241022065418.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/35542120241022065418.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/5705520241022065418.png",
+        "https://d2qa7a8q0vuocm.cloudfront.net/images/41241820241022065418.png"
+      ],
+      "overview": "A curated **7-day trip** that combines the 'Best of Bali,' from the cultural heart of **Ubud** to the beaches of **Kuta/Seminyak**. The itinerary features thrilling activities like the **ATV Ride** and **Water Sports**, along with iconic cultural landmarks such as **Tanah Lot Temple** and the **Kecak Dance**.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Bali | Leisure Day in Ubud",
+          "description": "<ul><li>Upon arrival in Bali, transfer to your hotel in **Ubud** (3 nights stay). Check-in and spend the rest of the day at leisure to relax and explore Ubud on your own.</li><li>Overnight stay in Ubud.</li></ul>"
+        },
+        {
+          "day": 2,
+          "title": "Ubud Local Sightseeing Tour",
+          "description": "<ul><li>Post a delightful breakfast, begin your local sightseeing tour of **Ubud**.</li><li>Visit the iconic rice paddies terraces in **Tegalalang Village**.</li><li>Experience a unique tour in Ubud with a visit to the **Monkey Forest** and explore the beauty of nearby sacred temples.</li><li>In the evening, witness the **Traditional Dance Performance** (included).</li><li>Overnight stay in Ubud.</li></ul>"
+        },
+        {
+          "day": 3,
+          "title": "ATV Ride + Tirta Empul Temple in Ubud",
+          "description": "<ul><li>Wake up and post a delightful breakfast, head out to experience a thrilling **ATV ride** in Ubud.</li><li>Further, visit the **Tirta Empul Temple**, famous for its holy spring water for purification rituals and admire the Balinese architecture.</li><li>Get back to your hotel and overnight stay in Ubud.</li></ul>"
+        },
+        {
+          "day": 4,
+          "title": "Transfer from Ubud to Kuta | Kuta Beach Sunset",
+          "description": "<ul><li>Wake up early and post a delightful breakfast, check out from your hotel in Ubud and transfer to **Kuta** (3 nights stay).</li><li>In the evening, head out on **Kuta Beach** and witness the mesmerizing sunset.</li><li>Get back to your hotel and overnight stay in Kuta.</li></ul>"
+        },
+        {
+          "day": 5,
+          "title": "Tanah Lot Temple + Bali Treetop Adventure Park in Kuta",
+          "description": "<ul><li>Wake up and post a delightful breakfast, set out to pay a visit to **Tanah Lot Temple**.</li><li>Later, proceed to the **Bali Treetop Adventure Park** (Entry included) and indulge in fun-filled outdoor adventure activities.</li><li>Get back to your hotel and overnight stay in Kuta.</li></ul>"
+        },
+        {
+          "day": 6,
+          "title": "Kintamani Volcano Tour & Water Sports",
+          "description": "<ul><li>Wake up and post a delightful breakfast, get set for some crazy **water sports activities** at **Tanjung Benoa Beach** (jet skiing, parasailing, banana boat ride).</li><li>Further, head towards **Kintamani Coffee Plantation** and capture the panoramic views of **Mount Batur** as seen from Kintamani Village.</li><li>Later, proceed ahead for a half-day tour of **Uluwatu Temple** and witness the Kecak Fire Dance.</li><li>Get back to your hotel and overnight stay in Kuta.</li></ul>"
+        },
+        {
+          "day": 7,
+          "title": "Goodbye Bali | Trip Ends",
+          "description": "<ul><li>It’s time to say goodbye to a lovely Bali trip. Drive towards the airport and board your flight back to India with a heart full of numerous memories.</li></ul>"
+        }
+      ],
+      "inclusions": [
+        "Surface Transfers & Travel as per the itinerary: **All airport pickups and drops**.",
+        "Entry Tickets: Entry to **Tirta Empul Temple**, **Tanah Lot Temple**, **Bali Treetop Adventure Park**, **Uluwatu Temple**.",
+        "Activities: **ATV Ride** in Ubud, **Kecak Fire Dance Performance** at Uluwatu Temple, **Kintamani Coffee Plantation** visit and tasting, **Traditional Balinese Dance Performance**, Visit to **Tegalalang Rice Terrace**.",
+        "Accommodation: **3 Nights in Hotel (3 or 4 Star) in Ubud + 3 Nights in Hotel (3 or 4 Star) in Kuta**.",
+        "Meals: **6 Breakfasts** for the entire trip.",
+        "VISA Assistance: Professional visa assistance is provided by experts.",
+        "Other Inclusions: Virtual real-time guide & assistance from start to end of the trip."
+      ],
+      "exclusions": [
+        "International Flights (From India to Bali & Back)",
+        "Any kind of personal expenses.",
+        "Water Sports or any other activity other than mentioned in the Inclusions.",
+        "Anything (Meals, Transport & Services) that are not mentioned in the above ‘Inclusions’ section.",
+        "Visa fee for Bali needs to be paid directly at visa website $35.",
+        "Travel Insurance.",
+        "GST (5%) is applicable extra.",
+        "5% TCS as per govt. rules will be applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax. This amount will be refunded in your ITR."
+      ]
+    },
 
   //==========================================================================
   // DESTINATION: Kazakhstan (from Kazakhstan.tsx)
   //==========================================================================
   {
-    slug: 'kazakhstan-backpacking',
-    title: 'Kazakhstan Backpacking',
-    destination: 'Kazakhstan',
-    duration: '6 Days 5 Nights',
-    price: '₹49999',
-    imageUrl: '/cloned_media/13989620240831074222.png',
-    overview: 'A backpacking adventure in Kazakhstan. Explore Almaty, Charyn Canyon, and Kolsai Lakes on a budget.',
-    itinerary: createItinerary('6 Days 5 Nights'),
-    inclusions: ['Hostel Stay', 'Transfers', 'Guided Tours', 'Breakfast'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches & Dinners'],
+    "slug": "kazakhstan-backpacking",
+    "title": "Kazakhstan Backpacking",
+    "destination": "Kazakhstan",
+    "duration": "6 Days 5 Nights",
+    "price": "₹49999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/13989620240831074222.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27025020231122141805.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38058720231122141805.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/20132420231122141805.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24853320231122141805.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/1229520231122141805.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26975120231122141805.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7316420231122141805.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33726120231122141805.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27943820231122141805.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40271520231122141805.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12020320231122141805.png"
+    ],
+    "overview": "A backpacking adventure in **Kazakhstan**. Explore the vibrant city of **Almaty**, hike the stunning red rocks of **Charyn Canyon**, and visit the eerie sunken forest of **Kaindy Lake** and the beautiful **Kolsai Lakes**. This trip explores diverse landscapes and the rich nomadic heritage of the world's 9th largest country.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Almaty Calling | Leisure Night",
+        "description": "<ul><li>Jump into your flight for **Almaty** and say goodbye to India.</li><li>After landing in Kazakhstan and clearing immigration, drive towards your hotel. </li><li>Check-in to your hotel and have some leisure.</li><li>Overnight stay at the hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Almaty Full-Day City Exploration",
+        "description": "<ul><li>Wake up to the relaxed morning and post breakfast get on board on your vehicle to explore the Almaty city. </li><li>Visit The **Park of 28 Panfilov Guardsmen**, **Zenkov Cathedral**, the Memorial of Glory and Eternal Flame, **Arbat**, the **Square of the Republic**, and the **Monument of Independence** in Almaty City Tour.</li><li>In the evening, visit the recreational park **Kok-Tobe**. </li><li>Overnight stay at the hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Shymbulak Ski Resort by Cable Car",
+        "description": "<ul><li>Post breakfast, head to the **Shymbulak Ski Resort**, nestled in the Trans-Ili Alatau mountains, for an exhilarating winter experience. </li><li>A **Cable car ride to Phase 3 (Top Level)** is included.</li><li>Shymbulak offers a range of activities against a backdrop of stunning alpine scenery. </li><li>In the evening, you can experience the cafes and pubs of Almaty city (on your own).</li><li>Overnight stay at the hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Explore Charyn Canyon & Black Canyon",
+        "description": "<ul><li>Post breakfast, Embark on a picturesque journey to the awe-inspiring **Charyn Canyon**, a geological marvel with its striking red rock formations. </li><li>Hike through the canyon's intricate pathways and witness the breathtaking landscapes. </li><li>Visit the **Black Canyon**, drive further to **Saty Village**.</li><li>Experience the Kazakh Hospitality in the homestay.</li><li>Dinner & overnight stay in Saty Village (includes 1 Lunch & 1 Dinner).</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Explore Kolsay & Kaindy Lakes",
+        "description": "<ul><li>Wake up to a beautiful mountain morning and have breakfast.</li><li>Get on board to your 4X4 vehicle to visit the stunning **Kaindy Lake** - famous for its submerged forest and surreal atmosphere.</li><li>Hike through the lush landscapes around the mirror-like surface of the lakes. </li><li>Drive back to your homestay and have lunch.</li><li>Drive to **Kolsay Lakes**, a series of stunning mountain lakes known for their crystal-clear waters and scenic beauty. </li><li>As your exploration concludes, return to Almaty.</li><li>Overnight stay at the hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "Goodbye Kazakhstan | Trip Ends",
+        "description": "<ul><li>Wake up in the morning and post breakfast feel free to take a stroll around in the city to finish any last minute shopping at **Green Bazar**.</li><li>It’s time to say goodbye to a lovely Kazakhstan trip.</li><li>Drive towards the airport and board your flight back to India with a heart full of numerous memories, fun amazing experiences and new bonds.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Surface Transfers: All airport pick up and drop, All Transportation as per the itinerary and 4X4 Vehicle to Kaindy Lake from Saty village.",
+      "Entry Tickets: Entry tickets to Kok-Tobe by car, Cable car tickets to Shymbulak Ski Resort until top point (Phase 3), Entry tickets of Kolsay & Kaindy Lakes and Tickets to Charyn Canyon National Park.",
+      "Accommodation: 4 nights stay in a Deluxe Hotel at Almaty and 1 night stay in a homestay at Saty village.",
+      "Meals: 5 breakfasts at the time of stay (Both Veg & Non-Veg), 1 Lunch & 1 dinner on the Day 4 in Saty Village (Both Veg & Non-Veg).",
+      "VISA Assistance: Visa is free for Indians.",
+      "Other Inclusions: All Local Assistance, Real time suggestions for events, Pub, Cafe & Shopping."
+    ],
+    "exclusions": [
+      "Meals which are not mentioned in the program. ",
+      "Early check-in and late check-out. Hotel/Room upgrade. ",
+      "Guide & Entrance fees during sightseeing or any other item not specified in inclusions ",
+      "Drinks, personal expenses and any services not mentioned.",
+      "Travel Insurance. ",
+      "Tourism Fee will be payable at hotel.",
+      "GST & TCS as applicable."
+    ]
   },
   {
-    slug: 'kazakhstan-5d4n',
-    title: 'Kazakhstan- 5D4N',
-    destination: 'Kazakhstan',
-    duration: '5 Days 4 Nights',
-    price: '₹45000',
-    imageUrl: '/cloned_media/10635320231113122348.png',
-    overview: 'A 5-day tour focusing on Almaty and its stunning natural surroundings, including Big Almaty Lake.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Sightseeing', 'Breakfast'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches & Dinners'],
+    "slug": "kazakhstan-5d4n",
+    "title": "Kazakhstan- 5D4N",
+    "destination": "Kazakhstan",
+    "duration": "5 Days 4 Nights",
+    "price": "₹45000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/10635320231113122348.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8774720231113122348.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22133220231113122348.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6126520231113122348.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41924920231113122348.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35483720231113122348.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5559320231113122348.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8713920231113122348.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31599920231113122348.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3027420231113122348.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/29048920231113122348.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12020320231122141805.png"
+    ],
+    "overview": "A 5-day tour focusing on **Almaty** and its stunning natural surroundings, including Big Almaty Lake. This trip explores Central Asia's vibrant culture and diverse landscapes, from the modern city center to the dramatic red rock formations of **Charyn Canyon** and the tranquil **Kolsai** and **Kaindy Lakes**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Almaty Arrival",
+        "description": "<ul><li>With excitement and happiness on your face, jump into your flight for **Almaty** and say goodbye to India.</li><li>After landing and clearing immigration, drive towards your hotel. Check-in and have some leisure.</li><li>Soak in the vibes of Almaty and feel free to stroll around the city.</li><li>Overnight stay at the hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Almaty City Tour | Cable Car & Sunset",
+        "description": "<ul><li>Wake up and post breakfast, hop on to your vehicle for an exciting **Almaty city tour**.</li><li>Visit The **Park of 28 Panfilov Guardsmen**, **Zenkov Cathedral**, the Memorial of Glory and Eternal Flame, **Arbat**, the **Square of the Republic**, and the **Monument of Independence**.</li><li>Visit the recreational park **Kok-Tobe** via cable car and experience the mesmerizing sunset.</li><li>Overnight stay at the hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Charyn Canyon National Park",
+        "description": "<ul><li>Post a delightful breakfast, drive towards the awe-inspiring **Charyn Canyon National Park**, which resembles the famous Grand Canyon.</li><li>Walk to the Charyn River.</li><li>Visit the Black Canyon & Moon Canyon.</li><li>Further drive towards **Saty village**.</li><li>Dinner & overnight stay in Saty village (includes 1 Lunch & 1 Dinner).</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Kolsay Lake & Kaindy Lake",
+        "description": "<ul><li>Wake up early and post a delightful breakfast, head out to the famous **Kolsay Lake 1**.</li><li>You can do boating at stunning Kolsay lake.</li><li>Further drive towards **Kaindy Lake** (famous for its submerged forest) from Kolsay lake.</li><li>Hike to Kaindy Lake from the parking area (around 1.5 Km) or you can hire a pony to reach the lake.</li><li>Drive back to Almaty city followed by a much-needed overnight stay.</li><li>Overnight stay at the hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Goodbye Almaty | Depart for Homeland",
+        "description": "<ul><li>Wake up and post breakfast, check-out from our hotel.</li><li>You have free time today for shopping and café crawling at **Green Bazar**.</li><li>Drive towards the airport and flyback to your respective destinations with the mesmerizing views and memories to cherish forever.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Surface Transfers: All airport pick up and drop, All Transportation as per the itinerary and 4X4 Vehicle to Kaindy Lake from Saty village.",
+      "Entry Tickets: Entry tickets to Kok-Tobe by car, Cable car tickets to Shymbulak Ski Resort until top point (Phase 3), Entry tickets of Kolsay & Kaindy Lakes and Tickets to Charyn Canyon National Park.",
+      "Accommodation: 3 nights stay in a 3-star Hotel at Almaty and 1 night stay in a homestay at Saty village.",
+      "Meals: 5 breakfasts at the time of stay (Both Veg & Non-Veg), 1 Lunch & 1 dinner on the Day 4 in Saty Village (Both Veg & Non-Veg).",
+      "VISA Assistance: Visa is free for Indians.",
+      "Other Inclusions: All Local Assistance, Real time suggestions for events, Pub, Cafe & Shopping."
+    ],
+    "exclusions": [
+      "Any kind of personal expense.",
+      "Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Travel Insurance.",
+      "5% GST & 5% TCS (TCS can be claimed in full in your ITR)."
+    ]
   },
   {
-    slug: 'kazakhstan-uzbekistan',
-    title: 'Kazakhstan & Uzbekistan',
-    destination: 'Kazakhstan',
-    duration: '8 Days 7 Nights',
-    price: '₹110000',
-    originalPrice: '₹120000',
-    discount: '₹10,000',
-    imageUrl: '/cloned_media/20043320240211074955.png',
-    overview: 'A Central Asian adventure combining the modern and natural wonders of Kazakhstan with the ancient Silk Road cities of Uzbekistan.',
-    itinerary: createItinerary('8 Days 7 Nights'),
-    inclusions: ['Hotels', 'Inter-country Flight/Train', 'Transfers', 'Guided Tours'],
-    exclusions: ['Main Flights', 'Visa Fees', 'Meals'],
+    "slug": "kazakhstan-uzbekistan",
+    "title": "Kazakhstan & Uzbekistan",
+    "destination": "Kazakhstan",
+    "duration": "8 Days 7 Nights",
+    "price": "₹110000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/20043320240211074955.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16870620240211074953.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22961820240211074954.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16057320240211074954.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/25247920240211074954.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2031320240211074954.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23738320240211074954.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/35779620240211074954.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12022720240211074954.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6438620240211074954.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/12895120240211074955.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/2786920240211074955.png"
+    ],
+    "overview": "A Central Asian adventure combining the modern and natural wonders of **Kazakhstan** with the ancient **Silk Road** cities of **Uzbekistan**. Explore Almaty, Shymbulak Ski Resort, Charyn Canyon, Kolsai Lakes, Tashkent, and Samarkand on this 8-day journey.",
+    "itinerary": [
+      {
+        "day": 0,
+        "title": "DEPARTURE FROM INDIA",
+        "description": "<ul><li>Get ready to depart from Indira Gandhi International Airport T3, Delhi at 9:25 PM. The reporting time will be at least 3 hours before the Departure</li></ul>"
+      },
+      {
+        "day": 1,
+        "title": "ALMATY ARRIVAL - CITY SIGHTSEEING",
+        "description": "<ul><li>Arrival in **Almaty** at 1:40 AM with Indigo 6E 1801.</li><li>Overnight stay at the Hotel.</li><li>After breakfast start your day tour which includes: The **Park of 28 Panfilov Guardsmen**, **Zenkov Cathedral**, the Memorial of Glory and Eternal Flame, **Arbat**, the **Square of the Republic**, and the **Monument of Independence** and visiting the recreational park **Kok-Tobe** by car.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "VISIT SHYMBULAK SKI RESORT BY CABLE CAR",
+        "description": "<ul><li>Head to the **Shymbulak Ski Resort**, nestled in the Trans-Ili Alatau mountains.</li><li>Cable car ride to Phase 3 (Top Level) is included.</li><li>Visit the nearby **Medeo Ice Skating Rink**, one of the highest-altitude rinks in the world.</li><li>Overnight stay at the hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "KOLSAY AND KAINDY LAKES | OVERNIGHT STAY IN SATY VILLAGE",
+        "description": "<ul><li>After breakfast, embark on a picturesque journey to **Kolsay Lakes** and **Kaindy Lake** (famous for its submerged forest).</li><li>Take a boat ride at Kaindy Lake.</li><li>Overnight stay in **Saty Village**.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "VISIT CHARYN CANYON AND RETURN BACK TO ALMATY",
+        "description": "<ul><li>The journey continues to the awe-inspiring **Charyn Canyon**, a geological marvel with its striking red rock formations.</li><li>Hike through the canyon's intricate pathways and witness the breathtaking landscapes.</li><li>As your exploration concludes, return to Almaty.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "FREE DAY & DEPARTURE TO TASHKENT",
+        "description": "<ul><li>Leisure day for shopping and me time.</li><li>Departure for **Tashkent** at around 19:00 in an overnight semi-sleeper bus.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "REACH TASHKENT - SIGHTSEEING & OVERNIGHT STAY",
+        "description": "<ul><li>Approximate arrival at the border - Zhibek-Zholy checkpoint, Border “Chernyaevka” and move to Tashkent.</li><li>Begin to explore the city - excursion includes: **Khast Imam Complex**, **Tole-bi Mausoleum**, **Minor Mosque**, **Independence Square**.</li><li>Hotel accommodation after the excursion.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "TASHKENT TO SAMARKAND",
+        "description": "<ul><li>Early departure to **Samarkand** at 7 AM.</li><li>Getting acquainted and exploring the city - excursion around the city of Samarkand.</li><li>Visit **Gur Emir Mausoleum** (Temirlan mausoleum), **Registan Square**, necropolis complex Shahi-Zinda, and mausoleum of Bibi Khanum.</li><li>Overnight stay at the hotel.</li></ul>"
+      },
+      {
+        "day": 8,
+        "title": "SAMARKHAND SIGHTSEEING AND AIRPORT DROP",
+        "description": "<ul><li>Leisure day for shopping and me time.</li><li>Departure for Tashkent in the evening, airport drop at around 9 PM.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Airport and Intercity Transfers (Almaty-Tashkent)",
+      "English-speaking guide",
+      "Entrance tickets to Kok-Tobe by car, Shymbulak cable car until top point, lakes & canyon",
+      "04 overnight stays in 3 Star hotel in Almaty (Double Sharing)",
+      "02 overnight stays in Cozy hotel in Uzbekistan ( Double Sharing )",
+      "01 Night stay in Saty village",
+      "All 07 Breakfasts",
+      "Lunch & dinner on the Day 3 in Saty village (Note: This refers to Day 3 of the original 5D/4N Kazakhstan package, which aligns with Day 4 of this 8-day itinerary).",
+      "Transfer in a bus with lying-down seats to the border and back.",
+      "Comfortable transport to Tashkent – Samarkand – Tashkent (Seating)",
+      "All transfers according to the program",
+      "All taxes and tour fees.",
+      "Entry tickets of the Mentioned Sightseeing Spots in Uzbekistan.",
+      "Excursions according to the program",
+      "Accompanying services.",
+      "Services of local professional tour guides in each city."
+    ],
+    "exclusions": [
+      "Meals which are not mentioned in the program.",
+      "Single Supplement. Early check-in and late check-out.",
+      "Hotel/Room upgrade.",
+      "Guide & Entrance fees during sightseeing or any other item not specified in inclusions",
+      "Drinks, personal expenses and any services not clearly mentioned in the program.",
+      "Travel Insurance.",
+      "GST & TCS as applicable.",
+      "Uzbekistan visa cost."
+    ]
   },
   {
-    slug: 'almaty-5d4n-kazakhstan',
-    title: 'Almaty 5D4N Kazakhstan',
-    destination: 'Kazakhstan',
-    duration: '5 Days 4 Nights',
-    price: '₹39999',
-    imageUrl: '/cloned_media/25789620240219080516.png',
-    overview: 'A quick 5-day trip focused entirely on Almaty, Kazakhstan\'s cultural capital, and its nearby mountain attractions.',
-    itinerary: createItinerary('5 Days 4 Nights'),
-    inclusions: ['Hotel Stay', 'Airport Transfers', 'Almaty City Tour', 'Breakfast'],
-    exclusions: ['Flights', 'Visa Fees', 'Lunches & Dinners'],
+    "slug": "almaty-5d4n-kazakhstan",
+    "title": "Almaty 5D4N Kazakhstan",
+    "destination": "Kazakhstan",
+    "duration": "5 Days 4 Nights",
+    "price": "₹39999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25789620240219080516.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26336520240219080515.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/39262620240219080516.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24835220240219080516.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5198720240219080516.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41767820240219080516.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40756320240219080516.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31513720240219080516.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26252220240219080516.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19833120240219080516.png"
+    ],
+    "overview": "A quick 5-day tour focused entirely on **Almaty**, Kazakhstan's cultural capital, and its nearby mountain attractions. This package includes exploration of city highlights like the **Zenkov Cathedral** and the **Green Bazaar**, alongside scenic trips to **Shymbulak Ski Resort** and the dramatic **Charyn Canyon** and **Kaindy Lakes**.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Almaty Arrival",
+        "description": "<ul><li>With excitement and happiness on your face, jump into your flight for **Almaty** and say goodbye to India.</li><li>After landing in Almaty and clearing immigration, drive towards your hotel. Check-in to our comfy hotel and have some leisure.</li><li>Soak in the vibes of Almaty and feel free to stroll around the city.</li><li>Overnight stay at hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Shymbulak Ski Resort",
+        "description": "<ul><li>Post a delightful breakfast, drive towards the **Shymbulak Ski Resort**.</li><li>Ride the **Gondola** up to Level 3 (3200 meters) for world-class views and a chance to enjoy the mountain silence.</li><li>The resort offers various adventure activities such as Zip Lining, Paragliding, Horse riding (on your own).</li><li>In the evening, walk around Panfilov promenade and **Arbat street** for music, shopping, and entertainment.</li><li>Back to hotel, overnight stay at hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Almaty City Tour | Kok Tobe & Sunset",
+        "description": "<ul><li>Wake up and post breakfast, hop on to your vehicle for an exciting **Almaty city tour**.</li><li>Visit the **Zenkov Cathedral** (Ascension Cathedral) and the **Park of 28 Panfilov Guardsmen**.</li><li>Visit the **Kok Tobe** via car and experience the mesmerizing sunset. The hill offers a panoramic view of the city and is home to the famous 372m high TV Tower.</li><li>Overnight stay at the hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Green Bazaar + Rakhat Chocolate Shop",
+        "description": "<ul><li>Wake up and post breakfast, hop on to your vehicle for an exciting tour to **Green Bazaar** & **Rakhat Chocolate Shop**.</li><li>The Green Bazaar is a typical local market where you can purchase everything from meat to spices to fruits.</li><li>Visit the famous **Rakhat Chocolate shop**, the oldest manufacturer of chocolates, for sweet treats and souvenirs.</li><li>Overnight stay at the hotel in Almaty.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Goodbye Almaty | Depart for Homeland",
+        "description": "<ul><li>Wake up in the morning and post breakfast, check-out from our hotel.</li><li>You have free time today for shopping and café crawling.</li><li>Drive towards the airport and flyback to your respective destinations with the mesmerizing views and memories to cherish forever.</li></ul>"
+      }
+    ],
+    "inclusions": [
+      "Accommodation in a 3-star Hotel for 4 Nights in Almaty",
+      "Daily buffet Breakfast at the Hotel.",
+      "Almaty airport to Hotel transfers on a Pvt basis and vice versa.",
+      "Almaty city tour.",
+      "Gondola tickets to Shymbulak – Level 3",
+      "Entry tickets to Kok Tobe.",
+      "All local assistance with customized live suggestions for the best city experience.",
+      "Visa & Immigration assistance."
+    ],
+    "exclusions": [
+      "Any kind of personal expense.",
+      "Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Travel Insurance.",
+      "5% GST & 5% TCS (TCS can be claimed in full in your ITR)."
+    ]
   },
 
   //==========================================================================
