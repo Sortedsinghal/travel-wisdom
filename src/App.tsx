@@ -24,7 +24,6 @@ import Bhutan from './pages/Bhutan';
 import Spiti from './pages/Spiti';
 import LehLadakh from './pages/LehLadakh';
 import HimachalBackpacking from './pages/HimachalBackpacking';
-import MeghalayaBackpacking from './pages/MeghalayaBackpacking';
 import ChoptaTungnath from './pages/ChoptaTungnath';
 import ManaliSissu from './pages/ManaliSissu';
 import ManaliSissuKasol from './pages/ManaliSissuKasol';
@@ -80,7 +79,6 @@ const App = () => (
           <Route path="/spiti" element={<Spiti />} />
           <Route path="/leh-ladakh" element={<LehLadakh />} />
           <Route path="/himachal-backpacking" element={<HimachalBackpacking />} />
-          <Route path="/meghalaya-backpacking" element={<MeghalayaBackpacking />} />
           <Route path="/chopta-tungnath" element={<ChoptaTungnath />} />
           <Route path="/manali-sissu" element={<ManaliSissu />} />
           <Route path="/manali-sissu-kasol" element={<ManaliSissuKasol />} />

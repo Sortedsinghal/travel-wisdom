@@ -1,4 +1,5 @@
 import React from 'react';
+// --- FIX: Reverting to original alias paths ---
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
@@ -46,73 +47,78 @@ const Dubai = () => {
   return (
     <div className="bg-white">
       <Header />
-      <main>
-        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* --- THIS IS THE ONLY CONTAINER YOU NEED --- */}
+      <main className="max-w-[1600px] mx-auto px-6 lg:px-12 py-8">
+        
+        {/* --- REMOVED THE EXTRA max-w-screen-xl div THAT WAS HERE --- */}
 
-          <section className="relative">
-            {/* Updated Hero Image Path */}
-            <img src="/cloned_media/24358320240921120300.png" className="w-full h-[500px] object-cover rounded-2xl" alt="Scenic view of Dubai"/>
-            <div className="absolute inset-0 bg-black/30 rounded-2xl"></div>
-            <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-6xl font-bold z-10 p-4 text-center">
-              Dubai Tour Packages
-            </h1>
-          </section>
+        <section className="relative">
+          {/* Updated Hero Image Path */}
+          <img src="/cloned_media/24358320240921120300.png" className="w-full h-[500px] object-cover rounded-2xl" alt="Scenic view of Dubai"/>
+          <div className="absolute inset-0 bg-black/30 rounded-2xl"></div>
+          <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-6xl font-bold z-10 p-4 text-center">
+            Dubai Tour Packages
+          </h1>
+        </section>
 
-          <section className="bg-gray-100 p-8 rounded-lg my-8">
-            <h2 className="text-3xl font-semibold border-b-2 border-gray-200 pb-3 mb-6">
-              About Dubai Tour Packages
-            </h2>
-            <ExpandableText>
-              {/* ... (Keep the existing ExpandableText content) ... */}
-              <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-                <h2>Explore Dubai with Travel Wisdom</h2>
-                <p>We all travel to places with beaches and mountains but how often have we seen prime destinations that not only have beaches or valleys but are also examples of futuristic worlds? Fame of UAE, Dubai is not just a marvel of modern engineering and architecture but also a model for luxurious lifestyle.</p>
-                {/* ... (rest of the text content) ... */}
-              </div>
-            </ExpandableText>
-          </section>
+        {/* --- All sections below are now directly inside the 1600px container --- */}
 
-          <section className="mt-16">
-            <h2 className="text-4xl font-bold mb-6"><span className="text-blue-700">Handpicked</span> By Our Experts ✨</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-              <div className="lg:col-span-8">
-                {/* --- USE FILTERED DATA --- */}
-                <TripSlider trips={handpickedTripsDubai} slidesToShow={3} />
-              </div>
-              <aside className="lg:col-span-4">
-                <div className="border bg-white p-6 rounded-2xl shadow-lg">
-                  <h3 className="text-xl font-semibold text-center mb-1">Let's plan your next trip</h3>
-                  <p className="text-center text-sm text-gray-600 mb-6">Make your move, fill out your details now!</p>
-                  <ContactForm />
-                </div>
-              </aside>
+        <section className="bg-gray-100 p-10 rounded-2xl my-10 shadow-sm">
+          <h2 className="text-3xl font-semibold border-b-2 border-gray-200 pb-3 mb-6">
+            About Dubai Tour Packages
+          </h2>
+          <ExpandableText>
+            <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
+              <h2>Explore Dubai with Travel Wisdom</h2>
+              <p>We all travel to places with beaches and mountains but how often have we seen prime destinations that not only have beaches or valleys but are also examples of futuristic worlds? Fame of UAE, Dubai is not just a marvel of modern engineering and architecture but also a model for luxurious lifestyle.</p>
+              {/* ... (rest of the text content) ... */}
             </div>
-          </section>
+          </ExpandableText>
+        </section>
 
-          <div className="space-y-20 mt-20">
-            <section>
-              <h2 className="text-4xl font-bold mb-6">Dubai Family Tours</h2>
+        <section className="mt-16">
+          {/* Added px-6 to align heading with slider padding */}
+          <h2 className="text-4xl font-bold mb-6 px-6"><span className="text-blue-700">Handpicked</span> By Our Experts ✨</h2>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            <div className="lg:col-span-8">
               {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={familyToursDubai} slidesToShow={4} />
-            </section>
-            {/* The source code did not contain data for code3, code4, or code5, so those sections are omitted. */}
-          </div>
-
-          <section className="py-24">
-            <div className="text-center">
-              <h2 className="text-4xl font-bold mb-12">Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span></h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-                {reasons.map((reason, index) => (
-                  <div key={index} className="bg-gray-50 rounded-lg p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
-                    <div className="mb-4 inline-block bg-blue-100 p-4 rounded-full">{reason.icon}</div>
-                    <h3 className="text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
-                    <p className="text-gray-600">{reason.description}</p>
-                  </div>
-                ))}
-              </div>
+              <TripSlider trips={handpickedTripsDubai} slidesToShow={3} />
             </div>
+            <aside className="lg:col-span-4">
+              <div className="border bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-semibold text-center mb-1">Let's plan your next trip</h3>
+                <p className="text-center text-sm text-gray-600 mb-6">Make your move, fill out your details now!</p>
+                <ContactForm />
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <div className="space-y-20 mt-20">
+          <section>
+            {/* Added px-6 to align heading with slider padding */}
+            <h2 className="text-4xl font-bold mb-6 px-6">Dubai Family Tours</h2>
+            {/* --- USE FILTERED DATA --- */}
+            <TripSlider trips={familyToursDubai} slidesToShow={4} />
           </section>
         </div>
+
+        <section className="py-24">
+          <div className="text-center">
+            <h2 className="text-4xl font-bold mb-12">Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span></h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+              {reasons.map((reason, index) => (
+                <div key={index} className="bg-gray-50 rounded-lg p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
+                  <div className="mb-4 inline-block bg-blue-100 p-4 rounded-full">{reason.icon}</div>
+                  <h3 className="text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
+                  <p className="text-gray-600">{reason.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* --- REMOVED THE EXTRA CLOSING </div> --- */}
       </main>
       <Footer />
     </div>
@@ -120,3 +126,4 @@ const Dubai = () => {
 };
 
 export default Dubai;
+

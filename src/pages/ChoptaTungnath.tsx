@@ -153,7 +153,7 @@ const ChoptaTungnath = () => {
     <div className="bg-gray-100 font-sans" style={{fontFamily: "'Poppins', sans-serif"}}>
       <Header />
 
-      <main className="max-w-screen-xl mx-auto px-4 pt-4 sm:pt-8 pb-20 lg:pb-8">
+      <main className="max-w-[1600px] mx-auto px-6 lg:px-12 py-8">
         <div className="lg:hidden mb-4">
           <div className="overflow-x-auto snap-x snap-mandatory flex gap-2">
             {tripData.mobileGallery.map((img, i) => (

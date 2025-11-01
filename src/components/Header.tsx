@@ -75,7 +75,7 @@ const Header = () => {
     { name: "Spiti Valley", path: "/spiti" },
     { name: "Leh & Ladakh", path: "/leh-ladakh" },
     { name: "Himachal Backpacking", path: "/trip/himachal-backpacking-manali-kasol-jibhi" },
-    { name: "Meghalaya", path: "/meghalaya-backpacking" },
+    { name: "Meghalaya", path: "/trip/meghalaya-backpacking" },
   ];
 
   const internationalTripsList = [

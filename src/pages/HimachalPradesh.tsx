@@ -5,11 +5,9 @@ import ContactForm from '@/components/ContactForm';
 import TripSlider from '@/components/TripSlider';
 import ExpandableText from '@/components/ExpandableText';
 import { Bed, Airplay, Mountain, Users, ThumbsUp, CreditCard, UserCheck, Zap, Award } from 'lucide-react';
-
-// --- IMPORT CENTRALIZED DATA ---
 import { allTrips } from '@/data/trips';
 
-// --- FILTER DATA FOR HIMACHAL ---
+// --- FILTERED TRIPS ---
 const handpickedTripsHimachal = allTrips.filter(trip =>
   trip.destination === 'Himachal' &&
   [
@@ -19,8 +17,8 @@ const handpickedTripsHimachal = allTrips.filter(trip =>
     'manali-kasol-kheerganga',
     'mcleodganj-triund-bir',
     'himachal-backpacking-9d8n',
-    'spiti-valley-circuit-trip', // Note: Also destination 'Spiti'
-    'winter-spiti',             // Note: Also destination 'Spiti'
+    'spiti-valley-circuit-trip',
+    'winter-spiti',
     'sm-himachal-backpacking'
   ].includes(trip.slug)
 );
@@ -57,7 +55,7 @@ const weekendTripsHimachal = allTrips.filter(trip =>
     'jibhi-tirthan-valley',
     'kasol-kheerganga-trek',
     'mcleodganj-triund-trek',
-    'mcleodganj-bir' // Note: 'mcleodganj-bir' also in handpicked
+    'mcleodganj-bir'
   ].includes(trip.slug)
 );
 
@@ -73,17 +71,16 @@ const bestTreksHimachal = allTrips.filter(trip =>
   ].includes(trip.slug)
 );
 
-
 const reasons = [
-  { icon: <Bed className="w-10 h-10 text-blue-700" />, title: 'Handpicked Stays with Friendly Hosts', description: 'All our accommodations are verified, pre-checked for quality and hygiene.'},
-  { icon: <Airplay className="w-10 h-10 text-blue-700" />, title: '2500+ Trips Hosted PAN India & Abroad', description: 'From group trips to custom tours exploring diverse landscapes, cultures & lots more.'},
-  { icon: <Mountain className="w-10 h-10 text-blue-700" />, title: 'Solo Travel Friendly Trips for All', description: 'We provide absolutely safe and comfortable environment for solo travellers.'},
-  { icon: <Award className="w-10 h-10 text-blue-700" />, title: 'Trip Itineraries Curated with Love', description: 'Trip plans handcrafted by destination experts for hassle-free travel experience.'},
-  { icon: <Users className="w-10 h-10 text-blue-700" />, title: '8 Years of On-Ground Experience', description: 'Being in Tourism industry for last 8 years, we put our heart in planning your trips.'},
-  { icon: <ThumbsUp className="w-10 h-10 text-blue-700" />, title: 'Rated 4.8 Stars on Google Reviews', description: 'Our growth lies in the memorable travel experiences we provide to our travellers.'},
-  { icon: <CreditCard className="w-10 h-10 text-blue-700" />, title: 'Hassle-Free Booking Process', description: 'Seamless booking process on all our trips with the help of our travel experts.'},
-  { icon: <UserCheck className="w-10 h-10 text-blue-700" />, title: 'Filtering Like-Minded Travellers', description: 'We make sure to bring only like-minded travellers on basis of age, gender, comfort etc.'},
-  { icon: <Zap className="w-10 h-10 text-blue-700" />, title: 'Experienced & Cool Trip Captains', description: 'We appoint friendly trip leaders with strong leadership qualities & high spirit!'},
+  { icon: <Bed className="w-10 h-10 text-blue-700" />, title: 'Handpicked Stays with Friendly Hosts', description: 'All our accommodations are verified, pre-checked for quality and hygiene.' },
+  { icon: <Airplay className="w-10 h-10 text-blue-700" />, title: '2500+ Trips Hosted PAN India & Abroad', description: 'From group trips to custom tours exploring diverse landscapes, cultures & lots more.' },
+  { icon: <Mountain className="w-10 h-10 text-blue-700" />, title: 'Solo Travel Friendly Trips for All', description: 'We provide absolutely safe and comfortable environment for solo travellers.' },
+  { icon: <Award className="w-10 h-10 text-blue-700" />, title: 'Trip Itineraries Curated with Love', description: 'Trip plans handcrafted by destination experts for hassle-free travel experience.' },
+  { icon: <Users className="w-10 h-10 text-blue-700" />, title: '8 Years of On-Ground Experience', description: 'Being in Tourism industry for last 8 years, we put our heart in planning your trips.' },
+  { icon: <ThumbsUp className="w-10 h-10 text-blue-700" />, title: 'Rated 4.8 Stars on Google Reviews', description: 'Our growth lies in the memorable travel experiences we provide to our travellers.' },
+  { icon: <CreditCard className="w-10 h-10 text-blue-700" />, title: 'Hassle-Free Booking Process', description: 'Seamless booking process on all our trips with the help of our travel experts.' },
+  { icon: <UserCheck className="w-10 h-10 text-blue-700" />, title: 'Filtering Like-Minded Travellers', description: 'We make sure to bring only like-minded travellers on basis of age, gender, comfort etc.' },
+  { icon: <Zap className="w-10 h-10 text-blue-700" />, title: 'Experienced & Cool Trip Captains', description: 'We appoint friendly trip leaders with strong leadership qualities & high spirit!' },
 ];
 
 const HimachalPradesh = () => {
@@ -91,38 +88,41 @@ const HimachalPradesh = () => {
     <div className="bg-white">
       <Header />
       <main>
-        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* ✨ Increased width & reduced padding */}
+        <div className="max-w-screen-2xl mx-auto px-2 sm:px-4 lg:px-6 py-8">
 
+          {/* --- HERO SECTION --- */}
           <section className="relative">
-            <img src="/cloned_media/3465620240912110336.png" className="w-full h-[500px] object-cover rounded-2xl" alt="Scenic view of Himachal Pradesh"/>
+            <img src="/cloned_media/3465620240912110336.png" className="w-full h-[500px] object-cover rounded-2xl" alt="Scenic view of Himachal Pradesh" />
             <div className="absolute inset-0 bg-black/30 rounded-2xl"></div>
             <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-6xl font-bold z-10 p-4 text-center">
               Himachal Pradesh Tour Packages
             </h1>
           </section>
 
+          {/* --- ABOUT SECTION --- */}
           <section className="bg-gray-100 p-8 rounded-lg my-8">
             <h2 className="text-3xl font-semibold border-b-2 border-gray-200 pb-3 mb-6">
               About Himachal Pradesh Tour Packages
             </h2>
             <ExpandableText>
-              {/* ... (Keep the existing ExpandableText content) ... */}
               <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
                 <p>Just think about a place where you are surrounded by lush green forests, scenic views far away from the hustle bustle of the city, this is the majestic mountain land called Himachal Pradesh. So let's talk about our Himachal Pradesh tour Packages giving you an enriched experience of “Dev Bhoomi”- The Land of Gods. So if you are planning to visit the abode of god, then don't miss out, and add this tourist destination to your bucket list!</p>
-                {/* ... (rest of the text content) ... */}
               </div>
             </ExpandableText>
           </section>
 
+          {/* --- HANDPICKED TRIPS --- */}
           <section className="mt-16">
-            <h2 className="text-4xl font-bold mb-6"><span className="text-blue-700">Handpicked</span> By Our Experts ✨</h2>
+            <h2 className="text-4xl font-bold mb-6">
+              <span className="text-blue-700">Handpicked</span> By Our Experts ✨
+            </h2>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-              <div className="lg:col-span-8">
-                 {/* --- USE FILTERED DATA --- */}
+              <div className="lg:col-span-9 xl:col-span-9">
                 <TripSlider trips={handpickedTripsHimachal} slidesToShow={3} />
               </div>
-              <aside className="lg:col-span-4">
-                <div className="border bg-white p-6 rounded-2xl shadow-lg">
+              <aside className="lg:col-span-3 xl:col-span-3">
+                <div className="border bg-white p-6 rounded-2xl shadow-lg sticky top-24">
                   <h3 className="text-xl font-semibold text-center mb-1">Let's plan your next trip</h3>
                   <p className="text-center text-sm text-gray-600 mb-6">Make your move, fill out your details now!</p>
                   <ContactForm />
@@ -131,32 +131,30 @@ const HimachalPradesh = () => {
             </div>
           </section>
 
+          {/* --- OTHER CATEGORIES --- */}
           <div className="space-y-20 mt-20">
             <section>
               <h2 className="text-4xl font-bold mb-6">Himachal Pradesh Honeymoon Trips</h2>
-              {/* --- USE FILTERED DATA --- */}
               <TripSlider trips={honeymoonTripsHimachal} slidesToShow={4} />
             </section>
             <section>
               <h2 className="text-4xl font-bold mb-6">Himachal Pradesh Family Tours</h2>
-              {/* --- USE FILTERED DATA --- */}
               <TripSlider trips={familyToursHimachal} slidesToShow={4} />
             </section>
             <section>
               <h2 className="text-4xl font-bold mb-6">Himachal Pradesh Weekend Trips</h2>
-              {/* --- USE FILTERED DATA --- */}
               <TripSlider trips={weekendTripsHimachal} slidesToShow={4} />
             </section>
             <section>
               <h2 className="text-4xl font-bold mb-6">Best Treks in Himachal Pradesh</h2>
-              {/* --- USE FILTERED DATA --- */}
               <TripSlider trips={bestTreksHimachal} slidesToShow={4} />
             </section>
           </div>
 
+          {/* --- WHY TRAVEL WITH US --- */}
           <section className="py-24">
             <div className="text-center">
-              <h2 className="text-4xl font-bold mb-12">Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span></h2>
+              <h2 className="text-4xl font-bold mb-12">Why Select To Travel With Us? 🎉</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
                 {reasons.map((reason, index) => (
                   <div key={index} className="bg-gray-50 rounded-lg p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
@@ -168,6 +166,7 @@ const HimachalPradesh = () => {
               </div>
             </div>
           </section>
+
         </div>
       </main>
       <Footer />

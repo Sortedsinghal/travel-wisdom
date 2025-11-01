@@ -8,7 +8,7 @@ export interface Trip {
   // --- Core identifying information ---
   slug: string; // The URL-friendly unique identifier
   title: string;
-  destination: 'Dubai' | 'Rajasthan' | 'Kerala' | 'Bhutan' | 'Leh Ladakh' | 'Bali' | 'Kazakhstan' | 'Himachal' | 'Kashmir' | 'Spiti' | 'Uttarakhand' | 'Thailand' | 'Vietnam';
+  destination: 'Dubai' | 'Rajasthan' | 'Kerala' | 'Bhutan' | 'Leh Ladakh' | 'Bali' | 'Kazakhstan' | 'Himachal' | 'Kashmir' | 'Spiti' | 'Uttarakhand' | 'Thailand' | 'Vietnam' | 'Meghalaya'; // <-- UPDATED ENUM
 
   // --- Data for Trip Cards ---
   duration: string;
@@ -10323,4 +10323,72 @@ export const allTrips: Trip[] = [
     inclusions: ['Transportation from Delhi to Delhi in comfortable vehicle', '2 Nights accommodation in camps/hotel on sharing basis', 'All meals from Day 1 breakfast to Day 2 lunch', 'Experienced trek guide and support staff', 'All necessary permits and entry fees', 'Basic first aid and safety equipment'],
     exclusions: ['Personal expenses and items of personal nature', 'Travel insurance and medical expenses', 'Any meals not mentioned in inclusions', 'Tips for guide and support staff', 'Any expenses due to natural calamities or unforeseen circumstances', 'GST (5%) is applicable extra']
   },
+  {
+  slug: "meghalaya-backpacking",
+  title: "Meghalaya Backpacking Trip",
+  destination: "Meghalaya",
+  duration: "6 Days / 5 Nights",
+  price: "₹17,499",
+  originalPrice: "₹19,999",
+  discount: "₹2,500",
+  imageUrl: '/cloned_media/34404220250703080227.png',
+    gallery: [
+      '/cloned_media/16540420220720040415.png',
+      '/cloned_media/24662820220720040415.png',
+      '/cloned_media/37889620220720040415.png',
+      '/cloned_media/27715620220720040415.png',
+      '/cloned_media/7110420220720040415.png',
+      '/cloned_media/21617120220720040415.png',
+      '/cloned_media/33768020220720040415.png',
+      '/cloned_media/20405720220720040415.png',
+      '/cloned_media/17096020220720040415.png',
+      '/cloned_media/40178220220720040415.png'
+    ],
+  overview: "Meghalaya – the abode of clouds – is a paradise for every traveler. With its breathtaking waterfalls, crystal-clear rivers, living root bridges, and vibrant culture, it’s one of India’s most magical destinations. On this 6-day backpacking adventure, explore Dawki, Cherrapunjee, Shillong, and Mawlynnong – Asia’s cleanest village. Swim in turquoise waters, trek through lush jungles, and experience the warmth of the Khasi people.",
+  itinerary: [
+    {
+      day: 1,
+      title: "Arrival at Guwahati – Transfer to Shillong",
+      description: "Arrive at Guwahati Airport by 11 AM and meet the group. Visit Umiam Lake en route to Shillong and spend the evening exploring the local cafes."
+    },
+    {
+      day: 2,
+      title: "Shillong to Dawki – Camping by the Umngot River",
+      description: "Drive to Dawki and experience boating in crystal-clear waters. Visit Mawlynnong village and witness the Living Root Bridge. Overnight camping by the river."
+    },
+    {
+      day: 3,
+      title: "Dawki to Cherrapunjee",
+      description: "After breakfast, head to Cherrapunjee – home of waterfalls and caves. Visit Nohkalikai Falls and explore Mawsmai Caves."
+    },
+    {
+      day: 4,
+      title: "Double Decker Root Bridge Trek",
+      description: "Trek through the jungles of Nongriat to reach the iconic Double Decker Living Root Bridge. Enjoy natural pools and spend the night in Cherrapunjee."
+    },
+    {
+      day: 5,
+      title: "Cherrapunjee to Shillong",
+      description: "Drive back to Shillong. Explore cafes, shop at Police Bazaar, and enjoy a laid-back evening with your travel companions."
+    },
+    {
+      day: 6,
+      title: "Return to Guwahati",
+      description: "Drive back to Guwahati for your onward journey. Trip ends with memories for a lifetime."
+    }
+  ],
+  inclusions: [
+    "Accommodation on a double/triple sharing basis",
+    "Breakfast and dinner as per itinerary",
+    "All internal transfers",
+    "Trek leader and local guide",
+    "Entry fees to monuments and parks"
+  ],
+  exclusions: [
+    "Lunch during the trip",
+    "Personal expenses",
+    "Anything not mentioned in inclusions",
+    "5% GST"
+  ]
+}
 ];
