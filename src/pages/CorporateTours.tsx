@@ -856,7 +856,7 @@ const CorporateTours = () => {
           loop
           playsInline
         >
-          <source src="/src/assets/corporate-homepage.mp4" type="video/mp4" />
+          <source src="/corporate-homepage.mp4" type="video/mp4" />
         </video>
         
         {/* Overlay */}
