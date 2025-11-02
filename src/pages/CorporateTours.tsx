@@ -405,7 +405,7 @@ const GallerySection = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Well Memories : Faces & Places 📸
+              Well Memories : Faces & Places 
             </h2>
           </div>
   
@@ -880,7 +880,7 @@ const CorporateTours = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Exceptional <span className="text-[#0B3A55]">Corporate</span> Experiences <span role="img" aria-label="smile">😊</span>
+              Exceptional <span className="text-[#0B3A55]">Corporate</span> Experiences <span role="img" aria-label="smile"></span>
             </h2>
           </div>
           
@@ -968,7 +968,7 @@ const CorporateTours = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Associate With Us <span role="img" aria-label="sunglasses">😎</span>
+              Associate With Us <span role="img" aria-label="sunglasses"></span>
             </h2>
           </div>
           
