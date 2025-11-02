@@ -100,9 +100,9 @@ const AboutUs = () => {
                 </p>
               </article>
               <p className="font-normal text-sm font-poppins text-black leading-relaxed text-center">
-                In 2017, Pari Sharma started his journey and went on his solo trip from Kashmir to Kanyakumari & further Amritsar to Manipur at the age of 19. He has successfully done some amazing high altitude treks like Mount Everest base camp, Gokyo Lake trek, Alpather Lake trek, climbed Mount Friendship Peak and many more.
-                He combined his passion for traveling and skills of digital marketing to create a platform helping out people who want to travel in a budget-friendly manner with like-minded people. and solving the problem of traveling in Himalayan regions by organizing group trips to offbeat and untouched places.
-                He worked with various tourism boards and hospitality brands like Incredible India, Nepal Tourism, Manipur Tourism, Madhya Pradesh Tourism, Delhi Tourism and Sterling Holidays to name a few. Recently He got invited by the Ministry of Tourism to discuss the "future of travel industry" with the Tourism Minister of India. Mr Jony Jindal also managed the Indian Ice Hockey team in the Asian Championship at Bangkok.
+              In 2020, Ms. Hoor began her journey of turning her deep love for travel into a meaningful purpose. What started as a simple passion for exploring new places soon transformed into Travel Wisdom — a community-driven platform that brings together people who dream to explore, connect, and celebrate life through travel. 🌍✨ <br />
+Hoor has explored diverse landscapes across India — From the snow-clad peaks of the Himalayas to the golden sands of Rajasthan, from the lush backwaters of Kerala to the pristine valleys of the Northeast, and the vibrant coastlines of Goa to the spiritual heart of Varanasi — she has explored the soul of India in its truest form. Her focus has always been on creating well-planned, comfortable, experiences that allow travelers to truly enjoy every moment.
+By combining her experience in the travel industry and her passion for exploring new places, she has built Travel Wisdom into a trusted brand that promotes responsible tourism and authentic experiences. Guided by her belief that “Travel is not just about places, but about discovering yourself,” Hoor continues to design trips that inspire happiness, friendship, and unforgettable memories. 💛
               </p>
             </div>
           </div>

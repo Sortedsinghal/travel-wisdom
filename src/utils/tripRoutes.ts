@@ -60,13 +60,7 @@ export const getTripRoute = (tripTitle: string): string => {
 
   const route = titleToRoute[tripTitle];
   if (route) {
-    if (tripTitle.toLowerCase().includes('meghalaya')) {
-      return route;
-    }
     return "/trip" + route;
-  }
-  if (tripTitle.toLowerCase().includes('meghalaya')) {
-    return "/" + slugify(tripTitle);
   }
   return "/trip/" + slugify(tripTitle);
 };
