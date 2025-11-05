@@ -37,7 +37,7 @@ const ItineraryItem: React.FC<{ item: { day: number | string; title: string; con
 
 // Booking Box with occupancy pricing
 const BookingBox: React.FC<{ trip: Trip }> = ({ trip }) => {
-    const [selectedOccupancy, setSelectedOccupancy] = useState<'double' | 'triple' | 'quadruple'>('double');
+    const [selectedOccupancy, setSelectedOccupancy] = useState<'double' | 'triple' | 'Quad'>('double');
     
     // Check if trip is international (Vietnam, Thailand, etc.)
     const isInternational = ['Vietnam', 'Thailand', 'Dubai', 'Bali', 'Singapore', 'Malaysia', 'Kazakhstan', 'Bhutan', 'Georgia'].includes(trip.destination);
@@ -46,7 +46,7 @@ const BookingBox: React.FC<{ trip: Trip }> = ({ trip }) => {
     const numericPrice = parseInt(trip.price.replace(/[^0-9]/g, ''));
     const doubleOccupancyPrice = numericPrice;
     const tripleOccupancyPrice = numericPrice - 1000;
-    const quadrupleOccupancyPrice = numericPrice - 1500;
+    const QuadOccupancyPrice = numericPrice - 1500;
     
     const formatPrice = (price: number) => {
         return `₹${price.toLocaleString('en-IN')}`;
@@ -54,7 +54,7 @@ const BookingBox: React.FC<{ trip: Trip }> = ({ trip }) => {
     
     const currentPrice = isInternational ? numericPrice : 
                        (selectedOccupancy === 'double' ? doubleOccupancyPrice : 
-                       selectedOccupancy === 'triple' ? tripleOccupancyPrice : quadrupleOccupancyPrice);
+                       selectedOccupancy === 'triple' ? tripleOccupancyPrice : QuadOccupancyPrice);
     
     return (
         <div className={`border bg-white p-4 sm:p-6 rounded-2xl shadow-xl`}>
@@ -90,14 +90,14 @@ const BookingBox: React.FC<{ trip: Trip }> = ({ trip }) => {
                             Triple
                         </button>
                         <button
-                            onClick={() => setSelectedOccupancy('quadruple')}
+                            onClick={() => setSelectedOccupancy('Quad')}
                             className={`py-2 px-2 text-xs font-medium rounded-lg border transition-colors ${
-                                selectedOccupancy === 'quadruple'
+                                selectedOccupancy === 'Quad'
                                     ? 'bg-[#0B3A55] text-white border-[#0B3A55]'
                                     : 'bg-white text-gray-700 border-gray-300 hover:border-[#0B3A55]'
                             }`}
                         >
-                            Quadruple
+                            Quad
                         </button>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ const BookingBox: React.FC<{ trip: Trip }> = ({ trip }) => {
                 {trip.originalPrice && (
                     <span className="text-lg text-gray-500 line-through ml-2">{trip.originalPrice}</span>
                 )}
-                <p className="text-sm text-gray-600">Per Person{!isInternational ? ` (${selectedOccupancy === 'double' ? 'Double' : selectedOccupancy === 'triple' ? 'Triple' : 'Quadruple'} Occupancy)` : ''}</p>
+                <p className="text-sm text-gray-600">Per Person{!isInternational ? ` (${selectedOccupancy === 'double' ? 'Double' : selectedOccupancy === 'triple' ? 'Triple' : 'Quad'} Occupancy)` : ''}</p>
             </div>
 
             <h3 className="text-lg font-semibold text-gray-900 border-b border-gray-200 pb-2 mb-4">Interested in this Trip?</h3>
@@ -224,18 +224,14 @@ const TripDetailPage = () => {
         { text: "Sunglasses, charger, power bank, quick dry towel, cash, snacks, water bottle.", icon: '/cloned_media/7654520250825123857.png' }
       ];
 
-     // Placeholder Reviews (Ideally fetch these dynamically or add to trips.ts)
-     const reviews = [
-         { name: "Traveler 1", rating: 5, comment: "Amazing trip, highly recommended!", image: '/cloned_media/profilepic.png' },
-         { name: "Traveler 2", rating: 4, comment: "Great experience, well organized.", image: '/cloned_media/profilepic.png' }
-     ];
+
 
      // Placeholder Related Trips (Fetch dynamically based on destination/category later)
      const relatedTrips = allTrips
         .filter(related => related.destination === trip.destination && related.slug !== trip.slug)
         .slice(0, 4); // Show up to 4 related trips from the same destination
 
-     const navLinks = ['Overview', 'Itinerary', 'Inclusions', 'Exclusions', 'ThingsToPack', 'Reviews'];
+     const navLinks = ['Overview', 'Itinerary', 'Inclusions', 'Exclusions', 'ThingsToPack'];
 
 
   return (
@@ -446,30 +442,7 @@ const TripDetailPage = () => {
                   </div>
               </div>
 
-               <div id="reviews" className="border bg-white p-4 sm:p-6 rounded-2xl shadow-lg scroll-mt-24">
-                  <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-100 pb-3 mb-4">Reviews ⭐</h2>
-                   {reviews && reviews.length > 0 ? ( // Using placeholder reviews
-                      <div className="space-y-6">
-                          {reviews.map((review, index) => (
-                              <div key={index} className="flex items-start gap-4 border-b border-gray-100 pb-4 last:border-b-0 last:pb-0">
-                                  <img src={review.image} alt={review.name} className="w-10 h-10 rounded-full object-cover"/>
-                                  <div className="flex-1">
-                                      <div className="flex justify-between items-center mb-1">
-                                          <h4 className="font-semibold text-sm">{review.name}</h4>
-                                          <div className="flex">
-                                              {[...Array(review.rating)].map((_, i) => <Star key={i} className="w-4 h-4 text-yellow-500 fill-current"/>)}
-                                              {[...Array(5 - review.rating)].map((_, i) => <Star key={`empty-${i}`} className="w-4 h-4 text-gray-300 fill-current"/>)}
-                                          </div>
-                                      </div>
-                                      <p className="text-sm text-gray-600 mt-1">{review.comment}</p>
-                                  </div>
-                              </div>
-                          ))}
-                      </div>
-                   ) : (
-                     <p className="text-gray-600 italic">No reviews yet for this trip.</p>
-                   )}
-              </div>
+
             </div>
           </div>
 

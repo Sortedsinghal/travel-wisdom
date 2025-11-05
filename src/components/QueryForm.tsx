@@ -25,26 +25,21 @@ export const QueryForm = ({ isOpen, onClose, tripName }: QueryFormProps) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    try {
-      const response = await fetch(`${API_BASE_URL}/send-query`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...formData, tripName })
-      });
+    // Show immediate success
+    setShowSuccess(true);
+    setFormData({ name: "", email: "", phone: "", message: "" });
+    setTimeout(() => {
+      setShowSuccess(false);
+      onClose();
+    }, 2000);
+    setIsSubmitting(false);
 
-      if (response.ok) {
-        setShowSuccess(true);
-        setFormData({ name: "", email: "", phone: "", message: "" });
-        setTimeout(() => {
-          setShowSuccess(false);
-          onClose();
-        }, 2000);
-      }
-    } catch (error) {
-      console.error('Error:', error);
-    } finally {
-      setIsSubmitting(false);
-    }
+    // Send in background
+    fetch(`${API_BASE_URL}/send-query`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ...formData, tripName })
+    }).catch(error => console.error('Background send error:', error));
   };
 
   if (showSuccess) {

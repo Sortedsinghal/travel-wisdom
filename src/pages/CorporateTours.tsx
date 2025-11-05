@@ -453,40 +453,33 @@ const DetailedContactForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         
-        try {
-            const response = await fetch(`${API_BASE_URL}/send-query`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    name: formData.fullName,
-                    email: formData.email,
-                    phone: formData.mobile,
-                    message: `Company: ${formData.company}\nTravellers: ${formData.travellers}\nMonth: ${formData.month}\nDestination: ${formData.destination}\nRemarks: ${formData.remarks}`,
-                    tripName: 'Corporate Tours - Request Callback'
-                }),
-            });
+        // Show immediate success
+        alert('Request sent! We will contact you soon.');
+        setFormData({
+            fullName: '',
+            mobile: '',
+            email: '',
+            company: '',
+            travellers: '',
+            month: '',
+            destination: '',
+            remarks: ''
+        });
 
-            if (response.ok) {
-                alert('Request sent! We will contact you soon.');
-                setFormData({
-                    fullName: '',
-                    mobile: '',
-                    email: '',
-                    company: '',
-                    travellers: '',
-                    month: '',
-                    destination: '',
-                    remarks: ''
-                });
-            } else {
-                alert('Failed to send request. Please try again.');
-            }
-        } catch (error) {
-            console.error('Error sending request:', error);
-            alert('Failed to send request. Please try again.');
-        }
+        // Send in background
+        fetch(`${API_BASE_URL}/send-query`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                name: formData.fullName,
+                email: formData.email,
+                phone: formData.mobile,
+                message: `Company: ${formData.company}\nTravellers: ${formData.travellers}\nMonth: ${formData.month}\nDestination: ${formData.destination}\nRemarks: ${formData.remarks}`,
+                tripName: 'Corporate Tours - Request Callback'
+            }),
+        }).catch(error => console.error('Background send error:', error));
     };
 
     return (
@@ -855,6 +848,7 @@ const CorporateTours = () => {
           muted 
           loop
           playsInline
+          preload="auto"
         >
           <source src="/corporate-homepage.mp4" type="video/mp4" />
         </video>
@@ -943,10 +937,7 @@ const CorporateTours = () => {
       <section
         className="rounded-lg max-w-7xl mx-auto text-left mt-10 mb-10 p-6 flex flex-col md:flex-row items-center"
         style={{
-          backgroundImage: "url('/blue-crumpled-bg.png')",
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
+          backgroundColor: '#0B3A55',
         }}
       >
         <div className="flex-1 text-center md:text-left mb-6 md:mb-0 px-6">

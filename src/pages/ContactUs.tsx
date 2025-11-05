@@ -23,36 +23,29 @@ const ContactUs = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    try {
-      const response = await fetch(`${API_BASE_URL}/send-query`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: formData.fullName,
-          email: formData.email,
-          phone: formData.phone,
-          message: formData.message,
-          tripName: 'Contact Us Form'
-        }),
-      });
+    // Show immediate success
+    alert('Message sent! We will get back to you soon.');
+    setFormData({
+      fullName: "",
+      phone: "",
+      email: "",
+      message: "",
+    });
 
-      if (response.ok) {
-        alert('Message sent! We will get back to you soon.');
-        setFormData({
-          fullName: "",
-          phone: "",
-          email: "",
-          message: "",
-        });
-      } else {
-        alert('Failed to send message. Please try again.');
-      }
-    } catch (error) {
-      console.error('Error sending message:', error);
-      alert('Failed to send message. Please try again.');
-    }
+    // Send in background
+    fetch(`${API_BASE_URL}/send-query`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: formData.fullName,
+        email: formData.email,
+        phone: formData.phone,
+        message: formData.message,
+        tripName: 'Contact Us Form'
+      }),
+    }).catch(error => console.error('Background send error:', error));
   };
 
 

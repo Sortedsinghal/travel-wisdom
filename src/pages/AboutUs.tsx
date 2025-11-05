@@ -8,7 +8,7 @@ const AboutUs = () => {
       <Header />
 
       {/* Hero Video Section */}
-      <div className="w-100 position-relative" style={{ height: '580px' }}>
+      <div className="w-100 position-relative" style={{ height: '600px' }}>
         <video 
           style={{ opacity: 0.9 }} 
           className="w-full h-full object-cover" 
@@ -16,18 +16,16 @@ const AboutUs = () => {
           loop 
           autoPlay 
           playsInline
+          preload="auto"
         >
           <source src="/hero_videos/Yellow and Black Travel Collection Video.mp4" type="video/mp4" />
         </video>
-        <div 
-          style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }} 
-          className="absolute top-0 left-0 bottom-0 right-0 w-full"
-        ></div>
+
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-white text-6xl font-bold text-center overflow-hidden">
+          <h1 className="text-white text-6xl font-bold text-center">
             <div className="animate-pulse">
-              <span>We </span>
-              <span className="text-yellow-400">Hustle Together</span>
+              <span>Pack Light </span>
+              <span className="text-yellow-400">But Right</span>
             </div>
           </h1>
         </div>
@@ -45,34 +43,34 @@ const AboutUs = () => {
                 Who We Are?
               </p>
               <p className="font-normal text-sm mx-auto font-poppins text-white text-center mt-0 mb-4 max-w-4xl">
-                Travel Wisdom is a community of passionate travellers who believe that every journey has a story to tell. We create memorable travel experiences that blend comfort, adventure, and connection — just the way you like it.
-                Whether it’s a group trip, a girls-only escape, a corporate getaway, a romantic honeymoon, or an offbeat trekking expedition — we curate trips that match your interests, vibe, and comfort.
-                Our team of travel enthusiasts ensures every itinerary is well-planned, budget-friendly, and full of unforgettable moments. From serene mountains to lively beaches, from spiritual retreats to adventure trails — Travel Wisdom turns every trip into a soulful experience.
+                Travel Wisdom is a community of passionate travellers who believe that every journey has a story to tell. <br /> We create memorable travel experiences that blend comfort, adventure, and connection — just the way you like it. <br /> <br />
+                Whether it’s a group trip, a girls-only escape, a corporate getaway, a romantic honeymoon, <br /> or an offbeat trekking expedition — we curate trips that match your interests, vibe, and comfort. <br /> <br />
+                Our team of travel enthusiasts ensures every itinerary is well-planned, budget-friendly, and full of unforgettable moments. <br /> From serene mountains to lively beaches, from spiritual retreats to adventure trails — Travel Wisdom turns every trip <br /> into a soulful experience. 
                 Because for us, travel isn’t just about destinations — it’s about discovering yourself along the way.
               </p>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-8 mb-4 justify-center items-end">
                 <div className="flex flex-col items-center h-full">
                   <img src="/who-we-are icon1.png" alt="Trips Hosted" className="w-12 h-12 mb-3 mt-3" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
-                    2500+ Trips Hosted PAN India & Abroad
+                    1100+ Trips Hosted PAN India & Abroad
                   </p>
                 </div>
                 <div className="flex flex-col items-center h-full">
                   <img src="/who-we-are icon2.png" alt="Countries" className="w-12 h-12 mb-3 mt-3" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
-                    Proudly operating in 15+ countries
+                    Proudly operating in 17+ countries
                   </p>
                 </div>
                 <div className="flex flex-col items-center h-full">
                   <img src="/who-we-are icon3.png" alt="Happy Travelers" className="w-12 h-12 mb-3 mt-3" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
-                    30,000+ Happy Travellers
+                    17,000+ Happy Travellers
                   </p>
                 </div>
                 <div className="flex flex-col items-center h-full">
                   <img src="/who-we-are icon4.png" alt="Travel Enthusiasts" className="w-12 h-12 mb-3 mt-3" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
-                    Team of 100+ Travel Enthusiasts
+                    Team of 70+ Travel Enthusiasts
                   </p>
                 </div>
               </div>
@@ -93,15 +91,15 @@ const AboutUs = () => {
               </h3>
               <article className="flex items-end justify-center mb-6">
                 <p className="font-bold text-lg inline-block p-1 rounded-lg font-poppins text-white bg-[#0B3A55] mb-4 mr-4">
-                  Pari Sharma
+                  Hoor Sharma
                 </p>
                 <p className="mb-4 font-semibold text-sm text-black font-poppins">
                   CEO, Founder
                 </p>
               </article>
               <p className="font-normal text-sm font-poppins text-black leading-relaxed text-center">
-              In 2020, Ms. Hoor began her journey of turning her deep love for travel into a meaningful purpose. What started as a simple passion for exploring new places soon transformed into Travel Wisdom — a community-driven platform that brings together people who dream to explore, connect, and celebrate life through travel. 🌍✨ <br />
-Hoor has explored diverse landscapes across India — From the snow-clad peaks of the Himalayas to the golden sands of Rajasthan, from the lush backwaters of Kerala to the pristine valleys of the Northeast, and the vibrant coastlines of Goa to the spiritual heart of Varanasi — she has explored the soul of India in its truest form. Her focus has always been on creating well-planned, comfortable, experiences that allow travelers to truly enjoy every moment.
+              In 2020, Ms. Hoor began her journey of turning her deep love for travel into a meaningful purpose. What started as a simple passion for exploring new places soon transformed into Travel Wisdom — a community-driven platform that brings together people who dream to explore, connect, and celebrate life through travel. <br /> <br />
+Hoor has explored diverse landscapes across India — From the snow-clad peaks of the Himalayas to the golden sands of Rajasthan, from the lush backwaters of Kerala to the pristine valleys of the Northeast, and the vibrant coastlines of Goa to the spiritual heart of Varanasi — she has explored the soul of India in its truest form. Her focus has always been on creating well-planned, comfortable, experiences that allow travelers to truly enjoy every moment.<br /><br />
 By combining her experience in the travel industry and her passion for exploring new places, she has built Travel Wisdom into a trusted brand that promotes responsible tourism and authentic experiences. Guided by her belief that “Travel is not just about places, but about discovering yourself,” Hoor continues to design trips that inspire happiness, friendship, and unforgettable memories. 💛
               </p>
             </div>

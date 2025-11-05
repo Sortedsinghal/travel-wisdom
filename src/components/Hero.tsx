@@ -122,6 +122,8 @@ const Hero = () => {
 
   const navigate = useNavigate();
 
+
+
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!searchQuery.trim()) return;
@@ -136,27 +138,30 @@ const Hero = () => {
 
       // Navigate to search results or specific destination
       const query = searchQuery.toLowerCase();
-      if (query.includes('dubai')) navigate('/dubai');
-      else if (query.includes('rajasthan')) navigate('/rajasthan');
-      else if (query.includes('kerala')) navigate('/kerala');
-      else if (query.includes('bhutan')) navigate('/bhutan');
-      else if (query.includes('leh') || query.includes('ladakh')) navigate('/leh-ladakh');
-      else if (query.includes('bali')) navigate('/bali');
-      else if (query.includes('kazakhstan')) navigate('/kazakhstan');
-      else if (query.includes('himachal') || query.includes('manali') || query.includes('shimla')) navigate('/himachal-pradesh');
-      else if (query.includes('kashmir')) navigate('/kashmir');
-      else if (query.includes('spiti')) navigate('/spiti');
-      else if (query.includes('uttarakhand') || query.includes('rishikesh')) navigate('/uttarakhand');
-      else if (query.includes('thailand')) navigate('/thailand');
-      else if (query.includes('vietnam')) navigate('/vietnam');
-      else if (query.includes('domestic')) navigate('/domestic-trips');
-      else if (query.includes('international')) navigate('/international-trips');
-      else if (query.includes('backpack')) navigate('/backpacking-trips');
-      else if (query.includes('weekend')) navigate('/weekend-trips');
-      else if (query.includes('corporate')) navigate('/corporate-tours');
-      else {
-        // Default to domestic trips if no specific match
-        navigate('/domestic-trips');
+      let hasMatch = false;
+      
+      if (query.includes('dubai')) { navigate('/dubai'); hasMatch = true; }
+      else if (query.includes('rajasthan')) { navigate('/rajasthan'); hasMatch = true; }
+      else if (query.includes('kerala')) { navigate('/kerala'); hasMatch = true; }
+      else if (query.includes('bhutan')) { navigate('/bhutan'); hasMatch = true; }
+      else if (query.includes('leh') || query.includes('ladakh')) { navigate('/leh-ladakh'); hasMatch = true; }
+      else if (query.includes('bali')) { navigate('/bali'); hasMatch = true; }
+      else if (query.includes('kazakhstan')) { navigate('/kazakhstan'); hasMatch = true; }
+      else if (query.includes('himachal') || query.includes('manali') || query.includes('shimla')) { navigate('/himachal-pradesh'); hasMatch = true; }
+      else if (query.includes('kashmir')) { navigate('/kashmir'); hasMatch = true; }
+      else if (query.includes('spiti')) { navigate('/spiti'); hasMatch = true; }
+      else if (query.includes('uttarakhand') || query.includes('rishikesh')) { navigate('/uttarakhand'); hasMatch = true; }
+      else if (query.includes('thailand')) { navigate('/thailand'); hasMatch = true; }
+      else if (query.includes('vietnam')) { navigate('/vietnam'); hasMatch = true; }
+      else if (query.includes('domestic')) { navigate('/domestic-trips'); hasMatch = true; }
+      else if (query.includes('international')) { navigate('/international-trips'); hasMatch = true; }
+      else if (query.includes('backpack')) { navigate('/backpacking-trips'); hasMatch = true; }
+      else if (query.includes('weekend')) { navigate('/weekend-trips'); hasMatch = true; }
+      else if (query.includes('corporate')) { navigate('/corporate-tours'); hasMatch = true; }
+
+      
+      if (!hasMatch) {
+        navigate(`/search-results?q=${encodeURIComponent(searchQuery)}`);
       }
     } else {
       // For travel guides, navigate to blogs
@@ -176,6 +181,7 @@ const Hero = () => {
             }}
             src={video}
             muted
+            preload="auto"
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
               index === currentVideoIndex ? 'opacity-100' : 'opacity-0'
             }`}
@@ -251,6 +257,8 @@ const Hero = () => {
                 )}
               </button>
             </form>
+            
+
           </div>
         </div>
         {/* Info section at bottom of hero */}
@@ -258,7 +266,7 @@ const Hero = () => {
           <div className="flex items-center space-x-6">
             <img src="/message_icon.png" alt="Reviews" className="h-16 w-16" />
             <div>
-              <div className="text-4xl">8700+</div>
+              <div className="text-4xl">1700+</div>
               <div className="text-base font-normal">Reviews</div>
             </div>
           </div>
@@ -266,7 +274,7 @@ const Hero = () => {
           <div className="flex items-center space-x-6">
             <img src="/travelers.png" alt="Satisfied Travelers" className="h-16 w-16" />
             <div>
-              <div className="text-4xl">56541+</div>
+              <div className="text-4xl">17000+</div>
               <div className="text-base font-normal">Satisfied Travelers</div>
             </div>
           </div>
@@ -274,7 +282,7 @@ const Hero = () => {
           <div className="flex items-center space-x-6">
             <img src="/destinations.png" alt="Destinations" className="h-16 w-16" />
             <div>
-              <div className="text-4xl">50+</div>
+              <div className="text-4xl">40+</div>
               <div className="text-base font-normal">Destinations</div>
             </div>
           </div>

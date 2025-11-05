@@ -4,6 +4,8 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState, useEffect } from 'react';
+import PopupForm from "./components/PopupForm";
 import Index from "./pages/Index";
 import AboutUs from "./pages/AboutUs";
 import Blogs from "./pages/Blogs";
@@ -46,17 +48,30 @@ import Reviews from "./pages/Reviews";
 // 1. IMPORT THE NEW TRIP DETAIL PAGE COMPONENT (You'll create this file next)
 import TripDetailPage from "./pages/TripDetailPage";
 import BlogDetail from "./pages/BlogDetail";
+import SearchResults from "./pages/SearchResults";
 import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <Router>
-        <ScrollToTop />
+const App = () => {
+  const [showPopup, setShowPopup] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPopup(true);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <PopupForm isOpen={showPopup} onClose={() => setShowPopup(false)} />
+        <Router>
+          <ScrollToTop />
         <Routes>
           {/* --- Existing Static Routes --- */}
           <Route path="/" element={<Index />} />
@@ -102,13 +117,17 @@ const App = () => (
           
           {/* 3. ADD THE DYNAMIC ROUTE FOR BLOG DETAILS */}
           <Route path="/blogs/:slug" element={<BlogDetail />} />
+          
+          {/* 4. ADD THE SEARCH RESULTS ROUTE */}
+          <Route path="/search-results" element={<SearchResults />} />
 
           {/* --- Catch-all 404 Route --- */}
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </Router>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+        </Router>
+      </TooltipProvider>
+    </QueryClientProvider>
+  );
+};
 
 export default App;

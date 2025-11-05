@@ -13,7 +13,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 // Data for the featured Himachal trips section
 const himachalTrips = [
-  { imageUrl: '/cloned_media/13464920240827063621.png', duration: '5 Days 4 Nights', title: 'Himachal Backpacking - Manali Kasol Jibhi', price: '₹12500', originalPrice: '₹14000', discount: '₹1,500', slug: 'himachal-backpacking-manali-kasol-jibhi' },
+  { imageUrl: 'https://d2qa7a8q0vuocm.cloudfront.net/images/20559820230315061806.png', duration: '5 Days 4 Nights', title: 'Himachal Backpacking - Manali Kasol Jibhi', price: '₹12500', originalPrice: '₹14000', discount: '₹1,500', slug: 'himachal-backpacking-manali-kasol-jibhi' },
   { imageUrl: '/cloned_media/5274820240826124530.png', duration: '3 Nights 4 Days', title: 'Manali Sissu Kasol', price: '₹8000', originalPrice: '₹10000', discount: '₹2,000', slug: 'manali-sissu-kasol' },
   { imageUrl: '/cloned_media/22022520240827103638.png', duration: '5 Days 4 Nights', title: 'Manali Sissu Kasol Kheerganga', price: '₹12500', originalPrice: '₹14000', discount: '₹1,500', slug: 'manali-sissu-kasol-kheerganga' },
   { imageUrl: '/cloned_media/28089820240827101831.png', duration: '4 Days 3 Nights', title: 'Manali Kasol Kheerganga', price: '₹9999', slug: 'manali-kasol-kheerganga' },
@@ -72,10 +72,7 @@ const Index = () => {
       <section
         className="rounded-lg max-w-7xl mx-auto text-left mt-10 mb-10 p-6 flex flex-col md:flex-row items-center"
         style={{
-          backgroundImage: "url('/blue-crumpled-bg.png')",
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
+          backgroundColor: '#0B3A55',
         }}
       >
         <div className="flex-1 text-center md:text-left mb-6 md:mb-0 px-6">

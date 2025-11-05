@@ -7,7 +7,7 @@ import PaymentMode from "@/assets/paymentmode.webp";
 const Footer = () => {
     // Content Data for the white bottom section
     const companyName = "Travel Wisdom";
-    const tagline = "explore more to live more"; // Derived from the HTML logo image alt text
+    const tagline = "Pack Light But Right"; // Derived from the HTML logo image alt text
     const copyrightText = "2020-2025 Travel Wisdom Community Private Limited. All Rights Reserved.";
     
     // Links content derived from the provided HTML

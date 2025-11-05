@@ -23,51 +23,34 @@ const ContactForm = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    try {
-      const response = await fetch(`${API_BASE_URL}/send-query`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: formData.fullName,
-          email: formData.email,
-          phone: formData.mobile,
-          message: formData.message || 'Request for call back',
-          tripName: 'Request Call Back'
-        }),
-      });
+    // Show immediate success
+    toast({
+      title: "Request Sent!",
+      description: "We'll contact you soon with the best travel options.",
+    });
+    setFormData({
+      fullName: "",
+      mobile: "",
+      email: "",
+      travellersCount: "",
+      monthOfTravel: "",
+      message: ""
+    });
 
-      const result = await response.json();
-      
-      if (response.ok && result.success) {
-        toast({
-          title: "Request Sent!",
-          description: "We'll contact you soon with the best travel options.",
-        });
-        setFormData({
-          fullName: "",
-          mobile: "",
-          email: "",
-          travellersCount: "",
-          monthOfTravel: "",
-          message: ""
-        });
-      } else {
-        toast({
-          title: "Error",
-          description: result.error || "Failed to send request. Please try again.",
-          variant: "destructive"
-        });
-      }
-    } catch (error) {
-      console.error('Error sending request:', error);
-      toast({
-        title: "Error",
-        description: "Failed to send request. Please try again.",
-        variant: "destructive"
-      });
-    }
+    // Send in background
+    fetch(`${API_BASE_URL}/send-query`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: formData.fullName,
+        email: formData.email,
+        phone: formData.mobile,
+        message: formData.message || 'Request for call back',
+        tripName: 'Request Call Back'
+      }),
+    }).catch(error => console.error('Background send error:', error));
   };
 
   const handleInputChange = (field: string, value: string) => {
