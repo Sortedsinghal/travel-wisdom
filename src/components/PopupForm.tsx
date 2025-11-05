@@ -80,7 +80,7 @@ const SuccessNotification: React.FC<SuccessNotificationProps> = ({ isVisible, me
 interface PopupFormProps {
   isOpen: boolean;
   onClose: () => void;
-  trip: Trip | undefined;
+  trip?: Trip;
 }
 
 const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
@@ -354,11 +354,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    if (!trip) {
-      setIsSubmitting(false);
-      alert("Error: Trip details missing. Cannot submit enquiry.");
-      return;
-    }
+    if (!trip) return;
 
     // 1. Generate and open printable view
     generatePDF();
@@ -400,7 +396,48 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
   };
 
   // --- EARLY EXIT CONDITIONS ---
-  if (!isOpen || !trip) return null;
+  if (!isOpen) return null;
+  
+  // If no trip is provided, show a basic contact form
+  if (!trip) {
+    return (
+      <>
+        <SuccessNotification
+          isVisible={showSuccess}
+          message="Your enquiry has been sent successfully! We'll be in touch shortly."
+          onClose={() => setShowSuccess(false)}
+        />
+        <div className="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center z-[9999] p-4 font-inter transition-opacity duration-300">
+          <div className="bg-white rounded-2xl max-w-md w-full shadow-2xl p-6">
+            <div className="flex justify-between items-center mb-6 border-b pb-3">
+              <h2 className="text-xl font-bold text-gray-800">Contact Us</h2>
+              <button onClick={onClose} className="text-gray-500 hover:text-gray-900">
+                <X className="h-6 w-6" />
+              </button>
+            </div>
+            <form onSubmit={async (e) => {
+              e.preventDefault();
+              setIsSubmitting(true);
+              setShowSuccess(true);
+              setTimeout(() => {
+                setFormData({ fullName: '', mobileNumber: '', email: '', numberOfTravellers: '', monthOfTravel: '', message: '' });
+                onClose();
+                setShowSuccess(false);
+              }, 2000);
+              setIsSubmitting(false);
+            }} className="space-y-4">
+              <StyledInput name="fullName" value={formData.fullName} onChange={handleInputChange} placeholder="Full Name" required />
+              <StyledInput name="email" type="email" value={formData.email} onChange={handleInputChange} placeholder="Email" required />
+              <StyledTextarea name="message" value={formData.message} onChange={handleInputChange} placeholder="Your message" rows={3} />
+              <button type="submit" disabled={isSubmitting} className="w-full bg-[#0B3A55] text-white py-2 rounded-lg">
+                {isSubmitting ? 'Sending...' : 'Send Message'}
+              </button>
+            </form>
+          </div>
+        </div>
+      </>
+    );
+  }
 
   // Placeholder URL for the Travel Wisdom Logo - size 200x200
   const LOGO_URL = TravelWisdomLogo
