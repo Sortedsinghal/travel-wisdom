@@ -612,7 +612,7 @@ const FAQSection = () => {
         {
             id: 1,
             question: "I want to book a trip but how can I trust Travel Wisdom before paying?",
-            answer: "Travel Wisdom is a registered travel company under the name Wander N Explore Pvt. Ltd. and a MSME registered organization. You can simply have a look about the same on the official MSME government website. We have been operational for more than 5 years and thus have a strong backend and ground team to provide a hassle-free and amazing travel experience. Our web presence is quite strong in terms of our website and social media platforms like Instagram & Facebook. Feel free to do a thorough research about our travel community and read reviews before booking your travel. Also, when you're proceeding ahead with the trip bookings, you're paying in the brand's current bank account and not in the savings account."
+            answer: "Travel Wisdom is a registered travel company under the name Travel Wisdom and a MSME registered organization. You can simply have a look about the same on the official MSME government website. We have been operational for more than 5 years and thus have a strong backend and ground team to provide a hassle-free and amazing travel experience. Our web presence is quite strong in terms of our website and social media platforms like Instagram & Facebook. Feel free to do a thorough research about our travel community and read reviews before booking your travel. Also, when you're proceeding ahead with the trip bookings, you're paying in the brand's current bank account and not in the savings account."
         },
         {
             id: 2,
