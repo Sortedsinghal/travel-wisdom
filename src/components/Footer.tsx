@@ -1,7 +1,7 @@
 import { Instagram, Youtube, Linkedin, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import TravelWisdomLogo from "@/travel-wisdom-logo.png";
+import TravelWisdomLogo from "@/assets/travel-wisdom-logo.png";
 import PaymentMode from "@/assets/paymentmode.webp";
 
 const Footer = () => {
