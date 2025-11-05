@@ -354,15 +354,33 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    if (!trip) return;
+    // 1. Generate PDF immediately if trip data exists
+    if (trip) {
+      generatePDF();
+    }
 
-    // 1. Generate and open printable view
-    generatePDF();
-
-    // 2. Show immediate success notification
+    // 2. Show success notification immediately
     setShowSuccess(true);
+    setIsSubmitting(false);
 
-    // 3. Clear form and close modal after a short delay
+    // 3. Send email in background
+    fetch('http://localhost:4000/api/send-query', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: formData.fullName,
+        email: formData.email,
+        phone: formData.mobileNumber,
+        message: `${trip ? 'PDF Request - ' : ''}Travellers: ${formData.numberOfTravellers}, Month: ${formData.monthOfTravel}${formData.message ? ', Message: ' + formData.message : ''}`,
+        tripName: trip?.title || 'General Inquiry'
+      }),
+    })
+    .then(() => console.log('Email sent successfully in background'))
+    .catch(error => console.error('Background email error:', error));
+
+    // 4. Clear form and close modal
     setTimeout(() => {
       setFormData({
         fullName: '',
@@ -374,25 +392,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
       });
       onClose();
       setShowSuccess(false);
-    }, 2000);
-
-    // 4. Send data in the background
-    fetch('http://localhost:4000/api/send-query', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        name: formData.fullName,
-        email: formData.email,
-        phone: formData.mobileNumber,
-        message: `${trip ? 'Download Request - ' : ''}Travellers: ${formData.numberOfTravellers}, Month: ${formData.monthOfTravel}${formData.message ? ', Message: ' + formData.message : ''}`,
-        tripName: trip?.title || 'General Inquiry'
-      }),
-    })
-    .then(() => console.log('Download request sent successfully in background.'))
-    .catch(error => console.error('Background send error:', error))
-    .finally(() => setIsSubmitting(false));
+    }, 1500);
   };
 
   if (!isOpen) return null;
@@ -576,7 +576,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
                       <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                       <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                     </svg>
-                    <span>Generating View...</span>
+                    <span>Sending...</span>
                   </>
                 ) : (
                   <>
