@@ -364,7 +364,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
     setIsSubmitting(false);
 
     // 3. Send email in background
-    fetch('http://localhost:4000/api/send-query', {
+    fetch('/api/send-query', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

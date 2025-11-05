@@ -12695,86 +12695,80 @@ export const allTrips: Trip[] = [
     ],
   },
   {
-    slug: 'vietnam-trip-with-flights',
-    title: 'Vietnam Trip with Flights',
-    destination: 'Vietnam',
-    duration: '7 Days 6 Nights',
-    price: '₹79999', // Matches HTML
-    imageUrl: '/cloned_media/5980220230801183603.png', // Matches HTML
-    gallery: [ // Added gallery from HTML
-      '/cloned_media/32185520230801183603.png',
-      '/cloned_media/23117420230801183603.png',
-      '/cloned_media/37395020230801183603.png',
-      '/cloned_media/36465820230801183603.png',
-      '/cloned_media/31191520230801183603.png',
-      '/cloned_media/28114220230801183603.png',
-      '/cloned_media/14870020230801183603.png',
-      '/cloned_media/29497020230801183603.png',
-      '/cloned_media/34407320230801183603.png',
-      '/cloned_media/31189420230801183603.png'
+    "slug": "vietnam-trip-with-flights",
+    "title": "Vietnam Trip with Flights",
+    "destination": "Vietnam",
+    "duration": "7 Days 6 Nights",
+    "price": "₹79999",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/5980220230801183603.png",
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30199520230801183603.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/3607120230801183603.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6325220230801183603.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/14999920230801183603.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10041720230801183603.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5651920230801183603.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/33723520230801183603.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23128020230801183603.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16658720230801183603.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/26142820230801183603.png"
     ],
-    overview: '<h2>About Vietnam Trip with Flights</h2><p>Experience the enchanting beauty of Vietnam with our comprehensive 7-day tour package, complete with round-trip flights from India! Known as the "Land of the Ascending Dragon," Vietnam offers a captivating blend of ancient history, breathtaking landscapes, and vibrant culture. From the bustling streets of Hanoi to the tranquil waters of Halong Bay, this tour is designed to showcase the best of what Vietnam has to offer.</p><p>Explore the historic charm of Hanoi\'s Old Quarter, where narrow streets wind through traditional shops and temples. Cruise through the stunning limestone karsts of Halong Bay, a UNESCO World Heritage site, and marvel at its emerald waters. Discover the imperial history of Hue, with its ancient citadel and royal tombs, and wander through the lantern-lit streets of Hoi An, a beautifully preserved ancient town.</p><p>Vietnamese culture is rich and diverse, influenced by centuries of history and neighboring civilizations. Experience the warmth and hospitality of the Vietnamese people, savor the delicious local cuisine known for its fresh ingredients and unique flavors like Pho and Banh Mi, and witness traditional arts and crafts. Whether you\'re navigating the vibrant markets, relaxing on pristine beaches, or exploring ancient ruins, Vietnam promises an unforgettable adventure for every traveler.</p><h3>Best Places to Visit in Vietnam</h3><ul><li><strong>Hanoi:</strong> The capital city, known for its rich history, bustling Old Quarter, Hoan Kiem Lake, and Ho Chi Minh Mausoleum.</li><li><strong>Halong Bay:</strong> A UNESCO World Heritage site famous for its emerald waters and thousands of towering limestone islands topped with rainforests. Cruise trips are popular here.</li><li><strong>Hoi An:</strong> A charming ancient town with well-preserved architecture, lantern-lit streets, tailor shops, and delicious local food.</li><li><strong>Ho Chi Minh City (Saigon):</strong> The largest city, offering a mix of historical sites like the War Remnants Museum and Reunification Palace, alongside modern skyscrapers and vibrant nightlife.</li><li><strong>Hue:</strong> The former imperial capital, home to the vast Citadel, royal tombs, and pagodas along the Perfume River.</li><li><strong>Da Nang:</strong> A coastal city known for its sandy beaches like My Khe, the Marble Mountains, and the iconic Dragon Bridge.</li><li><strong>Sapa:</strong> Located in the northern mountains, famous for its terraced rice fields, stunning landscapes, and ethnic minority villages.</li><li><strong>Mekong Delta:</strong> A vast maze of rivers, swamps, and islands, known for floating markets, orchards, and traditional villages.</li></ul><h3>Best Time to Visit Vietnam</h3><ul><li><strong>Spring (February to April):</strong> Generally considered the best time to visit overall, with pleasant temperatures and lower rainfall across most of the country.</li><li><strong>Autumn (September to November):</strong> Another favorable season, especially in the north (Hanoi, Halong Bay) with clear skies and comfortable weather.</li><li><strong>Weather varies by region:</strong> North Vietnam has distinct winter (cool, dry) and summer (hot, wet) seasons. Central Vietnam experiences typhoons from August to November. South Vietnam has a dry season (December to April) and a wet season (May to November).</li></ul><h3>How to Reach Vietnam from India</h3><ul><li><strong>By Air:</strong> The most common and convenient way. Several airlines operate direct and connecting flights from major Indian cities (Delhi, Mumbai, Bengaluru, Kolkata) to Vietnam\'s main international airports in Hanoi (HAN), Ho Chi Minh City (SGN), and Da Nang (DAD). Airlines include Vietnam Airlines, VietJet Air, IndiGo, Air India, and others via hubs like Bangkok, Singapore, or Kuala Lumpur. Flight duration is typically 5-7 hours for direct flights.</li></ul><p>Explore other popular Vietnam Tour Packages: <a href="/trips/vietnam-backpacking" style="color:blue;">Vietnam Backpacking Trip</a>, <a href="/trips/vietnam-danang-hanoi-6d5n" style="color:blue;">Da Nang & Hanoi Tour</a>, <a href="/trips/vietnam-north" style="color:blue;">North Vietnam Tour</a>, <a href="/trips/vietnam-south" style="color:blue;">South Vietnam Tour</a></p>',
-    itinerary: [ // Formatted with HTML
-        {
-            day: 1,
-            title: 'Arrival in Hanoi | Explore the Old Quarter',
-            description: '<ul><li>Arrive at Noi Bai International Airport (HAN) in Hanoi.</li><li>Meet our representative and transfer to your hotel in the city center.</li><li>Check in and relax for a bit.</li><li>In the afternoon/evening, take a guided walking tour through the bustling Hanoi Old Quarter, exploring its narrow streets, traditional shops, and vibrant atmosphere.</li><li>Visit Hoan Kiem Lake and Ngoc Son Temple located on a small island in the lake.</li><li>Overnight stay in Hanoi.</li></ul>'
-        },
-        {
-            day: 2,
-            title: 'Hanoi City Tour | Water Puppet Show',
-            description: '<ul><li>After breakfast, embark on a full-day city tour of Hanoi.</li><li>Visit the Ho Chi Minh Mausoleum complex (outside view), including the Presidential Palace and Ho Chi Minh’s Stilt House.</li><li>Explore the Temple of Literature, Vietnam\'s first university.</li><li>Visit the Vietnam Museum of Ethnology (or Hoa Lo Prison, depending on preference and opening days).</li><li>In the evening, enjoy a traditional Water Puppet Show, a unique Vietnamese art form.</li><li>Overnight stay in Hanoi.</li></ul>'
-        },
-        {
-            day: 3,
-            title: 'Halong Bay Day Cruise | Limestone Karsts & Caves',
-            description: '<ul><li>Early morning departure for a scenic drive to Halong Bay (approx. 3-4 hours).</li><li>Board a traditional junk boat for a day cruise through the stunning limestone karsts and emerald waters of this UNESCO World Heritage Site.</li><li>Enjoy a seafood lunch onboard.</li><li>Visit Thien Cung Cave (Heavenly Palace Cave) or Dau Go Cave (Wooden Stakes Cave).</li><li>Option for kayaking or a bamboo boat ride through lagoons (may have extra cost).</li><li>Return to Hanoi in the late evening.</li><li>Overnight stay in Hanoi.</li></ul>'
-        },
-        {
-            day: 4,
-            title: 'Flight to Da Nang | Arrival & Marble Mountains',
-            description: '<ul><li>After breakfast, transfer to Noi Bai Airport (HAN) for your domestic flight to Da Nang (DAD).</li><li>Upon arrival in Da Nang, meet our representative and transfer to your hotel.</li><li>Check in and leave your luggage.</li><li>Visit the Marble Mountains, a cluster of five limestone hills with caves, pagodas, and viewpoints offering panoramic views of the coast.</li><li>Explore Non Nuoc Stone Carving Village at the foot of the mountains.</li><li>Relax on My Khe Beach, known for its soft white sand.</li><li>Overnight stay in Da Nang.</li></ul>'
-        },
-        {
-            day: 5,
-            title: 'Hoi An Ancient Town | Lanterns & Tailors',
-            description: '<ul><li>After breakfast, take a day trip (or transfer for overnight stay, depending on package) to the charming ancient town of Hoi An (approx. 45 mins drive).</li><li>Explore the well-preserved historical town, a UNESCO World Heritage site, on a walking tour.</li><li>Visit the Japanese Covered Bridge, ancient merchant houses (like Tan Ky Old House), Phuc Kien Assembly Hall, and local markets.</li><li>Enjoy the unique atmosphere, browse tailor shops, art galleries, and relax by the Thu Bon River.</li><li>Experience the magical ambiance as lanterns light up the town in the evening.</li><li>Return to Da Nang (or overnight in Hoi An if included).</li></ul>'
-        },
-        {
-            day: 6,
-            title: 'Ba Na Hills & Golden Bridge | Optional Activities',
-            description: '<ul><li>After breakfast, enjoy a full-day excursion to Ba Na Hills mountain resort (transfer included).</li><li>Take the spectacular cable car ride up the mountains, holding world records for length and elevation change.</li><li>Walk along the iconic Golden Bridge held by giant stone hands, offering breathtaking views.</li><li>Explore the French Village replica, Linh Ung Pagoda, Le Jardin D\'Amour flower gardens, and Fantasy Park amusement zone.</li><li>Enjoy the cool mountain air and various entertainment options.</li><li>Return to Da Nang in the late afternoon.</li><li>Overnight stay in Da Nang.</li></ul>'
-        },
-        {
-            day: 7,
-            title: 'Departure from Da Nang',
-            description: '<ul><li>Enjoy a final Vietnamese breakfast at your hotel.</li><li>Depending on your flight schedule, you might have some free time for last-minute souvenir shopping or relaxing.</li><li>Transfer to Da Nang International Airport (DAD) for your departure flight back to India.</li></ul>'
-        }
+    "overview": "An incredible **7-day Vietnam tour package** that includes **international and domestic flights**. The itinerary explores **Ho Chi Minh City** and the **Mekong Delta** (South), scenic **Da Nang** and **Hoi An** (Central), and cultural **Hanoi** and **Halong Bay** (North).",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Begins | Ho Chi Minh Arrival",
+        "description": "<ul><li>With excitement and happiness on your face, jump into your flight for Vietnam and say goodbye to India.</li><li>After landing in Vietnam (Ho Chi Minh City) and clearing immigration, drive towards your hotel. Check-in and have some leisure.</li><li>Begin your city tour by visiting **Ben Thanh Market** & **Bui Vien** to experience the nightlife.</li><li>Overnight stay in **Ho Chi Minh** (implied 1 night stay before flight on day 2/morning of day 3).</li></ul>"
+      },
+      {
+        "day": 2,
+        "title": "Mekong Delta | The Coconut Island",
+        "description": "<ul><li>Wake up and have breakfast. Take a nature trip along the **Mekong River**.</li><li>Experience the boat ride to **Coconut Island** & explore the river.</li><li>Have **lunch** at Mekong Delta (included). Drive back to Ho Chi Minh city.</li><li>In the evening, head out for highest rooftop bars and enjoy the panoramic views of the city.</li><li>Overnight stay in Ho Chi Minh.</li></ul>"
+      },
+      {
+        "day": 3,
+        "title": "Explore Hoi An | Old Town Vibes",
+        "description": "<ul><li>Wake up and post breakfast, get on board your flight from Ho Chi Minh to **Da Nang** (domestic flight, included in price).</li><li>Transfer to **Hoi An**. Head out to experience the stunning heritage of **Hoi An**, a UNESCO World Heritage Site.</li><li>Experience the **basket boat ride** at Hoi An’s Coconut village.</li><li>Soak in the old town vibes at Hoi An lantern town and capture some #InstaPerfect pictures.</li><li>Overnight stay in **Da Nang** (implied 2 nights stay in Da Nang/Hoi An).</li></ul>"
+      },
+      {
+        "day": 4,
+        "title": "Golden Hand Bridge | Ba Na Hills",
+        "description": "<ul><li>Post breakfast, head out for an exciting day at **Ba Na Hills** mountain resort.</li><li>Experience the world's longest **cable cars** and visit the iconic **Golden Hand Bridge**.</li><li>Explore the **French Village** built on the mountain top. Have **lunch** at Ba Na Hills (included).</li><li>In the evening, explore Hoi An's buzzing night market.</li><li>Overnight stay in Da Nang.</li></ul>"
+      },
+      {
+        "day": 5,
+        "title": "Hanoi Calling | Kickass Nightlife & Chill",
+        "description": "<ul><li>Wake up early and get on board your flight from Da Nang to **Hanoi** (domestic flight, included in price).</li><li>Check-in to your hotel in Hanoi (2 nights stay).</li><li>Head out to explore the **Old Quarter** walking through narrow streets and food markets.</li><li>Visit the famous **Train market**.</li><li>Overnight stay in Hanoi.</li></ul>"
+      },
+      {
+        "day": 6,
+        "title": "The Halong Bay Day Cruise",
+        "description": "<ul><li>Wake up early and drive towards Tuan Chau harbor to get on board your cruise to **Halong Bay**.</li><li>Sail on the majestic emerald blue waters and witness the towering karst limestone pillars.</li><li>Enjoy a hearty **lunch** on the deck. Head out for an amazing **Kayak ride** and **swimming in the sea** (included).</li><li>In the evening, head back to Hanoi and go for a party at the **Beer Street**.</li><li>Overnight stay in Hanoi.</li></ul>"
+      },
+      {
+        "day": 7,
+        "title": "Goodbye Vietnam",
+        "description": "<ul><li>Wake up early in the morning and post breakfast, check-out from your hotel.</li><li>Drive towards the airport and board your flight back to India (international flight, included in price).</li></ul>"
+      }
     ],
-    inclusions: [ // Extracted as string[]
-      'Round-trip International Flights from major Indian cities (e.g., Delhi/Mumbai) to Vietnam (Hanoi/Ho Chi Minh).',
-      'Internal Domestic Flights within Vietnam (e.g., Hanoi to Da Nang).',
-      'Accommodation for 6 nights in well-selected 3-star or 4-star hotels.',
-      'Daily breakfast at the hotels.',
-      'Airport transfers (arrival and departure in Vietnam).',
-      'Transfers between cities/locations as per the itinerary (flights/bus/car).',
-      'Guided tours and sightseeing as mentioned: Hanoi City Tour, Halong Bay Day Cruise (including lunch), Marble Mountains, Hoi An Ancient Town tour, Ba Na Hills excursion (including cable car & Golden Bridge).',
-      'Entrance fees for monuments and attractions included in the itinerary.',
-      'English-speaking local guides during tours.',
-      'Vietnam Visa Approval Letter assistance (stamping fee payable upon arrival).',
-      'All applicable taxes (GST extra as applicable).'
+    "inclusions": [
+      "International and Domestic flights up to **INR 35,000** (subject to availability): India to Ho Chi Minh, Ho Chi Minh to Da Nang, Da Nang to Hanoi, Hanoi to India.",
+      "Accommodation: **All nights stay in Hotels & Apartment on Sharing basis** (6 nights total, split between Ho Chi Minh, Da Nang, and Hanoi).",
+      "Meals: **9 meals** for the entire trip including **6 breakfasts** and **3 lunches** (1 at Mekong Delta, 1 at Ba Na Hills, 1 at Halong Bay).",
+      "Transfers: **All airport pick up and drop**, all sightseeing and transfers (Flights/bus/car).",
+      "Tours & Activities: **Walking Tour in Ho Chi Minh**, **Mekong Delta Tour**, Visit to **Ba Na Hills & Golden Hand Bridge** (**Cable Car Ride** included), **Basket Boat Tour** (Hoi An), **Halong Bay Day Cruise** (with Kayaking & Caving).",
+      "VISA Assistance: Professional visa assistance & **guaranteed visa approval letter** (stamping fee excluded)."
     ],
-    exclusions: [ // Extracted as string[]
-      'Vietnam Visa Stamping Fee (approx. USD 25-50 per person, paid directly upon arrival at Vietnam airport).',
-      'Meals not specified in the itinerary (Lunches and Dinners, except lunch on Halong Bay cruise).',
-      'Travel Insurance (highly recommended).',
-      'Personal expenses such as laundry, telephone calls, tips, beverages, etc.',
-      'Optional activities or tours not mentioned in the itinerary (e.g., Kayaking in Halong Bay, specific shows).',
-      'Early check-in or late check-out charges at hotels.',
-      'Any cost arising due to unforeseen circumstances like flight delays, natural disasters, etc.',
-      'Camera fees at monuments, if applicable.',
-      '5% TCS (Tax Collected at Source) - refundable in your ITR.'
-    ],
+    "exclusions": [
+      "Vietnam **Visa Stamping Fee** (approx. **$25**, paid directly upon arrival at Vietnam airport).",
+      "Meals not specified in the itinerary (Lunches and Dinners, except those specified).",
+      "Travel Insurance.",
+      "Any kind of personal expenses.",
+      "Anything (Meals, Transport & Services) that are not mentioned in the above ‘Inclusions’ section.",
+      "Museum/Monument entry fee/City Tax.",
+      "GST (5%) is applicable extra.",
+      "TCS* as applicable on the Total Package Cost Tax Collected at Sources (TCS) as per Section 206C of the Income Tax (refundable in your ITR)."
+    ]
   },
   {
     slug: 'vietnam-signature-10d9n',
