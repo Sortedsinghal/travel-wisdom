@@ -2590,10 +2590,6 @@ export const allTrips: Trip[] = [
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25238920250308075453.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/9568420250308075452.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/27509220250308075452.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/39766020250308075452.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/23844820250308075452.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/27861520250308075452.png"
     ],
     "overview": "An adventurer's trip to the remote wonders of Ladakh. This epic journey spans Srinagar, Leh, and Manali, including exploration of the Changthang Valley, the dark sky sanctuary of **Hanle**, and conquering the mighty **Umling La Pass**, one of the world's highest motorable roads.",
     "itinerary": [
