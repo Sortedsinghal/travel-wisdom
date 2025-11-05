@@ -35,40 +35,99 @@ const ItineraryItem: React.FC<{ item: { day: number | string; title: string; con
 };
 
 
-// Simple Booking Box (No occupancy logic for now, using Contact Form)
-// You can add occupancy later if needed
-const BookingBox: React.FC<{ trip: Trip }> = ({ trip }) => (
-    <div className={`border bg-white p-4 sm:p-6 rounded-2xl shadow-xl`}>
-        <div className="flex justify-between items-start mb-2">
-            <p className="text-xl font-bold">Starting Price</p>
-            {trip.discount && (
-                <span className="bg-yellow-300 text-yellow-800 font-bold text-sm px-3 py-1 rounded-md">{trip.discount} Off</span>
+// Booking Box with occupancy pricing
+const BookingBox: React.FC<{ trip: Trip }> = ({ trip }) => {
+    const [selectedOccupancy, setSelectedOccupancy] = useState<'double' | 'triple' | 'quadruple'>('double');
+    
+    // Check if trip is international (Vietnam, Thailand, etc.)
+    const isInternational = ['Vietnam', 'Thailand', 'Dubai', 'Bali', 'Singapore', 'Malaysia', 'Kazakhstan', 'Bhutan', 'Georgia'].includes(trip.destination);
+    
+    // Extract numeric price from trip.price (assuming format like "₹25,999")
+    const numericPrice = parseInt(trip.price.replace(/[^0-9]/g, ''));
+    const doubleOccupancyPrice = numericPrice;
+    const tripleOccupancyPrice = numericPrice - 1000;
+    const quadrupleOccupancyPrice = numericPrice - 1500;
+    
+    const formatPrice = (price: number) => {
+        return `₹${price.toLocaleString('en-IN')}`;
+    };
+    
+    const currentPrice = isInternational ? numericPrice : 
+                       (selectedOccupancy === 'double' ? doubleOccupancyPrice : 
+                       selectedOccupancy === 'triple' ? tripleOccupancyPrice : quadrupleOccupancyPrice);
+    
+    return (
+        <div className={`border bg-white p-4 sm:p-6 rounded-2xl shadow-xl`}>
+            <div className="flex justify-between items-start mb-2">
+                <p className="text-xl font-bold">Starting Price</p>
+                {trip.discount && (
+                    <span className="bg-yellow-300 text-yellow-800 font-bold text-sm px-3 py-1 rounded-md">{trip.discount} Off</span>
+                )}
+            </div>
+            
+            {/* Occupancy Selection - Only for domestic trips */}
+            {!isInternational && (
+                <div className="mb-4">
+                    <div className="grid grid-cols-3 gap-2">
+                        <button
+                            onClick={() => setSelectedOccupancy('double')}
+                            className={`py-2 px-2 text-xs font-medium rounded-lg border transition-colors ${
+                                selectedOccupancy === 'double'
+                                    ? 'bg-[#0B3A55] text-white border-[#0B3A55]'
+                                    : 'bg-white text-gray-700 border-gray-300 hover:border-[#0B3A55]'
+                            }`}
+                        >
+                            Double
+                        </button>
+                        <button
+                            onClick={() => setSelectedOccupancy('triple')}
+                            className={`py-2 px-2 text-xs font-medium rounded-lg border transition-colors ${
+                                selectedOccupancy === 'triple'
+                                    ? 'bg-[#0B3A55] text-white border-[#0B3A55]'
+                                    : 'bg-white text-gray-700 border-gray-300 hover:border-[#0B3A55]'
+                            }`}
+                        >
+                            Triple
+                        </button>
+                        <button
+                            onClick={() => setSelectedOccupancy('quadruple')}
+                            className={`py-2 px-2 text-xs font-medium rounded-lg border transition-colors ${
+                                selectedOccupancy === 'quadruple'
+                                    ? 'bg-[#0B3A55] text-white border-[#0B3A55]'
+                                    : 'bg-white text-gray-700 border-gray-300 hover:border-[#0B3A55]'
+                            }`}
+                        >
+                            Quadruple
+                        </button>
+                    </div>
+                </div>
             )}
-        </div>
-        <div className="mt-2 mb-6">
-            <span className="text-4xl font-bold text-gray-900">{trip.price}</span>
-            {trip.originalPrice && (
-                <span className="text-lg text-gray-500 line-through ml-2">{trip.originalPrice}</span>
-            )}
-             <p className="text-sm text-gray-600">Per Person</p>
-        </div>
+            
+            <div className="mt-2 mb-6">
+                <span className="text-4xl font-bold text-gray-900">{formatPrice(currentPrice)}</span>
+                {trip.originalPrice && (
+                    <span className="text-lg text-gray-500 line-through ml-2">{trip.originalPrice}</span>
+                )}
+                <p className="text-sm text-gray-600">Per Person{!isInternational ? ` (${selectedOccupancy === 'double' ? 'Double' : selectedOccupancy === 'triple' ? 'Triple' : 'Quadruple'} Occupancy)` : ''}</p>
+            </div>
 
-        <h3 className="text-lg font-semibold text-gray-900 border-b border-gray-200 pb-2 mb-4">Interested in this Trip?</h3>
-        <p className="text-center text-sm text-gray-600 mb-4">Fill out your details below and our travel expert will get in touch shortly!</p>
+            <h3 className="text-lg font-semibold text-gray-900 border-b border-gray-200 pb-2 mb-4">Interested in this Trip?</h3>
+            <p className="text-center text-sm text-gray-600 mb-4">Fill out your details below and our travel expert will get in touch shortly!</p>
 
-        {/* --- Use ContactForm directly --- */}
-        <ContactForm />
+            {/* --- Use ContactForm directly --- */}
+            <ContactForm />
 
-        {/* Optional Direct Contact Buttons */}
-        <div className="flex gap-3 mt-4">
-             <a href="https://api.whatsapp.com/send?phone=919971545446&text=Hi" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 text-sm w-full bg-green-500 text-white font-bold py-2.5 rounded-lg hover:bg-green-600 transition-colors">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
-                Whatsapp
-            </a>
-            {/* Add Get PDF / Call buttons if needed */}
+            {/* Optional Direct Contact Buttons */}
+            <div className="flex gap-3 mt-4">
+                 <a href="https://api.whatsapp.com/send?phone=919971545446&text=Hi" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 text-sm w-full bg-green-500 text-white font-bold py-2.5 rounded-lg hover:bg-green-600 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
+                    Whatsapp
+                </a>
+                {/* Add Get PDF / Call buttons if needed */}
+            </div>
         </div>
-    </div>
-);
+    );
+};
 
 // --- NEW GALLERY MODAL COMPONENT (Defined in-file) ---
 interface GalleryModalProps {
