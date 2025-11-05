@@ -6,8 +6,9 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm'; // Assuming you have this
 import { QueryForm } from '@/components/QueryForm';
+import PopupForm from '@/components/PopupForm';
 import NotFound from './NotFound'; // Import your 404 page
-import { Clock, MapPin, Star, ChevronDown, ChevronUp, Phone, MessageSquare, Send, Youtube, Linkedin, Instagram, X } from 'lucide-react'; // <-- IMPORTED X icon
+import { Clock, MapPin, Star, ChevronDown, ChevronUp, Phone, MessageSquare, Send, Youtube, Linkedin, Instagram, X, FileText } from 'lucide-react'; // <-- IMPORTED X and FileText icons
 
 // --- Reusable UI Components (Adapted from HimachalBackpacking.tsx) ---
 
@@ -36,7 +37,7 @@ const ItineraryItem: React.FC<{ item: { day: number | string; title: string; con
 
 
 // Booking Box with occupancy pricing
-const BookingBox: React.FC<{ trip: Trip }> = ({ trip }) => {
+const BookingBox: React.FC<{ trip: Trip; onShowPopupForm: () => void }> = ({ trip, onShowPopupForm }) => {
     const [selectedOccupancy, setSelectedOccupancy] = useState<'double' | 'triple' | 'Quad'>('double');
     
     // Check if trip is international (Vietnam, Thailand, etc.)
@@ -123,7 +124,10 @@ const BookingBox: React.FC<{ trip: Trip }> = ({ trip }) => {
                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
                     Whatsapp
                 </a>
-                {/* Add Get PDF / Call buttons if needed */}
+                <button onClick={onShowPopupForm} className="flex-1 flex items-center justify-center gap-2 text-sm w-full bg-[#0B3A55] text-white font-bold py-2.5 rounded-lg hover:bg-[#5B92A7] transition-colors">
+                    <FileText className="w-4 h-4" />
+                    Get PDF
+                </button>
             </div>
         </div>
     );
@@ -180,6 +184,7 @@ const TripDetailPage = () => {
   const { tripSlug } = useParams<{ tripSlug: string }>();
   const [openItinerary, setOpenItinerary] = useState(0); // Open Day 0 by default
   const [showQueryForm, setShowQueryForm] = useState(false);
+  const [showPopupForm, setShowPopupForm] = useState(false);
   const [isOverviewExpanded, setIsOverviewExpanded] = useState(false); // <-- STATE FOR OVERVIEW
   const [showGalleryModal, setShowGalleryModal] = useState(false); // <-- STATE FOR GALLERY MODAL
 
@@ -449,7 +454,7 @@ const TripDetailPage = () => {
           {/* --- Sticky Sidebar (Right Column) --- */}
           <aside className="hidden lg:block lg:col-span-4">
               <div className="sticky top-24">
-                <BookingBox trip={trip} />
+                <BookingBox trip={trip} onShowPopupForm={() => setShowPopupForm(true)} />
               </div>
           </aside>
         </div>
@@ -480,6 +485,10 @@ const TripDetailPage = () => {
                   <img src="/cloned_media/whatsapp.webp" alt="whatsapp" className="w-5 h-5"/>
                   Whatsapp
               </a>
+              <button onClick={() => setShowPopupForm(true)} className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-[#0B3A55] gap-0.5">
+                   <FileText className="w-5 h-5"/>
+                  Get PDF
+              </button>
               <button onClick={() => setShowQueryForm(true)} className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-[#0B3A55] gap-0.5">
                    <img src="/cloned_media/messenger.png" alt="query" className="w-5 h-5"/>
                   Send Query
@@ -496,6 +505,11 @@ const TripDetailPage = () => {
          isOpen={showQueryForm} 
          onClose={() => setShowQueryForm(false)} 
          tripName={trip.title}
+       />
+       <PopupForm 
+         isOpen={showPopupForm} 
+         onClose={() => setShowPopupForm(false)}
+         trip={trip}
        />
 
        {/* --- ADDED GALLERY MODAL --- */}
