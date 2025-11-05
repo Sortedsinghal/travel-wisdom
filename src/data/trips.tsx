@@ -2393,9 +2393,8 @@ export const allTrips: Trip[] = [
     "destination": "Leh Ladakh",
     "duration": "10 Days 9 Nights",
     "price": "Customization Available",
-    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/33122620250219135706.png",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/29139320240226082737.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/29139320240226082737.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/39957120240226082738.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/18581920240226082738.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/38807320240226082738.png",
@@ -2493,18 +2492,7 @@ export const allTrips: Trip[] = [
     "price": "₹32000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/8691320250217153005.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/34613420230330171318.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/344520230330171318.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/7055120230330171318.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/42411820230330171318.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/30726520230330171318.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/21970320230330171318.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/5819520230330171318.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/17913620230330171318.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/31349820230330171318.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/6394520230330171318.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/7056120230330171318.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/19453320230330171318.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8691320250217153005.png",
     ],
     "overview": "The classic Himalayan road trip in reverse. Start from the lush valleys of **Srinagar**, cross into the high-altitude desert of **Leh Ladakh**, and descend to **Manali**. This journey covers picturesque stops like Dal Lake, Kargil War Memorial, Pangong Lake, and multiple high mountain passes.",
     "itinerary": [
@@ -4441,9 +4429,8 @@ export const allTrips: Trip[] = [
   "price": "₹12500",
   "originalPrice": "₹14000",
   "discount": "₹1,500",
-  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/13464920240827063621.png",
+  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/20559820230315061806.png",
   "gallery": [
-    "https://d2qa7a8q0vuocm.cloudfront.net/images/20559820230315061806.png",
     "https://d2qa7a8q0vuocm.cloudfront.net/images/42136120230315061806.png",
     "https://d2qa7a8q0vuocm.cloudfront.net/images/20903920230315061806.png",
     "https://d2qa7a8q0vuocm.cloudfront.net/images/38986820230315061806.png",
