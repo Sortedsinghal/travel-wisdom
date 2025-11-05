@@ -386,8 +386,8 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
         name: formData.fullName,
         email: formData.email,
         phone: formData.mobileNumber,
-        message: `Download Request - Travellers: ${formData.numberOfTravellers}, Month: ${formData.monthOfTravel}${formData.message ? ', Message: ' + formData.message : ''}`,
-        tripName: trip.title
+        message: `${trip ? 'Download Request - ' : ''}Travellers: ${formData.numberOfTravellers}, Month: ${formData.monthOfTravel}${formData.message ? ', Message: ' + formData.message : ''}`,
+        tripName: trip?.title || 'General Inquiry'
       }),
     })
     .then(() => console.log('Download request sent successfully in background.'))
@@ -395,49 +395,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
     .finally(() => setIsSubmitting(false));
   };
 
-  // --- EARLY EXIT CONDITIONS ---
   if (!isOpen) return null;
-  
-  // If no trip is provided, show a basic contact form
-  if (!trip) {
-    return (
-      <>
-        <SuccessNotification
-          isVisible={showSuccess}
-          message="Your enquiry has been sent successfully! We'll be in touch shortly."
-          onClose={() => setShowSuccess(false)}
-        />
-        <div className="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center z-[9999] p-4 font-inter transition-opacity duration-300">
-          <div className="bg-white rounded-2xl max-w-md w-full shadow-2xl p-6">
-            <div className="flex justify-between items-center mb-6 border-b pb-3">
-              <h2 className="text-xl font-bold text-gray-800">Contact Us</h2>
-              <button onClick={onClose} className="text-gray-500 hover:text-gray-900">
-                <X className="h-6 w-6" />
-              </button>
-            </div>
-            <form onSubmit={async (e) => {
-              e.preventDefault();
-              setIsSubmitting(true);
-              setShowSuccess(true);
-              setTimeout(() => {
-                setFormData({ fullName: '', mobileNumber: '', email: '', numberOfTravellers: '', monthOfTravel: '', message: '' });
-                onClose();
-                setShowSuccess(false);
-              }, 2000);
-              setIsSubmitting(false);
-            }} className="space-y-4">
-              <StyledInput name="fullName" value={formData.fullName} onChange={handleInputChange} placeholder="Full Name" required />
-              <StyledInput name="email" type="email" value={formData.email} onChange={handleInputChange} placeholder="Email" required />
-              <StyledTextarea name="message" value={formData.message} onChange={handleInputChange} placeholder="Your message" rows={3} />
-              <button type="submit" disabled={isSubmitting} className="w-full bg-[#0B3A55] text-white py-2 rounded-lg">
-                {isSubmitting ? 'Sending...' : 'Send Message'}
-              </button>
-            </form>
-          </div>
-        </div>
-      </>
-    );
-  }
 
   // Placeholder URL for the Travel Wisdom Logo - size 200x200
   const LOGO_URL = TravelWisdomLogo
@@ -446,7 +404,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
     <>
       <SuccessNotification
         isVisible={showSuccess}
-        message="A new window has opened with your itinerary. Please use your browser's print function to save it as a PDF!"
+        message={trip ? "A new window has opened with your itinerary. Please use your browser's print function to save it as a PDF!" : "Your enquiry has been sent successfully! We'll be in touch shortly."}
         onClose={() => setShowSuccess(false)}
       />
 
@@ -476,19 +434,20 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
                 </p>
             </div>
             <p className="mt-4 text-center text-sm opacity-75 z-10">
-              Fill out the form to **instantly view and save your detailed trip itinerary**.
+              Fill out the form and a dedicated travel expert will craft your perfect itinerary.
             </p>
-            {/* Displaying Trip Title to contextualize the form */}
-            <div className="z-10 mt-6 p-3 bg-white bg-opacity-10 rounded-lg">
-                <p className="text-base font-semibold">Viewing Itinerary for:</p>
-                <p className="text-xl font-bold text-[#5B92A7]">{trip.title}</p> 
-            </div>
+            {trip && (
+              <div className="z-10 mt-6 p-3 bg-white bg-opacity-10 rounded-lg">
+                  <p className="text-base font-semibold">Viewing Itinerary for:</p>
+                  <p className="text-xl font-bold text-[#5B92A7]">{trip.title}</p> 
+              </div>
+            )}
           </div>
 
           {/* Right Column: Form */}
           <div className="md:w-1/2 p-6 sm:p-8 overflow-y-auto">
             <div className="flex justify-between items-center mb-6 border-b pb-3">
-              <h2 className="text-2xl font-bold text-gray-800">Save Itinerary & Contact</h2>
+              <h2 className="text-2xl font-bold text-gray-800">Start Your Journey</h2>
               <button
                 onClick={onClose}
                 className="text-gray-500 hover:text-gray-900 transition-colors p-2 rounded-full hover:bg-gray-100"
@@ -622,7 +581,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
                 ) : (
                   <>
                     <Send className="h-5 w-5" />
-                    <span>View Itinerary & Send Enquiry</span>
+                    <span>{trip ? 'View Itinerary & Send Enquiry' : 'Send Details'}</span>
                   </>
                 )}
               </button>
