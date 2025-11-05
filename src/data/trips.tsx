@@ -2014,18 +2014,7 @@ export const allTrips: Trip[] = [
     "price": "₹30000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/22840620250217141818.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/15623720230330171626.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/9738220230330171626.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/337920230330171626.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/17170420230330171626.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/38617820230330171626.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/41959720230330171626.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/2530820230330171626.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/39218220230330171626.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/9777920230330171626.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/37899520230330171626.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/5621020230330171626.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/33470920230330171626.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/22840620250217141818.png",
     ],
     "overview": "The Manali Leh Backpacking Bike Trip is the ultimate road trip adventure for young and free souls, transitioning through beautiful valleys and streams to the high roads of Leh. It is a journey to create unforgettable memories, covering high-altitude motorable passes like Khardung La and Chang La. This 8-day trip is a hub for adventure bugs, encompassing cultural experiences and stunning views of the Himalayas.",
     "itinerary": [
@@ -2106,18 +2095,7 @@ export const allTrips: Trip[] = [
     "price": "₹21000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/36526420250217143451.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/1144220230330171951.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/36490220230330171951.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/19190720230330171951.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/18004520230330171951.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/24175320230330171951.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/13952620230330171951.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/11145620230330171951.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/11714120230330171951.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/23265020230330171951.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/16849620230330171951.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/15647020230330171951.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/34465220230330171951.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/36526420250217143451.png",
     ],
     "overview": "The Leh Ladakh Backpacking Bike Trip is the ultimate road trip adventure for young and free souls, transitioning through beautiful valleys and streams to the high roads of Leh. It is a journey to create unforgettable memories, covering high-altitude motorable passes like Khardung La and Chang La. This 6-day trip is a hub for adventure bugs, encompassing cultural experiences and stunning views of the Himalayas.",
     "itinerary": [
@@ -2242,18 +2220,7 @@ export const allTrips: Trip[] = [
     "price": "₹32000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/24468820250217151702.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/8875420230330171007.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/24833920230330171007.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/18303120230330171007.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/31429220230330171007.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/8583320230330171007.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/17035520230330171007.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/27138320230330171007.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/21647620230330171007.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/27678320230330171007.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/23328420230330171007.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/22325020230330171007.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/24212320230330171007.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24468820250217151702.png",
     ],
     "overview": "The **Manali Leh Srinagar Trip** is the grand Himalayan road trip. It takes you through a trail of emotions, serene landscapes and majestic views that will give you memories of a lifetime, blending the adventure of Ladakh with the peace of Srinagar. The journey includes crossing high-altitude motorable passes, exploring the cultural heart of Leh, and visiting picturesque locations like Pangong Lake and the stunning Dal Lake in Srinagar.",
     "itinerary": [
@@ -4704,12 +4671,9 @@ export const allTrips: Trip[] = [
     // discount: '', // No discount in HTML
     imageUrl: '/cloned_media/28089820240827101831.png', // From HTML
     gallery: [ // From HTML gallary array
-      '/cloned_media/15369120231006085228.png',
       '/cloned_media/29221420231006085228.png',
       '/cloned_media/19243920231006085228.png',
       '/cloned_media/8892020231006085228.png',
-      '/cloned_media/17337220231006085228.png',
-      '/cloned_media/42129620231006085228.png',
       '/cloned_media/20009020231006085228.png',
       '/cloned_media/9056120231006085228.png',
       '/cloned_media/42022420231006085228.png',
@@ -4849,12 +4813,9 @@ export const allTrips: Trip[] = [
     // discount: '', // Not in HTML
     imageUrl: '/cloned_media/2790520241119110345.png', // From HTML
     gallery: [ // From HTML gallary array
-      '/cloned_media/9501620230716190958.png',
       '/cloned_media/4815220230716190958.png',
       '/cloned_media/38172020230716190958.png',
       '/cloned_media/11989820230716190958.png',
-      '/cloned_media/7841120230716190958.png',
-      '/cloned_media/29222120230716190958.png',
       '/cloned_media/38506020230716190958.png',
       '/cloned_media/32730820230716190958.png',
       '/cloned_media/33546120230716190958.png',
@@ -5603,7 +5564,6 @@ export const allTrips: Trip[] = [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/20445420230513174156.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/35028920230513174156.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/28530820230513174156.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/36358820230513174156.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/21803020230513174156.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/5330920230513174156.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/14174220230513174156.png",
@@ -5830,8 +5790,6 @@ export const allTrips: Trip[] = [
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/24330220240211125736.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/21493920240211125737.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/1375320240211125737.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/6049720240211125737.png"
     ],
     "overview": "<p>Himachal Pradesh is the epitome of a backpacker's dream. With its beguiling landscape, rich cultural heritage and immense natural beauty, it is a destination that will leave you spellbound. A Trip to Shimla, Kasol, Manali and Mcleodganj is an experience of a lifetime. It is a chance for you to explore the stunning panorama and immerse yourself in the local culture. Pack your bags, grab your backpack and let the journey begin. Happy exploring!</p>",
     "itinerary": [
@@ -5909,7 +5867,6 @@ export const allTrips: Trip[] = [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/2124320240213062807.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/33552820240213062807.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/24200020240213062807.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/3336420240213062808.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/21599420240213062808.png"
     ],
     "overview": "<p>Himachal Pradesh is the epitome of a backpacker's dream. With its beguiling landscape, rich cultural heritage and immense natural beauty, it is a destination that will leave you spellbound. A Trip to Shimla, Kasol, Manali and Mcleodganj is an experience of a lifetime. It is a chance for you to explore the stunning panorama and immerse yourself in the local culture. Pack your bags, grab your backpack and let the journey begin. Happy exploring!</p>",
@@ -5996,7 +5953,6 @@ export const allTrips: Trip[] = [
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/28710720240905123344.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/21019620240213072919.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/12892420240213072919.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/30367320240213072919.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/26548420240213072919.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/33750020240213072919.png"
