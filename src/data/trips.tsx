@@ -2177,17 +2177,7 @@ export const allTrips: Trip[] = [
     "price": "₹21000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/34294120250217145015.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/16698520230330170705.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/7156220230330170705.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/18226320230330170705.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/26831220230330170705.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/13514020230330170705.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/38992520230330170705.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/32229620230330170705.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/15061920230330170705.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/27793920230330170705.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/14320620230330170705.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/36567620230330170705.png"
+
     ],
     "overview": "The Leh Ladakh with Turtuk Tour offers a memorable experience to the **“land of high passes”** and the remote **Turtuk Village**, the northernmost village of India, home to the Balti people. This package, starting from Leh, includes exploration of major spots like Nubra Valley and Pangong Tso, offering adventurous activities and stunning Himalayan views.",
     "itinerary": [
@@ -4638,12 +4628,9 @@ export const allTrips: Trip[] = [
     discount: '₹1,500', // From HTML (14000 - 12500)
     imageUrl: '/cloned_media/22022520240827103638.png', // From HTML
     gallery: [ // From HTML gallary array
-      '/cloned_media/1807420230702210004.png',
       '/cloned_media/38088220230702210004.png',
       '/cloned_media/410720230702210004.png',
       '/cloned_media/10026520230702210004.png',
-      '/cloned_media/38709020230702210004.png',
-      '/cloned_media/28713220230702210004.png',
       '/cloned_media/14898920230702210004.png',
       '/cloned_media/25229120230702210004.png',
       '/cloned_media/2679820230702210004.png',
@@ -9954,7 +9941,6 @@ export const allTrips: Trip[] = [
   "gallery": [
     "/cloned_media/27484020231006115337.png",
     "/cloned_media/28956420231006115337.png",
-    "/cloned_media/32687120231006115337.png",
     "/cloned_media/489820231006115337.png",
     "/cloned_media/25953120231006115337.png",
     "/cloned_media/19004820231006115337.png",
@@ -10694,9 +10680,8 @@ export const allTrips: Trip[] = [
   "destination": "Uttarakhand",
   "duration": "5 Days 4 Nights",
   "price": "₹11999",
-  "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/7348020200327104220.png",
+  "imageUrl":  "https://d2qa7a8q0vuocm.cloudfront.net/images/4741920200327104220.png",
   "gallery": [
-    "https://d2qa7a8q0vuocm.cloudfront.net/images/4741920200327104220.png",
     "https://d2qa7a8q0vuocm.cloudfront.net/images/11128220200327104220.png",
     "https://d2qa7a8q0vuocm.cloudfront.net/images/15193920200327104220.png",
     "https://d2qa7a8q0vuocm.cloudfront.net/images/38732120200327104220.png",
