@@ -187,6 +187,7 @@ const TripDetailPage = () => {
   const [showPopupForm, setShowPopupForm] = useState(false);
   const [isOverviewExpanded, setIsOverviewExpanded] = useState(false); // <-- STATE FOR OVERVIEW
   const [showGalleryModal, setShowGalleryModal] = useState(false); // <-- STATE FOR GALLERY MODAL
+  const [currentImageIndex, setCurrentImageIndex] = useState(0); // <-- STATE FOR CURRENT IMAGE
 
   // Find the trip based on the slug
   const trip: Trip | undefined = tripSlug ? allTrips.find(t => t.slug === tripSlug) : undefined;
@@ -246,11 +247,56 @@ const TripDetailPage = () => {
       <main className="max-w-screen-xl mx-auto px-4 pt-4 sm:pt-8 pb-20 lg:pb-8">
         {/* Mobile-only Gallery */}
         <div className="lg:hidden mb-4 relative"> {/* <-- ADDED relative */}
-           <div className="overflow-x-auto snap-x snap-mandatory flex gap-2">
+           <div className="overflow-x-auto snap-x snap-mandatory flex gap-2" 
+                onScroll={(e) => {
+                  const scrollLeft = e.currentTarget.scrollLeft;
+                  const imageWidth = e.currentTarget.scrollWidth / allGalleryImages.length;
+                  const newIndex = Math.round(scrollLeft / imageWidth);
+                  setCurrentImageIndex(newIndex);
+                }}>
                 {allGalleryImages.map((img, i) => ( // Use allGalleryImages
                     <img key={i} src={img} className="snap-center flex-shrink-0 w-full h-64 object-cover rounded-lg shadow-md" alt={`${trip.title} scenery ${i+1}`} />
                 ))}
            </div>
+           
+           {/* Chevron Navigation */}
+           <button
+             onClick={() => {
+               const newIndex = Math.max(0, currentImageIndex - 1);
+               setCurrentImageIndex(newIndex);
+               document.querySelector('.overflow-x-auto')?.scrollTo({ left: newIndex * window.innerWidth, behavior: 'smooth' });
+             }}
+             className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 backdrop-blur-sm text-gray-800 p-2 rounded-full shadow-md"
+           >
+             <ChevronDown className="w-4 h-4 rotate-90" />
+           </button>
+           <button
+             onClick={() => {
+               const newIndex = Math.min(allGalleryImages.length - 1, currentImageIndex + 1);
+               setCurrentImageIndex(newIndex);
+               document.querySelector('.overflow-x-auto')?.scrollTo({ left: newIndex * window.innerWidth, behavior: 'smooth' });
+             }}
+             className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 backdrop-blur-sm text-gray-800 p-2 rounded-full shadow-md"
+           >
+             <ChevronDown className="w-4 h-4 -rotate-90" />
+           </button>
+           
+           {/* Dots Indicator */}
+           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2">
+             {allGalleryImages.map((_, i) => (
+               <button
+                 key={i}
+                 onClick={() => {
+                   setCurrentImageIndex(i);
+                   document.querySelector('.overflow-x-auto')?.scrollTo({ left: i * window.innerWidth, behavior: 'smooth' });
+                 }}
+                 className={`w-2 h-2 rounded-full transition-colors ${
+                   i === currentImageIndex ? 'bg-gray-800' : 'bg-white/60'
+                 }`}
+               />
+             ))}
+           </div>
+           
            {/* --- ADDED MOBILE "SEE ALL" BUTTON --- */}
            <button
              onClick={() => setShowGalleryModal(true)}

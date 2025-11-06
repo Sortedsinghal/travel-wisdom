@@ -124,47 +124,45 @@ const Hero = () => {
 
 
 
+  const levenshteinDistance = (str1: string, str2: string): number => {
+    const matrix = Array(str2.length + 1).fill(null).map(() => Array(str1.length + 1).fill(null));
+    for (let i = 0; i <= str1.length; i++) matrix[0][i] = i;
+    for (let j = 0; j <= str2.length; j++) matrix[j][0] = j;
+    for (let j = 1; j <= str2.length; j++) {
+      for (let i = 1; i <= str1.length; i++) {
+        const indicator = str1[i - 1] === str2[j - 1] ? 0 : 1;
+        matrix[j][i] = Math.min(
+          matrix[j][i - 1] + 1,
+          matrix[j - 1][i] + 1,
+          matrix[j - 1][i - 1] + indicator
+        );
+      }
+    }
+    return matrix[str2.length][str1.length];
+  };
+
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!searchQuery.trim()) return;
 
     if (activeTab === "tripPackages") {
-      // Search through trips
-      const filteredTrips = allTrips.filter(trip => 
-        trip.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        trip.destination.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        trip.overview.toLowerCase().includes(searchQuery.toLowerCase())
-      );
-
-      // Navigate to search results or specific destination
-      const query = searchQuery.toLowerCase();
-      let hasMatch = false;
+      const searchTerms = ['shimla', 'manali', 'kashmir', 'kerala', 'rajasthan', 'himachal', 'uttarakhand', 'ladakh', 'rishikesh', 'corbett', 'spiti', 'kasol', 'dharamshala', 'mcleodganj', 'dubai', 'thailand', 'vietnam', 'bali', 'bhutan', 'kazakhstan', 'chopta', 'tungnath', 'kedarnath', 'badrinath', 'haridwar', 'dehradun', 'mussoorie', 'nainital'];
       
-      if (query.includes('dubai')) { navigate('/dubai'); hasMatch = true; }
-      else if (query.includes('rajasthan')) { navigate('/rajasthan'); hasMatch = true; }
-      else if (query.includes('kerala')) { navigate('/kerala'); hasMatch = true; }
-      else if (query.includes('bhutan')) { navigate('/bhutan'); hasMatch = true; }
-      else if (query.includes('leh') || query.includes('ladakh')) { navigate('/leh-ladakh'); hasMatch = true; }
-      else if (query.includes('bali')) { navigate('/bali'); hasMatch = true; }
-      else if (query.includes('kazakhstan')) { navigate('/kazakhstan'); hasMatch = true; }
-      else if (query.includes('himachal') || query.includes('manali') || query.includes('shimla')) { navigate('/himachal-pradesh'); hasMatch = true; }
-      else if (query.includes('kashmir')) { navigate('/kashmir'); hasMatch = true; }
-      else if (query.includes('spiti')) { navigate('/spiti'); hasMatch = true; }
-      else if (query.includes('uttarakhand') || query.includes('rishikesh')) { navigate('/uttarakhand'); hasMatch = true; }
-      else if (query.includes('thailand')) { navigate('/thailand'); hasMatch = true; }
-      else if (query.includes('vietnam')) { navigate('/vietnam'); hasMatch = true; }
-      else if (query.includes('domestic')) { navigate('/domestic-trips'); hasMatch = true; }
-      else if (query.includes('international')) { navigate('/international-trips'); hasMatch = true; }
-      else if (query.includes('backpack')) { navigate('/backpacking-trips'); hasMatch = true; }
-      else if (query.includes('weekend')) { navigate('/weekend-trips'); hasMatch = true; }
-      else if (query.includes('corporate')) { navigate('/corporate-tours'); hasMatch = true; }
-
+      const query = searchQuery.toLowerCase().trim();
+      let bestMatch = query;
+      let minDistance = Infinity;
       
-      if (!hasMatch) {
-        navigate(`/search-results?q=${encodeURIComponent(searchQuery)}`);
-      }
+      // Find closest match using Levenshtein distance
+      searchTerms.forEach(term => {
+        const distance = levenshteinDistance(query, term);
+        if (distance < minDistance && distance <= Math.max(2, Math.floor(term.length * 0.4))) {
+          minDistance = distance;
+          bestMatch = term;
+        }
+      });
+
+      navigate(`/search-results?q=${encodeURIComponent(bestMatch)}`);
     } else {
-      // For travel guides, navigate to blogs
       navigate('/blogs');
     }
   };

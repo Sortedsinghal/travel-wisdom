@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Slider from 'react-slick';
 import TripCard from './TripCard';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
@@ -43,6 +43,23 @@ const PrevArrow = ({ onClick }: ArrowProps) => (
 );
 
 const TripSlider: React.FC<TripSliderProps> = ({ trips, slidesToShow = 4 }) => {
+  // Inject styles for active dots
+  useEffect(() => {
+    const sliderStyles = `
+      .slick-dots li.slick-active .slick-dot-custom {
+        background-color: #374151 !important;
+      }
+    `;
+    const styleSheet = document.createElement('style');
+    styleSheet.textContent = sliderStyles;
+    document.head.appendChild(styleSheet);
+    return () => {
+      if (document.head.contains(styleSheet)) {
+        document.head.removeChild(styleSheet);
+      }
+    };
+  }, []);
+
   const actualSlidesToShow = Math.min(slidesToShow, trips.length || 1);
 
   const sliderSettings = {
@@ -83,7 +100,7 @@ const TripSlider: React.FC<TripSliderProps> = ({ trips, slidesToShow = 4 }) => {
       </div>
     ),
     customPaging: (i: number) => (
-      <div className="w-2 h-2 bg-gray-300 rounded-full mt-2 slick-dot-custom"></div>
+      <div className="w-2 h-2 bg-gray-300 rounded-full mt-2 slick-dot-custom transition-colors duration-200"></div>
     ),
   };
 

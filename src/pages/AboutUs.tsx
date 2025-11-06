@@ -91,7 +91,7 @@ const AboutUs = () => {
               </h3>
               <article className="flex items-end justify-center mb-6">
                 <p className="font-bold text-lg inline-block p-1 rounded-lg font-poppins text-white bg-[#0B3A55] mb-4 mr-4">
-                  Hoor Sharma
+                  Hoor
                 </p>
                 <p className="mb-4 font-semibold text-sm text-black font-poppins">
                   CEO, Founder

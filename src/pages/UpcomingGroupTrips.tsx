@@ -1291,9 +1291,16 @@ const UpcomingGroupTrips = () => {
     }
   }, [searchParams, months]);
 
-  // Filter trips based on selected month and category
-  const filteredTrips = trips.filter((trip) => {
-    const monthMatch = selectedMonth === 'All Months' || trip.month === selectedMonth;
+  // Filter trips based on selected month and category, then remove duplicates
+  const monthFilteredTrips = trips.filter((trip) => {
+    return selectedMonth === 'All Months' || trip.month === selectedMonth;
+  });
+  
+  const uniqueTrips = monthFilteredTrips.filter((trip, index, self) => 
+    index === self.findIndex(t => t.title === trip.title)
+  );
+  
+  const filteredTrips = uniqueTrips.filter((trip) => {
     let categoryMatch = false;
     if (selectedCategory === 'All Trips') {
       categoryMatch = true;
@@ -1302,7 +1309,7 @@ const UpcomingGroupTrips = () => {
     } else if (selectedCategory === 'Long Duration Trips') {
       categoryMatch = getDays(trip.duration) > 4;
     }
-    return monthMatch && categoryMatch;
+    return categoryMatch;
   });
 
   const handleSendQuery = (tripTitle: string) => {
