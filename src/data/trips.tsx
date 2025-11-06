@@ -1169,10 +1169,12 @@ export const allTrips: Trip[] = [
     // originalPrice: '', // No discount in HTML
     // discount: '', // No discount in HTML
     imageUrl: '/cloned_media/40386720240717080101.png', // From HTML
-    gallery: [ // From HTML gallary array
-      '/cloned_media/40202120240717080101.png',
-      '/cloned_media/3900920240717080101.png',
-      '/cloned_media/2563920240717080101.png'
+    gallery: [ 
+      '/cloned_media/42246920240717095828.png',
+      '/cloned_media/26281620240717095829.png',
+      '/cloned_media/22243720240717095829.png',
+      '/cloned_media/1001320240717095829.png'
+      // From HTML gallary array
     ],
     overview: '<h2>Munnar Tour Package 3 Days 2 Nights</h2><p>Located in the Western Ghats of Kerala, Munnar is a paradise for nature-loving and adventure enthusiasts simply because it presents the most beautiful gift of paradise. Imagine getting up one fine morning with misty scenes all around you, with the rolling hills carpeted in infinite stretches of lush green. ...This Munnar tour package is all about exploring the breathtaking beauty of the hill station.</p><p>...Our experienced local guides will share fascinating stories and insider tips, ensuring you experience the heart and soul of Munnar. Whether you\'re a honeymooning couple, a family seeking quality time, or a solo traveler in search of serenity, our Munnar package promises an unforgettable journey. Don\'t just dream about it, <a href="https://Travel Wisdom.com/trip/kerala" style="color:blue;">book Kerala Tour Package</a> with Travel Wisdom now and let the magic of Munnar captivate you!</p><h3>Best Places to Visit in Munnar</h3><p><b>Valara Waterfalls-</b> ...nestled in the midst of the green landscape of Munnar.</p><p><b>Cheeyappara Waterfalls-</b> ...a seven-step cascade that falls in the midst of thick tropical forests.</p><p><b>Eravikulam National Park-</b> Home to the endangered Nilgiri Tahr...</p><p><b>Tea Gardens-</b> Munnar\'s vast tea plantations are its iconic attraction.</p><p><b>Top Station-</b> ...offering some spectacular views in Munnar.</p><p><b>Mattupetty Dam-</b> This scenic dam has boating facilities...</p><p><b>Kundala Lake-</b> This artificial lake... is perfect for boating and picnics.</p><p><b>Echo Point-</b> Named for its natural echo phenomenon...</p>', // From HTML
     itinerary: [ // From HTML i_data
@@ -6799,7 +6801,12 @@ export const allTrips: Trip[] = [
     // discount: '', // No discount in HTML
     imageUrl: '/cloned_media/39805720230316074814.png', // From HTML
     gallery: [ // From HTML gallary array
-      '/cloned_media/29154720230316074814.png'
+      '/cloned_media/13553920240731114150.png',
+      '/cloned_media/26774120240731114150.png',
+      '/cloned_media/20382520240731114150.png',
+      '/cloned_media/3350720240731114151.png',
+      '/cloned_media/16027620240731114151.png',
+      '/cloned_media/8507620240731114151.png'
     ],
     overview: '<h2>About Kashmir Backpacking Winter Edition Tour Package</h2><p>Get ready to be enchanted with our Kashmir Backpacking Winter Edition Tour Package in the winter wonderland of Kashmir! Are you ready to kick your everyday, mundane routine and find yourself in the middle of a fairytale-like snow-draped paradise? Just imagine being in the middle of snowy landscapes while surrounded by mighty peaks, snow-laden and blending into the warm hospitality of the Kashmiri culture. This isn\'t a holiday; it\'s an adventure that awakens your senses and brings back moments that stay with you forever.</p><p>Our Kashmir Winter Package is an all-exciting expedition to the most stunning locations of Kashmir during their most magical season. From staying in a cozy houseboat, to the partially frozen Dal Lake, Srinagar sets the tone for a soulful winter exploration where one watches the world go by in a serene and misty setting. The steaming cups of Kahwa tea, complemented by the view of frosted Chinars, hail your wake-up call with all its heart. Proceed to Gulmarg, the skiing paradise of Asia, where snow as soft as flour and world class slopes await you. Be an experienced skier or just going for the first time; our guides are there to make every moment of your stay on the slopes.</p><p>But this package is much more than that. Imagine sledding down the snow-laden meadows of Pahalgam, getting an adrenaline-pumping ride on a snow-paradise in Sonamarg, or climbing up to frozen waterfalls that glisten like diamonds in the winter sun. Feel the joy of creating a snowman at the foot of the Himalayas or enjoy friendly snowball fights with breathtaking mountain vistas for a backdrop.</p><p>Wind up the day with a bonfire, savoring traditional Kashmiri Wazwan food and listening to folk tales under the star-studded sky. This <a href="https://Travel Wisdom.com/trips/kashmir-backpacking-winter-edition" style="color:blue;">Kashmir Backpacking Winter Edition</a> Tour Package doesn\'t only promise a view of Kashmir but makes one feel its beats, taste its essence, and soak into its winter enchantment. So, are you ready to trade your winter blues for Kashmir\'s winter hues? Pack warm clothes with an adventurous spirit, unforgettable winter wonderland beckons!</p><h3>Best Places to Visit in Kashmir</h3><p><b>Dal Lake:</b> Popularly known for its houseboats and floating gardens...</p><p><b>Nigeen Lake:</b> It is often referred to as the \'Jewel in the crown of Kashmir\'...</p><p><b>Shankaracharya Temple:</b> This old temple stands on the crest of a hill and provides a panoramic view of Srinagar...</p><p><b>Hazratbal Shrine:</b> This shrine of pristine white marble enshrines what is said to be the hair of the Prophet Muhammad...</p><p><b>Shalimar Bagh:</b> This is the biggest Mughal garden in Kashmir...</p><p><b>Nishat Bagh:</b> Known as the \'Garden of Bliss,\' Nishat Bagh provides a beautiful view of Dal Lake...</p><p><b>Pari Mahal:</b> ...originally a Buddhist monastery, and now Pari Mahal, or \'Fairy Palace\'...</p><p><b>Tulip Garden:</b> ...larger than Asia\'s Tulip Garden, the region blossoms in spring...</p><p><b>Hari Parbat Fort:</b> This hilltop fort offers a bird\'s eye view of Srinagar...</p><p><b>Lal Chowk:</b> The city center of Srinagar, Lal Chowk is bustling with activity...</p><p><b>Alpather Lake:</b> Situated at a high altitude near Gulmarg, Alpather Lake remains frozen until early summer...</p><p><b>Gulmarg Biosphere Reserve:</b> It is a nature lover\'s paradise...</p><p><b>Gulmarg Golf Course:</b> It is considered one of the highest golf courses in the world...</p><p><b>Apharwat Peak:</b> Apharwat Peak is the last point of Gulmarg Gondola...</p><p><b>Betaab Valley:</b> Named after the shooting of a Bollywood film here, this beautiful landscape...</p><p><b>Aru Valley:</b> This charmed village is around 12 km from Pahalgam...</p><p><b>Chandanwari:</b> The beginning point of the Amarnath Yatra...</p><p><b>Baisaran:</b> Often called \'Mini Switzerland\', Baisaran is a lush green meadow...</p><h3>Top Things to do in Kashmir</h3><p><b>Skiing on world-class slopes:</b> Glide down pristine slopes in Gulmarg...</p><p><b>Snowboarding in powder snow:</b> Experience the thrill of snowboarding in Gulmarg...</p><p><b>Taking a scenic gondola ride:</b> Ascend to Apharwat Peak...</p><p><b>Ice skating on frozen lakes:</b> Glide across naturally frozen lakes in Srinagar...</p><p><b>Enjoying a cozy shikara ride:</b> Wrapped in warm blankets, take a serene shikara ride on Dal Lake...</p><p><b>Riding snowmobiles across snowy landscapes:</b> Zoom across snow-covered terrain...</p><p><b>Winter trekking through pristine snow:</b> Embark on challenging winter treks...</p><p><b>Sledding and tobogganing down gentle slopes:</b> Enjoy family-friendly fun...</p><p><b>Indulging in warm Kashmiri winter cuisine:</b> Savor hearty Kashmiri dishes...</p><p><b>Sipping Kahwa by a warm fire:</b> Enjoy Kashmir\'s traditional saffron tea...</p><h3>How To Reach Kashmir?</h3><p><b>By Air:</b> The most convenient way... Sheikh ul-Alam International Airport at Srinagar.</p><p><b>By Road:</b> ...via the Jammu-Srinagar National Highway NH44.</p><p><b>By Train:</b> The nearest railway station is Jammu Tawi.</p><h3>Best Time to Visit Kashmir</h3><p>The best time to visit Kashmir in winter would be from mid-December to mid-February...</p>', // From HTML
     itinerary: [ // From HTML i_data
@@ -7805,7 +7812,14 @@ export const allTrips: Trip[] = [
     "duration": "5 Days 4 Nights",
     "price": "₹18800",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/38438020240917113910.png",
-    "gallery": null,
+    "gallery": [
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34391020240917081638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/7940220240917081638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21562620240917081638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34610220240917081638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/101720240917081638.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/19348320240917081639.png"
+    ],
     "overview": "A 5-day vacation designed to capture the most picturesque sights of Kashmir. Book the picturesque Kashmir vacation itinerary with Travel Wisdom. Enjoy a 4 Nights 5 Days trip from Srinagar, exploring serene lakes, lush valleys, and breathtaking landscapes experience.",
     "itinerary": [
       {
@@ -8551,9 +8565,12 @@ export const allTrips: Trip[] = [
     "price": "₹35500",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/729320240920083235.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/8534020240920083235.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/21687120240920083235.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/26246420240920083235.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/23074520240920122225.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15652220240920122225.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24997320240920122225.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/37238020240920122225.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/5130320240920122225.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6524820240920122225.png"
     ],
     "overview": "A 9-day tour covering the spiritual circuit of **Vaishno Devi** and **Shiv Khori**, followed by a scenic Kashmir tour. Book a Kashmir package with Vaishno Devi and Shiv Khori tour with Travel Wisdom. Seek divine blessings, explore scenic valleys, and enjoy a peaceful getaway amidst the breathtaking Himalayas.",
     "itinerary": [
@@ -8862,9 +8879,12 @@ export const allTrips: Trip[] = [
     "price": "₹12999",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/27524020220120050859.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/14530620220120050859.png",
       "https://d2qa7a8q0vuocm.cloudfront.net/images/37897020220120050859.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/24353320220120050859.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/24353320220120050859.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/16063820230706083615.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15892620230706083615.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/30738120230706083615.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/8026520230706083615.png"
     ],
     "overview": "A 5-day trek from Gulmarg to the high-altitude Alpather Lake, which remains frozen for most of the year. The Alpather Lake trek in Kashmir is an average to difficult trek and covers a distance up to a distance of approximately 13,000 feet from the sea level to the picturesque lake of Alpather Lake nestled in the Pir Panjal mountain range of the Kashmir Himalayas. The trek is usually done from Gulmarg, a well-known ski resort town in Kashmir valley.",
     "itinerary": [
@@ -8919,8 +8939,13 @@ export const allTrips: Trip[] = [
     "price": "₹9999",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/40475620220120050538.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/32433920220120050538.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/41747520220120050538.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6021120250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34559120250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18030520250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31746320250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4118220250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17209820250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27722420250203122132.png"
     ],
     "overview": "A 4-day trek to the serene **Kausar Nag Lake**, located in the Pir Panjal range. This picturesque trail takes you across lush green meadows, narrow pine forests and beautiful alpine pastures. The water has formed a teal color due to the melting glaciers, and it cannot even be described.",
     "itinerary": [
@@ -8970,9 +8995,13 @@ export const allTrips: Trip[] = [
     "price": "₹7999",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/9886420220120050240.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/33142820220120050240.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/25831220220120050240.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/34102920220120050240.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/6021120250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/34559120250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18030520250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/31746320250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/4118220250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/17209820250203122131.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/27722420250203122132.png"
     ],
     "overview": "A short 3-day trek from Pahalgam to the holy **Sheshnag Lake**, a key point on the Amarnath Yatra route. Sheshnag Trek is considered one of the most exotic summer treks and ideal for both experienced as well as novice trekkers. This pristine lake is steeped in Mythology and Legend.",
     "itinerary": [
