@@ -4,22 +4,22 @@ const steps = [
   {
     title: 'Choose Your Travel Destination',
     description: 'From a buffet of trip itineraries handcrafted by our travel experts.',
-    imageUrl: 'src/assets/location-pin.webp', 
+    imageUrl: '/location-pin.webp', 
   },
   {
     title: 'Ask Queries & Book Your Trip!',
     description: 'Connect with us over a call, solve your queries and book your trip.',
-    imageUrl: 'src/assets/msg-query.webp', 
+    imageUrl: '/msg-query.webp', 
   },
   {
     title: 'Ohai, Your Trip Day Has Arrived',
     description: 'Keep your adventure spirit high and pack your bags for a lifetime experience.',
-    imageUrl: 'src/assets/traveling-van.webp', 
+    imageUrl: '/traveling-van.webp', 
   },
   {
     title: 'Share #InstaPerfect Memories...',
     description: 'Flaunt your memorable travel memories over social media with your dear ones.',
-    imageUrl: 'src/assets/announcement.webp', 
+    imageUrl: '/announcement.webp', 
   },
 ];
 
@@ -49,7 +49,7 @@ const HowToPlanTrip = () => {
                 marginLeft: i > 0 ? '-1.5rem' : '0', // Pull subsequent lines back to overlap slightly
             }}>
                 <img 
-                    src="src/assets/line.webp" 
+                    src="/line.webp" 
                     alt="Decorative connecting line" 
                     className="w-full h-full object-contain object-bottom"
                 />
@@ -73,7 +73,7 @@ const HowToPlanTrip = () => {
               <div 
                 className="absolute inset-0 rounded-lg overflow-hidden z-0"
                 style={{ 
-                  backgroundImage: 'url("src/assets/yellow-paper-bg.webp")',
+                  backgroundImage: 'url("/yellow-paper-bg.webp")',
                   backgroundSize: 'cover',
                   backgroundColor: '#FFD700',
                 }}
@@ -103,7 +103,7 @@ const HowToPlanTrip = () => {
 
                 {/* Corner Pattern (box-cornering.webp) - Positioned at the bottom right */}
                 <img 
-                    src="src/assets/box-cornering.webp" 
+                    src="/box-cornering.webp" 
                     alt="Decorative pattern" 
                     className="absolute bottom-0 right-0 w-20 h-20 opacity-90 object-cover" 
                 />
