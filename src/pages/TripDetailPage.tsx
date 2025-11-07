@@ -514,7 +514,7 @@ const TripDetailPage = () => {
                         <Link to={`/trip/${relatedTrip.slug}`} key={index} className="bg-white rounded-lg shadow-md overflow-hidden group transition-transform duration-300 hover:scale-105 hover:shadow-xl block">
                             <img src={relatedTrip.imageUrl} alt={relatedTrip.title} className="w-full h-32 sm:h-40 object-cover"/>
                             <div className="p-3 sm:p-4">
-                            <h3 className="font-semibold text-sm sm:text-base text-gray-800 line-clamp-2">{relatedTrip.title}</h3>
+                            <h3 className="font-semibold text-sm sm:text-base text-gray-800 line-clamp-2 min-h-[3rem] leading-relaxed">{relatedTrip.title}</h3>
                             <p className="text-xs sm:text-sm text-gray-600 mt-1">Starting <span className="font-bold text-[#0B3A55]">{relatedTrip.price}</span></p>
                             </div>
                         </Link>

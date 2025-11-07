@@ -59,7 +59,7 @@ const TripCard: React.FC<TripCardProps> = ({
             {/* Link the title to the detail page */}
             <Link to={`/trip/${slug}`}>
               {/* Ensure title area has enough height, use line-clamp */}
-              <p className="text-base sm:text-lg font-semibold text-gray-800 h-12 line-clamp-2 hover:text-blue-700">{title}</p>
+              <p className="text-base sm:text-lg font-semibold text-gray-800 min-h-[3rem] line-clamp-2 leading-relaxed hover:text-blue-700">{title}</p>
             </Link>
             <div className="flex items-center gap-2 mt-1">
               {originalPrice && (
