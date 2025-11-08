@@ -1953,7 +1953,16 @@ export const allTrips: Trip[] = [
     "price": "₹30000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/22840620250217141818.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/22840620250217141818.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18581920240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38807320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
     ],
     "overview": "The Manali Leh Backpacking Bike Trip is the ultimate road trip adventure for young and free souls, transitioning through beautiful valleys and streams to the high roads of Leh. It is a journey to create unforgettable memories, covering high-altitude motorable passes like Khardung La and Chang La. This 8-day trip is a hub for adventure bugs, encompassing cultural experiences and stunning views of the Himalayas.",
     "itinerary": [
@@ -2035,6 +2044,16 @@ export const allTrips: Trip[] = [
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/36526420250217143451.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/36526420250217143451.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18581920240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38807320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
     ],
     "overview": "The Leh Ladakh Backpacking Bike Trip is the ultimate road trip adventure for young and free souls, transitioning through beautiful valleys and streams to the high roads of Leh. It is a journey to create unforgettable memories, covering high-altitude motorable passes like Khardung La and Chang La. This 6-day trip is a hub for adventure bugs, encompassing cultural experiences and stunning views of the Himalayas.",
     "itinerary": [
@@ -2094,12 +2113,16 @@ export const allTrips: Trip[] = [
     "price": "₹21000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/34294120250217145015.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/909920230331052335.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/34292320230331052335.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/18150020230331052335.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/20575620230331052335.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/29780220230331052335.png",
-
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18581920240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38807320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
     ],
     "overview": "The Leh Ladakh with Turtuk Tour offers a memorable experience to the **“land of high passes”** and the remote **Turtuk Village**, the northernmost village of India, home to the Balti people. This package, starting from Leh, includes exploration of major spots like Nubra Valley and Pangong Tso, offering adventurous activities and stunning Himalayan views.",
     "itinerary": [
@@ -2165,6 +2188,16 @@ export const allTrips: Trip[] = [
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/24468820250217151702.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/24468820250217151702.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18581920240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38807320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
     ],
     "overview": "The **Manali Leh Srinagar Trip** is the grand Himalayan road trip. It takes you through a trail of emotions, serene landscapes and majestic views that will give you memories of a lifetime, blending the adventure of Ladakh with the peace of Srinagar. The journey includes crossing high-altitude motorable passes, exploring the cultural heart of Leh, and visiting picturesque locations like Pangong Lake and the stunning Dal Lake in Srinagar.",
     "itinerary": [
@@ -2246,16 +2279,19 @@ export const allTrips: Trip[] = [
     "title": "All Girls Manali Leh Trip",
     "destination": "Leh Ladakh",
     "duration": "9 Days 8 Nights",
-    "price": "Customization Available",
-    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/722620230331052335.png",
+    "price": "₹29000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/18581920240226082738.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/28940520230331052335.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/909920230331052335.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/34292320230331052335.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/18150020230331052335.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/20575620230331052335.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/29780220230331052335.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/41428620230331052335.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18581920240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/38807320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
     ],
     "overview": "A safe and exciting **all-girls trip** from Manali to Leh, exploring the best of the Himalayas with like-minded travelers. Experience a blend of serene valleys, thrilling mountain passes, and the unique culture of Leh Ladakh. This backpacking adventure includes major highlights like Pangong Tso, Nubra Valley, and the high-altitude passes along the Manali-Leh highway.",
     "itinerary": [
@@ -2336,7 +2372,7 @@ export const allTrips: Trip[] = [
     "title": "Manali Leh Srinagar Backpacking Bike Trip",
     "destination": "Leh Ladakh",
     "duration": "10 Days 9 Nights",
-    "price": "Customization Available",
+    "price": "₹21000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/29139320240226082737.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/39957120240226082738.png",
@@ -2436,7 +2472,15 @@ export const allTrips: Trip[] = [
     "price": "₹32000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/8691320250217153005.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/8691320250217153005.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
+      
     ],
     "overview": "The classic Himalayan road trip in reverse. Start from the lush valleys of **Srinagar**, cross into the high-altitude desert of **Leh Ladakh**, and descend to **Manali**. This journey covers picturesque stops like Dal Lake, Kargil War Memorial, Pangong Lake, and multiple high mountain passes.",
     "itinerary": [
@@ -2522,6 +2566,14 @@ export const allTrips: Trip[] = [
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25238920250308075453.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/9568420250308075452.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
     ],
     "overview": "An adventurer's trip to the remote wonders of Ladakh. This epic journey spans Srinagar, Leh, and Manali, including exploration of the Changthang Valley, the dark sky sanctuary of **Hanle**, and conquering the mighty **Umling La Pass**, one of the world's highest motorable roads.",
     "itinerary": [
@@ -2613,22 +2665,17 @@ export const allTrips: Trip[] = [
     "title": "Leh Ladakh with Tso Moriri & Turtuk",
     "destination": "Leh Ladakh",
     "duration": "8 Days 7 Nights",
-    "price": "Customization Available",
-    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/41654520230330173328.png",
+    "price": "₹35000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/11788420230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/17486020230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/40654320230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/17160920230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/17117720230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/26835720230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/16255220230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/271820230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/25698920230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/20460220230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/18833020230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/29038620230330170455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/25759020230330170455.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
     ],
     "overview": "An extensive 8-day trip covering **Leh**, **Nubra**, the remote village of **Turtuk**, **Pangong Lake**, and the high-altitude lake **Tso Moriri**. This adventure is perfect for experiencing the sharp vistas, ancient culture, and thrilling mountain roads of Ladakh.",
     "itinerary": [
@@ -2696,16 +2743,17 @@ export const allTrips: Trip[] = [
     "title": "All Girls Ladakh Trip with Turtuk",
     "destination": "Leh Ladakh",
     "duration": "7 Days 6 Nights",
-    "price": "Customization Available",
-    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/37953920230331053627.png",
+    "price": "₹32000",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/28252320230331053627.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/17864520230331053627.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/39496320230331053627.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/17398420230331053627.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/21972220230331053627.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/1607420230331053627.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/20524020230331053627.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
     ],
     "overview": "A 7-day all-girls adventure to Leh, Nubra, Pangong, and the unique village of **Turtuk**, India's last village, led by a female trip captain. This trip explores Ladakh's breathtaking scenery, ancient monasteries, high mountain passes like **Khardung La**, and the serene waters of **Pangong Tso**.",
     "itinerary": [
@@ -2770,13 +2818,17 @@ export const allTrips: Trip[] = [
     "destination": "Leh Ladakh",
     "duration": "12 Days 11 Nights",
     "price": "₹38000",
-    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/38552720250308073455.png",
+    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+
     "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/1322520250308073454.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/37124520250308073455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/30891120250308073455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/20250220250308073455.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/12487920250308073455.png"
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/41658320240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/21259820240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/10826420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/18506420240226082738.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40087720240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/599920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/40030920240226082739.png",
+      "https://d2qa7a8q0vuocm.cloudfront.net/images/15620020240226082739.png",
     ],
     "overview": "The most comprehensive Ladakh road trip. 12 days covering **Manali-Leh**, the remote Changthang Valley, the dark sky sanctuary of **Hanle**, conquering the mighty **Umling La** (World's Highest Motorable Pass), and exiting via **Srinagar**.",
     "itinerary": [
@@ -3262,7 +3314,7 @@ export const allTrips: Trip[] = [
     "title": "Romantic Escape to Bali - Couple Special",
     "destination": "Bali",
     "duration": "7 Days 6 Nights",
-    "price": "Customization Available",
+    "price": "₹59999",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/35865920250528074655.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/25776720250528074654.png",
@@ -3336,7 +3388,7 @@ export const allTrips: Trip[] = [
     "title": "Romantic Bali Vacation - Couple Special",
     "destination": "Bali",
     "duration": "5 Days 4 Nights",
-    "price": "Customization Available",
+    "price": "₹69999",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/8336920250528080622.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/19052320250528080621.png",
@@ -3613,7 +3665,7 @@ export const allTrips: Trip[] = [
     "title": "Discover Best of Bali",
     "destination": "Bali",
     "duration": "7 Days 6 Nights",
-    "price": "Customization Available",
+    "price": "₹68000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/17819120241022065418.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/16271220241022065418.png",
@@ -3685,7 +3737,7 @@ export const allTrips: Trip[] = [
       "title": "Joyful Treasures of Bali",
       "destination": "Bali",
       "duration": "6 Days 5 Nights",
-      "price": "Customization Available",
+      "price": "₹72000",
       "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/34321720250528075636.png",
       "gallery": [
         "https://d2qa7a8q0vuocm.cloudfront.net/images/10007420250528075635.png",
@@ -3922,11 +3974,9 @@ export const allTrips: Trip[] = [
       "title": "Adventure Bali Trip Package",
       "destination": "Bali",
       "duration": "7 Days 6 Nights",
-      "price": "Customization Available",
+      "price": "₹74999",
       "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/25064020241022070910.png",
       "gallery": [
-        "https://d2qa7a8q0vuocm.cloudfront.net/images/7603020241022070909.png",
-        "https://d2qa7a8q0vuocm.cloudfront.net/images/2465620241022070909.png",
         "https://d2qa7a8q0vuocm.cloudfront.net/images/18722620241022070909.png",
         "https://d2qa7a8q0vuocm.cloudfront.net/images/29931420241022070909.png",
         "https://d2qa7a8q0vuocm.cloudfront.net/images/22031820241022070909.png",
@@ -3996,7 +4046,7 @@ export const allTrips: Trip[] = [
       "title": "Best of Bali",
       "destination": "Bali",
       "duration": "7 Days 6 Nights",
-      "price": "Customization Available",
+      "price": "₹65000",
       "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/17819120241022065418.png",
       "gallery": [
         "https://d2qa7a8q0vuocm.cloudfront.net/images/16271220241022065418.png",
@@ -9812,7 +9862,7 @@ export const allTrips: Trip[] = [
   "discount": null,
   "imageUrl": "/cloned_media/42312820230316110103.png",
   "gallery": [
-    "/cloned_media/36891120230316110103.png"
+    "/cloned_media/42312820230316110103.png"
   ],
   "overview": "<p>According to Hindu belief, Chardham is the four most important Hindu religious site in the Garhwal region of Uttarakhand state, India. Yamunotri, Badrinath, Gangotri, and Kedarnath are collectively known as Chardham. Chardhams are sacred temples dedicated to lord Vishnu and lord Shiva.</p><p>The Char Dham Yatra of Uttarakhand is dignified as one of the foremost auspicious Yatra for Hindu devotees and this Yatra visits by a huge percentage of pilgrims from all over the earth. The essence of the Gods and nature's appeal of the ideal Himalayas are a perfect fusion that improves the religious and religious warmth of the Char Dham Yatra.</p>",
   "itinerary": [
@@ -11184,8 +11234,7 @@ export const allTrips: Trip[] = [
     "https://d2qa7a8q0vuocm.cloudfront.net/images/23937920200329152159.png",
     "https://d2qa7a8q0vuocm.cloudfront.net/images/12777320200329152159.png",
     "https://d2qa7a8q0vuocm.cloudfront.net/images/8745620200329152159.png",
-    "https://d2qa7a8q0vuocm.cloudfront.net/images/10010420200329152159.png",
-    "https://d2qa7a8q0vuocm.cloudfront.net/images/41348920200329152159.png"
+    "https://d2qa7a8q0vuocm.cloudfront.net/images/10010420200329152159.png"
   ],
   "overview": "The Kedartal Trek is a challenging, high-altitude adventure to a spectacular glacial lake in the Garhwal Himalayas. The trek takes you to an altitude of around **4,750 meters (15,584 feet)**, offering breathtaking views and reflections of towering peaks like **Thalay Sagar**, Bhrigupanth, and Manda Parvat. It is an ideal trek for **experienced trekkers** due to the rugged terrain and steep trails.",
   "itinerary": [
@@ -11534,7 +11583,7 @@ export const allTrips: Trip[] = [
     "title": "Majestic Thailand - Flights Inclusive",
     "destination": "Thailand",
     "duration": "6 Days 5 Nights",
-    "price": "Customization Available",
+    "price": "₹60000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/7931820250527104428.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/34209120250527104428.png",
@@ -11728,66 +11777,7 @@ export const allTrips: Trip[] = [
       "5% GST & 5% TCS (TCS can be claimed in full in your ITR).",
     ]
   },
-  {
-    "slug": "honeymoon-special-phuket-krabi",
-    "title": "Honeymoon Special - Phuket Krabi",
-    "destination": "Thailand",
-    "duration": "5 Days 4 Nights",
-    "price": "₹48000",
-    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/3048220231104223616.png",
-    "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/27241620231104223616.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/40314920231104223616.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/6804020231104223616.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/3301420231104223616.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/31218120231104223616.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/38160120231104223616.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/9503820231104223616.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/15665120231104223616.png"
-    ],
-    "overview": "Experience romance in **Phuket** and **Krabi** with this exclusive **5 Days 4 Nights honeymoon package**. Enjoy beautiful beaches, private transfers, and included excursions to the **Phi Phi Islands** and local wildlife shows.",
-    "itinerary": [
-      {
-        "day": 1,
-        "title": "Welcome to Thailand | Phuket Arrival | Transfer to Krabi Hotel | Overnight Stay",
-        "description": "<ul><li>Upon your arrival in Thailand/Phuket, clear immigration (visa assistance provided) and drive towards your hotel in **Krabi** (2 nights stay). Check-in and enjoy a much-needed overnight stay.</li></ul>"
-      },
-      {
-        "day": 2,
-        "title": "4 Island Tour with Lunch by Long Tail / Speed Boat",
-        "description": "<ul><li>Post breakfast, head towards the pier for the **4 Island Tour** (Tup Island, Chicken Island, Poda Island, and Phra Nang Beach) by Long Tail Boat/Speed Boat (SIC).</li><li>Enjoy snorkeling and admire the serene coral reefs. **Lunch is included**.</li><li>Drive back to your Krabi hotel for an overnight stay.</li></ul>"
-      },
-      {
-        "day": 3,
-        "title": "Transfer to Phuket Hotel | Tiger Kingdom and Dolphin Show Enroute",
-        "description": "<ul><li>Post Breakfast, transfer from Krabi Hotel to **Phuket Hotel** (2 nights stay) by road (**Private Transfer**).</li><li>En route, visit **Tiger Kingdom** (PVT) for photos with the tigers.</li><li>Also enjoy a **Dolphin Show** (PVT).</li><li>Check-in to your Phuket hotel for an overnight stay.</li></ul>"
-      },
-      {
-        "day": 4,
-        "title": "Phi Phi Island tour with lunch by Big Boat/ Speed Boat",
-        "description": "<ul><li>Post your early breakfast, head towards Phi Phi pier and board the ferry/boat for the **Phi Phi Island Tour** (SIC, **Lunch included**).</li><li>Discover the beautiful Phi Phi Islands and their natural beauty.</li><li>*Bonus:* Speedboat includes **Maya Bay** + **Bamboo Island** + **Khai Island**, and complimentary snorkeling/kayaking.</li><li>Return to your Phuket hotel for an overnight stay.</li></ul>"
-      },
-      {
-        "day": 5,
-        "title": "Goodbye Thailand | Depart for Homeland",
-        "description": "<ul><li>Wake up in the morning and post breakfast, check-out from your hotel.</li><li>Drive towards Phuket Airport (**Private Transfer**) and fly back to your respective destinations.</li></ul>"
-      }
-    ],
-    "inclusions": [
-      "Accommodation in **3/4 star Hotels for 4 Nights** (split between Krabi and Phuket).",
-      "Meals: **Daily buffet Breakfast** at Hotel & **2 Complimentary Dinners**.",
-      "Transfers: **Phuket Airport to Krabi Hotel** Transfers (Private), **Krabi Hotel to Phuket Hotel** Transfers (Private), **Phuket Hotel to Phuket Airport** Transfers (Private), Sightseeing Transfers.",
-      "Tours & Activities: **4 Island Tour with Lunch** (SIC), **Phi Phi Island Tour with Lunch** (SIC), **Tiger Kingdom Phuket** (PVT), **Dolphin Show** (PVT).",
-    ],
-    "exclusions": [
-      "Any kind of personal expenses.",
-      "Anything (meals, transport & services) that are not mentioned in the above ‘Inclusions’ section.",
-      "Museum/Monument entry fee/city tax.",
-      "Travel Insurance.",
-      "**5% GST & 5% TCS** (TCS can be claimed in full in your ITR).",
-    ]
-  },
-  {
+    {
     "slug": "phuket-krabi-5n6d",
     "title": "Phuket Krabi 5N6D",
     "destination": "Thailand",
@@ -12052,7 +12042,7 @@ export const allTrips: Trip[] = [
     "title": "Explore Wonders of Thailand",
     "destination": "Thailand",
     "duration": "8 Days 7 Nights",
-    "price": "Customization Available",
+    "price": "₹70000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/14238820250527102215.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/14077620250527102214.png",
@@ -12132,7 +12122,7 @@ export const allTrips: Trip[] = [
     "title": "Unforgettable Thailand Romantic Getaway",
     "destination": "Thailand",
     "duration": "9 Days 8 Nights",
-    "price": "Customization Available",
+    "price": "₹85000",
     "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/5466120250527100054.png",
     "gallery": [
       "https://d2qa7a8q0vuocm.cloudfront.net/images/38444420250527100053.png",
@@ -12811,7 +12801,7 @@ export const allTrips: Trip[] = [
     title: 'Unforgettable Vietnam Odyssey', // From HTML
     destination: 'Vietnam',
     duration: '10 Days 9 Nights', // From HTML
-    price: 'Customization Available', // No price in HTML, keeping placeholder
+    price: '₹75000', // No price in HTML, keeping placeholder
     // originalPrice: '', // No original price in HTML
     // discount: '', // No discount in HTML
     imageUrl: '/cloned_media/9944320250527113431.png', // Matches HTML
@@ -12904,7 +12894,7 @@ export const allTrips: Trip[] = [
     title: 'Enchanting Escape to Vietnam', // From HTML
     destination: 'Vietnam',
     duration: '7 Days 6 Nights', // From HTML
-    price: 'Customization Available', // No price in HTML, keeping placeholder
+    price: '₹70000', // No price in HTML, keeping placeholder
     // originalPrice: '', // Not in HTML
     // discount: '', // Not in HTML
     imageUrl: '/cloned_media/14260120250527131710.png', // From HTML
@@ -12973,81 +12963,6 @@ export const allTrips: Trip[] = [
         'Anything not mentioned in the inclusions.',
         'GST (5%) applicable extra.',
         '5% TCS applicable extra (claimable while filing ITR).'
-    ],
-  },
-  {
-    slug: 'vietnam-danang-hanoi-6d5n', // Corrected slug from HTML
-    title: 'Vietnam- Danang Hanoi 6D5N', // Title from HTML
-    destination: 'Vietnam',
-    duration: '6 Days 5 Nights', // Duration from HTML
-    price: '₹36500', // Price from HTML
-    // originalPrice: '', // No original price in HTML
-    // discount: '', // No discount in HTML
-    imageUrl: '/cloned_media/19946620230326031410.png', // Main image from HTML
-    gallery: [ // Gallery from HTML
-      '/cloned_media/31859020230326031410.png',
-      '/cloned_media/24671220230326031410.png',
-      '/cloned_media/11504820230326031410.png',
-      '/cloned_media/5416620230326031410.png',
-      '/cloned_media/5856220230326031410.png',
-      '/cloned_media/29836920230326031410.png',
-      '/cloned_media/24240220230326031410.png',
-      '/cloned_media/24513720230326031410.png',
-      '/cloned_media/27690220230326031410.png',
-      '/cloned_media/18759220230326031410.png'
-    ],
-    overview: '<h2>Danang Hanoi Tour Package 6 Days</h2><p>We found the beauty of Vietnam in its timeless charm of bustling Hanoi to scenic coastal Danang. Embrace the adventure and book our exclusive Vietnam- Danang Hanoi 6 Days 5 Nights Tour Package to experience the spectacular beauty of Vietnam.</p><p>Located on the central coastal area of Vietnam, Da Nang is a dynamic city with growing characteristics that harmonize with its archived legacy. It is famous for its unspoiled sand, and for instance, Non Nuoc beach with captivating marble mountain and the sea with the purest water of sapphire hue. Dragon Bridge, for instance, is one of the city’s most recognizable landmarks that can open and simultaneously let out fire and water fountain shows at night.</p><p>The Bà Nà Hills is one of the most distinctive attractions in Da Nang, it is a mountain resort which has a cable car where it takes tourists outside the cable car and offers them a view of the area. The resort itself is composed of French styled structures and tapestries accompanied by eye pleasing gardens, making a break away from the real world feel and look like a dream.</p><p>Hanoi is among the most important political and economic hubs of Vietnam and represents the history and culture of the country as the capital city. Interesting special features include The Old Quarter featuring a maze-like network of narrow streets together with ancient structures. Here you can stroll through the bazaars, try the local cuisine – the taste of which is drastically different from the European one; and feel the vibe of the city.</p><p>It is also the largest city in Vietnam that possesses some of the world heritage sites; Thang Long Imperial Citadel 11th century Temple of Literature; a temple of literature that is famous for the education of Confucius learners.</p><p>Book your <a href="/trip/vietnam" style="color:blue;">Vietnam Tour Package</a> with Travel Wisdom and enjoy the solitude, adventure, natural beauty and a lot more in this exciting Vietnam trip.</p><h3>Best Places To Visit in Vietnam- Danang Hanoi 6 Days Trip</h3><ul><li><strong>Ba Na Hills:</strong> Known as one of the world’s most famous hotels, this 5-Oscar establishment is situated on a hill. Visit the beautiful place of Giant wheel cable car, French like buildings, Gardens and even the kind of adventure you want.</li><li><strong>Non Nuoc Beach:</strong> This particular beach is famous for its white sand as well as the sea as clear as the glass. Take a rest at the beach, be active with some water activities or just sunbathe and admire the scenery of the Marble Mountains.</li><li><strong>Dragon Bridge:</strong> Dragon Bridge situated in Da Nang is one of the wonderful wonders of the modern world. It gets even better at night when the engines deliver a fire and water breathing show, making it one of the best places to be.</li><li><strong>Marble Mountains:</strong> These five marble and limestone hills are the places that provide the visitors with the possibilities to visit the Buddhist sanctuaries, caves or to enjoy the beautiful views to Da Nang.</li><li><strong>Hai Van Pass:</strong> <a href="https://en.wikipedia.org/wiki/H%E1%BA%A3i_V%C3%A2n_Pass" style="color:blue;" target="_blank" rel="noopener noreferrer">Hai Van Pass</a> is an amazing twisty dusty mountainous terrain that runs along the coast of the eastern sea with excellent views of the sea and the mountains.</li><li><strong>Old Quarter:</strong> Take a walk through the Old Quarter of Hanoi and relive the newly awakened historians years experiencing the numerous narrow streets filled with antique buildings and life-filled markets. This will enable the participant to enjoy the rich culture of the street foods while at the same time getting an awesome feel of the energy in the city.</li><li><strong>Hoan Kiem Lake and Ngoc Son Temple:</strong> This splendid park located in the midst of the bustle and hustle of Hanoi is loved by the citizens of the city as well as tourists. Ngoc Son Temple is one of the most famous ones, being a pretty and historic pagoda on a small island in the lake.</li><li><strong>Imperial Citadel of Thang Long:</strong> This is another great site recognized by UNESCO and it gives a raw imperial heritage of Vietnam hence established in the 11th century. Discover historical sites, including the fortifications of the ancient citadel and study its importance.</li><li><strong>Temple of Literature:</strong> Situated in the Hanoi city and designed exclusively for such scholars along with education, this monumental temple evokes the essence of academic values beloved by Vietnam. Visit the old and charming courtyards and gardens within the Sitio.</li><li><strong>Ho Chi Minh Mausoleum:</strong> Visit the bust of this highly honored leader of Vietnam and also view the Palace of Presidency and beautifully landscaped grounds.</li></ul><h3>Things to do in 6 Days Danang Hanoi Tour</h3><ul><li><strong>Admire the Lady Buddha:</strong> Take a trip to the popular, recently constructed Linh Ung Pagoda with this massive Lady Buddha statue, measuring 67 meters tall, second only to a statue in Thailand.</li><li><strong>Learn to Cook Vietnamese Cuisine:</strong> Attend a Vietnamese cookery course and discover the secrets for preparing the exquisite Vietnamese food such as Banh Xeo (Vietnamese pancakes) and Goi Cuon (Vietnam spring rolls).</li><li><strong>Enjoy a Picnic at Son Tra Peninsula:</strong> Take your lunch box along and have a good time on moving round Son Tra Peninsula included with intense green forest, sandy beaches, minor trekkings eliciting beautiful sea views.</li><li><strong>Visit the Cham Museum:</strong> Those interested in the history of the early civilization should come and visit the Cham Museum holding the superior sculpture and artifacts.</li><li><strong>Go on a Countryside Tour:</strong> Tame the hustle of city life and discover the true beauty of Da Nang with traditional village tours, rice paddies tours and local market tours.</li><li><strong>Attend a Traditional Water Puppet Performance:</strong> The Thang Long Water Puppet Theater is a must visit attraction which presents an extraordinary art of water puppetry originally performed in Vietnam since the 11th century.</li><li><strong>Explore the Temple of Literature:</strong> From these stilted structures and grand archways to the lush greens you can explore today, it used to be the preserve of Confucian scholars and the first university in Vietnam.</li><li><strong>Visit Ho Chi Minh\'s Stilt House:</strong> Visit the modest stilt house that was home to Ho Chi Minh and had his office during his days of revolution and transformation of Vietnam.</li><li><strong>Shop at Dong Xuan Market:</strong> Discover the lively environment of the Hanoi Orchid Hotel and Restaurant, now the largest building and most extensive roofed market in the capital.</li><li><strong>Take a Day Trip to Ninh Binh:</strong> Depart from Hanoi to discover the beauty of sub-region of Ninh Binh, the Halong Bay on the land because of the many limestone mountains and the old capital of Hoa Lu.</li></ul><h3>How to Reach Vietnam- Danang Hanoi</h3><p>The two cities in Vietnam, Da Nang and the capital city of Hanoi are not very far from India and are some of the most beautiful destinations in the world. Conveniently located near major Indian cities including Delhi, Mumbai, Bangalore Air India has direct flight connectivity on Da Nang and Hanoi. Or have connecting flights which are relatively easier to find using airline alliances to places like Singapore, Bangkok or Kuala [Lum pir]. The journey from India, approximately 5-7 hours, offers an opportunity to dive into the history, and beauty of Vietnam, embraced between modern mega cities and peaceful nature.</p><h3>Best Time to Visit Vietnam- Danang Hanoi</h3><ul><li><strong>Winter (December to February):</strong> While in winter, the weather in Hanoi is relatively cool and dry and therefore perfect to go sightseeing, Da Nang, on the other hand, has favorable weather since it is dry with many sunny days, and therefore perfect for beach and outdoor activities.</li><li><strong>Spring (March to May):</strong> Despite the fact that Vietnam has a tropical climate, it is most favorable in the spring since its temperature is not very high and the humidity level is low in both cities. This is perfect for sightseeing around Hanoi city and, of course, sunny vacations in Danang.</li><li><strong>Summer (June to August):</strong> In terms of the weather, summer is characterized by equally high temperatures as well as high humidity levels in Hanoi; Da Nang, on the other hand, becomes hot and receives much more rain meaning while tourists are few, the beaches are not very friendly.</li><li><strong>Autumn (September to November):</strong> Weather is much better in the fall, that falls in September-December, with relatively low humidity level and plenty of sunshine, perfect for outdoor activities and fiestas, and beaches though most people may consider Da Nang good for beaches all year round.</li></ul>', // From HTML
-    itinerary: [ // From HTML i_data, adjusted day numbering, formatted lists
-      {
-        day: 1, // Changed Day 0 to Day 1
-        title: 'Journey Begins | Hanoi Arrival',
-        description: '<ul><li>With excitement and happiness on your face, jump into your flight for Vietnam and say goodbye to India.</li><li>After landing in Vietnam and clearing immigration (we’ll help you our dear traveler), drive towards your hotel. Check-in to your hotel and have some leisure.</li><li>Explore the vibrant street &amp; night life of Hanoi</li><li>We will help you with customized live suggestions for the best city experience Overnight rest at hotel.</li></ul>'
-      },
-      {
-        day: 2, // Changed Day 1 to Day 2
-        title: 'Ninh Binh Day Trip',
-        description: '<ul><li>Breakfast at hotel</li><li>You will have a smooth pick-up from your Hà Nội hotel at 07:30 Hrs</li><li>Start your Ninh Binh trip (90km to the south of Hà Nội) witha 20 min pit stop</li><li>Arrive at the architecturally unique temples of the Dynasties of Dinh King and Le King</li><li>Have lunch at a local restaurant</li><li>Board the sampan boats in Tam Coc dock to drift down the river along with the villages, mountains, and lush rice fields.</li><li>Continue boating in Tam Coc which has unique beauty, often compared with the beauty of Ha Long Bay. Experience the village by cycling, and click instagram worthy pictures after climbing the 500 stone steps to witness the panaromic view of the countryside</li><li>You will dropped back at your Hà Nội hotel at 18:00 Hrs</li><li>Overnight stay at hotel</li></ul>'
-      },
-      {
-        day: 3, // Changed Day 2 to Day 3
-        title: 'Fly to Da Nang | Exploration',
-        description: '<ul><li>Breakfast at Hotel</li><li>Before the flight, you may have free time to finish any last-minute shopping or visit something that you missed Your private chauffeur will pick-up up from your Hà Nội hotel as per the flight timing</li><li>Drop at Hà Nội airport</li><li>Flight from Hà Nội to Đà Nẵng</li><li>Land at Đà Nẵng</li><li>After luggage collection, exit towards the gate.</li><li>Your private chauffeur will be waiting for you at the Arrival gate</li><li>Check-in (as per hotel check-in time )</li><li>Walk to My Khe beach for dinner and to chill by beach</li><li>We will help you with customized live suggestions for the best city experience</li><li>Overnight rest at Hotel.</li></ul>'
-      },
-      {
-        day: 4, // Changed Day 3 to Day 4
-        title: 'Hoi An Ancient Town',
-        description: '<ul><li>Breakfast at Hotel</li><li>The day is at leisure to explore the beach right across your hotel</li><li>15:00 Hrs : Pick up from hotel in Da Nang</li><li>Visit Ngu Hanh Sơn also known as Marble Mountain.</li><li>Visit Tam Thai Pagoda, Linh Ung Pagoda.</li><li>Start your journey towards Hoi An Ancient town,</li><li>Cover Japanese Bridge: This only remains of Japanese culture is now considered as a symbol of Hoi An. Taking a walk along the Hoai River</li><li>Enjoy lantern boat ride</li><li>Enjoy the night life of Hội An Town with many beautiful cafes and coffees.</li><li>You will dropped back at your Da Nang hotel at 20:00 Hrs</li><li>Overnight rest at Hotel.</li></ul>'
-      },
-      {
-        day: 5, // Changed Day 4 to Day 5
-        title: 'Ba Na Hills | Golden Hand Bridge',
-        description: '<ul><li>Breakfast at Hotel</li><li>8:00 Hrs: Private car transfer from Da Nang to Ba Na Hill</li><li>Pay for an entry ticket directly there</li><li>9:00 Hrs to 17:00 Hrs: Explore Ba NaHill by Self (Over 12 Spots) Golden Hands Bridge, Mountain Cable Car, Furnacular &amp; More</li><li>17:00 Hrs: Private car transfer from Ba NaHill to Da Nang</li><li>You will dropped back at your Da Nanghotel at 18:00 Hrs Overnight rest at Hotel.</li></ul>'
-      },
-      {
-        day: 6, // Changed Day 5 to Day 6
-        title: 'Goodbye Vietnam',
-        description: '<ul><li>Wake up early in the morning and It’s time to say goodbye to a lovely Vietnam trip.</li><li>Drive towards the airport and board your flight back to India with a heart full of numerous memories, fun amazing experiences and new bonds.</li></ul>'
-      }
-    ],
-    inclusions: [ // Extracted as string[] from HTML
-        'All Stay for 5 Nights in Vietnam.',
-        'All Internal Flight',
-        'All Airport Transfers.',
-        'All transfers as mentioned in the Itinerary',
-        'Fun Social/Private Trips as per itinerary',
-        'All toll taxes, parking fee and other charges',
-        '5 x Full Course Breakfast and 1 special dining experience',
-        'International Sim card with data',
-        'Forex Card',
-        'Visa assistance and other documents associated with the Visa/Immigration Legendary Travel Wisdom assistance & Support'
-    ],
-    exclusions: [ // Extracted as string[] from HTML
-        'Any kind of personal expenses.',
-        'Anything (Meals, Transport & Services) that are not mentioned in the above ‘Inclusions’ section.',
-        'Museum/Monument entry fee/City Tax.',
-        'Visa fee for Vietnam needs to be paid directly at Immigration $ 25.',
-        'Travel Insurance.',
-        '5% GST & 5% TCS (TCS can be claimed in full in your ITR)'
     ],
   },
   {
@@ -13362,7 +13277,7 @@ export const allTrips: Trip[] = [
     title: 'Gems of Vietnam - Couple Exclusive', // From HTML
     destination: 'Vietnam',
     duration: '7 Days 6 Nights', // From HTML
-    price: 'Customization Available', // Price is null/0 in HTML, keeping placeholder
+    price: '₹70000', // Price is null/0 in HTML, keeping placeholder
     imageUrl: '/cloned_media/40202220250527130511.png', // From HTML
     gallery: [ // From HTML gallary array
       '/cloned_media/39118420250527130511.png',
@@ -13435,7 +13350,7 @@ export const allTrips: Trip[] = [
     title: 'Romantic Vietnam Vacation', // From HTML
     destination: 'Vietnam',
     duration: '8 Days 7 Nights', // From HTML
-    price: 'Customization Available', // From original slug (HTML price is null)
+    price: '₹65000', // From original slug (HTML price is null)
     imageUrl: '/cloned_media/28216720250527114658.png', // From HTML
     gallery: [ // From HTML gallary array
       '/cloned_media/38696220250527114657.png',
@@ -13503,85 +13418,6 @@ export const allTrips: Trip[] = [
       'Guide & Entrance fees not specified in inclusions.',
       'Any personal expenses (tips, laundry, drinks, etc.).',
       'Travel Insurance and costs from natural calamities, roadblocks, etc.',
-      'Tourism Fee/Security Deposit payable at hotel.',
-      'Anything not mentioned in the inclusions.',
-      'GST (5%) applicable extra.',
-      '5% TCS applicable extra (claimable while filing ITR).'
-    ],
-  },
-  {
-    slug: 'romantic-vietnam-vacation',
-    title: 'Romantic Vietnam Vacation', // From HTML
-    destination: 'Vietnam',
-    duration: '8 Days 7 Nights', // From HTML
-    price: 'Customization Available', // Price in HTML is '0'
-    imageUrl: '/cloned_media/28216720250527114658.png', // From HTML
-    gallery: [ // From HTML gallary array
-      '/cloned_media/38696220250527114657.png',
-      '/cloned_media/14564120250527114657.png',
-      '/cloned_media/25709620250527114657.png',
-      '/cloned_media/3314620250527114658.png',
-      '/cloned_media/34599620250527114658.png',
-      '/cloned_media/12106320250527114658.png'
-    ],
-    overview: 'An 8-day romantic vacation designed for couples, balancing leisure, culture, and stunning scenery.', // Kept placeholder as HTML description was null
-    itinerary: [ // From HTML i_data, formatted with HTML lists
-      {
-        day: 1,
-        title: 'Arrival in Hanoi | Leisure Day',
-        description: '<ul><li>With excitement and happiness on your face, jump into your flight for Vietnam and say goodbye to India.</li><li>After landing in Hanoi you will meet our representative. After clearing out all formalities, get driven towards your hotel. Check-in to your comfy hotel and have some leisure</li><li>On this day we will not follow a set itinerary.</li><li>You can visit 87 Ma May Street, where you will witness Hanoi’s architectural heritage.</li><li>Return back to your hotel for an overnight stay.</li></ul>'
-      },
-      {
-        day: 2,
-        title: 'Transfer to Halong Bay | Overnight Cruise',
-        description: '<ul><li>Wake up in the morning and post a delightful breakfast, prepare to check-out from your hotel and board your cruise from Tuan Chau Harbour.&nbsp;</li><li>Explore Ti Top Island, visit the Pearl Farm Village, and enjoy water activities like kayaking and swimming.</li><li>Learn the culinary secrets of Vietnamese cuisine with an onboard cooking class.</li><li>End your adventurous day with an overnight stay at the cruise, surrounded by the beauty of Halong Bay.</li></ul>'
-      },
-      {
-        day: 3,
-        title: 'Transfer to Hanoi | Leisure Day',
-        description: '<ul><li>Wake up in the morning and post a delightful breakfast, get ready for a rejuvenating Tai Chi lesson on the cruise and later a visit to the enchanting Floating Village.</li><li>Deboard the cruise and get transferred to Hanoi. Check-in at the hotel.</li><li>On this day, we will not follow a set itinerary.</li><li>You can explore the city’s main attraction on your own, such as visiting the Ho Chi Minh Mausoleum, or go on a shopping spree in Dong Xuan Market.</li><li>Return back to your hotel in Hanoi for an overnight stay.</li></ul>'
-      },
-      {
-        day: 4,
-        title: 'Hanoi Sightseeing Tour | Transfer to Da Nang',
-        description: '<ul><li>Wake up in the morning and post a delightful breakfast, get ready for a Hanoi sightseeing tour.&nbsp;</li><li>Check out from your hotel and board your pre-booked transfer.&nbsp;</li><li>Explore famous attractions like One Pillar Pagoda, Chua Tran Quoc, Old Quarter, and Huc Bridge.</li><li>After the sightseeing tour, get transferred to Noi Bai International Airport for your flight to Da Nang.</li><li>Upon arrival, get transferred to your hotel, check-in for an overnight stay in Da Nang.</li></ul>'
-      },
-      {
-        day: 5,
-        title: 'Excursion to Ba Na Hills',
-        description: '<ul><li>Wake up in the morning and post a delightful breakfast, prepare to embark on a thrilling day trip to Ba Na Hills.&nbsp;</li><li>Get transferred to Suoi Mo Station to enjoy a cable car ride to the summit.</li><li>Head to the Linh Ung Pagoda and witness panoramic views of the South China Sea from there, also discover the secrets of winemaking at the Debay Wine Cellar and experience thrilling rides in Fantasy Park.</li><li>Later, visit the iconic Golden Hand Bridge and capture some #InstaPerfect pictures.</li><li>Return from your hotel for an overnight stay.</li></ul>'
-      },
-      {
-        day: 6,
-        title: 'Transfer to Hoi An | Transfer to Ho Chi Minh',
-        description: '<ul><li>Wake up in the morning and post a delightful breakfast, prepare to check out from your hotel in Da Nang and get driven to the charming town of Hoi An.</li><li>Visit iconic attractions like the Japanese Covered Bridge, the Assembly Hall of Fujian Chinese, and the Museum of Sa Huynh Culture.</li><li>Later, get driven to Da Nang International Airport for your onward flight to Ho Chi Minh City.</li><li>Upon arrival, get transferred to your hotel, check-in for an overnight stay in Ho Chi Minh City.</li></ul>'
-      },
-      {
-        day: 7,
-        title: 'Ho Chi Minh City Tour with Cu Chi Tunnels',
-        description: '<ul><li>Wake up in the morning and post a delightful breakfast, head out to explore Cu Chi Tunnels, an underground network which played an important role in the Vietnam War.</li><li>Continue the Ho Chi Minh sightseeing tour and visit the Reunification Palace and the War Remnants Museum.</li><li>Later, witness the iconic Saigon Central Post Office, a masterpiece of French colonial architecture.</li><li>Return back to your hotel for an overnight stay.</li></ul>'
-      },
-      {
-        day: 8,
-        title: 'Goodbye Vietnam | Trip Ends',
-        description: '<ul><li>It is time to say goodbye to a lovely Vietnam trip. Post a delightful breakfast, pack your bags and complete check-in formalities.</li><li>Board your flight back to India with a bag full of heartfelt memories and amazing experiences.</li></ul>'
-      }
-    ],
-    inclusions: [ // Extracted as string[] from HTML
-      'Internal Flights: Flights included from Hanoi to Da Nang & Da Nang to Ho Chi Minh City.',
-      'Surface Transfers: All airport pick ups & drops and sightseeing transfers as per the itinerary.',
-      'Meals: 10 meals for the entire trip (7 Breakfasts, 1 Lunch, 1 Dinner, 1 unspecified Lunch/Dinner).', // 2 HNI-B, 1 HB-B, 1 HB-L/D, 2 DAN-B, 2 HCM-B
-      'Accommodations: 7 nights stay (3 Hanoi, 1 Halong Bay, 2 Da Nang, 2 Ho Chi Minh).', // 1+1 HNI, 1 HB, 2 DAN, 2 HCM
-      'Sightseeing Tours & Entry Tickets: Halong Bay Overnight Cruise, Hanoi City Tour, Ba Na Hills & Golden Bridge, Hoi An Walking Tour, Cu Chi Tunnel Tour, Ho Chi Minh City Tour.', // Cleaned duplicates
-      'VISA Assistance: Professional visa assistance is provided by experts.'
-    ],
-    exclusions: [ // Extracted as string[] from HTML
-      'Any International Flights.',
-      'Meals that are not mentioned in the program or inclusions.',
-      'Early check-in and late check-out. Hotel or Room upgrade.',
-      'Guide & Entrance fees not specified in inclusions.',
-      'Any personal expenses (tips, laundry, drinks, etc.).',
-      'Travel Insurance and any cost arising due to natural calamities, roadblock, etc.',
       'Tourism Fee/Security Deposit payable at hotel.',
       'Anything not mentioned in the inclusions.',
       'GST (5%) applicable extra.',
