@@ -13,6 +13,9 @@ const createSlug = (text: string) => {
   return text.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-');
 };
 
+const dropdownContentClasses = 
+  "w-[220px] data-[state=open]:animate-in data-[state=closed]:animate-out data-[side=bottom]:slide-in-from-top-1 data-[side=top]:slide-in-from-bottom-1 duration-200 fade-in-0";
+
 const Header = () => {
   const [isUpcomingOpen, setIsUpcomingOpen] = React.useState(false);
   const [isDomesticOpen, setIsDomesticOpen] = React.useState(false);
@@ -118,14 +121,14 @@ const Header = () => {
               onMouseEnter={() => setIsUpcomingOpen(true)}
               onMouseLeave={() => setIsUpcomingOpen(false)}
             >
-              <DropdownMenu open={isUpcomingOpen}>
+              <DropdownMenu open={isUpcomingOpen} modal={false}>
                 <DropdownMenuTrigger asChild>
                   <Link to="/upcoming-group-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Upcoming Group Trips</span>
                     <ChevronDown className="h-4 w-4" />
                   </Link>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className="w-[220px]">
+                <DropdownMenuContent className={dropdownContentClasses}>
                   {upcomingTrips.map((month) => (
                     <DropdownMenuItem key={month} asChild>
                       <Link to={`/upcoming-group-trips?month=${encodeURIComponent(month)}`} className="flex justify-center w-full">
@@ -142,14 +145,14 @@ const Header = () => {
               onMouseEnter={() => setIsDomesticOpen(true)}
               onMouseLeave={() => setIsDomesticOpen(false)}
             >
-              <DropdownMenu open={isDomesticOpen}>
+              <DropdownMenu open={isDomesticOpen} modal={false}>
                 <DropdownMenuTrigger asChild>
                   <Link to="/domestic-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Domestic Trips</span>
                     <ChevronDown className="h-4 w-4" />
                   </Link>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className="w-[220px]">
+                <DropdownMenuContent className={dropdownContentClasses}>
                   {domesticTrips.map((place) => (
                     <DropdownMenuItem key={place.name} asChild>
                       <Link to={place.path} className="flex justify-center w-full">
@@ -166,14 +169,14 @@ const Header = () => {
               onMouseEnter={() => setIsWeekendOpen(true)}
               onMouseLeave={() => setIsWeekendOpen(false)}
             >
-              <DropdownMenu open={isWeekendOpen}>
+              <DropdownMenu open={isWeekendOpen} modal={false}>
                 <DropdownMenuTrigger asChild>
                   <Link to="/weekend-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Weekend Trips</span>
                     <ChevronDown className="h-4 w-4" />
                   </Link>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className="w-[220px]">
+                <DropdownMenuContent className={dropdownContentClasses}>
                   {weekendTripsList.map((trip) => (
                     <DropdownMenuItem key={trip.name} asChild>
                       <Link to={trip.path} className="flex justify-center w-full text-center">
@@ -190,14 +193,14 @@ const Header = () => {
               onMouseEnter={() => setIsBackpackingOpen(true)}
               onMouseLeave={() => setIsBackpackingOpen(false)}
             >
-              <DropdownMenu open={isBackpackingOpen}>
+              <DropdownMenu open={isBackpackingOpen} modal={false}>
                 <DropdownMenuTrigger asChild>
                   <Link to="/backpacking-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Backpacking Trips</span>
                     <ChevronDown className="h-4 w-4" />
                   </Link>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className="w-[220px]">
+                <DropdownMenuContent className={dropdownContentClasses}>
                   {backpackingTripsList.map((trip) => (
                     <DropdownMenuItem key={trip.name} asChild>
                       <Link to={trip.path} className="flex justify-center w-full text-center">
@@ -214,14 +217,14 @@ const Header = () => {
               onMouseEnter={() => setIsInternationalOpen(true)}
               onMouseLeave={() => setIsInternationalOpen(false)}
             >
-              <DropdownMenu open={isInternationalOpen}>
+              <DropdownMenu open={isInternationalOpen} modal={false}>
                 <DropdownMenuTrigger asChild>
                   <Link to="/international-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>International Trips</span>
                     <ChevronDown className="h-4 w-4" />
                   </Link>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className="w-[220px]">
+                <DropdownMenuContent className={dropdownContentClasses}>
                   {internationalTripsList.map((trip) => (
                     <DropdownMenuItem key={trip.name} asChild>
                       <Link to={trip.path} className="w-full flex justify-center">
