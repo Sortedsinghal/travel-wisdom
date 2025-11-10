@@ -1,32 +1,37 @@
 // Utility functions for media optimization
 
 export const preloadCriticalResources = () => {
-  // Preload critical images after initial page load
-  const criticalImages = [
-    '/travel-wisdom-logo.png',
-    '/customer-service.png',
-    '/message_icon.png',
-    '/travelers.png',
-    '/destinations.png',
-    '/experience.png'
-  ];
+  // Delay prefetch to avoid blocking initial render
+  setTimeout(() => {
+    const criticalImages = [
+      '/message_icon.png',
+      '/travelers.png', 
+      '/destinations.png',
+      '/experience.png'
+    ];
 
-  criticalImages.forEach(src => {
-    const link = document.createElement('link');
-    link.rel = 'preload';
-    link.as = 'image';
-    link.href = src;
-    document.head.appendChild(link);
-  });
+    criticalImages.forEach(src => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, 2000);
 };
 
 export const prefetchNextPageResources = (urls: string[]) => {
-  urls.forEach(url => {
-    const link = document.createElement('link');
-    link.rel = 'prefetch';
-    link.href = url;
-    document.head.appendChild(link);
-  });
+  const callback = () => {
+    urls.forEach(url => {
+      const link = document.createElement('link');
+      link.rel = 'prefetch';
+      link.href = url;
+      document.head.appendChild(link);
+    });
+  };
+  
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(callback);
+  } else {
+    setTimeout(callback, 100);
+  }
 };
 
 export const optimizeVideoLoading = (videoElement: HTMLVideoElement) => {

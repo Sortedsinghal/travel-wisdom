@@ -192,7 +192,7 @@ const Hero = () => {
             }}
             src={video}
             muted
-            preload={index === 0 ? "auto" : index === 1 ? "metadata" : "none"}
+preload="metadata"
             playsInline
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
               index === currentVideoIndex ? 'opacity-100' : 'opacity-0'
