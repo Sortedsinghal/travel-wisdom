@@ -106,8 +106,8 @@ By combining her experience in the travel industry and her passion for exploring
           </div>
         </div>
       </section>
-      {/* Life at Travel Wisdom Section */}
-      <section className="py-12">
+{/* Life at Travel Wisdom Section - 5 Image Grid */}
+<section className="py-12">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center w-full mb-12">
             <h2 className="font-poppins text-3xl font-semibold capitalize text-black text-center">
@@ -115,116 +115,50 @@ By combining her experience in the travel industry and her passion for exploring
             </h2>
           </div>
 
-          {/* Desktop Grid */}
-          <div className="hidden xl:block py-12">
-            <div className="grid grid-cols-12 gap-4">
-              <div className="col-span-2">
-                <img 
-                  alt="party" 
-                  className="rounded-lg w-full h-full object-cover" 
-                  src="/cloned_media/IMG_1062.jpg" 
-                />
-              </div>
-              <div className="col-span-6">
-                <div className="grid grid-cols-4 gap-4 mb-4">
-                  <div className="col-span-3">
-                    <img 
-                      alt="grid_6" 
-                      className="rounded-lg w-full h-56 object-cover" 
-                      src="/cloned_media/gallery-02.webp" 
-                    />
-                  </div>
-                  <div className="col-span-1">
-                    <img 
-                      alt="grid_2" 
-                      className="rounded-lg w-full h-56 object-cover" 
-                      src="/cloned_media/1729176641565-9.jpg" 
-                    />
-                  </div>
-                </div>
-                <div className="grid grid-cols-3 gap-4">
-                  <div>
-                    <img 
-                      alt="grid_5" 
-                      className="rounded-lg w-full h-48 object-cover" 
-                      src="/cloned_media/IMG_5134.jpg" 
-                    />
-                  </div>
-                  <div>
-                    <img 
-                      alt="grid_4" 
-                      className="rounded-lg w-full h-48 object-cover" 
-                      src="/cloned_media/3A5A0899.jpg" 
-                    />
-                  </div>
-                  <div>
-                    <img 
-                      alt="grid_1" 
-                      className="rounded-lg w-full h-48 object-cover" 
-                      src="/cloned_media/IMG_1200.jpg" 
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="col-span-4">
-                <img 
-                  alt="grid_3" 
-                  className="rounded-lg w-full h-full object-cover" 
-                  src="/cloned_media/1747116983507.jpg" 
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Mobile Grid */}
-          <div className="grid grid-cols-2 gap-4 xl:hidden">
-            <div>
+          {/* 5-Image Responsive Grid */}
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 auto-rows-fr">
+            {/* Image 1: Takes full width on small screens, half on medium, and a single column on large/xl */}
+            <div className="sm:col-span-2 lg:col-span-1">
               <img 
                 alt="party" 
-                className="rounded-lg w-full h-48 object-cover" 
-                src="/cloned_media/IMG_1062.jpg" 
+                className="rounded-lg w-full h-full object-cover min-h-[200px]" 
+                src="/Life1.jpeg" 
               />
             </div>
-            <div>
+            
+            {/* Image 2: Standard size, takes one column */}
+            <div className="lg:col-span-1">
               <img 
                 alt="grid_6" 
-                className="rounded-lg w-full h-48 object-cover" 
-                src="/cloned_media/IMG_20250320_162620.jpg" 
+                className="rounded-lg w-full h-full object-cover min-h-[200px]" 
+                src="/Life2.jpeg" 
               />
             </div>
-            <div>
-              <img 
-                alt="grid_5" 
-                className="rounded-lg w-full h-48 object-cover" 
-                src="/cloned_media/1729176641565-9.jpg" 
-              />
-            </div>
-            <div>
-              <img 
-                alt="grid_4" 
-                className="rounded-lg w-full h-48 object-cover" 
-                src="/cloned_media/IMG_5134.jpg" 
-              />
-            </div>
-            <div>
-              <img 
-                alt="grid_3" 
-                className="rounded-lg w-full h-48 object-cover" 
-                src="/cloned_media/3A5A0899.jpg" 
-              />
-            </div>
-            <div>
+
+            {/* Image 3: Standard size, takes one column */}
+            <div className="lg:col-span-1">
               <img 
                 alt="grid_2" 
-                className="rounded-lg w-full h-48 object-cover" 
-                src="/cloned_media/IMG_1200.jpg" 
+                className="rounded-lg w-full h-full object-cover min-h-[200px]" 
+                src="/Life3.jpeg" 
               />
             </div>
-            <div className="col-span-2">
+            
+            {/* Image 4: Standard size, takes one column */}
+            <div className="lg:col-span-1">
               <img 
-                alt="grid_1" 
-                className="rounded-lg w-full h-48 object-cover" 
-                src="/cloned_media/1747116983507.jpg" 
+                alt="grid_5" 
+                className="rounded-lg w-full h-full object-cover min-h-[200px]" 
+                src="/Life4.jpeg" 
+              />
+            </div>
+            
+            {/* Image 5: Takes full width on small screens, half on medium, and a single column on large/xl (to complete the 5-image row) */}
+            <div className="sm:col-span-2 lg:col-span-1">
+              <img 
+                alt="grid_4" 
+                className="rounded-lg w-full h-full object-cover min-h-[200px]" 
+                src="/Life5.jpeg" 
               />
             </div>
           </div>
