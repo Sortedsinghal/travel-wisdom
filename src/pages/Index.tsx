@@ -8,8 +8,7 @@ import HowToPlanTrip from "@/components/HowToPlanTrip";
 import CollaborationsSlider from '@/components/CollaborationsSlider';
 import FeaturedTrips from "@/components/FeaturedTrips";
 import { Bed, Airplay, Mountain, Users, ThumbsUp, CreditCard, UserCheck } from 'lucide-react';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+
 
 // Data for the featured Himachal trips section
 const himachalTrips = [
