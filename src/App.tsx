@@ -58,13 +58,11 @@ const App = () => {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
+    preloadCriticalResources();
+
     const timer = setTimeout(() => {
       setShowPopup(true);
     }, 2000);
-
-
-
-
 
     return () => clearTimeout(timer);
   }, []);
