@@ -16,6 +16,7 @@ export interface Trip {
   originalPrice?: string;
   discount?: string;
   imageUrl: string;
+  category?: string; // <-- ADDED THIS
   
   // --- NEW: Data for Trip Detail Page ---
   overview: string;

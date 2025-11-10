@@ -35,6 +35,7 @@ const Hero = () => {
   const recognitionRef = useRef<any>(null); // eslint-disable-line @typescript-eslint/no-explicit-any
   const currentTabRef = useRef<string>("tripPackages"); // To store activeTab at voice start
   const videoRefs = useRef<HTMLVideoElement[]>([]);
+  const [videosLoaded, setVideosLoaded] = useState<boolean[]>(new Array(videos.length).fill(false));
 
   const texts = [
     "Unforgettable Journeys",
@@ -70,7 +71,19 @@ const Hero = () => {
     const currentVideo = videoRefs.current[currentVideoIndex];
     if (currentVideo) {
       currentVideo.currentTime = 0;
-      currentVideo.play();
+      const playPromise = currentVideo.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+          // Auto-play was prevented, which is fine
+        });
+      }
+    }
+    
+    // Preload next video
+    const nextIndex = (currentVideoIndex + 1) % videos.length;
+    const nextVideo = videoRefs.current[nextIndex];
+    if (nextVideo && nextVideo.readyState < 2) {
+      nextVideo.load();
     }
   }, [currentVideoIndex]);
 
@@ -179,10 +192,17 @@ const Hero = () => {
             }}
             src={video}
             muted
-            preload="auto"
+            preload={index === 0 ? "auto" : index === 1 ? "metadata" : "none"}
+            playsInline
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
               index === currentVideoIndex ? 'opacity-100' : 'opacity-0'
             }`}
+            onLoadStart={() => {
+              // Video started loading
+            }}
+            onCanPlay={() => {
+              // Video can start playing
+            }}
           />
         ))}
 

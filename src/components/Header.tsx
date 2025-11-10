@@ -20,31 +20,6 @@ const Header = () => {
   const [isBackpackingOpen, setIsBackpackingOpen] = React.useState(false);
   const [isInternationalOpen, setIsInternationalOpen] = React.useState(false);
 
-  const closeTimeoutRef = React.useRef<NodeJS.Timeout | null>(null);
-
-  const closeAllDropdowns = () => {
-    setIsUpcomingOpen(false);
-    setIsDomesticOpen(false);
-    setIsWeekendOpen(false);
-    setIsBackpackingOpen(false);
-    setIsInternationalOpen(false);
-  };
-
-  const handleMouseEnter = (setter: React.Dispatch<React.SetStateAction<boolean>>) => {
-    if (closeTimeoutRef.current) {
-      clearTimeout(closeTimeoutRef.current);
-      closeTimeoutRef.current = null;
-    }
-    closeAllDropdowns();
-    setter(true);
-  };
-
-  const handleMouseLeave = (setter: React.Dispatch<React.SetStateAction<boolean>>) => {
-    closeTimeoutRef.current = setTimeout(() => {
-      setter(false);
-    }, 150);
-  };
-
   const upcomingTrips = [
     "October 2025",
     "November 2025",
@@ -99,6 +74,8 @@ const Header = () => {
                 src={NewCircleLogo}
                 alt="Travel Wisdom Circle"
                 className="w-16 h-14 rounded-full mr-2.5 object-contain"
+                loading="eager"
+                decoding="async"
               />
               <span className="text-2xl font-black text-[#000000]" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: '900' }}>
                 Travel Wisdom
@@ -138,10 +115,10 @@ const Header = () => {
           <nav className="flex items-center justify-center gap-8 py-4">
             {/* Upcoming Group Trips Dropdown */}
             <div 
-              onMouseEnter={() => handleMouseEnter(setIsUpcomingOpen)}
-              onMouseLeave={() => handleMouseLeave(setIsUpcomingOpen)}
+              onMouseEnter={() => setIsUpcomingOpen(true)}
+              onMouseLeave={() => setIsUpcomingOpen(false)}
             >
-              <DropdownMenu open={isUpcomingOpen} onOpenChange={setIsUpcomingOpen}>
+              <DropdownMenu open={isUpcomingOpen}>
                 <DropdownMenuTrigger asChild>
                   <Link to="/upcoming-group-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Upcoming Group Trips</span>
@@ -162,10 +139,10 @@ const Header = () => {
 
             {/* Domestic Trips Dropdown */}
             <div 
-              onMouseEnter={() => handleMouseEnter(setIsDomesticOpen)}
-              onMouseLeave={() => handleMouseLeave(setIsDomesticOpen)}
+              onMouseEnter={() => setIsDomesticOpen(true)}
+              onMouseLeave={() => setIsDomesticOpen(false)}
             >
-              <DropdownMenu open={isDomesticOpen} onOpenChange={setIsDomesticOpen}>
+              <DropdownMenu open={isDomesticOpen}>
                 <DropdownMenuTrigger asChild>
                   <Link to="/domestic-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Domestic Trips</span>
@@ -186,10 +163,10 @@ const Header = () => {
 
             {/* Weekend Trips Dropdown */}
             <div 
-              onMouseEnter={() => handleMouseEnter(setIsWeekendOpen)}
-              onMouseLeave={() => handleMouseLeave(setIsWeekendOpen)}
+              onMouseEnter={() => setIsWeekendOpen(true)}
+              onMouseLeave={() => setIsWeekendOpen(false)}
             >
-              <DropdownMenu open={isWeekendOpen} onOpenChange={setIsWeekendOpen}>
+              <DropdownMenu open={isWeekendOpen}>
                 <DropdownMenuTrigger asChild>
                   <Link to="/weekend-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Weekend Trips</span>
@@ -210,10 +187,10 @@ const Header = () => {
 
             {/* Backpacking Trips Dropdown */}
             <div 
-              onMouseEnter={() => handleMouseEnter(setIsBackpackingOpen)}
-              onMouseLeave={() => handleMouseLeave(setIsBackpackingOpen)}
+              onMouseEnter={() => setIsBackpackingOpen(true)}
+              onMouseLeave={() => setIsBackpackingOpen(false)}
             >
-              <DropdownMenu open={isBackpackingOpen} onOpenChange={setIsBackpackingOpen}>
+              <DropdownMenu open={isBackpackingOpen}>
                 <DropdownMenuTrigger asChild>
                   <Link to="/backpacking-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>Backpacking Trips</span>
@@ -234,10 +211,10 @@ const Header = () => {
 
             {/* International Trips Dropdown */}
             <div 
-              onMouseEnter={() => handleMouseEnter(setIsInternationalOpen)}
-              onMouseLeave={() => handleMouseLeave(setIsInternationalOpen)}
+              onMouseEnter={() => setIsInternationalOpen(true)}
+              onMouseLeave={() => setIsInternationalOpen(false)}
             >
-              <DropdownMenu open={isInternationalOpen} onOpenChange={setIsInternationalOpen}>
+              <DropdownMenu open={isInternationalOpen}>
                 <DropdownMenuTrigger asChild>
                   <Link to="/international-trips" className="flex items-center gap-1 px-3 py-2 rounded transition-colors outline-none">
                     <span>International Trips</span>

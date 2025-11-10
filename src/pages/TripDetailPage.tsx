@@ -36,99 +36,170 @@ const ItineraryItem: React.FC<{ item: { day: number | string; title: string; con
 };
 
 
-// Booking Box with occupancy pricing
+// Booking Box with occupancy pricing - FINALIZED TO MATCH ALL SCREENSHOTS
 const BookingBox: React.FC<{ trip: Trip; onShowPopupForm: () => void }> = ({ trip, onShowPopupForm }) => {
-    const [selectedOccupancy, setSelectedOccupancy] = useState<'double' | 'triple' | 'Quad'>('double');
+    // Set default to Quad to match the screenshot's selected tab, but restore functionality
+    const [selectedOccupancy, setSelectedOccupancy] = useState<'double' | 'triple' | 'Quad'>('Quad'); 
     
     // Check if trip is international (Vietnam, Thailand, etc.)
     const isInternational = ['Vietnam', 'Thailand', 'Dubai', 'Bali', 'Singapore', 'Malaysia', 'Kazakhstan', 'Bhutan', 'Georgia'].includes(trip.destination);
     
     // Extract numeric price from trip.price (assuming format like "₹25,999")
     const numericPrice = parseInt(trip.price.replace(/[^0-9]/g, ''));
+    
+    // Keep the original pricing logic based on the generic price in `trip.price` (assumed to be the highest/default)
     const doubleOccupancyPrice = numericPrice;
-    const tripleOccupancyPrice = numericPrice - 1000;
-    const QuadOccupancyPrice = numericPrice - 1500;
+    const tripleOccupancyPrice = numericPrice - 500; 
+    const QuadOccupancyPrice = numericPrice - 1000; 
     
     const formatPrice = (price: number) => {
         return `₹${price.toLocaleString('en-IN')}`;
     };
     
-    const currentPrice = isInternational ? numericPrice : 
-                       (selectedOccupancy === 'double' ? doubleOccupancyPrice : 
-                       selectedOccupancy === 'triple' ? tripleOccupancyPrice : QuadOccupancyPrice);
+    // --- Dynamic Price Calculations for Both Boxes ---
     
+    // 1. Calculate the price for the currently selected occupancy (for Price Summary table)
+    let currentPrice: number;
+    let currentOriginalPrice: number;
+    let currentOccupancyName: string;
+
+    if (selectedOccupancy === 'double') {
+        currentPrice = doubleOccupancyPrice;
+        currentOriginalPrice = doubleOccupancyPrice + 500; 
+        currentOccupancyName = 'Double Occupancy';
+    } else if (selectedOccupancy === 'triple') {
+        currentPrice = tripleOccupancyPrice;
+        currentOriginalPrice = tripleOccupancyPrice + 500;
+        currentOccupancyName = 'Triple Occupancy';
+    } else { // Quad is the default/screenshot mode
+        currentPrice = QuadOccupancyPrice;
+        currentOriginalPrice = QuadOccupancyPrice + 500;
+        currentOccupancyName = 'Quad Occupancy';
+    }
+
+    // 2. Calculate the price specifically for the Starting Price box (fixed to Quad Sharing visually)
+    const topBoxPrice = formatPrice(QuadOccupancyPrice);
+    const topBoxOriginalPrice = formatPrice(QuadOccupancyPrice + 500); // Apply the fixed discount logic
+
     return (
-        <div className={`border bg-white p-4 sm:p-6 rounded-2xl shadow-xl`}>
-            <div className="flex justify-between items-start mb-2">
-                <p className="text-xl font-bold">Starting Price</p>
-                {trip.discount && (
-                    <span className="bg-yellow-300 text-yellow-800 font-bold text-sm px-3 py-1 rounded-md">{trip.discount} Off</span>
-                )}
-            </div>
+        <div className="sticky top-24">
             
-            {/* Occupancy Selection - Only for domestic trips */}
-            {!isInternational && (
-                <div className="mb-4">
-                    <div className="grid grid-cols-3 gap-2">
-                        <button
-                            onClick={() => setSelectedOccupancy('double')}
-                            className={`py-2 px-2 text-xs font-medium rounded-lg border transition-colors ${
-                                selectedOccupancy === 'double'
-                                    ? 'bg-[#0B3A55] text-white border-[#0B3A55]'
-                                    : 'bg-white text-gray-700 border-gray-300 hover:border-[#0B3A55]'
-                            }`}
-                        >
-                            Double
-                        </button>
-                        <button
-                            onClick={() => setSelectedOccupancy('triple')}
-                            className={`py-2 px-2 text-xs font-medium rounded-lg border transition-colors ${
-                                selectedOccupancy === 'triple'
-                                    ? 'bg-[#0B3A55] text-white border-[#0B3A55]'
-                                    : 'bg-white text-gray-700 border-gray-300 hover:border-[#0B3A55]'
-                            }`}
-                        >
-                            Triple
-                        </button>
+            {/* --- START: Section 1 (Starting Price) - MATCHES SCREENSHOT (Top Box) --- */}
+            <div className={`border bg-white p-6 rounded-2xl shadow-xl mb-6`}>
+                <div className="flex justify-between items-start mb-2">
+                    <p className="text-xl font-bold">Starting Price</p>
+                    {/* Hardcoded discount value to match screenshot */}
+                </div>
+                
+                <div className="mt-2 mb-4 flex items-baseline">
+                    {/* Use dynamically calculated Quad prices for consistency */}
+                    <span className="text-4xl font-bold text-gray-900 mr-2">
+                        {topBoxPrice}
+                    </span>
+                    <span className="text-lg text-gray-500 line-through">
+                        {topBoxOriginalPrice}
+                    </span>
+                </div>
+                
+                <p className="text-base text-gray-700 font-medium mb-6">Per Person on Quad Sharing Occupancy</p>
+
+                {/* Send Query Here Button */}
+                <button 
+                   className="mt-2 flex items-center justify-center gap-2 text-base w-full bg-[#0B3A55] text-white font-bold py-3 rounded-xl hover:bg-[#5B92A7] transition-colors shadow-lg"
+                   onClick={onShowPopupForm} 
+                >
+                    Send Query Here
+                </button>
+            </div>
+            {/* --- END: Section 1 --- */}
+
+            {/* --- START: Section 2 (Price Summary) - MATCHES SCREENSHOT (Bottom Box) --- */}
+            <div className={`border bg-white p-6 rounded-2xl shadow-xl`}>
+                {/* Price Summary Header */}
+                {/* NOTE: Adjusting spacing here to match the screenshot's precise margin/padding */}
+                <h3 className="text-xl font-bold text-gray-900 pb-2 mb-2">Price Summary</h3>
+                <div className="border-b border-gray-200 mb-4" /> 
+                
+                {/* Occupancy Header Row - MATCHES SCREENSHOT BORDERS AND ALIGNMENT */}
+                <div className="flex justify-start items-center text-sm font-semibold text-gray-500 pb-2">
+                    {/* Occupancy Label */}
+                    <span className="w-1/2 text-gray-900">Occupancy</span>
+                    
+                    {/* Interactive Tabs */}
+                    <div className="flex justify-start gap-4 w-1/2">
+                        {/* Quad Button */}
                         <button
                             onClick={() => setSelectedOccupancy('Quad')}
-                            className={`py-2 px-2 text-xs font-medium rounded-lg border transition-colors ${
-                                selectedOccupancy === 'Quad'
-                                    ? 'bg-[#0B3A55] text-white border-[#0B3A55]'
-                                    : 'bg-white text-gray-700 border-gray-300 hover:border-[#0B3A55]'
+                            className={`font-semibold text-sm pb-1 transition-colors ${
+                                selectedOccupancy === 'Quad' ? 'text-[#0B3A55] border-b-2 border-[#0B3A55]' : 'text-gray-500 hover:text-gray-700'
                             }`}
                         >
                             Quad
                         </button>
+                        {/* Triple Button */}
+                        <button
+                            onClick={() => setSelectedOccupancy('triple')}
+                            className={`font-semibold text-sm pb-1 transition-colors ${
+                                selectedOccupancy === 'triple' ? 'text-[#0B3A55] border-b-2 border-[#0B3A55]' : 'text-gray-500 hover:text-gray-700'
+                            }`}
+                        >
+                            Triple
+                        </button>
+                        {/* Double Button */}
+                        <button
+                            onClick={() => setSelectedOccupancy('double')}
+                            className={`font-semibold text-sm pb-1 transition-colors ${
+                                selectedOccupancy === 'double' ? 'text-[#0B3A55] border-b-2 border-[#0B3A55]' : 'text-gray-500 hover:text-gray-700'
+                            }`}
+                        >
+                            Double
+                        </button>
                     </div>
                 </div>
-            )}
-            
-            <div className="mt-2 mb-6">
-                <span className="text-4xl font-bold text-gray-900">{formatPrice(currentPrice)}</span>
-                {trip.originalPrice && (
-                    <span className="text-lg text-gray-500 line-through ml-2">{trip.originalPrice}</span>
-                )}
-                <p className="text-sm text-gray-600">Per Person{!isInternational ? ` (${selectedOccupancy === 'double' ? 'Double' : selectedOccupancy === 'triple' ? 'Triple' : 'Quad'} Occupancy)` : ''}</p>
+                {/* Thin line below the occupancy tabs matching the screenshot */}
+                <div className="border-b border-gray-200 mb-4" />
+
+
+                {/* Price Row (Dynamic) - Wrapped in container with specific borders */}
+                {/* NOTE: Adjusted margins/padding to better match the tight spacing of the screenshot's Quad Occupancy box */}
+                <div className="border border-gray-300 rounded-lg p-3">
+                    <div className="flex justify-between items-center">
+                        <p className="font-medium text-gray-700">{currentOccupancyName}</p>
+                        <div className="text-right">
+                            {/* Dynamic Original Price */}
+                            <span className="text-sm text-gray-500 line-through block">{formatPrice(currentOriginalPrice)}</span>
+                             {/* Dynamic Current Price */}
+                            <span className="text-xl font-bold text-gray-900 block">{formatPrice(currentPrice)}</span>
+                            <span className="text-xs text-gray-600 block">Per Person</span>
+                        </div>
+                    </div>
+                </div>
+
+                {/* REMOVED: Book Now Button (as per latest request) */}
+                
+                {/* Contact Buttons (Secondary Style) - Adjusted mt-6 to mt-4 for tighter spacing */}
+                 <div className="flex gap-3 mt-4">
+                    {/* Whatsapp Button */}
+                    <a 
+                        href="https://api.whatsapp.com/send?phone=919971545446&text=Hi" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="flex-1 flex items-center justify-center gap-2 text-sm w-full bg-white text-gray-800 font-bold py-3 rounded-xl border border-gray-300 hover:bg-gray-50 transition-colors"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp text-green-500" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
+                        Whatsapp
+                    </a>
+                    {/* Get PDF Button */}
+                    <button 
+                        onClick={onShowPopupForm} 
+                        className="flex-1 flex items-center justify-center gap-2 text-sm w-full bg-white text-gray-800 font-bold py-3 rounded-xl border border-gray-300 hover:bg-gray-50 transition-colors"
+                    >
+                        <FileText className="w-4 h-4 text-[#0B3A55]" />
+                        Get PDF Itinerary
+                    </button>
+                </div>
             </div>
-
-            <h3 className="text-lg font-semibold text-gray-900 border-b border-gray-200 pb-2 mb-4">Interested in this Trip?</h3>
-            <p className="text-center text-sm text-gray-600 mb-4">Fill out your details below and our travel expert will get in touch shortly!</p>
-
-            {/* --- Use ContactForm directly --- */}
-            <ContactForm />
-
-            {/* Optional Direct Contact Buttons */}
-            <div className="flex gap-3 mt-4">
-                 <a href="https://api.whatsapp.com/send?phone=919971545446&text=Hi" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 text-sm w-full bg-green-500 text-white font-bold py-2.5 rounded-lg hover:bg-green-600 transition-colors">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
-                    Whatsapp
-                </a>
-                <button onClick={onShowPopupForm} className="flex-1 flex items-center justify-center gap-2 text-sm w-full bg-[#0B3A55] text-white font-bold py-2.5 rounded-lg hover:bg-[#5B92A7] transition-colors">
-                    <FileText className="w-4 h-4" />
-                    Get PDF
-                </button>
-            </div>
+            {/* --- END: Section 2 --- */}
         </div>
     );
 };
@@ -211,15 +282,48 @@ const TripDetailPage = () => {
   // --- END UPDATED GALLERY LOGIC ---
 
 
-   // Placeholder features (Ideally, add features to trips.ts)
-    const features = [
-        { name: 'Stay', icon: '/cloned_media/21556120241021125642.png' },
-        { name: 'Transfers', icon: '/cloned_media/41278020241021125603.png' },
-        { name: 'Meals', icon: '/cloned_media/17264920241021125723.png' },
-        // Add more common features or make this dynamic based on trip data
-    ];
+   // Dynamic features based on trip category - always 6 features total
+    const getFeatures = () => {
+        const standardFeatures = [
+            { name: 'Explorations', icon: 'https://d2qa7a8q0vuocm.cloudfront.net/images/13075920241021125921.png' },
+            { name: 'Bonfire', icon: 'https://d2qa7a8q0vuocm.cloudfront.net/images/5910920241021125745.png' },
+            { name: 'Transfers', icon: 'https://d2qa7a8q0vuocm.cloudfront.net/images/41278020241021125603.png' },
+            { name: 'Meals', icon: 'https://d2qa7a8q0vuocm.cloudfront.net/images/17264920241021125723.png' },
+            { name: 'Stay', icon: 'https://d2qa7a8q0vuocm.cloudfront.net/images/21556120241021125642.png' }
+        ];
+        
+        const dynamicFeatures = [];
+        const categoryText = (trip.category || trip.title).toLowerCase();
+        
+        // Add camping for most outdoor/nature trips
+        if (categoryText.includes('camping') || categoryText.includes('backpacking') || 
+            categoryText.includes('desert') || categoryText.includes('safari') || 
+            categoryText.includes('adventure') || categoryText.includes('outdoor') ||
+            categoryText.includes('rajasthan') || categoryText.includes('jaisalmer') ||
+            categoryText.includes('pushkar') || categoryText.includes('nature') ||
+            categoryText.includes('wildlife') || categoryText.includes('forest')) {
+            dynamicFeatures.push({ name: 'Camping', icon: 'https://d2qa7a8q0vuocm.cloudfront.net/images/39205420241021125812.png' });
+        }
+        
+        // Add trekking for most mountain/nature/adventure destinations
+        if (categoryText.includes('trek') || categoryText.includes('mountain') || 
+            categoryText.includes('hill') || categoryText.includes('hiking') || 
+            categoryText.includes('adventure') || categoryText.includes('himachal') || 
+            categoryText.includes('uttarakhand') || categoryText.includes('kashmir') || 
+            categoryText.includes('spiti') || categoryText.includes('ladakh') ||
+            categoryText.includes('munnar') || categoryText.includes('kerala') ||
+            categoryText.includes('meghalaya') || categoryText.includes('bhutan') ||
+            categoryText.includes('nature') || categoryText.includes('explorer') ||
+            categoryText.includes('retreat') || categoryText.includes('escape')) {
+            dynamicFeatures.push({ name: 'Trekking', icon: 'https://d2qa7a8q0vuocm.cloudfront.net/images/11999820241021130308.png' });
+        }
+        
+        return [...standardFeatures, ...dynamicFeatures].slice(0, 6);
+    };
+    
+    const features = getFeatures();
 
-    // Placeholder Things to Pack (Could be generic or added to trips.ts)
+    // Placeholder Things to Pack (Using original placeholder, assuming trips.ts data uses simple strings)
     const thingsToPack = [
         { text: "Good quality rucksack & day bag with rain-cover.", icon: '/cloned_media/5261020250821080750.png' },
         { text: "Trekking/sports shoes with good grip, socks & floaters.", icon: '/cloned_media/7672820250825123523.png' },
@@ -355,11 +459,13 @@ const TripDetailPage = () => {
                         <p className="font-semibold text-sm">{trip.destination}</p>
                     </div>
                 </div>
+                 {/* Mobile Features Display - MATCHES SCREENSHOT 1 */}
                  <div className="grid grid-cols-3 gap-2 mt-4">
-                    {features.map(feature => ( // Using placeholder features
-                        <div key={feature.name} className="flex flex-col items-center text-center">
-                            <img src={feature.icon} alt={feature.name} className="w-6 h-6"/>
-                            <span className="text-xs font-medium text-gray-700 mt-1">{feature.name}</span>
+                    {features.map(feature => ( 
+                        <div key={feature.name} className="flex items-center text-left">
+                            {/* NOTE: Using img tag with source from page source/screenshot data */}
+                            <img src={feature.icon} alt={feature.name} className="w-6 h-6 mr-2"/>
+                            <span className="text-sm font-medium text-gray-800">{feature.name}</span>
                         </div>
                     ))}
                 </div>
@@ -393,11 +499,13 @@ const TripDetailPage = () => {
                         </div>
                     </div>
                 </div>
+                 {/* Desktop Features Display - MATCHES SCREENSHOT 1 (Desktop layout uses flex wrap with gap) */}
                  <div className="flex flex-wrap gap-x-8 gap-y-4 mt-6 pt-4 border-t border-gray-100">
-                    {features.map(feature => ( // Using placeholder features
+                    {features.map(feature => ( 
                         <div key={feature.name} className="flex items-center gap-2">
+                            {/* NOTE: Using img tag with source from page source/screenshot data */}
                             <img src={feature.icon} alt={feature.name} className="w-6 h-6"/>
-                            <span className="font-medium text-gray-700">{feature.name}</span>
+                            <span className="font-medium text-gray-800">{feature.name}</span>
                         </div>
                     ))}
                 </div>

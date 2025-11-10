@@ -77,7 +77,7 @@ const Index = () => {
       >
         <div className="flex-1 text-center md:text-left mb-6 md:mb-0 px-6">
           <div className="inline-block mb-2">
-            <img src="/customer-service.png" alt="Contact Icon" className="mx-auto w-20 h-20" />
+            <img src="/customer-service.png" alt="Contact Icon" className="mx-auto w-20 h-20" loading="lazy" decoding="async" />
           </div>
           <h3 className="text-2xl font-bold mb-2 text-white">Have Doubts? Talk To Our Travel Experts!</h3>
           <p className="text-lg text-white">
@@ -137,7 +137,7 @@ const Index = () => {
         <a
           href="/contact-us"
         >
-          <img src="/send_query.png" alt="Send Query" className="w-16 h-16" />
+          <img src="/send_query.png" alt="Send Query" className="w-16 h-16" loading="lazy" decoding="async" />
         </a>
         
         {/* Call Us Button */}
@@ -145,7 +145,7 @@ const Index = () => {
           href="tel:+919971545446"
           className="w-12 h-12 bg-[#0B3A55] rounded-full flex items-center justify-center"
         >
-          <img src="/callus.png" alt="Call Us" className="w-13 h-13" />
+          <img src="/callus.png" alt="Call Us" className="w-13 h-13" loading="lazy" decoding="async" />
         </a>
         
         {/* WhatsApp Button */}
@@ -154,7 +154,7 @@ const Index = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/whatsapp_icon.png" alt="WhatsApp" className="w-16 h-16" />
+          <img src="/whatsapp_icon.png" alt="WhatsApp" className="w-16 h-16" loading="lazy" decoding="async" />
         </a>
       </div>
     </div>

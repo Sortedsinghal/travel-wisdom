@@ -39,6 +39,8 @@ const CollaborationsSlider = () => {
           alt={`Collaboration logo ${index + 1}`}
           // Increased horizontal margin from mx-4 to mx-8 for more space between logos
           className="h-12 sm:h-16 object-contain mx-8 transition-transform hover:scale-105"
+          loading="lazy"
+          decoding="async"
         />
       ))}
       {/* Duplicate logos for seamless loop */}
@@ -49,6 +51,8 @@ const CollaborationsSlider = () => {
           alt={`Collaboration logo duplicate ${index + 1}`}
           // Increased horizontal margin from mx-4 to mx-8
           className="h-12 sm:h-16 object-contain mx-8 transition-transform hover:scale-105"
+          loading="lazy"
+          decoding="async"
         />
       ))}
     </div>

@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import PopupForm from "./components/PopupForm";
+import { preloadCriticalResources } from './utils/mediaOptimization';
 import Index from "./pages/Index";
 import AboutUs from "./pages/AboutUs";
 import Blogs from "./pages/Blogs";
@@ -61,7 +62,22 @@ const App = () => {
       setShowPopup(true);
     }, 2000);
 
-    return () => clearTimeout(timer);
+    // Preload critical resources after initial render
+    const preloadTimer = setTimeout(() => {
+      preloadCriticalResources();
+    }, 1000);
+
+    // Register service worker for better caching
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(() => console.log('Service Worker registered'))
+        .catch(() => console.log('Service Worker registration failed'));
+    }
+
+    return () => {
+      clearTimeout(timer);
+      clearTimeout(preloadTimer);
+    };
   }, []);
 
   return (

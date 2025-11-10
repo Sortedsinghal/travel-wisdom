@@ -11,6 +11,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- DNS prefetch for external domains -->
+    <link rel="dns-prefetch" href="//d2qa7a8q0vuocm.cloudfront.net">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    
+    <!-- Preload critical images -->
+    <link rel="preload" as="image" href="/travel-wisdom-logo.png">
+    <link rel="preload" as="image" href="/customer-service.png">
+    <link rel="preload" as="image" href="/message_icon.png">
+    <link rel="preload" as="image" href="/travelers.png">
+    <link rel="preload" as="image" href="/destinations.png">
+    <link rel="preload" as="image" href="/experience.png">
+    
+    <!-- Preload first hero video -->
+    <link rel="preload" as="video" href="/hero_videos/Black and Green Modern Paris Travel Video.mp4">
 
     <meta property="og:title" content="Travel Wisdom - Your Gateway to Unforgettable Journeys" />
     <meta property="og:description" content="Discover amazing destinations with Travel Wisdom. Book backpacking trips, weekend getaways, international tours, and more." />
@@ -21,5 +36,24 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    
+    <!-- Preload next hero videos after page load -->
+    <script>
+      window.addEventListener('load', function() {
+        const videos = [
+          '/hero_videos/Blue Minimalist Scenery Travel Vlog Thumbnail Youtube Intro.mp4',
+          '/hero_videos/Blue Mountains Welcome To My Channel Youtube Intro.mp4',
+          '/hero_videos/Blue Snowy Forest  Hello Winter Video.mp4'
+        ];
+        
+        videos.forEach(function(src) {
+          const link = document.createElement('link');
+          link.rel = 'prefetch';
+          link.as = 'video';
+          link.href = src;
+          document.head.appendChild(link);
+        });
+      });
+    </script>
   </body>
 </html>
