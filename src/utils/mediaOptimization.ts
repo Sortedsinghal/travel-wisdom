@@ -1,20 +1,7 @@
 // Utility functions for media optimization
 
 export const preloadCriticalResources = () => {
-  // Delay prefetch to avoid blocking initial render
-  setTimeout(() => {
-    const criticalImages = [
-      '/message_icon.png',
-      '/travelers.png', 
-      '/destinations.png',
-      '/experience.png'
-    ];
-
-    criticalImages.forEach(src => {
-      const img = new Image();
-      img.src = src;
-    });
-  }, 2000);
+  // Minimal implementation to avoid blocking
 };
 
 export const prefetchNextPageResources = (urls: string[]) => {

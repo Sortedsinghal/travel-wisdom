@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Trip } from '@/data/trips'; // Import the main Trip interface
 import { QueryForm } from './QueryForm';
-import OptimizedImage from './OptimizedImage';
+
 
 // Update props to include slug and match the Trip interface
 interface TripCardProps {
@@ -37,11 +37,12 @@ const TripCard: React.FC<TripCardProps> = ({
         <div className="relative mb-8">
           {/* Link the image to the detail page */}
           <Link to={`/trip/${slug}`}>
-            <OptimizedImage
+            <img
               alt={title}
               src={imageUrl}
-              className="w-full h-52 sm:h-64 object-cover" // Adjusted height
+              className="w-full h-52 sm:h-64 object-cover"
               loading="lazy"
+              decoding="async"
             />
           </Link>
           {discount && (

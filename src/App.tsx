@@ -62,22 +62,11 @@ const App = () => {
       setShowPopup(true);
     }, 2000);
 
-    // Preload critical resources after initial render
-    const preloadTimer = setTimeout(() => {
-      preloadCriticalResources();
-    }, 1000);
 
-    // Register service worker for better caching
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js')
-        .then(() => console.log('Service Worker registered'))
-        .catch(() => console.log('Service Worker registration failed'));
-    }
 
-    return () => {
-      clearTimeout(timer);
-      clearTimeout(preloadTimer);
-    };
+
+
+    return () => clearTimeout(timer);
   }, []);
 
   return (
