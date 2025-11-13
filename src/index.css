@@ -29,8 +29,6 @@ video {
     transition-duration: 0.01ms !important;
   }
 }
-@import "slick-carousel/slick/slick.css"; 
-@import "slick-carousel/slick/slick-theme.css";
 
 /* Travel Wisdom Design System - Ocean & Travel Inspired Colors */
 
