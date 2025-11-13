@@ -410,42 +410,42 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
 
       {/* Main Modal Overlay */}
       <div className="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center z-[9999] p-4 font-inter transition-opacity duration-300">
-        <div className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-hidden shadow-2xl flex flex-col md:flex-row transform transition-transform duration-300 ease-out scale-100">
+        <div className="bg-white rounded-2xl max-w-3xl w-full max-h-[85vh] overflow-hidden shadow-2xl flex flex-col md:flex-row transform transition-transform duration-300 ease-out scale-100">
 
           {/* Left Column: Branding and Aesthetics */}
-          <div className="md:w-1/2 bg-[#0B3A55] text-white p-8 rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none flex flex-col items-center justify-center space-y-4 relative overflow-hidden">
+          <div className="md:w-1/2 bg-[#0B3A55] text-white p-6 rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none flex flex-col items-center justify-center space-y-3 relative overflow-hidden">
             {/* Subtle background overlay for visual depth */}
             <div className="absolute inset-0 bg-white opacity-5 transform skew-y-3 scale-150"></div>
 
-            {/* Travel Wisdom Logo IMAGE Placeholder - size h-32 w-32 */}
+            {/* Travel Wisdom Logo IMAGE Placeholder - size h-24 w-24 */}
             <img 
               src={LOGO_URL} 
               alt="Travel Wisdom Logo" 
-              className="z-10 h-32 w-32 object-contain mb-4" 
-              onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => { e.currentTarget.onerror = null; e.currentTarget.src="https://placehold.co/128x128/0B3A55/FFFFFF?text=TW"; }}
+              className="z-10 h-24 w-24 object-contain mb-3" 
+              onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => { e.currentTarget.onerror = null; e.currentTarget.src="https://placehold.co/96x96/0B3A55/FFFFFF?text=TW"; }}
             />
             
             <div className="z-10 text-center">
-                <h1 className="text-4xl font-extrabold mb-1 tracking-wider">
+                <h1 className="text-3xl font-extrabold mb-1 tracking-wider">
                   Travel Wisdom
                 </h1>
-                <p className="text-lg italic font-light opacity-80">
+                <p className="text-base italic font-light opacity-80">
                   Pack right, but light.
                 </p>
             </div>
-            <p className="mt-4 text-center text-sm opacity-75 z-10">
+            <p className="mt-3 text-center text-sm opacity-75 z-10">
               Fill out the form and a dedicated travel expert will craft your perfect itinerary.
             </p>
             {trip && (
-              <div className="z-10 mt-6 p-3 bg-white bg-opacity-10 rounded-lg">
-                  <p className="text-base font-semibold">Viewing Itinerary for:</p>
-                  <p className="text-xl font-bold text-[#5B92A7]">{trip.title}</p> 
+              <div className="z-10 mt-4 p-2 bg-white bg-opacity-10 rounded-lg">
+                  <p className="text-sm font-semibold">Viewing Itinerary for:</p>
+                  <p className="text-lg font-bold text-[#5B92A7]">{trip.title}</p> 
               </div>
             )}
           </div>
 
           {/* Right Column: Form */}
-          <div className="md:w-1/2 p-6 sm:p-8 overflow-y-auto">
+          <div className="md:w-1/2 p-4 sm:p-6 overflow-y-auto">
             <div className="flex justify-between items-center mb-6 border-b pb-3">
               <h2 className="text-2xl font-bold text-gray-800">Start Your Journey</h2>
               <button
@@ -458,7 +458,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
               </button>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-5">
+            <form onSubmit={handleSubmit} className="space-y-4">
               {/* Full Name */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>

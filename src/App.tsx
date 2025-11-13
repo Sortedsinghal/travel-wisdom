@@ -60,11 +60,14 @@ const App = () => {
   useEffect(() => {
     preloadCriticalResources();
 
-    const timer = setTimeout(() => {
+    // Only show popup on home page reload
+    const isHomePage = window.location.pathname === '/';
+    const isPageReload = !window.performance.getEntriesByType('navigation')[0] || 
+      (window.performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming).type === 'reload';
+    
+    if (isHomePage && isPageReload) {
       setShowPopup(true);
-    }, 2000);
-
-    return () => clearTimeout(timer);
+    }
   }, []);
 
   return (
