@@ -18,7 +18,6 @@ const AboutUs = () => {
           preload="auto"
           width={7680}
           height={4320}
-
           onLoadStart={() => console.log('Video loading started')}
         >
           <source src="/hero_videos/Yellow and Black Travel Collection Video.mp4" type="video/mp4" />
@@ -47,31 +46,31 @@ const AboutUs = () => {
               </p>
               <p className="font-normal text-sm mx-auto font-poppins text-white text-center mt-0 mb-4 max-w-4xl">
                 Travel Wisdom is a community of passionate travellers who believe that every journey has a story to tell. <br /> We create memorable travel experiences that blend comfort, adventure, and connection — just the way you like it. <br /> <br />
-                Whether it’s a group trip, a girls-only escape, a corporate getaway, a romantic honeymoon, <br /> or an offbeat trekking expedition — we curate trips that match your interests, vibe, and comfort. <br /> <br />
+                Whether it's a group trip, a girls-only escape, a corporate getaway, a romantic honeymoon, <br /> or an offbeat trekking expedition — we curate trips that match your interests, vibe, and comfort. <br /> <br />
                 Our team of travel enthusiasts ensures every itinerary is well-planned, budget-friendly, and full of unforgettable moments. <br /> From serene mountains to lively beaches, from spiritual retreats to adventure trails — Travel Wisdom turns every trip <br /> into a soulful experience. 
-                Because for us, travel isn’t just about destinations — it’s about discovering yourself along the way.
+                Because for us, travel isn't just about destinations — it's about discovering yourself along the way.
               </p>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-8 mb-4 justify-center items-end">
                 <div className="flex flex-col items-center h-full">
-                  <img src="/who-we-are icon1.png" alt="Trips Hosted" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" fetchpriority="low" />
+                  <img src="/who-we-are icon1.png" alt="Trips Hosted" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
                     1100+ Trips Hosted PAN India & Abroad
                   </p>
                 </div>
                 <div className="flex flex-col items-center h-full">
-                  <img src="/who-we-are icon2.png" alt="Countries" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" fetchpriority="low" />
+                  <img src="/who-we-are icon2.png" alt="Countries" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
                     Proudly operating in 17+ countries
                   </p>
                 </div>
                 <div className="flex flex-col items-center h-full">
-                  <img src="/who-we-are icon3.png" alt="Happy Travelers" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" fetchpriority="low" />
+                  <img src="/who-we-are icon3.png" alt="Happy Travelers" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
                     17,000+ Happy Travellers
                   </p>
                 </div>
                 <div className="flex flex-col items-center h-full">
-                  <img src="/who-we-are icon4.png" alt="Travel Enthusiasts" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" fetchpriority="low" />
+                  <img src="/who-we-are icon4.png" alt="Travel Enthusiasts" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
                     Team of 70+ Travel Enthusiasts
                   </p>
@@ -103,7 +102,7 @@ const AboutUs = () => {
               <p className="font-normal text-sm font-poppins text-black leading-relaxed text-center">
               In 2020, Ms. Hoor began her journey of turning her deep love for travel into a meaningful purpose. What started as a simple passion for exploring new places soon transformed into Travel Wisdom — a community-driven platform that brings together people who dream to explore, connect, and celebrate life through travel. <br /> <br />
 Hoor has explored diverse landscapes across India — From the snow-clad peaks of the Himalayas to the golden sands of Rajasthan, from the lush backwaters of Kerala to the pristine valleys of the Northeast, and the vibrant coastlines of Goa to the spiritual heart of Varanasi — she has explored the soul of India in its truest form. Her focus has always been on creating well-planned, comfortable, experiences that allow travelers to truly enjoy every moment.<br /><br />
-By combining her experience in the travel industry and her passion for exploring new places, she has built Travel Wisdom into a trusted brand that promotes responsible tourism and authentic experiences. Guided by her belief that “Travel is not just about places, but about discovering yourself,” Hoor continues to design trips that inspire happiness, friendship, and unforgettable memories. 💛
+By combining her experience in the travel industry and her passion for exploring new places, she has built Travel Wisdom into a trusted brand that promotes responsible tourism and authentic experiences. Guided by her belief that "Travel is not just about places, but about discovering yourself," Hoor continues to design trips that inspire happiness, friendship, and unforgettable memories. 💛
               </p>
             </div>
           </div>
@@ -128,7 +127,6 @@ By combining her experience in the travel industry and her passion for exploring
                 src="/Life1.jpeg"
                 loading="lazy"
                 decoding="async"
-                fetchpriority="low"
               />
             </div>
             
@@ -140,7 +138,6 @@ By combining her experience in the travel industry and her passion for exploring
                 src="/Life2.jpeg"
                 loading="lazy"
                 decoding="async"
-                fetchpriority="low"
               />
             </div>
 
@@ -152,7 +149,6 @@ By combining her experience in the travel industry and her passion for exploring
                 src="/Life3.jpeg"
                 loading="lazy"
                 decoding="async"
-                fetchpriority="low"
               />
             </div>
             
@@ -164,7 +160,6 @@ By combining her experience in the travel industry and her passion for exploring
                 src="/Life4.jpeg"
                 loading="lazy"
                 decoding="async"
-                fetchpriority="low"
               />
             </div>
             
@@ -176,7 +171,6 @@ By combining her experience in the travel industry and her passion for exploring
                 src="/Life5.jpeg"
                 loading="lazy"
                 decoding="async"
-                fetchpriority="low"
               />
             </div>
           </div>

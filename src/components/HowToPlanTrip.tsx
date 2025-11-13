@@ -54,7 +54,6 @@ const HowToPlanTrip = () => {
                     className="w-full h-full object-contain object-bottom"
                     loading="lazy"
                     decoding="async"
-                    fetchpriority="low"
                 />
             </div>
           ))}
@@ -103,7 +102,6 @@ const HowToPlanTrip = () => {
                       className="w-full h-full object-contain"
                       loading="lazy"
                       decoding="async"
-                      fetchpriority="low"
                    />
                 </div>
 
@@ -114,7 +112,6 @@ const HowToPlanTrip = () => {
                     className="absolute bottom-0 right-0 w-20 h-20 opacity-90 object-cover"
                     loading="lazy"
                     decoding="async"
-                    fetchpriority="low"
                 />
               </div>
             </div>

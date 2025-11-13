@@ -193,7 +193,6 @@ const Hero = () => {
             src={video}
             muted
             preload="metadata"
-            loading="lazy"
             playsInline
             width={1920}
             height={1080}

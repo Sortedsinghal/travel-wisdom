@@ -849,7 +849,6 @@ const CorporateTours = () => {
           loop
           playsInline
           preload="metadata"
-          loading="lazy"
           width={1920}
           height={1080}
           onLoadStart={() => {}}
