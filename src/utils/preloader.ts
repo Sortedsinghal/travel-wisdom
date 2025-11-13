@@ -19,9 +19,10 @@ export const deferNonCritical = () => {
   const deferCSS = () => {
     const links = document.querySelectorAll('link[rel="stylesheet"]');
     links.forEach(link => {
-      if (!link.getAttribute('data-critical')) {
-        link.media = 'print';
-        link.onload = () => { link.media = 'all'; };
+      const linkElement = link as HTMLLinkElement;
+      if (!linkElement.getAttribute('data-critical')) {
+        linkElement.media = 'print';
+        linkElement.onload = () => { linkElement.media = 'all'; };
       }
     });
   };
