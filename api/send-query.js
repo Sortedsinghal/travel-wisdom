@@ -22,14 +22,14 @@ export default async function handler(req, res) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'Krishnasinghal9711@gmail.com',
-        pass: 'zfrf kyup wsda stmt'
+        user: 'travelwisdom.in@gmail.com',
+        pass: 'wend mwzj fqnn yljh'
       }
     });
     
     await transporter.sendMail({
-      from: 'Krishnasinghal9711@gmail.com',
-      to: 'Krishnasinghal9711@gmail.com',
+      from: 'travelwisdom.in@gmail.com',
+      to: 'travelwisdom.in@gmail.com',
       subject: `New Query - ${tripName || 'General Query'}`,
       html: `<h3>New Query</h3><p><b>Name:</b> ${name}</p><p><b>Email:</b> ${email}</p><p><b>Phone:</b> ${phone}</p><p><b>Trip:</b> ${tripName}</p><p><b>Message:</b> ${message}</p>`
     });
