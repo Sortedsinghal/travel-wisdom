@@ -27,7 +27,7 @@ function checkFFmpeg() {
 
 // Optimize video files
 function optimizeVideo(inputPath, outputPath) {
-  const command = `ffmpeg -i "${inputPath}" -c:v libx264 -crf 28 -preset fast -c:a aac -b:a 128k -movflags +faststart -y "${outputPath}"`;
+  const command = `ffmpeg -i "${inputPath}" -c:v libx264 -crf 18 -preset slow -c:a aac -b:a 192k -movflags +faststart -y "${outputPath}"`;
   
   try {
     console.log(`Optimizing video: ${path.basename(inputPath)}`);

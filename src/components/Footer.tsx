@@ -134,6 +134,9 @@ const Footer = () => {
                     src={TravelWisdomLogo} 
                     alt={companyName} 
                     className="w-20 h-15 object-contain"
+                    loading="lazy"
+                    decoding="async"
+                    fetchpriority="low"
                 />
                 <p className="font-bold text-s">{companyName}</p>
                 <p className="text-[13px] text-gray-600">{tagline}</p>
@@ -143,7 +146,7 @@ const Footer = () => {
             {/* 2. Payment Icons & Copyright Text (Center) */}
             <div className="flex flex-col items-center space-y-2 text-center w-full lg:w-auto">
                 {/* Payment Icons Placeholder (Based on the image URL in the HTML) */}
-                <div className="border-b-2 border-gray-200 pb-2"><img src={PaymentMode} alt="payment" />
+                <div className="border-b-2 border-gray-200 pb-2"><img src={PaymentMode} alt="payment" loading="lazy" decoding="async" fetchpriority="low" />
                 </div>
                 {/* Copyright Text */}
                 <p className="text-sm text-gray-600">

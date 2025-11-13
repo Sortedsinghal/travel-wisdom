@@ -41,6 +41,7 @@ const CollaborationsSlider = () => {
           className="h-12 sm:h-16 object-contain mx-8 transition-transform hover:scale-105"
           loading="lazy"
           decoding="async"
+          fetchpriority="low"
         />
       ))}
       {/* Duplicate logos for seamless loop */}
@@ -53,6 +54,7 @@ const CollaborationsSlider = () => {
           className="h-12 sm:h-16 object-contain mx-8 transition-transform hover:scale-105"
           loading="lazy"
           decoding="async"
+          fetchpriority="low"
         />
       ))}
     </div>

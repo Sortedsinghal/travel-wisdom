@@ -52,6 +52,9 @@ const HowToPlanTrip = () => {
                     src="/line.webp" 
                     alt="Decorative connecting line" 
                     className="w-full h-full object-contain object-bottom"
+                    loading="lazy"
+                    decoding="async"
+                    fetchpriority="low"
                 />
             </div>
           ))}
@@ -98,6 +101,9 @@ const HowToPlanTrip = () => {
                       src={step.imageUrl} 
                       alt={step.title} 
                       className="w-full h-full object-contain"
+                      loading="lazy"
+                      decoding="async"
+                      fetchpriority="low"
                    />
                 </div>
 
@@ -105,7 +111,10 @@ const HowToPlanTrip = () => {
                 <img 
                     src="/box-cornering.webp" 
                     alt="Decorative pattern" 
-                    className="absolute bottom-0 right-0 w-20 h-20 opacity-90 object-cover" 
+                    className="absolute bottom-0 right-0 w-20 h-20 opacity-90 object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    fetchpriority="low"
                 />
               </div>
             </div>

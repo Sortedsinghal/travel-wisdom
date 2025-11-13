@@ -23,7 +23,7 @@ const OptimizedVideo: React.FC<OptimizedVideoProps> = ({
   muted = true,
   loop = false,
   controls = false,
-  preload = 'metadata'
+  preload = 'none'
 }) => {
   const [isInView, setIsInView] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -45,7 +45,7 @@ const OptimizedVideo: React.FC<OptimizedVideoProps> = ({
           }
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.1, rootMargin: '100px' }
     );
 
     if (videoRef.current) {

@@ -43,6 +43,7 @@ const TripCard: React.FC<TripCardProps> = ({
               className="w-full h-52 sm:h-64 object-cover"
               loading="lazy"
               decoding="async"
+              fetchpriority="low"
             />
           </Link>
           {discount && (

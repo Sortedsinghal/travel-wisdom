@@ -848,7 +848,11 @@ const CorporateTours = () => {
           muted 
           loop
           playsInline
-          preload="auto"
+          preload="metadata"
+          loading="lazy"
+          width={1920}
+          height={1080}
+          onLoadStart={() => {}}
         >
           <source src="/corporate-homepage.mp4" type="video/mp4" />
         </video>

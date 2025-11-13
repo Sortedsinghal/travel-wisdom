@@ -192,8 +192,12 @@ const Hero = () => {
             }}
             src={video}
             muted
-preload="metadata"
+            preload="metadata"
+            loading="lazy"
             playsInline
+            width={1920}
+            height={1080}
+            onLoadStart={() => {}}
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
               index === currentVideoIndex ? 'opacity-100' : 'opacity-0'
             }`}

@@ -79,6 +79,7 @@ const Header = () => {
                 className="w-16 h-14 rounded-full mr-2.5 object-contain"
                 loading="eager"
                 decoding="async"
+                fetchpriority="high"
               />
               <span className="text-2xl font-black text-[#000000]" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: '900' }}>
                 Travel Wisdom

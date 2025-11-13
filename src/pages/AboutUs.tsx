@@ -10,13 +10,16 @@ const AboutUs = () => {
       {/* Hero Video Section */}
       <div className="w-100 position-relative" style={{ height: '600px' }}>
         <video 
-          style={{ opacity: 0.9 }} 
           className="w-full h-full object-cover" 
           muted 
           loop 
           autoPlay 
           playsInline
           preload="auto"
+          width={7680}
+          height={4320}
+
+          onLoadStart={() => console.log('Video loading started')}
         >
           <source src="/hero_videos/Yellow and Black Travel Collection Video.mp4" type="video/mp4" />
         </video>
@@ -50,25 +53,25 @@ const AboutUs = () => {
               </p>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-8 mb-4 justify-center items-end">
                 <div className="flex flex-col items-center h-full">
-                  <img src="/who-we-are icon1.png" alt="Trips Hosted" className="w-12 h-12 mb-3 mt-3" />
+                  <img src="/who-we-are icon1.png" alt="Trips Hosted" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" fetchpriority="low" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
                     1100+ Trips Hosted PAN India & Abroad
                   </p>
                 </div>
                 <div className="flex flex-col items-center h-full">
-                  <img src="/who-we-are icon2.png" alt="Countries" className="w-12 h-12 mb-3 mt-3" />
+                  <img src="/who-we-are icon2.png" alt="Countries" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" fetchpriority="low" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
                     Proudly operating in 17+ countries
                   </p>
                 </div>
                 <div className="flex flex-col items-center h-full">
-                  <img src="/who-we-are icon3.png" alt="Happy Travelers" className="w-12 h-12 mb-3 mt-3" />
+                  <img src="/who-we-are icon3.png" alt="Happy Travelers" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" fetchpriority="low" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
                     17,000+ Happy Travellers
                   </p>
                 </div>
                 <div className="flex flex-col items-center h-full">
-                  <img src="/who-we-are icon4.png" alt="Travel Enthusiasts" className="w-12 h-12 mb-3 mt-3" />
+                  <img src="/who-we-are icon4.png" alt="Travel Enthusiasts" className="w-12 h-12 mb-3 mt-3" loading="lazy" decoding="async" fetchpriority="low" />
                   <p className="text-sm text-white font-semibold font-poppins mb-0 mt-2 text-center">
                     Team of 70+ Travel Enthusiasts
                   </p>
@@ -122,7 +125,10 @@ By combining her experience in the travel industry and her passion for exploring
               <img 
                 alt="party" 
                 className="rounded-lg w-full h-full object-cover min-h-[200px]" 
-                src="/Life1.jpeg" 
+                src="/Life1.jpeg"
+                loading="lazy"
+                decoding="async"
+                fetchpriority="low"
               />
             </div>
             
@@ -131,7 +137,10 @@ By combining her experience in the travel industry and her passion for exploring
               <img 
                 alt="grid_6" 
                 className="rounded-lg w-full h-full object-cover min-h-[200px]" 
-                src="/Life2.jpeg" 
+                src="/Life2.jpeg"
+                loading="lazy"
+                decoding="async"
+                fetchpriority="low"
               />
             </div>
 
@@ -140,7 +149,10 @@ By combining her experience in the travel industry and her passion for exploring
               <img 
                 alt="grid_2" 
                 className="rounded-lg w-full h-full object-cover min-h-[200px]" 
-                src="/Life3.jpeg" 
+                src="/Life3.jpeg"
+                loading="lazy"
+                decoding="async"
+                fetchpriority="low"
               />
             </div>
             
@@ -149,7 +161,10 @@ By combining her experience in the travel industry and her passion for exploring
               <img 
                 alt="grid_5" 
                 className="rounded-lg w-full h-full object-cover min-h-[200px]" 
-                src="/Life4.jpeg" 
+                src="/Life4.jpeg"
+                loading="lazy"
+                decoding="async"
+                fetchpriority="low"
               />
             </div>
             
@@ -158,7 +173,10 @@ By combining her experience in the travel industry and her passion for exploring
               <img 
                 alt="grid_4" 
                 className="rounded-lg w-full h-full object-cover min-h-[200px]" 
-                src="/Life5.jpeg" 
+                src="/Life5.jpeg"
+                loading="lazy"
+                decoding="async"
+                fetchpriority="low"
               />
             </div>
           </div>

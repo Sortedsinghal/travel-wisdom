@@ -15,6 +15,11 @@
     <!-- DNS prefetch for external domains -->
     <link rel="dns-prefetch" href="//d2qa7a8q0vuocm.cloudfront.net">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/travel-wisdom-logo.png" as="image">
+    <link rel="preload" href="/customer-service.png" as="image">
+    <link rel="preconnect" href="//d2qa7a8q0vuocm.cloudfront.net" crossorigin>
 
     <meta property="og:title" content="Travel Wisdom - Your Gateway to Unforgettable Journeys" />
     <meta property="og:description" content="Discover amazing destinations with Travel Wisdom. Book backpacking trips, weekend getaways, international tours, and more." />
@@ -25,6 +30,11 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+      }
+    </script>
     
 
   </body>
