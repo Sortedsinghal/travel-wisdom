@@ -581,7 +581,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose, trip }) => {
                 ) : (
                   <>
                     <Send className="h-5 w-5" />
-                    <span>{trip ? 'View Itinerary & Send Enquiry' : 'Send Details'}</span>
+                    <span>{trip ? 'View Itinerary & Send Enquiry' : 'Send Query'}</span>
                   </>
                 )}
               </button>
