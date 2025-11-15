@@ -60,21 +60,21 @@ const ContactForm = () => {
   return (
 
         <div className="max-w-md mx-auto">
-          <Card className="p-6 card-shadow bg-card/95 backdrop-blur-sm">
-            <form onSubmit={handleSubmit} className="space-y-4">
+          <Card className="p-4 md:p-6 card-shadow bg-card/95 backdrop-blur-sm">
+            <form onSubmit={handleSubmit} className="space-y-3 md:space-y-4">
               <div>
                 <Input
                   placeholder="Full Name*"
                   value={formData.fullName}
                   onChange={(e) => handleInputChange("fullName", e.target.value)}
                   required
-                  className="h-12"
+                  className="h-11 md:h-12 text-base"
                 />
               </div>
 
               <div className="grid grid-cols-3 gap-2">
                 <Select>
-                  <SelectTrigger className="h-12">
+                  <SelectTrigger className="h-11 md:h-12 text-base">
                     <SelectValue placeholder="+91" />
                   </SelectTrigger>
                   <SelectContent>
@@ -89,7 +89,8 @@ const ContactForm = () => {
                     value={formData.mobile}
                     onChange={(e) => handleInputChange("mobile", e.target.value)}
                     required
-                    className="h-12"
+                    className="h-11 md:h-12 text-base"
+                    type="tel"
                   />
                 </div>
               </div>
@@ -101,7 +102,7 @@ const ContactForm = () => {
                   value={formData.email}
                   onChange={(e) => handleInputChange("email", e.target.value)}
                   required
-                  className="h-12"
+                  className="h-11 md:h-12 text-base"
                 />
               </div>
 
@@ -110,13 +111,13 @@ const ContactForm = () => {
                   placeholder="Message (Optional)"
                   value={formData.message}
                   onChange={(e) => handleInputChange("message", e.target.value)}
-                  className="min-h-[50px]"
+                  className="min-h-[60px] md:min-h-[50px] text-base"
                 />
               </div>
 
               <Button 
                 type="submit" 
-                className="w-full h-12 button-shadow text-lg font-semibold bg-[#0B3A55] hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors"
+                className="w-full h-12 md:h-12 button-shadow text-base md:text-lg font-semibold bg-[#0B3A55] hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors min-h-[48px]"
               >
                 Request Call Back
               </Button>

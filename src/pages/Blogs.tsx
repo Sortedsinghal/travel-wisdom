@@ -112,19 +112,19 @@ const Blogs = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <div className="bg-gray-50 py-12">
+      <div className="bg-gray-50 py-8 md:py-12">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-6 md:mb-8">
+            <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-3 md:mb-4">
               Travel Blogs & Guides <span role="img" aria-label="book">📖</span>
             </h1>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto px-4">
               Discover travel tips, destination guides, and inspiring stories to help you plan your next adventure.
             </p>
           </div>
 
           {/* Blog cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {visibleBlogs.map((blog) => (
               <Link key={blog.id} to={`/blogs/${blog.slug}`}>
                 <Card className="hover:shadow-lg transition-shadow flex flex-col h-full group cursor-pointer">
@@ -132,7 +132,7 @@ const Blogs = () => {
                     <img 
                       src={blog.imageUrl} 
                       alt={blog.title} 
-                      className="w-full h-48 object-cover rounded-t-md transition-transform duration-300 group-hover:scale-105" 
+                      className="w-full h-40 md:h-48 object-cover rounded-t-md transition-transform duration-300 group-hover:scale-105" 
                     />
                     <div className="absolute top-2 left-2 bg-[#0B3A55] text-white text-xs px-2 py-1 rounded">
                       {blog.category}
@@ -141,16 +141,16 @@ const Blogs = () => {
                       {blog.readTime}
                     </div>
                   </div>
-                  <CardHeader className="pb-2">
-                    <CardTitle className="text-base font-semibold leading-tight h-12 overflow-hidden group-hover:text-[#0B3A55] transition-colors">
+                  <CardHeader className="pb-2 p-4">
+                    <CardTitle className="text-sm md:text-base font-semibold leading-tight min-h-[2.5rem] md:min-h-[3rem] overflow-hidden group-hover:text-[#0B3A55] transition-colors">
                       {blog.title}
                     </CardTitle>
                   </CardHeader>
-                  <CardContent className="pt-2 flex-1 flex flex-col">
-                    <p className="text-sm text-gray-600 mb-4 line-clamp-3 flex-1">
+                  <CardContent className="pt-0 p-4 flex-1 flex flex-col">
+                    <p className="text-xs md:text-sm text-gray-600 mb-3 md:mb-4 line-clamp-3 flex-1 leading-relaxed">
                       {blog.excerpt}
                     </p>
-                    <div className="flex justify-between items-center text-xs text-gray-500 border-t pt-3 mt-auto">
+                    <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center text-xs text-gray-500 border-t pt-2 md:pt-3 mt-auto gap-1 sm:gap-0">
                       <span className="flex items-center">
                         <Calendar className="w-3 h-3 mr-1" />
                         {blog.date}
@@ -160,8 +160,8 @@ const Blogs = () => {
                         {blog.author}
                       </span>
                     </div>
-                    <div className="mt-3">
-                      <div className="flex items-center text-[#0B3A55] text-sm font-medium group-hover:underline">
+                    <div className="mt-2 md:mt-3">
+                      <div className="flex items-center text-[#0B3A55] text-xs md:text-sm font-medium group-hover:underline">
                         Read More
                         <ArrowRight className="w-3 h-3 ml-1" />
                       </div>
@@ -172,11 +172,11 @@ const Blogs = () => {
             ))}
           </div>
 
-          <div className="text-center mt-8 flex justify-center gap-4">
+          <div className="text-center mt-6 md:mt-8 flex flex-col sm:flex-row justify-center gap-3 md:gap-4">
             {visibleCount < blogs.length && (
               <button
                 onClick={handleViewMore}
-                className="bg-[#0B3A55] text-white px-6 py-2 rounded hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors"
+                className="bg-[#0B3A55] text-white px-6 py-3 rounded hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors min-h-[48px]"
               >
                 View More
               </button>
@@ -184,14 +184,12 @@ const Blogs = () => {
             {visibleCount > 6 && (
               <button
                 onClick={handleViewLess}
-                className="bg-[#0B3A55] text-white px-6 py-2 rounded hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors"
+                className="bg-[#0B3A55] text-white px-6 py-3 rounded hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors min-h-[48px]"
               >
                 View Less
               </button>
             )}
           </div>
-
-
         </div>
       </div>
       <Footer />

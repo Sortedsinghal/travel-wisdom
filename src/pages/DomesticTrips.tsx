@@ -173,45 +173,47 @@ const DomesticTrips = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <div className="bg-gray-50 py-12">
+      <div className="bg-gray-50 py-8 md:py-12">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Domestic Trips For You</h1>
+          <div className="text-center mb-6 md:mb-8">
+            <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">Domestic Trips For You</h1>
           </div>
 
           {/* Trip cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
             {visibleTrips.map((trip) => (
               <Card key={trip.id} className="hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="relative">
-                  <img src={trip.imageUrl} alt={trip.title} className="w-full h-48 object-cover rounded-t-md" />
-                  <div className="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
-                    Discount: ₹{trip.discount} Off
-                  </div>
+                  <img src={trip.imageUrl} alt={trip.title} className="w-full h-40 md:h-48 object-cover rounded-t-md" />
+                  {trip.discount > 0 && (
+                    <div className="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+                      ₹{trip.discount} Off
+                    </div>
+                  )}
                   <div className="absolute bottom-2 left-2 bg-yellow-300 text-black text-xs px-2 py-1 rounded">
                     {trip.duration}
                   </div>
                 </div>
-                <CardHeader className="pb-2">
-                  <CardTitle className="text-base font-semibold leading-tight h-12 overflow-hidden">{trip.title}</CardTitle>
+                <CardHeader className="pb-2 p-3 md:p-4">
+                  <CardTitle className="text-sm md:text-base font-semibold leading-tight min-h-[2.5rem] md:min-h-[3rem] overflow-hidden">{trip.title}</CardTitle>
                 </CardHeader>
-                <CardContent className="pt-2 flex-1 flex flex-col">
+                <CardContent className="pt-0 p-3 md:p-4 flex-1 flex flex-col">
                   <div className="mb-3 flex-grow">
                     {trip.discount > 0 && (
-                      <span className="line-through text-gray-400 text-sm block">₹{trip.originalPrice.toLocaleString()}</span>
+                      <span className="line-through text-gray-400 text-xs md:text-sm block">₹{trip.originalPrice.toLocaleString()}</span>
                     )}
-                    <span className="font-bold text-lg text-gray-900">₹{trip.price.toLocaleString()}</span>
-                    <span className="text-sm text-gray-600 block">per person</span>
+                    <span className="font-bold text-base md:text-lg text-gray-900">₹{trip.price.toLocaleString()}</span>
+                    <span className="text-xs md:text-sm text-gray-600 block">per person</span>
                   </div>
                   <div className="flex gap-2 mt-auto">
                     <button 
                       onClick={() => navigate(getTripRoute(trip.title))}
-                      className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-3 py-1 text-sm hover:bg-[#0B3A55] hover:text-white transition-colors"
+                      className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-2 md:px-3 py-2 text-xs md:text-sm hover:bg-[#0B3A55] hover:text-white transition-colors min-h-[40px] flex items-center justify-center"
                     >
-                      Trip Details
+                      Details
                     </button>
-                    <button onClick={() => setShowQueryForm(true)} className="flex-1 bg-[#0B3A55] text-white rounded px-3 py-1 text-sm hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors">
-                      Send Query
+                    <button onClick={() => setShowQueryForm(true)} className="flex-1 bg-[#0B3A55] text-white rounded px-2 md:px-3 py-2 text-xs md:text-sm hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors min-h-[40px] flex items-center justify-center">
+                      Query
                     </button>
                   </div>
                 </CardContent>
@@ -219,11 +221,11 @@ const DomesticTrips = () => {
             ))}
           </div>
 
-          <div className="text-center mt-8 flex justify-center gap-4">
+          <div className="text-center mt-6 md:mt-8 flex flex-col sm:flex-row justify-center gap-3 md:gap-4">
             {visibleCount < trips.length && (
               <button
                 onClick={handleViewMore}
-                className="bg-[#0B3A55] text-white px-6 py-2 rounded hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors"
+                className="bg-[#0B3A55] text-white px-6 py-3 rounded hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors min-h-[48px]"
               >
                 View More
               </button>
@@ -231,27 +233,27 @@ const DomesticTrips = () => {
             {visibleCount > 8 && (
               <button
                 onClick={handleViewLess}
-                className="bg-[#0B3A55] text-white px-6 py-2 rounded hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors"
+                className="bg-[#0B3A55] text-white px-6 py-3 rounded hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors min-h-[48px]"
               >
                 View Less
               </button>
             )}
           </div>
 
-          {/* New section: Why Select To Travel With Us */}
-          <div className="mt-16 text-center">
-            <h2 className="text-3xl font-bold mb-8">
+          {/* Why Select To Travel With Us */}
+          <div className="mt-12 md:mt-16 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">
               Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span>
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
               {reasons.map((reason, index) => (
                 <div
                   key={index}
-                  className="border-2 border-[#0B3A55] rounded-lg p-6 text-left shadow-md transform transition-transform hover:-translate-y-3 cursor-pointer"
+                  className="border-2 border-[#0B3A55] rounded-lg p-4 md:p-6 text-left shadow-md transform transition-transform hover:-translate-y-3 cursor-pointer"
                 >
-                  <div className="mb-4">{reason.icon}</div>
-                  <h3 className="text-2xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
-                  <p className="text-1xl text-[#0B3A55]">{reason.description}</p>
+                  <div className="mb-3 md:mb-4">{reason.icon}</div>
+                  <h3 className="text-lg md:text-2xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
+                  <p className="text-sm md:text-base text-[#0B3A55]">{reason.description}</p>
                 </div>
               ))}
             </div>

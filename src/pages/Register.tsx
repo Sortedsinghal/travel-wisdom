@@ -10,7 +10,7 @@ import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { API_BASE_URL } from "@/config/api";
 import { useNavigate } from "react-router-dom";
-import TravelWisdomLogo from "@/travel-wisdom-logo.png";
+
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -130,9 +130,13 @@ const Register = () => {
     <div className="min-h-screen bg-background">
       <Header />
       {/* Registration Form */}
-      <section className="py-16">
+      <section className="py-8 md:py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-md mx-auto">
+            <div className="text-center mb-6 md:mb-8">
+              <h1 className="text-2xl md:text-3xl font-bold text-[#0B3A55] mb-2">Join Travel Wisdom</h1>
+              <p className="text-gray-600">Create your account to start your journey</p>
+            </div>
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* First Name */}
               <div className="space-y-2">
@@ -148,7 +152,7 @@ const Register = () => {
                     value={formData.firstName}
                     onChange={(e) => handleInputChange("firstName", e.target.value)}
                     required
-                    className="pl-10 h-12"
+                    className="pl-10 h-12 text-base"
                   />
                 </div>
               </div>
@@ -167,7 +171,7 @@ const Register = () => {
                     value={formData.lastName}
                     onChange={(e) => handleInputChange("lastName", e.target.value)}
                     required
-                    className="pl-10 h-12"
+                    className="pl-10 h-12 text-base"
                   />
                 </div>
               </div>
@@ -283,7 +287,7 @@ const Register = () => {
               </div>
 
               {/* Register Button */}
-              <Button type="submit" className="w-full h-12 bg-[#0B3A55] hover:bg-white hover:text-[#0B3A55] border border-[#0B3A55] text-white font-semibold text-lg">
+              <Button type="submit" className="w-full h-12 bg-[#0B3A55] hover:bg-white hover:text-[#0B3A55] border border-[#0B3A55] text-white font-semibold text-base md:text-lg min-h-[48px]">
                 Create Account
               </Button>
             </form>
