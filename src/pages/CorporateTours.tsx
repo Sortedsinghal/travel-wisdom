@@ -136,6 +136,7 @@ const domesticPlansData = [
 const VISIBLE_PLANS_MOBILE = 1;
 const VISIBLE_PLANS_TABLET = 2;
 const VISIBLE_PLANS_DESKTOP = 4;
+const VISIBLE_PLANS = 4; // Default visible plans for carousel
 const CARD_GAP = 24; // Tailwind's gap-6 is 1.5rem or 24px
 
 // --- Domestic Plans Carousel Component (New) ---
