@@ -406,7 +406,8 @@ const InternationalPlansCarousel = ({ setShowQueryForm }) => {
           className="flex transition-transform duration-700 ease-in-out" 
           style={{ 
             transform: `translateX(${translateXValue})`,
-            gap: `${CARD_GAP}px`
+            gap: `${CARD_GAP}px`,
+            willChange: 'transform'
           }}
         >
           {loopData.map((plan, index) => (
