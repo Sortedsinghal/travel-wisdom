@@ -21,7 +21,7 @@ const ItineraryItem: React.FC<{ item: { day: number | string; title: string; con
         <div className="border border-gray-200 rounded-lg overflow-hidden">
             <button onClick={onClick} className="w-full p-4 text-left flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors">
                 <div className="flex items-center gap-3">
-                    <span className="bg-[#0B3A55] text-white text-xs font-semibold px-3 py-1 rounded-full">{typeof item.day === 'number' ? `Day ${item.day}` : item.day}</span>
+                    <span className="bg-[#0B3A55] text-white text-xs font-semibold px-3 py-2 rounded-full min-w-[60px] text-center">{typeof item.day === 'number' ? `Day ${item.day}` : item.day}</span>
                     <h3 className="font-semibold text-sm md:text-base text-gray-800">{item.title}</h3>
                 </div>
                 {isOpen ? <ChevronUp className="w-5 h-5 text-[#0B3A55]" /> : <ChevronDown className="w-5 h-5 text-gray-500" />}

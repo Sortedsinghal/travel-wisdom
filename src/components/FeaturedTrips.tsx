@@ -33,20 +33,20 @@ const FeaturedTrips: React.FC<FeaturedTripsProps> = ({ title, trips, viewMoreLin
     responsive: [
       { breakpoint: 1280, settings: { slidesToShow: 3 } },
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 640, settings: { slidesToShow: 1 } },
+      { breakpoint: 640, settings: { slidesToShow: 2 } },
     ],
   };
 
   return (
-    <section className="py-12 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-3xl font-bold">{title}</h2>
+    <section className="py-6 md:py-12 bg-white">
+      <div className="container mx-auto px-3 md:px-4">
+        <div className="flex justify-between items-center mb-4 md:mb-6">
+          <h2 className="text-lg md:text-3xl font-bold">{title}</h2>
           <Link
             to={viewMoreLink}
-            className="flex items-center text-blue-700 font-semibold hover:underline"
+            className="flex items-center text-blue-700 font-semibold hover:underline text-sm md:text-base"
           >
-            View All <ArrowRight className="ml-2 h-4 w-4" />
+            View All <ArrowRight className="ml-1 md:ml-2 h-3 w-3 md:h-4 md:w-4" />
           </Link>
         </div>
         <Slider {...sliderSettings}>

@@ -34,7 +34,7 @@ const Index = () => {
   const [showFullText, setShowFullText] = React.useState(false);
 
   return (
-    <div className="min-h-screen bg-background pb-20 md:pb-0">
+    <div className="min-h-screen bg-background pb-16 md:pb-0">
       <Header />
       <Hero />
       <TripCategories />
@@ -47,21 +47,21 @@ const Index = () => {
 
       <HowToPlanTrip />
       <CollaborationsSlider />
-      <section className="py-8 md:py-16 bg-background">
-        <div className="container mx-auto px-4">
+      <section className="py-6 md:py-16 bg-background">
+        <div className="container mx-auto px-3 md:px-4">
           <div className="text-center">
-            <h2 className="text-xl md:text-3xl font-bold mb-6 md:mb-8">
+            <h2 className="text-lg md:text-3xl font-bold mb-4 md:mb-8 px-2">
               Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span>
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-8 mx-auto">
               {reasons.map((reason, index) => (
                 <div
                   key={index}
-                  className="border-2 border-[#0B3A55] rounded-lg p-4 md:p-6 text-left shadow-md transform transition-transform hover:-translate-y-3 cursor-pointer"
+                  className="border-2 border-[#0B3A55] rounded-lg p-3 md:p-6 text-left shadow-md transform transition-transform hover:-translate-y-3 cursor-pointer"
                 >
-                  <div className="mb-3 md:mb-4">{reason.icon}</div>
-                  <h3 className="text-lg md:text-2xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
-                  <p className="text-sm md:text-base text-[#0B3A55]">{reason.description}</p>
+                  <div className="mb-2 md:mb-4">{reason.icon}</div>
+                  <h3 className="text-base md:text-2xl font-bold text-[#0B3A55] mb-1 md:mb-2 leading-tight">{reason.title}</h3>
+                  <p className="text-xs md:text-base text-[#0B3A55] leading-relaxed">{reason.description}</p>
                 </div>
               ))}
             </div>
@@ -69,38 +69,38 @@ const Index = () => {
         </div>
       </section>
       <section
-        className="rounded-lg max-w-7xl mx-auto text-left mt-6 md:mt-10 mb-6 md:mb-10 p-4 md:p-6 flex flex-col md:flex-row items-center"
+        className="rounded-lg max-w-7xl mx-auto text-left mt-4 md:mt-10 mb-4 md:mb-10 p-3 md:p-6 flex flex-col md:flex-row items-center mx-3 md:mx-auto"
         style={{
           backgroundColor: '#0B3A55',
         }}
       >
-        <div className="flex-1 text-center md:text-left mb-4 md:mb-0 px-2 md:px-6">
-          <div className="inline-block mb-2">
-            <img src="/customer-service.png" alt="Contact Icon" className="mx-auto w-16 md:w-20 h-16 md:h-20" loading="lazy" decoding="async" />
+        <div className="flex-1 text-center md:text-left mb-3 md:mb-0 px-1 md:px-6">
+          <div className="inline-block mb-1 md:mb-2">
+            <img src="/customer-service.png" alt="Contact Icon" className="mx-auto w-12 md:w-20 h-12 md:h-20" loading="lazy" decoding="async" />
           </div>
-          <h3 className="text-lg md:text-2xl font-bold mb-2 text-white">Have Doubts? Talk To Our Travel Experts!</h3>
-          <p className="text-sm md:text-lg text-white">
+          <h3 className="text-base md:text-2xl font-bold mb-1 md:mb-2 text-white leading-tight">Have Doubts? Talk To Our Travel Experts!</h3>
+          <p className="text-xs md:text-lg text-white">
             we would <span className="text-red-700">❤️</span> to craft a trip just for you.
           </p>
         </div>
-        <div className="flex-1 w-full max-w-md px-2 md:px-6">
+        <div className="flex-1 w-full max-w-md px-1 md:px-6">
           <ContactForm />
         </div>
       </section>
-      <section className="bg-gray-100 p-4 md:p-6 rounded-lg max-w-7xl mx-auto text-left mt-6 md:mt-10 mb-6 md:mb-10">
-        <h2 className="text-lg md:text-2xl font-bold mb-4 md:mb-6">Why Choose Us Travel Wisdom?</h2>
-        <p className="mb-3 md:mb-4 text-sm md:text-base">
+      <section className="bg-gray-100 p-3 md:p-6 rounded-lg max-w-7xl mx-3 md:mx-auto text-left mt-4 md:mt-10 mb-4 md:mb-10">
+        <h2 className="text-base md:text-2xl font-bold mb-3 md:mb-6">Why Choose Us Travel Wisdom?</h2>
+        <p className="mb-2 md:mb-4 text-xs md:text-base leading-relaxed">
           Travel Wisdom takes pride in curating meticulous <a href="#" className="text-[#0B3A55] underline">tour packages</a> that ensure a thrilling and serene experience. We believe that travelling evolves you, the adventure transforms you and the journey traverses through every sense to form the tapestry of the NEW YOU!
         </p>
-        <p className="mb-3 md:mb-4 text-sm md:text-base">
-          Whether you are a solo traveller, or planning to book holiday packages with your friends or family — our tailor made packages are created with detail, attention, care and a passion for travel. Let us take you through the Majestic snow-capped mountains, Pristine beaches and bustling lanes of cosmopolitan cities. Travel Wisdom has an abundance of <a href="#" className="text-[#0B3A55] underline">International packages</a> to alluring and magnetic destinations like <a href="#" className="text-[#0B3A55]underline">Kazakhstan</a>, Dubai, Bali, <a href="#" className="text-[#0B3A55] underline">Vietnam</a>, <a href="#" className="text-[#0B3A55] underline">Thailand</a>, Singapore, Azerbaijan and <a href="#" className="text-[#0B3A55] underline">Georgia</a> to provide you utmost thrill with the least worry. For those adventure and nature lovers, we got you covered too! Our Tour Packages include popular destinations like <a href="#" className="text-[#0B3A55] underline">Leh & Ladakh</a>, <a href="#" className="text-[#0B3A55] underline">Spiti Valley</a>, Uttarakhand, Meghalaya, Manali and Shimla and many more. We work hard to trace the steps of India as well as beyond our borders.
+        <p className="mb-2 md:mb-4 text-xs md:text-base leading-relaxed">
+          Whether you are a solo traveller, or planning to book holiday packages with your friends or family — our tailor made packages are created with detail, attention, care and a passion for travel. Let us take you through the Majestic snow-capped mountains, Pristine beaches and bustling lanes of cosmopolitan cities. Travel Wisdom has an abundance of <a href="#" className="text-[#0B3A55] underline">International packages</a> to alluring and magnetic destinations like <a href="#" className="text-[#0B3A55] underline">Kazakhstan</a>, Dubai, Bali, <a href="#" className="text-[#0B3A55] underline">Vietnam</a>, <a href="#" className="text-[#0B3A55] underline">Thailand</a>, Singapore, Azerbaijan and <a href="#" className="text-[#0B3A55] underline">Georgia</a> to provide you utmost thrill with the least worry. For those adventure and nature lovers, we got you covered too! Our Tour Packages include popular destinations like <a href="#" className="text-[#0B3A55] underline">Leh & Ladakh</a>, <a href="#" className="text-[#0B3A55] underline">Spiti Valley</a>, Uttarakhand, Meghalaya, Manali and Shimla and many more. We work hard to trace the steps of India as well as beyond our borders.
         </p>
         {showFullText ? (
           <>
-            <p className="mb-3 md:mb-4 text-sm md:text-base">
+            <p className="mb-2 md:mb-4 text-xs md:text-base leading-relaxed">
               Our expert teams are full of local insights and passion for travel, that diligently curate itineraries to help you in turning your dream destination into a reality. We carry years of on-ground experience and knowledge in our pockets, to create polished and immaculate affordable travel packages that make your trip a bit more memorable and under budget.
             </p>
-            <ul className="list-disc list-inside mb-3 md:mb-4 text-sm md:text-base space-y-2">
+            <ul className="list-disc list-inside mb-2 md:mb-4 text-xs md:text-base space-y-1 md:space-y-2 pl-2">
               <li><strong>Backpacking Trips</strong> - Imagine walking through lush verdant valleys surrounded by majestic mountain views and a meandering river. Far away from the hustle-bustle of city life, disappear in nature’s lap.</li>
               <li><strong>Weekend Trips</strong> - Experience a swift trip, ideal for those who have less time, offering a quick <a href="#" className="text-[#0B3A55] underline">weekend getaway</a> with like-minded travellers.</li>
               <li><strong>Corporate Tours</strong> - Beyond the four walled cubicle office, a whole new world awaits you with fun activities and adventure. Get closer with your office mates and elevate your team performance.</li>
@@ -109,12 +109,12 @@ const Index = () => {
               <li><strong>Group Tours</strong> - Whether you are a solo traveller who wishes to share your journey with other kindred spirits or a bunch of friends wishing to expand your travel circle, our group tours help you to venture seamlessly to adventures.</li>
               <li><strong>Adventure Treks</strong>- Explore thrilling trekking trails with Travel Wisdom into the Himalayas and other parts of India, and disappear in the mystical land, tracing every brook and meadow.</li>
             </ul>
-            <p className="text-sm md:text-base">
+            <p className="text-xs md:text-base leading-relaxed">
           The core of Travel Wisdom travel community is our dedication to travel, and to infect you as much with the travel bug as we have been infected. Let us ignite within you the same passion for travel and get you to accompany us on <a href="#" className="text-[#0B3A55] underline">adventure trips</a>. Join us to discover the magic of travel with our Handcrafted Tour packages to locations that will leave you spellbound. Create lifelong memories with Travel Wisdom, and travel to places you have never been to before.
         </p>
             <button
               onClick={() => setShowFullText(false)}
-              className="text-[#0B3A55] font-bold mt-3 md:mt-4 hover:underline text-sm md:text-base"
+              className="text-[#0B3A55] font-bold mt-2 md:mt-4 hover:underline text-xs md:text-base"
             >
               View Less
             </button>
@@ -122,7 +122,7 @@ const Index = () => {
         ) : (
           <button
             onClick={() => setShowFullText(true)}
-            className="text-[#0B3A55] font-bold mt-4 md:mt-9 hover:underline text-sm md:text-base"
+            className="text-[#0B3A55] font-bold mt-2 md:mt-9 hover:underline text-xs md:text-base"
           >
             View More
           </button>
@@ -132,25 +132,25 @@ const Index = () => {
       
       {/* Mobile Bottom Bar */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white shadow-[0_-2px_10px_rgba(0,0,0,0.1)] z-50 border-t border-gray-200">
-        <div className="flex justify-around items-center py-3 px-4">
+        <div className="flex justify-around items-center py-2 px-2">
           {/* Send Query Button */}
           <a
             href="/contact-us"
-            className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-[#0B3A55] gap-1"
+            className="flex flex-col items-center text-[10px] font-medium text-gray-700 hover:text-[#0B3A55] gap-1 min-w-0 flex-1"
           >
-            <img src="/send_query.png" alt="Send Query" className="w-10 h-10" loading="lazy" decoding="async" />
-            <span>Send Query</span>
+            <img src="/send_query.png" alt="Send Query" className="w-8 h-8" loading="lazy" decoding="async" />
+            <span className="truncate">Send Query</span>
           </a>
           
           {/* Call Us Button */}
           <a
             href="tel:+919971545446"
-            className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-[#0B3A55] gap-1"
+            className="flex flex-col items-center text-[10px] font-medium text-gray-700 hover:text-[#0B3A55] gap-1 min-w-0 flex-1"
           >
-            <div className="w-8 h-8 bg-[#0B3A55] rounded-full flex items-center justify-center">
-              <img src="/callus.png" alt="Call Us" className="w-5 h-5" loading="lazy" decoding="async" />
+            <div className="w-7 h-7 bg-[#0B3A55] rounded-full flex items-center justify-center">
+              <img src="/callus.png" alt="Call Us" className="w-4 h-4" loading="lazy" decoding="async" />
             </div>
-            <span>Call Us</span>
+            <span className="truncate">Call Us</span>
           </a>
           
           {/* WhatsApp Button */}
@@ -158,10 +158,10 @@ const Index = () => {
             href="https://wa.me/919971545446"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-green-600 gap-1"
+            className="flex flex-col items-center text-[10px] font-medium text-gray-700 hover:text-green-600 gap-1 min-w-0 flex-1"
           >
-            <img src="/whatsapp_icon.png" alt="WhatsApp" className="w-8 h-8" loading="lazy" decoding="async" />
-            <span>WhatsApp</span>
+            <img src="/whatsapp_icon.png" alt="WhatsApp" className="w-7 h-7" loading="lazy" decoding="async" />
+            <span className="truncate">WhatsApp</span>
           </a>
         </div>
       </div>

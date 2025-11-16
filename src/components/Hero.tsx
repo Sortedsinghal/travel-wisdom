@@ -4,6 +4,7 @@ import { Search, MapPin, Mic, MicOff } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import { allTrips } from "@/data/trips";
 import { useNavigate } from "react-router-dom";
+import Slider from "react-slick";
 
 const videos = [
   "/hero_videos/Black and Green Modern Paris Travel Video.mp4",
@@ -282,36 +283,88 @@ const Hero = () => {
           </div>
         </div>
         {/* Info section at bottom of hero */}
-        <div className="mt-8 md:mt-12 flex justify-center items-center text-white text-lg md:text-2xl font-semibold space-x-4 md:space-x-20 pt-4 md:pt-6 overflow-x-auto">
-          <div className="flex items-center space-x-2 md:space-x-6 flex-shrink-0">
-            <img src="/message_icon.png" alt="Reviews" className="h-8 w-8 md:h-16 md:w-16" />
+        {/* Mobile Slider */}
+        <div className="md:hidden mt-8">
+          <Slider
+            dots={false}
+            infinite={true}
+            speed={500}
+            slidesToShow={2}
+            slidesToScroll={1}
+            autoplay={true}
+            autoplaySpeed={3000}
+            arrows={false}
+          >
+            <div className="px-2">
+              <div className="flex items-center justify-center space-x-3 text-white">
+                <img src="/message_icon.png" alt="Reviews" className="h-8 w-8" />
+                <div className="text-center">
+                  <div className="text-lg font-semibold">1700+</div>
+                  <div className="text-xs font-normal">Reviews</div>
+                </div>
+              </div>
+            </div>
+            <div className="px-2">
+              <div className="flex items-center justify-center space-x-3 text-white">
+                <img src="/travelers.png" alt="Satisfied Travelers" className="h-8 w-8" />
+                <div className="text-center">
+                  <div className="text-lg font-semibold">17000+</div>
+                  <div className="text-xs font-normal">Satisfied Travelers</div>
+                </div>
+              </div>
+            </div>
+            <div className="px-2">
+              <div className="flex items-center justify-center space-x-3 text-white">
+                <img src="/destinations.png" alt="Destinations" className="h-8 w-8" />
+                <div className="text-center">
+                  <div className="text-lg font-semibold">40+</div>
+                  <div className="text-xs font-normal">Destinations</div>
+                </div>
+              </div>
+            </div>
+            <div className="px-2">
+              <div className="flex items-center justify-center space-x-3 text-white">
+                <img src="/experience.png" alt="Experience" className="h-10 w-8" />
+                <div className="text-center">
+                  <div className="text-lg font-semibold">5 Years+</div>
+                  <div className="text-xs font-normal">Experience</div>
+                </div>
+              </div>
+            </div>
+          </Slider>
+        </div>
+        
+        {/* Desktop Layout */}
+        <div className="hidden md:flex mt-12 justify-center items-center text-white text-2xl font-semibold space-x-20 pt-6">
+          <div className="flex items-center space-x-6">
+            <img src="/message_icon.png" alt="Reviews" className="h-16 w-16" />
             <div>
-              <div className="text-lg md:text-4xl">1700+</div>
-              <div className="text-xs md:text-base font-normal">Reviews</div>
+              <div className="text-4xl">1700+</div>
+              <div className="text-base font-normal">Reviews</div>
             </div>
           </div>
-          <div className="border-l border-white/20 h-8 md:h-14" />
-          <div className="flex items-center space-x-2 md:space-x-6 flex-shrink-0">
-            <img src="/travelers.png" alt="Satisfied Travelers" className="h-8 w-8 md:h-16 md:w-16" />
+          <div className="border-l border-white/20 h-14" />
+          <div className="flex items-center space-x-6">
+            <img src="/travelers.png" alt="Satisfied Travelers" className="h-16 w-16" />
             <div>
-              <div className="text-lg md:text-4xl">17000+</div>
-              <div className="text-xs md:text-base font-normal">Satisfied Travelers</div>
+              <div className="text-4xl">17000+</div>
+              <div className="text-base font-normal">Satisfied Travelers</div>
             </div>
           </div>
-          <div className="border-l border-white/20 h-8 md:h-14" />
-          <div className="flex items-center space-x-2 md:space-x-6 flex-shrink-0">
-            <img src="/destinations.png" alt="Destinations" className="h-8 w-8 md:h-16 md:w-16" />
+          <div className="border-l border-white/20 h-14" />
+          <div className="flex items-center space-x-6">
+            <img src="/destinations.png" alt="Destinations" className="h-16 w-16" />
             <div>
-              <div className="text-lg md:text-4xl">40+</div>
-              <div className="text-xs md:text-base font-normal">Destinations</div>
+              <div className="text-4xl">40+</div>
+              <div className="text-base font-normal">Destinations</div>
             </div>
           </div>
-          <div className="border-l border-white/20 h-8 md:h-14" />
-          <div className="flex items-center space-x-2 md:space-x-6 flex-shrink-0">
-            <img src="/experience.png" alt="Experience" className="h-10 w-8 md:h-20 md:w-16" />
+          <div className="border-l border-white/20 h-14" />
+          <div className="flex items-center space-x-6">
+            <img src="/experience.png" alt="Experience" className="h-20 w-16" />
             <div>
-              <div className="text-lg md:text-4xl">5 Years+</div>
-              <div className="text-xs md:text-base font-normal">Experience</div>
+              <div className="text-4xl">5 Years+</div>
+              <div className="text-base font-normal">Experience</div>
             </div>
           </div>
         </div>
