@@ -107,7 +107,7 @@ const Bali = () => {
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
               <div className="lg:col-span-8">
-                <TripSlider trips={handpickedTripsBali} slidesToShow={3} />
+                <TripSlider trips={handpickedTripsBali} slidesToShow={2} />
               </div>
               <aside className="lg:col-span-4">
                 <div className="border bg-white p-6 rounded-2xl shadow-lg">
@@ -125,11 +125,11 @@ const Bali = () => {
           <div className="space-y-20 mt-20">
             <section>
               <h2 className="text-4xl font-bold mb-6">Bali Honeymoon Trips</h2>
-              <TripSlider trips={honeymoonTripsBali} slidesToShow={4} />
+              <TripSlider trips={honeymoonTripsBali} slidesToShow={2} />
             </section>
             <section>
               <h2 className="text-4xl font-bold mb-6">Bali Best Holiday Tours</h2>
-              <TripSlider trips={holidayToursBali} slidesToShow={4} />
+              <TripSlider trips={holidayToursBali} slidesToShow={2} />
             </section>
           </div>
 

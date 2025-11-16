@@ -42,53 +42,53 @@ const TripCarousel = () => {
 
   const visibleCards = tripData.slice(startIndex, startIndex + MAX_VISIBLE_CLIENT_CARDS);
   
-  const TripCard = ({ location, people, company, imagePath, logoPath, key }) => (
-    <div key={key} className="bg-white rounded-xl overflow-hidden shadow-2xl transition-all duration-300 transform hover:scale-[1.02] min-w-[400px]">
+  const TripCard = ({ location, people, company, imagePath, logoPath }) => (
+    <div className="bg-white rounded-xl overflow-hidden shadow-2xl transition-all duration-300 transform hover:scale-[1.02] min-w-[280px] md:min-w-[400px]">
       <div className="relative">
         <div 
-          className="w-full h-48 bg-cover bg-center" 
+          className="w-full h-40 md:h-48 bg-cover bg-center" 
           style={{ backgroundImage: `url(${imagePath})` }}
         >
-          <div className="absolute inset-0 bg-blue-900 bg-opacity-30 flex items-start justify-center p-4">
-            <h3 className="font-bold text-white text-xl text-center mb-2 drop-shadow-lg">
+          <div className="absolute inset-0 bg-blue-900 bg-opacity-30 flex items-start justify-center p-2 md:p-4">
+            <h3 className="font-bold text-white text-sm md:text-xl text-center mb-2 drop-shadow-lg">
               {location} | {people}
             </h3>
           </div>
-          <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 p-1 bg-white rounded-full shadow-lg">
+          <div className="absolute bottom-[-15px] md:bottom-[-20px] left-1/2 transform -translate-x-1/2 p-1 bg-white rounded-full shadow-lg">
             <img 
               src={logoPath} 
               alt={`${company} logo`} 
-              className="w-16 h-16 rounded-full object-contain"
+              className="w-12 h-12 md:w-16 md:h-16 rounded-full object-contain"
             />
           </div>
         </div>
       </div>
-      <div className="p-4 pt-8 text-center">
-        <span className="text-lg font-medium text-gray-800">{company}</span>
+      <div className="p-3 md:p-4 pt-6 md:pt-8 text-center">
+        <span className="text-sm md:text-lg font-medium text-gray-800">{company}</span>
       </div>
     </div>
   );
 
   return (
-    <div className="relative w-full overflow-hidden p-4">
+    <div className="relative w-full overflow-hidden p-2 md:p-4">
       <button 
         onClick={handlePrev} 
-        className="absolute left-3 top-1/2 transform -translate-y-1/2 z-20 p-3 ml-1 bg-white rounded-full shadow-xl opacity-80 hover:opacity-100 transition-opacity"
+        className="absolute left-1 md:left-3 top-1/2 transform -translate-y-1/2 z-20 p-2 md:p-3 bg-white rounded-full shadow-xl opacity-80 hover:opacity-100 transition-opacity"
         aria-label="Previous trip cards"
       >
-        <ChevronLeft className="w-6 h-6 text-gray-800" />
+        <ChevronLeft className="w-4 h-4 md:w-6 md:h-6 text-gray-800" />
       </button>
-      <div className="flex justify-start gap-6 transition-transform duration-500 ease-in-out">
+      <div className="flex justify-start gap-3 md:gap-6 transition-transform duration-500 ease-in-out">
         {visibleCards.map((trip) => (
-          <TripCard key={trip.key} {...trip} />
+          <TripCard key={trip.key} location={trip.location} people={trip.people} company={trip.company} imagePath={trip.imagePath} logoPath={trip.logoPath} />
         ))}
       </div>
       <button 
         onClick={handleNext} 
-        className="absolute right-9 top-1/2 transform -translate-y-1/2 z-20 p-3 mr-2 bg-white rounded-full shadow-xl opacity-80 hover:opacity-100 transition-opacity"
+        className="absolute right-1 md:right-9 top-1/2 transform -translate-y-1/2 z-20 p-2 md:p-3 bg-white rounded-full shadow-xl opacity-80 hover:opacity-100 transition-opacity"
         aria-label="Next trip cards"
       >
-        <ChevronRight className="w-6 h-6 text-gray-800" />
+        <ChevronRight className="w-4 h-4 md:w-6 md:h-6 text-gray-800" />
       </button>
     </div>
   );
@@ -132,22 +132,26 @@ const domesticPlansData = [
     key: 'corbett'
   },
 ];
-const VISIBLE_PLANS = 4;
-const CARD_GAP = 24; // Tailwind's gap-6 is 1.5rem or 24px
-=======
-];
-const VISIBLE_PLANS = 4;
-const CARD_GAP = 24; // Tailwind's gap-6 is 1.5rem or 24px
-=======
-const VISIBLE_PLANS = 4;
->>>>>>> parent of 358a2cd (updated mobile layout for better usability)
+const VISIBLE_PLANS_DESKTOP = 4;
+const VISIBLE_PLANS_MOBILE = 2;
 const CARD_GAP = 24; // Tailwind's gap-6 is 1.5rem or 24px
 
 // --- Domestic Plans Carousel Component (New) ---
 const DomesticPlansCarousel = ({ setShowQueryForm }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
   const totalCards = domesticPlansData.length;
   const slideDuration = 3500; // Auto-slide every 3.5 seconds
+
+  // Check if mobile on mount and resize
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  const visiblePlans = isMobile ? VISIBLE_PLANS_MOBILE : VISIBLE_PLANS_DESKTOP;
 
   const handleNext = useCallback(() => {
     setCurrentIndex((prevIndex) => (prevIndex === totalCards) ? 0 : prevIndex + 1);
@@ -171,34 +175,33 @@ const DomesticPlansCarousel = ({ setShowQueryForm }) => {
 
   // Prepare the data array for looping (duplicate the first few cards)
   const loopData = useMemo(() => {
-    return [...domesticPlansData, ...domesticPlansData.slice(0, VISIBLE_PLANS)];
-  }, []);
+    return [...domesticPlansData, ...domesticPlansData.slice(0, visiblePlans)];
+  }, [visiblePlans]);
 
   // Calculate the offset to translate the carousel track
-  const cardWidthPercentage = 100 / VISIBLE_PLANS;
+  const cardWidthPercentage = 100 / visiblePlans;
   const translateXValue = `calc(${-currentIndex * cardWidthPercentage}% - ${currentIndex * CARD_GAP}px)`;
 
-  const PlanCard = ({ location, tag, image, tagColor, key }) => (
+  const PlanCard = ({ location, tag, image, tagColor }) => (
     <div 
-      key={key} 
       className="bg-white rounded-2xl overflow-hidden shadow-xl flex-shrink-0" 
-      style={{ width: `calc(100% / ${VISIBLE_PLANS} - ${((VISIBLE_PLANS - 1) * CARD_GAP) / VISIBLE_PLANS}px)` }}
+      style={{ width: `calc(100% / ${visiblePlans} - ${((visiblePlans - 1) * CARD_GAP) / visiblePlans}px)` }}
     >
       <div className="relative">
         <img 
           src={image} 
           alt={location} 
-          className="w-full h-60 object-cover" 
+          className="w-full h-40 md:h-60 object-cover" 
         />
-        <div className="absolute top-4 left-4">
-          <span className={`${tagColor} text-white px-3 py-1 rounded-full text-sm font-medium shadow-md`}>
+        <div className="absolute top-2 md:top-4 left-2 md:left-4">
+          <span className={`${tagColor} text-white px-2 md:px-3 py-1 rounded-full text-xs md:text-sm font-medium shadow-md`}>
             {tag}
           </span>
         </div>
       </div>
-      <div className="p-6 text-center">
-        <h3 className="text-xl font-semibold mb-4 text-gray-900">{location}</h3>
-        <button onClick={() => setShowQueryForm(true)} className="bg-[#0B3A55] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors w-full font-medium shadow-md">
+      <div className="p-3 md:p-6 text-center">
+        <h3 className="text-sm md:text-xl font-semibold mb-3 md:mb-4 text-gray-900">{location}</h3>
+        <button onClick={() => setShowQueryForm(true)} className="bg-[#0B3A55] text-white px-3 md:px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors w-full font-medium shadow-md text-xs md:text-base">
           Send Query
         </button>
       </div>
@@ -234,7 +237,7 @@ const DomesticPlansCarousel = ({ setShowQueryForm }) => {
         }}
       >
         {loopData.map((plan, index) => (
-          <PlanCard key={`${plan.key}-${index}`} {...plan} /> 
+          <PlanCard key={`${plan.key}-${index}`} location={plan.location} tag={plan.tag} image={plan.image} tagColor={plan.tagColor} /> 
         ))}
       </div>
     </div>
@@ -283,9 +286,20 @@ const internationalPlansData = [
 // --- International Plans Carousel Component (New) ---
 const InternationalPlansCarousel = ({ setShowQueryForm }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [isMobile, setIsMobile] = useState(false);
     const totalCards = internationalPlansData.length;
     const slideDuration = 3500; 
   
+    // Check if mobile on mount and resize
+    useEffect(() => {
+      const checkMobile = () => setIsMobile(window.innerWidth < 768);
+      checkMobile();
+      window.addEventListener('resize', checkMobile);
+      return () => window.removeEventListener('resize', checkMobile);
+    }, []);
+
+    const visiblePlans = isMobile ? VISIBLE_PLANS_MOBILE : VISIBLE_PLANS_DESKTOP;
+
     const handleNext = useCallback(() => {
         setCurrentIndex((prevIndex) => (prevIndex === totalCards) ? 0 : prevIndex + 1);
     }, [totalCards]);
@@ -308,34 +322,33 @@ const InternationalPlansCarousel = ({ setShowQueryForm }) => {
   
     // Prepare the data array for looping
     const loopData = useMemo(() => {
-      return [...internationalPlansData, ...internationalPlansData.slice(0, VISIBLE_PLANS)];
-    }, []);
+      return [...internationalPlansData, ...internationalPlansData.slice(0, visiblePlans)];
+    }, [visiblePlans]);
   
     // Calculate the offset to translate the carousel track
-    const cardWidthPercentage = 100 / VISIBLE_PLANS;
+    const cardWidthPercentage = 100 / visiblePlans;
     const translateXValue = `calc(${-currentIndex * cardWidthPercentage}% - ${currentIndex * CARD_GAP}px)`;
   
-    const PlanCard = ({ location, tag, image, tagColor, key }) => (
+    const PlanCard = ({ location, tag, image, tagColor }) => (
       <div 
-        key={key} 
         className="bg-white rounded-2xl overflow-hidden shadow-xl flex-shrink-0" 
-        style={{ width: `calc(100% / ${VISIBLE_PLANS} - ${((VISIBLE_PLANS - 1) * CARD_GAP) / VISIBLE_PLANS}px)` }}
+        style={{ width: `calc(100% / ${visiblePlans} - ${((visiblePlans - 1) * CARD_GAP) / visiblePlans}px)` }}
       >
         <div className="relative">
           <img 
             src={image} 
             alt={location} 
-            className="w-full h-60 object-cover" 
+            className="w-full h-40 md:h-60 object-cover" 
           />
-          <div className="absolute top-4 left-4">
-            <span className={`${tagColor} text-white px-3 py-1 rounded-full text-sm font-medium shadow-md`}>
+          <div className="absolute top-2 md:top-4 left-2 md:left-4">
+            <span className={`${tagColor} text-white px-2 md:px-3 py-1 rounded-full text-xs md:text-sm font-medium shadow-md`}>
               {tag}
             </span>
           </div>
         </div>
-        <div className="p-6 text-center">
-          <h3 className="text-xl font-semibold mb-4 text-gray-900">{location}</h3>
-          <button onClick={() => setShowQueryForm(true)} className="bg-[#0B3A55] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors w-full font-medium shadow-md">
+        <div className="p-3 md:p-6 text-center">
+          <h3 className="text-sm md:text-xl font-semibold mb-3 md:mb-4 text-gray-900">{location}</h3>
+          <button onClick={() => setShowQueryForm(true)} className="bg-[#0B3A55] text-white px-3 md:px-6 py-2 rounded-lg hover:bg-opacity-90 transition-colors w-full font-medium shadow-md text-xs md:text-base">
             Send Query
           </button>
         </div>
@@ -371,7 +384,7 @@ const InternationalPlansCarousel = ({ setShowQueryForm }) => {
           }}
         >
           {loopData.map((plan, index) => (
-            <PlanCard key={`${plan.key}-${index}`} {...plan} /> 
+            <PlanCard key={`${plan.key}-${index}`} location={plan.location} tag={plan.tag} image={plan.image} tagColor={plan.tagColor} /> 
           ))}
         </div>
       </div>
@@ -409,18 +422,30 @@ const GallerySection = () => {
     ];
 
     return (
-      <div id="well-memories-gallery" className="py-20 bg-gray-50">
+      <div id="well-memories-gallery" className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Well Memories : Faces & Places 
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
+              Wall of Memories : Faces & Places 
             </h2>
           </div>
   
+          {/* Mobile Layout - 2 columns */}
+          <div className="md:hidden grid grid-cols-2 gap-3 max-w-md mx-auto">
+            {galleryImages.map((item) => (
+              <div 
+                key={item.id}
+                className="rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-[1.02] cursor-pointer aspect-square"
+              >
+                <img src={item.src} alt={item.alt} className="w-full h-full object-cover" />
+              </div>
+            ))}
+          </div>
+
+          {/* Desktop Layout - Original 4-column grid */}
           <div 
-            className="max-w-7xl mx-auto grid gap-4 p-4"
+            className="hidden md:grid max-w-7xl mx-auto gap-4 p-4"
             style={{
-              display: 'grid',
               gridTemplateColumns: 'repeat(4, 1fr)',
               gridTemplateRows: 'repeat(2, minmax(250px, 1fr))', 
             }}
@@ -491,21 +516,21 @@ const DetailedContactForm = () => {
     };
 
     return (
-        <div className="bg-white p-8 rounded-3xl shadow-2xl max-w-xl w-full">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">
+        <div className="bg-white p-4 md:p-8 rounded-2xl md:rounded-3xl shadow-2xl max-w-xl w-full mx-4">
+            <h2 className="text-xl md:text-3xl font-bold text-gray-900 mb-2">
                 Have Doubts? Talk To Our Travel Experts!
             </h2>
-            <p className="text-lg text-gray-600 mb-6">
+            <p className="text-sm md:text-lg text-gray-600 mb-4 md:mb-6">
                 we would <span className="text-red-600">❤️</span> to craft a trip just for you.
             </p>
-            <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-3 md:gap-4">
                 <input 
                     type="text" 
                     placeholder="Full Name" 
                     value={formData.fullName}
                     onChange={(e) => handleInputChange('fullName', e.target.value)}
                     required
-                    className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
+                    className="p-2 md:p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] text-sm md:text-base"
                 />
                 <input 
                     type="tel" 
@@ -513,7 +538,7 @@ const DetailedContactForm = () => {
                     value={formData.mobile}
                     onChange={(e) => handleInputChange('mobile', e.target.value)}
                     required
-                    className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
+                    className="p-2 md:p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] text-sm md:text-base"
                 />
                 <input 
                     type="email" 
@@ -521,26 +546,26 @@ const DetailedContactForm = () => {
                     value={formData.email}
                     onChange={(e) => handleInputChange('email', e.target.value)}
                     required
-                    className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
+                    className="p-2 md:p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] text-sm md:text-base"
                 />
                 <input 
                     type="text" 
                     placeholder="Company Name" 
                     value={formData.company}
                     onChange={(e) => handleInputChange('company', e.target.value)}
-                    className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
+                    className="p-2 md:p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] text-sm md:text-base"
                 />
                 <input 
                     type="number" 
                     placeholder="No. of Travellers" 
                     value={formData.travellers}
                     onChange={(e) => handleInputChange('travellers', e.target.value)}
-                    className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
+                    className="p-2 md:p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] text-sm md:text-base"
                 />
                 <select
                     value={formData.month}
                     onChange={(e) => handleInputChange('month', e.target.value)}
-                    className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] appearance-none cursor-pointer col-span-1"
+                    className="p-2 md:p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] appearance-none cursor-pointer text-sm md:text-base"
                 >
                     <option value="">Month of Travel</option>
                     <option value="January">January</option>
@@ -561,19 +586,19 @@ const DetailedContactForm = () => {
                     placeholder="Destination Suggestion" 
                     value={formData.destination}
                     onChange={(e) => handleInputChange('destination', e.target.value)}
-                    className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] col-span-1"
+                    className="p-2 md:p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] text-sm md:text-base"
                 />
                 <textarea 
                     placeholder="Remarks" 
                     rows={1}
                     value={formData.remarks}
                     onChange={(e) => handleInputChange('remarks', e.target.value)}
-                    className="p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] resize-none col-span-1"
+                    className="p-2 md:p-3 border border-gray-300 rounded-lg focus:ring-[#0B3A55] focus:border-[#0B3A55] resize-none text-sm md:text-base"
                 ></textarea>
                 
                 <button 
                     type="submit"
-                    className="w-full bg-[#0B3A55] text-white p-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors col-span-full mt-4"
+                    className="w-full bg-[#0B3A55] text-white p-2 md:p-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors mt-2 md:mt-4 text-sm md:text-base"
                 >
                     Request Callback
                 </button>
@@ -632,11 +657,11 @@ const FAQSection = () => {
     };
 
     return (
-        <div className="py-16 bg-white">
+        <div className="py-8 md:py-16 bg-white">
             <div className="container mx-auto px-4">
-                <div className="text-center mb-12">
-                    <h2 className="text-4xl font-bold text-gray-900 mb-4">Travel Wisdom Corporate Tours FAQs</h2>
-                    <hr className="w-24 h-1 bg-gray-300 mx-auto" />
+                <div className="text-center mb-8 md:mb-12">
+                    <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">Travel Wisdom Corporate Tours FAQs</h2>
+                    <hr className="w-16 md:w-24 h-1 bg-gray-300 mx-auto" />
                 </div>
                 
                 <div className="max-w-4xl mx-auto space-y-4">
@@ -644,9 +669,9 @@ const FAQSection = () => {
                         <div key={faq.id} className="border border-gray-200 rounded-lg">
                             <button 
                                 onClick={() => toggleFAQ(faq.id)}
-                                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50"
+                                className="w-full px-3 md:px-6 py-3 md:py-4 text-left flex justify-between items-center hover:bg-gray-50"
                             >
-                                <span className="text-lg font-medium text-gray-900">{faq.question}</span>
+                                <span className="text-sm md:text-lg font-medium text-gray-900 pr-2">{faq.question}</span>
                                 <svg 
                                     className={`w-5 h-5 text-gray-500 transition-transform ${openFAQ === faq.id ? 'rotate-180' : ''}`} 
                                     fill="none" 
@@ -657,8 +682,8 @@ const FAQSection = () => {
                                 </svg>
                             </button>
                             {openFAQ === faq.id && (
-                                <div className="px-6 pb-4">
-                                    <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                                <div className="px-3 md:px-6 pb-3 md:pb-4">
+                                    <p className="text-sm md:text-base text-gray-600 leading-relaxed">{faq.answer}</p>
                                 </div>
                             )}
                         </div>
@@ -674,10 +699,10 @@ const CorporatePackagesSection = () => {
     const [showFullText, setShowFullText] = useState(false);
 
     return (
-        <div className="bg-gray-50 py-12">
+        <div className="bg-gray-50 py-8 md:py-12">
             <div className="container mx-auto px-4">
-                <div className="bg-gray-100 p-6 rounded-lg max-w-8xl mx-auto text-left">
-                    <h2 className="text-2xl font-bold mb-8">About Corporate Tours</h2>
+                <div className="bg-gray-100 p-4 md:p-6 rounded-lg max-w-8xl mx-auto text-left">
+                    <h2 className="text-xl md:text-2xl font-bold mb-6 md:mb-8">About Corporate Tours</h2>
                     <hr />
                     <div className="mb-6">
                         <p className="mb-4">
@@ -694,7 +719,7 @@ const CorporatePackagesSection = () => {
                                     No matter whether you are planning a company offsite, annual corporate trip, or corporate group travel, we offer the best solution to make your event unforgettable. Additionally, we have <a href="#" className="text-blue-600 hover:underline">corporate holiday packages</a> for those who want to combine work with pleasure, such as team outing options in India and other international countries, business holiday travel, and company retreats.
                                 </p>
 
-                                <h2 className="text-2xl font-bold mb-4">Domestic Corporate Tour Packages</h2>
+                                <h2 className="text-xl md:text-2xl font-bold mb-4">Domestic Corporate Tour Packages</h2>
                                 <p className="mb-4">
                                     Discover beautiful Indian locations such as Jim Corbett, Ranthambore, Rishikesh, Jibhi and Manali this summer. Very ideal for corporate retreat, team building, and incentive travel, these places not only provide adventure but also the most relaxing and beautiful scenery to revive you physically.
                                 </p>
@@ -721,7 +746,7 @@ const CorporatePackagesSection = () => {
                                     </p>
                                 </div>
 
-                                <h2 className="text-2xl font-bold mb-4">International Corporate Tour Packages</h2>
+                                <h2 className="text-xl md:text-2xl font-bold mb-4">International Corporate Tour Packages</h2>
                                 <p className="mb-4">
                                     You may choose your corporate leisure abroad from the choices like Dubai, <a href="#" className="text-blue-600 hover:underline">Singapore</a> & Malaysia, Thailand, Baku, and Vietnam. It doesn't matter if you are searching for luxury, culture experiences, or team-building activities; these places are the best for executive retreats, MICE travel, and corporate incentives.
                                 </p>
@@ -748,7 +773,7 @@ const CorporatePackagesSection = () => {
                                     </p>
                                 </div>
 
-                                <h2 className="text-2xl font-bold mb-4">Why Choose Travel Wisdom?</h2>
+                                <h2 className="text-xl md:text-2xl font-bold mb-4">Why Choose Travel Wisdom?</h2>
                                 <div className="space-y-4 mb-6">
                                     <p className="mb-4">
                                         <strong>Customized Packages:</strong> We make sure each corporate tour is planned in a way that meets your specific organization's needs and brings out your goals and interests before anything else is thought of.
@@ -881,63 +906,61 @@ const CorporateTours = () => {
       </div>
 
       {/* Exceptional Corporate Experiences Section */}
-      <div className="py-16 bg-white">
+      <div className="py-8 md:py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Exceptional <span className="text-[#0B3A55]">Corporate</span> Experiences <span role="img" aria-label="smile"></span>
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
+              Exceptional <span className="text-[#0B3A55]">Corporate</span> Experiences <span role="img" aria-label="smile">😊</span>
             </h2>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            <div className="text-center">
-              <div className="w-24 h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-4">
-                <img src="/assets/corporate-trips-icon.webp" alt="Corporate Trips" className="w-12 h-12" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <div className="text-center bg-gray-50 p-4 md:p-6 rounded-xl">
+              <div className="w-16 h-16 md:w-24 md:h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <img src="/assets/corporate-trips-icon.webp" alt="Corporate Trips" className="w-8 h-8 md:w-12 md:h-12" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Corporate Trips</h3>
-              <p className="text-gray-600 text-sm">
+              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Corporate Trips</h3>
+              <p className="text-gray-600 text-xs md:text-sm">
                 Bring your work crew together on a trip to elevate team spirit & performances
               </p>
             </div>
             
-            <div className="text-center">
-              <div className="w-24 h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-4">
-                <img src="/assets/team-incentive-travel-icon.webp" alt="Team Incentive Travel" className="w-12 h-12" />
+            <div className="text-center bg-gray-50 p-4 md:p-6 rounded-xl">
+              <div className="w-16 h-16 md:w-24 md:h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <img src="/assets/team-incentive-travel-icon.webp" alt="Team Incentive Travel" className="w-8 h-8 md:w-12 md:h-12" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Team Incentive Travel</h3>
-              <p className="text-gray-600 text-sm">
+              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Team Incentive Travel</h3>
+              <p className="text-gray-600 text-xs md:text-sm">
                 Travel experiences designed to foster team bonding & enjoyment outside office
               </p>
             </div>
             
-            <div className="text-center">
-              <div className="w-24 h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-4">
-                <img src="/assets/business-travel-icon.webp" alt="Business Travel" className="w-12 h-12" />
+            <div className="text-center bg-gray-50 p-4 md:p-6 rounded-xl">
+              <div className="w-16 h-16 md:w-24 md:h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <img src="/assets/business-travel-icon.webp" alt="Business Travel" className="w-8 h-8 md:w-12 md:h-12" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Business Travel</h3>
-              <p className="text-gray-600 text-sm">
+              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Business Travel</h3>
+              <p className="text-gray-600 text-xs md:text-sm">
                 Trips facilitating collaborations, networking & expansion opportunities
               </p>
             </div>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="text-center">
-              <div className="w-24 h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-4">
-                <img src="/assets/MICE-icon.webp" alt="MICE" className="w-12 h-12" />
+            
+            <div className="text-center bg-gray-50 p-4 md:p-6 rounded-xl">
+              <div className="w-16 h-16 md:w-24 md:h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <img src="/assets/MICE-icon.webp" alt="MICE" className="w-8 h-8 md:w-12 md:h-12" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">MICE</h3>
-              <p className="text-gray-600 text-sm">
+              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">MICE</h3>
+              <p className="text-gray-600 text-xs md:text-sm">
                 Transform ordinary Meetings, Incentives, Conferences & Events into extraordinary
               </p>
             </div>
             
-            <div className="text-center">
-              <div className="w-24 h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-4">
-                <img src="/assets/vendor-incentive-plan-icon.webp" alt="Vendor Incentive Plan" className="w-12 h-12" />
+            <div className="text-center bg-gray-50 p-4 md:p-6 rounded-xl sm:col-span-2 lg:col-span-1 sm:justify-self-center lg:justify-self-auto">
+              <div className="w-16 h-16 md:w-24 md:h-24 bg-[#0B3A55] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <img src="/assets/vendor-incentive-plan-icon.webp" alt="Vendor Incentive Plan" className="w-8 h-8 md:w-12 md:h-12" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Vendor Incentive Plan</h3>
-              <p className="text-gray-600 text-sm">
+              <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">Vendor Incentive Plan</h3>
+              <p className="text-gray-600 text-xs md:text-sm">
                 Experiences designed to motivate & reward vendors, suppliers or channel partner
               </p>
             </div>

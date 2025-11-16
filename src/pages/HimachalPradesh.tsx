@@ -88,21 +88,20 @@ const HimachalPradesh = () => {
     <div className="bg-white">
       <Header />
       <main>
-        {/* ✨ Increased width & reduced padding */}
-        <div className="max-w-screen-2xl mx-auto px-2 sm:px-4 lg:px-6 py-8">
+        <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12 py-4 sm:py-8">
 
           {/* --- HERO SECTION --- */}
           <section className="relative">
-            <img src="/cloned_media/3465620240912110336.png" className="w-full h-[500px] object-cover rounded-2xl" alt="Scenic view of Himachal Pradesh" />
-            <div className="absolute inset-0 bg-black/30 rounded-2xl"></div>
-            <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-6xl font-bold z-10 p-4 text-center">
+            <img src="/cloned_media/3465620240912110336.png" className="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-cover rounded-xl sm:rounded-2xl" alt="Scenic view of Himachal Pradesh" />
+            <div className="absolute inset-0 bg-black/30 rounded-xl sm:rounded-2xl"></div>
+            <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-2xl sm:text-4xl lg:text-6xl font-bold z-10 p-2 sm:p-4 text-center">
               Himachal Pradesh Tour Packages
             </h1>
           </section>
 
           {/* --- ABOUT SECTION --- */}
-          <section className="bg-gray-100 p-8 rounded-lg my-8">
-            <h2 className="text-3xl font-semibold border-b-2 border-gray-200 pb-3 mb-6">
+          <section className="bg-gray-100 p-4 sm:p-6 lg:p-8 rounded-lg my-6 sm:my-8">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold border-b-2 border-gray-200 pb-3 mb-4 sm:mb-6">
               About Himachal Pradesh Tour Packages
             </h2>
             <ExpandableText>
@@ -113,18 +112,18 @@ const HimachalPradesh = () => {
           </section>
 
           {/* --- HANDPICKED TRIPS --- */}
-          <section className="mt-16">
-            <h2 className="text-4xl font-bold mb-6">
+          <section className="mt-8 sm:mt-12 lg:mt-16">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">
               <span className="text-blue-700">Handpicked</span> By Our Experts ✨
             </h2>
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-              <div className="lg:col-span-9 xl:col-span-9">
-                <TripSlider trips={handpickedTripsHimachal} slidesToShow={3} />
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+              <div className="lg:col-span-8">
+                <TripSlider trips={handpickedTripsHimachal} slidesToShow={2} />
               </div>
-              <aside className="lg:col-span-3 xl:col-span-3">
-                <div className="border bg-white p-6 rounded-2xl shadow-lg sticky top-24">
-                  <h3 className="text-xl font-semibold text-center mb-1">Let's plan your next trip</h3>
-                  <p className="text-center text-sm text-gray-600 mb-6">Make your move, fill out your details now!</p>
+              <aside className="lg:col-span-4">
+                <div className="border bg-white p-4 sm:p-6 rounded-xl sm:rounded-2xl shadow-lg lg:sticky lg:top-24">
+                  <h3 className="text-lg sm:text-xl font-semibold text-center mb-1">Let's plan your next trip</h3>
+                  <p className="text-center text-sm text-gray-600 mb-4 sm:mb-6">Make your move, fill out your details now!</p>
                   <ContactForm />
                 </div>
               </aside>
@@ -132,35 +131,35 @@ const HimachalPradesh = () => {
           </section>
 
           {/* --- OTHER CATEGORIES --- */}
-          <div className="space-y-20 mt-20">
+          <div className="space-y-12 sm:space-y-16 lg:space-y-20 mt-12 sm:mt-16 lg:mt-20">
             <section>
-              <h2 className="text-4xl font-bold mb-6">Himachal Pradesh Honeymoon Trips</h2>
-              <TripSlider trips={honeymoonTripsHimachal} slidesToShow={4} />
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Himachal Pradesh Honeymoon Trips</h2>
+              <TripSlider trips={honeymoonTripsHimachal} slidesToShow={2} />
             </section>
             <section>
-              <h2 className="text-4xl font-bold mb-6">Himachal Pradesh Family Tours</h2>
-              <TripSlider trips={familyToursHimachal} slidesToShow={4} />
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Himachal Pradesh Family Tours</h2>
+              <TripSlider trips={familyToursHimachal} slidesToShow={2} />
             </section>
             <section>
-              <h2 className="text-4xl font-bold mb-6">Himachal Pradesh Weekend Trips</h2>
-              <TripSlider trips={weekendTripsHimachal} slidesToShow={4} />
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Himachal Pradesh Weekend Trips</h2>
+              <TripSlider trips={weekendTripsHimachal} slidesToShow={2} />
             </section>
             <section>
-              <h2 className="text-4xl font-bold mb-6">Best Treks in Himachal Pradesh</h2>
-              <TripSlider trips={bestTreksHimachal} slidesToShow={4} />
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Best Treks in Himachal Pradesh</h2>
+              <TripSlider trips={bestTreksHimachal} slidesToShow={2} />
             </section>
           </div>
 
           {/* --- WHY TRAVEL WITH US --- */}
-          <section className="py-24">
+          <section className="py-12 sm:py-16 lg:py-24">
             <div className="text-center">
-              <h2 className="text-4xl font-bold mb-12">Why Select To Travel With Us? 🎉</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8 sm:mb-12 px-2 sm:px-0">Why Select To Travel With Us? 🎉</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 max-w-7xl mx-auto">
                 {reasons.map((reason, index) => (
-                  <div key={index} className="bg-gray-50 rounded-lg p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
+                  <div key={index} className="bg-gray-50 rounded-lg p-4 sm:p-6 lg:p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
                     <div className="mb-4 inline-block bg-blue-100 p-4 rounded-full">{reason.icon}</div>
-                    <h3 className="text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
-                    <p className="text-gray-600">{reason.description}</p>
+                    <h3 className="text-lg sm:text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
+                    <p className="text-sm sm:text-base text-gray-600">{reason.description}</p>
                   </div>
                 ))}
               </div>

@@ -6,7 +6,7 @@ import {
   DropdownMenuItem,
 } from "@/components/ui/dropdown-menu";
 import { Link } from "react-router-dom";
-import { Phone, User, ChevronDown } from "lucide-react";
+import { Phone, User, ChevronDown, Menu, X } from "lucide-react";
 import NewCircleLogo from "@/assets/travel-wisdom-logo.png";
 
 const createSlug = (text: string) => {
@@ -22,6 +22,12 @@ const Header = () => {
   const [isWeekendOpen, setIsWeekendOpen] = React.useState(false);
   const [isBackpackingOpen, setIsBackpackingOpen] = React.useState(false);
   const [isInternationalOpen, setIsInternationalOpen] = React.useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+  const [mobileUpcomingOpen, setMobileUpcomingOpen] = React.useState(false);
+  const [mobileDomesticOpen, setMobileDomesticOpen] = React.useState(false);
+  const [mobileWeekendOpen, setMobileWeekendOpen] = React.useState(false);
+  const [mobileBackpackingOpen, setMobileBackpackingOpen] = React.useState(false);
+  const [mobileInternationalOpen, setMobileInternationalOpen] = React.useState(false);
 
   const upcomingTrips = [
     "October 2025",
@@ -76,37 +82,38 @@ const Header = () => {
               <img
                 src={NewCircleLogo}
                 alt="Travel Wisdom Circle"
-                className="w-16 h-14 rounded-full mr-2.5 object-contain"
+                className="w-12 h-10 md:w-16 md:h-14 rounded-full mr-2 md:mr-2.5 object-contain"
                 loading="eager"
                 decoding="async"
               />
-              <span className="text-2xl font-black text-[#000000]" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: '900' }}>
+              <span className="text-lg md:text-2xl font-black text-[#000000]" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: '900' }}>
                 Travel Wisdom
               </span>
             </Link>
 
             {/* Right section */}
-            <div className="flex items-center gap-8">
-              {/* Navigation links */}
-              <nav className="hidden md:flex items-center gap-6">
+            <div className="flex items-center gap-2 md:gap-8">
+              {/* Navigation links - Desktop */}
+              <nav className="hidden lg:flex items-center gap-6">
                 <Link to="/about-us" className="text-gray-700 hover:text-[#0B3A55] transition-colors">About Us</Link>
                 <Link to="/blogs" className="text-gray-700 hover:text-[#0B3A55] transition-colors">Blogs</Link>
-               
                 <Link to="/contact-us" className="text-gray-700 hover:text-[#0B3A55] transition-colors">Contact Us</Link>
               </nav>
 
               {/* Phone number */}
-              <div className="flex items-center gap-2 text-gray-700">
+              <div className="hidden sm:flex items-center gap-2 text-gray-700">
                 <Phone className="h-4 w-4" />
-                <a href="tel:+919971545446" className="font-medium hover:text-[#0B3A55] transition-colors cursor-pointer">
+                <a href="tel:+919971545446" className="font-medium hover:text-[#0B3A55] transition-colors cursor-pointer text-sm md:text-base">
                   +91 9971545446
                 </a>
               </div>
 
               {/* User icon */}
-              <Link to="/login" className="w-10 h-10 bg-[#0B3A55] rounded-full flex items-center justify-center hover:bg-[#0A2E44] transition-colors">
-                <User className="h-5 w-5 text-white" />
+              <Link to="/login" className="w-8 h-8 md:w-10 md:h-10 bg-[#0B3A55] rounded-full flex items-center justify-center hover:bg-[#0A2E44] transition-colors">
+                <User className="h-4 w-4 md:h-5 md:w-5 text-white" />
               </Link>
+
+
             </div>
           </div>
         </div>
@@ -114,8 +121,18 @@ const Header = () => {
 
       {/* Bottom navigation bar */}
       <div className="bg-[#0B3A55] text-white">
-        <div className="container mx-auto px-4">
-          <nav className="flex items-center justify-center gap-8 py-4">
+        <div className="container mx-auto px-2 md:px-4">
+          <div className="flex items-center justify-between lg:justify-center py-4">
+            {/* Mobile menu button */}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="lg:hidden p-2 text-white hover:bg-white/10 rounded transition-colors"
+            >
+              {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+            
+            {/* Desktop Navigation */}
+            <nav className="hidden lg:flex items-center justify-center gap-8">
             {/* Upcoming Group Trips Dropdown */}
             <div 
               onMouseEnter={() => setIsUpcomingOpen(true)}
@@ -236,13 +253,129 @@ const Header = () => {
               </DropdownMenu>
             </div>
 
-            {/* Corporate Tours Link */}
-            <Link to="/corporate-tours" className="px-3 py-2 rounded transition-colors hover:bg-white/10">
-              Corporate Tours
-            </Link>
-          </nav>
+              {/* Corporate Tours Link */}
+              <Link to="/corporate-tours" className="px-3 py-2 rounded transition-colors hover:bg-white/10">
+                Corporate Tours
+              </Link>
+            </nav>
+          </div>
         </div>
       </div>
+
+      {/* Mobile Navigation Menu */}
+      {isMobileMenuOpen && (
+        <div className="lg:hidden bg-white border-b shadow-lg">
+          <nav className="container mx-auto px-4 py-4 space-y-4">
+            {/* Main navigation links */}
+            <Link to="/about-us" className="block text-gray-700 hover:text-[#0B3A55] transition-colors py-2" onClick={() => setIsMobileMenuOpen(false)}>About Us</Link>
+            <Link to="/blogs" className="block text-gray-700 hover:text-[#0B3A55] transition-colors py-2" onClick={() => setIsMobileMenuOpen(false)}>Blogs</Link>
+            <Link to="/contact-us" className="block text-gray-700 hover:text-[#0B3A55] transition-colors py-2" onClick={() => setIsMobileMenuOpen(false)}>Contact Us</Link>
+            
+            {/* Trip categories with dropdowns */}
+            <div className="border-t pt-4">
+              <div className="space-y-3">
+                {/* Upcoming Group Trips */}
+                <div>
+                  <div className="flex items-center justify-between">
+                    <Link to="/upcoming-group-trips" className="text-[#0B3A55] font-semibold py-2" onClick={() => setIsMobileMenuOpen(false)}>Upcoming Group Trips</Link>
+                    <button onClick={() => setMobileUpcomingOpen(!mobileUpcomingOpen)} className="p-1">
+                      <ChevronDown className={`h-4 w-4 text-[#0B3A55] transition-transform ${mobileUpcomingOpen ? 'rotate-180' : ''}`} />
+                    </button>
+                  </div>
+                  {mobileUpcomingOpen && (
+                    <div className="ml-4 space-y-2">
+                      {upcomingTrips.map((month) => (
+                        <Link key={month} to={`/upcoming-group-trips?month=${encodeURIComponent(month)}`} className="block text-gray-600 text-sm py-1" onClick={() => setIsMobileMenuOpen(false)}>
+                          {month}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                
+                {/* Domestic Trips */}
+                <div>
+                  <div className="flex items-center justify-between">
+                    <Link to="/domestic-trips" className="text-[#0B3A55] font-semibold py-2" onClick={() => setIsMobileMenuOpen(false)}>Domestic Trips</Link>
+                    <button onClick={() => setMobileDomesticOpen(!mobileDomesticOpen)} className="p-1">
+                      <ChevronDown className={`h-4 w-4 text-[#0B3A55] transition-transform ${mobileDomesticOpen ? 'rotate-180' : ''}`} />
+                    </button>
+                  </div>
+                  {mobileDomesticOpen && (
+                    <div className="ml-4 space-y-2">
+                      {domesticTrips.map((place) => (
+                        <Link key={place.name} to={place.path} className="block text-gray-600 text-sm py-1" onClick={() => setIsMobileMenuOpen(false)}>
+                          {place.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                
+                {/* Weekend Trips */}
+                <div>
+                  <div className="flex items-center justify-between">
+                    <Link to="/weekend-trips" className="text-[#0B3A55] font-semibold py-2" onClick={() => setIsMobileMenuOpen(false)}>Weekend Trips</Link>
+                    <button onClick={() => setMobileWeekendOpen(!mobileWeekendOpen)} className="p-1">
+                      <ChevronDown className={`h-4 w-4 text-[#0B3A55] transition-transform ${mobileWeekendOpen ? 'rotate-180' : ''}`} />
+                    </button>
+                  </div>
+                  {mobileWeekendOpen && (
+                    <div className="ml-4 space-y-2">
+                      {weekendTripsList.map((trip) => (
+                        <Link key={trip.name} to={trip.path} className="block text-gray-600 text-sm py-1" onClick={() => setIsMobileMenuOpen(false)}>
+                          {trip.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                
+                {/* Backpacking Trips */}
+                <div>
+                  <div className="flex items-center justify-between">
+                    <Link to="/backpacking-trips" className="text-[#0B3A55] font-semibold py-2" onClick={() => setIsMobileMenuOpen(false)}>Backpacking Trips</Link>
+                    <button onClick={() => setMobileBackpackingOpen(!mobileBackpackingOpen)} className="p-1">
+                      <ChevronDown className={`h-4 w-4 text-[#0B3A55] transition-transform ${mobileBackpackingOpen ? 'rotate-180' : ''}`} />
+                    </button>
+                  </div>
+                  {mobileBackpackingOpen && (
+                    <div className="ml-4 space-y-2">
+                      {backpackingTripsList.map((trip) => (
+                        <Link key={trip.name} to={trip.path} className="block text-gray-600 text-sm py-1" onClick={() => setIsMobileMenuOpen(false)}>
+                          {trip.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                
+                {/* International Trips */}
+                <div>
+                  <div className="flex items-center justify-between">
+                    <Link to="/international-trips" className="text-[#0B3A55] font-semibold py-2" onClick={() => setIsMobileMenuOpen(false)}>International Trips</Link>
+                    <button onClick={() => setMobileInternationalOpen(!mobileInternationalOpen)} className="p-1">
+                      <ChevronDown className={`h-4 w-4 text-[#0B3A55] transition-transform ${mobileInternationalOpen ? 'rotate-180' : ''}`} />
+                    </button>
+                  </div>
+                  {mobileInternationalOpen && (
+                    <div className="ml-4 space-y-2">
+                      {internationalTripsList.map((trip) => (
+                        <Link key={trip.name} to={trip.path} className="block text-gray-600 text-sm py-1" onClick={() => setIsMobileMenuOpen(false)}>
+                          {trip.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                
+                {/* Corporate Tours */}
+                <Link to="/corporate-tours" className="block text-[#0B3A55] font-semibold py-2" onClick={() => setIsMobileMenuOpen(false)}>Corporate Tours</Link>
+              </div>
+            </div>
+          </nav>
+        </div>
+      )}
     </header>
   );
 };

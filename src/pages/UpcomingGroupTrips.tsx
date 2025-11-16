@@ -1364,38 +1364,41 @@ const UpcomingGroupTrips = () => {
           </div>
 
           {/* Trip cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
             {filteredTrips.map((trip) => (
               <Card key={trip.id} className="hover:shadow-lg transition-shadow">
                 <div className="relative">
-                  <img src={trip.imageUrl} alt={trip.title} className="w-full h-48 object-cover rounded-t-md" />
-                  <div className="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
-                    Discount: ₹{trip.discount} Off
-                  </div>
-                  <div className="absolute bottom-2 left-2 bg-yellow-300 text-black text-xs px-2 py-1 rounded">
+                  <img src={trip.imageUrl} alt={trip.title} className="w-full aspect-[4/3] object-cover rounded-t-md" />
+                  {trip.discount > 0 && (
+                    <div className="absolute top-1 md:top-2 left-1 md:left-2 bg-red-500 text-white text-xs px-1 md:px-2 py-1 rounded">
+                      ₹{trip.discount} Off
+                    </div>
+                  )}
+                  <div className="absolute bottom-1 md:bottom-2 left-1 md:left-2 bg-yellow-300 text-black text-xs px-1 md:px-2 py-1 rounded">
                     {trip.duration}
                   </div>
                 </div>
-                <CardHeader>
-                  <CardTitle className="text-lg font-semibold">{trip.title}</CardTitle>
+                <CardHeader className="p-2 md:p-6">
+                  <CardTitle className="text-sm md:text-lg font-semibold line-clamp-2">{trip.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="line-through text-gray-400">₹{trip.originalPrice}</span>
-                    <span className="font-bold text-lg">₹{trip.price} per person</span>
+                <CardContent className="p-2 md:p-6 pt-0">
+                  <div className="flex flex-col md:flex-row md:items-center gap-1 md:gap-2 mb-2">
+                    <span className="line-through text-gray-400 text-xs md:text-base">₹{trip.originalPrice}</span>
+                    <span className="font-bold text-sm md:text-lg">₹{trip.price}</span>
+                    <span className="text-xs md:text-sm text-gray-600">per person</span>
                   </div>
-                  <div className="flex gap-2">
+                  <div className="flex gap-1 md:gap-2">
                     <button 
                       onClick={() => navigate(getTripRoute(trip.title))}
-                      className="flex-1 border border-black text-[#0B3A55] rounded px-3 py-1 hover:bg-[#0B3A55] hover:text-white transition-colors"
+                      className="flex-1 border border-black text-[#0B3A55] rounded px-2 md:px-3 py-1 hover:bg-[#0B3A55] hover:text-white transition-colors text-xs md:text-sm"
                     >
-                      Trip Details
+                      Details
                     </button>
                     <button 
                       onClick={() => handleSendQuery(trip.title)}
-                      className="flex-1 border border-black bg-[#0B3A55] text-white rounded px-3 py-1 hover:bg-white hover:text-[#0B3A55] transition-colors"
+                      className="flex-1 border border-black bg-[#0B3A55] text-white rounded px-2 md:px-3 py-1 hover:bg-white hover:text-[#0B3A55] transition-colors text-xs md:text-sm"
                     >
-                      Send Query
+                      Query
                     </button>
                   </div>
                 </CardContent>

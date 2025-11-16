@@ -52,44 +52,44 @@ const InternationalTrips = () => {
           </div>
 
           {/* Trip cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
             {visibleTrips.map((trip) => (
               <Card key={trip.slug} className="hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="relative">
-                  <img src={trip.imageUrl} alt={trip.title} className="w-full h-48 object-cover rounded-t-md" />
-                  <div className="absolute bottom-2 left-2 bg-yellow-300 text-black text-xs px-2 py-1 rounded">
+                  <img src={trip.imageUrl} alt={trip.title} className="w-full aspect-[4/3] object-cover rounded-t-md" />
+                  <div className="absolute bottom-1 md:bottom-2 left-1 md:left-2 bg-yellow-300 text-black text-xs px-1 md:px-2 py-1 rounded">
                     {trip.duration}
                   </div>
                 </div>
-                <CardHeader className="pb-2">
-                  <CardTitle className="text-base font-semibold leading-tight h-12 overflow-hidden">{trip.title}</CardTitle>
+                <CardHeader className="p-2 md:p-6 pb-2">
+                  <CardTitle className="text-sm md:text-base font-semibold leading-tight line-clamp-2">{trip.title}</CardTitle>
                 </CardHeader>
-                <CardContent className="pt-2 flex-1 flex flex-col">
-                  <div className="mb-3 flex-1">
+                <CardContent className="p-2 md:p-6 pt-0 flex-1 flex flex-col">
+                  <div className="mb-2 md:mb-3 flex-1">
                     {/* NEW Price Logic: Handles string values */}
                     {trip.price.startsWith('₹') ? (
                       <>
-                        <span className="font-bold text-lg text-gray-900">{trip.price}</span>
+                        <span className="font-bold text-sm md:text-lg text-gray-900">{trip.price}</span>
                         {trip.originalPrice && (
-                          <span className="text-sm text-gray-500 line-through ml-2">{trip.originalPrice}</span>
+                          <span className="text-xs md:text-sm text-gray-500 line-through ml-2">{trip.originalPrice}</span>
                         )}
-                        <span className="text-sm text-gray-600 block">per person</span>
+                        <span className="text-xs md:text-sm text-gray-600 block">per person</span>
                       </>
                     ) : (
-                      <span className="text-sm text-blue-600 font-medium">{trip.price}</span>
+                      <span className="text-xs md:text-sm text-blue-600 font-medium">{trip.price}</span>
                     )}
                   </div>
-                  <div className="flex gap-2 mt-auto">
+                  <div className="flex gap-1 md:gap-2 mt-auto">
                     <button 
                       // --- FIXED NAVIGATION ---
                       // This now navigates to the detail page using the slug
                       onClick={() => navigate(`/trip/${trip.slug}`)}
-                      className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-3 py-1 text-sm hover:bg-[#0B3A55] hover:text-white transition-colors"
+                      className="flex-1 border border-[#0B3A55] text-[#0B3A55] rounded px-2 md:px-3 py-1 text-xs md:text-sm hover:bg-[#0B3A55] hover:text-white transition-colors"
                     >
-                      Trip Details
+                      Details
                     </button>
-                    <button onClick={() => setShowQueryForm(true)} className="flex-1 bg-[#0B3A55] text-white rounded px-3 py-1 text-sm hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors">
-                      Send Query
+                    <button onClick={() => setShowQueryForm(true)} className="flex-1 bg-[#0B3A55] text-white rounded px-2 md:px-3 py-1 text-xs md:text-sm hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors">
+                      Query
                     </button>
                   </div>
                 </CardContent>

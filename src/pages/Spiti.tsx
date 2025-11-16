@@ -99,7 +99,7 @@ const Spiti = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             <div className="lg:col-span-8">
               {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={handpickedTripsSpiti} slidesToShow={3} />
+              <TripSlider trips={handpickedTripsSpiti} slidesToShow={2} />
             </div>
             <aside className="lg:col-span-4">
               <div className="border bg-white p-6 rounded-2xl shadow-lg">
@@ -116,31 +116,31 @@ const Spiti = () => {
             {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Spiti Valley Circuit Trips</h2>
              {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={circuitTripsSpiti} slidesToShow={4} />
+            <TripSlider trips={circuitTripsSpiti} slidesToShow={2} />
           </section>
           <section>
             {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Spiti Valley Trips From Chandigarh</h2>
              {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={chandigarhTripsSpiti} slidesToShow={3} />
+            <TripSlider trips={chandigarhTripsSpiti} slidesToShow={2} />
           </section>
           <section>
             {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Let’s Explore Spiti Valley Packages</h2>
              {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={exploreTripsSpiti} slidesToShow={3} />
+            <TripSlider trips={exploreTripsSpiti} slidesToShow={2} />
           </section>
         </div>
 
-        <section className="py-24">
+        <section className="py-12 sm:py-16 lg:py-24">
           <div className="text-center">
-            <h2 className="text-4xl font-bold mb-12">Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span></h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8 sm:mb-12 px-2 sm:px-0">Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span></h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 max-w-7xl mx-auto">
               {reasons.map((reason, index) => (
-                <div key={index} className="bg-gray-50 rounded-lg p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
+                <div key={index} className="bg-gray-50 rounded-lg p-4 sm:p-6 lg:p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
                   <div className="mb-4 inline-block bg-blue-100 p-4 rounded-full">{reason.icon}</div>
-                  <h3 className="text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
-                  <p className="text-gray-600">{reason.description}</p>
+                  <h3 className="text-lg sm:text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
+                  <p className="text-sm sm:text-base text-gray-600">{reason.description}</p>
                 </div>
               ))}
             </div>

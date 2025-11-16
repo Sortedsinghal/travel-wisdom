@@ -1129,22 +1129,22 @@ const BlogDetail = () => {
       
       <article className="bg-white">
         {/* Hero Section */}
-        <div className="relative h-96 overflow-hidden">
+        <div className="relative h-64 sm:h-80 lg:h-96 overflow-hidden">
           <img 
             src={blog.imageUrl} 
             alt={blog.title}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end">
-            <div className="container mx-auto px-4 pb-8">
+            <div className="container mx-auto px-4 pb-6 sm:pb-8">
               <div className="max-w-4xl">
                 <span className="inline-block bg-[#0B3A55] text-white text-sm px-3 py-1 rounded mb-4">
                   {blog.category}
                 </span>
-                <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+                <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-3 sm:mb-4">
                   {blog.title}
                 </h1>
-                <div className="flex items-center text-white/90 text-sm space-x-6">
+                <div className="flex flex-wrap items-center text-white/90 text-xs sm:text-sm gap-3 sm:gap-6">
                   <span className="flex items-center">
                     <Calendar className="w-4 h-4 mr-2" />
                     {blog.date}
@@ -1161,10 +1161,10 @@ const BlogDetail = () => {
         </div>
 
         {/* Content */}
-        <div className="container mx-auto px-4 py-12">
+        <div className="container mx-auto px-4 py-6 sm:py-8 lg:py-12">
           <div className="max-w-4xl mx-auto">
             {/* Navigation */}
-            <div className="flex items-center justify-between mb-8">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-6 sm:mb-8 gap-4">
               <Link 
                 to="/blogs" 
                 className="flex items-center text-[#0B3A55] hover:underline"
@@ -1179,9 +1179,9 @@ const BlogDetail = () => {
             </div>
 
             {/* Article Content */}
-            <div className="prose prose-lg max-w-none">
-              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border-l-4 border-[#0B3A55] mb-8">
-                <p className="text-xl text-gray-700 font-medium leading-relaxed italic">
+            <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none">
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 sm:p-6 rounded-xl border-l-4 border-[#0B3A55] mb-6 sm:mb-8">
+                <p className="text-lg sm:text-xl text-gray-700 font-medium leading-relaxed italic">
                   “{blog.excerpt}”
                 </p>
               </div>
@@ -1203,16 +1203,16 @@ const BlogDetail = () => {
             </div>
 
             {/* Author Info */}
-            <div className="mt-12 p-8 bg-gradient-to-r from-[#0B3A55] to-[#0B3A55] rounded-2xl shadow-xl border-white">
-              <div className="flex items-center">
-                <div className="w-24 h-24 mr-6 shadow-3xl bg-white rounded-full p-2">
+            <div className="mt-8 sm:mt-12 p-4 sm:p-6 lg:p-8 bg-gradient-to-r from-[#0B3A55] to-[#0B3A55] rounded-2xl shadow-xl border-white">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 shadow-3xl bg-white rounded-full p-2">
                   <img src="/src/assets/travel-wisdom-logo.png" alt="Travel Wisdom" className="w-full h-full object-contain rounded-full" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-2xl text-white mb-3 flex items-center">
+                  <h3 className="font-bold text-lg sm:text-xl lg:text-2xl text-white mb-2 sm:mb-3 flex items-center text-center sm:text-left">
                   {blog.author}
                   </h3>
-                  <p className="text-blue-100 text-lg leading-relaxed">
+                  <p className="text-blue-100 text-sm sm:text-base lg:text-lg leading-relaxed text-center sm:text-left">
                     ✨ Our team of travel experts brings you the best insights and tips for your next adventure!
                   </p>
                   <div className="mt-4 flex space-x-4">
@@ -1222,17 +1222,17 @@ const BlogDetail = () => {
             </div>
 
             {/* Related Articles */}
-            <div className="mt-12 bg-gradient-to-r from-gray-50 to-blue-50 p-8 rounded-2xl">
-              <h3 className="text-3xl font-bold text-[#0B3A55] mb-8 text-center flex items-center justify-center">
+            <div className="mt-8 sm:mt-12 bg-gradient-to-r from-gray-50 to-blue-50 p-4 sm:p-6 lg:p-8 rounded-2xl">
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0B3A55] mb-6 sm:mb-8 text-center flex items-center justify-center">
                 📚 Related Articles You'll Love
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
                 <Link to="/blogs/solo-trekking-guide" className="block group">
                   <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
                     <img 
                       src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" 
                       alt="Solo Trekking Guide"
-                      className="w-full h-32 object-cover"
+                      className="w-full h-24 sm:h-32 object-cover"
                     />
                     <div className="p-4">
                       <h4 className="font-semibold text-gray-900 group-hover:text-[#0B3A55] transition-colors">
@@ -1249,7 +1249,7 @@ const BlogDetail = () => {
                     <img 
                       src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" 
                       alt="Budget Travel India"
-                      className="w-full h-32 object-cover"
+                      className="w-full h-24 sm:h-32 object-cover"
                     />
                     <div className="p-4">
                       <h4 className="font-semibold text-gray-900 group-hover:text-[#0B3A55] transition-colors">

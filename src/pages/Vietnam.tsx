@@ -117,7 +117,7 @@ const Vietnam = () => {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
               <div className="lg:col-span-8">
                  {/* --- USE FILTERED DATA --- */}
-                <TripSlider trips={handpickedTripsVietnam} slidesToShow={3} />
+                <TripSlider trips={handpickedTripsVietnam} slidesToShow={2} />
               </div>
               <aside className="lg:col-span-4">
                 <div className="border bg-white p-6 rounded-2xl shadow-lg">
@@ -133,34 +133,34 @@ const Vietnam = () => {
             <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Leisure Trips – Relax & Explore!</h2>
                {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={leisureTripsVietnam} slidesToShow={4} />
+              <TripSlider trips={leisureTripsVietnam} slidesToShow={2} />
             </section>
             <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Honeymoon – Romantic Getaway!</h2>
                {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={honeymoonTripsVietnam} slidesToShow={4} />
+              <TripSlider trips={honeymoonTripsVietnam} slidesToShow={2} />
             </section>
             <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Group Trips – Adventure Together!</h2>
                {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={groupTripsVietnam} slidesToShow={3} />
+              <TripSlider trips={groupTripsVietnam} slidesToShow={2} />
             </section>
              <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Tours – Start from Ho Chi Minh!</h2>
                {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={startHoChiMinhTripsVietnam} slidesToShow={4} />
+              <TripSlider trips={startHoChiMinhTripsVietnam} slidesToShow={2} />
             </section>
           </div>
 
-          <section className="py-24">
+          <section className="py-12 sm:py-16 lg:py-24">
             <div className="text-center">
-              <h2 className="text-4xl font-bold mb-12">Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span></h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8 sm:mb-12 px-2 sm:px-0">Why Select To Travel With Us? <span role="img" aria-label="party">🎉</span></h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 max-w-7xl mx-auto">
                 {reasons.map((reason, index) => (
-                  <div key={index} className="bg-gray-50 rounded-lg p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
+                  <div key={index} className="bg-gray-50 rounded-lg p-4 sm:p-6 lg:p-8 text-center shadow-sm hover:shadow-xl transition-shadow duration-300">
                     <div className="mb-4 inline-block bg-blue-100 p-4 rounded-full">{reason.icon}</div>
-                    <h3 className="text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
-                    <p className="text-gray-600">{reason.description}</p>
+                    <h3 className="text-lg sm:text-xl font-bold text-[#0B3A55] mb-2">{reason.title}</h3>
+                    <p className="text-sm sm:text-base text-gray-600">{reason.description}</p>
                   </div>
                 ))}
               </div>
