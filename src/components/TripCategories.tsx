@@ -30,10 +30,9 @@ const categories = [
 
 const TripCategories = () => {
   return (
-    <section className="py-8 md:py-16 bg-background">
+    <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
-        {/* Mobile: 2x3 grid, Desktop: horizontal */}
-        <div className="grid grid-cols-2 gap-6 md:flex md:flex-wrap md:justify-center md:gap-24">
+        <div className="flex flex-wrap justify-center gap-8 md:gap-24">
           {categories.map((category, index) => {
             return (
               <Link
@@ -42,12 +41,12 @@ const TripCategories = () => {
                 className="flex flex-col items-center cursor-pointer group"
               >
                 {/* Circular icon container */}
-                <div className="w-20 h-20 md:w-32 md:h-32 bg-[#0B3A55] rounded-full flex items-center justify-center mb-3 md:mb-4 transition-all duration-300 group-hover:bg-blue-900 group-hover:scale-105 shadow-lg">
-                  <img src={category.icon} alt={category.title} className="h-12 w-12 md:h-16 md:w-16" />
+                <div className="w-24 h-24 md:w-32 md:h-32 bg-[#0B3A55] rounded-full flex items-center justify-center mb-4 transition-all duration-300 group-hover:bg-blue-900 group-hover:scale-105 shadow-lg">
+                  <img src={category.icon} alt={category.title} className="h-15 w-15 md:h-16 md:w-16" />
                 </div>
 
                 {/* Category title */}
-                <h3 className="text-center font-semibold text-foreground text-xs md:text-base leading-tight">
+                <h3 className="text-center font-semibold text-foreground text-sm md:text-base whitespace-nowrap">
                   {category.title}
                 </h3>
               </Link>

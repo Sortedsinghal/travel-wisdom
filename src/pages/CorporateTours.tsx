@@ -42,8 +42,8 @@ const TripCarousel = () => {
 
   const visibleCards = tripData.slice(startIndex, startIndex + MAX_VISIBLE_CLIENT_CARDS);
   
-  const TripCard = ({ location, people, company, imagePath, logoPath }) => (
-    <div className="bg-white rounded-xl overflow-hidden shadow-2xl transition-all duration-300 transform hover:scale-[1.02] min-w-[280px] sm:min-w-[350px] md:min-w-[400px]">
+  const TripCard = ({ location, people, company, imagePath, logoPath, key }) => (
+    <div key={key} className="bg-white rounded-xl overflow-hidden shadow-2xl transition-all duration-300 transform hover:scale-[1.02] min-w-[400px]">
       <div className="relative">
         <div 
           className="w-full h-48 bg-cover bg-center" 
@@ -70,26 +70,25 @@ const TripCarousel = () => {
   );
 
   return (
-    <div className="relative w-full overflow-hidden p-2 sm:p-4">
+    <div className="relative w-full overflow-hidden p-4">
       <button 
         onClick={handlePrev} 
-        className="absolute left-1 sm:left-3 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 bg-white rounded-full shadow-xl opacity-80 hover:opacity-100 transition-opacity"
+        className="absolute left-3 top-1/2 transform -translate-y-1/2 z-20 p-3 ml-1 bg-white rounded-full shadow-xl opacity-80 hover:opacity-100 transition-opacity"
         aria-label="Previous trip cards"
       >
-        <ChevronLeft className="w-4 h-4 sm:w-6 sm:h-6 text-gray-800" />
+        <ChevronLeft className="w-6 h-6 text-gray-800" />
       </button>
-      <div className="flex justify-start gap-3 sm:gap-6 transition-transform duration-500 ease-in-out px-8 sm:px-12">
-        {visibleCards.map((trip) => {
-          const { key, ...tripProps } = trip;
-          return <TripCard key={key} {...tripProps} />;
-        })}
+      <div className="flex justify-start gap-6 transition-transform duration-500 ease-in-out">
+        {visibleCards.map((trip) => (
+          <TripCard key={trip.key} {...trip} />
+        ))}
       </div>
       <button 
         onClick={handleNext} 
-        className="absolute right-1 sm:right-9 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 bg-white rounded-full shadow-xl opacity-80 hover:opacity-100 transition-opacity"
+        className="absolute right-9 top-1/2 transform -translate-y-1/2 z-20 p-3 mr-2 bg-white rounded-full shadow-xl opacity-80 hover:opacity-100 transition-opacity"
         aria-label="Next trip cards"
       >
-        <ChevronRight className="w-4 h-4 sm:w-6 sm:h-6 text-gray-800" />
+        <ChevronRight className="w-6 h-6 text-gray-800" />
       </button>
     </div>
   );
@@ -102,7 +101,7 @@ const domesticPlansData = [
     tag: "River Rafting",
     image: "/assets/rishikesh.png", // Placeholder
     tagColor: 'bg-teal-500', 
-    key: 'rishikesh'
+    key: 'rishi'
   },
   {
     location: "Jibhi",
@@ -133,10 +132,15 @@ const domesticPlansData = [
     key: 'corbett'
   },
 ];
-const VISIBLE_PLANS_MOBILE = 1;
-const VISIBLE_PLANS_TABLET = 2;
-const VISIBLE_PLANS_DESKTOP = 4;
-const VISIBLE_PLANS = 4; // Default visible plans for carousel
+const VISIBLE_PLANS = 4;
+const CARD_GAP = 24; // Tailwind's gap-6 is 1.5rem or 24px
+=======
+];
+const VISIBLE_PLANS = 4;
+const CARD_GAP = 24; // Tailwind's gap-6 is 1.5rem or 24px
+=======
+const VISIBLE_PLANS = 4;
+>>>>>>> parent of 358a2cd (updated mobile layout for better usability)
 const CARD_GAP = 24; // Tailwind's gap-6 is 1.5rem or 24px
 
 // --- Domestic Plans Carousel Component (New) ---
@@ -167,19 +171,19 @@ const DomesticPlansCarousel = ({ setShowQueryForm }) => {
 
   // Prepare the data array for looping (duplicate the first few cards)
   const loopData = useMemo(() => {
-    const duplicatedData = domesticPlansData.slice(0, VISIBLE_PLANS).map((item, index) => ({
-      ...item,
-      key: `${item.key}-duplicate-${index}`
-    }));
-    return [...domesticPlansData, ...duplicatedData];
+    return [...domesticPlansData, ...domesticPlansData.slice(0, VISIBLE_PLANS)];
   }, []);
 
   // Calculate the offset to translate the carousel track
-  const cardWidthPercentage = 100;
+  const cardWidthPercentage = 100 / VISIBLE_PLANS;
   const translateXValue = `calc(${-currentIndex * cardWidthPercentage}% - ${currentIndex * CARD_GAP}px)`;
 
-  const PlanCard = ({ location, tag, image, tagColor }) => (
-    <div className="bg-white rounded-2xl overflow-hidden shadow-xl flex-shrink-0 w-full sm:w-[calc(50%-12px)] lg:w-[calc(25%-18px)]">
+  const PlanCard = ({ location, tag, image, tagColor, key }) => (
+    <div 
+      key={key} 
+      className="bg-white rounded-2xl overflow-hidden shadow-xl flex-shrink-0" 
+      style={{ width: `calc(100% / ${VISIBLE_PLANS} - ${((VISIBLE_PLANS - 1) * CARD_GAP) / VISIBLE_PLANS}px)` }}
+    >
       <div className="relative">
         <img 
           src={image} 
@@ -207,32 +211,31 @@ const DomesticPlansCarousel = ({ setShowQueryForm }) => {
       {/* Navigation Arrows */}
       <button 
         onClick={handlePrev} 
-        className="absolute left-1 sm:left-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 bg-white text-gray-800 rounded-full shadow-lg hover:shadow-xl transition-shadow"
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 z-20 p-3 bg-white text-gray-800 rounded-full shadow-lg hover:shadow-xl transition-shadow ml-2"
         aria-label="Previous destination"
       >
-        <ChevronLeft className="w-4 h-4 sm:w-6 sm:h-6" />
+        <ChevronLeft className="w-6 h-6" />
       </button>
       
       <button 
         onClick={handleNext} 
-        className="absolute right-1 sm:right-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 bg-white text-gray-800 rounded-full shadow-lg hover:shadow-xl transition-shadow"
+        className="absolute right-0 top-1/2 transform -translate-y-1/2 z-20 p-3 bg-white text-gray-800 rounded-full shadow-lg hover:shadow-xl transition-shadow mr-2"
         aria-label="Next destination"
       >
-        <ChevronRight className="w-4 h-4 sm:w-6 sm:h-6" />
+        <ChevronRight className="w-6 h-6" />
       </button>
       
       {/* Cards Container - Uses translate X for the slide effect */}
       <div 
-        className="flex transition-transform duration-700 ease-in-out px-8 sm:px-12" 
+        className="flex transition-transform duration-700 ease-in-out" 
         style={{ 
           transform: `translateX(${translateXValue})`,
           gap: `${CARD_GAP}px`
         }}
       >
-        {loopData.map((plan, index) => {
-          const { key, ...planProps } = plan;
-          return <PlanCard key={`${key}-${index}`} {...planProps} />;
-        })}
+        {loopData.map((plan, index) => (
+          <PlanCard key={`${plan.key}-${index}`} {...plan} /> 
+        ))}
       </div>
     </div>
   );
@@ -305,19 +308,19 @@ const InternationalPlansCarousel = ({ setShowQueryForm }) => {
   
     // Prepare the data array for looping
     const loopData = useMemo(() => {
-      const duplicatedData = internationalPlansData.slice(0, VISIBLE_PLANS).map((item, index) => ({
-        ...item,
-        key: `${item.key}-duplicate-${index}`
-      }));
-      return [...internationalPlansData, ...duplicatedData];
+      return [...internationalPlansData, ...internationalPlansData.slice(0, VISIBLE_PLANS)];
     }, []);
   
     // Calculate the offset to translate the carousel track
-    const cardWidthPercentage = 100;
+    const cardWidthPercentage = 100 / VISIBLE_PLANS;
     const translateXValue = `calc(${-currentIndex * cardWidthPercentage}% - ${currentIndex * CARD_GAP}px)`;
   
-    const PlanCard = ({ location, tag, image, tagColor }) => (
-      <div className="bg-white rounded-2xl overflow-hidden shadow-xl flex-shrink-0 w-full sm:w-[calc(50%-12px)] lg:w-[calc(25%-18px)]">
+    const PlanCard = ({ location, tag, image, tagColor, key }) => (
+      <div 
+        key={key} 
+        className="bg-white rounded-2xl overflow-hidden shadow-xl flex-shrink-0" 
+        style={{ width: `calc(100% / ${VISIBLE_PLANS} - ${((VISIBLE_PLANS - 1) * CARD_GAP) / VISIBLE_PLANS}px)` }}
+      >
         <div className="relative">
           <img 
             src={image} 
@@ -345,32 +348,31 @@ const InternationalPlansCarousel = ({ setShowQueryForm }) => {
         {/* Navigation Arrows */}
         <button 
           onClick={handlePrev} 
-          className="absolute left-1 sm:left-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 bg-white text-gray-800 rounded-full shadow-lg hover:shadow-xl transition-shadow"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 z-20 p-3 bg-white text-gray-800 rounded-full shadow-lg hover:shadow-xl transition-shadow ml-2"
           aria-label="Previous destination"
         >
-          <ChevronLeft className="w-4 h-4 sm:w-6 sm:h-6" />
+          <ChevronLeft className="w-6 h-6" />
         </button>
         
         <button 
           onClick={handleNext} 
-          className="absolute right-1 sm:right-2 top-1/2 transform -translate-y-1/2 z-20 p-2 sm:p-3 bg-white text-gray-800 rounded-full shadow-lg hover:shadow-xl transition-shadow"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 z-20 p-3 bg-white text-gray-800 rounded-full shadow-lg hover:shadow-xl transition-shadow mr-2"
           aria-label="Next destination"
         >
-          <ChevronRight className="w-4 h-4 sm:w-6 sm:h-6" />
+          <ChevronRight className="w-6 h-6" />
         </button>
         
         {/* Cards Container - Uses translate X for the slide effect */}
         <div 
-          className="flex transition-transform duration-700 ease-in-out px-8 sm:px-12" 
+          className="flex transition-transform duration-700 ease-in-out" 
           style={{ 
             transform: `translateX(${translateXValue})`,
             gap: `${CARD_GAP}px`
           }}
         >
-          {loopData.map((plan, index) => {
-            const { key, ...planProps } = plan;
-            return <PlanCard key={`${key}-${index}`} {...planProps} />;
-          })}
+          {loopData.map((plan, index) => (
+            <PlanCard key={`${plan.key}-${index}`} {...plan} /> 
+          ))}
         </div>
       </div>
     );
@@ -415,53 +417,23 @@ const GallerySection = () => {
             </h2>
           </div>
   
-          <div className="max-w-7xl mx-auto p-4">
-            {/* Mobile: Single column */}
-            <div className="grid grid-cols-1 gap-4 sm:hidden">
-              {galleryImages.map((item) => (
-                <div key={item.id} className="rounded-2xl overflow-hidden shadow-xl">
-                  <img src={item.src} alt={item.alt} className="w-full h-64 object-cover" />
-                </div>
-              ))}
-            </div>
-            
-            {/* Tablet and Desktop: Original grid */}
-            <div 
-              className="hidden sm:grid gap-4"
-              style={{
-                gridTemplateColumns: 'repeat(2, 1fr)',
-                gridTemplateRows: 'repeat(3, minmax(200px, 1fr))', 
-              }}
-            >
-              {galleryImages.slice(0, 6).map((item, index) => (
-                <div 
-                  key={item.id}
-                  className="rounded-2xl overflow-hidden shadow-xl transition-transform duration-300 hover:scale-[1.01] cursor-pointer" 
-                  style={index < 2 ? { gridRow: 'span 1' } : { gridRow: 'span 1' }}
-                >
-                  <img src={item.src} alt={item.alt} className="w-full h-full object-cover" />
-                </div>
-              ))}
-            </div>
-            
-            {/* Large screens: Original 4-column grid */}
-            <div 
-              className="hidden lg:grid gap-4"
-              style={{
-                gridTemplateColumns: 'repeat(4, 1fr)',
-                gridTemplateRows: 'repeat(2, minmax(250px, 1fr))', 
-              }}
-            >
-              {galleryImages.map((item) => (
-                <div 
-                  key={item.id}
-                  className="rounded-2xl overflow-hidden shadow-xl transition-transform duration-300 hover:scale-[1.01] cursor-pointer" 
-                  style={item.style}
-                >
-                  <img src={item.src} alt={item.alt} className="w-full h-full object-cover" />
-                </div>
-              ))}
-            </div>
+          <div 
+            className="max-w-7xl mx-auto grid gap-4 p-4"
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(4, 1fr)',
+              gridTemplateRows: 'repeat(2, minmax(250px, 1fr))', 
+            }}
+          >
+            {galleryImages.map((item) => (
+              <div 
+                key={item.id}
+                className="rounded-2xl overflow-hidden shadow-xl transition-transform duration-300 hover:scale-[1.01] cursor-pointer" 
+                style={item.style}
+              >
+                <img src={item.src} alt={item.alt} className="w-full h-full object-cover" />
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -526,7 +498,7 @@ const DetailedContactForm = () => {
             <p className="text-lg text-gray-600 mb-6">
                 we would <span className="text-red-600">❤️</span> to craft a trip just for you.
             </p>
-            <form onSubmit={handleSubmit} className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input 
                     type="text" 
                     placeholder="Full Name" 
@@ -897,12 +869,12 @@ const CorporateTours = () => {
         
         {/* Content */}
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-8">
+          <h1 className="text-6xl md:text-7xl font-bold mb-8">
             <span className="block">{baseText}</span>
             <span className="text-yellow-300">{highlightText}</span>
-            <span className="inline-block min-w-[120px] sm:min-w-[200px] text-left">
+            <span className="inline-block min-w-[200px] text-left">
               {displayText}
-              <span className={`inline-block w-1 h-8 sm:h-12 md:h-16 bg-white ml-1 ${showCursor ? 'opacity-100' : 'opacity-0'} transition-opacity`}></span>
+              <span className={`inline-block w-1 h-16 bg-white ml-1 ${showCursor ? 'opacity-100' : 'opacity-0'} transition-opacity`}></span>
             </span>
           </h1>
         </div>

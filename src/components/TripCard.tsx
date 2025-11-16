@@ -31,56 +31,56 @@ const TripCard: React.FC<TripCardProps> = ({
 
   return (
     // Ensure the outer div allows the card to grow vertically if needed
-    <div className="px-1 md:px-2 pb-3 md:pb-4 h-full">
+    <div className="px-2 pb-4 h-full">
       {/* Ensure flex container takes full height */}
-      <div className="flex flex-col h-full bg-white rounded-xl md:rounded-2xl shadow-md overflow-hidden transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
-        <div className="relative mb-6 md:mb-8">
+      <div className="flex flex-col h-full bg-white rounded-2xl shadow-md overflow-hidden transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+        <div className="relative mb-8">
           {/* Link the image to the detail page */}
           <Link to={`/trip/${slug}`}>
             <img
               alt={title}
               src={imageUrl}
-              className="w-full h-48 sm:h-52 md:h-64 object-cover"
+              className="w-full h-52 sm:h-64 object-cover"
               loading="lazy"
               decoding="async"
             />
           </Link>
           {discount && (
-            <p className="absolute top-2 md:top-4 left-0 bg-red-600 text-white text-xs font-medium px-2 md:px-3 py-1 rounded-r-full flex items-center gap-1 md:gap-2 shadow">
-              <img alt="pricetag" src="/cloned_media/pricetag.webp" className="w-3 h-3 md:w-4 md:h-4" />
+            <p className="absolute top-4 left-0 bg-red-600 text-white text-xs font-medium px-3 py-1 rounded-r-full flex items-center gap-2 shadow"> {/* Added shadow */}
+              <img alt="pricetag" src="/cloned_media/pricetag.webp" className="w-4 h-4" /> {/* Slightly smaller icon */}
               <span>{discount} Off</span>
             </p>
           )}
-          <p className="absolute -bottom-3 md:-bottom-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-black text-xs font-medium px-2 md:px-3 py-1 rounded-lg whitespace-nowrap shadow">
+          <p className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-black text-xs font-medium px-3 py-1 rounded-lg whitespace-nowrap shadow"> {/* Added shadow */}
             {duration}
           </p>
         </div>
         {/* Use flex-grow to push button section down */}
-        <div className="flex flex-col justify-between flex-grow p-3 md:p-4 mt-1">
+        <div className="flex flex-col justify-between flex-grow p-4 mt-1">
           <article>
             {/* Link the title to the detail page */}
             <Link to={`/trip/${slug}`}>
               {/* Ensure title area has enough height, use line-clamp */}
-              <p className="text-sm sm:text-base md:text-lg font-semibold text-gray-800 min-h-[2.5rem] md:min-h-[3rem] line-clamp-2 leading-relaxed hover:text-blue-700">{title}</p>
+              <p className="text-base sm:text-lg font-semibold text-gray-800 min-h-[3rem] line-clamp-2 leading-relaxed hover:text-blue-700">{title}</p>
             </Link>
             <div className="flex items-center gap-2 mt-1">
               {originalPrice && (
-                <p className="text-xs md:text-sm text-gray-500 line-through">{originalPrice}</p>
+                <p className="text-sm text-gray-500 line-through">{originalPrice}</p>
               )}
                {/* Display price prominently */}
-              <p className="text-base md:text-lg font-bold text-blue-700">{price}</p>
+              <p className="text-lg font-bold text-blue-700">{price}</p>
             </div>
              <p className="text-xs text-gray-500">per person</p>
           </article>
           {/* Button section */}
-          <div className="flex items-center gap-2 mt-3 md:mt-4">
+          <div className="flex items-center gap-2 mt-4">
             {/* Link the "Trip Details" button */}
-            <Link to={`/trip/${slug}`} className="flex-1 text-center bg-blue-100 text-blue-800 font-semibold py-2.5 md:py-2 px-2 md:px-3 rounded-lg text-xs md:text-sm whitespace-nowrap hover:bg-blue-200 transition-colors min-h-[44px] flex items-center justify-center">
+            <Link to={`/trip/${slug}`} className="flex-1 text-center bg-blue-100 text-blue-800 font-semibold py-2 px-3 rounded-lg text-sm whitespace-nowrap hover:bg-blue-200 transition-colors">
               Trip Details
             </Link>
             <button
                onClick={() => setShowQueryForm(true)}
-              className="flex-1 text-center bg-[#0B3A55] text-white font-semibold py-2.5 md:py-2 px-2 md:px-3 rounded-lg text-xs md:text-sm whitespace-nowrap hover:bg-opacity-90 transition-colors min-h-[44px] flex items-center justify-center">
+              className="flex-1 text-center bg-[#0B3A55] text-white font-semibold py-2 px-3 rounded-lg text-sm whitespace-nowrap hover:bg-opacity-90 transition-colors">
               Send Query
             </button>
           </div>

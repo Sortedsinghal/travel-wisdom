@@ -5,9 +5,8 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
 } from "@/components/ui/dropdown-menu";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Link } from "react-router-dom";
-import { Phone, User, ChevronDown, Menu, X } from "lucide-react";
+import { Phone, User, ChevronDown } from "lucide-react";
 import NewCircleLogo from "@/assets/travel-wisdom-logo.png";
 
 const createSlug = (text: string) => {
@@ -23,7 +22,6 @@ const Header = () => {
   const [isWeekendOpen, setIsWeekendOpen] = React.useState(false);
   const [isBackpackingOpen, setIsBackpackingOpen] = React.useState(false);
   const [isInternationalOpen, setIsInternationalOpen] = React.useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 
   const upcomingTrips = [
     "October 2025",
@@ -78,38 +76,37 @@ const Header = () => {
               <img
                 src={NewCircleLogo}
                 alt="Travel Wisdom Circle"
-                className="w-12 h-10 md:w-16 md:h-14 rounded-full mr-2 md:mr-2.5 object-contain"
+                className="w-16 h-14 rounded-full mr-2.5 object-contain"
                 loading="eager"
                 decoding="async"
               />
-              <span className="text-lg md:text-2xl font-black text-[#000000]" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: '900' }}>
+              <span className="text-2xl font-black text-[#000000]" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: '900' }}>
                 Travel Wisdom
               </span>
             </Link>
 
             {/* Right section */}
-            <div className="flex items-center gap-2 md:gap-8">
-              {/* Navigation links - Desktop */}
-              <nav className="hidden lg:flex items-center gap-6">
+            <div className="flex items-center gap-8">
+              {/* Navigation links */}
+              <nav className="hidden md:flex items-center gap-6">
                 <Link to="/about-us" className="text-gray-700 hover:text-[#0B3A55] transition-colors">About Us</Link>
                 <Link to="/blogs" className="text-gray-700 hover:text-[#0B3A55] transition-colors">Blogs</Link>
+               
                 <Link to="/contact-us" className="text-gray-700 hover:text-[#0B3A55] transition-colors">Contact Us</Link>
               </nav>
 
-              {/* Phone number - Hidden on mobile */}
-              <div className="hidden md:flex items-center gap-2 text-gray-700">
+              {/* Phone number */}
+              <div className="flex items-center gap-2 text-gray-700">
                 <Phone className="h-4 w-4" />
-                <a href="tel:+919971545446" className="font-medium hover:text-[#0B3A55] transition-colors cursor-pointer text-sm lg:text-base">
+                <a href="tel:+919971545446" className="font-medium hover:text-[#0B3A55] transition-colors cursor-pointer">
                   +91 9971545446
                 </a>
               </div>
 
               {/* User icon */}
-              <Link to="/login" className="w-8 h-8 md:w-10 md:h-10 bg-[#0B3A55] rounded-full flex items-center justify-center hover:bg-[#0A2E44] transition-colors">
-                <User className="h-4 w-4 md:h-5 md:w-5 text-white" />
+              <Link to="/login" className="w-10 h-10 bg-[#0B3A55] rounded-full flex items-center justify-center hover:bg-[#0A2E44] transition-colors">
+                <User className="h-5 w-5 text-white" />
               </Link>
-
-
             </div>
           </div>
         </div>
@@ -118,7 +115,7 @@ const Header = () => {
       {/* Bottom navigation bar */}
       <div className="bg-[#0B3A55] text-white">
         <div className="container mx-auto px-4">
-          <nav className="hidden lg:flex items-center justify-center gap-8 py-4">
+          <nav className="flex items-center justify-center gap-8 py-4">
             {/* Upcoming Group Trips Dropdown */}
             <div 
               onMouseEnter={() => setIsUpcomingOpen(true)}
@@ -244,51 +241,6 @@ const Header = () => {
               Corporate Tours
             </Link>
           </nav>
-          
-          {/* Mobile bottom navigation */}
-          <div className="lg:hidden">
-            <div className="flex items-center justify-center py-3">
-              {/* Mobile menu trigger */}
-              <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
-                <SheetTrigger asChild>
-                  <button className="flex items-center gap-2 px-6 py-2.5 bg-white/15 backdrop-blur-sm rounded-full hover:bg-white/25 transition-all duration-200 shadow-lg border border-white/20">
-                    <Menu className="h-4 w-4 text-white" />
-                    <span className="text-white font-medium text-sm">Browse Trips</span>
-                  </button>
-                </SheetTrigger>
-                <SheetContent side="right" className="w-[300px] sm:w-[400px]">
-                  <div className="flex flex-col space-y-4 mt-8">
-                    {/* Trip Categories */}
-                    <div className="space-y-3">
-                      <h3 className="text-lg font-semibold text-gray-900 border-b pb-2">Trip Categories</h3>
-                      <Link to="/upcoming-group-trips" className="text-base font-medium block py-2" onClick={() => setIsMobileMenuOpen(false)}>Upcoming Group Trips</Link>
-                      <Link to="/domestic-trips" className="text-base font-medium block py-2" onClick={() => setIsMobileMenuOpen(false)}>Domestic Trips</Link>
-                      <Link to="/weekend-trips" className="text-base font-medium block py-2" onClick={() => setIsMobileMenuOpen(false)}>Weekend Trips</Link>
-                      <Link to="/backpacking-trips" className="text-base font-medium block py-2" onClick={() => setIsMobileMenuOpen(false)}>Backpacking Trips</Link>
-                      <Link to="/international-trips" className="text-base font-medium block py-2" onClick={() => setIsMobileMenuOpen(false)}>International Trips</Link>
-                      <Link to="/corporate-tours" className="text-base font-medium block py-2" onClick={() => setIsMobileMenuOpen(false)}>Corporate Tours</Link>
-                    </div>
-                    
-                    {/* Other Pages */}
-                    <div className="space-y-3 pt-4 border-t">
-                      <h3 className="text-lg font-semibold text-gray-900 border-b pb-2">More</h3>
-                      <Link to="/about-us" className="text-base font-medium block py-2" onClick={() => setIsMobileMenuOpen(false)}>About Us</Link>
-                      <Link to="/blogs" className="text-base font-medium block py-2" onClick={() => setIsMobileMenuOpen(false)}>Blogs</Link>
-                      <Link to="/contact-us" className="text-base font-medium block py-2" onClick={() => setIsMobileMenuOpen(false)}>Contact Us</Link>
-                    </div>
-                    
-                    {/* Contact Info */}
-                    <div className="flex items-center gap-2 text-gray-700 pt-4 border-t">
-                      <Phone className="h-4 w-4" />
-                      <a href="tel:+919971545446" className="font-medium">
-                        +91 9971545446
-                      </a>
-                    </div>
-                  </div>
-                </SheetContent>
-              </Sheet>
-            </div>
-          </div>
         </div>
       </div>
     </header>
