@@ -606,8 +606,8 @@ const TripDetailPage = () => {
           </div>
 
           {/* --- Sticky Sidebar (Right Column) --- */}
-          <aside className="hidden lg:block lg:col-span-4">
-              <div className="sticky top-24">
+          <aside className="lg:col-span-4">
+              <div className="lg:sticky lg:top-24">
                 <BookingBox trip={trip} onShowPopupForm={() => setShowPopupForm(true)} />
               </div>
           </aside>
@@ -632,27 +632,7 @@ const TripDetailPage = () => {
         )}
       </main>
 
-       {/* Mobile Bottom Bar - Placeholder */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-white shadow-[0_-2px_10px_rgba(0,0,0,0.1)] z-40 border-t border-gray-200">
-          <div className="flex justify-around items-center p-2">
-               <a href="https://api.whatsapp.com/send?phone=919971545446&text=Hi%2C%20I%27m%20interested%2C%20I%27m%20interested%20in%20the%20${encodeURIComponent(trip.title)}%20trip%20(${window.location.href})" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-green-600 gap-0.5">
-                  <img src="/cloned_media/whatsapp.webp" alt="whatsapp" className="w-5 h-5"/>
-                  Whatsapp
-              </a>
-              <button onClick={() => setShowPopupForm(true)} className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-[#0B3A55] gap-0.5">
-                   <FileText className="w-5 h-5"/>
-                  Get PDF
-              </button>
-              <button onClick={() => setShowQueryForm(true)} className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-[#0B3A55] gap-0.5">
-                   <img src="/cloned_media/messenger.png" alt="query" className="w-5 h-5"/>
-                  Send Query
-              </button>
-               <a href="tel:+919971545446" className="flex flex-col items-center text-xs font-medium text-gray-700 hover:text-[#0B3A55] gap-0.5">
-                  <img src="/cloned_media/phonecall.png" alt="call" className="w-5 h-5"/>
-                  Call
-              </a>
-          </div>
-      </div>
+
 
        <Footer />
        <QueryForm 

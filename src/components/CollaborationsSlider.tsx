@@ -62,7 +62,7 @@ const CollaborationsSlider = () => {
     <section className="py-12 sm:py-20 bg-white-50 dark:bg-white overflow-hidden font-inter">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-12 text-gray-900 dark:text-white">
-          Proudly Collaborated & Recognized <span role="img" aria-label="thumbs up">👍</span>
+          Proudly Collaborated & Recognized
         </h2>
         {/* Slider Container for both rows. Increased vertical gap from gap-4 to gap-8. */}
         <div className="flex flex-col gap-8">

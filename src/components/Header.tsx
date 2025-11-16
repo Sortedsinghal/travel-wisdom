@@ -28,6 +28,23 @@ const Header = () => {
   const [mobileWeekendOpen, setMobileWeekendOpen] = React.useState(false);
   const [mobileBackpackingOpen, setMobileBackpackingOpen] = React.useState(false);
   const [mobileInternationalOpen, setMobileInternationalOpen] = React.useState(false);
+  const mobileMenuRef = React.useRef<HTMLDivElement>(null);
+
+  React.useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (mobileMenuRef.current && !mobileMenuRef.current.contains(event.target as Node)) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+
+    if (isMobileMenuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isMobileMenuOpen]);
 
   const upcomingTrips = [
     "October 2025",
@@ -264,7 +281,7 @@ const Header = () => {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden bg-white border-b shadow-lg">
+        <div ref={mobileMenuRef} className="lg:hidden bg-white border-b shadow-lg max-h-[70vh] overflow-y-auto">
           <nav className="container mx-auto px-4 py-4 space-y-4">
             {/* Main navigation links */}
             <Link to="/about-us" className="block text-gray-700 hover:text-[#0B3A55] transition-colors py-2" onClick={() => setIsMobileMenuOpen(false)}>About Us</Link>

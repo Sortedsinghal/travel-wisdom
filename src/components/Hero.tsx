@@ -249,10 +249,10 @@ const Hero = () => {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Pick Best Suitable Packages, Destinations & More For You"
-                className="pl-10 h-12 text-gray-600 rounded-lg w-half focus:ring-0 focus:border-white focus:shadow-none"
+                className="pl-10 pr-20 h-12 text-gray-600 rounded-lg w-half focus:ring-0 focus:border-white focus:shadow-none"
               />
-              <button type="submit" className="absolute right-10 top-1/2 transform -translate-y-1/2 border-0 bg-transparent">
-                <Search className="h-5 w-5 text-gray-600" />
+              <button type="submit" className="absolute right-12 md:right-10 top-1/2 transform -translate-y-1/2 border-0 bg-transparent">
+                <Search className="h-4 w-4 md:h-5 md:w-5 text-gray-600" />
               </button>
               <button
                 type="button"
@@ -267,13 +267,13 @@ const Hero = () => {
                     setIsListening(true);
                   }
                 }}
-                className="absolute right-4 top-1/2 transform -translate-y-1/2 border-0 bg-transparent"
+                className="absolute right-2 md:right-4 top-1/2 transform -translate-y-1/2 border-0 bg-transparent"
                 aria-label={isListening ? "Stop voice input" : "Start voice input"}
               >
                 {isListening ? (
-                  <MicOff className="h-5 w-5 text-red-600" />
+                  <MicOff className="h-4 w-4 md:h-5 md:w-5 text-red-600" />
                 ) : (
-                  <Mic className="h-5 w-5 text-gray-600" />
+                  <Mic className="h-4 w-4 md:h-5 md:w-5 text-gray-600" />
                 )}
               </button>
             </form>
@@ -282,36 +282,36 @@ const Hero = () => {
           </div>
         </div>
         {/* Info section at bottom of hero */}
-        <div className="mt-12 flex justify-center items-center text-white text-2xl font-semibold space-x-20 pt-6">
-          <div className="flex items-center space-x-6">
-            <img src="/message_icon.png" alt="Reviews" className="h-16 w-16" />
+        <div className="mt-8 md:mt-12 flex justify-center items-center text-white text-lg md:text-2xl font-semibold space-x-4 md:space-x-20 pt-4 md:pt-6 overflow-x-auto">
+          <div className="flex items-center space-x-2 md:space-x-6 flex-shrink-0">
+            <img src="/message_icon.png" alt="Reviews" className="h-8 w-8 md:h-16 md:w-16" />
             <div>
-              <div className="text-4xl">1700+</div>
-              <div className="text-base font-normal">Reviews</div>
+              <div className="text-lg md:text-4xl">1700+</div>
+              <div className="text-xs md:text-base font-normal">Reviews</div>
             </div>
           </div>
-          <div className="border-l border-white/20 h-14" />
-          <div className="flex items-center space-x-6">
-            <img src="/travelers.png" alt="Satisfied Travelers" className="h-16 w-16" />
+          <div className="border-l border-white/20 h-8 md:h-14" />
+          <div className="flex items-center space-x-2 md:space-x-6 flex-shrink-0">
+            <img src="/travelers.png" alt="Satisfied Travelers" className="h-8 w-8 md:h-16 md:w-16" />
             <div>
-              <div className="text-4xl">17000+</div>
-              <div className="text-base font-normal">Satisfied Travelers</div>
+              <div className="text-lg md:text-4xl">17000+</div>
+              <div className="text-xs md:text-base font-normal">Satisfied Travelers</div>
             </div>
           </div>
-          <div className="border-l border-white/20 h-14" />
-          <div className="flex items-center space-x-6">
-            <img src="/destinations.png" alt="Destinations" className="h-16 w-16" />
+          <div className="border-l border-white/20 h-8 md:h-14" />
+          <div className="flex items-center space-x-2 md:space-x-6 flex-shrink-0">
+            <img src="/destinations.png" alt="Destinations" className="h-8 w-8 md:h-16 md:w-16" />
             <div>
-              <div className="text-4xl">40+</div>
-              <div className="text-base font-normal">Destinations</div>
+              <div className="text-lg md:text-4xl">40+</div>
+              <div className="text-xs md:text-base font-normal">Destinations</div>
             </div>
           </div>
-          <div className="border-l border-white/20 h-14" />
-          <div className="flex items-center space-x-6">
-            <img src="/experience.png" alt="Experience" className="h-20 w-16" />
+          <div className="border-l border-white/20 h-8 md:h-14" />
+          <div className="flex items-center space-x-2 md:space-x-6 flex-shrink-0">
+            <img src="/experience.png" alt="Experience" className="h-10 w-8 md:h-20 md:w-16" />
             <div>
-              <div className="text-4xl">5 Years+</div>
-              <div className="text-base font-normal">Experience</div>
+              <div className="text-lg md:text-4xl">5 Years+</div>
+              <div className="text-xs md:text-base font-normal">Experience</div>
             </div>
           </div>
         </div>
