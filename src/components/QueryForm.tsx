@@ -126,37 +126,40 @@ export const QueryForm = ({ isOpen, onClose, tripName }: QueryFormProps) => {
         </div>
       )}
 
-      <div className="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center z-[99999] p-4 font-inter transition-opacity duration-300">
-        <div className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-hidden shadow-2xl flex flex-col md:flex-row transform transition-transform duration-300 ease-out scale-100">
-          <div className="md:w-1/2 bg-[#0B3A55] text-white p-8 rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none flex flex-col items-center justify-center space-y-4 relative overflow-hidden">
+      <div className="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center z-[99999] p-2 sm:p-4 font-inter transition-opacity duration-300">
+        <div className="bg-white rounded-lg sm:rounded-2xl max-w-xs sm:max-w-3xl w-full max-h-[80vh] sm:max-h-[85vh] overflow-hidden shadow-2xl flex flex-col md:flex-row transform transition-transform duration-300 ease-out scale-100">
+          <div className="hidden md:flex md:w-1/2 bg-[#0B3A55] text-white p-3 sm:p-6 rounded-t-lg sm:rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none flex-col items-center justify-center space-y-1 sm:space-y-3 relative overflow-hidden">
             <div className="absolute inset-0 bg-white opacity-5 transform skew-y-3 scale-150"></div>
             <img 
               src={TravelWisdomLogo} 
               alt="Travel Wisdom Logo" 
-              className="z-10 h-32 w-32 object-contain mb-4" 
+              className="z-10 h-12 w-12 sm:h-20 sm:w-20 lg:h-24 lg:w-24 object-contain mb-1 sm:mb-3" 
             />
             <div className="z-10 text-center">
-                <h1 className="text-4xl font-extrabold mb-1 tracking-wider">
+                <h1 className="text-lg sm:text-2xl lg:text-3xl font-extrabold mb-0.5 sm:mb-1 tracking-wider">
                   Travel Wisdom
                 </h1>
-                <p className="text-lg italic font-light opacity-80">
+                <p className="text-xs sm:text-base italic font-light opacity-80">
                   Pack right, but light.
                 </p>
             </div>
-            <p className="mt-4 text-center text-sm opacity-75 z-10">
+            <p className="mt-1 sm:mt-3 text-center text-xs sm:text-sm opacity-75 z-10 px-1 sm:px-2">
               Fill out the form and a dedicated travel expert will craft your perfect itinerary.
             </p>
             {tripName && (
-              <div className="z-10 mt-6 p-3 bg-white bg-opacity-10 rounded-lg">
-                  <p className="text-base font-semibold">Enquiry for:</p>
-                  <p className="text-xl font-bold text-[#5B92A7]">{tripName}</p> 
+              <div className="z-10 mt-2 sm:mt-4 p-1.5 sm:p-2 bg-white bg-opacity-10 rounded-lg">
+                  <p className="text-xs sm:text-sm font-semibold">Enquiry for:</p>
+                  <p className="text-xs sm:text-base lg:text-lg font-bold text-[#5B92A7]">{tripName}</p> 
               </div>
             )}
           </div>
 
-          <div className="md:w-1/2 p-6 sm:p-8 overflow-y-auto">
-            <div className="flex justify-between items-center mb-6 border-b pb-3">
-              <h2 className="text-2xl font-bold text-gray-800">Start Your Journey</h2>
+          <div className="w-full md:w-1/2 p-3 sm:p-4 lg:p-6 overflow-y-auto">
+            <div className="flex justify-between items-center mb-2 sm:mb-6 border-b pb-1 sm:pb-3">
+              <div className="flex items-center space-x-2">
+                <img src={TravelWisdomLogo} alt="TW" className="h-6 w-6 md:hidden" />
+                <h2 className="text-sm sm:text-xl lg:text-2xl font-bold text-gray-800">Start Your Journey</h2>
+              </div>
               <button
                 onClick={onClose}
                 className="text-gray-500 hover:text-gray-900 transition-colors p-2 rounded-full hover:bg-gray-100"
@@ -166,9 +169,9 @@ export const QueryForm = ({ isOpen, onClose, tripName }: QueryFormProps) => {
               </button>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-5">
+            <form onSubmit={handleSubmit} className="space-y-1.5 sm:space-y-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
+                <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-0.5 sm:mb-1">Full Name *</label>
                 <StyledInput
                   type="text"
                   name="fullName"
@@ -179,9 +182,9 @@ export const QueryForm = ({ isOpen, onClose, tripName }: QueryFormProps) => {
                 />
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Mobile Number *</label>
+                  <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-0.5 sm:mb-1">Mobile Number *</label>
                   <StyledInput
                     type="tel"
                     name="mobileNumber"
@@ -192,7 +195,7 @@ export const QueryForm = ({ isOpen, onClose, tripName }: QueryFormProps) => {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Email Address *</label>
+                  <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-0.5 sm:mb-1">Email Address *</label>
                   <StyledInput
                     type="email"
                     name="email"
@@ -204,10 +207,10 @@ export const QueryForm = ({ isOpen, onClose, tripName }: QueryFormProps) => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4">
                 <div className='relative'>
                     <Users className='absolute left-3 top-9 h-4 w-4 text-gray-400 pointer-events-none' />
-                    <label className="block text-sm font-medium text-gray-700 mb-1">Travellers *</label>
+                    <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-0.5 sm:mb-1">Travellers *</label>
                     <StyledSelect
                         name="numberOfTravellers"
                         value={formData.numberOfTravellers}
@@ -226,7 +229,7 @@ export const QueryForm = ({ isOpen, onClose, tripName }: QueryFormProps) => {
                 </div>
                 <div className='relative'>
                     <Calendar className='absolute left-3 top-9 h-4 w-4 text-gray-400 pointer-events-none' />
-                    <label className="block text-sm font-medium text-gray-700 mb-1">Travel Month *</label>
+                    <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-0.5 sm:mb-1">Travel Month *</label>
                     <StyledSelect
                         name="monthOfTravel"
                         value={formData.monthOfTravel}
@@ -252,7 +255,7 @@ export const QueryForm = ({ isOpen, onClose, tripName }: QueryFormProps) => {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
+                <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-0.5 sm:mb-1">
                   Message (Optional)
                 </label>
                 <StyledTextarea
@@ -260,14 +263,14 @@ export const QueryForm = ({ isOpen, onClose, tripName }: QueryFormProps) => {
                   value={formData.message}
                   onChange={handleInputChange}
                   placeholder="Let us know your destination, duration, or any specific requirements."
-                  rows={3}
+                  rows={1}
                 />
               </div>
 
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-[#0B3A55] hover:bg-[#5B92A7] text-white font-semibold py-3 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg disabled:opacity-70 flex items-center justify-center space-x-2"
+                className="w-full bg-[#0B3A55] hover:bg-[#5B92A7] text-white font-semibold py-2.5 sm:py-3 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg disabled:opacity-70 flex items-center justify-center space-x-2 text-sm sm:text-base"
               >
                 {isSubmitting ? (
                   <>
