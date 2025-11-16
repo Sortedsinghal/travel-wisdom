@@ -292,7 +292,7 @@ const Hero = () => {
             slidesToShow={2}
             slidesToScroll={1}
             autoplay={true}
-            autoplaySpeed={3000}
+            autoplaySpeed={1500}
             arrows={false}
           >
             <div className="px-2">
