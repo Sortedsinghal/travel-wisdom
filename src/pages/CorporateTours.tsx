@@ -143,13 +143,26 @@ const DomesticPlansCarousel = ({ setShowQueryForm }) => {
   const totalCards = domesticPlansData.length;
   const slideDuration = 3500; // Auto-slide every 3.5 seconds
 
-  // Check if mobile on mount and resize
+  // Check if mobile on mount and resize with debounce
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    const checkMobile = () => {
+      const mobile = window.innerWidth < 768;
+      if (mobile !== isMobile) {
+        setIsMobile(mobile);
+      }
+    };
     checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
-  }, []);
+    let timeoutId;
+    const debouncedResize = () => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(checkMobile, 100);
+    };
+    window.addEventListener('resize', debouncedResize);
+    return () => {
+      window.removeEventListener('resize', debouncedResize);
+      clearTimeout(timeoutId);
+    };
+  }, [isMobile]);
 
   const visiblePlans = isMobile ? VISIBLE_PLANS_MOBILE : VISIBLE_PLANS_DESKTOP;
 
@@ -290,13 +303,26 @@ const InternationalPlansCarousel = ({ setShowQueryForm }) => {
     const totalCards = internationalPlansData.length;
     const slideDuration = 3500; 
   
-    // Check if mobile on mount and resize
+    // Check if mobile on mount and resize with debounce
     useEffect(() => {
-      const checkMobile = () => setIsMobile(window.innerWidth < 768);
+      const checkMobile = () => {
+        const mobile = window.innerWidth < 768;
+        if (mobile !== isMobile) {
+          setIsMobile(mobile);
+        }
+      };
       checkMobile();
-      window.addEventListener('resize', checkMobile);
-      return () => window.removeEventListener('resize', checkMobile);
-    }, []);
+      let timeoutId;
+      const debouncedResize = () => {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(checkMobile, 100);
+      };
+      window.addEventListener('resize', debouncedResize);
+      return () => {
+        window.removeEventListener('resize', debouncedResize);
+        clearTimeout(timeoutId);
+      };
+    }, [isMobile]);
 
     const visiblePlans = isMobile ? VISIBLE_PLANS_MOBILE : VISIBLE_PLANS_DESKTOP;
 
