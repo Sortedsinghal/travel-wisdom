@@ -72,7 +72,7 @@ const App = () => {
         <Toaster />
         <Sonner />
         <PopupForm isOpen={showPopup} onClose={() => setShowPopup(false)} />
-        <Router>
+        <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
           <ScrollToTop />
         <Routes>
           {/* --- Existing Static Routes --- */}
