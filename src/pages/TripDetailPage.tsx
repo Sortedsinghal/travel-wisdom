@@ -46,11 +46,11 @@ const BookingBox: React.FC<{ trip: Trip; onShowPopupForm: () => void }> = ({ tri
     
     // Extract numeric price from trip.price (assuming format like "₹25,999")
     const numericPrice = parseInt(trip.price.replace(/[^0-9]/g, ''));
-    
-    // Keep the original pricing logic based on the generic price in `trip.price` (assumed to be the highest/default)
-    const doubleOccupancyPrice = numericPrice;
-    const tripleOccupancyPrice = numericPrice - 500; 
-    const QuadOccupancyPrice = numericPrice - 1000; 
+
+    // Updated pricing logic: Quad sharing as default/base price, add 1000 for triple, 1500 for double
+    const QuadOccupancyPrice = numericPrice;
+    const tripleOccupancyPrice = numericPrice + 1000;
+    const doubleOccupancyPrice = numericPrice + 1500;
     
     const formatPrice = (price: number) => {
         return `₹${price.toLocaleString('en-IN')}`;
