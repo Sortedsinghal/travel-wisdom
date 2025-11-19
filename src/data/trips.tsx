@@ -4499,7 +4499,7 @@ export const allTrips: Trip[] = [
     slug: 'manali-sissu-kasol',
     title: 'Manali Sissu Kasol', // From HTML
     destination: 'Himachal',
-    duration: '6 Days / 3 Nights', // Corrected from itinerary (Day 0 to 5)
+    duration: '4 Days / 3 Nights', // Corrected from itinerary (Day 0 to 5)
     price: '₹8000', // From HTML (discounted quad price)
     originalPrice: '₹10000', // From HTML (quad price)
     discount: '₹2,000', // From HTML (10000 - 8000)
@@ -4566,7 +4566,7 @@ export const allTrips: Trip[] = [
     slug: 'manali-sissu-kasol-kheerganga',
     title: 'Manali Sissu Kasol Kheerganga', // From HTML
     destination: 'Himachal',
-    duration: '7 Days / 4 Nights', // Corrected from itinerary (Day 0 to 6)
+    duration: '5 Days / 4 Nights', // Corrected from itinerary (Day 0 to 6)
     price: '₹12500', // From HTML (discounted quad price)
     originalPrice: '₹14000', // From HTML (quad price)
     discount: '₹1,500', // From HTML (14000 - 12500)

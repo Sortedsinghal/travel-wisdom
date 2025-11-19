@@ -124,19 +124,19 @@ const Rajasthan = () => {
         <div className="space-y-12 sm:space-y-16 lg:space-y-20 mt-12 sm:mt-16 lg:mt-20">
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Rajasthan Weekend Trips</h2>
-            <TripSlider trips={weekendTripsRajasthan} slidesToShow={2} />
+            <TripSlider trips={weekendTripsRajasthan} slidesToShow={4} />
           </section>
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Udaipur Tour Packages</h2>
-            <TripSlider trips={udaipurToursRajasthan} slidesToShow={2} />
+            <TripSlider trips={udaipurToursRajasthan} slidesToShow={4} />
           </section>
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Rajasthan Family Tour Packages</h2>
-            <TripSlider trips={familyToursRajasthan} slidesToShow={2} />
+            <TripSlider trips={familyToursRajasthan} slidesToShow={4} />
           </section>
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Rajasthan Backpacking Trips</h2>
-            <TripSlider trips={backpackingTripsRajasthan} slidesToShow={2} />
+            <TripSlider trips={backpackingTripsRajasthan} slidesToShow={4} />
           </section>
         </div>
 

@@ -99,7 +99,7 @@ const Dubai = () => {
             {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Dubai Family Tours</h2>
             {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={familyToursDubai} slidesToShow={2} />
+            <TripSlider trips={familyToursDubai} slidesToShow={4} />
           </section>
         </div>
 

@@ -116,19 +116,19 @@ const Spiti = () => {
             {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Spiti Valley Circuit Trips</h2>
              {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={circuitTripsSpiti} slidesToShow={2} />
+            <TripSlider trips={circuitTripsSpiti} slidesToShow={4} />
           </section>
           <section>
             {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Spiti Valley Trips From Chandigarh</h2>
              {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={chandigarhTripsSpiti} slidesToShow={2} />
+            <TripSlider trips={chandigarhTripsSpiti} slidesToShow={4} />
           </section>
           <section>
             {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Let’s Explore Spiti Valley Packages</h2>
              {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={exploreTripsSpiti} slidesToShow={2} />
+            <TripSlider trips={exploreTripsSpiti} slidesToShow={4} />
           </section>
         </div>
 

@@ -170,7 +170,7 @@ const Bhutan = () => {
               <h2 className="text-4xl font-bold mb-6">
                 Bhutan Tour Packages
               </h2>
-              <TripSlider trips={bhutanToursBhutan} slidesToShow={2} />
+              <TripSlider trips={bhutanToursBhutan} slidesToShow={4} />
             </section>
           </div>
 

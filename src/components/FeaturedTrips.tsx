@@ -1,5 +1,5 @@
 // src/components/FeaturedTrips.tsx
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
 import TripCard from './TripCard';
@@ -24,18 +24,34 @@ interface FeaturedTripsProps {
 }
 
 const FeaturedTrips: React.FC<FeaturedTripsProps> = ({ title, trips, viewMoreLink }) => {
-  const sliderSettings = {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+    return () => window.removeEventListener('resize', checkScreenSize);
+  }, []);
+
+  const mobileSettings = {
     dots: false,
-    infinite: trips.length > 3,
+    infinite: trips.length > 2,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    responsive: [
-      { breakpoint: 1280, settings: { slidesToShow: 4 } },
-      { breakpoint: 1024, settings: { slidesToShow: 3 } },
-      { breakpoint: 768, settings: { slidesToShow: 2 } },
-    ],
   };
+
+  const desktopSettings = {
+    dots: false,
+    infinite: trips.length > 4,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+  };
+
+  const sliderSettings = isMobile ? mobileSettings : desktopSettings;
 
   return (
     <section className="py-6 md:py-12 bg-white">

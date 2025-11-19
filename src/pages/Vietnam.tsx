@@ -133,22 +133,22 @@ const Vietnam = () => {
             <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Leisure Trips – Relax & Explore!</h2>
                {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={leisureTripsVietnam} slidesToShow={2} />
+              <TripSlider trips={leisureTripsVietnam} slidesToShow={4} />
             </section>
             <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Honeymoon – Romantic Getaway!</h2>
                {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={honeymoonTripsVietnam} slidesToShow={2} />
+              <TripSlider trips={honeymoonTripsVietnam} slidesToShow={4} />
             </section>
             <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Group Trips – Adventure Together!</h2>
                {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={groupTripsVietnam} slidesToShow={2} />
+              <TripSlider trips={groupTripsVietnam} slidesToShow={4} />
             </section>
              <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Tours – Start from Ho Chi Minh!</h2>
                {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={startHoChiMinhTripsVietnam} slidesToShow={2} />
+              <TripSlider trips={startHoChiMinhTripsVietnam} slidesToShow={4} />
             </section>
           </div>
 

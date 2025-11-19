@@ -143,19 +143,19 @@ const Kashmir = () => {
         <div className="space-y-12 sm:space-y-16 lg:space-y-20 mt-12 sm:mt-16 lg:mt-20">
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Kashmir Honeymoon Trips</h2>
-            <TripSlider trips={honeymoonTripsKashmir} slidesToShow={2} />
+            <TripSlider trips={honeymoonTripsKashmir} slidesToShow={4} />
           </section>
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Kashmir Family Tours</h2>
-            <TripSlider trips={familyToursKashmir} slidesToShow={2} />
+            <TripSlider trips={familyToursKashmir} slidesToShow={4} />
           </section>
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Jammu & Kashmir Holiday Tours</h2>
-            <TripSlider trips={jammuKashmirToursKashmir} slidesToShow={2} />
+            <TripSlider trips={jammuKashmirToursKashmir} slidesToShow={4} />
           </section>
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Best Treks in Kashmir</h2>
-            <TripSlider trips={bestTreksKashmir} slidesToShow={2} />
+            <TripSlider trips={bestTreksKashmir} slidesToShow={4} />
           </section>
         </div>
 

@@ -96,7 +96,7 @@ const Kazakhstan = () => {
             {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Kazakhstan Leisure Tours</h2>
             {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={leisureToursKazakhstan} slidesToShow={2} />
+            <TripSlider trips={leisureToursKazakhstan} slidesToShow={4} />
           </section>
         </div>
 

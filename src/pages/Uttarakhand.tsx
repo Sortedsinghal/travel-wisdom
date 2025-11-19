@@ -131,19 +131,19 @@ const Uttarakhand = () => {
         <div className="space-y-12 sm:space-y-16 lg:space-y-20 mt-12 sm:mt-16 lg:mt-20">
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Uttarakhand Family Tours</h2>
-            <TripSlider trips={familyToursUttarakhand} slidesToShow={2} />
+            <TripSlider trips={familyToursUttarakhand} slidesToShow={4} />
           </section>
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Uttarakhand Weekend Trips</h2>
-            <TripSlider trips={weekendTripsUttarakhand} slidesToShow={2} />
+            <TripSlider trips={weekendTripsUttarakhand} slidesToShow={4} />
           </section>
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Uttarakhand Backpacking Trips</h2>
-            <TripSlider trips={backpackingTripsUttarakhand} slidesToShow={2} />
+            <TripSlider trips={backpackingTripsUttarakhand} slidesToShow={4} />
           </section>
           <section>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Best Treks in Uttarakhand</h2>
-            <TripSlider trips={bestTreksUttarakhand} slidesToShow={2} />
+            <TripSlider trips={bestTreksUttarakhand} slidesToShow={4} />
           </section>
         </div>
 

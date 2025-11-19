@@ -118,19 +118,19 @@ const LehLadakh = () => {
             {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Leh Ladakh Trips from Delhi</h2>
             {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={delhiTripsLeh} slidesToShow={2} />
+            <TripSlider trips={delhiTripsLeh} slidesToShow={4} />
           </section>
           <section>
             {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Leh to Leh Trips</h2>
             {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={lehToLehTripsLeh} slidesToShow={2} />
+            <TripSlider trips={lehToLehTripsLeh} slidesToShow={4} />
           </section>
           <section>
             {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Leh Ladakh Trips with Srinagar</h2>
             {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={srinagarTripsLeh} slidesToShow={2} />
+            <TripSlider trips={srinagarTripsLeh} slidesToShow={4} />
           </section>
         </div>
 
