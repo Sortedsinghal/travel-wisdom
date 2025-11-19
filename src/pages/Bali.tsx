@@ -125,11 +125,21 @@ const Bali = () => {
           <div className="space-y-20 mt-20">
             <section>
               <h2 className="text-4xl font-bold mb-6">Bali Honeymoon Trips</h2>
-              <TripSlider trips={honeymoonTripsBali} slidesToShow={4} />
+              <div className="hidden md:block">
+                <TripSlider trips={honeymoonTripsBali} slidesToShow={4} />
+              </div>
+              <div className="md:hidden">
+                <TripSlider trips={honeymoonTripsBali} slidesToShow={2} />
+              </div>
             </section>
             <section>
               <h2 className="text-4xl font-bold mb-6">Bali Best Holiday Tours</h2>
-              <TripSlider trips={holidayToursBali} slidesToShow={4} />
+              <div className="hidden md:block">
+                <TripSlider trips={holidayToursBali} slidesToShow={4} />
+              </div>
+              <div className="md:hidden">
+                <TripSlider trips={holidayToursBali} slidesToShow={2} />
+              </div>
             </section>
           </div>
 

@@ -6812,77 +6812,7 @@ export const allTrips: Trip[] = [
       'Anything which is not mentioned in the above inclusions.'
     ],
   },
-  {
-    slug: 'kashmir-backpacking-winter-edition',
-    title: 'Kashmir Backpacking Winter Edition', // From HTML
-    destination: 'Kashmir',
-    duration: '6 Days 5 Nights', // From HTML
-    price: '₹19999', // From HTML (Starting price, Triple Sharing)
-    // originalPrice: '', // No discount in HTML
-    // discount: '', // No discount in HTML
-    imageUrl: '/cloned_media/39805720230316074814.png', // From HTML
-    gallery: [ // From HTML gallary array
-      '/cloned_media/13553920240731114150.png',
-      '/cloned_media/26774120240731114150.png',
-      '/cloned_media/20382520240731114150.png',
-      '/cloned_media/3350720240731114151.png',
-      '/cloned_media/16027620240731114151.png',
-      '/cloned_media/8507620240731114151.png'
-    ],
-    overview: '<h2>About Kashmir Backpacking Winter Edition Tour Package</h2><p>Get ready to be enchanted with our Kashmir Backpacking Winter Edition Tour Package in the winter wonderland of Kashmir! Are you ready to kick your everyday, mundane routine and find yourself in the middle of a fairytale-like snow-draped paradise? Just imagine being in the middle of snowy landscapes while surrounded by mighty peaks, snow-laden and blending into the warm hospitality of the Kashmiri culture. This isn\'t a holiday; it\'s an adventure that awakens your senses and brings back moments that stay with you forever.</p><p>Our Kashmir Winter Package is an all-exciting expedition to the most stunning locations of Kashmir during their most magical season. From staying in a cozy houseboat, to the partially frozen Dal Lake, Srinagar sets the tone for a soulful winter exploration where one watches the world go by in a serene and misty setting. The steaming cups of Kahwa tea, complemented by the view of frosted Chinars, hail your wake-up call with all its heart. Proceed to Gulmarg, the skiing paradise of Asia, where snow as soft as flour and world class slopes await you. Be an experienced skier or just going for the first time; our guides are there to make every moment of your stay on the slopes.</p><p>But this package is much more than that. Imagine sledding down the snow-laden meadows of Pahalgam, getting an adrenaline-pumping ride on a snow-paradise in Sonamarg, or climbing up to frozen waterfalls that glisten like diamonds in the winter sun. Feel the joy of creating a snowman at the foot of the Himalayas or enjoy friendly snowball fights with breathtaking mountain vistas for a backdrop.</p><p>Wind up the day with a bonfire, savoring traditional Kashmiri Wazwan food and listening to folk tales under the star-studded sky. This <a href="https://Travel Wisdom.com/trips/kashmir-backpacking-winter-edition" style="color:blue;">Kashmir Backpacking Winter Edition</a> Tour Package doesn\'t only promise a view of Kashmir but makes one feel its beats, taste its essence, and soak into its winter enchantment. So, are you ready to trade your winter blues for Kashmir\'s winter hues? Pack warm clothes with an adventurous spirit, unforgettable winter wonderland beckons!</p><h3>Best Places to Visit in Kashmir</h3><p><b>Dal Lake:</b> Popularly known for its houseboats and floating gardens...</p><p><b>Nigeen Lake:</b> It is often referred to as the \'Jewel in the crown of Kashmir\'...</p><p><b>Shankaracharya Temple:</b> This old temple stands on the crest of a hill and provides a panoramic view of Srinagar...</p><p><b>Hazratbal Shrine:</b> This shrine of pristine white marble enshrines what is said to be the hair of the Prophet Muhammad...</p><p><b>Shalimar Bagh:</b> This is the biggest Mughal garden in Kashmir...</p><p><b>Nishat Bagh:</b> Known as the \'Garden of Bliss,\' Nishat Bagh provides a beautiful view of Dal Lake...</p><p><b>Pari Mahal:</b> ...originally a Buddhist monastery, and now Pari Mahal, or \'Fairy Palace\'...</p><p><b>Tulip Garden:</b> ...larger than Asia\'s Tulip Garden, the region blossoms in spring...</p><p><b>Hari Parbat Fort:</b> This hilltop fort offers a bird\'s eye view of Srinagar...</p><p><b>Lal Chowk:</b> The city center of Srinagar, Lal Chowk is bustling with activity...</p><p><b>Alpather Lake:</b> Situated at a high altitude near Gulmarg, Alpather Lake remains frozen until early summer...</p><p><b>Gulmarg Biosphere Reserve:</b> It is a nature lover\'s paradise...</p><p><b>Gulmarg Golf Course:</b> It is considered one of the highest golf courses in the world...</p><p><b>Apharwat Peak:</b> Apharwat Peak is the last point of Gulmarg Gondola...</p><p><b>Betaab Valley:</b> Named after the shooting of a Bollywood film here, this beautiful landscape...</p><p><b>Aru Valley:</b> This charmed village is around 12 km from Pahalgam...</p><p><b>Chandanwari:</b> The beginning point of the Amarnath Yatra...</p><p><b>Baisaran:</b> Often called \'Mini Switzerland\', Baisaran is a lush green meadow...</p><h3>Top Things to do in Kashmir</h3><p><b>Skiing on world-class slopes:</b> Glide down pristine slopes in Gulmarg...</p><p><b>Snowboarding in powder snow:</b> Experience the thrill of snowboarding in Gulmarg...</p><p><b>Taking a scenic gondola ride:</b> Ascend to Apharwat Peak...</p><p><b>Ice skating on frozen lakes:</b> Glide across naturally frozen lakes in Srinagar...</p><p><b>Enjoying a cozy shikara ride:</b> Wrapped in warm blankets, take a serene shikara ride on Dal Lake...</p><p><b>Riding snowmobiles across snowy landscapes:</b> Zoom across snow-covered terrain...</p><p><b>Winter trekking through pristine snow:</b> Embark on challenging winter treks...</p><p><b>Sledding and tobogganing down gentle slopes:</b> Enjoy family-friendly fun...</p><p><b>Indulging in warm Kashmiri winter cuisine:</b> Savor hearty Kashmiri dishes...</p><p><b>Sipping Kahwa by a warm fire:</b> Enjoy Kashmir\'s traditional saffron tea...</p><h3>How To Reach Kashmir?</h3><p><b>By Air:</b> The most convenient way... Sheikh ul-Alam International Airport at Srinagar.</p><p><b>By Road:</b> ...via the Jammu-Srinagar National Highway NH44.</p><p><b>By Train:</b> The nearest railway station is Jammu Tawi.</p><h3>Best Time to Visit Kashmir</h3><p>The best time to visit Kashmir in winter would be from mid-December to mid-February...</p>', // From HTML
-    itinerary: [ // From HTML i_data
-      {
-        day: 0,
-        title: 'Srinagar Arrival | The Dal Lake Diaries',
-        description: '<ul><li>After arriving in Srinagar, pick-up from the airport on a sharing basis (before 12pm only).</li><li>Drive towards Dal Lake, check-in to your cozy houseboat and freshen-up.</li><li>Quickly head out for local exploration in Srinagar - the famous Mughal Gardens including the Nishat Bagh (the garden of pleasure) and the Shalimar Bagh (abode of love), situated on the banks of serene Dal Lake.</li><li>In the evening, treat yourself with jaw dropping sunset scenes over the Dal Lake and feel the Kashmiriyat during the beautiful Shikara ride in Dal.</li><li>In the evening, return to your houseboat in Dal Lake. Savour home-style cooked dinner and overnight stay in a houseboat.</li></ul>'
-      },
-      {
-        day: 1,
-        title: 'Srinagar To Gulmarg | Gondola Ride',
-        description: '<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>After arriving in Gulmarg, check-in to our comfy hotel and have some leisure.</li><li>Experience Asia’s highest Gondola ride in Gulmarg and get mesmerized by the stunning landscapes from Gulmarg to Kongdoori and Marry Shoulder.</li><li>In the evening, return to your hotel in Gulmarg. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>'
-      },
-      {
-        day: 2,
-        title: 'Gulmarg To Pahalgam | Drung Waterfall',
-        description: '<ul><li>Wake up to a peaceful mountain morning and post a delightful breakfast, begin your drive from Srinagar towards Pahalgam via Drung waterfall.</li><li>Take a halt at the majestic Drung Waterfall that remains frozen during winters and thus makes an interesting spot while traveling to Pahalgam.</li><li>After arriving in Pahalgam, check-in to our comfy hotel and have some leisure.</li><li>Feel free to stroll around your staycation and soak in Kashmir’s natural charm.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>'
-      },
-      {
-        day: 3,
-        title: 'Explore Pahalgam | Aru & Betab Valley',
-        description: '<ul><li>Wake up to a peaceful mountain morning and post a delightful breakfast, head out to explore Pahalgam.</li><li>Explore the gorgeous Betab Valley, Chandanwari and Aru Valley nestled in Pahalgam.</li><li>Get awestruck by the beautiful views of mighty snow-clad mountain peaks and indulge in various adventure activities (on your own).</li><li>In the evening, arrive back in Srinagar and check-in to our comfy hotel.</li><li>Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>'
-      },
-      {
-        day: 4,
-        title: 'Explore Srinagar | Mosques, Markets & More',
-        description: '<ul><li>Wake up early and post breakfast, head out to explore Srinagar.</li><li>Visit the popular Shankaracharya Temple and witness the beautiful view of Kashmir Valley as seen from Takht-e-Suleiman hill.</li><li>Visit other major attractions in Srinagar such as Pari Mahal, the holy Hazaratbal Shrine (the holiest Muslim shrine and mosque in Kashmir) and Jama Masjid to name a few.</li><li>In the evening, spend some time near Dal Lake and try out the authentic flavours of Kashmiri Wazwan in the local market or simply go for cafe hopping (on your own).</li><li>In the evening, return to your hotel in Srinagar. Savour home-style cooked dinner and overnight stay in a hotel.</li></ul>'
-      },
-      {
-        day: 5,
-        title: 'Goodbye Kashmir | Trip Ends',
-        description: '<ul><li>In the morning, say goodbye to your hosts in Srinagar and leave for the airport. You’ll be dropped at Srinagar airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>'
-      }
-    ],
-    inclusions: [ // Extracted as string[] from HTML
-      'Transportation: Srinagar to Srinagar all local travel in Force Traveler/SUVs/Sedan or similar.',
-      '5 Nights Accommodation on Triple/Dual sharing basis: Srinagar (1 night in houseboat & 2 nights in hotel), Gulmarg (1 night in hotel) and Pahalgam (1 night in hotel).',
-      '10 Meals: Srinagar (3 Dinners + 3 Breakfasts), Gulmarg (1 Dinner + 1 Breakfast) and Pahalgam (1 Dinners + 1 Breakfasts).',
-      'Gondola ride - Phase 1 in Gulmarg and Shikara ride in Srinagar.',
-      'Airport pickup and drop facility on a sharing basis.',
-      'Experienced and cool Trip Captain.',
-      'Reliable and experienced local drivers to drive in the difficult terrains.',
-      'Driver allowances, toll taxes, parking, state taxes.',
-      'Medical kit to handle emergency conditions.'
-    ],
-    exclusions: [ // Extracted as string[] from HTML
-      'Any extra meals apart from the ones mentioned under inclusions.',
-      'Travel Insurance, items of personal nature like porterage, tips, laundry etc.',
-      'Any entry fees, extra expenses for optional activities or tickets, unless quoted in Inclusions.',
-      'Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.',
-      'GST (5%) is applicable extra.',
-      'Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.',
-      'Anything which is not mentioned in the above inclusions.'
-    ],
-  },
+
   {
     slug: 'kashmir-6-days-5-nights',
     title: 'Kashmir 6 Days 5 Nights', // From HTML
@@ -7309,75 +7239,6 @@ export const allTrips: Trip[] = [
       'Any extra meals or snacks that you purchase',
       'Anything not mentioned in Inclusions'
     ],
-  },
-  {
-    "slug": "kashmir-family-getaway",
-    "title": "Kashmir Family Getaway",
-    "destination": "Kashmir",
-    "duration": "6 Days 5 Nights",
-    "price": "₹22300",
-    "imageUrl": "https://d2qa7a8q0vuocm.cloudfront.net/images/21146020240917132333.png",
-    "gallery": [
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/5234120240917132333.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/15401220240917132333.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/30596720240917132333.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/41106720240917132333.png",
-      "https://d2qa7a8q0vuocm.cloudfront.net/images/6002620240917132333.png"
-    ],
-    "overview": "Grab the best Kashmir Family Tour Packages with Travel Wisdom from Srinagar! Your loved ones can experience the splendor of Kashmir through the exotic scenery, Dal Lake, Mughal Gardens.",
-    "itinerary": [
-      {
-        "day": 1,
-        "title": "Arrive Srinagar | Local Sightseeing",
-        "description": "<ul><li>After arriving in Srinagar, pick-up from the airport and drive towards your accommodation.</li><li>Check-in to your cozy hotel, freshen-up and have some leisure.</li><li>Afternoon leave for a local sightseeing tour of Mughal Gardens visiting - Cheshmashahi (the royal spring), Nishat (The Garden of pleasure), and Shalimar (The Abode of Love).</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Srinagar.</li></ul>"
-      },
-      {
-        "day": 2,
-        "title": "Drive from Srinagar to Sonmarg | Explore Sonmarg",
-        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Sonmarg (Golden Meadow).</li><li>Sonmarg lies in Sindh Valley streamed with flowers and surrounded by mountains. Sonmarg acts as the base for some interesting treks to the high altitude Himalayan Lakes.</li><li>Enjoy horse riding upto Thajiwas glacier and sledge riding on snow (at your own cost).</li><li>In the evening, return back to Srinagar.&nbsp;</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Srinagar.</li></ul>"
-      },
-      {
-        "day": 3,
-        "title": "Drive from Srinagar to Gulmarg | Explore Gulmarg",
-        "description": "<ul><li>Wake up early and post breakfast, begin your drive from Srinagar towards Gulmarg (World’s highest green golf course).</li><li>The drive past colorful villages and rice fields, gives you an insight of the rich cultural past of Kashmir.</li><li>After arriving in Gulmarg, experience Asia’s highest Gondola ride in Gulmarg (on your own) and get mesmerized by the stunning landscapes from Gulmarg to Kungdoor and Marry Shoulder.</li><li>In the evening, check-in to the hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Gulmarg.</li></ul>"
-      },
-      {
-        "day": 4,
-        "title": "Drive from Gulmarg to Pahalgam | Pahalgam Arrival",
-        "description": "<ul><li>Wake up early and post breakfast, drive from Gulmarg to Pahalgam known as the 'valley of shepherds’.</li><li>Decorated with enchanting natural beauty, Pahalgam is nestled at the confluence of the streams flowing from river Lidder and Sheshnag Lake.</li><li>Enroute visit the Awantipura ruins, an 1100 year old temple dedicated to Lord Vishnu and built by King Awantivarma.</li><li>Today you can explore the beautiful Kashmir Valley, Baisaran and waterfall (by your own expenses) or Betaab Valley, Chandanwari and Aru Valley (by hiring a car on your own expenses).&nbsp;</li><li>After arriving in Pahalgam, check-in to our hotel and have some leisure.</li><li>Savour home-style cooked dinner and overnight stay in a hotel in Pahalgam.</li></ul>"
-      },
-      {
-        "day": 5,
-        "title": "Drive from Pahalgam to Srinagar | Dal Lake Shikara Ride",
-        "description": "<ul><li>Wake up early and post breakfast, drive from Pahalgam to Srinagar and check-in the houseboat in Dal Lake.&nbsp;</li><li>In the evening, enjoy a beautiful Shikara ride in Srinagar’s Dal Lake.</li><li>Savour home-style cooked dinner and overnight stay in a houseboat in Dal Lake in Srinagar.</li></ul>"
-      },
-      {
-        "day": 6,
-        "title": "Srinagar Departure | Trip Ends",
-        "description": "<ul><li>In the morning, say goodbye to your hosts in Srinagar and leave for the airport.</li><li>Reach home with lots of amazing memories and unforgettable experiences.</li></ul>"
-      }
-    ],
-    "inclusions": [
-      "All Transportation on Private Basis as per itinerary.",
-      "10 Meals: 5 Breakfasts & 5 Dinners, starting from Dinner on Day 1 till Breakfast on Day 6.",
-      "5 Nights Accommodation as per Double Sharing: Hotel & Houseboat in Srinagar, Hotel in Pahalgam & Hotel in Gulmarg.",
-      "Complimentary Shikara Ride over Dal Lake.",
-      "Pick-up and Drop facility from as per the itinerary.",
-      "Reliable and experienced local drivers to drive in the difficult terrains.",
-      "Driver allowances, toll taxes, parking, state taxes."
-    ],
-    "exclusions": [
-      "Any extra meals apart from the ones mentioned under inclusions.",
-      "Chained vehicle from Tangmarg to Gulmarg.",
-      "Visit to Ganderbal and Thajiwas Glacier.",
-      "Cable Car/Pony Ride in Gulmarg, Pahalgam & Sonamarg.",
-      "Travel Insurance, items of personal nature like porterage, tips, laundry etc.",
-      "Any entry fees, extra expenses for optional activities, watersports or tickets, unless quoted in Inclusions.",
-      "Any other costing involved due to circumstances like natural calamity, weather conditions, riots, roadblocks, landslides or any other forced circumstances which are out of our control.",
-      "Cost of snow-chained or 4*4 Vehicle if needed due to heavy snowfall.",
-      "Anything which is not mentioned in the above inclusions.",
-      "GST (5%) is applicable extra."
-    ]
   },
   {
     "slug": "kashmir-backpacking-summer-edition",
@@ -8862,6 +8723,7 @@ export const allTrips: Trip[] = [
       "Anything which is not mentioned in the above inclusions."
     ]
   },
+
   {
     "slug": "sheshnag-lake-trek",
     "title": "Sheshnag Lake Trek",

@@ -95,7 +95,7 @@ const TripSlider: React.FC<TripSliderProps> = ({ trips, slidesToShow = 4 }) => {
       },
     ],
     appendDots: (dots: React.ReactNode) => (
-      <div style={{ bottom: '-25px' }}>
+      <div style={{ bottom: '-40px' }}>
         <ul style={{ margin: '0px' }}> {dots} </ul>
       </div>
     ),

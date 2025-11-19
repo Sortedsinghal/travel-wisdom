@@ -170,7 +170,12 @@ const Bhutan = () => {
               <h2 className="text-4xl font-bold mb-6">
                 Bhutan Tour Packages
               </h2>
-              <TripSlider trips={bhutanToursBhutan} slidesToShow={4} />
+              <div className="hidden md:block">
+                <TripSlider trips={bhutanToursBhutan} slidesToShow={4} />
+              </div>
+              <div className="md:hidden">
+                <TripSlider trips={bhutanToursBhutan} slidesToShow={2} />
+              </div>
             </section>
           </div>
 

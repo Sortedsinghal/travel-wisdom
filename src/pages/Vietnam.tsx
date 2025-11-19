@@ -132,23 +132,39 @@ const Vietnam = () => {
           <div className="space-y-20 mt-20">
             <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Leisure Trips – Relax & Explore!</h2>
-               {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={leisureTripsVietnam} slidesToShow={4} />
+              <div className="hidden md:block">
+                <TripSlider trips={leisureTripsVietnam} slidesToShow={4} />
+              </div>
+              <div className="md:hidden">
+                <TripSlider trips={leisureTripsVietnam} slidesToShow={2} />
+              </div>
             </section>
             <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Honeymoon – Romantic Getaway!</h2>
-               {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={honeymoonTripsVietnam} slidesToShow={4} />
+              <div className="hidden md:block">
+                <TripSlider trips={honeymoonTripsVietnam} slidesToShow={4} />
+              </div>
+              <div className="md:hidden">
+                <TripSlider trips={honeymoonTripsVietnam} slidesToShow={2} />
+              </div>
             </section>
             <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Group Trips – Adventure Together!</h2>
-               {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={groupTripsVietnam} slidesToShow={4} />
+              <div className="hidden md:block">
+                <TripSlider trips={groupTripsVietnam} slidesToShow={4} />
+              </div>
+              <div className="md:hidden">
+                <TripSlider trips={groupTripsVietnam} slidesToShow={2} />
+              </div>
             </section>
              <section>
               <h2 className="text-4xl font-bold mb-6">Vietnam Tours – Start from Ho Chi Minh!</h2>
-               {/* --- USE FILTERED DATA --- */}
-              <TripSlider trips={startHoChiMinhTripsVietnam} slidesToShow={4} />
+              <div className="hidden md:block">
+                <TripSlider trips={startHoChiMinhTripsVietnam} slidesToShow={4} />
+              </div>
+              <div className="md:hidden">
+                <TripSlider trips={startHoChiMinhTripsVietnam} slidesToShow={2} />
+              </div>
             </section>
           </div>
 

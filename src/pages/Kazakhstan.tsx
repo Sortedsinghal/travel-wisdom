@@ -93,10 +93,13 @@ const Kazakhstan = () => {
 
         <div className="space-y-20 mt-20">
           <section>
-            {/* Added px-6 to align heading with slider padding */}
             <h2 className="text-4xl font-bold mb-6 px-6">Kazakhstan Leisure Tours</h2>
-            {/* --- USE FILTERED DATA --- */}
-            <TripSlider trips={leisureToursKazakhstan} slidesToShow={4} />
+            <div className="hidden md:block">
+              <TripSlider trips={leisureToursKazakhstan} slidesToShow={4} />
+            </div>
+            <div className="md:hidden">
+              <TripSlider trips={leisureToursKazakhstan} slidesToShow={2} />
+            </div>
           </section>
         </div>
 

@@ -134,19 +134,39 @@ const HimachalPradesh = () => {
           <div className="space-y-12 sm:space-y-16 lg:space-y-20 mt-12 sm:mt-16 lg:mt-20">
             <section>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Himachal Pradesh Honeymoon Trips</h2>
-              <TripSlider trips={honeymoonTripsHimachal} slidesToShow={4} />
+              <div className="hidden md:block">
+                <TripSlider trips={honeymoonTripsHimachal} slidesToShow={4} />
+              </div>
+              <div className="md:hidden">
+                <TripSlider trips={honeymoonTripsHimachal} slidesToShow={2} />
+              </div>
             </section>
             <section>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Himachal Pradesh Family Tours</h2>
-              <TripSlider trips={familyToursHimachal} slidesToShow={4} />
+              <div className="hidden md:block">
+                <TripSlider trips={familyToursHimachal} slidesToShow={4} />
+              </div>
+              <div className="md:hidden">
+                <TripSlider trips={familyToursHimachal} slidesToShow={2} />
+              </div>
             </section>
             <section>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Himachal Pradesh Weekend Trips</h2>
-              <TripSlider trips={weekendTripsHimachal} slidesToShow={4} />
+              <div className="hidden md:block">
+                <TripSlider trips={weekendTripsHimachal} slidesToShow={4} />
+              </div>
+              <div className="md:hidden">
+                <TripSlider trips={weekendTripsHimachal} slidesToShow={2} />
+              </div>
             </section>
             <section>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 px-2 sm:px-0">Best Treks in Himachal Pradesh</h2>
-              <TripSlider trips={bestTreksHimachal} slidesToShow={4} />
+              <div className="hidden md:block">
+                <TripSlider trips={bestTreksHimachal} slidesToShow={4} />
+              </div>
+              <div className="md:hidden">
+                <TripSlider trips={bestTreksHimachal} slidesToShow={2} />
+              </div>
             </section>
           </div>
 
