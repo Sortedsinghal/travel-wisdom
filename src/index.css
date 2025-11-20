@@ -117,8 +117,15 @@ video {
   * {
     @apply border-border;
   }
-  body {
+  html, body {
     @apply bg-background text-foreground font-sans;
+    overflow-x: hidden;
+    max-width: 100vw;
+    position: relative;
+  }
+  #root {
+    overflow-x: hidden;
+    max-width: 100vw;
   }
 }
 
