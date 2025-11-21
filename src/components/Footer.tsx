@@ -17,12 +17,12 @@ const Footer = () => {
         { name: "Our Blogs", href: "/Blogs" },
     ];
     const weekendTrips = [
-        { name: "Chopta Tungnath", href: "/trips/chopta-tungnath-deoriatal" },
-        { name: "Manali Sissu", href: "/trips/manali-sissu" },
-        { name: "Manali Sissu Kasol", href: "/trips/manali-sissu-kasol" },
-        { name: "Jibhi & Tirthan Valley", href: "/trips/jibhi-tirthan-valley" },
-        { name: "Kasol Kheerganga", href: "/trips/kasol-kheerganga-trek" },
-        { name: "Mcleodganj Triund", href: "/trips/mcleodganj-triund-trek" }
+        { name: "Chopta Tungnath", href: "/trip/chopta-tungnath-deoriatal" },
+        { name: "Manali Sissu", href: "/trip/manali-sissu" },
+        { name: "Manali Sissu Kasol", href: "/trip/manali-sissu-kasol" },
+        { name: "Jibhi & Tirthan Valley", href: "/trip/jibhi-tirthan-valley" },
+        { name: "Kasol Kheerganga", href: "/trip/kasol-kheerganga-trek" },
+        { name: "Mcleodganj Triund", href: "/trip/mcleodganj-triund-trek" }
     ];
     const internationalTrips = [
         { name: "Vietnam", href: "/vietnam" },
@@ -41,8 +41,8 @@ const Footer = () => {
     const backpackingTrips = [
         { name: "Spiti Valley", href: "/spiti" },
         { name: "Leh & Ladakh", href: "/leh-ladakh" },
-        { name: "Himachal Backpacking", href: "/himachal-backpacking" },
-        { name: "Meghalaya", href: "/meghalaya-backpacking" }
+        { name: "Himachal Backpacking", href: "/trip/himachal-backpacking-manali-kasol-jibhi" },
+        { name: "Meghalaya", href: "/trip/meghalaya-backpacking" }
     ];
     const domesticTrips = [
         { name: "Himachal", href: "/himachal-pradesh" },

@@ -2,10 +2,11 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Calendar, User, ArrowLeft, Share2 } from 'lucide-react';
+import { Calendar, User, ArrowLeft, Share2, Clock, Globe, BookOpen } from 'lucide-react'; 
 import { Link } from 'react-router-dom';
 
 // Sample blog data - in a real app, this would come from an API
+// (Keeping the original data structure for brevity, as it was well-defined)
 const blogData = {
   'hidden-gems-himachal': {
     title: '7 Must-Visit Hidden Gems in Himachal Pradesh',
@@ -1109,13 +1110,17 @@ const BlogDetail = () => {
 
   if (!blog) {
     return (
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-gray-50">
         <Header />
-        <div className="container mx-auto px-4 py-12 text-center">
-          <h1 className="text-2xl font-bold text-gray-900 mb-4">Blog Not Found</h1>
-          <p className="text-gray-600 mb-8">The blog post you're looking for doesn't exist.</p>
-          <Link to="/blogs" className="bg-[#0B3A55] text-white px-6 py-2 rounded hover:bg-white hover:text-[#0B3A55] hover:border-black border transition-colors">
-            Back to Blogs
+        <div className="container mx-auto px-4 py-16 text-center">
+          <h1 className="text-3xl font-extrabold text-[#0B3A55] mb-4">404 - Blog Not Found 🗺️</h1>
+          <p className="text-gray-700 mb-10 text-lg">Oops! It seems the adventure you were looking for has gone off the map.</p>
+          <Link 
+            to="/blogs" 
+            className="inline-flex items-center bg-[#0B3A55] text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105"
+          >
+            <ArrowLeft className="w-5 h-5 mr-2" />
+            Explore More Adventures
           </Link>
         </div>
         <Footer />
@@ -1123,37 +1128,47 @@ const BlogDetail = () => {
     );
   }
 
+  // The content is passed as is, relying purely on the prose classes for formatting.
+  const contentWithDropCap = (contentHtml: string) => {
+    return contentHtml;
+  };
+
+
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-gray-50"> 
       <Header />
       
-      <article className="bg-white">
+      <article className="bg-white shadow-xl"> 
         {/* Hero Section */}
-        <div className="relative h-64 sm:h-80 lg:h-96 overflow-hidden">
+        <div className="relative h-72 sm:h-96 lg:h-[30rem] overflow-hidden"> 
           <img 
             src={blog.imageUrl} 
             alt={blog.title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105" 
           />
-          <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end">
-            <div className="container mx-auto px-4 pb-6 sm:pb-8">
-              <div className="max-w-4xl">
-                <span className="inline-block bg-[#0B3A55] text-white text-sm px-3 py-1 rounded mb-4">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/30 flex items-end"> 
+            <div className="container mx-auto px-4 pb-8 sm:pb-10">
+              <div className="max-w-5xl">
+                <span className="inline-block bg-white text-[#0B3A55] text-sm sm:text-base font-semibold px-4 py-1 rounded-full shadow-lg mb-4 uppercase tracking-widest border border-[#0B3A55]">
+                  <Globe className="w-4 h-4 inline-block mr-1 -mt-0.5" />
                   {blog.category}
                 </span>
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-3 sm:mb-4">
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white leading-tight mb-4 drop-shadow-md"> 
                   {blog.title}
                 </h1>
-                <div className="flex flex-wrap items-center text-white/90 text-xs sm:text-sm gap-3 sm:gap-6">
-                  <span className="flex items-center">
-                    <Calendar className="w-4 h-4 mr-2" />
+                <div className="flex flex-wrap items-center text-white text-sm sm:text-base gap-4 sm:gap-8 font-light">
+                  <span className="flex items-center p-2 bg-black/30 rounded-lg backdrop-blur-sm">
+                    <Calendar className="w-4 h-4 mr-2 text-yellow-300" />
                     {blog.date}
                   </span>
-                  <span className="flex items-center">
-                    <User className="w-4 h-4 mr-2" />
+                  <span className="flex items-center p-2 bg-black/30 rounded-lg backdrop-blur-sm">
+                    <User className="w-4 h-4 mr-2 text-cyan-300" />
                     {blog.author}
                   </span>
-                  <span>{blog.readTime}</span>
+                  <span className="flex items-center p-2 bg-black/30 rounded-lg backdrop-blur-sm">
+                    <Clock className="w-4 h-4 mr-2 text-red-300" />
+                    {blog.readTime}
+                  </span>
                 </div>
               </div>
             </div>
@@ -1161,103 +1176,143 @@ const BlogDetail = () => {
         </div>
 
         {/* Content */}
-        <div className="container mx-auto px-4 py-6 sm:py-8 lg:py-12">
+        <div className="container mx-auto px-4 py-8 sm:py-12 lg:py-16">
           <div className="max-w-4xl mx-auto">
-            {/* Navigation */}
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-6 sm:mb-8 gap-4">
+            
+            {/* Navigation & Share Bar - Elevated and refined */}
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between mb-8 sm:mb-12 gap-4 p-4 bg-white shadow-xl rounded-xl border border-gray-100 sticky top-0 z-10">
               <Link 
                 to="/blogs" 
-                className="flex items-center text-[#0B3A55] hover:underline"
+                className="flex items-center justify-center sm:justify-start text-lg font-medium text-[#0B3A55] border border-transparent p-2 rounded-lg hover:bg-blue-50 transition-colors"
               >
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blogs
+                <ArrowLeft className="w-5 h-5 mr-2" />
+                Back to All Articles
               </Link>
-              <button className="flex items-center text-gray-600 hover:text-[#0B3A55]">
-                <Share2 className="w-4 h-4 mr-2" />
-                Share
+              <button 
+                onClick={() => navigator.clipboard.writeText(window.location.href)}
+                className="flex items-center justify-center text-gray-700 bg-gray-100 px-4 py-2 rounded-full font-medium hover:bg-[#0B3A55] hover:text-white transition-colors shadow-inner"
+              >
+                <Share2 className="w-5 h-5 mr-2" />
+                Share Article
               </button>
             </div>
 
             {/* Article Content */}
             <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none">
-              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 sm:p-6 rounded-xl border-l-4 border-[#0B3A55] mb-6 sm:mb-8">
-                <p className="text-lg sm:text-xl text-gray-700 font-medium leading-relaxed italic">
+              
+              {/* Excerpt/Quote Block - More visually appealing */}
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-6 sm:p-8 rounded-2xl border-l-8 border-[#0B3A55] shadow-inner mb-10">
+                <p className="text-xl sm:text-2xl text-gray-800 font-serif leading-snug italic">
                   “{blog.excerpt}”
                 </p>
               </div>
+
+              {/* Main Content Render with Enhanced Tailwind Typography Styling */}
               <div 
-                dangerouslySetInnerHTML={{ __html: blog.content }}
+                dangerouslySetInnerHTML={{ __html: contentWithDropCap(blog.content) }}
                 className="
-                  prose-headings:font-black prose-headings:mb-8 prose-headings:mt-12
-                  prose-h2:text-3xl prose-h2:text-white prose-h2:bg-gradient-to-r prose-h2:from-[#0B3A55] prose-h2:to-blue-600 prose-h2:px-6 prose-h2:py-4 prose-h2:rounded-xl prose-h2:shadow-lg prose-h2:mb-8 prose-h2:relative prose-h2:before:content-['🎯'] prose-h2:before:mr-3
-                  prose-h3:text-2xl prose-h3:text-[#0B3A55] prose-h3:mt-10 prose-h3:mb-6 prose-h3:font-bold prose-h3:border-l-4 prose-h3:border-[#0B3A55] prose-h3:pl-4 prose-h3:bg-blue-50 prose-h3:py-2 prose-h3:rounded-r-lg prose-h3:before:content-['📌'] prose-h3:before:mr-2
-                  prose-p:text-gray-700 prose-p:leading-loose prose-p:mb-6 prose-p:text-lg prose-p:font-normal prose-p:text-justify
-                  prose-ul:text-gray-700 prose-ul:mb-8 prose-ul:space-y-4 prose-ul:text-lg prose-ul:bg-gray-50 prose-ul:p-6 prose-ul:rounded-xl prose-ul:border-l-4 prose-ul:border-green-500
-                  prose-li:mb-3 prose-li:leading-relaxed prose-li:relative prose-li:pl-8 prose-li:before:content-['✅'] prose-li:before:text-green-600 prose-li:before:font-bold prose-li:before:absolute prose-li:before:left-0 prose-li:before:top-0 prose-li:bg-white prose-li:p-3 prose-li:rounded-lg prose-li:shadow-sm prose-li:border prose-li:border-gray-200
-                  prose-strong:text-[#0B3A55] prose-strong:font-bold prose-strong:bg-yellow-200 prose-strong:px-2 prose-strong:py-1 prose-strong:rounded-md prose-strong:shadow-sm
-                  prose-a:text-[#0B3A55] prose-a:font-semibold prose-a:underline prose-a:decoration-2 prose-a:underline-offset-2 hover:prose-a:bg-blue-100 hover:prose-a:px-2 hover:prose-a:py-1 hover:prose-a:rounded-md hover:prose-a:shadow-sm
-                  first-letter:text-6xl first-letter:font-black first-letter:text-[#0B3A55] first-letter:float-left first-letter:mr-4 first-letter:mt-2 first-letter:leading-none first-letter:bg-gradient-to-br first-letter:from-blue-200 first-letter:to-indigo-200 first-letter:px-3 first-letter:py-2 first-letter:rounded-xl first-letter:shadow-xl first-letter:border-2 first-letter:border-[#0B3A55]
+                  prose 
+                  prose-slate 
+                  prose-headings:font-extrabold prose-headings:mb-6 prose-headings:mt-10 
+                  
+                  /* H2 Styles: Ultra Prominent Heading Bar */
+                  prose-h2:text-4xl prose-h2:text-white prose-h2:bg-gradient-to-r prose-h2:from-[#0B3A55] prose-h2:to-blue-700 
+                  prose-h2:px-6 prose-h2:py-5 prose-h2:rounded-r-full prose-h2:shadow-2xl 
+                  prose-h2:border-l-8 prose-h2:border-yellow-400 prose-h2:relative 
+                  prose-h2:before:content-['🔥'] prose-h2:before:mr-3 prose-h2:before:text-2xl prose-h2:pl-10 
+                  prose-h2:tracking-tight prose-h2:w-full prose-h2:max-w-xs sm:prose-h2:max-w-sm lg:prose-h2:max-w-full /* Ensures full width or controlled max-width */
+
+                  /* H3 Styles: Section Emphasis */
+                  prose-h3:text-2xl prose-h3:text-gray-900 prose-h3:mt-8 prose-h3:mb-5 prose-h3:font-extrabold 
+                  prose-h3:border-b-4 prose-h3:border-blue-300 prose-h3:pb-2 prose-h3:bg-blue-50 prose-h3:px-4 prose-h3:py-2 prose-h3:rounded-lg
+                  prose-h3:before:content-['💡'] prose-h3:before:mr-2 prose-h3:before:text-xl
+
+                  /* Paragraph Styles: Easy Reading */
+                  prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-8 lg:prose-p:text-xl prose-p:font-serif prose-p:text-justify prose-p:tracking-wide 
+                  prose-p:hyphens-auto /* Aids text flow in justified blocks */
+
+                  /* List Styles: Clear and Elevated Look */
+                  prose-ul:text-gray-700 prose-ul:mb-8 prose-ul:space-y-4 prose-ul:text-lg prose-ul:bg-gray-50 prose-ul:p-6 prose-ul:rounded-xl prose-ul:border prose-ul:border-blue-100 prose-ul:shadow-inner
+                  
+                  /* List Item Styles: Better visual separation */
+                  prose-li:mb-3 prose-li:leading-relaxed prose-li:relative prose-li:pl-8 prose-li:before:content-['✅'] prose-li:before:text-green-600 prose-li:before:font-bold prose-li:before:absolute prose-li:before:left-0 prose-li:before:top-0 prose-li:bg-white prose-li:p-3 prose-li:rounded-lg prose-li:shadow-md prose-li:border prose-li:border-gray-200
+                  
+                  /* Strong/Bold Text Styles: Highlighted importance */
+                  prose-strong:text-red-700 prose-strong:font-extrabold prose-strong:bg-yellow-100 prose-strong:px-1.5 prose-strong:py-0.5 prose-strong:rounded-md prose-strong:shadow-sm
+
+                  /* Link Styles: Interactive and clear */
+                  prose-a:text-blue-700 prose-a:font-semibold prose-a:underline prose-a:decoration-2 prose-a:underline-offset-4 hover:prose-a:bg-blue-100 hover:prose-a:px-1 hover:prose-a:rounded-md transition-colors
+
+                  /* Drop Cap Enhancement */
+                  first-letter:text-8xl first-letter:font-black first-letter:text-[#0B3A55] first-letter:float-left first-letter:mr-6 first-letter:mt-1 first-letter:leading-none first-letter:bg-gradient-to-br first-letter:from-blue-200 first-letter:to-indigo-300 first-letter:px-4 first-letter:py-2 first-letter:rounded-xl first-letter:shadow-2xl first-letter:border-4 first-letter:border-[#0B3A55]
+                  
+                  /* Ensuring the first paragraph margin is controlled */
                   [&>p:first-of-type]:mt-4
                 "
               />
             </div>
 
-            {/* Author Info */}
-            <div className="mt-8 sm:mt-12 p-4 sm:p-6 lg:p-8 bg-gradient-to-r from-[#0B3A55] to-[#0B3A55] rounded-2xl shadow-xl border-white">
-              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 shadow-3xl bg-white rounded-full p-2">
+            {/* Author Info - More premium look */}
+            <div className="mt-12 sm:mt-16 p-6 sm:p-8 lg:p-10 bg-gradient-to-r from-[#0B3A55] to-blue-800 rounded-3xl shadow-2xl border-4 border-white">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+                <div className="flex-shrink-0 w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 bg-white rounded-full p-2 ring-4 ring-yellow-400 shadow-3xl">
                   <img src="/src/assets/travel-wisdom-logo.png" alt="Travel Wisdom" className="w-full h-full object-contain rounded-full" />
                 </div>
-                <div>
-                  <h3 className="font-bold text-lg sm:text-xl lg:text-2xl text-white mb-2 sm:mb-3 flex items-center text-center sm:text-left">
-                  {blog.author}
+                <div className="text-center sm:text-left">
+                  <h3 className="font-extrabold text-xl sm:text-2xl lg:text-3xl text-white mb-2 flex items-center justify-center sm:justify-start">
+                    <User className="w-6 h-6 mr-3 text-yellow-400" />
+                    {blog.author}
                   </h3>
-                  <p className="text-blue-100 text-sm sm:text-base lg:text-lg leading-relaxed text-center sm:text-left">
-                    ✨ Our team of travel experts brings you the best insights and tips for your next adventure!
+                  <p className="text-blue-100 text-base sm:text-lg lg:text-xl leading-relaxed">
+                    ✨ The **Travel Wisdom Team** is a collective of seasoned explorers and local experts, dedicated to delivering meticulously researched guides, hidden gems, and practical tips for unforgettable journeys worldwide.
                   </p>
-                  <div className="mt-4 flex space-x-4">
-                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Related Articles */}
-            <div className="mt-8 sm:mt-12 bg-gradient-to-r from-gray-50 to-blue-50 p-4 sm:p-6 lg:p-8 rounded-2xl">
-              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0B3A55] mb-6 sm:mb-8 text-center flex items-center justify-center">
-                📚 Related Articles You'll Love
+            {/* Related Articles - Using a card-grid pattern */}
+            <div className="mt-12 sm:mt-16 bg-gradient-to-br from-gray-50 to-blue-50 p-6 sm:p-8 lg:p-10 rounded-3xl border border-gray-200 shadow-xl">
+              <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#0B3A55] mb-8 text-center flex items-center justify-center">
+                <BookOpen className="w-6 h-6 mr-3 text-yellow-500" />
+                Related Articles You'll Love
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
-                <Link to="/blogs/solo-trekking-guide" className="block group">
-                  <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+                {/* First Related Article Card */}
+                <Link to="/blogs/solo-trekking-guide" className="group block h-full">
+                  <div className="bg-white h-full rounded-xl shadow-lg overflow-hidden border border-gray-100 transform hover:scale-[1.02] transition-all duration-300">
                     <img 
                       src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" 
                       alt="Solo Trekking Guide"
-                      className="w-full h-24 sm:h-32 object-cover"
+                      className="w-full h-40 object-cover object-center transition-opacity duration-300 group-hover:opacity-90"
                     />
-                    <div className="p-4">
-                      <h4 className="font-semibold text-gray-900 group-hover:text-[#0B3A55] transition-colors">
+                    <div className="p-5">
+                      <h4 className="font-extrabold text-xl text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
                         A Solo Traveler's Guide to Trekking in the Himalayas
                       </h4>
-                      <p className="text-sm text-gray-600 mt-2">
-                        Everything you need to know before embarking on your first solo trek.
+                      <p className="text-sm text-gray-600">
+                        Everything you need to know before embarking on your first solo trek: gear, safety, and the best routes for beginners.
                       </p>
+                      <span className="mt-3 inline-block text-sm font-semibold text-[#0B3A55] group-hover:underline">Read More →</span>
                     </div>
                   </div>
                 </Link>
-                <Link to="/blogs/budget-travel-india" className="block group">
-                  <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+
+                {/* Second Related Article Card */}
+                <Link to="/blogs/budget-travel-india" className="group block h-full">
+                  <div className="bg-white h-full rounded-xl shadow-lg overflow-hidden border border-gray-100 transform hover:scale-[1.02] transition-all duration-300">
                     <img 
                       src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" 
                       alt="Budget Travel India"
-                      className="w-full h-24 sm:h-32 object-cover"
+                      className="w-full h-40 object-cover object-center transition-opacity duration-300 group-hover:opacity-90"
                     />
-                    <div className="p-4">
-                      <h4 className="font-semibold text-gray-900 group-hover:text-[#0B3A55] transition-colors">
+                    <div className="p-5">
+                      <h4 className="font-extrabold text-xl text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
                         Budget Travel: How to Explore India Under ₹10,000
                       </h4>
-                      <p className="text-sm text-gray-600 mt-2">
-                        Discover amazing destinations across India without breaking the bank.
+                      <p className="text-sm text-gray-600">
+                        Discover amazing destinations across India without breaking the bank. Complete guide to budget-friendly travel.
                       </p>
+                      <span className="mt-3 inline-block text-sm font-semibold text-[#0B3A55] group-hover:underline">Read More →</span>
                     </div>
                   </div>
                 </Link>

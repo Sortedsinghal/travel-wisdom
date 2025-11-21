@@ -1366,43 +1366,42 @@ const UpcomingGroupTrips = () => {
           {/* Trip cards */}
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
             {filteredTrips.map((trip) => (
-              <Card key={trip.id} className="hover:shadow-lg transition-shadow">
-                <div className="relative">
-                  <img src={trip.imageUrl} alt={trip.title} className="w-full aspect-[4/3] object-cover rounded-t-md" />
-                  {trip.discount > 0 && (
-                    <div className="absolute top-1 md:top-2 left-1 md:left-2 bg-red-500 text-white text-xs px-1 md:px-2 py-1 rounded">
-                      ₹{trip.discount} Off
+              <div key={trip.id} onClick={() => navigate(getTripRoute(trip.title))} className="cursor-pointer">
+                <Card className="hover:shadow-lg transition-shadow">
+                  <div className="relative">
+                    <img src={trip.imageUrl} alt={trip.title} className="w-full aspect-[4/3] object-cover rounded-t-md" />
+                    {trip.discount > 0 && (
+                      <div className="absolute top-1 md:top-2 left-1 md:left-2 bg-red-500 text-white text-xs px-1 md:px-2 py-1 rounded">
+                        ₹{trip.discount} Off
+                      </div>
+                    )}
+                    <div className="absolute bottom-1 md:bottom-2 left-1 md:left-2 bg-yellow-300 text-black text-xs px-1 md:px-2 py-1 rounded">
+                      {trip.duration}
                     </div>
-                  )}
-                  <div className="absolute bottom-1 md:bottom-2 left-1 md:left-2 bg-yellow-300 text-black text-xs px-1 md:px-2 py-1 rounded">
-                    {trip.duration}
                   </div>
-                </div>
-                <CardHeader className="p-2 md:p-6">
-                  <CardTitle className="text-sm md:text-lg font-semibold line-clamp-2">{trip.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="p-2 md:p-6 pt-0">
-                  <div className="flex flex-col md:flex-row md:items-center gap-1 md:gap-2 mb-2">
-                    <span className="line-through text-gray-400 text-xs md:text-base">₹{trip.originalPrice}</span>
-                    <span className="font-bold text-sm md:text-lg">₹{trip.price}</span>
-                    <span className="text-xs md:text-sm text-gray-600">per person</span>
-                  </div>
-                  <div className="flex gap-1 md:gap-2">
-                    <button 
-                      onClick={() => navigate(getTripRoute(trip.title))}
-                      className="flex-1 border border-black text-[#0B3A55] rounded px-2 md:px-3 py-1 hover:bg-[#0B3A55] hover:text-white transition-colors text-xs md:text-sm"
-                    >
-                      Details
-                    </button>
-                    <button 
-                      onClick={() => handleSendQuery(trip.title)}
-                      className="flex-1 border border-black bg-[#0B3A55] text-white rounded px-2 md:px-3 py-1 hover:bg-white hover:text-[#0B3A55] transition-colors text-xs md:text-sm"
-                    >
-                      Query
-                    </button>
-                  </div>
-                </CardContent>
-              </Card>
+                  <CardHeader className="p-2 md:p-6">
+                    <CardTitle className="text-sm md:text-lg font-semibold line-clamp-2">{trip.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent className="p-2 md:p-6 pt-0">
+                    <div className="flex flex-col md:flex-row md:items-center gap-1 md:gap-2 mb-2">
+                      <span className="line-through text-gray-400 text-xs md:text-base">₹{trip.originalPrice}</span>
+                      <span className="font-bold text-sm md:text-lg">₹{trip.price}</span>
+                      <span className="text-xs md:text-sm text-gray-600">per person</span>
+                    </div>
+                    <div className="flex gap-1 md:gap-2">
+                      <span className="flex-1 text-center border border-black text-[#0B3A55] rounded px-2 md:px-3 py-1 text-xs md:text-sm">
+                        Details
+                      </span>
+                      <button 
+                        onClick={(e) => { e.stopPropagation(); handleSendQuery(trip.title); }}
+                        className="flex-1 border border-black bg-[#0B3A55] text-white rounded px-2 md:px-3 py-1 hover:bg-white hover:text-[#0B3A55] transition-colors text-xs md:text-sm"
+                      >
+                        Query
+                      </button>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
             ))}
           </div>
 
