@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Star, User } from 'lucide-react';
+import { Star, User, ExternalLink } from 'lucide-react';
 
 const Reviews = () => {
   const [showMore, setShowMore] = useState(false);
@@ -107,7 +107,38 @@ const Reviews = () => {
             </p>
           </div>
 
-          {/* Reviews Grid */}
+          {/* Google Reviews Embed */}
+          <div className="mb-12 bg-white rounded-lg shadow-lg p-8">
+            <div className="text-center mb-6">
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">Our Google Reviews</h2>
+              <p className="text-gray-600">See what our customers say on Google</p>
+            </div>
+            <div className="flex justify-center">
+              <a
+                href="https://www.google.com/search?client=ms-android-xiaomi-rvo2b&sca_esv=e04a1f5e3e413b25&sxsrf=AE3TifOYWvEPxY2rxxgozGg-1HrRKyUXYA:1763752617812&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E-4OllJsZFv_MmC73bjuzHs5kD4hQ5sl9Xx7VUO0xBI56CdiZSnb2cYPCUzZRIxo90fJoyIUvyvT_J4qKZA7QATbpgYB&q=Travel+Wisdom+Reviews&sa=X&ved=2ahUKEwjynobC-oORAxWS4zgGHSVNMFMQ0bkNegQIJRAD&cshid=1763752714845321&biw=1440&bih=778&dpr=2#lrd=0xae44a342aa03290f:0xde368273c9f1925f,1,,,,"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[#0B3A55] text-white px-8 py-4 rounded-lg hover:bg-white hover:text-[#0B3A55] hover:border-2 hover:border-[#0B3A55] transition-colors font-medium text-lg"
+              >
+                <Star className="w-5 h-5 fill-current" />
+                View All Google Reviews
+                <ExternalLink className="w-5 h-5" />
+              </a>
+            </div>
+            <div className="mt-8 text-center">
+              <div className="inline-flex items-center gap-2 text-3xl font-bold text-gray-900">
+                <span>4.8</span>
+                <div className="flex">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-6 h-6 text-yellow-500 fill-current" />
+                  ))}
+                </div>
+              </div>
+              <p className="text-gray-600 mt-2">Based on 100+ Google Reviews</p>
+            </div>
+          </div>
+
+          {/* Sample Reviews Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {displayedReviews.map((review) => (
               <div
