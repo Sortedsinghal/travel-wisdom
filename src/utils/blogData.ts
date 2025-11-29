@@ -119,14 +119,12 @@ export const getAllBlogs = async (): Promise<Blog[]> => {
       
       // Check if response is HTML (not CSV)
       if (csvText.includes('<HTML>') || csvText.includes('<!DOCTYPE')) {
-        console.warn('Google Sheets returned HTML instead of CSV. Using JSON fallback.');
-        return blogsData as Blog[];
+        throw new Error('Google Sheets returned HTML instead of CSV');
       }
       
       const lines = csvText.split('\n').filter(line => line.trim());
       if (lines.length < 2) {
-        console.warn('Google Sheets CSV is empty. Using JSON fallback.');
-        return blogsData as Blog[];
+        throw new Error('Google Sheets CSV is empty');
       }
       
       const headers = parseCSVLine(lines[0]).map(h => h.toLowerCase().replace(/\s+/g, ''));
@@ -149,16 +147,14 @@ export const getAllBlogs = async (): Promise<Blog[]> => {
       }).filter(blog => blog.title && blog.slug);
       
       if (cachedBlogs.length === 0) {
-        console.warn('No valid blogs parsed from Google Sheets. Using JSON fallback.');
-        return blogsData as Blog[];
+        throw new Error('No valid blogs parsed from Google Sheets');
       }
       
       cacheTimestamp = Date.now();
-      console.log('Loaded blogs from Google Sheets:', cachedBlogs.length);
       return cachedBlogs;
     } catch (error) {
       console.error('Error fetching from Google Sheets:', error);
-      return blogsData as Blog[];
+      throw error;
     }
   }
   
