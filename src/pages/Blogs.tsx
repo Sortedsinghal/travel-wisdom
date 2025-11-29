@@ -1,103 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Calendar, User, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
-const blogs = [
-  {
-    id: 1,
-    title: '7 Must-Visit Hidden Gems in Himachal Pradesh',
-    excerpt: 'Discover the most tranquil and offbeat locations in the Land of Gods, perfect for a peaceful solo trip or a family getaway.',
-    imageUrl: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
-    category: 'Travel Tips',
-    date: 'Dec 15, 2024',
-    author: 'Travel Wisdom Team',
-    readTime: '5 min read',
-    slug: 'hidden-gems-himachal'
-  },
-  {
-    id: 2,
-    title: 'A Solo Traveler\'s Guide to Trekking in the Himalayas',
-    excerpt: 'Everything you need to know before embarking on your first solo trek: gear, safety, and the best routes for beginners.',
-    imageUrl: 'https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
-    category: 'Adventure',
-    date: 'Dec 10, 2024',
-    author: 'Travel Wisdom Team',
-    readTime: '8 min read',
-    slug: 'solo-trekking-guide'
-  },
-  {
-    id: 3,
-    title: 'Top 5 International Destinations for Backpackers in 2025',
-    excerpt: 'Planning to travel abroad on a budget? Here are the top 5 must-see countries offering the best value for adventurous travelers.',
-    imageUrl: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
-    category: 'International',
-    date: 'Dec 5, 2024',
-    author: 'Travel Wisdom Team',
-    readTime: '6 min read',
-    slug: 'top-5-international'
-  },
-  {
-    id: 4,
-    title: 'The Ultimate Guide to Spiti Valley Winter Expedition',
-    excerpt: 'Tips, itinerary, and essential permits for tackling the harsh yet beautiful Spiti Valley in the winter season.',
-    imageUrl: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
-    category: 'Adventure',
-    date: 'Nov 28, 2024',
-    author: 'Travel Wisdom Team',
-    readTime: '10 min read',
-    slug: 'spiti-winter-guide'
-  },
-  {
-    id: 5,
-    title: 'Romantic Getaways: Kashmir vs. Kerala for Honeymoon Tours',
-    excerpt: 'A detailed comparison to help you choose the perfect romantic destination in India for your unforgettable honeymoon.',
-    imageUrl: 'https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
-    category: 'Romance',
-    date: 'Nov 20, 2024',
-    author: 'Travel Wisdom Team',
-    readTime: '7 min read',
-    slug: 'kashmir-vs-kerala'
-  },
-  {
-    id: 6,
-    title: 'Best Practices for Corporate Team Building Retreats',
-    excerpt: 'Maximize productivity and collaboration with these proven strategies for planning successful corporate travel.',
-    imageUrl: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
-    category: 'Corporate',
-    date: 'Nov 15, 2024',
-    author: 'Travel Wisdom Team',
-    readTime: '6 min read',
-    slug: 'corporate-retreats'
-  },
-  {
-    id: 7,
-    title: 'Budget Travel: How to Explore India Under ₹10,000',
-    excerpt: 'Discover amazing destinations across India without breaking the bank. Complete guide to budget-friendly travel.',
-    imageUrl: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
-    category: 'Budget Travel',
-    date: 'Nov 10, 2024',
-    author: 'Travel Wisdom Team',
-    readTime: '9 min read',
-    slug: 'budget-travel-india'
-  },
-  {
-    id: 8,
-    title: 'Photography Tips for Your Next Mountain Trek',
-    excerpt: 'Capture stunning landscapes and memories with these essential photography tips for mountain adventures.',
-    imageUrl: 'https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80',
-    category: 'Photography',
-    date: 'Nov 5, 2024',
-    author: 'Travel Wisdom Team',
-    readTime: '5 min read',
-    slug: 'mountain-photography-tips'
-  },
-];
+import { getAllBlogs, getAllBlogsSync, Blog } from '@/utils/blogData';
 
 const Blogs = () => {
+  const [blogs, setBlogs] = useState<Blog[]>(getAllBlogsSync());
   const [visibleCount, setVisibleCount] = useState(6);
+
+  useEffect(() => {
+    getAllBlogs().then(data => {
+      if (data.length > blogs.length) setBlogs(data);
+    });
+  }, []);
 
   const handleViewMore = () => {
     setVisibleCount((prev) => prev + 6);
